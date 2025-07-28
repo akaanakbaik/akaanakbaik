@@ -90,20 +90,12 @@ _To enable dynamic updates for latest blog posts, you will need to set up a GitH
 
 ---
 
-## 🎧 Currently Playing on Spotify
-
-<!-- SPOTIFY-PLAYING-CARD:START -->
-<!-- SPOTIFY-PLAYING-CARD:END -->
-
-_To enable this feature, you will need to set up a GitHub Action and provide your Spotify API credentials. Please refer to [Spotify Now Playing Card Generator](https://github.com/platane/spotify-now-playing) for instructions._
-
----
-
 ## 😂 Random Dev Joke
 
-<div align="center">
-  <img src="https://readme-jokes.vercel.app/api?theme=radical" alt="Random Dev Joke" />
-</div>
+<audio controls>
+  <source src="https://files.catbox.moe/5x6yqg.mp3" type="audio/mpeg">
+  Browser kamu tidak mendukung elemen audio.
+</audio>
 
 ---
 
