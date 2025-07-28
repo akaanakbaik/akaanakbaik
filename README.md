@@ -1,14 +1,14 @@
 # 👋 Hi there! Welcome to My GitHub Profile
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=F75C7E&center=true&vCenter=true&width=435&lines=Hello%2C+I\'m+aka!;Young+Web+Developer;From+West+Sumatra%2C+Indonesia;Always+Learning+New+Things!" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=F75C7E&center=true&vCenter=true&width=435&lines=Hello%2C+I%27m+aka!;Young+Web+Developer;From+West+Sumatra%2C+Indonesia;Always+Learning+New+Things!" alt="Typing SVG" />
 </div>
 
 ---
 
 ## 🧑‍💻 About Me
 
-Hello! I\'m **aka**, a passionate young developer enthusiastic about the world of technology. I am **15 years old** and currently studying at **SMAN 1 Lembah Melintang**. Hailing from the beautiful **West Sumatra, Indonesia**, I bring a spirit of innovation and creativity to every line of code I write.
+Hello! I'm **aka**, a passionate young developer enthusiastic about the world of technology. I am **16 years old** and currently studying at **SMAN 1 Lembah Melintang**. Hailing from the beautiful **West Sumatra, Indonesia**, I bring a spirit of innovation and creativity to every line of code I write.
 
 I have a deep interest in web development, UI/UX design, and exploring new technologies. I believe that technology can be a bridge to create intuitive and impactful solutions. Besides coding, I also enjoy the challenges of problem-solving and thinking outside the box to find unique approaches.
 
@@ -35,7 +35,8 @@ I have a deep interest in web development, UI/UX design, and exploring new techn
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
 ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
-
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
 ### Databases
 
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
@@ -51,6 +52,14 @@ I have a deep interest in web development, UI/UX design, and exploring new techn
 
 ---
 
+## 📚 Currently Learning
+
+- **Advanced JavaScript Concepts**: Deep diving into closures, prototypes, and asynchronous programming.
+- **Backend Development with Node.js**: Exploring Express.js and building RESTful APIs.
+- **Cloud Computing**: Getting familiar with AWS services like EC2, S3, and Lambda.
+
+---
+
 ## 📊 My GitHub Stats
 
 <div align="center">
@@ -60,6 +69,40 @@ I have a deep interest in web development, UI/UX design, and exploring new techn
 
 <div align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=akaanakbaik&theme=radical&hide_border=true&background=0D1117" alt="GitHub Streak" />
+</div>
+
+---
+
+## ⏱️ My WakaTime Stats
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api/wakatime?username=akaanakbaik&layout=compact&theme=radical&hide_border=true&bg_color=0D1117" alt="WakaTime Stats" />
+</div>
+
+---
+
+## 📝 Latest Blog Posts
+
+<!-- BLOG-POST-LIST:START -->
+<!-- BLOG-POST-LIST:END -->
+
+_To enable dynamic updates for latest blog posts, you will need to set up a GitHub Action. Please refer to [Blog Post Workflow](https://github.com/marketplace/actions/blog-post-workflow) for instructions._
+
+---
+
+## 🎧 Currently Playing on Spotify
+
+<!-- SPOTIFY-PLAYING-CARD:START -->
+<!-- SPOTIFY-PLAYING-CARD:END -->
+
+_To enable this feature, you will need to set up a GitHub Action and provide your Spotify API credentials. Please refer to [Spotify Now Playing Card Generator](https://github.com/platane/spotify-now-playing) for instructions._
+
+---
+
+## 😂 Random Dev Joke
+
+<div align="center">
+  <img src="https://readme-jokes.vercel.app/api?theme=radical" alt="Random Dev Joke" />
 </div>
 
 ---
@@ -86,9 +129,19 @@ I have a deep interest in web development, UI/UX design, and exploring new techn
 
 ---
 
+## 🏅 My GitHub Badges
+
+<div align="center">
+  <!-- Add your GitHub badges here, e.g., from https://github.com/badges/shields -->
+  <!-- Example: -->
+  <!-- ![GitHub followers](https://img.shields.io/github/followers/akaanakbaik?style=social) -->
+</div>
+
+---
+
 ## 🌟 Featured Repositories
 
-Here are some projects I\'m proud of:
+Here are some projects I\%27m proud of:
 
 <div align="center">
 
@@ -128,7 +181,7 @@ I actively contribute to various projects, both personal and collaborative. You 
 💖 _Thank you for the inspiration and support on this journey._
 
 ### 🤝 Friends 🤝
-💖 _Thank you for the friendship, togetherness, and all the moments we\'ve shared._
+💖 _Thank you for the friendship, togetherness, and all the moments we\%27ve shared._
 
 </div>
 
