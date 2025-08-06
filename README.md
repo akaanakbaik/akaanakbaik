@@ -56,20 +56,8 @@ _Untuk mengaktifkan pembaruan dinamis untuk postingan blog terbaru, Anda perlu m
 
 ## 😂 Lelucon Dev Acak
 
-```python
-import requests
-
-def get_dev_joke():
-    url = "https://v2.jokeapi.dev/joke/Programming?blacklistFlags=nsfw,religious,political,racist,sexist,explicit&type=single"
-    response = requests.get(url)
-    if response.status_code == 200:
-        return response.json()["joke"]
-    return "Maaf, tidak dapat mengambil lelucon saat ini."
-
-# print(get_dev_joke())
-```
-
-_Browser Anda tidak mendukung elemen audio. (Ini adalah lelucon, bukan masalah teknis!)_
+> Mengapa programmer lebih suka dark mode?
+> Karena cahaya menarik bug!
 
 ## 🌐 Terhubung dengan Saya
 
@@ -82,10 +70,10 @@ _Browser Anda tidak mendukung elemen audio. (Ini adalah lelucon, bukan masalah t
 
 ## 🏆 Pencapaian GitHub
 
-![Galaxy Brain](https://github.com/akaanakbaik/akaanakbaik/blob/main/assets/galaxy-brain.png?raw=true)
-![Pull Shark](https://github.com/akaanakbaik/akaanakbaik/blob/main/assets/pull-shark.png?raw=true)
-![Quickdraw](https://github.com/akaanakbaik/akaanakbaik/blob/main/assets/quickdraw.png?raw=true)
-![YOLO](https://github.com/akaanakbaik/akaanakbaik/blob/main/assets/yolo.png?raw=true)
+![Galaxy Brain](https://raw.githubusercontent.com/akaanakbaik/akaanakbaik/main/assets/galaxy-brain.png)
+![Pull Shark](https://raw.githubusercontent.com/akaanakbaik/akaanakbaik/main/assets/pull-shark.png)
+![Quickdraw](https://raw.githubusercontent.com/akaanakbaik/akaanakbaik/main/assets/quickdraw.png)
+![YOLO](https://raw.githubusercontent.com/akaanakbaik/akaanakbaik/main/assets/yolo.png)
 
 ## 🏅 Badge GitHub Saya
 
@@ -98,10 +86,10 @@ _Browser Anda tidak mendukung elemen audio. (Ini adalah lelucon, bukan masalah t
 
 Berikut adalah beberapa proyek yang saya banggakan:
 
-- **[my-portofolio](https://github.com/akaanakbaik/my-portofolio)**: Sebuah situs web portofolio sederhana yang dibangun dengan TypeScript, Vite, dan TailwindCSS. Menampilkan desain responsif dan pengalaman pengguna yang mulus.
-- **[profile-card-by-aka](https://github.com/akaanakbaik/profile-card-by-aka)**: Kartu profil interaktif yang dibuat dengan HTML dan CSS, menampilkan keahlian saya dalam desain UI/UX.
-- **[music-player](https://github.com/akaanakbaik/music-player)**: Pemutar musik berbasis web yang sederhana namun fungsional, dibangun dengan HTML, CSS, dan JavaScript.
-- **[ai-pun](https://github.com/akaanakbaik/ai-pun)**: Proyek berbasis Python yang mengeksplorasi pembuatan lelucon menggunakan AI. (Ini adalah lelucon, bukan masalah teknis!)
+[![my-portofolio](https://img.shields.io/badge/my--portofolio-TypeScript-blue?style=for-the-badge&logo=typescript)](https://github.com/akaanakbaik/my-portofolio)
+[![profile-card-by-aka](https://img.shields.io/badge/profile--card--by--aka-CSS-blue?style=for-the-badge&logo=css3)](https://github.com/akaanakbaik/profile-card-by-aka)
+[![music-player](https://img.shields.io/badge/music--player-JavaScript-yellow?style=for-the-badge&logo=javascript)](https://github.com/akaanakbaik/music-player)
+[![ai-pun](https://img.shields.io/badge/ai--pun-Python-green?style=for-the-badge&logo=python)](https://github.com/akaanakbaik/ai-pun)
 
 ## 📈 Perjalanan Kontribusi Saya
 
@@ -136,9 +124,5 @@ Saya aktif berkontribusi pada berbagai proyek, baik pribadi maupun kolaboratif. 
 ## 📊 Pengunjung Profil
 
 ![Profile views](https://komarev.com/ghpvc/?username=akaanakbaik&color=brightgreen)
-
----
-
-_Dibuat dengan ❤️ oleh Manus AI._
 
 
