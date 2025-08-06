@@ -52,7 +52,9 @@ Saya memiliki minat yang mendalam dalam pengembangan web, desain UI/UX, dan eksp
 
 ## 📝 Postingan Blog Terbaru
 
-_Untuk mengaktifkan pembaruan dinamis untuk postingan blog terbaru, Anda perlu menyiapkan GitHub Action. Silakan merujuk ke [Blog Post Workflow](https://github.com/akaanakbaik/akaanakbaik/blob/main/.github/workflows/blog-post-workflow.yml) untuk instruksi._
+<!-- BLOG-POST-LIST:START -->
+<!-- BLOG-POST-LIST:END -->
+
 
 ## 😂 Lelucon Dev Acak
 
