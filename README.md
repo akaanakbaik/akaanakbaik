@@ -1,130 +1,159 @@
 # 👋 Halo! Selamat Datang di Profil GitHub Saya
 
+<h3 align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?size=24&duration=4000&color=58A6FF&center=true&vCenter=true&width=500&lines=Students;Developer;Open+Source+Enthusiast" alt="Typing SVG">
+</h3>
+
+<p align="center">
+  <a href="https://github.com/akaanakbaik">
+    <img src="https://komarev.com/ghpvc/?username=akaanakbaik&color=blue" alt="Profile views"/>
+  </a>
+  <a href="https://github.com/akaanakbaik?tab=followers">
+    <img src="https://img.shields.io/github/followers/akaanakbaik?label=Follow&style=social" alt="GitHub followers"/>
+  </a>
+</p>
+
+---
+
 ## 🚀 Tentang Saya
+Halo! Saya **Aka**, seorang pengembang muda yang penuh semangat dan antusias terhadap dunia teknologi.  
+Saya berusia **16 tahun** dan saat ini menempuh pendidikan di **SMAN 1 Lembah Melintang**, **Sumatra Barat, Indonesia** 🌍.  
 
-Halo! Saya **aka**, seorang pengembang muda yang penuh semangat dan antusias terhadap dunia teknologi. Saya berusia **16 tahun** dan saat ini menempuh pendidikan di **SMAN 1 Lembah Melintang**. Berasal dari **Sumatra Barat, Indonesia** yang indah, saya membawa semangat inovasi dan kreativitas dalam setiap baris kode yang saya tulis.
+Saya memiliki minat dalam pengembangan web, desain UI/UX, dan eksplorasi teknologi baru.  
+Saya percaya bahwa teknologi dapat menjadi jembatan untuk menciptakan solusi intuitif dan berdampak.  
 
-Saya memiliki minat yang mendalam dalam pengembangan web, desain UI/UX, dan eksplorasi teknologi baru. Saya percaya bahwa teknologi dapat menjadi jembatan untuk menciptakan solusi yang intuitif dan berdampak. Selain coding, saya juga menikmati tantangan pemecahan masalah dan berpikir di luar kotak untuk menemukan pendekatan yang unik.
+> _"still water, flowing."_ — air tenang menghanyutkan.
 
-> _"still water, flowing."_ - air tenang menghanyutkan.
+---
 
-## 🛠️ Keahlian Teknis Saya
+## ⚒️ Tools & Tech Stack
+<p align="center">
+  <!-- Code Editors -->
+  <img src="https://img.shields.io/badge/VSCode-0078d7?style=for-the-badge&logo=visual%20studio%20code&logoColor=white" />
+  <img src="https://img.shields.io/badge/Neovim-57A143?style=for-the-badge&logo=neovim&logoColor=white" />
+  
+  <!-- Version Control -->
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+  
+  <!-- Languages -->
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+  <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white" />
+  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" />
 
-### Bahasa Pemrograman
+  <!-- Frameworks -->
+  <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" />
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
+  <img src="https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white" />
 
-![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+  <!-- Databases -->
+  <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" />
+  <img src="https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white" />
 
-### Frameworks & Libraries
+  <!-- OS & Deployment -->
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/DigitalOcean-0080FF?style=for-the-badge&logo=digitalocean&logoColor=white" />
+  <img src="https://img.shields.io/badge/Pterodactyl-1D1D1D?style=for-the-badge&logo=linuxcontainers&logoColor=white" />
+</p>
 
-![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+---
 
-### Databases
+## 🐍 Contribution Snake
+![GitHub Snake](./dist/snake.svg)
 
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-
-### Tools & Others
-
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
-
-## 📚 Sedang Dipelajari
-
-*   **Konsep JavaScript Tingkat Lanjut**: Mendalami closure, prototype, dan pemrograman asinkron.
-*   **Pengembangan Backend dengan Node.js**: Mengeksplorasi Express.js dan membangun RESTful API.
-*   **Cloud Computing**: Mengenal layanan AWS seperti EC2, S3, dan Lambda.
+---
 
 ## 📊 Statistik GitHub Saya
+<p align="center">
+  <a href="https://github.com/akaanakbaik">
+    <img src="https://github-widgetbox.vercel.app/api/profile?username=akaanakbaik&data=followers,repositories,stars,commits&theme=nautilus" alt="GitHub WidgetBox"/>
+  </a>
+</p>
 
-[![akaanakbaik GitHub stats](https://github-readme-stats.vercel.app/api?username=akaanakbaik&show_icons=true&theme=radical)](https://github.com/anuraghazra/github-readme-stats)
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=akaanakbaik&show_icons=true&theme=radical&hide_border=true&count_private=true" alt="GitHub Stats"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=akaanakbaik&theme=radical&hide_border=true" alt="GitHub Streak"/>
+</p>
 
-## ⏱️ Statistik WakaTime Saya
+<div align="center">
+  <img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=akaanakbaik&theme=2077" />
+  <img src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=akaanakbaik&theme=2077" />
+  <img src="http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=akaanakbaik&theme=2077" />
+  <img src="http://github-profile-summary-cards.vercel.app/api/cards/stats?username=akaanakbaik&theme=2077" />
+  <img src="http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=akaanakbaik&theme=2077&utcOffset=8" />
+</div>
 
-[![My WakaTime Stats](https://wakatime.com/badge/user/c6479712-402a-431c-997e-12497143110b/akaanakbaik.svg)](https://wakatime.com/@akaanakbaik)
-
-## 📝 Postingan Blog Terbaru
-
-<!-- BLOG-POST-LIST:START -->
-<!-- BLOG-POST-LIST:END -->
-
-
-## 😂 Lelucon Dev Acak
-
-> Mengapa programmer lebih suka dark mode?
-> Karena cahaya menarik bug!
-
-## 🌐 Terhubung dengan Saya
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/akaanakbaik)
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/akaanakbaik)
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/kenal.aka)
-[![TikTok](https://img.shields.io/badge/TikTok-69C9D0?style=for-the-badge&logo=tiktok&logoColor=white)](https://www.tiktok.com/@kenal_aka)
-[![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/akamodebaik)
-[![ORCID](https://img.shields.io/badge/ORCID-A6CE39?style=for-the-badge&logo=orcid&logoColor=white)](https://orcid.org/0009-0003-8983-6073)
+---
 
 ## 🏆 Pencapaian GitHub
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=akaanakbaik&theme=dracula&row=2&column=3&margin-w=8&margin-h=8&no-frame=true&no-bg=true" alt="GitHub Trophies"/>
+</p>
 
-![Galaxy Brain](https://raw.githubusercontent.com/akaanakbaik/akaanakbaik/main/assets/galaxy-brain.png)
-![Pull Shark](https://raw.githubusercontent.com/akaanakbaik/akaanakbaik/main/assets/pull-shark.png)
-![Quickdraw](https://raw.githubusercontent.com/akaanakbaik/akaanakbaik/main/assets/quickdraw.png)
-![YOLO](https://raw.githubusercontent.com/akaanakbaik/akaanakbaik/main/assets/yolo.png)
+---
 
-## 🏅 Badge GitHub Saya
+## 📈 Aktivitas & Kontribusi
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=akaanakbaik&theme=tokyo-night" alt="Activity Graph"/>
+</p>
 
-![GitHub Followers](https://img.shields.io/github/followers/akaanakbaik?style=social)
-![GitHub Stars](https://img.shields.io/github/stars/akaanakbaik?style=social)
-![GitHub Repo Size](https://img.shields.io/github/repo-size/akaanakbaik/akaanakbaik?style=flat-square)
-![GitHub Last Commit](https://img.shields.io/github/last-commit/akaanakbaik/akaanakbaik?style=flat-square)
+<p align="center">
+  <img src="https://github.com/akaAnakBaik/akaAnakBaik/blob/output/github-contribution-grid-snake.svg" alt="snake animation"/>
+</p>
+
+---
+
+## 🎖️ Holopin Badges
+[![Holopin Badges](https://holopin.io/api/user/board?user=akaanakbaik)](https://www.holopin.io/@akaanakbaik)
+
+---
+
+## ⏱️ Statistik WakaTime Saya
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/wakatime?username=akaanakbaik&layout=compact&theme=radical&hide_border=true" alt="WakaTime Stats"/>
+</p>
+
+---
+
+## 🌐 Sosial Media
+<p align="center">
+  <a href="https://t.me/akamodebaik"><img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white"/></a>
+  <a href="https://www.instagram.com/kenal.aka"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/></a>
+  <a href="https://www.tiktok.com/@kenal_aka"><img src="https://img.shields.io/badge/TikTok-000000?style=for-the-badge&logo=tiktok&logoColor=white"/></a>
+</p>
+
+---
+
+## 😂 Random Dev Joke
+<p align="center">
+  <img src="https://readme-jokes.vercel.app/api" alt="Random Dev Joke"/>
+</p>
+
+---
 
 ## 🌟 Repositori Unggulan
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=akaanakbaik&repo=profile-card-by-aka&theme=radical&hide_border=true" alt="profile-card-by-aka"/>
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=akaanakbaik&repo=my-portofolio&theme=radical&hide_border=true" alt="my-portofolio"/>
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=akaanakbaik&repo=music-player&theme=radical&hide_border=true" alt="music-player"/>
+</p>
 
-Berikut adalah beberapa proyek yang saya banggakan:
+---
 
-[![my-portofolio](https://img.shields.io/badge/my--portofolio-TypeScript-blue?style=for-the-badge&logo=typescript)](https://github.com/akaanakbaik/my-portofolio)
-[![profile-card-by-aka](https://img.shields.io/badge/profile--card--by--aka-CSS-blue?style=for-the-badge&logo=css3)](https://github.com/akaanakbaik/profile-card-by-aka)
-[![music-player](https://img.shields.io/badge/music--player-JavaScript-yellow?style=for-the-badge&logo=javascript)](https://github.com/akaanakbaik/music-player)
-[![ai-pun](https://img.shields.io/badge/ai--pun-Python-green?style=for-the-badge&logo=python)](https://github.com/akaanakbaik/ai-pun)
+## 🙏✨ Terima Kasih
+- ✨ Allah SWT ✨  
+- 👨‍👩‍👧‍👦 Orang Tua & Keluarga  
+- 🤖 Tim Furina AI  
+- 🤝 Teman-teman & komunitas open-source  
 
-## 📈 Perjalanan Kontribusi Saya
+💖 _Syukur mengubah apa yang kita miliki menjadi cukup._
 
-Saya aktif berkontribusi pada berbagai proyek, baik pribadi maupun kolaboratif. Anda dapat melihat perjalanan kontribusi saya pada grafik di bawah ini:
+---
 
-[![akaanakbaik's Contribution Graph](https://github-readme-streak-stats.herokuapp.com/?user=akaanakbaik&theme=radical)](https://git.io/streak-stats)
-
-## 🙏✨ Terima Kasih Khusus Kepada ✨🙏
-
-> _"Syukur mengubah apa yang kita miliki menjadi cukup."_
-
-### ✨ Allah SWT ✨
-
-💖 _Terima kasih atas segala rahmat dan petunjuk-Nya yang senantiasa memberikan kekuatan dalam setiap langkah kehidupan._
-
-### 👨‍👩‍👧‍👦 Orang Tua 👨‍👩‍👧‍👦
-
-💖 _Terima kasih atas doa, dukungan, dan cinta tanpa batas._
-
-### 👪 Keluarga Besar 👪
-
-💖 _Terima kasih atas dukungan dan kebersamaan dalam segala kondisi._
-
-### 🤖 Tim Furina AI 🤖
-
-💖 _Terima kasih atas inspirasi dan dukungan dalam perjalanan ini._
-
-### 🤝 Teman-teman 🤝
-
-💖 _Terima kasih atas persahabatan, kebersamaan, dan semua momen yang telah kita bagi._
-
-## 📊 Pengunjung Profil
-
-![Profile views](https://komarev.com/ghpvc/?username=akaanakbaik&color=brightgreen)
-
-
+<p align="center">
+  <img src="https://img.shields.io/badge/Made%20with%20❤️%20by-Aka-blue?style=for-the-badge" />
+</p>
