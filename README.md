@@ -62,10 +62,6 @@ Saya percaya bahwa teknologi dapat menjadi jembatan untuk menciptakan solusi int
 
 ---
 
-## 🐍 Contribution Snake
-![Snake animation](https://raw.githubusercontent.com/akaanakbaik/akaanakbaik/output/github-contribution-grid-snake.svg)
----
-
 ## 📊 Statistik GitHub Saya
 <p align="center">
   <a href="https://github.com/akaanakbaik">
