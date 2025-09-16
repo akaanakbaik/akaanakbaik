@@ -107,13 +107,6 @@ Saya percaya bahwa teknologi dapat menjadi jembatan untuk menciptakan solusi int
 
 ---
 
-## ⏱️ Statistik WakaTime Saya
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/wakatime?username=akaanakbaik&layout=compact&theme=radical&hide_border=true" alt="WakaTime Stats"/>
-</p>
-
----
-
 ## 🌐 Sosial Media
 <p align="center">
   <a href="https://t.me/akamodebaik"><img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white"/></a>
