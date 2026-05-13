@@ -9,6 +9,8 @@ concurrency:
   group: blog-post-workflow
   cancel-in-progress: true
 
+permissions: {}
+
 jobs:
   health-check:
     name: Workflow Health Check
