@@ -1,15 +1,20 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=58A6FF&height=200&section=header&text=Hello!%20I'm%20Aka%20👋&fontSize=45&fontAlignY=35&animation=twinkling&fontColor=ffffff" alt="Header Banner" />
+<!-- Header Banner Animasi -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=58A6FF&height=200&section=header&text=Hello!%20I'm%20Aka%20👋&fontSize=45&fontAlignY=35&animation=twinkling&fontColor=ffffff" alt="Header Banner" width="100%" />
 
-<a href="https://github.com/akaanakbaik">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&duration=3000&color=58A6FF&center=true&vCenter=true&width=600&lines=Student+at+SMAN+1+Lembah+Melintang;Fullstack+Web+Developer;Open+Source+Enthusiast;Still+water,+flowing...+" alt="Typing SVG">
+<!-- Typing Effect -->
+<a href="https://github.com/akaAnakBaik">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=20&duration=3000&color=58A6FF&center=true&vCenter=true&width=600&lines=Student+at+SMAN+1+Lembah+Melintang;Fullstack+Web+Developer;Open+Source+Enthusiast;Still+water,+flowing...+" alt="Typing SVG" />
 </a>
 
 <br>
 
-<img src="https://img.shields.io/github/followers/akaanakbaik?label=Followers&style=for-the-badge&color=23272d&logoColor=white&logo=github" alt="GitHub followers"/>
-<img src="https://komarev.com/ghpvc/?username=akaanakbaik&label=Profile%20Views&color=58A6FF&style=for-the-badge" alt="Profile views"/>
+<!-- Dynamic Badges -->
+<a href="https://github.com/akaAnakBaik?tab=followers">
+  <img src="https://img.shields.io/github/followers/akaAnakBaik?label=Followers&style=for-the-badge&color=23272d&logoColor=white&logo=github" alt="GitHub followers"/>
+</a>
+<img src="https://komarev.com/ghpvc/?username=akaAnakBaik&label=Profile%20Views&color=58A6FF&style=for-the-badge" alt="Profile views"/>
 
 </div>
 
@@ -31,7 +36,7 @@ Halo! Saya **Aka**, seorang pengembang muda berusia **16 tahun** dari **Sumatra 
 ## 🛠️ Tech Stack & Tools
 
 Saya menggunakan berbagai alat modern untuk membangun produk digital.  
-*(Icon di bawah ini akan otomatis menyesuaikan Dark/Light mode kamu)*
+*(Icon di bawah ini akan otomatis menyesuaikan dengan tema Dark/Light mode di HP/PC kamu)*
 
 <div align="center">
   <a href="https://skillicons.dev">
@@ -43,15 +48,15 @@ Saya menggunakan berbagai alat modern untuk membangun produk digital.
 
 ## 📊 Statistik GitHub
 
-> *Tampilan ini didesain transparan agar menyatu sempurna dengan tema GitHub kamu.*
+> *Jika gambar di bawah ini loading/rusak, itu wajar karena antrean API. Tunggu beberapa saat dan akan normal kembali.*
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=akaanakbaik&show_icons=true&theme=transparent&hide_border=true&title_color=58A6FF&text_color=a8b2d1&icon_color=58A6FF&locale=id" alt="GitHub Stats" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=akaanakbaik&theme=transparent&hide_border=true&title_color=58A6FF&text_color=a8b2d1&icon_color=58A6FF" alt="GitHub Streak" />
+  <img src="https://github-readme-stats.vercel.app/api?username=akaAnakBaik&show_icons=true&theme=transparent&hide_border=true&title_color=58A6FF&text_color=a8b2d1&icon_color=58A6FF&locale=id" alt="GitHub Stats" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=akaAnakBaik&theme=transparent&hide_border=true&title_color=58A6FF&text_color=a8b2d1&icon_color=58A6FF" alt="GitHub Streak" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=akaanakbaik&layout=compact&theme=transparent&hide_border=true&title_color=58A6FF&text_color=a8b2d1" alt="Top Languages" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=akaAnakBaik&layout=compact&theme=transparent&hide_border=true&title_color=58A6FF&text_color=a8b2d1" alt="Top Languages" />
 </p>
 
 ---
@@ -59,15 +64,20 @@ Saya menggunakan berbagai alat modern untuk membangun produk digital.
 ## 🏆 Pencapaian & Aktivitas
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=akaanakbaik&theme=gitdimmed&row=1&column=6&margin-w=15&margin-h=15&no-frame=true&no-bg=true" alt="GitHub Trophies"/>
+  <img src="https://github-profile-trophy.vercel.app/?username=akaAnakBaik&theme=gitdimmed&row=1&column=6&margin-w=15&margin-h=15&no-frame=true&no-bg=true" alt="GitHub Trophies" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=akaanakbaik&theme=transparent&hide_border=true&color=58A6FF&line=58A6FF&point=ffffff" alt="Activity Graph" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=akaAnakBaik&theme=transparent&hide_border=true&color=58A6FF&line=58A6FF&point=ffffff" alt="Activity Graph" width="100%" />
 </p>
 
+<!-- Animasi Ular (Snake) -->
 <p align="center">
-  <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/akaanakbaik/akaanakbaik/output/github-contribution-grid-snake.svg" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/akaAnakBaik/akaAnakBaik/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/akaAnakBaik/akaAnakBaik/output/github-contribution-grid-snake.svg">
+    <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/akaAnakBaik/akaAnakBaik/output/github-contribution-grid-snake.svg" width="100%">
+  </picture>
 </p>
 
 ---
@@ -75,11 +85,11 @@ Saya menggunakan berbagai alat modern untuk membangun produk digital.
 ## 🌟 Repositori Unggulan
 
 <p align="center">
-  <a href="https://github.com/akaanakbaik/profile-card-by-aka">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=akaanakbaik&repo=profile-card-by-aka&theme=transparent&hide_border=true&title_color=58A6FF&text_color=a8b2d1&icon_color=58A6FF" alt="Profile Card" />
+  <a href="https://github.com/akaAnakBaik/profile-card-by-aka">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=akaAnakBaik&repo=profile-card-by-aka&theme=transparent&hide_border=true&title_color=58A6FF&text_color=a8b2d1&icon_color=58A6FF" alt="Profile Card" />
   </a>
-  <a href="https://github.com/akaanakbaik/my-portofolio">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=akaanakbaik&repo=my-portofolio&theme=transparent&hide_border=true&title_color=58A6FF&text_color=a8b2d1&icon_color=58A6FF" alt="Portfolio" />
+  <a href="https://github.com/akaAnakBaik/my-portofolio">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=akaAnakBaik&repo=my-portofolio&theme=transparent&hide_border=true&title_color=58A6FF&text_color=a8b2d1&icon_color=58A6FF" alt="Portfolio" />
   </a>
 </p>
 
@@ -88,9 +98,9 @@ Saya menggunakan berbagai alat modern untuk membangun produk digital.
 ## 🌐 Mari Terhubung!
 
 <p align="center">
-  <a href="https://t.me/akamodebaik"><img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white"/></a>
-  <a href="https://www.instagram.com/kenal.aka"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/></a>
-  <a href="https://www.tiktok.com/@kenal_aka"><img src="https://img.shields.io/badge/TikTok-000000?style=for-the-badge&logo=tiktok&logoColor=white"/></a>
+  <a href="https://t.me/akamodebaik"><img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram" /></a>
+  <a href="https://www.instagram.com/kenal.aka"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" /></a>
+  <a href="https://www.tiktok.com/@kenal_aka"><img src="https://img.shields.io/badge/TikTok-000000?style=for-the-badge&logo=tiktok&logoColor=white" alt="TikTok" /></a>
 </p>
 
 <div align="center">
