@@ -19,6 +19,8 @@ jobs:
   validate-readme-links:
     runs-on: ubuntu-latest
     timeout-minutes: 10
+    permissions:
+      contents: read
     steps:
       - name: Check critical README assets and badge URLs
         run: |
