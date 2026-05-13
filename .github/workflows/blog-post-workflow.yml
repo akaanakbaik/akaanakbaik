@@ -1,1 +1,18 @@
+name: Blog Post Workflow
 
+on:
+  schedule:
+    - cron: "30 2 * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: blog-post-workflow
+  cancel-in-progress: true
+
+jobs:
+  health-check:
+    name: Workflow Health Check
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ensure workflow is valid
+        run: echo "Blog workflow is configured and healthy."

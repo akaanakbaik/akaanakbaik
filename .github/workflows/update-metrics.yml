@@ -3,10 +3,9 @@ on:
   schedule:
     - cron: "0 */12 * * *" # Berjalan otomatis tiap 12 jam
   workflow_dispatch:
-  push:
-    branches:
-      - main
-      - master
+concurrency:
+  group: metrics-update
+  cancel-in-progress: true
 
 jobs:
   github-metrics:
@@ -16,7 +15,7 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          token: ${{ secrets.METRICS_TOKEN }} # KITA AKAN BUAT INI NANTI
+          token: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
           
           user: akaanakbaik
           template: classic
