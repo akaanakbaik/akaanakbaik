@@ -5,23 +5,29 @@ on:
     - cron: '0 */12 * * *'
   workflow_dispatch:
 
+concurrency:
+  group: update-pinned
+  cancel-in-progress: true
+
 jobs:
   update-pinned:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     permissions:
       contents: write
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Create directory if not exists
         run: mkdir -p generated
 
       - name: Download Pinned Repos
         run: |
-          curl "https://github-readme-stats.vercel.app/api/pin/?username=akaanakbaik&repo=portofoliov2&theme=midnight-purple&hide_border=true" -o generated/portofoliov2.svg
-          curl "https://github-readme-stats.vercel.app/api/pin/?username=akaanakbaik&repo=dastermv2&theme=midnight-purple&hide_border=true" -o generated/dastermv2.svg
-          curl "https://github-readme-stats.vercel.app/api/pin/?username=akaanakbaik&repo=musika&theme=midnight-purple&hide_border=true" -o generated/musika.svg
+          set -euo pipefail
+          curl --fail --silent --show-error --location --retry 3 "https://github-readme-stats.vercel.app/api/pin/?username=akaanakbaik&repo=portofoliov2&theme=midnight-purple&hide_border=true" -o generated/portofoliov2.svg
+          curl --fail --silent --show-error --location --retry 3 "https://github-readme-stats.vercel.app/api/pin/?username=akaanakbaik&repo=dastermv2&theme=midnight-purple&hide_border=true" -o generated/dastermv2.svg
+          curl --fail --silent --show-error --location --retry 3 "https://github-readme-stats.vercel.app/api/pin/?username=akaanakbaik&repo=musika&theme=midnight-purple&hide_border=true" -o generated/musika.svg
 
       - name: Commit and Push
         run: |

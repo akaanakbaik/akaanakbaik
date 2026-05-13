@@ -1,0 +1,40 @@
+name: README Health Check
+
+on:
+  schedule:
+    - cron: "15 */12 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - README.md
+      - .github/workflows/readme-health.yml
+
+concurrency:
+  group: readme-health
+  cancel-in-progress: true
+
+jobs:
+  validate-readme-links:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check critical README assets and badge URLs
+        run: |
+          set -euo pipefail
+
+          urls=(
+            "https://img.shields.io/github/stars/akaanakbaik/akaanakbaik?label=Repo%20Stars&style=for-the-badge&color=ffd700&logo=github"
+            "https://github.com/akaanakbaik/akaanakbaik/actions/workflows/update-metrics.yml/badge.svg?branch=main"
+            "https://github.com/akaanakbaik/akaanakbaik/actions/workflows/snake.yml/badge.svg?branch=main"
+            "https://github.com/akaanakbaik/akaanakbaik/actions/workflows/update-pinned.yml/badge.svg?branch=main"
+            "https://github.com/akaanakbaik/akaanakbaik/actions/workflows/blog-post-workflow.yml/badge.svg?branch=main"
+            "https://raw.githubusercontent.com/akaanakbaik/akaanakbaik/main/github-metrics.svg"
+            "https://raw.githubusercontent.com/akaanakbaik/akaanakbaik/output/github-contribution-grid-snake.svg"
+          )
+
+          for url in "${urls[@]}"; do
+            echo "Checking: $url"
+            curl --fail --silent --show-error --location --head --retry 3 "$url" > /dev/null
+          done
