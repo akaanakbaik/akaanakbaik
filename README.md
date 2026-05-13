@@ -62,26 +62,14 @@ const aka = {
 </a>
 </div>
 ## 📊 GitHub Analytics
-> *Statistik bersifat real-time (update setiap 30 menit) agar tidak error limit API.*
-> 
 <p align="center">
-<!-- GitHub Stats -->
-<img src="https://github-readme-stats.vercel.app/api?username=akaanakbaik&show_icons=true&theme=midnight-purple&hide_border=true&count_private=true&include_all_commits=true&cache_seconds=1800" alt="GitHub Stats" />
-<!-- Top Languages -->
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=akaanakbaik&layout=compact&theme=midnight-purple&hide_border=true&langs_count=8&cache_seconds=1800" alt="Top Languages" />
-</p>
-<p align="center">
-<!-- GitHub Streak -->
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=akaanakbaik&theme=midnight-purple&hide_border=true" alt="GitHub Streak" />
+<!-- Memanggil file gambar yang digenerate oleh GitHub Actions (Anti Error) -->
+<img src="https://raw.githubusercontent.com/akaanakbaik/akaanakbaik/main/github-metrics.svg" alt="GitHub Metrics" width="100%" />
 </p>
 <div align="center">
 <h3>🏆 GitHub Trophies</h3>
 <img src="https://github-profile-trophy.vercel.app/?username=akaanakbaik&theme=midnight-purple&row=1&column=6&margin-w=10&margin-h=10&no-frame=true&no-bg=true" alt="GitHub Trophies"/>
 </div>
-<p align="center">
-<!-- Activity Graph -->
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=akaanakbaik&theme=midnight-purple&hide_border=true&area=true" alt="Activity Graph" width="100%" />
-</p>
 <!-- Snake Animation -->
 <p align="center">
 <picture>
@@ -92,16 +80,17 @@ const aka = {
 </p>
 ## 📌 Featured Projects
 <p align="center">
+<!-- Memanggil file gambar statis dari folder generated/ -->
 <a href="https://github.com/akaanakbaik/portofoliov2">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=akaanakbaik&repo=portofoliov2&theme=midnight-purple&hide_border=true&cache_seconds=1800" alt="portofoliov2"/>
+<img src="https://raw.githubusercontent.com/akaanakbaik/akaanakbaik/main/generated/portofoliov2.svg" alt="portofoliov2"/>
 </a>
 <a href="https://github.com/akaanakbaik/dastermv2">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=akaanakbaik&repo=dastermv2&theme=midnight-purple&hide_border=true&cache_seconds=1800" alt="dastermv2"/>
+<img src="https://raw.githubusercontent.com/akaanakbaik/akaanakbaik/main/generated/dastermv2.svg" alt="dastermv2"/>
 </a>
 </p>
 <p align="center">
 <a href="https://github.com/akaanakbaik/musika">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=akaanakbaik&repo=musika&theme=midnight-purple&hide_border=true&cache_seconds=1800" alt="musika"/>
+<img src="https://raw.githubusercontent.com/akaanakbaik/akaanakbaik/main/generated/musika.svg" alt="musika"/>
 </a>
 </p>
 ## 🎯 Currently
@@ -144,4 +133,6 @@ const aka = {
 <img src="https://img.shields.io/badge/Last%20Updated-2026-blue.svg?style=for-the-badge" alt="Last Updated"/>
 </p>
 </div>
+```
+
 ```
