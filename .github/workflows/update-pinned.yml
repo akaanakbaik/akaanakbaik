@@ -1,0 +1,32 @@
+name: Update Pinned Repos
+
+on:
+  schedule:
+    - cron: '0 */12 * * *'
+  workflow_dispatch:
+
+jobs:
+  update-pinned:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Create directory if not exists
+        run: mkdir -p generated
+
+      - name: Download Pinned Repos
+        run: |
+          curl "https://github-readme-stats.vercel.app/api/pin/?username=akaanakbaik&repo=portofoliov2&theme=midnight-purple&hide_border=true" -o generated/portofoliov2.svg
+          curl "https://github-readme-stats.vercel.app/api/pin/?username=akaanakbaik&repo=dastermv2&theme=midnight-purple&hide_border=true" -o generated/dastermv2.svg
+          curl "https://github-readme-stats.vercel.app/api/pin/?username=akaanakbaik&repo=musika&theme=midnight-purple&hide_border=true" -o generated/musika.svg
+
+      - name: Commit and Push
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add generated/
+          git commit -m "Update pinned repos cache" || exit 0
+          git push
