@@ -65,11 +65,82 @@ I am a student developer from Indonesia who loves building real projects, experi
 
 ---
 
-## 🏆 Top 3 Repositories
+## 📈 30-Day Activity Graph
 
 <div align="center">
 
-<img width="100%" src="https://raw.githubusercontent.com/akaanakbaik/akaanakbaik/main/generated/top-repos.svg" alt="Generated Top 3 Repositories" />
+<a href="https://github.com/akaanakbaik">
+  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=akaanakbaik&theme=tokyo-night&hide_border=true&radius=16&area=true&height=320&custom_title=30-Day%20GitHub%20Activity" alt="30-Day GitHub Activity Graph" />
+</a>
+
+</div>
+
+> The graph follows real GitHub activity. It updates as GitHub records new public activity and when the profile is refreshed.
+
+---
+
+## 🏆 Featured Top Repositories
+
+<div align="center">
+
+<table>
+  <tr>
+    <td align="center" width="33%">
+      <a href="https://github.com/akaanakbaik/portofoliov2">
+        <img src="https://img.shields.io/badge/TOP%2001-Portfolio%20V2-667eea?style=for-the-badge&logo=github&logoColor=white" alt="Top 01 Portfolio V2" />
+      </a>
+      <br />
+      <br />
+      <a href="https://github.com/akaanakbaik/portofoliov2">
+        <img src="https://img.shields.io/github/stars/akaanakbaik/portofoliov2?style=for-the-badge&label=Stars&color=f59e0b" alt="Portfolio V2 stars" />
+      </a>
+      <a href="https://github.com/akaanakbaik/portofoliov2/network/members">
+        <img src="https://img.shields.io/github/forks/akaanakbaik/portofoliov2?style=for-the-badge&label=Forks&color=16a34a" alt="Portfolio V2 forks" />
+      </a>
+      <br />
+      <br />
+      <img src="https://img.shields.io/github/last-commit/akaanakbaik/portofoliov2?style=flat-square&label=last%20commit" alt="Portfolio V2 last commit" />
+      <br />
+      <b>Personal portfolio with modern frontend stack.</b>
+    </td>
+    <td align="center" width="33%">
+      <a href="https://github.com/akaanakbaik/dastermv2">
+        <img src="https://img.shields.io/badge/TOP%2002-Dasterm%20V2-764ba2?style=for-the-badge&logo=gnubash&logoColor=white" alt="Top 02 Dasterm V2" />
+      </a>
+      <br />
+      <br />
+      <a href="https://github.com/akaanakbaik/dastermv2">
+        <img src="https://img.shields.io/github/stars/akaanakbaik/dastermv2?style=for-the-badge&label=Stars&color=f59e0b" alt="Dasterm V2 stars" />
+      </a>
+      <a href="https://github.com/akaanakbaik/dastermv2/network/members">
+        <img src="https://img.shields.io/github/forks/akaanakbaik/dastermv2?style=for-the-badge&label=Forks&color=16a34a" alt="Dasterm V2 forks" />
+      </a>
+      <br />
+      <br />
+      <img src="https://img.shields.io/github/last-commit/akaanakbaik/dastermv2?style=flat-square&label=last%20commit" alt="Dasterm V2 last commit" />
+      <br />
+      <b>Interactive Linux terminal dashboard for VPS diagnostics.</b>
+    </td>
+    <td align="center" width="33%">
+      <a href="https://github.com/akaanakbaik/musika">
+        <img src="https://img.shields.io/badge/TOP%2003-Musika-2563eb?style=for-the-badge&logo=musicbrainz&logoColor=white" alt="Top 03 Musika" />
+      </a>
+      <br />
+      <br />
+      <a href="https://github.com/akaanakbaik/musika">
+        <img src="https://img.shields.io/github/stars/akaanakbaik/musika?style=for-the-badge&label=Stars&color=f59e0b" alt="Musika stars" />
+      </a>
+      <a href="https://github.com/akaanakbaik/musika/network/members">
+        <img src="https://img.shields.io/github/forks/akaanakbaik/musika?style=for-the-badge&label=Forks&color=16a34a" alt="Musika forks" />
+      </a>
+      <br />
+      <br />
+      <img src="https://img.shields.io/github/last-commit/akaanakbaik/musika?style=flat-square&label=last%20commit" alt="Musika last commit" />
+      <br />
+      <b>Music player web app experiment with PWA direction.</b>
+    </td>
+  </tr>
+</table>
 
 </div>
 
@@ -117,29 +188,6 @@ The stack below is generated automatically from all public repositories. Languag
 <img src="https://img.shields.io/badge/Chrome-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Google Chrome" />
 
 </div>
-
----
-
-## 🚀 What I Build
-
-<table>
-  <tr>
-    <td><b>🌐 Web Apps</b></td>
-    <td>Responsive websites, dashboards, uploaders, music apps, API explorers, and portfolio interfaces.</td>
-  </tr>
-  <tr>
-    <td><b>🤖 Bots & Automation</b></td>
-    <td>Telegram bots, WhatsApp bot experiments, automation flows, and API-powered tools.</td>
-  </tr>
-  <tr>
-    <td><b>🐧 Linux & VPS Tools</b></td>
-    <td>Terminal dashboards, Pterodactyl utilities, storage diagnostics, VPS setup scripts, and server monitoring.</td>
-  </tr>
-  <tr>
-    <td><b>🧪 AI Experiments</b></td>
-    <td>AI assistants, API wrappers, scraper tools, coding agents, and multi-provider AI workflows.</td>
-  </tr>
-</table>
 
 ---
 
