@@ -21,7 +21,7 @@ permissions:
 jobs:
   generate:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -40,5 +40,5 @@ jobs:
       - name: Commit generated metrics
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: 'chore: update profile metrics'
-          file_pattern: 'badges/*.json stats/* generated/profile-dashboard.svg'
+          commit_message: 'chore: update generated profile metrics'
+          file_pattern: 'badges/*.json stats/* generated/*.svg'
