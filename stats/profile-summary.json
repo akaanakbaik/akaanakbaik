@@ -1,6 +1,6 @@
 {
   "username": "akaanakbaik",
-  "generatedAt": "15 May 2026, 17:52",
+  "generatedAt": "15 May 2026, 18:07",
   "publicRepos": 100,
   "originalRepos": 81,
   "forkedRepos": 19,
@@ -18,20 +18,340 @@
   "topRepo": "dashterm",
   "recentRepo": "akaanakbaik",
   "largestRepo": "Hacktoberfest2025-3",
-  "languages": {
-    "JavaScript": 29,
-    "Unknown": 29,
-    "TypeScript": 19,
-    "HTML": 7,
-    "Shell": 5,
-    "Python": 3,
-    "C++": 2,
-    "CSS": 2,
-    "Assembly": 1,
-    "Java": 1,
-    "Jupyter Notebook": 1,
-    "Rust": 1
-  },
+  "languageStack": [
+    {
+      "name": "JavaScript",
+      "bytes": 17959483,
+      "repos": 65,
+      "logo": "javascript"
+    },
+    {
+      "name": "TypeScript",
+      "bytes": 9348240,
+      "repos": 26,
+      "logo": "typescript"
+    },
+    {
+      "name": "C++",
+      "bytes": 1089198,
+      "repos": 8,
+      "logo": "cplusplus"
+    },
+    {
+      "name": "Jupyter Notebook",
+      "bytes": 1077015,
+      "repos": 1,
+      "logo": ""
+    },
+    {
+      "name": "Python",
+      "bytes": 1042503,
+      "repos": 11,
+      "logo": "python"
+    },
+    {
+      "name": "Java",
+      "bytes": 937277,
+      "repos": 6,
+      "logo": "openjdk"
+    },
+    {
+      "name": "HTML",
+      "bytes": 763512,
+      "repos": 47,
+      "logo": "html5"
+    },
+    {
+      "name": "CSS",
+      "bytes": 474510,
+      "repos": 48,
+      "logo": "css3"
+    },
+    {
+      "name": "C",
+      "bytes": 445770,
+      "repos": 6,
+      "logo": "c"
+    },
+    {
+      "name": "Shell",
+      "bytes": 204553,
+      "repos": 17,
+      "logo": "gnubash"
+    },
+    {
+      "name": "Rust",
+      "bytes": 204518,
+      "repos": 3,
+      "logo": "rust"
+    },
+    {
+      "name": "Go",
+      "bytes": 113542,
+      "repos": 5,
+      "logo": "go"
+    },
+    {
+      "name": "PHP",
+      "bytes": 27465,
+      "repos": 5,
+      "logo": "php"
+    },
+    {
+      "name": "Jinja",
+      "bytes": 16737,
+      "repos": 1,
+      "logo": ""
+    },
+    {
+      "name": "Dart",
+      "bytes": 7817,
+      "repos": 3,
+      "logo": "dart"
+    },
+    {
+      "name": "Dockerfile",
+      "bytes": 7396,
+      "repos": 3,
+      "logo": ""
+    },
+    {
+      "name": "C#",
+      "bytes": 3555,
+      "repos": 2,
+      "logo": ""
+    },
+    {
+      "name": "Batchfile",
+      "bytes": 3008,
+      "repos": 2,
+      "logo": ""
+    },
+    {
+      "name": "Assembly",
+      "bytes": 1130,
+      "repos": 1,
+      "logo": ""
+    },
+    {
+      "name": "Makefile",
+      "bytes": 598,
+      "repos": 1,
+      "logo": ""
+    },
+    {
+      "name": "Kotlin",
+      "bytes": 442,
+      "repos": 2,
+      "logo": ""
+    },
+    {
+      "name": "V",
+      "bytes": 297,
+      "repos": 1,
+      "logo": ""
+    },
+    {
+      "name": "Elixir",
+      "bytes": 192,
+      "repos": 1,
+      "logo": ""
+    },
+    {
+      "name": "Scala",
+      "bytes": 142,
+      "repos": 1,
+      "logo": ""
+    },
+    {
+      "name": "Zig",
+      "bytes": 133,
+      "repos": 1,
+      "logo": ""
+    },
+    {
+      "name": "Ada",
+      "bytes": 113,
+      "repos": 1,
+      "logo": ""
+    },
+    {
+      "name": "Haskell",
+      "bytes": 110,
+      "repos": 1,
+      "logo": ""
+    },
+    {
+      "name": "Lua",
+      "bytes": 110,
+      "repos": 1,
+      "logo": ""
+    },
+    {
+      "name": "Erlang",
+      "bytes": 100,
+      "repos": 1,
+      "logo": ""
+    },
+    {
+      "name": "Swift",
+      "bytes": 91,
+      "repos": 1,
+      "logo": ""
+    },
+    {
+      "name": "Perl",
+      "bytes": 83,
+      "repos": 1,
+      "logo": ""
+    },
+    {
+      "name": "Ruby",
+      "bytes": 83,
+      "repos": 1,
+      "logo": "ruby"
+    },
+    {
+      "name": "Pawn",
+      "bytes": 56,
+      "repos": 1,
+      "logo": ""
+    },
+    {
+      "name": "LOLCODE",
+      "bytes": 52,
+      "repos": 1,
+      "logo": ""
+    },
+    {
+      "name": "Julia",
+      "bytes": 51,
+      "repos": 1,
+      "logo": ""
+    },
+    {
+      "name": "MATLAB",
+      "bytes": 50,
+      "repos": 1,
+      "logo": ""
+    },
+    {
+      "name": "F#",
+      "bytes": 48,
+      "repos": 1,
+      "logo": ""
+    },
+    {
+      "name": "R",
+      "bytes": 45,
+      "repos": 1,
+      "logo": ""
+    }
+  ],
+  "frontendStack": [
+    {
+      "name": "React",
+      "count": 31
+    },
+    {
+      "name": "Tailwind",
+      "count": 30
+    },
+    {
+      "name": "Lucide",
+      "count": 26
+    },
+    {
+      "name": "Framer Motion",
+      "count": 25
+    },
+    {
+      "name": "Vite",
+      "count": 23
+    },
+    {
+      "name": "Vite React",
+      "count": 22
+    },
+    {
+      "name": "Next.js",
+      "count": 9
+    },
+    {
+      "name": "R3F",
+      "count": 1
+    },
+    {
+      "name": "Three.js",
+      "count": 1
+    }
+  ],
+  "backendStack": [
+    {
+      "name": "Express",
+      "count": 24
+    },
+    {
+      "name": "Axios",
+      "count": 22
+    },
+    {
+      "name": "Neon DB",
+      "count": 12
+    },
+    {
+      "name": "Supabase",
+      "count": 12
+    },
+    {
+      "name": "Drizzle",
+      "count": 11
+    },
+    {
+      "name": "PostgreSQL",
+      "count": 6
+    },
+    {
+      "name": "Postgres",
+      "count": 2
+    },
+    {
+      "name": "Prisma",
+      "count": 2
+    },
+    {
+      "name": "Redis",
+      "count": 2
+    },
+    {
+      "name": "Baileys",
+      "count": 1
+    },
+    {
+      "name": "Cron",
+      "count": 1
+    },
+    {
+      "name": "Mongoose",
+      "count": 1
+    },
+    {
+      "name": "MySQL",
+      "count": 1
+    },
+    {
+      "name": "Playwright",
+      "count": 1
+    },
+    {
+      "name": "Puppeteer",
+      "count": 1
+    },
+    {
+      "name": "Telegraf",
+      "count": 1
+    }
+  ],
   "topRepositories": [
     {
       "name": "dashterm",
@@ -53,41 +373,6 @@
       "stars": 7,
       "forks": 1,
       "language": "CSS"
-    },
-    {
-      "name": "i-am-coming-hacktoberfest",
-      "url": "https://github.com/akaanakbaik/i-am-coming-hacktoberfest",
-      "stars": 6,
-      "forks": 2,
-      "language": "Unknown"
-    },
-    {
-      "name": "profile-card",
-      "url": "https://github.com/akaanakbaik/profile-card",
-      "stars": 6,
-      "forks": 0,
-      "language": "Unknown"
-    },
-    {
-      "name": "dobe",
-      "url": "https://github.com/akaanakbaik/dobe",
-      "stars": 6,
-      "forks": 0,
-      "language": "Unknown"
-    },
-    {
-      "name": "apieyae",
-      "url": "https://github.com/akaanakbaik/apieyae",
-      "stars": 6,
-      "forks": 0,
-      "language": "JavaScript"
-    },
-    {
-      "name": "music-player",
-      "url": "https://github.com/akaanakbaik/music-player",
-      "stars": 6,
-      "forks": 0,
-      "language": "JavaScript"
     }
   ],
   "recentRepositories": [
@@ -95,13 +380,13 @@
       "name": "akaanakbaik",
       "url": "https://github.com/akaanakbaik/akaanakbaik",
       "language": "JavaScript",
-      "updatedAt": "2026-05-15T10:52:09Z"
+      "updatedAt": "2026-05-15T11:06:22Z"
     },
     {
       "name": "dastermv2",
       "url": "https://github.com/akaanakbaik/dastermv2",
       "language": "Shell",
-      "updatedAt": "2026-05-15T10:38:05Z"
+      "updatedAt": "2026-05-15T10:58:35Z"
     },
     {
       "name": "egg-multi-terminal",

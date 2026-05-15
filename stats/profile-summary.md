@@ -1,6 +1,6 @@
 # Profile Metrics Summary
 
-Generated: 15 May 2026, 17:52
+Generated: 15 May 2026, 18:07
 
 ## Account
 
@@ -19,32 +19,88 @@ Generated: 15 May 2026, 17:52
 | Total repo size | 681.6 MB |
 | Top language | JavaScript |
 
-## Top Repositories
+## Top 3 Repositories
 
 | # | Repo | Stars | Forks | Language |
 | --- | --- | ---: | ---: | --- |
 | 1 | [dashterm](https://github.com/akaanakbaik/dashterm) | 7 | 2 | Shell |
 | 2 | [my-portofolio](https://github.com/akaanakbaik/my-portofolio) | 7 | 2 | TypeScript |
 | 3 | [profile-card-by-aka](https://github.com/akaanakbaik/profile-card-by-aka) | 7 | 1 | CSS |
-| 4 | [i-am-coming-hacktoberfest](https://github.com/akaanakbaik/i-am-coming-hacktoberfest) | 6 | 2 | Unknown |
-| 5 | [profile-card](https://github.com/akaanakbaik/profile-card) | 6 | 0 | Unknown |
-| 6 | [dobe](https://github.com/akaanakbaik/dobe) | 6 | 0 | Unknown |
-| 7 | [apieyae](https://github.com/akaanakbaik/apieyae) | 6 | 0 | JavaScript |
-| 8 | [music-player](https://github.com/akaanakbaik/music-player) | 6 | 0 | JavaScript |
 
-## Languages
+## Language Stack
 
-| Language | Repos |
+| Language | Repos | Bytes |
+| --- | ---: | ---: |
+| JavaScript | 65 | 17959483 |
+| TypeScript | 26 | 9348240 |
+| C++ | 8 | 1089198 |
+| Jupyter Notebook | 1 | 1077015 |
+| Python | 11 | 1042503 |
+| Java | 6 | 937277 |
+| HTML | 47 | 763512 |
+| CSS | 48 | 474510 |
+| C | 6 | 445770 |
+| Shell | 17 | 204553 |
+| Rust | 3 | 204518 |
+| Go | 5 | 113542 |
+| PHP | 5 | 27465 |
+| Jinja | 1 | 16737 |
+| Dart | 3 | 7817 |
+| Dockerfile | 3 | 7396 |
+| C# | 2 | 3555 |
+| Batchfile | 2 | 3008 |
+| Assembly | 1 | 1130 |
+| Makefile | 1 | 598 |
+| Kotlin | 2 | 442 |
+| V | 1 | 297 |
+| Elixir | 1 | 192 |
+| Scala | 1 | 142 |
+| Zig | 1 | 133 |
+| Ada | 1 | 113 |
+| Haskell | 1 | 110 |
+| Lua | 1 | 110 |
+| Erlang | 1 | 100 |
+| Swift | 1 | 91 |
+| Perl | 1 | 83 |
+| Ruby | 1 | 83 |
+| Pawn | 1 | 56 |
+| LOLCODE | 1 | 52 |
+| Julia | 1 | 51 |
+| MATLAB | 1 | 50 |
+| F# | 1 | 48 |
+| R | 1 | 45 |
+
+## Frontend Stack
+
+| Stack | Repos |
 | --- | ---: |
-| JavaScript | 29 |
-| Unknown | 29 |
-| TypeScript | 19 |
-| HTML | 7 |
-| Shell | 5 |
-| Python | 3 |
-| C++ | 2 |
-| CSS | 2 |
-| Assembly | 1 |
-| Java | 1 |
-| Jupyter Notebook | 1 |
-| Rust | 1 |
+| React | 31 |
+| Tailwind | 30 |
+| Lucide | 26 |
+| Framer Motion | 25 |
+| Vite | 23 |
+| Vite React | 22 |
+| Next.js | 9 |
+| R3F | 1 |
+| Three.js | 1 |
+
+## Backend Stack
+
+| Stack | Repos |
+| --- | ---: |
+| Express | 24 |
+| Axios | 22 |
+| Neon DB | 12 |
+| Supabase | 12 |
+| Drizzle | 11 |
+| PostgreSQL | 6 |
+| Postgres | 2 |
+| Prisma | 2 |
+| Redis | 2 |
+| Baileys | 1 |
+| Cron | 1 |
+| Mongoose | 1 |
+| MySQL | 1 |
+| Playwright | 1 |
+| Puppeteer | 1 |
+| Telegraf | 1 |
