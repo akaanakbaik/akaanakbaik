@@ -1,0 +1,44 @@
+name: Profile Metrics
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - 'scripts/generate-profile-metrics.mjs'
+      - '.github/workflows/profile-metrics.yml'
+
+concurrency:
+  group: profile-metrics
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Generate profile metrics
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PROFILE_USERNAME: akaanakbaik
+        run: node scripts/generate-profile-metrics.mjs
+
+      - name: Commit generated metrics
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 'chore: update profile metrics'
+          file_pattern: 'badges/*.json stats/* generated/profile-dashboard.svg'
