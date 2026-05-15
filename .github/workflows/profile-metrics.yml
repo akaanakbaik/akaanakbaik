@@ -7,9 +7,10 @@ on:
   push:
     branches:
       - main
-    paths:
-      - 'scripts/generate-profile-metrics.mjs'
-      - '.github/workflows/profile-metrics.yml'
+    paths-ignore:
+      - 'badges/**'
+      - 'stats/**'
+      - 'generated/**'
 
 concurrency:
   group: profile-metrics
