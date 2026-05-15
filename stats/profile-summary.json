@@ -1,6 +1,6 @@
 {
   "username": "akaanakbaik",
-  "generatedAt": "15 May 2026, 21:37",
+  "generatedAt": "16 May 2026, 00:02",
   "publicRepos": 100,
   "originalRepos": 81,
   "forkedRepos": 19,
@@ -11,12 +11,12 @@
   "totalStars": 388,
   "totalForks": 26,
   "totalWatchers": 388,
-  "totalSize": "681.6 MB",
-  "totalSizeKb": 697991,
+  "totalSize": "681.7 MB",
+  "totalSizeKb": 698039,
   "topLanguage": "JavaScript",
   "accountAge": "1y 9m",
   "topRepo": "dashterm",
-  "recentRepo": "akaanakbaik",
+  "recentRepo": "dastermv2",
   "largestRepo": "Hacktoberfest2025-3",
   "languageStack": [
     {
@@ -377,16 +377,16 @@
   ],
   "recentRepositories": [
     {
-      "name": "akaanakbaik",
-      "url": "https://github.com/akaanakbaik/akaanakbaik",
-      "language": "JavaScript",
-      "updatedAt": "2026-05-15T13:48:02Z"
-    },
-    {
       "name": "dastermv2",
       "url": "https://github.com/akaanakbaik/dastermv2",
       "language": "Shell",
-      "updatedAt": "2026-05-15T13:00:36Z"
+      "updatedAt": "2026-05-15T15:37:44Z"
+    },
+    {
+      "name": "akaanakbaik",
+      "url": "https://github.com/akaanakbaik/akaanakbaik",
+      "language": "JavaScript",
+      "updatedAt": "2026-05-15T14:37:09Z"
     },
     {
       "name": "egg-multi-terminal",
