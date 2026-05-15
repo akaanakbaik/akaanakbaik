@@ -38,8 +38,6 @@ const aka = {
   school: "SMAN 1 Lembah Melintang",
   role: "Student Developer",
   focus: ["Web Development", "Linux", "Automation", "AI", "Bots", "Cloud"],
-  mainStack: ["JavaScript", "TypeScript", "React", "Node.js", "Python"],
-  learning: ["Docker", "DevOps", "Cloud Computing", "AI Agents"],
   motto: "still water, flowing. — air tenang menghanyutkan"
 };
 ```
@@ -50,45 +48,75 @@ I am a student developer from Indonesia who loves building real projects, experi
 
 ---
 
-## 📊 GitHub Account Analytics
+## 📊 GitHub Stats
 
 <div align="center">
 
-<img src="https://img.shields.io/github/followers/akaanakbaik?label=Followers&style=for-the-badge&color=667eea&logo=github" alt="Followers" />
-<img src="https://img.shields.io/github/stars/akaanakbaik?affiliations=OWNER%2CCOLLABORATOR&label=Total%20Stars&style=for-the-badge&color=f59e0b&logo=github" alt="Total Stars" />
-<img src="https://img.shields.io/github/sponsors/akaanakbaik?label=Sponsors&style=for-the-badge&color=db2777&logo=githubsponsors" alt="Sponsors" />
-<img src="https://img.shields.io/badge/Location-Indonesia-ef4444?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Location Indonesia" />
-<img src="https://img.shields.io/badge/Focus-Web%20%2B%20Linux%20%2B%20AI-06b6d4?style=for-the-badge" alt="Focus" />
-<img src="https://img.shields.io/badge/Student%20Developer-Active-16a34a?style=for-the-badge" alt="Student Developer" />
-<img src="https://img.shields.io/badge/Open%20Source-Learning%20by%20Building-764ba2?style=for-the-badge&logo=opensourceinitiative" alt="Open Source" />
-<img src="https://img.shields.io/badge/Timezone-Asia%2FJakarta-111827?style=for-the-badge" alt="Timezone" />
+<img width="100%" src="https://raw.githubusercontent.com/akaanakbaik/akaanakbaik/main/generated/github-stats.svg" alt="Generated GitHub Stats" />
+
+<br />
+<br />
+
+<img width="100%" src="https://raw.githubusercontent.com/akaanakbaik/akaanakbaik/main/generated/top-langs.svg" alt="Generated Top Languages" />
 
 </div>
 
-> A GitHub Action has been added to generate deeper local metrics automatically: `stats/profile-summary.json`, `stats/profile-summary.md`, and `generated/profile-dashboard.svg`.
+> Stats and top language cards are generated locally by GitHub Actions, so they do not depend on external GitHub stats cards that can show `not found` or rate-limit errors.
 
 ---
 
-## 🧠 Auto Generated Metrics
+## 🏆 Top 3 Repositories
 
 <div align="center">
 
-<a href="https://github.com/akaanakbaik/akaanakbaik/actions/workflows/profile-metrics.yml">
-  <img src="https://img.shields.io/github/actions/workflow/status/akaanakbaik/akaanakbaik/profile-metrics.yml?branch=main&label=metrics%20generator&style=for-the-badge&logo=githubactions" alt="Metrics Generator" />
-</a>
-<a href="https://github.com/akaanakbaik/akaanakbaik/blob/main/stats/profile-summary.json">
-  <img src="https://img.shields.io/badge/Profile%20Summary-JSON-2563eb?style=for-the-badge&logo=json" alt="Profile Summary JSON" />
-</a>
-<a href="https://github.com/akaanakbaik/akaanakbaik/blob/main/stats/profile-summary.md">
-  <img src="https://img.shields.io/badge/Profile%20Summary-Markdown-16a34a?style=for-the-badge&logo=markdown" alt="Profile Summary Markdown" />
-</a>
-<a href="https://github.com/akaanakbaik/akaanakbaik/blob/main/generated/profile-dashboard.svg">
-  <img src="https://img.shields.io/badge/Profile%20Dashboard-SVG-764ba2?style=for-the-badge&logo=svg" alt="Profile Dashboard SVG" />
-</a>
+<img width="100%" src="https://raw.githubusercontent.com/akaanakbaik/akaanakbaik/main/generated/top-repos.svg" alt="Generated Top 3 Repositories" />
 
 </div>
 
-The metrics workflow updates automatically every 6 hours and can also be run manually from the **Actions** tab.
+---
+
+## 🧩 Repository Stack Scan
+
+The stack below is generated automatically from all public repositories. Languages are scanned from GitHub repository language data, while frontend and backend stacks are scanned from `package.json` dependencies. The rightmost badge is the most used.
+
+<div align="center">
+
+### Languages
+
+<img width="100%" src="https://raw.githubusercontent.com/akaanakbaik/akaanakbaik/main/generated/stack-languages.svg" alt="Generated Language Stack" />
+
+### Frontend
+
+<img width="100%" src="https://raw.githubusercontent.com/akaanakbaik/akaanakbaik/main/generated/stack-frontend.svg" alt="Generated Frontend Stack" />
+
+### Backend
+
+<img width="100%" src="https://raw.githubusercontent.com/akaanakbaik/akaanakbaik/main/generated/stack-backend.svg" alt="Generated Backend Stack" />
+
+</div>
+
+---
+
+## 🛠️ Tools, Platforms & AI
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white" alt="Gemini" />
+<img src="https://img.shields.io/badge/ChatGPT-111827?style=for-the-badge&logo=openai&logoColor=white" alt="ChatGPT" />
+<img src="https://img.shields.io/badge/Qwen-2563eb?style=for-the-badge&logo=alibabacloud&logoColor=white" alt="Qwen" />
+<img src="https://img.shields.io/badge/Kimi%20AI-0f172a?style=for-the-badge&logo=moonrepo&logoColor=white" alt="Kimi AI" />
+<img src="https://img.shields.io/badge/DeepSeek-1e40af?style=for-the-badge&logo=deepin&logoColor=white" alt="DeepSeek" />
+<img src="https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white" alt="Supabase" />
+<img src="https://img.shields.io/badge/Neon%20DB-00E599?style=for-the-badge&logo=neon&logoColor=black" alt="Neon DB" />
+<img src="https://img.shields.io/badge/Pterodactyl-171717?style=for-the-badge&logo=serverfault&logoColor=white" alt="Pterodactyl" />
+<img src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white" alt="Ubuntu" />
+<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
+<img src="https://img.shields.io/badge/Windows-0078D4?style=for-the-badge&logo=windows11&logoColor=white" alt="Windows" />
+<img src="https://img.shields.io/badge/Tor%20Browser-7D4698?style=for-the-badge&logo=torbrowser&logoColor=white" alt="Tor Browser" />
+<img src="https://img.shields.io/badge/Microsoft%20Edge-0078D7?style=for-the-badge&logo=microsoftedge&logoColor=white" alt="Microsoft Edge" />
+<img src="https://img.shields.io/badge/Chrome-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Google Chrome" />
+
+</div>
 
 ---
 
@@ -115,63 +143,15 @@ The metrics workflow updates automatically every 6 hours and can also be run man
 
 ---
 
-## 🛠️ Tech Stack
+## 🐍 Contribution Snake
 
-<div align="center">
-
-### Languages
-
-<img src="https://skillicons.dev/icons?i=js,ts,python,java,cpp,html,css,bash&perline=8" alt="Languages" />
-
-### Frontend
-
-<img src="https://skillicons.dev/icons?i=react,vite,tailwind,bootstrap,figma&perline=5" alt="Frontend" />
-
-### Backend & Database
-
-<img src="https://skillicons.dev/icons?i=nodejs,express,mongodb,mysql,redis,supabase&perline=6" alt="Backend and Database" />
-
-### DevOps & Tools
-
-<img src="https://skillicons.dev/icons?i=linux,docker,git,github,githubactions,vercel,vscode,neovim,cloudflare&perline=9" alt="DevOps Tools" />
-
-</div>
-
----
-
-## 📌 Featured Projects
-
-No more fragile generated repo cards here. These links use direct GitHub repository URLs so they will not break because of missing cached SVG files.
-
-| Project | Type | Description | Status |
-| --- | --- | --- | --- |
-| [dastermv2](https://github.com/akaanakbaik/dastermv2) | Linux Tool | Interactive Linux terminal dashboard with AI, speedtest cache, slash commands, and VPS diagnostics. | <img src="https://img.shields.io/github/last-commit/akaanakbaik/dastermv2?style=flat-square" alt="dastermv2 last commit" /> |
-| [musika](https://github.com/akaanakbaik/musika) | Web App | Music player web app experiment with modern UI and PWA direction. | <img src="https://img.shields.io/github/last-commit/akaanakbaik/musika?style=flat-square" alt="musika last commit" /> |
-| [portofoliov2](https://github.com/akaanakbaik/portofoliov2) | Portfolio | Personal portfolio v2 with modern frontend stack. | <img src="https://img.shields.io/github/last-commit/akaanakbaik/portofoliov2?style=flat-square" alt="portofoliov2 last commit" /> |
-| [test-scraper-ai](https://github.com/akaanakbaik/test-scraper-ai) | AI/API | API and scraper experiment powered by AI-style endpoint workflows. | <img src="https://img.shields.io/github/last-commit/akaanakbaik/test-scraper-ai?style=flat-square" alt="test-scraper-ai last commit" /> |
-| [ai-cli](https://github.com/akaanakbaik/ai-cli) | CLI Tool | AI command-line experiment and automation helper. | <img src="https://img.shields.io/github/last-commit/akaanakbaik/ai-cli?style=flat-square" alt="ai-cli last commit" /> |
-| [liora](https://github.com/akaanakbaik/liora) | Bot | WhatsApp bot / automation project experiment. | <img src="https://img.shields.io/github/last-commit/akaanakbaik/liora?style=flat-square" alt="liora last commit" /> |
-
----
-
-## 📈 GitHub Stats
-
-<div align="center">
-
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=akaanakbaik&show_icons=true&theme=tokyonight&hide_border=true&border_radius=14&include_all_commits=true&count_private=false" alt="GitHub Stats" />
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=akaanakbaik&layout=compact&theme=tokyonight&hide_border=true&border_radius=14&langs_count=10" alt="Top Languages" />
-
-<br />
-<br />
-
-<img src="https://streak-stats.demolab.com?user=akaanakbaik&theme=tokyonight&hide_border=true&border_radius=14" alt="GitHub Streak" />
-
-<br />
-<br />
-
-<img src="https://github-profile-trophy.vercel.app/?username=akaanakbaik&theme=midnight-purple&row=1&column=6&margin-w=10&margin-h=10&no-frame=true&no-bg=true" alt="GitHub Trophies" />
-
-</div>
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/akaanakbaik/akaanakbaik/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/akaanakbaik/akaanakbaik/output/github-contribution-grid-snake.svg" />
+    <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/akaanakbaik/akaanakbaik/output/github-contribution-grid-snake.svg" width="100%" />
+  </picture>
+</p>
 
 ---
 
