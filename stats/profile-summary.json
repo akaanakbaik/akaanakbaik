@@ -1,0 +1,143 @@
+{
+  "username": "akaanakbaik",
+  "generatedAt": "15 May 2026, 17:52",
+  "publicRepos": 100,
+  "originalRepos": 81,
+  "forkedRepos": 19,
+  "archivedRepos": 0,
+  "followers": 13,
+  "following": 31,
+  "publicGists": 0,
+  "totalStars": 388,
+  "totalForks": 26,
+  "totalWatchers": 388,
+  "totalSize": "681.6 MB",
+  "totalSizeKb": 697914,
+  "topLanguage": "JavaScript",
+  "accountAge": "1y 9m",
+  "topRepo": "dashterm",
+  "recentRepo": "akaanakbaik",
+  "largestRepo": "Hacktoberfest2025-3",
+  "languages": {
+    "JavaScript": 29,
+    "Unknown": 29,
+    "TypeScript": 19,
+    "HTML": 7,
+    "Shell": 5,
+    "Python": 3,
+    "C++": 2,
+    "CSS": 2,
+    "Assembly": 1,
+    "Java": 1,
+    "Jupyter Notebook": 1,
+    "Rust": 1
+  },
+  "topRepositories": [
+    {
+      "name": "dashterm",
+      "url": "https://github.com/akaanakbaik/dashterm",
+      "stars": 7,
+      "forks": 2,
+      "language": "Shell"
+    },
+    {
+      "name": "my-portofolio",
+      "url": "https://github.com/akaanakbaik/my-portofolio",
+      "stars": 7,
+      "forks": 2,
+      "language": "TypeScript"
+    },
+    {
+      "name": "profile-card-by-aka",
+      "url": "https://github.com/akaanakbaik/profile-card-by-aka",
+      "stars": 7,
+      "forks": 1,
+      "language": "CSS"
+    },
+    {
+      "name": "i-am-coming-hacktoberfest",
+      "url": "https://github.com/akaanakbaik/i-am-coming-hacktoberfest",
+      "stars": 6,
+      "forks": 2,
+      "language": "Unknown"
+    },
+    {
+      "name": "profile-card",
+      "url": "https://github.com/akaanakbaik/profile-card",
+      "stars": 6,
+      "forks": 0,
+      "language": "Unknown"
+    },
+    {
+      "name": "dobe",
+      "url": "https://github.com/akaanakbaik/dobe",
+      "stars": 6,
+      "forks": 0,
+      "language": "Unknown"
+    },
+    {
+      "name": "apieyae",
+      "url": "https://github.com/akaanakbaik/apieyae",
+      "stars": 6,
+      "forks": 0,
+      "language": "JavaScript"
+    },
+    {
+      "name": "music-player",
+      "url": "https://github.com/akaanakbaik/music-player",
+      "stars": 6,
+      "forks": 0,
+      "language": "JavaScript"
+    }
+  ],
+  "recentRepositories": [
+    {
+      "name": "akaanakbaik",
+      "url": "https://github.com/akaanakbaik/akaanakbaik",
+      "language": "JavaScript",
+      "updatedAt": "2026-05-15T10:52:09Z"
+    },
+    {
+      "name": "dastermv2",
+      "url": "https://github.com/akaanakbaik/dastermv2",
+      "language": "Shell",
+      "updatedAt": "2026-05-15T10:38:05Z"
+    },
+    {
+      "name": "egg-multi-terminal",
+      "url": "https://github.com/akaanakbaik/egg-multi-terminal",
+      "language": "Shell",
+      "updatedAt": "2026-05-15T10:35:25Z"
+    },
+    {
+      "name": "auto-commit",
+      "url": "https://github.com/akaanakbaik/auto-commit",
+      "language": "Unknown",
+      "updatedAt": "2026-05-15T05:35:09Z"
+    },
+    {
+      "name": "tiny-kabox",
+      "url": "https://github.com/akaanakbaik/tiny-kabox",
+      "language": "TypeScript",
+      "updatedAt": "2026-05-10T15:47:27Z"
+    },
+    {
+      "name": "kaboxv8",
+      "url": "https://github.com/akaanakbaik/kaboxv8",
+      "language": "JavaScript",
+      "updatedAt": "2026-05-10T15:47:19Z"
+    },
+    {
+      "name": "tiny-kaboxv2",
+      "url": "https://github.com/akaanakbaik/tiny-kaboxv2",
+      "language": "TypeScript",
+      "updatedAt": "2026-05-10T15:47:09Z"
+    },
+    {
+      "name": "aiagent",
+      "url": "https://github.com/akaanakbaik/aiagent",
+      "language": "JavaScript",
+      "updatedAt": "2026-05-10T15:47:00Z"
+    }
+  ]
+}
