@@ -1,8 +1,8 @@
 {
   "username": "akaanakbaik",
-  "generatedAt": "16 May 2026, 21:00",
-  "publicRepos": 101,
-  "originalRepos": 82,
+  "generatedAt": "16 May 2026, 22:17",
+  "publicRepos": 102,
+  "originalRepos": 83,
   "forkedRepos": 19,
   "archivedRepos": 0,
   "followers": 13,
@@ -12,11 +12,11 @@
   "totalForks": 26,
   "totalWatchers": 388,
   "totalSize": "681.8 MB",
-  "totalSizeKb": 698115,
+  "totalSizeKb": 698155,
   "topLanguage": "JavaScript",
   "accountAge": "1y 9m",
   "topRepo": "dashterm",
-  "recentRepo": "pterodactyl-gateway",
+  "recentRepo": "web-docs-pterodacty-gateway",
   "largestRepo": "Hacktoberfest2025-3",
   "languageStack": [
     {
@@ -57,8 +57,8 @@
     },
     {
       "name": "HTML",
-      "bytes": 763512,
-      "repos": 47,
+      "bytes": 764838,
+      "repos": 48,
       "logo": "html5"
     },
     {
@@ -251,27 +251,27 @@
   "frontendStack": [
     {
       "name": "React",
-      "count": 31
+      "count": 32
     },
     {
       "name": "Tailwind",
-      "count": 30
+      "count": 31
     },
     {
       "name": "Lucide",
-      "count": 26
+      "count": 27
     },
     {
       "name": "Framer Motion",
-      "count": 25
+      "count": 26
     },
     {
       "name": "Vite",
-      "count": 23
+      "count": 24
     },
     {
       "name": "Vite React",
-      "count": 22
+      "count": 23
     },
     {
       "name": "Next.js",
@@ -289,7 +289,7 @@
   "backendStack": [
     {
       "name": "Express",
-      "count": 24
+      "count": 25
     },
     {
       "name": "Axios",
@@ -377,22 +377,28 @@
   ],
   "recentRepositories": [
     {
+      "name": "web-docs-pterodacty-gateway",
+      "url": "https://github.com/akaanakbaik/web-docs-pterodacty-gateway",
+      "language": "HTML",
+      "updatedAt": "2026-05-16T15:16:29Z"
+    },
+    {
       "name": "pterodactyl-gateway",
       "url": "https://github.com/akaanakbaik/pterodactyl-gateway",
       "language": "TypeScript",
-      "updatedAt": "2026-05-16T13:46:50Z"
-    },
-    {
-      "name": "akaanakbaik",
-      "url": "https://github.com/akaanakbaik/akaanakbaik",
-      "language": "JavaScript",
-      "updatedAt": "2026-05-16T13:03:27Z"
+      "updatedAt": "2026-05-16T14:53:33Z"
     },
     {
       "name": "dastermv2",
       "url": "https://github.com/akaanakbaik/dastermv2",
       "language": "Shell",
-      "updatedAt": "2026-05-16T12:13:33Z"
+      "updatedAt": "2026-05-16T14:05:53Z"
+    },
+    {
+      "name": "akaanakbaik",
+      "url": "https://github.com/akaanakbaik/akaanakbaik",
+      "language": "JavaScript",
+      "updatedAt": "2026-05-16T14:01:02Z"
     },
     {
       "name": "auto-commit",
@@ -417,12 +423,6 @@
       "url": "https://github.com/akaanakbaik/kaboxv8",
       "language": "JavaScript",
       "updatedAt": "2026-05-10T15:47:19Z"
-    },
-    {
-      "name": "tiny-kaboxv2",
-      "url": "https://github.com/akaanakbaik/tiny-kaboxv2",
-      "language": "TypeScript",
-      "updatedAt": "2026-05-10T15:47:09Z"
     }
   ]
 }
