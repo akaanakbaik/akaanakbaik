@@ -1,6 +1,6 @@
 {
   "username": "akaanakbaik",
-  "generatedAt": "16 May 2026, 17:38",
+  "generatedAt": "16 May 2026, 19:07",
   "publicRepos": 101,
   "originalRepos": 82,
   "forkedRepos": 19,
@@ -11,8 +11,8 @@
   "totalStars": 388,
   "totalForks": 26,
   "totalWatchers": 388,
-  "totalSize": "681.9 MB",
-  "totalSizeKb": 698260,
+  "totalSize": "681.7 MB",
+  "totalSizeKb": 698035,
   "topLanguage": "JavaScript",
   "accountAge": "1y 9m",
   "topRepo": "dashterm",
@@ -21,13 +21,13 @@
   "languageStack": [
     {
       "name": "JavaScript",
-      "bytes": 18000527,
+      "bytes": 18013634,
       "repos": 66,
       "logo": "javascript"
     },
     {
       "name": "TypeScript",
-      "bytes": 9397510,
+      "bytes": 9425032,
       "repos": 27,
       "logo": "typescript"
     },
@@ -380,25 +380,25 @@
       "name": "pterodactyl-gateway",
       "url": "https://github.com/akaanakbaik/pterodactyl-gateway",
       "language": "TypeScript",
-      "updatedAt": "2026-05-16T10:37:49Z"
+      "updatedAt": "2026-05-16T11:58:48Z"
+    },
+    {
+      "name": "dastermv2",
+      "url": "https://github.com/akaanakbaik/dastermv2",
+      "language": "Shell",
+      "updatedAt": "2026-05-16T11:07:26Z"
+    },
+    {
+      "name": "akaanakbaik",
+      "url": "https://github.com/akaanakbaik/akaanakbaik",
+      "language": "JavaScript",
+      "updatedAt": "2026-05-16T10:38:43Z"
     },
     {
       "name": "auto-commit",
       "url": "https://github.com/akaanakbaik/auto-commit",
       "language": "Unknown",
       "updatedAt": "2026-05-16T10:10:57Z"
-    },
-    {
-      "name": "dastermv2",
-      "url": "https://github.com/akaanakbaik/dastermv2",
-      "language": "Shell",
-      "updatedAt": "2026-05-16T09:57:04Z"
-    },
-    {
-      "name": "akaanakbaik",
-      "url": "https://github.com/akaanakbaik/akaanakbaik",
-      "language": "JavaScript",
-      "updatedAt": "2026-05-16T09:02:17Z"
     },
     {
       "name": "egg-multi-terminal",
