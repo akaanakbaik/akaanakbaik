@@ -1,8 +1,8 @@
 {
   "username": "akaanakbaik",
-  "generatedAt": "16 May 2026, 13:36",
-  "publicRepos": 100,
-  "originalRepos": 81,
+  "generatedAt": "16 May 2026, 16:02",
+  "publicRepos": 101,
+  "originalRepos": 82,
   "forkedRepos": 19,
   "archivedRepos": 0,
   "followers": 13,
@@ -11,24 +11,24 @@
   "totalStars": 388,
   "totalForks": 26,
   "totalWatchers": 388,
-  "totalSize": "681.7 MB",
-  "totalSizeKb": 698108,
+  "totalSize": "681.8 MB",
+  "totalSizeKb": 698209,
   "topLanguage": "JavaScript",
   "accountAge": "1y 9m",
   "topRepo": "dashterm",
-  "recentRepo": "dastermv2",
+  "recentRepo": "auto-commit",
   "largestRepo": "Hacktoberfest2025-3",
   "languageStack": [
     {
       "name": "JavaScript",
-      "bytes": 17959483,
-      "repos": 65,
+      "bytes": 17986608,
+      "repos": 66,
       "logo": "javascript"
     },
     {
       "name": "TypeScript",
-      "bytes": 9348240,
-      "repos": 26,
+      "bytes": 9397546,
+      "repos": 27,
       "logo": "typescript"
     },
     {
@@ -377,22 +377,28 @@
   ],
   "recentRepositories": [
     {
+      "name": "auto-commit",
+      "url": "https://github.com/akaanakbaik/auto-commit",
+      "language": "Unknown",
+      "updatedAt": "2026-05-16T08:58:49Z"
+    },
+    {
+      "name": "pterodactyl-gateway",
+      "url": "https://github.com/akaanakbaik/pterodactyl-gateway",
+      "language": "TypeScript",
+      "updatedAt": "2026-05-16T08:58:20Z"
+    },
+    {
       "name": "dastermv2",
       "url": "https://github.com/akaanakbaik/dastermv2",
       "language": "Shell",
-      "updatedAt": "2026-05-16T06:11:11Z"
+      "updatedAt": "2026-05-16T08:23:31Z"
     },
     {
       "name": "akaanakbaik",
       "url": "https://github.com/akaanakbaik/akaanakbaik",
       "language": "JavaScript",
-      "updatedAt": "2026-05-16T04:04:12Z"
-    },
-    {
-      "name": "auto-commit",
-      "url": "https://github.com/akaanakbaik/auto-commit",
-      "language": "Unknown",
-      "updatedAt": "2026-05-16T01:25:37Z"
+      "updatedAt": "2026-05-16T06:36:38Z"
     },
     {
       "name": "egg-multi-terminal",
@@ -417,12 +423,6 @@
       "url": "https://github.com/akaanakbaik/tiny-kaboxv2",
       "language": "TypeScript",
       "updatedAt": "2026-05-10T15:47:09Z"
-    },
-    {
-      "name": "aiagent",
-      "url": "https://github.com/akaanakbaik/aiagent",
-      "language": "JavaScript",
-      "updatedAt": "2026-05-10T15:47:00Z"
     }
   ]
 }
