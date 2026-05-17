@@ -1,6 +1,6 @@
 {
   "username": "akaanakbaik",
-  "generatedAt": "17 May 2026, 06:09",
+  "generatedAt": "17 May 2026, 07:09",
   "publicRepos": 102,
   "originalRepos": 83,
   "forkedRepos": 19,
@@ -16,18 +16,18 @@
   "topLanguage": "JavaScript",
   "accountAge": "1y 9m",
   "topRepo": "dashterm",
-  "recentRepo": "dastermv2",
+  "recentRepo": "web-docs-pterodacty-gateway",
   "largestRepo": "Hacktoberfest2025-3",
   "languageStack": [
     {
       "name": "JavaScript",
-      "bytes": 18015977,
+      "bytes": 18016741,
       "repos": 67,
       "logo": "javascript"
     },
     {
       "name": "TypeScript",
-      "bytes": 9433325,
+      "bytes": 9467947,
       "repos": 28,
       "logo": "typescript"
     },
@@ -63,8 +63,8 @@
     },
     {
       "name": "CSS",
-      "bytes": 474510,
-      "repos": 48,
+      "bytes": 476342,
+      "repos": 49,
       "logo": "css3"
     },
     {
@@ -377,22 +377,22 @@
   ],
   "recentRepositories": [
     {
+      "name": "web-docs-pterodacty-gateway",
+      "url": "https://github.com/akaanakbaik/web-docs-pterodacty-gateway",
+      "language": "TypeScript",
+      "updatedAt": "2026-05-16T23:59:12Z"
+    },
+    {
       "name": "dastermv2",
       "url": "https://github.com/akaanakbaik/dastermv2",
       "language": "Shell",
-      "updatedAt": "2026-05-16T22:48:22Z"
+      "updatedAt": "2026-05-16T23:54:51Z"
     },
     {
       "name": "akaanakbaik",
       "url": "https://github.com/akaanakbaik/akaanakbaik",
       "language": "JavaScript",
-      "updatedAt": "2026-05-16T22:06:50Z"
-    },
-    {
-      "name": "web-docs-pterodacty-gateway",
-      "url": "https://github.com/akaanakbaik/web-docs-pterodacty-gateway",
-      "language": "TypeScript",
-      "updatedAt": "2026-05-16T15:30:21Z"
+      "updatedAt": "2026-05-16T23:09:30Z"
     },
     {
       "name": "pterodactyl-gateway",
