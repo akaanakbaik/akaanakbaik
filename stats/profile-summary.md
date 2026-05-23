@@ -1,6 +1,6 @@
 # Profile Metrics Summary
 
-Generated: 23 May 2026, 17:45
+Generated: 23 May 2026, 19:08
 
 ## Account
 
@@ -31,22 +31,23 @@ Generated: 23 May 2026, 17:45
 
 | Language | Repos | Bytes |
 | --- | ---: | ---: |
-| JavaScript | 63 | 17980146 |
-| TypeScript | 27 | 9502792 |
+| JavaScript | 67 | 18016709 |
+| TypeScript | 28 | 9503130 |
+| C++ | 8 | 1089198 |
 | Jupyter Notebook | 1 | 1077015 |
-| C++ | 6 | 1066449 |
-| Python | 10 | 1023000 |
-| Java | 5 | 924021 |
-| HTML | 45 | 758827 |
-| CSS | 47 | 464795 |
-| C | 5 | 440650 |
+| Python | 11 | 1042503 |
+| Java | 6 | 937277 |
+| HTML | 48 | 767128 |
+| CSS | 49 | 477598 |
+| C | 6 | 445770 |
 | Shell | 17 | 204553 |
-| Rust | 2 | 200540 |
-| Go | 4 | 107742 |
+| Rust | 3 | 204518 |
+| Go | 5 | 113542 |
 | PHP | 5 | 27465 |
 | Jinja | 1 | 16737 |
 | Dart | 3 | 7817 |
 | Dockerfile | 3 | 7396 |
+| C# | 2 | 3555 |
 | Batchfile | 2 | 3008 |
 | Assembly | 1 | 1130 |
 | Makefile | 1 | 598 |
@@ -65,7 +66,6 @@ Generated: 23 May 2026, 17:45
 | Pawn | 1 | 56 |
 | LOLCODE | 1 | 52 |
 | Julia | 1 | 51 |
-| C# | 1 | 50 |
 | MATLAB | 1 | 50 |
 | F# | 1 | 48 |
 | R | 1 | 45 |
@@ -74,13 +74,13 @@ Generated: 23 May 2026, 17:45
 
 | Stack | Repos |
 | --- | ---: |
-| React | 29 |
-| Tailwind | 28 |
-| Lucide | 24 |
+| React | 32 |
+| Tailwind | 31 |
+| Lucide | 27 |
+| Framer Motion | 26 |
 | Vite | 24 |
-| Framer Motion | 23 |
 | Vite React | 23 |
-| Next.js | 6 |
+| Next.js | 9 |
 | R3F | 1 |
 | Three.js | 1 |
 
@@ -88,19 +88,19 @@ Generated: 23 May 2026, 17:45
 
 | Stack | Repos |
 | --- | ---: |
-| Express | 23 |
-| Axios | 18 |
+| Express | 25 |
+| Axios | 22 |
+| Neon DB | 12 |
+| Supabase | 12 |
 | Drizzle | 11 |
-| Neon DB | 11 |
-| Supabase | 9 |
 | PostgreSQL | 6 |
 | Postgres | 2 |
+| Prisma | 2 |
+| Redis | 2 |
 | Baileys | 1 |
 | Cron | 1 |
 | Mongoose | 1 |
 | MySQL | 1 |
 | Playwright | 1 |
-| Prisma | 1 |
 | Puppeteer | 1 |
-| Redis | 1 |
 | Telegraf | 1 |
