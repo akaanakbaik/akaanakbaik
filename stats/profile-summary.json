@@ -1,6 +1,6 @@
 {
   "username": "akaanakbaik",
-  "generatedAt": "23 May 2026, 16:14",
+  "generatedAt": "23 May 2026, 17:45",
   "publicRepos": 102,
   "originalRepos": 83,
   "forkedRepos": 19,
@@ -12,30 +12,24 @@
   "totalForks": 26,
   "totalWatchers": 388,
   "totalSize": "682.3 MB",
-  "totalSizeKb": 698645,
+  "totalSizeKb": 698648,
   "topLanguage": "JavaScript",
   "accountAge": "1y 9m",
   "topRepo": "dashterm",
-  "recentRepo": "auto-commit",
+  "recentRepo": "dastermv2",
   "largestRepo": "Hacktoberfest2025-3",
   "languageStack": [
     {
       "name": "JavaScript",
-      "bytes": 18016709,
-      "repos": 67,
+      "bytes": 17980146,
+      "repos": 63,
       "logo": "javascript"
     },
     {
       "name": "TypeScript",
-      "bytes": 9503130,
-      "repos": 28,
+      "bytes": 9502792,
+      "repos": 27,
       "logo": "typescript"
-    },
-    {
-      "name": "C++",
-      "bytes": 1089198,
-      "repos": 8,
-      "logo": "cplusplus"
     },
     {
       "name": "Jupyter Notebook",
@@ -44,33 +38,39 @@
       "logo": ""
     },
     {
+      "name": "C++",
+      "bytes": 1066449,
+      "repos": 6,
+      "logo": "cplusplus"
+    },
+    {
       "name": "Python",
-      "bytes": 1042503,
-      "repos": 11,
+      "bytes": 1023000,
+      "repos": 10,
       "logo": "python"
     },
     {
       "name": "Java",
-      "bytes": 937277,
-      "repos": 6,
+      "bytes": 924021,
+      "repos": 5,
       "logo": "openjdk"
     },
     {
       "name": "HTML",
-      "bytes": 767128,
-      "repos": 48,
+      "bytes": 758827,
+      "repos": 45,
       "logo": "html5"
     },
     {
       "name": "CSS",
-      "bytes": 477598,
-      "repos": 49,
+      "bytes": 464795,
+      "repos": 47,
       "logo": "css3"
     },
     {
       "name": "C",
-      "bytes": 445770,
-      "repos": 6,
+      "bytes": 440650,
+      "repos": 5,
       "logo": "c"
     },
     {
@@ -81,14 +81,14 @@
     },
     {
       "name": "Rust",
-      "bytes": 204518,
-      "repos": 3,
+      "bytes": 200540,
+      "repos": 2,
       "logo": "rust"
     },
     {
       "name": "Go",
-      "bytes": 113542,
-      "repos": 5,
+      "bytes": 107742,
+      "repos": 4,
       "logo": "go"
     },
     {
@@ -113,12 +113,6 @@
       "name": "Dockerfile",
       "bytes": 7396,
       "repos": 3,
-      "logo": ""
-    },
-    {
-      "name": "C#",
-      "bytes": 3555,
-      "repos": 2,
       "logo": ""
     },
     {
@@ -230,6 +224,12 @@
       "logo": ""
     },
     {
+      "name": "C#",
+      "bytes": 50,
+      "repos": 1,
+      "logo": ""
+    },
+    {
       "name": "MATLAB",
       "bytes": 50,
       "repos": 1,
@@ -251,23 +251,23 @@
   "frontendStack": [
     {
       "name": "React",
-      "count": 32
+      "count": 29
     },
     {
       "name": "Tailwind",
-      "count": 31
+      "count": 28
     },
     {
       "name": "Lucide",
-      "count": 27
-    },
-    {
-      "name": "Framer Motion",
-      "count": 26
+      "count": 24
     },
     {
       "name": "Vite",
       "count": 24
+    },
+    {
+      "name": "Framer Motion",
+      "count": 23
     },
     {
       "name": "Vite React",
@@ -275,7 +275,7 @@
     },
     {
       "name": "Next.js",
-      "count": 9
+      "count": 6
     },
     {
       "name": "R3F",
@@ -289,23 +289,23 @@
   "backendStack": [
     {
       "name": "Express",
-      "count": 25
+      "count": 23
     },
     {
       "name": "Axios",
-      "count": 22
-    },
-    {
-      "name": "Neon DB",
-      "count": 12
-    },
-    {
-      "name": "Supabase",
-      "count": 12
+      "count": 18
     },
     {
       "name": "Drizzle",
       "count": 11
+    },
+    {
+      "name": "Neon DB",
+      "count": 11
+    },
+    {
+      "name": "Supabase",
+      "count": 9
     },
     {
       "name": "PostgreSQL",
@@ -313,14 +313,6 @@
     },
     {
       "name": "Postgres",
-      "count": 2
-    },
-    {
-      "name": "Prisma",
-      "count": 2
-    },
-    {
-      "name": "Redis",
       "count": 2
     },
     {
@@ -344,7 +336,15 @@
       "count": 1
     },
     {
+      "name": "Prisma",
+      "count": 1
+    },
+    {
       "name": "Puppeteer",
+      "count": 1
+    },
+    {
+      "name": "Redis",
       "count": 1
     },
     {
@@ -377,22 +377,22 @@
   ],
   "recentRepositories": [
     {
-      "name": "auto-commit",
-      "url": "https://github.com/akaanakbaik/auto-commit",
-      "language": "Unknown",
-      "updatedAt": "2026-05-23T08:07:43Z"
-    },
-    {
       "name": "dastermv2",
       "url": "https://github.com/akaanakbaik/dastermv2",
       "language": "Shell",
-      "updatedAt": "2026-05-23T07:15:50Z"
+      "updatedAt": "2026-05-23T09:21:19Z"
     },
     {
       "name": "akaanakbaik",
       "url": "https://github.com/akaanakbaik/akaanakbaik",
       "language": "JavaScript",
-      "updatedAt": "2026-05-23T06:46:48Z"
+      "updatedAt": "2026-05-23T09:14:52Z"
+    },
+    {
+      "name": "auto-commit",
+      "url": "https://github.com/akaanakbaik/auto-commit",
+      "language": "Unknown",
+      "updatedAt": "2026-05-23T08:07:43Z"
     },
     {
       "name": "web-docs-pterodacty-gateway",
