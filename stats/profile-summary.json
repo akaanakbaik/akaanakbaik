@@ -1,6 +1,6 @@
 {
   "username": "akaanakbaik",
-  "generatedAt": "30 May 2026, 22:37",
+  "generatedAt": "31 May 2026, 00:31",
   "publicRepos": 102,
   "originalRepos": 83,
   "forkedRepos": 19,
@@ -12,11 +12,11 @@
   "totalForks": 26,
   "totalWatchers": 388,
   "totalSize": "682.3 MB",
-  "totalSizeKb": 698717,
+  "totalSizeKb": 698721,
   "topLanguage": "JavaScript",
   "accountAge": "1y 9m",
   "topRepo": "dashterm",
-  "recentRepo": "auto-commit",
+  "recentRepo": "dastermv2",
   "largestRepo": "Hacktoberfest2025-3",
   "languageStack": [
     {
@@ -377,22 +377,22 @@
   ],
   "recentRepositories": [
     {
-      "name": "auto-commit",
-      "url": "https://github.com/akaanakbaik/auto-commit",
-      "language": "Unknown",
-      "updatedAt": "2026-05-30T14:56:59Z"
-    },
-    {
       "name": "dastermv2",
       "url": "https://github.com/akaanakbaik/dastermv2",
       "language": "Shell",
-      "updatedAt": "2026-05-30T14:13:57Z"
+      "updatedAt": "2026-05-30T17:07:15Z"
     },
     {
       "name": "akaanakbaik",
       "url": "https://github.com/akaanakbaik/akaanakbaik",
       "language": "JavaScript",
-      "updatedAt": "2026-05-30T14:08:47Z"
+      "updatedAt": "2026-05-30T15:37:23Z"
+    },
+    {
+      "name": "auto-commit",
+      "url": "https://github.com/akaanakbaik/auto-commit",
+      "language": "Unknown",
+      "updatedAt": "2026-05-30T14:56:59Z"
     },
     {
       "name": "pterodactyl-gateway",
