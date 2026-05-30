@@ -1,6 +1,6 @@
 {
   "username": "akaanakbaik",
-  "generatedAt": "30 May 2026, 14:58",
+  "generatedAt": "30 May 2026, 17:18",
   "publicRepos": 102,
   "originalRepos": 83,
   "forkedRepos": 19,
@@ -12,7 +12,7 @@
   "totalForks": 26,
   "totalWatchers": 388,
   "totalSize": "682.3 MB",
-  "totalSizeKb": 698648,
+  "totalSizeKb": 698658,
   "topLanguage": "JavaScript",
   "accountAge": "1y 9m",
   "topRepo": "dashterm",
@@ -27,7 +27,7 @@
     },
     {
       "name": "TypeScript",
-      "bytes": 9503130,
+      "bytes": 9503135,
       "repos": 28,
       "logo": "typescript"
     },
@@ -380,13 +380,19 @@
       "name": "dastermv2",
       "url": "https://github.com/akaanakbaik/dastermv2",
       "language": "Shell",
-      "updatedAt": "2026-05-30T06:47:05Z"
+      "updatedAt": "2026-05-30T09:19:35Z"
+    },
+    {
+      "name": "pterodactyl-gateway",
+      "url": "https://github.com/akaanakbaik/pterodactyl-gateway",
+      "language": "TypeScript",
+      "updatedAt": "2026-05-30T08:28:03Z"
     },
     {
       "name": "akaanakbaik",
       "url": "https://github.com/akaanakbaik/akaanakbaik",
       "language": "JavaScript",
-      "updatedAt": "2026-05-30T04:18:50Z"
+      "updatedAt": "2026-05-30T07:58:42Z"
     },
     {
       "name": "auto-commit",
@@ -399,12 +405,6 @@
       "url": "https://github.com/akaanakbaik/web-docs-pterodacty-gateway",
       "language": "TypeScript",
       "updatedAt": "2026-05-17T16:36:10Z"
-    },
-    {
-      "name": "pterodactyl-gateway",
-      "url": "https://github.com/akaanakbaik/pterodactyl-gateway",
-      "language": "TypeScript",
-      "updatedAt": "2026-05-17T04:27:53Z"
     },
     {
       "name": "egg-multi-terminal",
