@@ -1,6 +1,6 @@
 # Profile Metrics Summary
 
-Generated: 01 Jun 2026, 17:34
+Generated: 01 Jun 2026, 23:47
 
 ## Account
 
@@ -13,9 +13,9 @@ Generated: 01 Jun 2026, 17:34
 | Followers | 13 |
 | Following | 31 |
 | Public gists | 0 |
-| Total stars | 393 |
+| Total stars | 396 |
 | Total forks | 26 |
-| Total watchers | 393 |
+| Total watchers | 396 |
 | Total repo size | 682.1 MB |
 | Top language | JavaScript |
 
@@ -23,16 +23,16 @@ Generated: 01 Jun 2026, 17:34
 
 | # | Repo | Stars | Forks | Language |
 | --- | --- | ---: | ---: | --- |
-| 1 | [dashterm](https://github.com/akaanakbaik/dashterm) | 7 | 2 | Shell |
-| 2 | [my-portofolio](https://github.com/akaanakbaik/my-portofolio) | 7 | 2 | TypeScript |
-| 3 | [profile-card-by-aka](https://github.com/akaanakbaik/profile-card-by-aka) | 7 | 1 | CSS |
+| 1 | [pterodactyl-gateway](https://github.com/akaanakbaik/pterodactyl-gateway) | 8 | 0 | TypeScript |
+| 2 | [dashterm](https://github.com/akaanakbaik/dashterm) | 7 | 2 | Shell |
+| 3 | [my-portofolio](https://github.com/akaanakbaik/my-portofolio) | 7 | 2 | TypeScript |
 
 ## Language Stack
 
 | Language | Repos | Bytes |
 | --- | ---: | ---: |
-| JavaScript | 67 | 18016709 |
-| TypeScript | 28 | 9503135 |
+| JavaScript | 67 | 18016719 |
+| TypeScript | 28 | 9512084 |
 | C++ | 8 | 1089198 |
 | Jupyter Notebook | 1 | 1077015 |
 | Python | 11 | 1042503 |
