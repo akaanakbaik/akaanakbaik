@@ -1,9 +1,9 @@
 {
   "username": "akaanakbaik",
-  "generatedAt": "03 Jun 2026, 19:13",
-  "publicRepos": 102,
+  "generatedAt": "04 Jun 2026, 00:19",
+  "publicRepos": 103,
   "originalRepos": 83,
-  "forkedRepos": 19,
+  "forkedRepos": 20,
   "archivedRepos": 0,
   "followers": 13,
   "following": 31,
@@ -11,25 +11,37 @@
   "totalStars": 396,
   "totalForks": 26,
   "totalWatchers": 396,
-  "totalSize": "682.3 MB",
-  "totalSizeKb": 698705,
+  "totalSize": "708.1 MB",
+  "totalSizeKb": 725101,
   "topLanguage": "JavaScript",
   "accountAge": "1y 10m",
   "topRepo": "pterodactyl-gateway",
-  "recentRepo": "dastermv2",
+  "recentRepo": "akaanakbaik",
   "largestRepo": "Hacktoberfest2025-3",
   "languageStack": [
     {
       "name": "JavaScript",
-      "bytes": 18016719,
-      "repos": 67,
+      "bytes": 23151732,
+      "repos": 68,
       "logo": "javascript"
     },
     {
       "name": "TypeScript",
-      "bytes": 9512084,
-      "repos": 28,
+      "bytes": 9515930,
+      "repos": 29,
       "logo": "typescript"
+    },
+    {
+      "name": "Python",
+      "bytes": 5970901,
+      "repos": 12,
+      "logo": "python"
+    },
+    {
+      "name": "CSS",
+      "bytes": 1601784,
+      "repos": 50,
+      "logo": "css3"
     },
     {
       "name": "C++",
@@ -44,28 +56,16 @@
       "logo": ""
     },
     {
-      "name": "Python",
-      "bytes": 1042503,
-      "repos": 11,
-      "logo": "python"
+      "name": "HTML",
+      "bytes": 1032495,
+      "repos": 49,
+      "logo": "html5"
     },
     {
       "name": "Java",
       "bytes": 937277,
       "repos": 6,
       "logo": "openjdk"
-    },
-    {
-      "name": "HTML",
-      "bytes": 767128,
-      "repos": 48,
-      "logo": "html5"
-    },
-    {
-      "name": "CSS",
-      "bytes": 477598,
-      "repos": 49,
-      "logo": "css3"
     },
     {
       "name": "C",
@@ -75,8 +75,8 @@
     },
     {
       "name": "Shell",
-      "bytes": 204553,
-      "repos": 17,
+      "bytes": 263517,
+      "repos": 18,
       "logo": "gnubash"
     },
     {
@@ -104,26 +104,32 @@
       "logo": ""
     },
     {
+      "name": "Dockerfile",
+      "bytes": 9030,
+      "repos": 4,
+      "logo": ""
+    },
+    {
       "name": "Dart",
       "bytes": 7817,
       "repos": 3,
       "logo": "dart"
     },
     {
-      "name": "Dockerfile",
-      "bytes": 7396,
+      "name": "PowerShell",
+      "bytes": 4863,
+      "repos": 1,
+      "logo": ""
+    },
+    {
+      "name": "Batchfile",
+      "bytes": 4254,
       "repos": 3,
       "logo": ""
     },
     {
       "name": "C#",
       "bytes": 3555,
-      "repos": 2,
-      "logo": ""
-    },
-    {
-      "name": "Batchfile",
-      "bytes": 3008,
       "repos": 2,
       "logo": ""
     },
@@ -377,22 +383,28 @@
   ],
   "recentRepositories": [
     {
+      "name": "akaanakbaik",
+      "url": "https://github.com/akaanakbaik/akaanakbaik",
+      "language": "JavaScript",
+      "updatedAt": "2026-06-03T16:21:29Z"
+    },
+    {
+      "name": "odysseus",
+      "url": "https://github.com/akaanakbaik/odysseus",
+      "language": "Unknown",
+      "updatedAt": "2026-06-03T15:50:19Z"
+    },
+    {
       "name": "dastermv2",
       "url": "https://github.com/akaanakbaik/dastermv2",
       "language": "Shell",
-      "updatedAt": "2026-06-03T10:23:43Z"
+      "updatedAt": "2026-06-03T15:29:21Z"
     },
     {
       "name": "auto-commit",
       "url": "https://github.com/akaanakbaik/auto-commit",
       "language": "Unknown",
-      "updatedAt": "2026-06-03T10:14:15Z"
-    },
-    {
-      "name": "akaanakbaik",
-      "url": "https://github.com/akaanakbaik/akaanakbaik",
-      "language": "JavaScript",
-      "updatedAt": "2026-06-03T07:14:13Z"
+      "updatedAt": "2026-06-03T15:20:42Z"
     },
     {
       "name": "pterodactyl-gateway",
@@ -417,12 +429,6 @@
       "url": "https://github.com/akaanakbaik/tiny-kabox",
       "language": "TypeScript",
       "updatedAt": "2026-05-10T15:47:27Z"
-    },
-    {
-      "name": "kaboxv8",
-      "url": "https://github.com/akaanakbaik/kaboxv8",
-      "language": "JavaScript",
-      "updatedAt": "2026-05-10T15:47:19Z"
     }
   ]
 }
