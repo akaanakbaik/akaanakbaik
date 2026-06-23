@@ -1,18 +1,18 @@
 {
   "username": "akaanakbaik",
-  "generatedAt": "23 Jun 2026, 13:19",
+  "generatedAt": "23 Jun 2026, 17:44",
   "publicRepos": 103,
   "originalRepos": 83,
   "forkedRepos": 20,
   "archivedRepos": 0,
-  "followers": 31,
+  "followers": 32,
   "following": 48,
   "publicGists": 0,
   "totalStars": 397,
   "totalForks": 27,
   "totalWatchers": 397,
-  "totalSize": "779.1 MB",
-  "totalSizeKb": 797806,
+  "totalSize": "779.6 MB",
+  "totalSizeKb": 798282,
   "topLanguage": "JavaScript",
   "accountAge": "1y 10m",
   "topRepo": "pterodactyl-gateway",
@@ -386,19 +386,25 @@
       "name": "dastermv2",
       "url": "https://github.com/akaanakbaik/dastermv2",
       "language": "Shell",
-      "updatedAt": "2026-06-23T06:08:45Z"
+      "updatedAt": "2026-06-23T10:10:27Z"
+    },
+    {
+      "name": "my-cdn",
+      "url": "https://github.com/akaanakbaik/my-cdn",
+      "language": "JavaScript",
+      "updatedAt": "2026-06-23T09:24:45Z"
+    },
+    {
+      "name": "akaanakbaik",
+      "url": "https://github.com/akaanakbaik/akaanakbaik",
+      "language": "JavaScript",
+      "updatedAt": "2026-06-23T06:20:02Z"
     },
     {
       "name": "auto-commit",
       "url": "https://github.com/akaanakbaik/auto-commit",
       "language": "Unknown",
       "updatedAt": "2026-06-23T03:40:36Z"
-    },
-    {
-      "name": "akaanakbaik",
-      "url": "https://github.com/akaanakbaik/akaanakbaik",
-      "language": "JavaScript",
-      "updatedAt": "2026-06-23T02:30:39Z"
     },
     {
       "name": "pterodactyl-gateway",
@@ -423,12 +429,6 @@
       "url": "https://github.com/akaanakbaik/egg-multi-terminal",
       "language": "Shell",
       "updatedAt": "2026-05-15T10:35:25Z"
-    },
-    {
-      "name": "tiny-kabox",
-      "url": "https://github.com/akaanakbaik/tiny-kabox",
-      "language": "TypeScript",
-      "updatedAt": "2026-05-10T15:47:27Z"
     }
   ]
 }
