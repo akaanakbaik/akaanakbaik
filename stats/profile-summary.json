@@ -1,22 +1,22 @@
 {
   "username": "akaanakbaik",
-  "generatedAt": "30 Jun 2026, 13:33",
+  "generatedAt": "30 Jun 2026, 17:39",
   "publicRepos": 103,
   "originalRepos": 83,
   "forkedRepos": 20,
   "archivedRepos": 0,
-  "followers": 40,
+  "followers": 41,
   "following": 57,
   "publicGists": 0,
   "totalStars": 410,
   "totalForks": 27,
   "totalWatchers": 410,
   "totalSize": "779.5 MB",
-  "totalSizeKb": 798240,
+  "totalSizeKb": 798244,
   "topLanguage": "JavaScript",
   "accountAge": "1y 10m",
   "topRepo": "pterodactyl-gateway",
-  "recentRepo": "ai-cli",
+  "recentRepo": "dastermv2",
   "largestRepo": "Hacktoberfest2025-3",
   "languageStack": [
     {
@@ -383,6 +383,18 @@
   ],
   "recentRepositories": [
     {
+      "name": "dastermv2",
+      "url": "https://github.com/akaanakbaik/dastermv2",
+      "language": "Shell",
+      "updatedAt": "2026-06-30T08:31:00Z"
+    },
+    {
+      "name": "akaanakbaik",
+      "url": "https://github.com/akaanakbaik/akaanakbaik",
+      "language": "JavaScript",
+      "updatedAt": "2026-06-30T06:34:02Z"
+    },
+    {
       "name": "ai-cli",
       "url": "https://github.com/akaanakbaik/ai-cli",
       "language": "JavaScript",
@@ -416,18 +428,6 @@
       "name": "egg-multi-terminal",
       "url": "https://github.com/akaanakbaik/egg-multi-terminal",
       "language": "Shell",
-      "updatedAt": "2026-06-30T05:00:53Z"
-    },
-    {
-      "name": "web-math-dan-physics-by-gpt",
-      "url": "https://github.com/akaanakbaik/web-math-dan-physics-by-gpt",
-      "language": "JavaScript",
-      "updatedAt": "2026-06-30T05:00:53Z"
-    },
-    {
-      "name": "web-math-dan-physic-by-kimi",
-      "url": "https://github.com/akaanakbaik/web-math-dan-physic-by-kimi",
-      "language": "JavaScript",
       "updatedAt": "2026-06-30T05:00:53Z"
     }
   ]
