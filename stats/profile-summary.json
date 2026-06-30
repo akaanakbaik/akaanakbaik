@@ -1,22 +1,22 @@
 {
   "username": "akaanakbaik",
-  "generatedAt": "30 Jun 2026, 08:28",
+  "generatedAt": "30 Jun 2026, 13:33",
   "publicRepos": 103,
   "originalRepos": 83,
   "forkedRepos": 20,
   "archivedRepos": 0,
-  "followers": 39,
-  "following": 54,
+  "followers": 40,
+  "following": 57,
   "publicGists": 0,
-  "totalStars": 397,
+  "totalStars": 410,
   "totalForks": 27,
-  "totalWatchers": 397,
+  "totalWatchers": 410,
   "totalSize": "779.5 MB",
-  "totalSizeKb": 798190,
+  "totalSizeKb": 798240,
   "topLanguage": "JavaScript",
   "accountAge": "1y 10m",
   "topRepo": "pterodactyl-gateway",
-  "recentRepo": "dastermv2",
+  "recentRepo": "ai-cli",
   "largestRepo": "Hacktoberfest2025-3",
   "languageStack": [
     {
@@ -362,7 +362,7 @@
     {
       "name": "pterodactyl-gateway",
       "url": "https://github.com/akaanakbaik/pterodactyl-gateway",
-      "stars": 9,
+      "stars": 10,
       "forks": 0,
       "language": "TypeScript"
     },
@@ -383,52 +383,52 @@
   ],
   "recentRepositories": [
     {
-      "name": "dastermv2",
-      "url": "https://github.com/akaanakbaik/dastermv2",
-      "language": "Shell",
-      "updatedAt": "2026-06-30T00:14:59Z"
-    },
-    {
-      "name": "auto-commit",
-      "url": "https://github.com/akaanakbaik/auto-commit",
-      "language": "Unknown",
-      "updatedAt": "2026-06-29T23:54:07Z"
-    },
-    {
-      "name": "akaanakbaik",
-      "url": "https://github.com/akaanakbaik/akaanakbaik",
+      "name": "ai-cli",
+      "url": "https://github.com/akaanakbaik/ai-cli",
       "language": "JavaScript",
-      "updatedAt": "2026-06-29T23:17:21Z"
+      "updatedAt": "2026-06-30T05:00:59Z"
     },
     {
-      "name": "my-cdn",
-      "url": "https://github.com/akaanakbaik/my-cdn",
-      "language": "JavaScript",
-      "updatedAt": "2026-06-23T09:24:45Z"
-    },
-    {
-      "name": "pterodactyl-gateway",
-      "url": "https://github.com/akaanakbaik/pterodactyl-gateway",
-      "language": "TypeScript",
-      "updatedAt": "2026-06-18T12:02:30Z"
-    },
-    {
-      "name": "odysseus",
-      "url": "https://github.com/akaanakbaik/odysseus",
+      "name": "liora",
+      "url": "https://github.com/akaanakbaik/liora",
       "language": "Unknown",
-      "updatedAt": "2026-06-03T15:50:19Z"
+      "updatedAt": "2026-06-30T05:00:59Z"
     },
     {
-      "name": "web-docs-pterodacty-gateway",
-      "url": "https://github.com/akaanakbaik/web-docs-pterodacty-gateway",
+      "name": "test-scraper-ai",
+      "url": "https://github.com/akaanakbaik/test-scraper-ai",
+      "language": "JavaScript",
+      "updatedAt": "2026-06-30T05:00:55Z"
+    },
+    {
+      "name": "vps-inspec",
+      "url": "https://github.com/akaanakbaik/vps-inspec",
+      "language": "Rust",
+      "updatedAt": "2026-06-30T05:00:54Z"
+    },
+    {
+      "name": "musika",
+      "url": "https://github.com/akaanakbaik/musika",
       "language": "TypeScript",
-      "updatedAt": "2026-05-17T16:36:10Z"
+      "updatedAt": "2026-06-30T05:00:54Z"
     },
     {
       "name": "egg-multi-terminal",
       "url": "https://github.com/akaanakbaik/egg-multi-terminal",
       "language": "Shell",
-      "updatedAt": "2026-05-15T10:35:25Z"
+      "updatedAt": "2026-06-30T05:00:53Z"
+    },
+    {
+      "name": "web-math-dan-physics-by-gpt",
+      "url": "https://github.com/akaanakbaik/web-math-dan-physics-by-gpt",
+      "language": "JavaScript",
+      "updatedAt": "2026-06-30T05:00:53Z"
+    },
+    {
+      "name": "web-math-dan-physic-by-kimi",
+      "url": "https://github.com/akaanakbaik/web-math-dan-physic-by-kimi",
+      "language": "JavaScript",
+      "updatedAt": "2026-06-30T05:00:53Z"
     }
   ]
 }
