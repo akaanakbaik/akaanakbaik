@@ -1,18 +1,18 @@
 {
   "username": "akaanakbaik",
-  "generatedAt": "06 Jul 2026, 16:11",
-  "publicRepos": 103,
-  "originalRepos": 83,
+  "generatedAt": "06 Jul 2026, 19:59",
+  "publicRepos": 104,
+  "originalRepos": 84,
   "forkedRepos": 20,
   "archivedRepos": 0,
-  "followers": 44,
-  "following": 57,
+  "followers": 45,
+  "following": 62,
   "publicGists": 0,
   "totalStars": 410,
   "totalForks": 27,
   "totalWatchers": 410,
-  "totalSize": "779.5 MB",
-  "totalSizeKb": 798184,
+  "totalSize": "781.2 MB",
+  "totalSizeKb": 799930,
   "topLanguage": "JavaScript",
   "accountAge": "1y 11m",
   "topRepo": "pterodactyl-gateway",
@@ -21,8 +21,8 @@
   "languageStack": [
     {
       "name": "JavaScript",
-      "bytes": 23118174,
-      "repos": 68,
+      "bytes": 23273066,
+      "repos": 69,
       "logo": "javascript"
     },
     {
@@ -75,8 +75,8 @@
     },
     {
       "name": "Shell",
-      "bytes": 263517,
-      "repos": 18,
+      "bytes": 263622,
+      "repos": 19,
       "logo": "gnubash"
     },
     {
@@ -386,19 +386,25 @@
       "name": "dastermv2",
       "url": "https://github.com/akaanakbaik/dastermv2",
       "language": "Shell",
-      "updatedAt": "2026-07-06T09:00:13Z"
+      "updatedAt": "2026-07-06T12:56:17Z"
     },
     {
-      "name": "akaanakbaik",
-      "url": "https://github.com/akaanakbaik/akaanakbaik",
+      "name": "libsignal",
+      "url": "https://github.com/akaanakbaik/libsignal",
       "language": "JavaScript",
-      "updatedAt": "2026-07-06T04:39:53Z"
+      "updatedAt": "2026-07-06T12:08:47Z"
     },
     {
       "name": "auto-commit",
       "url": "https://github.com/akaanakbaik/auto-commit",
       "language": "Unknown",
-      "updatedAt": "2026-07-06T02:31:19Z"
+      "updatedAt": "2026-07-06T11:18:15Z"
+    },
+    {
+      "name": "akaanakbaik",
+      "url": "https://github.com/akaanakbaik/akaanakbaik",
+      "language": "JavaScript",
+      "updatedAt": "2026-07-06T09:11:33Z"
     },
     {
       "name": "pterodactyl-gateway",
@@ -423,12 +429,6 @@
       "url": "https://github.com/akaanakbaik/test-scraper-ai",
       "language": "JavaScript",
       "updatedAt": "2026-06-30T05:00:55Z"
-    },
-    {
-      "name": "vps-inspec",
-      "url": "https://github.com/akaanakbaik/vps-inspec",
-      "language": "Rust",
-      "updatedAt": "2026-06-30T05:00:54Z"
     }
   ]
 }
