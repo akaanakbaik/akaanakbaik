@@ -1,8 +1,8 @@
 {
   "username": "akaanakbaik",
-  "generatedAt": "07 Jul 2026, 22:15",
-  "publicRepos": 104,
-  "originalRepos": 84,
+  "generatedAt": "08 Jul 2026, 00:27",
+  "publicRepos": 105,
+  "originalRepos": 85,
   "forkedRepos": 20,
   "archivedRepos": 0,
   "followers": 47,
@@ -11,12 +11,12 @@
   "totalStars": 410,
   "totalForks": 27,
   "totalWatchers": 410,
-  "totalSize": "781.3 MB",
-  "totalSizeKb": 800102,
+  "totalSize": "781.5 MB",
+  "totalSizeKb": 800280,
   "topLanguage": "JavaScript",
   "accountAge": "1y 11m",
   "topRepo": "pterodactyl-gateway",
-  "recentRepo": "akaanakbaik",
+  "recentRepo": "mydash-vps",
   "largestRepo": "Hacktoberfest2025-3",
   "languageStack": [
     {
@@ -383,16 +383,22 @@
   ],
   "recentRepositories": [
     {
-      "name": "akaanakbaik",
-      "url": "https://github.com/akaanakbaik/akaanakbaik",
-      "language": "JavaScript",
-      "updatedAt": "2026-07-07T14:14:45Z"
+      "name": "mydash-vps",
+      "url": "https://github.com/akaanakbaik/mydash-vps",
+      "language": "Unknown",
+      "updatedAt": "2026-07-07T17:17:24Z"
     },
     {
       "name": "dastermv2",
       "url": "https://github.com/akaanakbaik/dastermv2",
       "language": "Shell",
-      "updatedAt": "2026-07-07T12:27:42Z"
+      "updatedAt": "2026-07-07T15:28:26Z"
+    },
+    {
+      "name": "akaanakbaik",
+      "url": "https://github.com/akaanakbaik/akaanakbaik",
+      "language": "JavaScript",
+      "updatedAt": "2026-07-07T15:18:36Z"
     },
     {
       "name": "auto-commit",
@@ -423,12 +429,6 @@
       "url": "https://github.com/akaanakbaik/liora",
       "language": "Unknown",
       "updatedAt": "2026-06-30T05:00:59Z"
-    },
-    {
-      "name": "test-scraper-ai",
-      "url": "https://github.com/akaanakbaik/test-scraper-ai",
-      "language": "JavaScript",
-      "updatedAt": "2026-06-30T05:00:55Z"
     }
   ]
 }
