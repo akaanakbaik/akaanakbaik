@@ -1,22 +1,22 @@
 {
   "username": "akaanakbaik",
-  "generatedAt": "08 Jul 2026, 13:39",
+  "generatedAt": "08 Jul 2026, 16:38",
   "publicRepos": 105,
   "originalRepos": 85,
   "forkedRepos": 20,
   "archivedRepos": 0,
   "followers": 47,
-  "following": 63,
+  "following": 62,
   "publicGists": 0,
   "totalStars": 410,
   "totalForks": 27,
   "totalWatchers": 410,
   "totalSize": "781.7 MB",
-  "totalSizeKb": 800506,
+  "totalSizeKb": 800508,
   "topLanguage": "JavaScript",
   "accountAge": "1y 11m",
   "topRepo": "pterodactyl-gateway",
-  "recentRepo": "auto-commit",
+  "recentRepo": "dastermv2",
   "largestRepo": "Hacktoberfest2025-3",
   "languageStack": [
     {
@@ -383,28 +383,28 @@
   ],
   "recentRepositories": [
     {
+      "name": "dastermv2",
+      "url": "https://github.com/akaanakbaik/dastermv2",
+      "language": "Shell",
+      "updatedAt": "2026-07-08T07:03:45Z"
+    },
+    {
+      "name": "akaanakbaik",
+      "url": "https://github.com/akaanakbaik/akaanakbaik",
+      "language": "JavaScript",
+      "updatedAt": "2026-07-08T06:39:21Z"
+    },
+    {
       "name": "auto-commit",
       "url": "https://github.com/akaanakbaik/auto-commit",
       "language": "Unknown",
       "updatedAt": "2026-07-08T04:32:20Z"
     },
     {
-      "name": "dastermv2",
-      "url": "https://github.com/akaanakbaik/dastermv2",
-      "language": "Shell",
-      "updatedAt": "2026-07-08T04:23:54Z"
-    },
-    {
       "name": "mydash-vps",
       "url": "https://github.com/akaanakbaik/mydash-vps",
       "language": "Unknown",
       "updatedAt": "2026-07-08T04:20:17Z"
-    },
-    {
-      "name": "akaanakbaik",
-      "url": "https://github.com/akaanakbaik/akaanakbaik",
-      "language": "JavaScript",
-      "updatedAt": "2026-07-08T03:47:39Z"
     },
     {
       "name": "libsignal",
