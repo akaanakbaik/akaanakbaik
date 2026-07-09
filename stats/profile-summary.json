@@ -1,6 +1,6 @@
 {
   "username": "akaanakbaik",
-  "generatedAt": "09 Jul 2026, 22:34",
+  "generatedAt": "10 Jul 2026, 01:11",
   "publicRepos": 105,
   "originalRepos": 85,
   "forkedRepos": 20,
@@ -11,24 +11,24 @@
   "totalStars": 410,
   "totalForks": 27,
   "totalWatchers": 410,
-  "totalSize": "781.5 MB",
-  "totalSizeKb": 800244,
+  "totalSize": "782.0 MB",
+  "totalSizeKb": 800772,
   "topLanguage": "JavaScript",
   "accountAge": "1y 11m",
   "topRepo": "pterodactyl-gateway",
-  "recentRepo": "akaanakbaik",
+  "recentRepo": "mydash-vps",
   "largestRepo": "Hacktoberfest2025-3",
   "languageStack": [
     {
       "name": "JavaScript",
-      "bytes": 23273066,
-      "repos": 69,
+      "bytes": 23274345,
+      "repos": 70,
       "logo": "javascript"
     },
     {
       "name": "TypeScript",
-      "bytes": 9544815,
-      "repos": 29,
+      "bytes": 11070023,
+      "repos": 30,
       "logo": "typescript"
     },
     {
@@ -39,8 +39,8 @@
     },
     {
       "name": "CSS",
-      "bytes": 1601784,
-      "repos": 50,
+      "bytes": 1602416,
+      "repos": 51,
       "logo": "css3"
     },
     {
@@ -57,8 +57,8 @@
     },
     {
       "name": "HTML",
-      "bytes": 1032495,
-      "repos": 49,
+      "bytes": 1032929,
+      "repos": 50,
       "logo": "html5"
     },
     {
@@ -105,8 +105,8 @@
     },
     {
       "name": "Dockerfile",
-      "bytes": 9030,
-      "repos": 4,
+      "bytes": 11460,
+      "repos": 5,
       "logo": ""
     },
     {
@@ -383,28 +383,28 @@
   ],
   "recentRepositories": [
     {
-      "name": "akaanakbaik",
-      "url": "https://github.com/akaanakbaik/akaanakbaik",
-      "language": "JavaScript",
-      "updatedAt": "2026-07-09T14:36:55Z"
+      "name": "mydash-vps",
+      "url": "https://github.com/akaanakbaik/mydash-vps",
+      "language": "TypeScript",
+      "updatedAt": "2026-07-09T17:08:51Z"
     },
     {
       "name": "dastermv2",
       "url": "https://github.com/akaanakbaik/dastermv2",
       "language": "Shell",
-      "updatedAt": "2026-07-09T14:08:29Z"
+      "updatedAt": "2026-07-09T17:01:39Z"
     },
     {
       "name": "auto-commit",
       "url": "https://github.com/akaanakbaik/auto-commit",
       "language": "Unknown",
-      "updatedAt": "2026-07-09T10:21:04Z"
+      "updatedAt": "2026-07-09T15:49:11Z"
     },
     {
-      "name": "mydash-vps",
-      "url": "https://github.com/akaanakbaik/mydash-vps",
-      "language": "Unknown",
-      "updatedAt": "2026-07-08T04:20:17Z"
+      "name": "akaanakbaik",
+      "url": "https://github.com/akaanakbaik/akaanakbaik",
+      "language": "JavaScript",
+      "updatedAt": "2026-07-09T15:35:52Z"
     },
     {
       "name": "libsignal",
