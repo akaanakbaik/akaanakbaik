@@ -1,6 +1,6 @@
 {
   "username": "akaanakbaik",
-  "generatedAt": "10 Jul 2026, 01:11",
+  "generatedAt": "10 Jul 2026, 03:05",
   "publicRepos": 105,
   "originalRepos": 85,
   "forkedRepos": 20,
@@ -12,22 +12,22 @@
   "totalForks": 27,
   "totalWatchers": 410,
   "totalSize": "782.0 MB",
-  "totalSizeKb": 800772,
+  "totalSizeKb": 800783,
   "topLanguage": "JavaScript",
   "accountAge": "1y 11m",
   "topRepo": "pterodactyl-gateway",
-  "recentRepo": "mydash-vps",
+  "recentRepo": "dastermv2",
   "largestRepo": "Hacktoberfest2025-3",
   "languageStack": [
     {
       "name": "JavaScript",
-      "bytes": 23274345,
+      "bytes": 23274368,
       "repos": 70,
       "logo": "javascript"
     },
     {
       "name": "TypeScript",
-      "bytes": 11070023,
+      "bytes": 11085322,
       "repos": 30,
       "logo": "typescript"
     },
@@ -383,28 +383,28 @@
   ],
   "recentRepositories": [
     {
-      "name": "mydash-vps",
-      "url": "https://github.com/akaanakbaik/mydash-vps",
-      "language": "TypeScript",
-      "updatedAt": "2026-07-09T17:08:51Z"
-    },
-    {
       "name": "dastermv2",
       "url": "https://github.com/akaanakbaik/dastermv2",
       "language": "Shell",
-      "updatedAt": "2026-07-09T17:01:39Z"
+      "updatedAt": "2026-07-09T19:07:48Z"
+    },
+    {
+      "name": "mydash-vps",
+      "url": "https://github.com/akaanakbaik/mydash-vps",
+      "language": "TypeScript",
+      "updatedAt": "2026-07-09T18:39:49Z"
+    },
+    {
+      "name": "akaanakbaik",
+      "url": "https://github.com/akaanakbaik/akaanakbaik",
+      "language": "JavaScript",
+      "updatedAt": "2026-07-09T18:12:06Z"
     },
     {
       "name": "auto-commit",
       "url": "https://github.com/akaanakbaik/auto-commit",
       "language": "Unknown",
       "updatedAt": "2026-07-09T15:49:11Z"
-    },
-    {
-      "name": "akaanakbaik",
-      "url": "https://github.com/akaanakbaik/akaanakbaik",
-      "language": "JavaScript",
-      "updatedAt": "2026-07-09T15:35:52Z"
     },
     {
       "name": "libsignal",
