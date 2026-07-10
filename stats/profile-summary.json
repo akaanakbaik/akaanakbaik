@@ -1,6 +1,6 @@
 {
   "username": "akaanakbaik",
-  "generatedAt": "11 Jul 2026, 00:09",
+  "generatedAt": "11 Jul 2026, 01:45",
   "publicRepos": 106,
   "originalRepos": 86,
   "forkedRepos": 20,
@@ -12,11 +12,11 @@
   "totalForks": 27,
   "totalWatchers": 410,
   "totalSize": "782.6 MB",
-  "totalSizeKb": 801385,
+  "totalSizeKb": 801387,
   "topLanguage": "JavaScript",
   "accountAge": "1y 11m",
   "topRepo": "pterodactyl-gateway",
-  "recentRepo": "mydash-vps",
+  "recentRepo": "dastermv2",
   "largestRepo": "Hacktoberfest2025-3",
   "languageStack": [
     {
@@ -257,11 +257,11 @@
   "frontendStack": [
     {
       "name": "React",
-      "count": 31
+      "count": 32
     },
     {
       "name": "Tailwind",
-      "count": 30
+      "count": 31
     },
     {
       "name": "Lucide",
@@ -269,7 +269,7 @@
     },
     {
       "name": "Framer Motion",
-      "count": 25
+      "count": 26
     },
     {
       "name": "Vite",
@@ -281,7 +281,7 @@
     },
     {
       "name": "Next.js",
-      "count": 8
+      "count": 9
     },
     {
       "name": "R3F",
@@ -383,22 +383,22 @@
   ],
   "recentRepositories": [
     {
-      "name": "mydash-vps",
-      "url": "https://github.com/akaanakbaik/mydash-vps",
-      "language": "TypeScript",
-      "updatedAt": "2026-07-10T16:02:43Z"
-    },
-    {
       "name": "dastermv2",
       "url": "https://github.com/akaanakbaik/dastermv2",
       "language": "Shell",
-      "updatedAt": "2026-07-10T15:57:51Z"
+      "updatedAt": "2026-07-10T17:51:19Z"
     },
     {
       "name": "akaanakbaik",
       "url": "https://github.com/akaanakbaik/akaanakbaik",
       "language": "JavaScript",
-      "updatedAt": "2026-07-10T15:04:43Z"
+      "updatedAt": "2026-07-10T17:12:14Z"
+    },
+    {
+      "name": "mydash-vps",
+      "url": "https://github.com/akaanakbaik/mydash-vps",
+      "language": "TypeScript",
+      "updatedAt": "2026-07-10T16:02:43Z"
     },
     {
       "name": "auto-commit",
