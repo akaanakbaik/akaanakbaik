@@ -1,22 +1,22 @@
 {
   "username": "akaanakbaik",
-  "generatedAt": "10 Jul 2026, 11:16",
-  "publicRepos": 105,
-  "originalRepos": 85,
+  "generatedAt": "10 Jul 2026, 14:56",
+  "publicRepos": 106,
+  "originalRepos": 86,
   "forkedRepos": 20,
   "archivedRepos": 0,
-  "followers": 47,
+  "followers": 48,
   "following": 62,
   "publicGists": 0,
   "totalStars": 410,
   "totalForks": 27,
   "totalWatchers": 410,
   "totalSize": "782.0 MB",
-  "totalSizeKb": 800809,
+  "totalSizeKb": 800814,
   "topLanguage": "JavaScript",
   "accountAge": "1y 11m",
   "topRepo": "pterodactyl-gateway",
-  "recentRepo": "mydash-vps",
+  "recentRepo": "plugin-mydash-vps",
   "largestRepo": "Hacktoberfest2025-3",
   "languageStack": [
     {
@@ -383,6 +383,24 @@
   ],
   "recentRepositories": [
     {
+      "name": "plugin-mydash-vps",
+      "url": "https://github.com/akaanakbaik/plugin-mydash-vps",
+      "language": "Unknown",
+      "updatedAt": "2026-07-10T06:55:16Z"
+    },
+    {
+      "name": "dastermv2",
+      "url": "https://github.com/akaanakbaik/dastermv2",
+      "language": "Shell",
+      "updatedAt": "2026-07-10T04:33:52Z"
+    },
+    {
+      "name": "akaanakbaik",
+      "url": "https://github.com/akaanakbaik/akaanakbaik",
+      "language": "JavaScript",
+      "updatedAt": "2026-07-10T04:17:00Z"
+    },
+    {
       "name": "mydash-vps",
       "url": "https://github.com/akaanakbaik/mydash-vps",
       "language": "TypeScript",
@@ -393,18 +411,6 @@
       "url": "https://github.com/akaanakbaik/auto-commit",
       "language": "Unknown",
       "updatedAt": "2026-07-10T02:35:04Z"
-    },
-    {
-      "name": "akaanakbaik",
-      "url": "https://github.com/akaanakbaik/akaanakbaik",
-      "language": "JavaScript",
-      "updatedAt": "2026-07-10T02:06:43Z"
-    },
-    {
-      "name": "dastermv2",
-      "url": "https://github.com/akaanakbaik/dastermv2",
-      "language": "Shell",
-      "updatedAt": "2026-07-10T00:05:22Z"
     },
     {
       "name": "libsignal",
@@ -422,12 +428,6 @@
       "name": "ai-cli",
       "url": "https://github.com/akaanakbaik/ai-cli",
       "language": "JavaScript",
-      "updatedAt": "2026-06-30T05:00:59Z"
-    },
-    {
-      "name": "liora",
-      "url": "https://github.com/akaanakbaik/liora",
-      "language": "Unknown",
       "updatedAt": "2026-06-30T05:00:59Z"
     }
   ]
