@@ -1,22 +1,22 @@
 {
   "username": "akaanakbaik",
-  "generatedAt": "11 Jul 2026, 06:16",
+  "generatedAt": "11 Jul 2026, 07:14",
   "publicRepos": 106,
   "originalRepos": 86,
   "forkedRepos": 20,
   "archivedRepos": 0,
-  "followers": 48,
+  "followers": 49,
   "following": 62,
   "publicGists": 0,
   "totalStars": 410,
   "totalForks": 27,
   "totalWatchers": 410,
   "totalSize": "782.6 MB",
-  "totalSizeKb": 801397,
+  "totalSizeKb": 801402,
   "topLanguage": "JavaScript",
   "accountAge": "1y 11m",
   "topRepo": "pterodactyl-gateway",
-  "recentRepo": "akaanakbaik",
+  "recentRepo": "dastermv2",
   "largestRepo": "Hacktoberfest2025-3",
   "languageStack": [
     {
@@ -383,16 +383,16 @@
   ],
   "recentRepositories": [
     {
-      "name": "akaanakbaik",
-      "url": "https://github.com/akaanakbaik/akaanakbaik",
-      "language": "JavaScript",
-      "updatedAt": "2026-07-10T22:18:03Z"
-    },
-    {
       "name": "dastermv2",
       "url": "https://github.com/akaanakbaik/dastermv2",
       "language": "Shell",
-      "updatedAt": "2026-07-10T22:04:41Z"
+      "updatedAt": "2026-07-10T23:29:32Z"
+    },
+    {
+      "name": "akaanakbaik",
+      "url": "https://github.com/akaanakbaik/akaanakbaik",
+      "language": "JavaScript",
+      "updatedAt": "2026-07-10T23:16:43Z"
     },
     {
       "name": "mydash-vps",
