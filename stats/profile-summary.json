@@ -1,6 +1,6 @@
 {
   "username": "akaanakbaik",
-  "generatedAt": "12 Jul 2026, 05:09",
+  "generatedAt": "12 Jul 2026, 06:13",
   "publicRepos": 106,
   "originalRepos": 86,
   "forkedRepos": 20,
@@ -12,7 +12,7 @@
   "totalForks": 27,
   "totalWatchers": 410,
   "totalSize": "782.8 MB",
-  "totalSizeKb": 801569,
+  "totalSizeKb": 801576,
   "topLanguage": "JavaScript",
   "accountAge": "1y 11m",
   "topRepo": "pterodactyl-gateway",
@@ -257,27 +257,27 @@
   "frontendStack": [
     {
       "name": "React",
-      "count": 32
-    },
-    {
-      "name": "Tailwind",
       "count": 31
     },
     {
-      "name": "Lucide",
-      "count": 27
+      "name": "Tailwind",
+      "count": 30
     },
     {
-      "name": "Framer Motion",
+      "name": "Lucide",
       "count": 26
     },
     {
+      "name": "Framer Motion",
+      "count": 25
+    },
+    {
       "name": "Vite",
-      "count": 24
+      "count": 23
     },
     {
       "name": "Vite React",
-      "count": 23
+      "count": 22
     },
     {
       "name": "Next.js",
@@ -295,7 +295,7 @@
   "backendStack": [
     {
       "name": "Express",
-      "count": 25
+      "count": 24
     },
     {
       "name": "Axios",
@@ -311,11 +311,11 @@
     },
     {
       "name": "Drizzle",
-      "count": 11
+      "count": 10
     },
     {
       "name": "PostgreSQL",
-      "count": 6
+      "count": 5
     },
     {
       "name": "Postgres",
@@ -386,13 +386,13 @@
       "name": "dastermv2",
       "url": "https://github.com/akaanakbaik/dastermv2",
       "language": "Shell",
-      "updatedAt": "2026-07-11T21:51:03Z"
+      "updatedAt": "2026-07-11T22:50:10Z"
     },
     {
       "name": "akaanakbaik",
       "url": "https://github.com/akaanakbaik/akaanakbaik",
       "language": "JavaScript",
-      "updatedAt": "2026-07-11T21:10:00Z"
+      "updatedAt": "2026-07-11T22:09:58Z"
     },
     {
       "name": "auto-commit",
