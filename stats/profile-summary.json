@@ -1,6 +1,6 @@
 {
   "username": "akaanakbaik",
-  "generatedAt": "11 Jul 2026, 13:27",
+  "generatedAt": "11 Jul 2026, 16:00",
   "publicRepos": 106,
   "originalRepos": 86,
   "forkedRepos": 20,
@@ -12,16 +12,16 @@
   "totalForks": 27,
   "totalWatchers": 410,
   "totalSize": "782.7 MB",
-  "totalSizeKb": 801457,
+  "totalSizeKb": 801488,
   "topLanguage": "JavaScript",
   "accountAge": "1y 11m",
   "topRepo": "pterodactyl-gateway",
-  "recentRepo": "dastermv2",
+  "recentRepo": "mydash-vps",
   "largestRepo": "Hacktoberfest2025-3",
   "languageStack": [
     {
       "name": "JavaScript",
-      "bytes": 23278098,
+      "bytes": 23278092,
       "repos": 70,
       "logo": "javascript"
     },
@@ -57,7 +57,7 @@
     },
     {
       "name": "HTML",
-      "bytes": 1032929,
+      "bytes": 1035506,
       "repos": 50,
       "logo": "html5"
     },
@@ -75,7 +75,7 @@
     },
     {
       "name": "Shell",
-      "bytes": 269076,
+      "bytes": 281201,
       "repos": 20,
       "logo": "gnubash"
     },
@@ -105,7 +105,7 @@
     },
     {
       "name": "Dockerfile",
-      "bytes": 11460,
+      "bytes": 12255,
       "repos": 5,
       "logo": ""
     },
@@ -383,28 +383,28 @@
   ],
   "recentRepositories": [
     {
+      "name": "mydash-vps",
+      "url": "https://github.com/akaanakbaik/mydash-vps",
+      "language": "TypeScript",
+      "updatedAt": "2026-07-11T08:01:31Z"
+    },
+    {
       "name": "dastermv2",
       "url": "https://github.com/akaanakbaik/dastermv2",
       "language": "Shell",
-      "updatedAt": "2026-07-11T04:41:47Z"
+      "updatedAt": "2026-07-11T07:59:37Z"
     },
     {
       "name": "auto-commit",
       "url": "https://github.com/akaanakbaik/auto-commit",
       "language": "Unknown",
-      "updatedAt": "2026-07-11T04:26:53Z"
+      "updatedAt": "2026-07-11T06:33:18Z"
     },
     {
       "name": "akaanakbaik",
       "url": "https://github.com/akaanakbaik/akaanakbaik",
       "language": "JavaScript",
-      "updatedAt": "2026-07-11T03:44:09Z"
-    },
-    {
-      "name": "mydash-vps",
-      "url": "https://github.com/akaanakbaik/mydash-vps",
-      "language": "TypeScript",
-      "updatedAt": "2026-07-10T16:02:43Z"
+      "updatedAt": "2026-07-11T06:27:42Z"
     },
     {
       "name": "plugin-mydash-vps",
