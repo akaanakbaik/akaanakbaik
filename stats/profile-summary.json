@@ -1,22 +1,22 @@
 {
   "username": "akaanakbaik",
-  "generatedAt": "13 Jul 2026, 18:32",
+  "generatedAt": "13 Jul 2026, 22:13",
   "publicRepos": 106,
   "originalRepos": 86,
   "forkedRepos": 20,
   "archivedRepos": 0,
-  "followers": 49,
+  "followers": 48,
   "following": 62,
   "publicGists": 0,
   "totalStars": 410,
   "totalForks": 27,
   "totalWatchers": 410,
-  "totalSize": "782.6 MB",
-  "totalSizeKb": 801422,
+  "totalSize": "782.7 MB",
+  "totalSizeKb": 801473,
   "topLanguage": "JavaScript",
   "accountAge": "1y 11m",
   "topRepo": "pterodactyl-gateway",
-  "recentRepo": "auto-commit",
+  "recentRepo": "akaanakbaik",
   "largestRepo": "Hacktoberfest2025-3",
   "languageStack": [
     {
@@ -257,27 +257,27 @@
   "frontendStack": [
     {
       "name": "React",
-      "count": 31
+      "count": 32
     },
     {
       "name": "Tailwind",
-      "count": 29
+      "count": 31
     },
     {
       "name": "Lucide",
-      "count": 26
+      "count": 27
     },
     {
       "name": "Framer Motion",
-      "count": 25
+      "count": 26
     },
     {
       "name": "Vite",
-      "count": 23
+      "count": 24
     },
     {
       "name": "Vite React",
-      "count": 22
+      "count": 23
     },
     {
       "name": "Next.js",
@@ -295,14 +295,18 @@
   "backendStack": [
     {
       "name": "Express",
-      "count": 24
+      "count": 25
     },
     {
       "name": "Axios",
-      "count": 21
+      "count": 22
     },
     {
       "name": "Neon DB",
+      "count": 12
+    },
+    {
+      "name": "Supabase",
       "count": 12
     },
     {
@@ -310,12 +314,12 @@
       "count": 11
     },
     {
-      "name": "Supabase",
-      "count": 11
-    },
-    {
       "name": "PostgreSQL",
       "count": 6
+    },
+    {
+      "name": "Postgres",
+      "count": 2
     },
     {
       "name": "Prisma",
@@ -343,10 +347,6 @@
     },
     {
       "name": "Playwright",
-      "count": 1
-    },
-    {
-      "name": "Postgres",
       "count": 1
     },
     {
@@ -383,22 +383,22 @@
   ],
   "recentRepositories": [
     {
-      "name": "auto-commit",
-      "url": "https://github.com/akaanakbaik/auto-commit",
-      "language": "Unknown",
-      "updatedAt": "2026-07-13T10:50:00Z"
+      "name": "akaanakbaik",
+      "url": "https://github.com/akaanakbaik/akaanakbaik",
+      "language": "JavaScript",
+      "updatedAt": "2026-07-13T14:14:17Z"
     },
     {
       "name": "dastermv2",
       "url": "https://github.com/akaanakbaik/dastermv2",
       "language": "Shell",
-      "updatedAt": "2026-07-13T10:27:42Z"
+      "updatedAt": "2026-07-13T13:01:46Z"
     },
     {
-      "name": "akaanakbaik",
-      "url": "https://github.com/akaanakbaik/akaanakbaik",
-      "language": "JavaScript",
-      "updatedAt": "2026-07-13T07:40:57Z"
+      "name": "auto-commit",
+      "url": "https://github.com/akaanakbaik/auto-commit",
+      "language": "Unknown",
+      "updatedAt": "2026-07-13T10:50:00Z"
     },
     {
       "name": "mydash-vps",
