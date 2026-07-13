@@ -1,6 +1,6 @@
 {
   "username": "akaanakbaik",
-  "generatedAt": "13 Jul 2026, 14:40",
+  "generatedAt": "13 Jul 2026, 18:32",
   "publicRepos": 106,
   "originalRepos": 86,
   "forkedRepos": 20,
@@ -12,11 +12,11 @@
   "totalForks": 27,
   "totalWatchers": 410,
   "totalSize": "782.6 MB",
-  "totalSizeKb": 801417,
+  "totalSizeKb": 801422,
   "topLanguage": "JavaScript",
   "accountAge": "1y 11m",
   "topRepo": "pterodactyl-gateway",
-  "recentRepo": "dastermv2",
+  "recentRepo": "auto-commit",
   "largestRepo": "Hacktoberfest2025-3",
   "languageStack": [
     {
@@ -257,27 +257,27 @@
   "frontendStack": [
     {
       "name": "React",
-      "count": 32
-    },
-    {
-      "name": "Tailwind",
       "count": 31
     },
     {
-      "name": "Lucide",
-      "count": 27
+      "name": "Tailwind",
+      "count": 29
     },
     {
-      "name": "Framer Motion",
+      "name": "Lucide",
       "count": 26
     },
     {
+      "name": "Framer Motion",
+      "count": 25
+    },
+    {
       "name": "Vite",
-      "count": 24
+      "count": 23
     },
     {
       "name": "Vite React",
-      "count": 23
+      "count": 22
     },
     {
       "name": "Next.js",
@@ -295,18 +295,14 @@
   "backendStack": [
     {
       "name": "Express",
-      "count": 25
+      "count": 24
     },
     {
       "name": "Axios",
-      "count": 22
+      "count": 21
     },
     {
       "name": "Neon DB",
-      "count": 12
-    },
-    {
-      "name": "Supabase",
       "count": 12
     },
     {
@@ -314,12 +310,12 @@
       "count": 11
     },
     {
-      "name": "PostgreSQL",
-      "count": 6
+      "name": "Supabase",
+      "count": 11
     },
     {
-      "name": "Postgres",
-      "count": 2
+      "name": "PostgreSQL",
+      "count": 6
     },
     {
       "name": "Prisma",
@@ -347,6 +343,10 @@
     },
     {
       "name": "Playwright",
+      "count": 1
+    },
+    {
+      "name": "Postgres",
       "count": 1
     },
     {
@@ -383,22 +383,22 @@
   ],
   "recentRepositories": [
     {
+      "name": "auto-commit",
+      "url": "https://github.com/akaanakbaik/auto-commit",
+      "language": "Unknown",
+      "updatedAt": "2026-07-13T10:50:00Z"
+    },
+    {
       "name": "dastermv2",
       "url": "https://github.com/akaanakbaik/dastermv2",
       "language": "Shell",
-      "updatedAt": "2026-07-13T06:37:19Z"
+      "updatedAt": "2026-07-13T10:27:42Z"
     },
     {
       "name": "akaanakbaik",
       "url": "https://github.com/akaanakbaik/akaanakbaik",
       "language": "JavaScript",
-      "updatedAt": "2026-07-13T04:03:58Z"
-    },
-    {
-      "name": "auto-commit",
-      "url": "https://github.com/akaanakbaik/auto-commit",
-      "language": "Unknown",
-      "updatedAt": "2026-07-12T14:12:47Z"
+      "updatedAt": "2026-07-13T07:40:57Z"
     },
     {
       "name": "mydash-vps",
