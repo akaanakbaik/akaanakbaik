@@ -1,6 +1,6 @@
 # Profile Metrics Summary
 
-Generated: 16 Jul 2026, 02:42
+Generated: 16 Jul 2026, 04:16
 
 ## Account
 
@@ -31,24 +31,25 @@ Generated: 16 Jul 2026, 02:42
 
 | Language | Repos | Bytes |
 | --- | ---: | ---: |
-| JavaScript | 67 | 18052943 |
-| TypeScript | 28 | 11242126 |
+| JavaScript | 70 | 23278092 |
+| TypeScript | 30 | 11273684 |
+| Python | 12 | 5970901 |
+| CSS | 51 | 1602416 |
 | C++ | 8 | 1089198 |
 | Jupyter Notebook | 1 | 1077015 |
-| Python | 11 | 1042503 |
+| HTML | 50 | 1035506 |
 | Java | 6 | 937277 |
-| HTML | 47 | 754524 |
-| CSS | 49 | 477487 |
 | C | 6 | 445770 |
-| Shell | 19 | 222237 |
+| Shell | 20 | 281201 |
 | Rust | 3 | 204518 |
 | Go | 5 | 113542 |
 | PHP | 5 | 27465 |
 | Jinja | 1 | 16737 |
-| Dockerfile | 4 | 10621 |
+| Dockerfile | 5 | 12255 |
 | Dart | 3 | 7817 |
+| PowerShell | 1 | 4863 |
+| Batchfile | 3 | 4254 |
 | C# | 2 | 3555 |
-| Batchfile | 2 | 3008 |
 | Assembly | 1 | 1130 |
 | Makefile | 1 | 598 |
 | Kotlin | 2 | 442 |
@@ -74,12 +75,12 @@ Generated: 16 Jul 2026, 02:42
 
 | Stack | Repos |
 | --- | ---: |
-| React | 31 |
-| Tailwind | 30 |
-| Lucide | 26 |
-| Framer Motion | 25 |
-| Vite | 23 |
-| Vite React | 22 |
+| React | 32 |
+| Tailwind | 31 |
+| Lucide | 27 |
+| Framer Motion | 26 |
+| Vite | 24 |
+| Vite React | 23 |
 | Next.js | 9 |
 | R3F | 1 |
 | Three.js | 1 |
@@ -88,11 +89,11 @@ Generated: 16 Jul 2026, 02:42
 
 | Stack | Repos |
 | --- | ---: |
-| Express | 24 |
+| Express | 25 |
 | Axios | 22 |
+| Neon DB | 12 |
 | Supabase | 12 |
-| Neon DB | 11 |
-| Drizzle | 10 |
+| Drizzle | 11 |
 | PostgreSQL | 6 |
 | Postgres | 2 |
 | Prisma | 2 |
