@@ -1,6 +1,6 @@
 {
   "username": "akaanakbaik",
-  "generatedAt": "16 Jul 2026, 00:39",
+  "generatedAt": "16 Jul 2026, 02:42",
   "publicRepos": 106,
   "originalRepos": 86,
   "forkedRepos": 20,
@@ -12,7 +12,7 @@
   "totalForks": 27,
   "totalWatchers": 410,
   "totalSize": "783.0 MB",
-  "totalSizeKb": 801748,
+  "totalSizeKb": 801750,
   "topLanguage": "JavaScript",
   "accountAge": "1y 11m",
   "topRepo": "pterodactyl-gateway",
@@ -21,27 +21,15 @@
   "languageStack": [
     {
       "name": "JavaScript",
-      "bytes": 23278092,
-      "repos": 70,
+      "bytes": 18052943,
+      "repos": 67,
       "logo": "javascript"
     },
     {
       "name": "TypeScript",
-      "bytes": 11273684,
-      "repos": 30,
+      "bytes": 11242126,
+      "repos": 28,
       "logo": "typescript"
-    },
-    {
-      "name": "Python",
-      "bytes": 5970901,
-      "repos": 12,
-      "logo": "python"
-    },
-    {
-      "name": "CSS",
-      "bytes": 1602416,
-      "repos": 51,
-      "logo": "css3"
     },
     {
       "name": "C++",
@@ -56,16 +44,28 @@
       "logo": ""
     },
     {
-      "name": "HTML",
-      "bytes": 1035506,
-      "repos": 50,
-      "logo": "html5"
+      "name": "Python",
+      "bytes": 1042503,
+      "repos": 11,
+      "logo": "python"
     },
     {
       "name": "Java",
       "bytes": 937277,
       "repos": 6,
       "logo": "openjdk"
+    },
+    {
+      "name": "HTML",
+      "bytes": 754524,
+      "repos": 47,
+      "logo": "html5"
+    },
+    {
+      "name": "CSS",
+      "bytes": 477487,
+      "repos": 49,
+      "logo": "css3"
     },
     {
       "name": "C",
@@ -75,8 +75,8 @@
     },
     {
       "name": "Shell",
-      "bytes": 281201,
-      "repos": 20,
+      "bytes": 222237,
+      "repos": 19,
       "logo": "gnubash"
     },
     {
@@ -105,8 +105,8 @@
     },
     {
       "name": "Dockerfile",
-      "bytes": 12255,
-      "repos": 5,
+      "bytes": 10621,
+      "repos": 4,
       "logo": ""
     },
     {
@@ -116,20 +116,14 @@
       "logo": "dart"
     },
     {
-      "name": "PowerShell",
-      "bytes": 4863,
-      "repos": 1,
+      "name": "C#",
+      "bytes": 3555,
+      "repos": 2,
       "logo": ""
     },
     {
       "name": "Batchfile",
-      "bytes": 4254,
-      "repos": 3,
-      "logo": ""
-    },
-    {
-      "name": "C#",
-      "bytes": 3555,
+      "bytes": 3008,
       "repos": 2,
       "logo": ""
     },
@@ -257,27 +251,27 @@
   "frontendStack": [
     {
       "name": "React",
-      "count": 32
-    },
-    {
-      "name": "Tailwind",
       "count": 31
     },
     {
-      "name": "Lucide",
-      "count": 27
+      "name": "Tailwind",
+      "count": 30
     },
     {
-      "name": "Framer Motion",
+      "name": "Lucide",
       "count": 26
     },
     {
+      "name": "Framer Motion",
+      "count": 25
+    },
+    {
       "name": "Vite",
-      "count": 24
+      "count": 23
     },
     {
       "name": "Vite React",
-      "count": 23
+      "count": 22
     },
     {
       "name": "Next.js",
@@ -295,23 +289,23 @@
   "backendStack": [
     {
       "name": "Express",
-      "count": 25
+      "count": 24
     },
     {
       "name": "Axios",
       "count": 22
     },
     {
-      "name": "Neon DB",
-      "count": 12
-    },
-    {
       "name": "Supabase",
       "count": 12
     },
     {
-      "name": "Drizzle",
+      "name": "Neon DB",
       "count": 11
+    },
+    {
+      "name": "Drizzle",
+      "count": 10
     },
     {
       "name": "PostgreSQL",
@@ -386,13 +380,13 @@
       "name": "dastermv2",
       "url": "https://github.com/akaanakbaik/dastermv2",
       "language": "Shell",
-      "updatedAt": "2026-07-15T16:04:10Z"
+      "updatedAt": "2026-07-15T19:12:35Z"
     },
     {
       "name": "akaanakbaik",
       "url": "https://github.com/akaanakbaik/akaanakbaik",
       "language": "JavaScript",
-      "updatedAt": "2026-07-15T15:53:38Z"
+      "updatedAt": "2026-07-15T17:39:52Z"
     },
     {
       "name": "auto-commit",
