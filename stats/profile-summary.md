@@ -1,6 +1,6 @@
 # Profile Metrics Summary
 
-Generated: 17 Jul 2026, 01:19
+Generated: 17 Jul 2026, 03:12
 
 ## Account
 
@@ -94,7 +94,7 @@ Generated: 17 Jul 2026, 01:19
 | Neon DB | 12 |
 | Supabase | 12 |
 | Drizzle | 11 |
-| PostgreSQL | 6 |
+| PostgreSQL | 5 |
 | Postgres | 2 |
 | Prisma | 2 |
 | Redis | 2 |
