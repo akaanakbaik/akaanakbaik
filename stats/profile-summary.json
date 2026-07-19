@@ -1,11 +1,11 @@
 {
   "username": "akaanakbaik",
-  "generatedAt": "19 Jul 2026, 22:16",
+  "generatedAt": "19 Jul 2026, 23:13",
   "publicRepos": 107,
   "originalRepos": 87,
   "forkedRepos": 20,
   "archivedRepos": 0,
-  "followers": 50,
+  "followers": 51,
   "following": 62,
   "publicGists": 0,
   "totalStars": 410,
@@ -16,7 +16,7 @@
   "topLanguage": "JavaScript",
   "accountAge": "1y 11m",
   "topRepo": "pterodactyl-gateway",
-  "recentRepo": "dastermv2",
+  "recentRepo": "musika-apk",
   "largestRepo": "Hacktoberfest2025-3",
   "languageStack": [
     {
@@ -45,8 +45,8 @@
     },
     {
       "name": "C++",
-      "bytes": 1089198,
-      "repos": 8,
+      "bytes": 1115434,
+      "repos": 9,
       "logo": "cplusplus"
     },
     {
@@ -57,8 +57,8 @@
     },
     {
       "name": "HTML",
-      "bytes": 1035506,
-      "repos": 50,
+      "bytes": 1036724,
+      "repos": 51,
       "logo": "html5"
     },
     {
@@ -69,8 +69,8 @@
     },
     {
       "name": "C",
-      "bytes": 445770,
-      "repos": 6,
+      "bytes": 447195,
+      "repos": 7,
       "logo": "c"
     },
     {
@@ -86,6 +86,12 @@
       "logo": "rust"
     },
     {
+      "name": "Dart",
+      "bytes": 165567,
+      "repos": 4,
+      "logo": "dart"
+    },
+    {
       "name": "Go",
       "bytes": 113542,
       "repos": 5,
@@ -98,6 +104,12 @@
       "logo": "php"
     },
     {
+      "name": "CMake",
+      "bytes": 19952,
+      "repos": 1,
+      "logo": ""
+    },
+    {
       "name": "Jinja",
       "bytes": 16737,
       "repos": 1,
@@ -108,12 +120,6 @@
       "bytes": 12255,
       "repos": 5,
       "logo": ""
-    },
-    {
-      "name": "Dart",
-      "bytes": 7817,
-      "repos": 3,
-      "logo": "dart"
     },
     {
       "name": "PowerShell",
@@ -134,6 +140,12 @@
       "logo": ""
     },
     {
+      "name": "Swift",
+      "bytes": 3361,
+      "repos": 2,
+      "logo": ""
+    },
+    {
       "name": "Assembly",
       "bytes": 1130,
       "repos": 1,
@@ -147,8 +159,8 @@
     },
     {
       "name": "Kotlin",
-      "bytes": 442,
-      "repos": 2,
+      "bytes": 565,
+      "repos": 3,
       "logo": ""
     },
     {
@@ -200,12 +212,6 @@
       "logo": ""
     },
     {
-      "name": "Swift",
-      "bytes": 91,
-      "repos": 1,
-      "logo": ""
-    },
-    {
       "name": "Perl",
       "bytes": 83,
       "repos": 1,
@@ -250,6 +256,12 @@
     {
       "name": "R",
       "bytes": 45,
+      "repos": 1,
+      "logo": ""
+    },
+    {
+      "name": "Objective-C",
+      "bytes": 38,
       "repos": 1,
       "logo": ""
     }
@@ -383,22 +395,22 @@
   ],
   "recentRepositories": [
     {
+      "name": "musika-apk",
+      "url": "https://github.com/akaanakbaik/musika-apk",
+      "language": "Dart",
+      "updatedAt": "2026-07-19T16:06:25Z"
+    },
+    {
       "name": "dastermv2",
       "url": "https://github.com/akaanakbaik/dastermv2",
       "language": "Shell",
-      "updatedAt": "2026-07-19T14:01:42Z"
+      "updatedAt": "2026-07-19T15:31:43Z"
     },
     {
       "name": "akaanakbaik",
       "url": "https://github.com/akaanakbaik/akaanakbaik",
       "language": "JavaScript",
-      "updatedAt": "2026-07-19T13:54:33Z"
-    },
-    {
-      "name": "musika-apk",
-      "url": "https://github.com/akaanakbaik/musika-apk",
-      "language": "Unknown",
-      "updatedAt": "2026-07-19T12:05:13Z"
+      "updatedAt": "2026-07-19T15:16:25Z"
     },
     {
       "name": "auto-commit",

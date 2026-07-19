@@ -1,6 +1,6 @@
 # Profile Metrics Summary
 
-Generated: 19 Jul 2026, 22:16
+Generated: 19 Jul 2026, 23:13
 
 ## Account
 
@@ -10,7 +10,7 @@ Generated: 19 Jul 2026, 22:16
 | Original repos | 87 |
 | Forked repos | 20 |
 | Archived repos | 0 |
-| Followers | 50 |
+| Followers | 51 |
 | Following | 62 |
 | Public gists | 0 |
 | Total stars | 410 |
@@ -35,24 +35,26 @@ Generated: 19 Jul 2026, 22:16
 | TypeScript | 30 | 11273684 |
 | Python | 12 | 5970901 |
 | CSS | 51 | 1602416 |
-| C++ | 8 | 1089198 |
+| C++ | 9 | 1115434 |
 | Jupyter Notebook | 1 | 1077015 |
-| HTML | 50 | 1035506 |
+| HTML | 51 | 1036724 |
 | Java | 6 | 937277 |
-| C | 6 | 445770 |
+| C | 7 | 447195 |
 | Shell | 20 | 281201 |
 | Rust | 3 | 204518 |
+| Dart | 4 | 165567 |
 | Go | 5 | 113542 |
 | PHP | 5 | 27465 |
+| CMake | 1 | 19952 |
 | Jinja | 1 | 16737 |
 | Dockerfile | 5 | 12255 |
-| Dart | 3 | 7817 |
 | PowerShell | 1 | 4863 |
 | Batchfile | 3 | 4254 |
 | C# | 2 | 3555 |
+| Swift | 2 | 3361 |
 | Assembly | 1 | 1130 |
 | Makefile | 1 | 598 |
-| Kotlin | 2 | 442 |
+| Kotlin | 3 | 565 |
 | V | 1 | 297 |
 | Elixir | 1 | 192 |
 | Scala | 1 | 142 |
@@ -61,7 +63,6 @@ Generated: 19 Jul 2026, 22:16
 | Haskell | 1 | 110 |
 | Lua | 1 | 110 |
 | Erlang | 1 | 100 |
-| Swift | 1 | 91 |
 | Perl | 1 | 83 |
 | Ruby | 1 | 83 |
 | Pawn | 1 | 56 |
@@ -70,6 +71,7 @@ Generated: 19 Jul 2026, 22:16
 | MATLAB | 1 | 50 |
 | F# | 1 | 48 |
 | R | 1 | 45 |
+| Objective-C | 1 | 38 |
 
 ## Frontend Stack
 
