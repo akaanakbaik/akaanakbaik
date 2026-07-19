@@ -1,8 +1,8 @@
 {
   "username": "akaanakbaik",
-  "generatedAt": "19 Jul 2026, 17:47",
-  "publicRepos": 106,
-  "originalRepos": 86,
+  "generatedAt": "19 Jul 2026, 19:06",
+  "publicRepos": 107,
+  "originalRepos": 87,
   "forkedRepos": 20,
   "archivedRepos": 0,
   "followers": 50,
@@ -12,11 +12,11 @@
   "totalForks": 27,
   "totalWatchers": 410,
   "totalSize": "782.8 MB",
-  "totalSizeKb": 801591,
+  "totalSizeKb": 801594,
   "topLanguage": "JavaScript",
   "accountAge": "1y 11m",
   "topRepo": "pterodactyl-gateway",
-  "recentRepo": "dastermv2",
+  "recentRepo": "musika-apk",
   "largestRepo": "Hacktoberfest2025-3",
   "languageStack": [
     {
@@ -383,16 +383,22 @@
   ],
   "recentRepositories": [
     {
+      "name": "musika-apk",
+      "url": "https://github.com/akaanakbaik/musika-apk",
+      "language": "Unknown",
+      "updatedAt": "2026-07-19T12:05:13Z"
+    },
+    {
       "name": "dastermv2",
       "url": "https://github.com/akaanakbaik/dastermv2",
       "language": "Shell",
-      "updatedAt": "2026-07-19T09:28:21Z"
+      "updatedAt": "2026-07-19T12:00:29Z"
     },
     {
       "name": "akaanakbaik",
       "url": "https://github.com/akaanakbaik/akaanakbaik",
       "language": "JavaScript",
-      "updatedAt": "2026-07-19T09:17:16Z"
+      "updatedAt": "2026-07-19T10:47:17Z"
     },
     {
       "name": "auto-commit",
@@ -423,12 +429,6 @@
       "url": "https://github.com/akaanakbaik/libsignal",
       "language": "JavaScript",
       "updatedAt": "2026-07-06T12:08:47Z"
-    },
-    {
-      "name": "pterodactyl-gateway",
-      "url": "https://github.com/akaanakbaik/pterodactyl-gateway",
-      "language": "TypeScript",
-      "updatedAt": "2026-07-05T19:23:54Z"
     }
   ]
 }
