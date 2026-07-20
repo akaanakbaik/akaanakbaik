@@ -1,6 +1,6 @@
 {
   "username": "akaanakbaik",
-  "generatedAt": "21 Jul 2026, 05:13",
+  "generatedAt": "21 Jul 2026, 06:16",
   "publicRepos": 107,
   "originalRepos": 87,
   "forkedRepos": 20,
@@ -12,11 +12,11 @@
   "totalForks": 27,
   "totalWatchers": 410,
   "totalSize": "834.3 MB",
-  "totalSizeKb": 854303,
+  "totalSizeKb": 854306,
   "topLanguage": "JavaScript",
   "accountAge": "1y 11m",
   "topRepo": "pterodactyl-gateway",
-  "recentRepo": "dastermv2",
+  "recentRepo": "musika",
   "largestRepo": "Hacktoberfest2025-3",
   "languageStack": [
     {
@@ -27,7 +27,7 @@
     },
     {
       "name": "TypeScript",
-      "bytes": 11217069,
+      "bytes": 11224029,
       "repos": 30,
       "logo": "typescript"
     },
@@ -87,7 +87,7 @@
     },
     {
       "name": "Dart",
-      "bytes": 193435,
+      "bytes": 197376,
       "repos": 4,
       "logo": "dart"
     },
@@ -395,28 +395,28 @@
   ],
   "recentRepositories": [
     {
-      "name": "dastermv2",
-      "url": "https://github.com/akaanakbaik/dastermv2",
-      "language": "Shell",
-      "updatedAt": "2026-07-20T21:43:29Z"
-    },
-    {
-      "name": "akaanakbaik",
-      "url": "https://github.com/akaanakbaik/akaanakbaik",
-      "language": "JavaScript",
-      "updatedAt": "2026-07-20T20:41:40Z"
-    },
-    {
       "name": "musika",
       "url": "https://github.com/akaanakbaik/musika",
       "language": "TypeScript",
-      "updatedAt": "2026-07-20T14:59:32Z"
+      "updatedAt": "2026-07-20T23:07:57Z"
     },
     {
       "name": "musika-apk",
       "url": "https://github.com/akaanakbaik/musika-apk",
       "language": "Dart",
-      "updatedAt": "2026-07-20T14:55:11Z"
+      "updatedAt": "2026-07-20T23:07:44Z"
+    },
+    {
+      "name": "dastermv2",
+      "url": "https://github.com/akaanakbaik/dastermv2",
+      "language": "Shell",
+      "updatedAt": "2026-07-20T23:01:21Z"
+    },
+    {
+      "name": "akaanakbaik",
+      "url": "https://github.com/akaanakbaik/akaanakbaik",
+      "language": "JavaScript",
+      "updatedAt": "2026-07-20T22:13:52Z"
     },
     {
       "name": "auto-commit",
