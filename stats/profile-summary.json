@@ -1,6 +1,6 @@
 {
   "username": "akaanakbaik",
-  "generatedAt": "20 Jul 2026, 20:18",
+  "generatedAt": "20 Jul 2026, 23:02",
   "publicRepos": 107,
   "originalRepos": 87,
   "forkedRepos": 20,
@@ -11,23 +11,23 @@
   "totalStars": 410,
   "totalForks": 27,
   "totalWatchers": 410,
-  "totalSize": "824.5 MB",
-  "totalSizeKb": 844270,
+  "totalSize": "834.3 MB",
+  "totalSizeKb": 854291,
   "topLanguage": "JavaScript",
   "accountAge": "1y 11m",
   "topRepo": "pterodactyl-gateway",
-  "recentRepo": "auto-commit",
+  "recentRepo": "dastermv2",
   "largestRepo": "Hacktoberfest2025-3",
   "languageStack": [
     {
       "name": "JavaScript",
-      "bytes": 23278092,
+      "bytes": 23292941,
       "repos": 70,
       "logo": "javascript"
     },
     {
       "name": "TypeScript",
-      "bytes": 11273684,
+      "bytes": 11217069,
       "repos": 30,
       "logo": "typescript"
     },
@@ -63,8 +63,8 @@
     },
     {
       "name": "Java",
-      "bytes": 937277,
-      "repos": 6,
+      "bytes": 938571,
+      "repos": 7,
       "logo": "openjdk"
     },
     {
@@ -87,7 +87,7 @@
     },
     {
       "name": "Dart",
-      "bytes": 194338,
+      "bytes": 193435,
       "repos": 4,
       "logo": "dart"
     },
@@ -395,28 +395,34 @@
   ],
   "recentRepositories": [
     {
-      "name": "auto-commit",
-      "url": "https://github.com/akaanakbaik/auto-commit",
-      "language": "Unknown",
-      "updatedAt": "2026-07-20T12:36:33Z"
-    },
-    {
       "name": "dastermv2",
       "url": "https://github.com/akaanakbaik/dastermv2",
       "language": "Shell",
-      "updatedAt": "2026-07-20T12:33:00Z"
+      "updatedAt": "2026-07-20T15:14:55Z"
     },
     {
-      "name": "akaanakbaik",
-      "url": "https://github.com/akaanakbaik/akaanakbaik",
-      "language": "JavaScript",
-      "updatedAt": "2026-07-20T11:13:54Z"
+      "name": "musika",
+      "url": "https://github.com/akaanakbaik/musika",
+      "language": "TypeScript",
+      "updatedAt": "2026-07-20T14:59:32Z"
     },
     {
       "name": "musika-apk",
       "url": "https://github.com/akaanakbaik/musika-apk",
       "language": "Dart",
-      "updatedAt": "2026-07-19T16:54:54Z"
+      "updatedAt": "2026-07-20T14:55:11Z"
+    },
+    {
+      "name": "auto-commit",
+      "url": "https://github.com/akaanakbaik/auto-commit",
+      "language": "Unknown",
+      "updatedAt": "2026-07-20T14:53:44Z"
+    },
+    {
+      "name": "akaanakbaik",
+      "url": "https://github.com/akaanakbaik/akaanakbaik",
+      "language": "JavaScript",
+      "updatedAt": "2026-07-20T13:51:42Z"
     },
     {
       "name": "odysseus",
@@ -435,12 +441,6 @@
       "url": "https://github.com/akaanakbaik/plugin-mydash-vps",
       "language": "Unknown",
       "updatedAt": "2026-07-10T08:36:04Z"
-    },
-    {
-      "name": "libsignal",
-      "url": "https://github.com/akaanakbaik/libsignal",
-      "language": "JavaScript",
-      "updatedAt": "2026-07-06T12:08:47Z"
     }
   ]
 }
