@@ -1,6 +1,6 @@
 {
   "username": "akaanakbaik",
-  "generatedAt": "21 Jul 2026, 23:42",
+  "generatedAt": "22 Jul 2026, 01:41",
   "publicRepos": 107,
   "originalRepos": 87,
   "forkedRepos": 20,
@@ -12,7 +12,7 @@
   "totalForks": 27,
   "totalWatchers": 410,
   "totalSize": "834.6 MB",
-  "totalSizeKb": 854612,
+  "totalSizeKb": 854614,
   "topLanguage": "JavaScript",
   "accountAge": "1y 11m",
   "topRepo": "pterodactyl-gateway",
@@ -398,7 +398,13 @@
       "name": "dastermv2",
       "url": "https://github.com/akaanakbaik/dastermv2",
       "language": "Shell",
-      "updatedAt": "2026-07-21T16:25:48Z"
+      "updatedAt": "2026-07-21T17:53:26Z"
+    },
+    {
+      "name": "akaanakbaik",
+      "url": "https://github.com/akaanakbaik/akaanakbaik",
+      "language": "JavaScript",
+      "updatedAt": "2026-07-21T16:44:27Z"
     },
     {
       "name": "musika",
@@ -417,12 +423,6 @@
       "url": "https://github.com/akaanakbaik/auto-commit",
       "language": "Unknown",
       "updatedAt": "2026-07-21T14:51:58Z"
-    },
-    {
-      "name": "akaanakbaik",
-      "url": "https://github.com/akaanakbaik/akaanakbaik",
-      "language": "JavaScript",
-      "updatedAt": "2026-07-21T14:28:58Z"
     },
     {
       "name": "odysseus",
