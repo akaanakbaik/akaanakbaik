@@ -1,6 +1,6 @@
 {
   "username": "akaanakbaik",
-  "generatedAt": "22 Jul 2026, 16:39",
+  "generatedAt": "22 Jul 2026, 19:03",
   "publicRepos": 107,
   "originalRepos": 87,
   "forkedRepos": 20,
@@ -11,12 +11,12 @@
   "totalStars": 410,
   "totalForks": 27,
   "totalWatchers": 410,
-  "totalSize": "834.7 MB",
-  "totalSizeKb": 854686,
+  "totalSize": "834.2 MB",
+  "totalSizeKb": 854222,
   "topLanguage": "JavaScript",
   "accountAge": "1y 11m",
   "topRepo": "pterodactyl-gateway",
-  "recentRepo": "auto-commit",
+  "recentRepo": "dastermv2",
   "largestRepo": "Hacktoberfest2025-3",
   "languageStack": [
     {
@@ -395,22 +395,22 @@
   ],
   "recentRepositories": [
     {
-      "name": "auto-commit",
-      "url": "https://github.com/akaanakbaik/auto-commit",
-      "language": "Unknown",
-      "updatedAt": "2026-07-22T07:16:02Z"
-    },
-    {
       "name": "dastermv2",
       "url": "https://github.com/akaanakbaik/dastermv2",
       "language": "Shell",
-      "updatedAt": "2026-07-22T07:12:02Z"
+      "updatedAt": "2026-07-22T11:59:07Z"
     },
     {
       "name": "akaanakbaik",
       "url": "https://github.com/akaanakbaik/akaanakbaik",
       "language": "JavaScript",
-      "updatedAt": "2026-07-22T06:43:14Z"
+      "updatedAt": "2026-07-22T09:41:16Z"
+    },
+    {
+      "name": "auto-commit",
+      "url": "https://github.com/akaanakbaik/auto-commit",
+      "language": "Unknown",
+      "updatedAt": "2026-07-22T07:16:02Z"
     },
     {
       "name": "musika",
