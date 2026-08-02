@@ -220,6 +220,63 @@ export function coefficientOfVariation(values) {
   return Math.sqrt(variance) / mean;
 }
 
+export function hourInTz(iso, tz = 'Asia/Jakarta') {
+  const date = new Date(iso);
+  if (Number.isNaN(date.getTime())) return null;
+  return Number(date.toLocaleString('en-US', { timeZone: tz, hour: '2-digit', hour12: false }));
+}
+
+export function weekdayInTz(iso, tz = 'Asia/Jakarta') {
+  const date = new Date(iso);
+  if (Number.isNaN(date.getTime())) return null;
+  return date.toLocaleString('en-US', { timeZone: tz, weekday: 'short' });
+}
+
+export function circularMeanHours(values) {
+  if (!values.length) return 0;
+  let sx = 0;
+  let sy = 0;
+  for (const v of values) {
+    sx += Math.cos((v / 24) * 2 * Math.PI);
+    sy += Math.sin((v / 24) * 2 * Math.PI);
+  }
+  const mean = (Math.atan2(sy / values.length, sx / values.length) * 24) / (2 * Math.PI);
+  return ((mean % 24) + 24) % 24;
+}
+
+export function circularStdHours(values) {
+  if (!values.length) return 0;
+  let sx = 0;
+  let sy = 0;
+  for (const v of values) {
+    sx += Math.cos((v / 24) * 2 * Math.PI);
+    sy += Math.sin((v / 24) * 2 * Math.PI);
+  }
+  const r = Math.sqrt(sx * sx + sy * sy) / values.length;
+  const clamped = Math.max(r, 1e-9);
+  return Math.sqrt(-2 * Math.log(clamped)) * (24 / (2 * Math.PI));
+}
+
+export function relativeTime(iso) {
+  const diff = Date.now() - new Date(iso).getTime();
+  const minutes = Math.floor(diff / 60000);
+  if (minutes < 1) return 'just now';
+  if (minutes < 60) return `${minutes} min ago`;
+  const hours = Math.floor(minutes / 60);
+  if (hours < 24) return `${hours} h ago`;
+  const days = Math.floor(hours / 24);
+  if (days < 30) return `${days} d ago`;
+  const months = Math.floor(days / 30);
+  if (months < 12) return `${months} mo ago`;
+  return `${Math.floor(months / 12)} yr ago`;
+}
+
+export function monthDay(iso) {
+  const date = new Date(iso);
+  if (Number.isNaN(date.getTime())) return '';
+  return new Intl.DateTimeFormat('en-GB', { timeZone: 'Asia/Jakarta', day: '2-digit', month: 'short', year: 'numeric' }).format(date);
+}
+
 export const PALETTE = [
   '#667eea', '#764ba2', '#2563eb', '#16a34a', '#f59e0b', '#06b6d4', '#db2777',
   '#ef4444', '#84cc16', '#eab308', '#f97316', '#8b5cf6', '#14b8a6', '#ec4899',

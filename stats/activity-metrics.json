@@ -1,0 +1,62 @@
+{
+  "username": "akaanakbaik",
+  "generatedAt": "02 Aug 2026, 18:39",
+  "activity": {
+    "pullRequests": 42,
+    "issues": 15,
+    "reposContributed": 13,
+    "totalCommitContributions": 3749,
+    "totalPRReviews": 0,
+    "totalContributions": 3887
+  },
+  "streak": {
+    "currentStreak": 80,
+    "longest": 80,
+    "lastActiveDate": "2026-08-02",
+    "activeDays": 202,
+    "totalContributions": 3887
+  },
+  "commitHours": {
+    "sampled": 2351,
+    "hourCounts": [
+      101,
+      19,
+      8,
+      16,
+      13,
+      38,
+      55,
+      104,
+      53,
+      109,
+      54,
+      102,
+      123,
+      85,
+      30,
+      63,
+      107,
+      98,
+      93,
+      52,
+      107,
+      266,
+      351,
+      304
+    ],
+    "weekdayCounts": [
+      311,
+      336,
+      322,
+      401,
+      222,
+      371,
+      388
+    ],
+    "peakHour": 22,
+    "peakWeekday": "Thu",
+    "circularMean": 20.301733694709686,
+    "circularStd": 6.074147185267988,
+    "activeHours": 24
+  }
+}
