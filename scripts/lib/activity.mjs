@@ -64,6 +64,109 @@ export function contributionLevel(count) {
   return 4;
 }
 
+const TOP_REPOS_QUERY = `query($login: String!, $cursor: String) {
+  user(login: $login) {
+    repositories(first: 100, after: $cursor, ownerAffiliations: OWNER, orderBy: {field: PUSHED_AT, direction: DESC}) {
+      pageInfo { endCursor hasNextPage }
+      nodes {
+        name
+        description
+        url
+        isFork
+        stargazerCount
+        forkCount
+        watchers { totalCount }
+        issues { totalCount }
+        pullRequests { totalCount }
+        discussions { totalCount }
+        pushedAt
+        createdAt
+        primaryLanguage { name }
+      }
+    }
+  }
+}`;
+
+function toNumber(value) {
+  if (value == null) return 0;
+  if (typeof value === 'object') return value.totalCount || 0;
+  const n = Number(value);
+  return Number.isFinite(n) && n > 0 ? n : 0;
+}
+
+export function compositeRepoScore(repo) {
+  const stars = toNumber(repo.stargazerCount);
+  const forks = toNumber(repo.forkCount);
+  const watchers = toNumber(repo.watchersTotal != null ? repo.watchersTotal : repo.watchers);
+  const prs = toNumber(repo.pullRequests);
+  const issues = toNumber(repo.issues);
+  const discussions = toNumber(repo.discussions);
+  const commits = toNumber(repo.commits);
+  const daysSincePush = toNumber(repo.daysSincePush);
+  const log1 = (v) => Math.log10(v + 1);
+  const recency = Math.exp(-daysSincePush / 45);
+  const raw =
+    log1(stars) * 2.4 +
+    log1(forks) * 1.7 +
+    log1(watchers) * 1.3 +
+    log1(prs) * 1.2 +
+    log1(issues) * 0.7 +
+    log1(discussions) * 0.6 +
+    log1(commits) * 2.1 +
+    recency * 2.0;
+  return {
+    score: raw,
+    stars,
+    forks,
+    watchers,
+    prs,
+    issues,
+    discussions,
+    commits,
+    recency,
+    daysSincePush
+  };
+}
+
+export async function fetchTopReposRanking(client, token, username, allRepos, perRepoCounts = [], log = () => {}) {
+  const commitMap = new Map(perRepoCounts.map((p) => [p.repo, p.count]));
+  const nodes = [];
+  let cursor = null;
+  for (let page = 0; page < 4; page++) {
+    const variables = { login: username, cursor };
+    const data = await gqlRequest(token, TOP_REPOS_QUERY, variables, { log });
+    const repos = data && data.user && data.user.repositories;
+    if (!repos || !repos.nodes || repos.nodes.length === 0) break;
+    nodes.push(...repos.nodes);
+    if (!repos.pageInfo || !repos.pageInfo.hasNextPage) break;
+    cursor = repos.pageInfo.endCursor;
+  }
+  const ranked = nodes
+    .filter((n) => !n.isFork)
+    .map((n) => {
+      const pushedMs = n.pushedAt ? new Date(n.pushedAt).getTime() : Date.now();
+      const daysSincePush = Number.isFinite(pushedMs) ? Math.max(0, (Date.now() - pushedMs) / 86400000) : 0;
+      const base = {
+        name: n.name,
+        url: n.url,
+        language: (n.primaryLanguage && n.primaryLanguage.name) || 'Unknown',
+        watchersTotal: n.watchers ? n.watchers.totalCount : 0,
+        pullRequests: n.pullRequests ? n.pullRequests.totalCount : 0,
+        issues: n.issues ? n.issues.totalCount : 0,
+        discussions: n.discussions ? n.discussions.totalCount : 0,
+        daysSincePush: Math.round(daysSincePush),
+        commits: commitMap.get(n.name) || 0
+      };
+      const stats = compositeRepoScore({ ...n, ...base });
+      return { ...base, ...stats };
+    });
+  const maxScore = Math.max(...ranked.map((r) => r.score), 1e-9);
+  return ranked
+    .map((r) => ({ ...r, scorePct: (r.score / maxScore) * 100 }))
+    .sort((a, b) => b.score - a.score);
+}
+
+
 export async function fetchUserActivity(token, username, log = () => {}) {
   const data = await gqlRequest(token, USER_ACTIVITY_QUERY, { login: username }, { log });
   const user = data && data.user;
@@ -179,6 +282,7 @@ export async function fetchCommitTimestamps(client, username, allRepos, log = ()
     circularStd: circularStdHours(hours),
     activeHours: hourCounts.filter((c) => c > 0).length,
     reposWithCommits: perRepoCounts.filter((p) => p.count > 0).length,
-    topCommitRepos: perRepoCounts.sort((a, b) => b.count - a.count).slice(0, 5)
+    perRepoCounts: [...perRepoCounts].sort((a, b) => b.count - a.count),
+    topCommitRepos: [...perRepoCounts].sort((a, b) => b.count - a.count).slice(0, 5)
   };
 }

@@ -86,21 +86,21 @@ ${chips}
 }
 
 export function langParetoSvg(data) {
-  const top = data.byBytes.slice(0, 14);
+  const top = data.byBytes.slice(0, 12);
   const restCount = Math.max(0, data.byBytes.length - top.length);
-  const restBytes = data.byBytes.slice(14).reduce((a, x) => a + x.bytes, 0);
+  const restBytes = data.byBytes.slice(12).reduce((a, x) => a + x.bytes, 0);
   const total = data.totalBytes || 1;
-  const width = 1000;
-  const height = 560;
-  const padL = 104;
-  const padR = 86;
-  const padT = 108;
-  const padB = 120;
+  const width = 1250;
+  const height = 620;
+  const padL = 116;
+  const padR = 96;
+  const padT = 128;
+  const padB = 172;
   const plotW = width - padL - padR;
   const plotH = height - padT - padB;
   const maxValue = Math.max(...top.map((x) => x.bytes), 1);
   const step = plotW / top.length;
-  const barW = step * 0.6;
+  const barW = step * 0.58;
   let cumulative = 0;
   const bars = top.map((x, i) => {
     const barH = Math.max(3, (x.bytes / maxValue) * plotH);
@@ -115,15 +115,15 @@ export function langParetoSvg(data) {
     const gy = padT + plotH - f * plotH;
     const label = compact(Math.round(f * maxValue));
     return `<line x1="${padL}" y1="${gy}" x2="${width - padR}" y2="${gy}" stroke="#ffffff" stroke-opacity="0.07" stroke-width="1"/>
-<text x="${padL - 12}" y="${gy + 4}" text-anchor="end" fill="#64748b" font-size="11" ${font()}>${label}</text>`;
+<text x="${padL - 14}" y="${gy + 4}" text-anchor="end" fill="#64748b" font-size="11.5" ${font()}>${label}</text>`;
   }).join('');
   const barEls = bars.map((b) => {
     const pct = ((b.x.bytes / total) * 100).toFixed(1);
     return `<g>
 <rect x="${b.bx.toFixed(2)}" y="${b.by.toFixed(2)}" width="${barW.toFixed(2)}" height="${b.barH.toFixed(2)}" rx="5" fill="url(#grad${b.i})" opacity="0.96"/>
-<rect x="${b.bx.toFixed(2)}" y="${b.by.toFixed(2)}" width="${barW.toFixed(2)}" height="3" rx="1.5" fill="#ffffff" fill-opacity="0.25"/>
-<text x="${(b.bx + barW / 2).toFixed(2)}" y="${(b.by - 9).toFixed(2)}" text-anchor="middle" fill="#e2e8f0" font-size="11.5" font-weight="800" ${font()}>${compact(b.x.bytes)}</text>
-<text x="${(b.bx + barW / 2).toFixed(2)}" y="${(b.by + 8).toFixed(2)}" text-anchor="middle" fill="#64748b" font-size="9.5" font-weight="600" ${font()}>${pct}%</text>
+<rect x="${b.bx.toFixed(2)}" y="${b.by.toFixed(2)}" width="${barW.toFixed(2)}" height="3.5" rx="1.75" fill="#ffffff" fill-opacity="0.28"/>
+<text x="${(b.bx + barW / 2).toFixed(2)}" y="${(b.by - 11).toFixed(2)}" text-anchor="middle" fill="#ffffff" font-size="12" font-weight="800" ${font()}>${compact(b.x.bytes)}</text>
+<text x="${(b.bx + barW / 2).toFixed(2)}" y="${(b.by - 29).toFixed(2)}" text-anchor="middle" fill="#94a3b8" font-size="10" font-weight="700" ${font()}>${pct}%</text>
 </g>`;
   }).join('');
   const gradDefs = top.map((b, i) => {
@@ -132,30 +132,39 @@ export function langParetoSvg(data) {
   }).join('');
   const poly = bars.map((b) => `${b.cxp.toFixed(2)},${b.cyp.toFixed(2)}`).join(' ');
   const p80y = padT + plotH - 0.8 * plotH;
+  const pills = bars.map((b) => {
+    const px = b.cxp.toFixed(2);
+    const py = b.cyp.toFixed(2);
+    return `<g>
+<rect x="${(b.cxp - 19).toFixed(2)}" y="${(b.cyp - 17).toFixed(2)}" width="38" height="16" rx="8" fill="#0d1322" stroke="#a78bfa" stroke-opacity="0.7" stroke-width="1"/>
+<text x="${px}" y="${(b.cyp - 6).toFixed(2)}" text-anchor="middle" fill="#c4b5fd" font-size="9.5" font-weight="800" ${font()}>${Math.round(b.cumulative * 100)}%</text>
+</g>`;
+  }).join('');
   const cumulativeLine = `
 <polyline points="${poly}" fill="none" stroke="#a78bfa" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-${bars.map((b) => `<circle cx="${b.cxp.toFixed(2)}" cy="${b.cyp.toFixed(2)}" r="4.5" fill="#a78bfa" stroke="#0b1020" stroke-width="2.5"/><text x="${b.cxp.toFixed(2)}" y="${(b.cyp - 9).toFixed(2)}" text-anchor="middle" fill="#a78bfa" font-size="9.5" font-weight="800" ${font()}>${Math.round(b.cumulative * 100)}%</text>`).join('')}
+${bars.map((b) => `<circle cx="${b.cxp.toFixed(2)}" cy="${b.cyp.toFixed(2)}" r="4.5" fill="#a78bfa" stroke="#0b1020" stroke-width="2.5"/>`).join('')}
+${pills}
 <line x1="${padL}" y1="${p80y}" x2="${width - padR}" y2="${p80y}" stroke="#f59e0b" stroke-width="1.5" stroke-dasharray="8 6"/>
-<text x="${width - padR - 6}" y="${p80y - 7}" text-anchor="end" fill="#fbbf24" font-size="11.5" font-weight="800" ${font()}>Pareto 80%</text>`;
+<text x="${width - padR - 6}" y="${p80y - 8}" text-anchor="end" fill="#fbbf24" font-size="12" font-weight="800" ${font()}>Pareto 80%</text>`;
   const xLabels = bars.map((b) => {
     const cxv = padL + (b.i + 0.5) * step;
-    const name = b.x.name.length > 12 ? b.x.name.slice(0, 11) + '…' : b.x.name;
-    return `<g transform="translate(${cxv} ${padT + plotH + 10}) rotate(-30)"><text x="0" y="0" fill="#cbd5e1" font-size="11.5" font-weight="600" text-anchor="end" ${font()}>${esc(name)}</text></g>`;
+    const name = b.x.name.length > 17 ? b.x.name.slice(0, 16) + '…' : b.x.name;
+    return `<text x="${cxv.toFixed(2)}" y="${padT + plotH + 18}" text-anchor="middle" fill="#cbd5e1" font-size="11.5" font-weight="600" ${font()}>${esc(name)}</text>`;
   }).join('');
   const pctAxis = [0, 25, 50, 75, 100].map((p) => {
     const gy = padT + plotH - (p / 100) * plotH;
-    return `<text x="${width - padR + 16}" y="${gy + 4}" fill="#a78bfa" font-size="11" ${font()}>${p}%</text>`;
+    return `<text x="${width - padR + 18}" y="${gy + 4}" fill="#a78bfa" font-size="11.5" ${font()}>${p}%</text>`;
   }).join('');
   const restNote = restCount > 0
-    ? `<text x="${padL}" y="${padT + plotH + 44}" fill="#64748b" font-size="11" ${font()}>${restCount} more languages not shown · ${compact(restBytes)} bytes · ${((restBytes / total) * 100).toFixed(1)}% of total — full census in the radar chart</text>`
+    ? `<text x="${padL}" y="${padT + plotH + 44}" fill="#64748b" font-size="11.5" ${font()}>${restCount} more languages not shown · ${compact(restBytes)} bytes · ${((restBytes / total) * 100).toFixed(1)}% of total — full census in the radar chart</text>`
     : '';
   const topChips = [
-    statChip(30, 470, 'TOP SHARE', `${data.topShare.toFixed(1)}%`, '#667eea', 150),
-    statChip(190, 470, 'GEOMEAN', compact(data.geomeanBytes), '#764ba2', 140),
-    statChip(340, 470, 'MEDIAN', compact(data.medianBytes), '#16a34a', 140),
-    statChip(490, 470, 'C.V.', data.cv.toFixed(2), '#f59e0b', 120),
-    statChip(620, 470, 'TOP 14', `${(bars.reduce((a, b) => a + b.x.bytes, 0) / total) * 100}%`, '#06b6d4', 130),
-    statChip(760, 470, 'TOTAL', compact(total), '#db2777', 200)
+    statChip(30, 560, 'TOP SHARE', `${data.topShare.toFixed(1)}%`, '#667eea', 170),
+    statChip(210, 560, 'GEOMEAN', compact(data.geomeanBytes), '#764ba2', 160),
+    statChip(380, 560, 'MEDIAN', compact(data.medianBytes), '#16a34a', 160),
+    statChip(550, 560, 'C.V.', data.cv.toFixed(2), '#f59e0b', 130),
+    statChip(690, 560, 'TOP 12', `${(bars.reduce((a, b) => a + b.x.bytes, 0) / total) * 100}%`, '#06b6d4', 150),
+    statChip(850, 560, 'TOTAL', compact(total), '#db2777', 240)
   ].join('');
   const inner = `
 <defs>${gradDefs}</defs>
@@ -167,14 +176,14 @@ ${pctAxis}
 ${restNote}
 ${topChips}
 `;
-  return baseCard(width, height, 'Language Bytes — Pareto Analysis', `Top 14 languages by bytes with per-language share %, cumulative distribution line (right axis) and 80% Pareto threshold · real GitHub byte counts from every repository`, inner);
+  return baseCard(width, height, 'Language Bytes — Pareto Analysis', 'Top 12 languages by bytes, per-language share %, cumulative line (right axis) and the 80% Pareto threshold · real byte counts', inner);
 }
 
 export function langRadarSvg(data) {
   const top = data.byRepo.slice(0, 8);
-  const cx = 370;
-  const cy = 285;
-  const radius = 172;
+  const cx = 425;
+  const cy = 305;
+  const radius = 205;
   const k = top.length;
   const norm = data.logNormalizedRepo;
   const axisPoint = (i, r) => {
@@ -191,9 +200,9 @@ export function langRadarSvg(data) {
   }).join('');
   const axes = top.map((x, i) => {
     const [x0, y0] = axisPoint(i, radius);
-    const [x1, y1] = axisPoint(i, radius + 28);
+    const [x1, y1] = axisPoint(i, radius + 34);
     return `<line x1="${cx}" y1="${cy}" x2="${x0.toFixed(2)}" y2="${y0.toFixed(2)}" stroke="#ffffff" stroke-opacity="0.12" stroke-width="1"/>
-<text x="${x1.toFixed(2)}" y="${y1.toFixed(2)}" text-anchor="middle" fill="#e2e8f0" font-size="12.5" font-weight="700" ${font()}>${esc(x.name)}</text>`;
+<text x="${x1.toFixed(2)}" y="${y1.toFixed(2)}" text-anchor="middle" fill="#e2e8f0" font-size="13.5" font-weight="700" ${font()}>${esc(x.name)}</text>`;
   }).join('');
   const dataPts = top.map((x, i) => {
     const [px, py] = axisPoint(i, radius * norm[i]);
@@ -202,31 +211,32 @@ export function langRadarSvg(data) {
   const polygon = `<polygon points="${dataPts.join(' ')}" fill="#667eea" fill-opacity="0.32" stroke="#a78bfa" stroke-width="2.5" stroke-linejoin="round"/>`;
   const dots = top.map((x, i) => {
     const [px, py] = axisPoint(i, radius * norm[i]);
-    return `<circle cx="${px.toFixed(2)}" cy="${py.toFixed(2)}" r="5" fill="#a78bfa" stroke="#0b1020" stroke-width="2"/>`;
+    return `<circle cx="${px.toFixed(2)}" cy="${py.toFixed(2)}" r="5.5" fill="#a78bfa" stroke="#0b1020" stroke-width="2"/>`;
   }).join('');
   const list = top.map((x, i) => {
     const val = Math.round(norm[i] * 100);
-    return `<g transform="translate(655 ${112 + i * 42})">
-<text x="0" y="15" fill="#e2e8f0" font-size="14.5" font-weight="700" ${font()}>${esc(x.name)}</text>
-<text x="240" y="15" text-anchor="end" fill="#cbd5e1" font-size="13" ${font()}>${x.repos} repos</text>
-<rect x="0" y="25" width="285" height="8" rx="4" fill="#1e293b"/>
-<rect x="0" y="25" width="${(val / 100) * 285}" height="8" rx="4" fill="${colorFor(x.name, i)}"/>
+    return `<g transform="translate(790 ${116 + i * 45})">
+<text x="0" y="15" fill="#e2e8f0" font-size="15" font-weight="700" ${font()}>${esc(x.name)}</text>
+<text x="245" y="15" text-anchor="end" fill="#cbd5e1" font-size="13" ${font()}>${x.repos} repos</text>
+<rect x="0" y="26" width="330" height="9" rx="4.5" fill="#1e293b"/>
+<rect x="0" y="26" width="${(val / 100) * 330}" height="9" rx="4.5" fill="${colorFor(x.name, i)}"/>
+<text x="340" y="33" fill="#94a3b8" font-size="11" font-weight="700" ${font()}>${val}%</text>
 </g>`;
   }).join('');
   const censusTop = data.byRepo.slice(0, 10);
   const censusRest = data.byRepo.length - censusTop.length;
   const census = `${censusTop.map((x) => `${x.name} (${x.repos})`).join(' · ')}${censusRest ? ` · +${censusRest} more` : ''}`;
-  const censusText = census.length > 150 ? census.slice(0, 147) + '…' : census;
+  const censusText = census.length > 165 ? census.slice(0, 162) + '…' : census;
   const inner = `
 ${rings}
 ${axes}
 ${polygon}
 ${dots}
 ${list}
-<text x="655" y="${112 + top.length * 42 + 26}" fill="#94a3b8" font-size="12" font-weight="700" letter-spacing="1" ${font()}>LOG-NORMALIZED ADOPTION</text>
-<text x="30" y="566" fill="#64748b" font-size="11" ${font()}>LANGUAGE CENSUS (${data.repoCount} REPOS): ${esc(censusText)}</text>
+<text x="790" y="${116 + top.length * 45 + 28}" fill="#94a3b8" font-size="12.5" font-weight="700" letter-spacing="1" ${font()}>LOG-NORMALIZED ADOPTION</text>
+<text x="30" y="630" fill="#64748b" font-size="11" ${font()}>LANGUAGE CENSUS (${data.repoCount} REPOS): ${esc(censusText)}</text>
 `;
-  return baseCard(1000, 600, 'Language Adoption Radar', 'Top 8 languages by repository count, log-normalized radar — all languages supported, full census below and in stats', inner);
+  return baseCard(1150, 660, 'Language Adoption Radar', 'Top 8 languages by repository count, log-normalized radar — every language supported, full census below', inner);
 }
 
 export function codeTotalsBadgeSvg({ totalLines, totalChars, repoCount, files, generatedAt, perLangTop }) {
@@ -382,17 +392,35 @@ export function topLangsSvg(data) {
 }
 
 export function topReposSvg(repos) {
-  const inner = repos.slice(0, 3).map((repo, i) => {
-    const y = 112 + i * 72;
-    const color = PALETTE[i];
+  const width = 1000;
+  const height = 590;
+  const medalColors = ['#fbbf24', '#c7cedb', '#c08552', '#667eea', '#764ba2'];
+  const inner = repos.slice(0, 5).map((repo, i) => {
+    const y = 108 + i * 88;
+    const color = medalColors[i];
+    const scorePct = Math.max(2, Math.min(100, repo.scorePct || 0));
+    const pushed = repo.daysSincePush <= 1 ? 'today' : repo.daysSincePush <= 30 ? `${repo.daysSincePush} d ago` : repo.daysSincePush <= 365 ? `${Math.round(repo.daysSincePush / 30)} mo ago` : `${Math.round(repo.daysSincePush / 365)} yr ago`;
     return `<a href="${esc(repo.url)}"><g transform="translate(30 ${y})">
-<rect width="840" height="56" rx="18" fill="#0d1322" stroke="${color}" stroke-width="1.4"/>
-<text x="22" y="35" fill="${color}" font-size="19" font-weight="900" ${font()}>#${i + 1}</text>
-<text x="78" y="35" fill="#ffffff" font-size="19" font-weight="800" ${font()}>${esc(repo.name)}</text>
-<text x="540" y="35" fill="#cbd5e1" font-size="14" ${font()}>★ ${repo.stars} · ⑂ ${repo.forks} · ${esc(repo.language)}</text>
+<rect width="940" height="76" rx="18" fill="#0d1322" stroke="${color}" stroke-opacity="0.5" stroke-width="1.4"/>
+<circle cx="38" cy="38" r="20" fill="${color}" fill-opacity="0.16" stroke="${color}" stroke-width="2"/>
+<text x="38" y="44" text-anchor="middle" fill="${color}" font-size="17" font-weight="900" ${font()}>${i + 1}</text>
+<text x="72" y="30" fill="#ffffff" font-size="18.5" font-weight="800" ${font()}>${esc(repo.name)}</text>
+<circle cx="72" cy="50" r="4" fill="${colorFor(repo.language, i)}"/>
+<text x="84" y="54" fill="#8b93a7" font-size="11.5" font-weight="600" ${font()}>${esc(repo.language)}</text>
+<rect x="72" y="63" width="560" height="7" rx="3.5" fill="#1e293b"/>
+<rect x="72" y="63" width="${(scorePct / 100) * 560}" height="7" rx="3.5" fill="url(#scoreGrad${i})"/>
+<text x="660" y="69" fill="${color}" font-size="16" font-weight="900" ${font()}>${scorePct.toFixed(1)}</text>
+<text x="730" y="28" fill="#e2e8f0" font-size="12.5" font-weight="700" ${font()}>★ ${compact(repo.stars)}</text>
+<text x="796" y="28" fill="#e2e8f0" font-size="12.5" font-weight="700" ${font()}>⑂ ${compact(repo.forks)}</text>
+<text x="862" y="28" fill="#cbd5e1" font-size="12.5" ${font()}>${compact(repo.commits)} commits</text>
+<text x="730" y="50" fill="#cbd5e1" font-size="11.5" ${font()}>${compact(repo.prs)} PR · ${compact(repo.issues)} IS · ${compact(repo.watchers)} W</text>
+<text x="850" y="50" fill="#5b6478" font-size="11.5" ${font()}>pushed ${pushed}</text>
+<text x="960" y="38" fill="#64748b" font-size="10.5" ${font()}>score</text>
 </g></a>`;
   }).join('');
-  return baseCard(900, 350, 'Top 3 Repositories', 'Auto-ranked by stars, forks, and recent activity', inner);
+  const gradDefs = medalColors.map((c, i) => `<linearGradient id="scoreGrad${i}" x1="0" y1="0" x2="1" y2="0"><stop stop-color="${c}"/><stop offset="1" stop-color="${c}" stop-opacity="0.35"/></linearGradient>`).join('');
+  const formula = 'score = 2.4·log(stars) + 1.7·log(forks) + 1.3·log(watchers) + 1.2·log(PRs) + 0.7·log(issues) + 0.6·log(disc) + 2.1·log(commits) + 2.0·e^(−d/45) · re-ranked automatically every run';
+  return baseCard(width, height, 'Top 5 Repositories — Dynamic Ranking', 'Re-ranked every run by a composite activity score: stars, forks, watchers, PRs, issues, discussions, commits, recency', `<defs>${gradDefs}</defs>${inner}<text x="30" y="560" fill="#5b6478" font-size="10" ${font()}>${esc(formula)}</text>`);
 }
 
 export function cloudSvg(title, subtitle, items, fallback) {
@@ -434,23 +462,26 @@ const HEAT_COLORS = ['#1b2333', '#2f2a66', '#4c3fb0', '#7a6cf0', '#a78bfa'];
 export function streakSvg(data) {
   const width = 1000;
   const height = 600;
-  const flame = `<g transform="translate(46 156) scale(0.72)">
+  const flame = `<g transform="translate(20 144) scale(0.6)">
 <path d="M0 44 C0 26 14 12 26 0 C24 20 34 30 40 22 C46 30 52 36 52 48 C52 62 40 72 26 72 C12 72 0 62 0 44 Z" fill="url(#flameGrad)"/>
 <path d="M18 58 C18 48 26 40 34 34 C33 46 40 52 44 48 C47 54 47 60 43 64 C38 70 26 70 22 66 C19 64 18 61 18 58 Z" fill="#ffedd5" opacity="0.9"/>
 </g>`;
   const hero = `<g transform="translate(30 108)">
-<rect width="380" height="196" rx="20" fill="#0d1322" stroke="#667eea" stroke-opacity="0.5" stroke-width="1.4"/>
+<rect width="380" height="206" rx="20" fill="#0d1322" stroke="#667eea" stroke-opacity="0.5" stroke-width="1.4"/>
 <rect width="380" height="6" rx="3" fill="url(#bar)"/>
 ${flame}
-<text x="88" y="150" fill="#ffffff" font-size="52" font-weight="900" ${font()}>${data.currentStreak}</text>
-<text x="88" y="172" fill="#a78bfa" font-size="13" font-weight="800" letter-spacing="2" ${font()}>DAY STREAK</text>
-<text x="20" y="196" fill="#8b93a7" font-size="12" ${font()}>Last active: <tspan fill="#e2e8f0" font-weight="700">${data.lastActiveDate ? relativeTime(data.lastActiveDate + 'T00:00:00Z') : 'unknown'}</tspan></text>
-<text x="20" y="216" fill="#64748b" font-size="11" ${font()}>${data.lastActiveDate ? monthDay(data.lastActiveDate + 'T00:00:00Z') : ''} · longest streak ${data.longest} days</text>
+<text x="78" y="152" fill="#ffffff" font-size="52" font-weight="900" ${font()}>${data.currentStreak}</text>
+<text x="78" y="174" fill="#a78bfa" font-size="13" font-weight="800" letter-spacing="2" ${font()}>DAY STREAK</text>
+<text x="78" y="204" fill="#8b93a7" font-size="12" ${font()}>Last active: <tspan fill="#e2e8f0" font-weight="700">${data.lastActiveDate ? relativeTime(data.lastActiveDate + 'T00:00:00Z') : 'unknown'}</tspan></text>
+<text x="78" y="224" fill="#64748b" font-size="11" ${font()}>${data.lastActiveDate ? monthDay(data.lastActiveDate + 'T00:00:00Z') : ''} · longest streak ${data.longest} days</text>
+<text x="20" y="258" fill="#5b6478" font-size="10" ${font()}>GITHUB CONTRIBUTION CALENDAR · 365 DAYS</text>
 </g>`;
   const statCard = (x, y, label, value, color) => `<g transform="translate(${x} ${y})">
-<rect width="255" height="58" rx="13" fill="#0d1322" stroke="${color}" stroke-opacity="0.4" stroke-width="1.2"/>
-<text x="14" y="23" fill="#8b93a7" font-size="10.5" font-weight="800" letter-spacing="1.1" ${font()}>${esc(label)}</text>
-<text x="14" y="47" fill="${color}" font-size="19" font-weight="800" ${font()}>${esc(value)}</text>
+<rect width="255" height="58" rx="13" fill="#0d1322" stroke="${color}" stroke-opacity="0.35" stroke-width="1.2"/>
+<rect x="0" y="0" width="255" height="4" rx="2" fill="${color}"/>
+<circle cx="15" cy="20" r="3" fill="${color}"/>
+<text x="25" y="23" fill="#8b93a7" font-size="10.5" font-weight="800" letter-spacing="1.1" ${font()}>${esc(label)}</text>
+<text x="14" y="47" fill="#ffffff" font-size="19" font-weight="800" ${font()}>${esc(value)}</text>
 </g>`;
   const right = [
     statCard(430, 108, 'LONGEST STREAK', `${data.longest} days`, '#667eea'),
@@ -463,35 +494,35 @@ ${flame}
   const sortedDays = [...data.days].sort((a, b) => a.date.localeCompare(b.date));
   const lastDays = sortedDays.slice(-98);
   const hx = 30;
-  const hy = 368;
+  const hy = 376;
   const cells = lastDays.map((d, i) => {
     const col = Math.floor(i / 7);
     const row = i % 7;
     const lvl = data.level ? data.level(d.count) : 0;
     return `<rect x="${hx + col * 19}" y="${hy + row * 19}" width="16" height="16" rx="3.5" fill="${HEAT_COLORS[lvl]}"/>`;
   }).join('');
-  const legend = HEAT_COLORS.map((c, i) => `<rect x="${30 + i * 20}" y="${hy + 150}" width="14" height="14" rx="3.5" fill="${c}"/>`).join('');
   const weekTotal = lastDays.reduce((a, d) => a + d.count, 0);
   const heatSide = `<g>
-<text x="330" y="372" fill="#e2e8f0" font-size="17" font-weight="800" ${font()}>${thousandSep(weekTotal)}</text>
-<text x="330" y="392" fill="#64748b" font-size="11.5" ${font()}>contributions in last 14 weeks</text>
-<text x="330" y="418" fill="#cbd5e1" font-size="13" font-weight="700" ${font()}>${data.activeDays} active days</text>
-<text x="330" y="438" fill="#64748b" font-size="11.5" ${font()}>of the last 365 days</text>
-<text x="330" y="464" fill="#a78bfa" font-size="13" font-weight="700" ${font()}>streak alive: ${data.currentStreak > 0 ? 'yes' : 'no'}</text>
-<text x="330" y="484" fill="#64748b" font-size="11.5" ${font()}>last active ${data.lastActiveDate ? relativeTime(data.lastActiveDate + 'T00:00:00Z') : 'unknown'}</text>
+<text x="330" y="380" fill="#e2e8f0" font-size="17" font-weight="800" ${font()}>${thousandSep(weekTotal)}</text>
+<text x="330" y="400" fill="#64748b" font-size="11.5" ${font()}>contributions in last 14 weeks</text>
+<text x="330" y="428" fill="#cbd5e1" font-size="13" font-weight="700" ${font()}>${data.activeDays} active days</text>
+<text x="330" y="448" fill="#64748b" font-size="11.5" ${font()}>of the last 365 days</text>
+<text x="330" y="476" fill="${data.currentStreak > 0 ? '#a78bfa' : '#64748b'}" font-size="13" font-weight="800" ${font()}>${data.currentStreak > 0 ? '🔥 streak alive' : 'streak broken'}</text>
 </g>`;
+  const legendCells = HEAT_COLORS.map((c, i) => `<rect x="${78 + i * 21}" y="517" width="14" height="14" rx="3.5" fill="${c}"/>`).join('');
   const inner = `
 <defs>
 <linearGradient id="flameGrad" x1="0" y1="1" x2="0" y2="0"><stop stop-color="#f97316"/><stop offset="0.5" stop-color="#f59e0b"/><stop offset="1" stop-color="#fbbf24"/></linearGradient>
 </defs>
 ${hero}
 ${right}
-<text x="30" y="352" fill="#94a3b8" font-size="12" font-weight="800" letter-spacing="1.4" ${font()}>LAST 14 WEEKS OF CONTRIBUTIONS</text>
+<text x="30" y="360" fill="#94a3b8" font-size="12" font-weight="800" letter-spacing="1.4" ${font()}>LAST 14 WEEKS OF CONTRIBUTIONS</text>
 ${cells}
 ${heatSide}
-<text x="30" y="${hy + 156}" fill="#5b6478" font-size="10.5" ${font()}>Less</text>
-${legend}
-<text x="150" y="${hy + 156}" fill="#5b6478" font-size="10.5" ${font()}>More</text>
+<text x="30" y="527" fill="#94a3b8" font-size="11" ${font()}>Less</text>
+${legendCells}
+<text x="183" y="527" fill="#94a3b8" font-size="11" ${font()}>More</text>
+<text x="330" y="527" fill="#5b6478" font-size="10.5" ${font()}>full year calendar below · auto-updates with every run</text>
 `;
   return baseCard(width, height, 'Contribution Streak & Activity', `Computed from the GitHub contribution calendar · last 365 days · accurate, live data`, inner);
 }
@@ -599,6 +630,262 @@ export function pinnedRepoCardSvg(repo, index = 0) {
 <text x="${width - 16}" y="114" text-anchor="end" fill="#cbd5e1" font-size="12" font-weight="700" ${font()}>⑂ ${forks}</text>
 <text x="16" y="136" fill="#5b6478" font-size="9.5" textLength="${width - 32}" lengthAdjust="spacingAndGlyphs" ${font()}>${esc(repo.url.replace('https://github.com/', '@'))}</text>
 </a>
+</svg>
+`;
+}
+
+export function calendarSvg(data) {
+  const width = 1000;
+  const height = 400;
+  const padL = 42;
+  const cell = 11;
+  const gap = 3;
+  const step = cell + gap;
+  const sortedDays = [...data.days].sort((a, b) => a.date.localeCompare(b.date));
+  const weeks = [];
+  let current = [];
+  for (const d of sortedDays) {
+    const dow = new Date(d.date + 'T00:00:00Z').getUTCDay();
+    current.push(d);
+    if (dow === 6 || current.length === 7) {
+      weeks.push(current);
+      current = [];
+    }
+  }
+  if (current.length) weeks.push(current);
+  const MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+  const monthLabels = [];
+  let lastMonth = -1;
+  weeks.forEach((week, wi) => {
+    const first = week[0].date;
+    const m = new Date(first + 'T00:00:00Z').getUTCMonth();
+    if (m !== lastMonth) {
+      monthLabels.push({ wi, m });
+      lastMonth = m;
+    }
+  });
+  const topY = 118;
+  const monthEls = monthLabels.map((ml) => {
+    const x = padL + ml.wi * step + cell / 2;
+    return `<text x="${x.toFixed(1)}" y="${topY - 10}" text-anchor="middle" fill="#8b93a7" font-size="10.5" font-weight="700" ${font()}>${MONTHS[ml.m]}</text>`;
+  }).join('');
+  const dayLabels = ['Mon', 'Wed', 'Fri'];
+  const dayLabelEls = dayLabels.map((name, i) => {
+    const row = i * 2 + 1;
+    return `<text x="${padL - 10}" y="${topY + row * step + 8}" text-anchor="end" fill="#5b6478" font-size="9.5" ${font()}>${name}</text>`;
+  }).join('');
+  const cellEls = weeks.map((week, wi) => week.map((d) => {
+    const dow = new Date(d.date + 'T00:00:00Z').getUTCDay();
+    const lvl = data.level ? data.level(d.count) : 0;
+    const x = padL + wi * step;
+    const y = topY + dow * step;
+    const title = `${d.date}: ${d.count} contributions`;
+    return `<rect x="${x}" y="${y}" width="${cell}" height="${cell}" rx="2.5" fill="${HEAT_COLORS[lvl]}"><title>${title}</title></rect>`;
+  }).join('')).join('');
+  const total = sortedDays.reduce((a, d) => a + d.count, 0);
+  const active = sortedDays.filter((d) => d.count > 0).length;
+  const chips = [
+    statChip(30, 262, 'CONTRIBUTIONS (1Y)', thousandSep(total), '#667eea', 210),
+    statChip(250, 262, 'ACTIVE DAYS', `${active} / ${sortedDays.length}`, '#16a34a', 180),
+    statChip(440, 262, 'CURRENT STREAK', `${data.currentStreak} days`, '#f59e0b', 180),
+    statChip(630, 262, 'LONGEST STREAK', `${data.longest} days`, '#db2777', 180),
+    statChip(820, 262, 'AVG / DAY', (total / Math.max(1, sortedDays.length)).toFixed(1), '#06b6d4', 140)
+  ].join('');
+  const legendCells = HEAT_COLORS.map((c) => `<rect x="0" y="4" width="13" height="13" rx="3.5" fill="${c}"/>`).join('');
+  const legend = `<g transform="translate(830 330)">
+<text x="-60" y="15" fill="#94a3b8" font-size="11" ${font()}>Less</text>
+${legendCells}
+<text x="${HEAT_COLORS.length * 17}" y="15" fill="#94a3b8" font-size="11" ${font()}>More</text>
+</g>`;
+  const inner = `${monthEls}${dayLabelEls}${cellEls}${chips}${legend}
+<text x="30" y="380" fill="#5b6478" font-size="10.5" ${font()}>FULL YEAR · ${sortedDays[0]?.date || ''} → ${sortedDays[sortedDays.length - 1]?.date || ''} · official GitHub contribution calendar</text>`;
+  return baseCard(width, height, 'Full-Year Contribution Calendar', 'Every contribution over the last 365 days — a complete year, not just recent weeks · live from the GitHub contribution calendar', inner);
+}
+
+export function liveClockSvg(data) {
+  const width = 640;
+  const height = 260;
+  const cx = 128;
+  const cy = 128;
+  const r = 96;
+  const second = data.second;
+  const minute = data.minute;
+  const hour = data.hour % 12;
+  const ticks = Array.from({ length: 60 }, (_, i) => {
+    const angle = (i * 6 - 90) * (Math.PI / 180);
+    const major = i % 5 === 0;
+    const r1 = major ? r - 14 : r - 6;
+    const x1 = cx + r1 * Math.cos(angle);
+    const y1 = cy + r1 * Math.sin(angle);
+    const x2 = cx + r * Math.cos(angle);
+    const y2 = cy + r * Math.sin(angle);
+    return `<line x1="${x1.toFixed(2)}" y1="${y1.toFixed(2)}" x2="${x2.toFixed(2)}" y2="${y2.toFixed(2)}" stroke="${major ? '#cbd5e1' : '#3b4254'}" stroke-width="${major ? 2.5 : 1}" stroke-linecap="round"/>`;
+  }).join('');
+  const numbers = Array.from({ length: 12 }, (_, i) => {
+    const num = i === 0 ? 12 : i;
+    const angle = (i * 30 - 90) * (Math.PI / 180);
+    const x = cx + (r - 26) * Math.cos(angle);
+    const y = cy + (r - 26) * Math.sin(angle);
+    return `<text x="${x.toFixed(2)}" y="${(y + 5).toFixed(2)}" text-anchor="middle" fill="#94a3b8" font-size="15" font-weight="800" ${font()}>${num}</text>`;
+  }).join('');
+  const secondAngle = second * 6;
+  const minuteAngle = minute * 6 + second * 0.1;
+  const hourAngle = hour * 30 + minute * 0.5;
+  const hand = (angle, len, stroke, color, dur) => `<g transform="rotate(${angle} ${cx} ${cy})">
+<line x1="${cx}" y1="${cy + 20}" x2="${cx}" y2="${cy - len}" stroke="${color}" stroke-width="${stroke}" stroke-linecap="round"/>
+<animateTransform attributeName="transform" type="rotate" from="${angle} ${cx} ${cy}" to="${angle + 360} ${cx} ${cy}" dur="${dur}s" repeatCount="indefinite"/>
+</g>`;
+  const timeText = `${String(data.hour).padStart(2, '0')}:${String(data.minute).padStart(2, '0')}:${String(data.second).padStart(2, '0')}`;
+  const inner = `
+<g>
+<circle cx="${cx}" cy="${cy}" r="${r}" fill="#0a0e1a" stroke="url(#clockRing)" stroke-width="3"/>
+${ticks}
+${numbers}
+${hand(hourAngle, 44, 6, '#e2e8f0', 43200)}
+${hand(minuteAngle, 68, 4, '#c7d2fe', 3600)}
+${hand(secondAngle, 80, 2, '#f59e0b', 60)}
+<circle cx="${cx}" cy="${cy}" r="6" fill="#f59e0b"/>
+<circle cx="${cx}" cy="${cy}" r="2.5" fill="#0b1020"/>
+</g>
+<g transform="translate(250 70)">
+<rect width="360" height="70" rx="16" fill="#0d1322" stroke="#667eea" stroke-opacity="0.4" stroke-width="1.2"/>
+<text x="180" y="36" text-anchor="middle" fill="#ffffff" font-size="40" font-weight="900" ${font()}>${timeText}</text>
+<text x="180" y="58" text-anchor="middle" fill="#94a3b8" font-size="12" font-weight="700" letter-spacing="2" ${font()}>WIB · ASIA/JAKARTA · UTC+7</text>
+</g>
+<g transform="translate(250 158)">
+<circle cx="14" cy="10" r="6" fill="#22c55e">
+<animate attributeName="opacity" values="1;0.25;1" dur="1.6s" repeatCount="indefinite"/>
+</circle>
+<text x="30" y="15" fill="#e2e8f0" font-size="17" font-weight="800" ${font()}>${data.dateText}</text>
+<text x="0" y="38" fill="#64748b" font-size="12" ${font()}>${data.dayName} · refreshed by GitHub Actions every 30 minutes</text>
+</g>
+`;
+  return `<svg width="${width}" height="${height}" viewBox="0 0 ${width} ${height}" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="clockBg" x1="0" y1="0" x2="${width}" y2="${height}"><stop stop-color="#0f172a"/><stop offset="1" stop-color="#312e81"/></linearGradient>
+<linearGradient id="clockRing" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#a78bfa"/><stop offset="1" stop-color="#f59e0b"/></linearGradient>
+</defs>
+<rect width="${width}" height="${height}" rx="24" fill="url(#clockBg)"/>
+<circle cx="${width - 60}" cy="40" r="110" fill="#667eea" opacity="0.12"/>
+${inner}
+<text x="${width / 2}" y="238" text-anchor="middle" fill="#5b6478" font-size="10.5" ${font()}>LIVE · generated ${data.generatedAt} · auto-updates every 30 min</text>
+</svg>
+`;
+}
+
+export function codingAgeSvg(data) {
+  const width = 900;
+  const height = 262;
+  const years = Math.max(0, data.years || 0);
+  const inner = `
+<g transform="translate(30 96)">
+<rect width="320" height="132" rx="20" fill="#0d1322" stroke="url(#ageAccent)" stroke-width="1.5"/>
+<text x="160" y="66" text-anchor="middle" fill="url(#ageNum)" font-size="72" font-weight="900" ${font()}>${years}</text>
+<text x="160" y="100" text-anchor="middle" fill="#94a3b8" font-size="13" font-weight="800" letter-spacing="2.2" ${font()}>YEARS CODING</text>
+<text x="160" y="120" text-anchor="middle" fill="#5b6478" font-size="10.5" ${font()}>on GitHub · ${esc(data.label)}</text>
+</g>
+${[
+  ['MONTHS', `${data.months} mo`, '#667eea'],
+  ['DAYS', thousandSep(data.totalDays), '#16a34a'],
+  ['PUBLIC REPOS', data.repos, '#f59e0b'],
+  ['TOTAL COMMITS', compact(data.commits), '#2563eb']
+].map(([label, value, color], i) => `<g transform="translate(${370 + (i % 2) * 250} ${96 + Math.floor(i / 2) * 70})">
+<rect width="230" height="58" rx="14" fill="#0d1322" stroke="${color}" stroke-opacity="0.4" stroke-width="1.2"/>
+<text x="14" y="22" fill="#8b93a7" font-size="10.5" font-weight="800" letter-spacing="1.2" ${font()}>${label}</text>
+<text x="14" y="46" fill="#ffffff" font-size="20" font-weight="800" ${font()}>${esc(value)}</text>
+</g>`).join('')}
+<text x="40" y="246" fill="#5b6478" font-size="11" ${font()}>Account created ${esc(data.createdAtText)} — every repo and commit counts toward this age.</text>
+`;
+  return `<svg width="${width}" height="${height}" viewBox="0 0 ${width} ${height}" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="ageBg" x1="0" y1="0" x2="${width}" y2="${height}"><stop stop-color="#0f172a"/><stop offset="1" stop-color="#312e81"/></linearGradient>
+<linearGradient id="ageAccent" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#667eea"/><stop offset="1" stop-color="#f59e0b"/></linearGradient>
+<linearGradient id="ageNum" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#ffffff"/><stop offset="1" stop-color="#a78bfa"/></linearGradient>
+</defs>
+<rect width="${width}" height="${height}" rx="26" fill="url(#ageBg)"/>
+<circle cx="${width - 60}" cy="40" r="130" fill="#764ba2" opacity="0.12"/>
+<text x="30" y="44" fill="#ffffff" font-size="25" font-weight="900" ${font()}>Coding Age</text>
+<text x="30" y="66" fill="#94a3b8" font-size="12.5" ${font()}>Years of open-source journey on GitHub, measured from account creation</text>
+<rect x="30" y="80" width="${width - 60}" height="3.5" rx="1.75" fill="url(#ageAccent)"/>
+${inner}
+</svg>
+`;
+}
+
+export function codingRhythmSvg(data) {
+  const width = 1000;
+  const height = 470;
+  const cx = 240;
+  const cy = 250;
+  const maxR = 165;
+  const hourCounts = data.hourCounts;
+  const maxCount = Math.max(...hourCounts, 1);
+  const rings = [0.25, 0.5, 0.75, 1].map((f) => `<circle cx="${cx}" cy="${cy}" r="${maxR * f}" fill="none" stroke="#ffffff" stroke-opacity="0.08" stroke-width="1"/>`).join('');
+  const wedges = hourCounts.map((count, h) => {
+    const r = Math.max(5, (count / maxCount) * maxR);
+    const a0 = ((h * 15 - 7.5 - 90) * Math.PI) / 180;
+    const a1 = ((h * 15 + 7.5 - 90) * Math.PI) / 180;
+    const x0 = cx + r * Math.cos(a0);
+    const y0 = cy + r * Math.sin(a0);
+    const x1 = cx + r * Math.cos(a1);
+    const y1 = cy + r * Math.sin(a1);
+    const isPeak = h === data.peakHour;
+    const color = isPeak ? '#fbbf24' : colorFor('Python', h);
+    return `<path d="M ${cx} ${cy} L ${x0.toFixed(2)} ${y0.toFixed(2)} A ${r} ${r} 0 0 1 ${x1.toFixed(2)} ${y1.toFixed(2)} Z" fill="${color}" fill-opacity="${isPeak ? 1 : 0.72}" stroke="#0b1020" stroke-width="0.8"/>`;
+  }).join('');
+  const hourLabels = Array.from({ length: 8 }, (_, i) => {
+    const h = i * 3;
+    const angle = ((h * 15 - 90) * Math.PI) / 180;
+    const x = cx + (maxR + 24) * Math.cos(angle);
+    const y = cy + (maxR + 24) * Math.sin(angle);
+    return `<text x="${x.toFixed(2)}" y="${(y + 4).toFixed(2)}" text-anchor="middle" fill="#5b6478" font-size="10.5" font-weight="700" ${font()}>${h}</text>`;
+  }).join('');
+  const rhythm = data.rhythm;
+  const heroColor = rhythm.label === 'Night Owl' ? '#a78bfa' : rhythm.label === 'Early Bird' ? '#fbbf24' : rhythm.label === 'Day Coder' ? '#16a34a' : '#f97316';
+  const bucketBars = rhythm.buckets.map((b) => {
+    const bc = b.name === 'Night Owl' ? '#a78bfa' : b.name === 'Early Bird' ? '#fbbf24' : b.name === 'Day Coder' ? '#16a34a' : '#f97316';
+    return `<g transform="translate(0 ${(rhythm.buckets.length - 1 - rhythm.buckets.indexOf(b)) * 26})">
+<text x="0" y="14" fill="#cbd5e1" font-size="12" font-weight="700" ${font()}>${b.emoji} ${b.name}</text>
+<rect x="150" y="2" width="250" height="13" rx="6.5" fill="#1e293b"/>
+<rect x="150" y="2" width="${Math.max(3, (b.pct / 100) * 250)}" height="13" rx="6.5" fill="${bc}"/>
+<text x="412" y="13" fill="#e2e8f0" font-size="12" font-weight="800" text-anchor="end" ${font()}>${b.pct.toFixed(1)}%</text>
+</g>`;
+  }).join('');
+  const chips = [
+    statChip(30, 396, 'PEAK HOUR', `${data.peakHour}:00`, '#f59e0b', 150),
+    statChip(190, 396, 'SAMPLED', thousandSep(data.sampled), '#2563eb', 150),
+    statChip(350, 396, 'MEAN (CIRCULAR)', `${data.circularMean.toFixed(1)}:00`, '#667eea', 170),
+    statChip(530, 396, 'ACTIVE HOURS', `${data.activeHours}/24`, '#16a34a', 150),
+    statChip(690, 396, 'STD DEV', `${data.circularStd.toFixed(1)}h`, '#db2777', 130),
+    statChip(830, 396, 'DOMINANT', rhythm.label, heroColor, 140)
+  ].join('');
+  const inner = `
+${rings}
+${wedges}
+${hourLabels}
+<g transform="translate(560 120)">
+<text x="0" y="20" fill="#ffffff" font-size="44" ${font()}>${rhythm.emoji}</text>
+<text x="64" y="20" fill="${heroColor}" font-size="26" font-weight="900" ${font()}>${esc(rhythm.label.toUpperCase())}</text>
+<text x="64" y="44" fill="#cbd5e1" font-size="14" font-weight="700" ${font()}>${(rhythm.share * 100).toFixed(1)}% of all commits</text>
+<text x="0" y="70" fill="#5b6478" font-size="11.5" ${font()}>classified from ${thousandSep(data.sampled)} real commit timestamps (Asia/Jakarta)</text>
+</g>
+<g transform="translate(560 200)">
+${bucketBars}
+</g>
+${chips}
+<text x="240" y="452" text-anchor="middle" fill="#5b6478" font-size="10.5" ${font()}>24-hour commit distribution · ring radius ∝ commit count · gold wedge = peak hour</text>
+`;
+  return `<svg width="${width}" height="${height}" viewBox="0 0 ${width} ${height}" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="rhythmBg" x1="0" y1="0" x2="${width}" y2="${height}"><stop stop-color="#0f172a"/><stop offset="1" stop-color="#312e81"/></linearGradient>
+<linearGradient id="rhythmBar" x1="0" y1="0" x2="${width}" y2="0"><stop stop-color="#667eea"/><stop offset="1" stop-color="#764ba2"/></linearGradient>
+</defs>
+<rect width="${width}" height="${height}" rx="26" fill="url(#rhythmBg)"/>
+<circle cx="${width - 80}" cy="40" r="130" fill="#667eea" opacity="0.12"/>
+<text x="30" y="44" fill="#ffffff" font-size="25" font-weight="900" ${font()}>Coding Rhythm</text>
+<text x="30" y="66" fill="#94a3b8" font-size="12.5" ${font()}>Night owl or early bird? Real commit timestamps decide — circular statistics, 24-hour polar chart</text>
+<rect x="30" y="80" width="${width - 60}" height="3.5" rx="1.75" fill="url(#rhythmBar)"/>
+${inner}
 </svg>
 `;
 }

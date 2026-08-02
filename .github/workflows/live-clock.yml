@@ -1,0 +1,35 @@
+name: Live Clock
+
+on:
+  schedule:
+    - cron: '*/30 * * * *'
+  workflow_dispatch:
+
+concurrency:
+  group: live-clock
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+
+jobs:
+  tick:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Generate live Jakarta clock and badges
+        run: node scripts/live-clock.mjs
+
+      - name: Commit live clock refresh
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 'chore(clock): refresh live Jakarta time badge'
+          file_pattern: 'generated/live-clock.svg badges/live-time.json badges/live-date.json'

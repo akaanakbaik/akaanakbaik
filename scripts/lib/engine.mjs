@@ -257,6 +257,56 @@ export function circularStdHours(values) {
   return Math.sqrt(-2 * Math.log(clamped)) * (24 / (2 * Math.PI));
 }
 
+export function preciseAge(createdAt) {
+  const a = new Date(createdAt);
+  const now = new Date();
+  if (Number.isNaN(a.getTime())) return { years: 0, months: 0, days: 0, label: '0 days' };
+  let years = now.getUTCFullYear() - a.getUTCFullYear();
+  let months = now.getUTCMonth() - a.getUTCMonth();
+  let days = now.getUTCDate() - a.getUTCDate();
+  if (days < 0) {
+    months -= 1;
+    const prevMonthDays = new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), 0)).getUTCDate();
+    days += prevMonthDays;
+  }
+  if (months < 0) {
+    years -= 1;
+    months += 12;
+  }
+  const totalDays = Math.max(0, Math.floor((now.getTime() - a.getTime()) / 86400000));
+  const parts = [];
+  if (years > 0) parts.push(`${years} ${years === 1 ? 'year' : 'years'}`);
+  if (months > 0) parts.push(`${months} ${months === 1 ? 'month' : 'months'}`);
+  if (parts.length === 0) parts.push(`${days} ${days === 1 ? 'day' : 'days'}`);
+  return { years, months, days, totalDays, label: parts.join(' ') };
+}
+
+export function classifyRhythm(hourCounts) {
+  const buckets = [
+    { name: 'Night Owl', emoji: '🦉', range: [22, 23, 0, 1, 2, 3, 4] },
+    { name: 'Early Bird', emoji: '🐦', range: [5, 6, 7, 8, 9] },
+    { name: 'Day Coder', emoji: '☀️', range: [10, 11, 12, 13, 14, 15, 16] },
+    { name: 'Evening', emoji: '🌆', range: [17, 18, 19, 20, 21] }
+  ];
+  const total = hourCounts.reduce((a, b) => a + b, 0);
+  if (!total) {
+    return { label: 'Unknown', emoji: '🌙', share: 0, buckets: [], peakHour: 0 };
+  }
+  const withCounts = buckets.map((b) => ({
+    ...b,
+    count: b.range.reduce((a, h) => a + (hourCounts[h] || 0), 0)
+  }));
+  const sorted = [...withCounts].sort((a, b) => b.count - a.count);
+  const peakHour = hourCounts.indexOf(Math.max(...hourCounts));
+  return {
+    label: sorted[0].name,
+    emoji: sorted[0].emoji,
+    share: sorted[0].count / total,
+    buckets: withCounts.map((b) => ({ name: b.name, emoji: b.emoji, count: b.count, pct: (b.count / total) * 100 })),
+    peakHour
+  };
+}
+
 export function relativeTime(iso) {
   const diff = Date.now() - new Date(iso).getTime();
   const minutes = Math.floor(diff / 60000);

@@ -1,9 +1,9 @@
 import { mkdir, writeFile } from 'node:fs/promises';
 import { join } from 'node:path';
-import { compact, thousandSep, humanBytes, dateStamp, writeBadge, relativeTime } from './lib/engine.mjs';
+import { compact, thousandSep, humanBytes, dateStamp, writeBadge, relativeTime, preciseAge, classifyRhythm, monthDay } from './lib/engine.mjs';
 import { fetchProfileData } from './lib/collect.mjs';
 import { ensureClones, scanRepository, aggregateCodeMetrics } from './lib/loc.mjs';
-import { fetchUserActivity, computeStreak, fetchCommitTimestamps } from './lib/activity.mjs';
+import { fetchUserActivity, computeStreak, fetchCommitTimestamps, fetchTopReposRanking } from './lib/activity.mjs';
 import {
   githubStatsSvg,
   topLangsSvg,
@@ -16,6 +16,10 @@ import {
   statsGridSvg,
   streakSvg,
   commitHoursSvg,
+  calendarSvg,
+  liveClockSvg,
+  codingAgeSvg,
+  codingRhythmSvg,
   manifestLine
 } from './lib/charts.mjs';
 import { runPool } from './lib/engine.mjs';
@@ -180,6 +184,7 @@ async function main() {
   let activity = null;
   let streak = null;
   let commitHours = null;
+  let topRanked = [];
   try {
     log('collecting activity and streak data');
     activity = await fetchUserActivity(token, username, log);
@@ -187,13 +192,29 @@ async function main() {
     commitHours = await fetchCommitTimestamps(data.client, username, data.allRepos, log);
     log(`streak: current=${streak.currentStreak}d longest=${streak.longest}d activeDays=${streak.activeDays} contributions=${streak.totalContributions}`);
     log(`commit hours: ${commitHours.sampled} sampled, peak ${commitHours.peakHour}:00, mean ${commitHours.circularMean.toFixed(1)}:00, busiest ${commitHours.peakWeekday}`);
+    log('ranking top repositories by composite activity score');
+    topRanked = await fetchTopReposRanking(data.client, token, username, data.allRepos, commitHours.perRepoCounts, log);
+    log(`top 5: ${topRanked.slice(0, 5).map((r) => `${r.name}(${r.scorePct.toFixed(1)})`).join(', ')}`);
     await writeFile('generated/streak.svg', streakSvg({ ...activity, ...streak, activeDays: streak.activeDays }));
     await writeFile('generated/commit-hours.svg', commitHoursSvg({ ...commitHours, totalCommitContributions: activity.totalCommitContributions }));
+    await writeFile('generated/calendar.svg', calendarSvg({ days: activity.days, level: activity.level, currentStreak: streak.currentStreak, longest: streak.longest }));
+    await writeFile('generated/top-repos.svg', topReposSvg(topRanked));
+    const rhythm = classifyRhythm(commitHours.hourCounts);
+    const now = new Date();
+    const wibParts = new Intl.DateTimeFormat('en-GB', { timeZone: 'Asia/Jakarta', hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: false }).formatToParts(now);
+    const wib = Object.fromEntries(wibParts.filter((p) => p.type !== 'literal').map((p) => [p.type, p.value]));
+    const dateText = new Intl.DateTimeFormat('en-GB', { timeZone: 'Asia/Jakarta', day: '2-digit', month: 'long', year: 'numeric' }).format(now);
+    const dayName = new Intl.DateTimeFormat('en-US', { timeZone: 'Asia/Jakarta', weekday: 'long' }).format(now);
+    await writeFile('generated/live-clock.svg', liveClockSvg({ hour: Number(wib.hour), minute: Number(wib.minute), second: Number(wib.second), dateText, dayName, generatedAt: data.generatedAt }));
+    await writeFile('generated/coding-rhythm.svg', codingRhythmSvg({ rhythm, hourCounts: commitHours.hourCounts, peakHour: commitHours.peakHour, sampled: commitHours.sampled, circularMean: commitHours.circularMean, circularStd: commitHours.circularStd, activeHours: commitHours.activeHours }));
     await writeBadge('streak-days', 'current streak', `${streak.currentStreak} days`, 'f59e0b');
     await writeBadge('total-commits', 'commits', compact(activity.totalCommitContributions), '2563eb');
     await writeBadge('total-prs', 'pull requests', compact(activity.pullRequests), '16a34a');
     await writeBadge('last-active', 'last active', streak.lastActiveDate ? relativeTime(`${streak.lastActiveDate}T00:00:00Z`) : 'unknown', '06b6d4');
     await writeBadge('peak-hour', 'peak coding hour', `${commitHours.peakHour}:00 WIB`, 'db2777');
+    await writeBadge('coding-rhythm', 'coding rhythm', rhythm.label, 'a78bfa');
+    await writeBadge('top-repo', 'top repo', topRanked[0] ? topRanked[0].name : 'none', 'fbbf24');
+    await writeBadge('top-repo-score', 'top repo score', topRanked[0] ? topRanked[0].scorePct.toFixed(1) : '0', 'fbbf24');
   } catch (error) {
     log(`activity collection skipped: ${error.message}`);
   }
@@ -228,8 +249,21 @@ async function main() {
     circularStd: 0,
     activeHours: 0,
     reposWithCommits: 0,
+    perRepoCounts: [],
     topCommitRepos: []
   };
+  const codingAge = preciseAge(data.user.created_at);
+  await writeFile('generated/coding-age.svg', codingAgeSvg({
+    years: codingAge.years,
+    months: codingAge.months,
+    days: codingAge.days,
+    totalDays: codingAge.totalDays,
+    label: codingAge.label,
+    createdAtText: monthDay(data.user.created_at),
+    repos: data.publicRepos,
+    commits: activitySafe.totalCommitContributions
+  }));
+  await writeBadge('coding-age', 'coding on GitHub', codingAge.label, '16a34a');
   await writeBadge('language-count', 'languages', compact(distribution.languagesCount), 'a855f7');
   await mkdir('badges', { recursive: true });
   await mkdir('stats', { recursive: true });
@@ -245,7 +279,7 @@ async function main() {
   await writeBadge('total-watchers', 'watchers', compact(data.totalWatchers), 'db2777');
   await writeBadge('repo-size', 'repo size', data.totalSize, '06b6d4');
   await writeBadge('top-language', 'top language', data.topLanguage, 'a855f7');
-  await writeBadge('top-repo', 'top repo', data.topRepo, '764ba2');
+  if (topRanked.length === 0) await writeBadge('top-repo', 'top repo', data.topRepo, '764ba2');
   await writeBadge('recent-repo', 'recent repo', data.recentRepo, '667eea');
   await writeBadge('account-age', 'account age', data.accountAge, '16a34a');
   await writeBadge('last-updated', 'updated', data.generatedAt, 'ef4444');
@@ -320,8 +354,18 @@ async function main() {
       circularStd: commitHoursSafe.circularStd,
       activeHours: commitHoursSafe.activeHours,
       reposWithCommits: commitHoursSafe.reposWithCommits,
-      topCommitRepos: commitHoursSafe.topCommitRepos
-    }
+      topCommitRepos: commitHoursSafe.topCommitRepos,
+      rhythm: classifyRhythm(commitHoursSafe.hourCounts)
+    },
+    codingAge: {
+      years: codingAge.years,
+      months: codingAge.months,
+      days: codingAge.days,
+      totalDays: codingAge.totalDays,
+      label: codingAge.label,
+      createdAt: data.user.created_at
+    },
+    top5Repos: topRanked.slice(0, 5)
   };
   await writeFile('stats/profile-summary.json', JSON.stringify(payload, null, 2) + '\n');
   await writeFile('stats/profile-summary.md', summaryMarkdown(payload));

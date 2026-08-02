@@ -17,6 +17,14 @@
   <a href="https://github.com/akaanakbaik"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaanakbaik%2Fakaanakbaik%2Fmain%2Fbadges%2Ftotal-chars.json&style=flat-square&logo=githubactions&logoColor=white" alt="Total code characters" /></a>
   <a href="https://github.com/akaanakbaik"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaanakbaik%2Fakaanakbaik%2Fmain%2Fbadges%2Fstreak-days.json&style=flat-square&logo=githubactions&logoColor=white" alt="Current streak" /></a>
   <a href="https://github.com/akaanakbaik"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaanakbaik%2Fakaanakbaik%2Fmain%2Fbadges%2Ftotal-commits.json&style=flat-square&logo=githubactions&logoColor=white" alt="Total commits" /></a>
+  <a href="https://github.com/akaanakbaik"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaanakbaik%2Fakaanakbaik%2Fmain%2Fbadges%2Fcoding-age.json&style=flat-square&logo=githubactions&logoColor=white" alt="Coding age" /></a>
+  <a href="https://github.com/akaanakbaik"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaanakbaik%2Fakaanakbaik%2Fmain%2Fbadges%2Fcoding-rhythm.json&style=flat-square&logo=githubactions&logoColor=white" alt="Coding rhythm" /></a>
+  <a href="https://github.com/akaanakbaik"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaanakbaik%2Fakaanakbaik%2Fmain%2Fbadges%2Ftop-repo-score.json&style=flat-square&logo=githubactions&logoColor=white" alt="Top repo score" /></a>
+</p>
+
+<p>
+  <a href="https://github.com/akaanakbaik/akaanakbaik/actions/workflows/live-clock.yml"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaanakbaik%2Fakaanakbaik%2Fmain%2Fbadges%2Flive-time.json&style=flat-square&logo=clockify&logoColor=white" alt="Live Jakarta time" /></a>
+  <a href="https://github.com/akaanakbaik/akaanakbaik/actions/workflows/live-clock.yml"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaanakbaik%2Fakaanakbaik%2Fmain%2Fbadges%2Flive-date.json&style=flat-square" alt="Live Jakarta date" /></a>
 </p>
 
 <p>
@@ -62,8 +70,12 @@ I build real projects while learning: web apps, bot systems, Linux/VPS tools, an
 <br />
 <br />
 
-<img width="49%" src="https://raw.githubusercontent.com/akaanakbaik/akaanakbaik/main/generated/lang-pareto.svg" alt="Language Bytes Pareto Analysis" />
-<img width="49%" src="https://raw.githubusercontent.com/akaanakbaik/akaanakbaik/main/generated/lang-radar.svg" alt="Language Adoption Radar" />
+<img width="100%" src="https://raw.githubusercontent.com/akaanakbaik/akaanakbaik/main/generated/lang-pareto.svg" alt="Language Bytes Pareto Analysis" />
+
+<br />
+<br />
+
+<img width="100%" src="https://raw.githubusercontent.com/akaanakbaik/akaanakbaik/main/generated/lang-radar.svg" alt="Language Adoption Radar" />
 
 </div>
 
@@ -105,6 +117,63 @@ I build real projects while learning: web apps, bot systems, Linux/VPS tools, an
 </div>
 
 > Streak is computed from the official GitHub contribution calendar, and the hour chart from real commit timestamps across every repository (Asia/Jakarta timezone). Auto-updates on every commit and every 4 days.
+
+---
+
+## Full-Year Contribution Calendar
+
+<div align="center">
+
+<img width="100%" src="https://raw.githubusercontent.com/akaanakbaik/akaanakbaik/main/generated/calendar.svg" alt="Full-Year Contribution Calendar" />
+
+</div>
+
+> The complete last 365 days — a full year of contributions, not just recent weeks. Hover any square to see the exact date and count.
+
+---
+
+## Coding Age & Rhythm
+
+<div align="center">
+
+<img width="100%" src="https://raw.githubusercontent.com/akaanakbaik/akaanakbaik/main/generated/coding-age.svg" alt="Coding Age" />
+
+<br />
+<br />
+
+<img width="100%" src="https://raw.githubusercontent.com/akaanakbaik/akaanakbaik/main/generated/coding-rhythm.svg" alt="Coding Rhythm" />
+
+</div>
+
+> Coding age is measured precisely from account creation (years, months, days). The rhythm chart classifies every commit into Night Owl 🦉 / Early Bird 🐦 / Day Coder ☀️ / Evening 🌆 using circular statistics on real commit timestamps in Asia/Jakarta.
+
+---
+
+## Live Jakarta Time
+
+<div align="center">
+
+<img width="100%" src="https://raw.githubusercontent.com/akaanakbaik/akaanakbaik/main/generated/live-clock.svg" alt="Live Jakarta Time Clock" />
+
+<br />
+
+<a href="https://github.com/akaanakbaik/akaanakbaik/actions/workflows/live-clock.yml"><img src="https://img.shields.io/github/actions/workflow/status/akaanakbaik/akaanakbaik/live-clock.yml?branch=main&label=live%20clock&style=flat-square&logo=githubactions&color=f59e0b" alt="Live Clock Workflow" /></a>
+
+</div>
+
+> A real-time Jakarta clock refreshed by GitHub Actions **every 30 minutes** — analog hands are animated, and the digital time, date and day update automatically.
+
+---
+
+## Top 5 Repositories — Dynamic Ranking
+
+<div align="center">
+
+<img width="100%" src="https://raw.githubusercontent.com/akaanakbaik/akaanakbaik/main/generated/top-repos.svg" alt="Top 5 Repositories by Composite Score" />
+
+</div>
+
+> Re-ranked automatically on every run by a **composite activity score**: stars, forks, watchers, pull requests, issues, discussions, commit activity and push recency — live from the GitHub API. The #1 repo rotates whenever another repository becomes more active.
 
 ---
 
