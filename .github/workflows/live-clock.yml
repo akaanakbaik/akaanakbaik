@@ -32,5 +32,4 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: 'chore(clock): refresh live Jakarta time and real-time social badges'
-          pull: '--rebase'
           file_pattern: 'generated/live-clock.svg generated/motivation-quote.svg badges/live-time.json badges/live-date.json badges/motivation.json badges/motivation-author.json badges/followers.json badges/following.json badges/public-gists.json badges/total-stars.json badges/total-forks.json badges/public-repos.json'
