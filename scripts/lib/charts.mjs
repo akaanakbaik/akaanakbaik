@@ -570,6 +570,39 @@ ${weekdayBars}
   return baseCard(width, height, 'Commit Activity by Hour', `Commit author timestamps from default branches of every repository · Asia/Jakarta timezone · real data`, inner);
 }
 
+export function pinnedRepoCardSvg(repo, index = 0) {
+  const width = 320;
+  const height = 152;
+  const color = colorFor(repo.language || 'Unknown', index);
+  const name = repo.name.length > 26 ? repo.name.slice(0, 25) + '…' : repo.name;
+  const description = repo.description
+    ? (repo.description.length > 76 ? repo.description.slice(0, 73) + '…' : repo.description)
+    : 'No description provided';
+  const stars = compact(repo.stars);
+  const forks = compact(repo.forks);
+  const lang = repo.language || 'Unknown';
+  return `<svg width="${width}" height="${height}" viewBox="0 0 ${width} ${height}" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="pinBg${index}" x1="0" y1="0" x2="0" y2="${height}"><stop stop-color="#151b2c"/><stop offset="1" stop-color="#0a0e1a"/></linearGradient>
+<linearGradient id="pinTop${index}" x1="0" y1="0" x2="${width}" y2="0"><stop stop-color="${color}" stop-opacity="0.9"/><stop offset="1" stop-color="${color}" stop-opacity="0.15"/></linearGradient>
+</defs>
+<a href="${esc(repo.url)}">
+<rect x="1.5" y="1.5" width="${width - 3}" height="${height - 3}" rx="16" fill="url(#pinBg${index})" stroke="${color}" stroke-opacity="0.45" stroke-width="1.5"/>
+<rect x="1.5" y="1.5" width="${width - 3}" height="5" rx="2.5" fill="url(#pinTop${index})"/>
+<circle cx="20" cy="34" r="6" fill="${color}"/>
+<text x="34" y="38" fill="#ffffff" font-size="15.5" font-weight="800" ${font()}>${esc(name)}</text>
+<text x="16" y="66" fill="#94a3b8" font-size="11" textLength="${width - 32}" lengthAdjust="spacingAndGlyphs" ${font()}>${esc(description)}</text>
+<line x1="16" y1="92" x2="${width - 16}" y2="92" stroke="#ffffff" stroke-opacity="0.07"/>
+<circle cx="20" cy="110" r="5" fill="${color}"/>
+<text x="31" y="114" fill="#cbd5e1" font-size="11.5" font-weight="700" ${font()}>${esc(lang)}</text>
+<text x="${width - 36}" y="114" text-anchor="end" fill="#e2e8f0" font-size="12" font-weight="800" ${font()}>★ ${stars}</text>
+<text x="${width - 16}" y="114" text-anchor="end" fill="#cbd5e1" font-size="12" font-weight="700" ${font()}>⑂ ${forks}</text>
+<text x="16" y="136" fill="#5b6478" font-size="9.5" textLength="${width - 32}" lengthAdjust="spacingAndGlyphs" ${font()}>${esc(repo.url.replace('https://github.com/', '@'))}</text>
+</a>
+</svg>
+`;
+}
+
 export function manifestLine(data) {
   const lines = [
     `repos=${data.publicRepos}`,

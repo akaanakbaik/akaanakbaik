@@ -177,19 +177,59 @@ async function main() {
     await writeBadge('code-files', 'code files', compact(t.files), '06b6d4');
   }
   const distribution = data.languageDistribution;
-  log('collecting activity and streak data');
-  const activity = await fetchUserActivity(token, username, log);
-  const streak = computeStreak(activity);
-  log(`streak: current=${streak.currentStreak}d longest=${streak.longest}d activeDays=${streak.activeDays} contributions=${streak.totalContributions}`);
-  const commitHours = await fetchCommitTimestamps(data.client, username, data.allRepos, log);
-  log(`commit hours: ${commitHours.sampled} sampled, peak ${commitHours.peakHour}:00, mean ${commitHours.circularMean.toFixed(1)}:00, busiest ${commitHours.peakWeekday}`);
-  await writeFile('generated/streak.svg', streakSvg({ ...activity, ...streak, activeDays: streak.activeDays }));
-  await writeFile('generated/commit-hours.svg', commitHoursSvg({ ...commitHours, totalCommitContributions: activity.totalCommitContributions }));
-  await writeBadge('streak-days', 'current streak', `${streak.currentStreak} days`, 'f59e0b');
-  await writeBadge('total-commits', 'commits', compact(activity.totalCommitContributions), '2563eb');
-  await writeBadge('total-prs', 'pull requests', compact(activity.pullRequests), '16a34a');
-  await writeBadge('last-active', 'last active', streak.lastActiveDate ? relativeTime(`${streak.lastActiveDate}T00:00:00Z`) : 'unknown', '06b6d4');
-  await writeBadge('peak-hour', 'peak coding hour', `${commitHours.peakHour}:00 WIB`, 'db2777');
+  let activity = null;
+  let streak = null;
+  let commitHours = null;
+  try {
+    log('collecting activity and streak data');
+    activity = await fetchUserActivity(token, username, log);
+    streak = computeStreak(activity);
+    commitHours = await fetchCommitTimestamps(data.client, username, data.allRepos, log);
+    log(`streak: current=${streak.currentStreak}d longest=${streak.longest}d activeDays=${streak.activeDays} contributions=${streak.totalContributions}`);
+    log(`commit hours: ${commitHours.sampled} sampled, peak ${commitHours.peakHour}:00, mean ${commitHours.circularMean.toFixed(1)}:00, busiest ${commitHours.peakWeekday}`);
+    await writeFile('generated/streak.svg', streakSvg({ ...activity, ...streak, activeDays: streak.activeDays }));
+    await writeFile('generated/commit-hours.svg', commitHoursSvg({ ...commitHours, totalCommitContributions: activity.totalCommitContributions }));
+    await writeBadge('streak-days', 'current streak', `${streak.currentStreak} days`, 'f59e0b');
+    await writeBadge('total-commits', 'commits', compact(activity.totalCommitContributions), '2563eb');
+    await writeBadge('total-prs', 'pull requests', compact(activity.pullRequests), '16a34a');
+    await writeBadge('last-active', 'last active', streak.lastActiveDate ? relativeTime(`${streak.lastActiveDate}T00:00:00Z`) : 'unknown', '06b6d4');
+    await writeBadge('peak-hour', 'peak coding hour', `${commitHours.peakHour}:00 WIB`, 'db2777');
+  } catch (error) {
+    log(`activity collection skipped: ${error.message}`);
+  }
+  const activitySafe = activity || {
+    pullRequests: 0,
+    issues: 0,
+    reposContributed: 0,
+    totalCommitContributions: 0,
+    totalIssueContributions: 0,
+    totalPRContributions: 0,
+    totalPRReviews: 0,
+    totalRepositoryContributions: 0,
+    totalContributions: 0,
+    days: [],
+    level: () => 0
+  };
+  const streakSafe = streak || {
+    currentStreak: 0,
+    longest: 0,
+    lastActiveDate: null,
+    activeDays: 0,
+    totalContributions: 0
+  };
+  const commitHoursSafe = commitHours || {
+    sampled: 0,
+    hourCounts: Array.from({ length: 24 }, () => 0),
+    weekdayCounts: Array.from({ length: 7 }, () => 0),
+    weekdayOrder: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'],
+    peakHour: 0,
+    peakWeekday: 'Mon',
+    circularMean: 0,
+    circularStd: 0,
+    activeHours: 0,
+    reposWithCommits: 0,
+    topCommitRepos: []
+  };
   await writeBadge('language-count', 'languages', compact(distribution.languagesCount), 'a855f7');
   await mkdir('badges', { recursive: true });
   await mkdir('stats', { recursive: true });
@@ -258,29 +298,29 @@ async function main() {
     topRepositories: data.topRepositories,
     recentRepositories: data.recentRepositories,
     activity: {
-      pullRequests: activity.pullRequests,
-      issues: activity.issues,
-      reposContributed: activity.reposContributed,
-      totalCommitContributions: activity.totalCommitContributions,
-      totalIssueContributions: activity.totalIssueContributions,
-      totalPRContributions: activity.totalPRContributions,
-      totalPRReviews: activity.totalPRReviews,
-      totalRepositoryContributions: activity.totalRepositoryContributions,
-      totalContributions: activity.totalContributions
+      pullRequests: activitySafe.pullRequests,
+      issues: activitySafe.issues,
+      reposContributed: activitySafe.reposContributed,
+      totalCommitContributions: activitySafe.totalCommitContributions,
+      totalIssueContributions: activitySafe.totalIssueContributions,
+      totalPRContributions: activitySafe.totalPRContributions,
+      totalPRReviews: activitySafe.totalPRReviews,
+      totalRepositoryContributions: activitySafe.totalRepositoryContributions,
+      totalContributions: activitySafe.totalContributions
     },
-    streak,
+    streak: streakSafe,
     commitHours: {
-      sampled: commitHours.sampled,
-      hourCounts: commitHours.hourCounts,
-      weekdayCounts: commitHours.weekdayCounts,
-      weekdayOrder: commitHours.weekdayOrder,
-      peakHour: commitHours.peakHour,
-      peakWeekday: commitHours.peakWeekday,
-      circularMean: commitHours.circularMean,
-      circularStd: commitHours.circularStd,
-      activeHours: commitHours.activeHours,
-      reposWithCommits: commitHours.reposWithCommits,
-      topCommitRepos: commitHours.topCommitRepos
+      sampled: commitHoursSafe.sampled,
+      hourCounts: commitHoursSafe.hourCounts,
+      weekdayCounts: commitHoursSafe.weekdayCounts,
+      weekdayOrder: commitHoursSafe.weekdayOrder,
+      peakHour: commitHoursSafe.peakHour,
+      peakWeekday: commitHoursSafe.peakWeekday,
+      circularMean: commitHoursSafe.circularMean,
+      circularStd: commitHoursSafe.circularStd,
+      activeHours: commitHoursSafe.activeHours,
+      reposWithCommits: commitHoursSafe.reposWithCommits,
+      topCommitRepos: commitHoursSafe.topCommitRepos
     }
   };
   await writeFile('stats/profile-summary.json', JSON.stringify(payload, null, 2) + '\n');
