@@ -241,11 +241,19 @@ export async function fetchCommitTimestamps(client, username, allRepos, log = ()
   const weekdays = [];
   const perRepoCounts = [];
   let newestDate = null;
+  const isBotCommit = (commit) => {
+    const msg = (commit.commit && commit.commit.message) || '';
+    if (/\[skip github action\]/i.test(msg)) return true;
+    if (/^update .*\.svg - \[/i.test(msg) && /bot/i.test(msg)) return true;
+    if (/chore\((metrics|clock|summary)\)/i.test(msg) && /auto-update|refresh|publish/i.test(msg)) return true;
+    return false;
+  };
   const processCommits = (commits, repo) => {
     let owned = 0;
     for (const commit of commits) {
       const authorLogin = commit.author && commit.author.login;
       if (authorLogin !== username) continue;
+      if (isBotCommit(commit)) continue;
       const date = commit.commit && commit.commit.author && commit.commit.author.date;
       if (!date) continue;
       owned += 1;
