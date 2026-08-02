@@ -1,6 +1,6 @@
 # Profile Metrics Summary
 
-Generated: 02 Aug 2026, 18:17
+Generated: 02 Aug 2026, 18:18
 
 ## Account
 
@@ -85,29 +85,29 @@ Generated: 02 Aug 2026, 18:17
 | Statistic | Value |
 | --- | ---: |
 | Distinct languages | 41 |
-| Shannon entropy | 2.252 bits (max 5.358) |
+| Shannon entropy | 2.251 bits (max 5.358) |
 | Redundancy | 58.0% |
-| Herfindahl-Hirschman Index | 3122.7 (×10⁴) |
-| Gini coefficient | 0.9091 |
-| CR₃ concentration | 84.82% |
-| CR₅ concentration | 90.51% |
+| Herfindahl-Hirschman Index | 3126.7 (×10⁴) |
+| Gini coefficient | 0.9092 |
+| CR₃ concentration | 84.84% |
+| CR₅ concentration | 90.52% |
 | Pareto 80% coverage | top 3 of 41 languages |
-| Top language share | 48.79% |
+| Top language share | 48.85% |
 | Geometric mean bytes | 4.9K |
-| Coefficient of variation | 3.436 |
+| Coefficient of variation | 3.438 |
 
 ## Language Bytes
 
 | Language | Repos | Bytes | Share |
 | --- | ---: | ---: | ---: |
-| JavaScript | 70 | 23292941 | 48.79% |
-| TypeScript | 30 | 11230276 | 23.52% |
-| Python | 12 | 5970901 | 12.51% |
-| CSS | 51 | 1602416 | 3.36% |
+| JavaScript | 70 | 23348014 | 48.85% |
+| TypeScript | 30 | 11230276 | 23.50% |
+| Python | 12 | 5970901 | 12.49% |
+| CSS | 51 | 1602416 | 3.35% |
 | C++ | 9 | 1114294 | 2.33% |
-| Jupyter Notebook | 1 | 1077015 | 2.26% |
+| Jupyter Notebook | 1 | 1077015 | 2.25% |
 | HTML | 51 | 1036724 | 2.17% |
-| Java | 7 | 938571 | 1.97% |
+| Java | 7 | 938571 | 1.96% |
 | C | 7 | 447195 | 0.94% |
 | Dart | 4 | 335452 | 0.70% |
 | Shell | 20 | 281201 | 0.59% |

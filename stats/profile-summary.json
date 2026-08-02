@@ -1,6 +1,6 @@
 {
   "username": "akaanakbaik",
-  "generatedAt": "02 Aug 2026, 18:17",
+  "generatedAt": "02 Aug 2026, 18:18",
   "publicRepos": 107,
   "originalRepos": 87,
   "forkedRepos": 20,
@@ -16,31 +16,31 @@
   "topLanguage": "JavaScript",
   "accountAge": "2 years",
   "topRepo": "pterodactyl-gateway",
-  "recentRepo": "dastermv2",
+  "recentRepo": "akaanakbaik",
   "largestRepo": "Hacktoberfest2025-3",
   "languageDistribution": {
-    "totalBytes": 47740517,
+    "totalBytes": 47795590,
     "languagesCount": 41,
-    "entropy": 2.2522339184789257,
+    "entropy": 2.250830712285086,
     "entropyMax": 5.357552004618084,
-    "redundancy": 0.5796151084417747,
-    "hhi": 3122.6671830869095,
-    "gini": 0.9091004065715114,
-    "cr3": 84.82128084201518,
-    "cr5": 90.51185599854313,
+    "redundancy": 0.5798770202613203,
+    "hhi": 3126.7193236711514,
+    "gini": 0.9091770427089969,
+    "cr3": 84.83877068993185,
+    "cr5": 90.52278881796417,
     "pareto80": {
       "count": 3,
       "totalCount": 41,
-      "share": 0.8482128084201518
+      "share": 0.8483877068993185
     },
-    "topShare": 48.79071795556801,
-    "geomeanBytes": 4858.072353428325,
+    "topShare": 48.849724420181865,
+    "geomeanBytes": 4858.352183334777,
     "medianBytes": 2515,
-    "cv": 3.4355400522561714,
+    "cv": 3.437957129903123,
     "byBytes": [
       {
         "name": "JavaScript",
-        "bytes": 23292941,
+        "bytes": 23348014,
         "repos": 70
       },
       {
@@ -948,6 +948,12 @@
   ],
   "recentRepositories": [
     {
+      "name": "akaanakbaik",
+      "url": "https://github.com/akaanakbaik/akaanakbaik",
+      "language": "JavaScript",
+      "updatedAt": "2026-08-02T11:17:46Z"
+    },
+    {
       "name": "dastermv2",
       "url": "https://github.com/akaanakbaik/dastermv2",
       "language": "Shell",
@@ -958,12 +964,6 @@
       "url": "https://github.com/akaanakbaik/auto-commit",
       "language": "Unknown",
       "updatedAt": "2026-08-02T09:24:07Z"
-    },
-    {
-      "name": "akaanakbaik",
-      "url": "https://github.com/akaanakbaik/akaanakbaik",
-      "language": "JavaScript",
-      "updatedAt": "2026-08-02T09:22:45Z"
     },
     {
       "name": "musika-apk",

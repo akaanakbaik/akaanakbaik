@@ -24,13 +24,13 @@
 </g><g transform="translate(32 143)">
 <text x="0" y="17" fill="#e5e7eb" font-size="15" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">TypeScript</text>
 <rect x="170" y="2" width="650" height="18" rx="9" fill="#1f2937"/>
-<rect x="170" y="2" width="156" height="18" rx="9" fill="#3178c6"/>
-<text x="835" y="17" fill="#cbd5e1" font-size="13" text-anchor="end" font-family="Inter,'Segoe UI',system-ui,sans-serif">24% · 30 repos</text>
+<rect x="170" y="2" width="150" height="18" rx="9" fill="#3178c6"/>
+<text x="835" y="17" fill="#cbd5e1" font-size="13" text-anchor="end" font-family="Inter,'Segoe UI',system-ui,sans-serif">23% · 30 repos</text>
 </g><g transform="translate(32 174)">
 <text x="0" y="17" fill="#e5e7eb" font-size="15" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">Python</text>
 <rect x="170" y="2" width="650" height="18" rx="9" fill="#1f2937"/>
-<rect x="170" y="2" width="85" height="18" rx="9" fill="#3572A5"/>
-<text x="835" y="17" fill="#cbd5e1" font-size="13" text-anchor="end" font-family="Inter,'Segoe UI',system-ui,sans-serif">13% · 12 repos</text>
+<rect x="170" y="2" width="78" height="18" rx="9" fill="#3572A5"/>
+<text x="835" y="17" fill="#cbd5e1" font-size="13" text-anchor="end" font-family="Inter,'Segoe UI',system-ui,sans-serif">12% · 12 repos</text>
 </g><g transform="translate(32 205)">
 <text x="0" y="17" fill="#e5e7eb" font-size="15" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">CSS</text>
 <rect x="170" y="2" width="650" height="18" rx="9" fill="#1f2937"/>
