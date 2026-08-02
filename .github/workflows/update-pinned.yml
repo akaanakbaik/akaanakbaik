@@ -18,10 +18,10 @@ jobs:
     timeout-minutes: 10
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Setup Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v5
         with:
           node-version: 22
 
@@ -33,7 +33,7 @@ jobs:
         run: node scripts/pinned-repos.mjs
 
       - name: Commit and Push
-        uses: stefanzweifel/git-auto-commit-action@v5
+        uses: stefanzweifel/git-auto-commit-action@v6
         with:
           commit_message: 'chore(metrics): update pinned repository cards'
           file_pattern: 'generated/pinned-*.svg'

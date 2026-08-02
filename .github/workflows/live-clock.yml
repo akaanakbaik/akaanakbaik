@@ -18,10 +18,10 @@ jobs:
     timeout-minutes: 5
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Setup Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v5
         with:
           node-version: 22
 
@@ -29,7 +29,7 @@ jobs:
         run: node scripts/live-clock.mjs
 
       - name: Commit live clock refresh
-        uses: stefanzweifel/git-auto-commit-action@v5
+        uses: stefanzweifel/git-auto-commit-action@v6
         with:
           commit_message: 'chore(clock): refresh live Jakarta time and real-time social badges'
           file_pattern: 'generated/live-clock.svg generated/motivation-quote.svg badges/live-time.json badges/live-date.json badges/motivation.json badges/motivation-author.json badges/followers.json badges/following.json badges/public-gists.json badges/total-stars.json badges/total-forks.json badges/public-repos.json'
