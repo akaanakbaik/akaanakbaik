@@ -395,11 +395,14 @@ export function topReposSvg(repos) {
   const width = 1000;
   const height = 590;
   const medalColors = ['#fbbf24', '#c7cedb', '#c08552', '#667eea', '#764ba2'];
+  const safeNum = (v) => { const n = Number(v); return Number.isFinite(n) ? n : 0; };
   const inner = repos.slice(0, 5).map((repo, i) => {
     const y = 108 + i * 88;
     const color = medalColors[i];
-    const scorePct = Math.max(2, Math.min(100, repo.scorePct || 0));
-    const pushed = repo.daysSincePush <= 1 ? 'today' : repo.daysSincePush <= 30 ? `${repo.daysSincePush} d ago` : repo.daysSincePush <= 365 ? `${Math.round(repo.daysSincePush / 30)} mo ago` : `${Math.round(repo.daysSincePush / 365)} yr ago`;
+    const scoreRaw = safeNum(repo.scorePct);
+    const scorePct = Math.max(2, Math.min(100, scoreRaw > 0 ? scoreRaw : 25));
+    const dsp = safeNum(repo.daysSincePush);
+    const pushed = dsp <= 1 ? 'today' : dsp <= 30 ? `${Math.round(dsp)} d ago` : dsp <= 365 ? `${Math.round(dsp / 30)} mo ago` : `${Math.round(dsp / 365)} yr ago`;
     return `<a href="${esc(repo.url)}"><g transform="translate(30 ${y})">
 <rect width="940" height="76" rx="18" fill="#0d1322" stroke="${color}" stroke-opacity="0.5" stroke-width="1.4"/>
 <circle cx="38" cy="38" r="20" fill="${color}" fill-opacity="0.16" stroke="${color}" stroke-width="2"/>

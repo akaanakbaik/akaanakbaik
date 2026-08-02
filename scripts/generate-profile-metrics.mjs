@@ -374,7 +374,7 @@ async function main() {
   await writeFile('generated/stats-grid.svg', statsGridSvg(payload));
   await writeFile('generated/profile-dashboard.svg', githubStatsSvg(payload));
   await writeFile('generated/top-langs.svg', topLangsSvg({ byBytes: distribution.byBytes }));
-  await writeFile('generated/top-repos.svg', topReposSvg(data.topRepositories));
+  await writeFile('generated/top-repos.svg', topReposSvg(topRanked.length ? topRanked : data.topRepositories));
   await writeFile('generated/lang-donut.svg', langDonutSvg({ ...distribution, repoCount: data.publicRepos }));
   await writeFile('generated/lang-pareto.svg', langParetoSvg({ ...distribution, repoCount: data.publicRepos }));
   await writeFile('generated/lang-radar.svg', langRadarSvg({ ...distribution, repoCount: data.publicRepos }));
