@@ -32,8 +32,19 @@ jobs:
           PINNED_REPOS: portofoliov2,dastermv2,musika
         run: node scripts/pinned-repos.mjs
 
-      - name: Commit and Push
-        uses: stefanzweifel/git-auto-commit-action@v7
-        with:
-          commit_message: 'chore(metrics): update pinned repository cards'
-          file_pattern: 'generated/pinned-*.svg'
+      - name: Commit and push pinned cards
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add generated/pinned-*.svg
+          if git diff --cached --quiet; then echo "No changes to commit"; exit 0; fi
+          git commit -m "chore(metrics): update pinned repository cards"
+          for i in 1 2 3 4 5; do
+            if git pull --rebase origin main --quiet && git push --quiet; then
+              echo "Pushed pinned cards"
+              exit 0
+            fi
+            echo "Push rejected, retry $i/5..."
+            sleep 3
+          done
+          exit 1

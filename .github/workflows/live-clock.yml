@@ -28,8 +28,19 @@ jobs:
       - name: Generate live Jakarta clock and badges
         run: node scripts/live-clock.mjs
 
-      - name: Commit live clock refresh
-        uses: stefanzweifel/git-auto-commit-action@v7
-        with:
-          commit_message: 'chore(clock): refresh live Jakarta time and real-time social badges'
-          file_pattern: 'generated/live-clock.svg generated/motivation-quote.svg badges/live-time.json badges/live-date.json badges/motivation.json badges/motivation-author.json badges/followers.json badges/following.json badges/public-gists.json badges/total-stars.json badges/total-forks.json badges/public-repos.json'
+      - name: Commit and push live clock refresh
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add generated/live-clock.svg generated/motivation-quote.svg badges/live-time.json badges/live-date.json badges/motivation.json badges/motivation-author.json badges/followers.json badges/following.json badges/public-gists.json badges/total-stars.json badges/total-forks.json badges/public-repos.json
+          if git diff --cached --quiet; then echo "No changes to commit"; exit 0; fi
+          git commit -m "chore(clock): refresh live Jakarta time and real-time social badges"
+          for i in 1 2 3 4 5; do
+            if git pull --rebase origin main --quiet && git push --quiet; then
+              echo "Pushed live clock refresh"
+              exit 0
+            fi
+            echo "Push rejected, retry $i/5..."
+            sleep 3
+          done
+          exit 1
