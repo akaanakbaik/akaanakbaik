@@ -21,7 +21,7 @@
 <text x="66" y="20" text-anchor="middle" fill="#ffffff" font-size="13" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">Express · 25</text>
 </g><g transform="translate(612 112)">
 <rect width="116" height="31" rx="15.5" fill="#764ba2"/>
-<text x="58" y="20" text-anchor="middle" fill="#ffffff" font-size="13" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">Axios · 21</text>
+<text x="58" y="20" text-anchor="middle" fill="#ffffff" font-size="13" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">Axios · 22</text>
 </g><g transform="translate(454 112)">
 <rect width="148" height="31" rx="15.5" fill="#2563eb"/>
 <text x="74" y="20" text-anchor="middle" fill="#ffffff" font-size="13" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">WebSocket · 20</text>

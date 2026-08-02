@@ -18,22 +18,22 @@
 <rect x="30" y="80" width="840" height="3.5" rx="1.75" fill="url(#titleLine)"/>
 <g transform="translate(754 112)">
 <rect width="116" height="31" rx="15.5" fill="#667eea"/>
-<text x="58" y="20" text-anchor="middle" fill="#ffffff" font-size="13" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">React · 31</text>
+<text x="58" y="20" text-anchor="middle" fill="#ffffff" font-size="13" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">React · 32</text>
 </g><g transform="translate(604 112)">
 <rect width="140" height="31" rx="15.5" fill="#764ba2"/>
 <text x="70" y="20" text-anchor="middle" fill="#ffffff" font-size="13" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">Tailwind · 31</text>
 </g><g transform="translate(470 112)">
 <rect width="124" height="31" rx="15.5" fill="#2563eb"/>
-<text x="62" y="20" text-anchor="middle" fill="#ffffff" font-size="13" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">Lucide · 26</text>
+<text x="62" y="20" text-anchor="middle" fill="#ffffff" font-size="13" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">Lucide · 27</text>
 </g><g transform="translate(280 112)">
 <rect width="180" height="31" rx="15.5" fill="#16a34a"/>
-<text x="90" y="20" text-anchor="middle" fill="#ffffff" font-size="13" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">Framer Motion · 25</text>
+<text x="90" y="20" text-anchor="middle" fill="#ffffff" font-size="13" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">Framer Motion · 26</text>
 </g><g transform="translate(162 112)">
 <rect width="108" height="31" rx="15.5" fill="#f59e0b"/>
-<text x="54" y="20" text-anchor="middle" fill="#ffffff" font-size="13" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">Vite · 23</text>
+<text x="54" y="20" text-anchor="middle" fill="#ffffff" font-size="13" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">Vite · 24</text>
 </g><g transform="translate(714 156)">
 <rect width="156" height="31" rx="15.5" fill="#06b6d4"/>
-<text x="78" y="20" text-anchor="middle" fill="#ffffff" font-size="13" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">Vite React · 22</text>
+<text x="78" y="20" text-anchor="middle" fill="#ffffff" font-size="13" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">Vite React · 23</text>
 </g><g transform="translate(532 156)">
 <rect width="172" height="31" rx="15.5" fill="#db2777"/>
 <text x="86" y="20" text-anchor="middle" fill="#ffffff" font-size="13" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">React Router · 11</text>
