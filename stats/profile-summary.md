@@ -1,6 +1,6 @@
 # Profile Metrics Summary
 
-Generated: 02 Aug 2026, 18:22
+Generated: 02 Aug 2026, 18:23
 
 ## Account
 
@@ -23,18 +23,62 @@ Generated: 02 Aug 2026, 18:22
 
 | Metric | Value |
 | --- | ---: |
-| Files scanned | 0 |
-| Total lines | 0 |
-| Code lines (non-empty) | 0 |
-| Total characters | 0 |
-| Non-whitespace characters | 0 |
-| Bytes scanned | 0 |
+| Files scanned | 8,055 |
+| Total lines | 1,371,423 |
+| Code lines (non-empty) | 1,235,957 |
+| Total characters | 50,029,191 |
+| Non-whitespace characters | 38,117,837 |
+| Bytes scanned | 47.84 MB |
 
 ## Lines of Code per Language
 
 | Language | Lines | Chars | Files |
 | --- | ---: | ---: | ---: |
-| - | 0 | 0 | 0 |
+| TypeScript | 398,287 | 14,793,040 | 2,777 |
+| JavaScript | 290,665 | 11,677,252 | 958 |
+| Python | 146,439 | 5,809,165 | 922 |
+| Text | 139,196 | 1,816,678 | 71 |
+| Markdown | 75,804 | 1,955,573 | 394 |
+| CSS | 59,470 | 1,596,249 | 100 |
+| C++ | 44,165 | 1,106,349 | 657 |
+| JSON | 43,837 | 1,493,819 | 289 |
+| XML | 34,151 | 2,872,596 | 509 |
+| Java | 30,391 | 937,967 | 413 |
+| HTML | 24,170 | 1,092,222 | 133 |
+| Unknown | 21,987 | 1,681,902 | 330 |
+| C | 18,320 | 452,275 | 164 |
+| Dart | 9,668 | 335,393 | 58 |
+| Shell | 7,730 | 252,146 | 64 |
+| Protocol Buffer | 6,716 | 214,771 | 3 |
+| Rust | 5,609 | 197,336 | 23 |
+| Go | 4,602 | 121,409 | 25 |
+| SVG | 4,252 | 422,294 | 45 |
+| Jupyter Notebook | 2,001 | 1,077,015 | 4 |
+| YAML | 1,488 | 45,316 | 17 |
+| PHP | 827 | 27,465 | 13 |
+| Batchfile | 446 | 11,708 | 6 |
+| SQL | 324 | 13,142 | 25 |
+| INI | 141 | 5,341 | 11 |
+| Kotlin | 136 | 3,348 | 8 |
+| PowerShell | 136 | 4,999 | 1 |
+| C# | 113 | 3,555 | 3 |
+| TOML | 95 | 2,187 | 3 |
+| Swift | 90 | 2,515 | 8 |
+| CMake | 50 | 1,590 | 2 |
+| Assembly | 45 | 1,130 | 2 |
+| Elixir | 12 | 192 | 2 |
+| V | 9 | 297 | 1 |
+| Scala | 8 | 142 | 1 |
+| Zig | 8 | 133 | 1 |
+| Erlang | 6 | 100 | 1 |
+| Lua | 6 | 110 | 2 |
+| Haskell | 5 | 110 | 2 |
+| Perl | 5 | 83 | 1 |
+| Ruby | 5 | 83 | 2 |
+| F# | 2 | 48 | 1 |
+| Julia | 2 | 51 | 1 |
+| Objective-C | 2 | 50 | 1 |
+| R | 2 | 45 | 1 |
 
 ## Language Distribution Statistics
 
