@@ -2,7 +2,7 @@ import { execFile } from 'node:child_process';
 import { promisify } from 'node:util';
 import { mkdir, readFile, readdir, stat, writeFile, rm } from 'node:fs/promises';
 import { existsSync } from 'node:fs';
-import { join, extname, basename } from 'node:path';
+import { join, extname } from 'node:path';
 import { runPool } from './engine.mjs';
 
 const exec = promisify(execFile);
@@ -247,6 +247,3 @@ export function aggregateCodeMetrics(repoScans) {
   };
 }
 
-export function repoDisplayName(repo) {
-  return basename(repo);
-}

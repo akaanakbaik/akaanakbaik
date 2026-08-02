@@ -1,6 +1,6 @@
 import { mkdir, writeFile } from 'node:fs/promises';
 import { join } from 'node:path';
-import { compact, thousandSep, humanBytes, dateStamp, writeBadge, esc, colorFor } from './lib/engine.mjs';
+import { compact, thousandSep, humanBytes, dateStamp, writeBadge } from './lib/engine.mjs';
 import { fetchProfileData } from './lib/collect.mjs';
 import { ensureClones, scanRepository, aggregateCodeMetrics } from './lib/loc.mjs';
 import {

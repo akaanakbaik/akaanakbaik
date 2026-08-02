@@ -1,5 +1,5 @@
 import { mkdir, writeFile } from 'node:fs/promises';
-import { createClient, compact, humanBytes, dateStamp } from './lib/engine.mjs';
+import { createClient, compact, dateStamp } from './lib/engine.mjs';
 import { fetchProfileData } from './lib/collect.mjs';
 import { langDonutSvg, langParetoSvg, langRadarSvg } from './lib/charts.mjs';
 

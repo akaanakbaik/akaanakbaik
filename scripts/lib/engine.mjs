@@ -297,53 +297,6 @@ export const LANG_COLORS = {
   Other: '#8b93a7'
 };
 
-export const LANG_LOGOS = {
-  JavaScript: 'javascript',
-  TypeScript: 'typescript',
-  Python: 'python',
-  HTML: 'html5',
-  CSS: 'css3',
-  Shell: 'gnubash',
-  Java: 'openjdk',
-  'C++': 'cplusplus',
-  C: 'c',
-  PHP: 'php',
-  Ruby: 'ruby',
-  Go: 'go',
-  Rust: 'rust',
-  Dart: 'dart',
-  Vue: 'vuedotjs',
-  Dockerfile: 'docker',
-  Kotlin: 'kotlin',
-  Swift: 'swift',
-  Lua: 'lua',
-  R: 'r',
-  Julia: 'julia',
-  Scala: 'scala',
-  Zig: 'zig',
-  Nim: 'nim',
-  Elixir: 'elixir',
-  Erlang: 'erlang',
-  Haskell: 'haskell',
-  Perl: 'perl',
-  Groovy: 'groovy',
-  Crystal: 'crystal',
-  CoffeeScript: 'coffeescript',
-  Clojure: 'clojure',
-  Fortran: 'fortran',
-  PowerShell: 'powershell',
-  'C#': 'csharp',
-  Assembly: 'assemblyscript',
-  Markdown: 'markdown',
-  JSON: 'json',
-  YAML: 'yaml',
-  TOML: 'toml',
-  XML: 'xml',
-  Batchfile: 'windows',
-  Makefile: 'gnumake',
-  'Visual Basic': 'visualbasic'
-};
-
 export function colorFor(language, index = 0) {
   return LANG_COLORS[language] || PALETTE[index % PALETTE.length];
 }
