@@ -1,6 +1,6 @@
 {
   "username": "akaanakbaik",
-  "generatedAt": "02 Aug 2026, 18:16",
+  "generatedAt": "02 Aug 2026, 18:17",
   "publicRepos": 107,
   "originalRepos": 87,
   "forkedRepos": 20,
@@ -413,12 +413,12 @@
   },
   "codeTotals": {
     "totals": {
-      "files": 8039,
-      "lines": 1368916,
-      "codeLines": 1233546,
-      "chars": 49915083,
-      "nonWsChars": 38019969,
-      "bytes": 50054555
+      "files": 8055,
+      "lines": 1371888,
+      "codeLines": 1236421,
+      "chars": 50038900,
+      "nonWsChars": 38123545,
+      "bytes": 50178449
     },
     "perLang": [
       {
@@ -431,11 +431,11 @@
       },
       {
         "name": "JavaScript",
-        "files": 952,
-        "lines": 289216,
-        "codeLines": 270711,
-        "chars": 11623204,
-        "bytes": 11654579
+        "files": 958,
+        "lines": 290715,
+        "codeLines": 272128,
+        "chars": 11678247,
+        "bytes": 11709652
       },
       {
         "name": "Python",
@@ -456,10 +456,10 @@
       {
         "name": "Markdown",
         "files": 394,
-        "lines": 75756,
-        "codeLines": 50833,
-        "chars": 1953656,
-        "bytes": 1975928
+        "lines": 75848,
+        "codeLines": 50917,
+        "chars": 1956975,
+        "bytes": 1979256
       },
       {
         "name": "CSS",
@@ -470,20 +470,20 @@
         "bytes": 1602416
       },
       {
+        "name": "JSON",
+        "files": 289,
+        "lines": 44208,
+        "codeLines": 44183,
+        "chars": 1501130,
+        "bytes": 1501168
+      },
+      {
         "name": "C++",
         "files": 657,
         "lines": 44165,
         "codeLines": 37192,
         "chars": 1106349,
         "bytes": 1107070
-      },
-      {
-        "name": "JSON",
-        "files": 285,
-        "lines": 43631,
-        "codeLines": 43606,
-        "chars": 1490234,
-        "bytes": 1490272
       },
       {
         "name": "XML",
@@ -511,11 +511,11 @@
       },
       {
         "name": "Unknown",
-        "files": 329,
-        "lines": 21984,
-        "codeLines": 19065,
-        "chars": 1681874,
-        "bytes": 1687795
+        "files": 330,
+        "lines": 21987,
+        "codeLines": 19068,
+        "chars": 1681902,
+        "bytes": 1687823
       },
       {
         "name": "C",
@@ -567,11 +567,11 @@
       },
       {
         "name": "SVG",
-        "files": 40,
-        "lines": 3451,
-        "codeLines": 3394,
-        "chars": 367764,
-        "bytes": 367829
+        "files": 45,
+        "lines": 4252,
+        "codeLines": 4188,
+        "chars": 422295,
+        "bytes": 422398
       },
       {
         "name": "Jupyter Notebook",

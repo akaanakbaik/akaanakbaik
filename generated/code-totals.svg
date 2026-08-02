@@ -39,14 +39,14 @@
 <rect width="237" height="56" rx="12" fill="#0a0e1a" stroke="#ffffff" stroke-opacity="0.07" stroke-width="1"/>
 <rect width="237" height="56" rx="12" fill="url(#inset)" opacity="0.5"/>
 <text x="118.5" y="15" text-anchor="middle" fill="#8b93a7" font-size="9.5" font-weight="800" letter-spacing="1.6" font-family="Inter,'Segoe UI',system-ui,sans-serif">TOTAL LINES OF CODE</text>
-<text x="118.5" y="45" text-anchor="middle" fill="url(#numGradL)" font-size="41" font-weight="900" filter="url(#glowL)" letter-spacing="0.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">1,368,916</text>
+<text x="118.5" y="45" text-anchor="middle" fill="url(#numGradL)" font-size="41" font-weight="900" filter="url(#glowL)" letter-spacing="0.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">1,371,888</text>
 </g>
 <g transform="translate(289 26)">
 <rect width="237" height="56" rx="12" fill="#0a0e1a" stroke="#ffffff" stroke-opacity="0.07" stroke-width="1"/>
 <rect width="237" height="56" rx="12" fill="url(#inset)" opacity="0.5"/>
 <text x="118.5" y="15" text-anchor="middle" fill="#8b93a7" font-size="9.5" font-weight="800" letter-spacing="1.6" font-family="Inter,'Segoe UI',system-ui,sans-serif">TOTAL CHARACTERS</text>
-<text x="118.5" y="45" text-anchor="middle" fill="url(#numGradC)" font-size="37" font-weight="900" filter="url(#glowC)" letter-spacing="0.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">49,915,083</text>
+<text x="118.5" y="45" text-anchor="middle" fill="url(#numGradC)" font-size="37" font-weight="900" filter="url(#glowC)" letter-spacing="0.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">50,038,900</text>
 </g>
 <line x1="22" y1="96" x2="538" y2="96" stroke="#ffffff" stroke-opacity="0.08"/>
-<text x="280" y="108" text-anchor="middle" fill="#5b6478" font-size="10" font-weight="700" letter-spacing="1.1" font-family="Inter,'Segoe UI',system-ui,sans-serif">SCANNED 107 REPOSITORIES · 8.0K FILES · 02 AUG 2026, 18:16</text>
+<text x="280" y="108" text-anchor="middle" fill="#5b6478" font-size="10" font-weight="700" letter-spacing="1.1" font-family="Inter,'Segoe UI',system-ui,sans-serif">SCANNED 107 REPOSITORIES · 8.1K FILES · 02 AUG 2026, 18:17</text>
 </svg>
