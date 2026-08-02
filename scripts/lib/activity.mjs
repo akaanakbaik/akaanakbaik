@@ -240,24 +240,40 @@ export async function fetchCommitTimestamps(client, username, allRepos, log = ()
   const hours = [];
   const weekdays = [];
   const perRepoCounts = [];
+  let newestDate = null;
+  const processCommits = (commits, repo) => {
+    let owned = 0;
+    for (const commit of commits) {
+      const authorLogin = commit.author && commit.author.login;
+      if (authorLogin !== username) continue;
+      const date = commit.commit && commit.commit.author && commit.commit.author.date;
+      if (!date) continue;
+      owned += 1;
+      if (!newestDate || new Date(date).getTime() > new Date(newestDate).getTime()) newestDate = date;
+      const hour = hourInTz(date);
+      const weekday = weekdayInTz(date);
+      if (hour !== null) hours.push(hour);
+      if (weekday !== null) weekdays.push(weekday);
+    }
+    return owned;
+  };
   const tasks = allRepos.map((repo) => async () => {
     try {
-      const commits = await client.request(`/repos/${username}/${encodeURIComponent(repo.name)}/commits?per_page=100`);
+      let owned = 0;
+      const commits = await client.request(`/repos/${username}/${encodeURIComponent(repo.name)}/commits?per_page=100&page=1`);
       if (!Array.isArray(commits) || commits.length === 0) {
         perRepoCounts.push({ repo: repo.name, count: 0 });
         return;
       }
-      let owned = 0;
-      for (const commit of commits) {
-        const authorLogin = commit.author && commit.author.login;
-        if (authorLogin !== username) continue;
-        const date = commit.commit && commit.commit.author && commit.commit.author.date;
-        if (!date) continue;
-        owned += 1;
-        const hour = hourInTz(date);
-        const weekday = weekdayInTz(date);
-        if (hour !== null) hours.push(hour);
-        if (weekday !== null) weekdays.push(weekday);
+      owned += processCommits(commits, repo);
+      let page = 2;
+      let current = commits;
+      while (current.length === 100 && page <= 4) {
+        const more = await client.request(`/repos/${username}/${encodeURIComponent(repo.name)}/commits?per_page=100&page=${page}`);
+        if (!Array.isArray(more) || more.length === 0) break;
+        owned += processCommits(more, repo);
+        current = more;
+        page += 1;
       }
       perRepoCounts.push({ repo: repo.name, count: owned });
     } catch (error) {
@@ -283,6 +299,7 @@ export async function fetchCommitTimestamps(client, username, allRepos, log = ()
     activeHours: hourCounts.filter((c) => c > 0).length,
     reposWithCommits: perRepoCounts.filter((p) => p.count > 0).length,
     perRepoCounts: [...perRepoCounts].sort((a, b) => b.count - a.count),
-    topCommitRepos: [...perRepoCounts].sort((a, b) => b.count - a.count).slice(0, 5)
+    topCommitRepos: [...perRepoCounts].sort((a, b) => b.count - a.count).slice(0, 5),
+    latestDate: newestDate
   };
 }

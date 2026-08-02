@@ -195,7 +195,8 @@ async function main() {
     log('ranking top repositories by composite activity score');
     topRanked = await fetchTopReposRanking(data.client, token, username, data.allRepos, commitHours.perRepoCounts, log);
     log(`top 5: ${topRanked.slice(0, 5).map((r) => `${r.name}(${r.scorePct.toFixed(1)})`).join(', ')}`);
-    await writeFile('generated/streak.svg', streakSvg({ ...activity, ...streak, activeDays: streak.activeDays }));
+    const lastActiveIso = commitHours.latestDate || (streak.lastActiveDate ? `${streak.lastActiveDate}T00:00:00Z` : null);
+    await writeFile('generated/streak.svg', streakSvg({ ...activity, ...streak, activeDays: streak.activeDays, lastActiveIso }));
     await writeFile('generated/commit-hours.svg', commitHoursSvg({ ...commitHours, totalCommitContributions: activity.totalCommitContributions }));
     await writeFile('generated/calendar.svg', calendarSvg({ days: activity.days, level: activity.level, currentStreak: streak.currentStreak, longest: streak.longest }));
     await writeFile('generated/top-repos.svg', topReposSvg(topRanked));
@@ -206,7 +207,7 @@ async function main() {
     await writeBadge('streak-days', 'current streak', `${streak.currentStreak} days`, 'f59e0b');
     await writeBadge('total-commits', 'commits (365d)', compact(activity.totalCommitContributions), '2563eb');
     await writeBadge('total-prs', 'pull requests', compact(activity.pullRequests), '16a34a');
-    await writeBadge('last-active', 'last active', streak.lastActiveDate ? relativeTime(`${streak.lastActiveDate}T00:00:00Z`) : 'unknown', '06b6d4');
+    await writeBadge('last-active', 'last active', lastActiveIso ? relativeTime(lastActiveIso) : 'unknown', '06b6d4');
     await writeBadge('peak-hour', 'peak coding hour', `${commitHours.peakHour}:00 WIB`, 'db2777');
     await writeBadge('coding-rhythm', 'coding rhythm', rhythm.label, 'a78bfa');
     await writeBadge('top-repo', 'top repo', topRanked[0] ? topRanked[0].name : 'none', 'fbbf24');
@@ -246,7 +247,8 @@ async function main() {
     activeHours: 0,
     reposWithCommits: 0,
     perRepoCounts: [],
-    topCommitRepos: []
+    topCommitRepos: [],
+    latestDate: null
   };
   const codingAge = preciseAge(data.user.created_at);
   await writeFile('generated/coding-age.svg', codingAgeSvg({
@@ -353,6 +355,7 @@ async function main() {
       activeHours: commitHoursSafe.activeHours,
       reposWithCommits: commitHoursSafe.reposWithCommits,
       topCommitRepos: commitHoursSafe.topCommitRepos,
+      latestDate: commitHoursSafe.latestDate,
       rhythm: classifyRhythm(commitHoursSafe.hourCounts)
     },
     codingAge: {

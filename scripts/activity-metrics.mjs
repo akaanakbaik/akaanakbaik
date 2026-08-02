@@ -26,7 +26,8 @@ async function main() {
   const wj = jakartaNow();
   await mkdir('generated', { recursive: true });
   await mkdir('stats', { recursive: true });
-  await writeFile('generated/streak.svg', streakSvg({ ...activity, ...streak, activeDays: streak.activeDays }));
+  const lastActiveIso = commitHours.latestDate || (streak.lastActiveDate ? `${streak.lastActiveDate}T00:00:00Z` : null);
+  await writeFile('generated/streak.svg', streakSvg({ ...activity, ...streak, activeDays: streak.activeDays, lastActiveIso }));
   await writeFile('generated/commit-hours.svg', commitHoursSvg({ ...commitHours, totalCommitContributions: activity.totalCommitContributions }));
   await writeFile('generated/calendar.svg', calendarSvg({ days: activity.days, level: activity.level, currentStreak: streak.currentStreak, longest: streak.longest }));
   await writeFile('generated/coding-rhythm.svg', codingRhythmSvg({ rhythm, hourCounts: commitHours.hourCounts, peakHour: commitHours.peakHour, sampled: commitHours.sampled, circularMean: commitHours.circularMean, circularStd: commitHours.circularStd, activeHours: commitHours.activeHours }));

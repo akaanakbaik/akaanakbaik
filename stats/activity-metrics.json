@@ -1,91 +1,91 @@
 {
   "username": "akaanakbaik",
-  "generatedAt": "02 Aug 2026, 19:21",
+  "generatedAt": "02 Aug 2026, 19:54",
   "activity": {
     "pullRequests": 42,
     "issues": 15,
     "reposContributed": 13,
-    "totalCommitContributions": 3753,
+    "totalCommitContributions": 3758,
     "totalPRReviews": 0,
-    "totalContributions": 3891
+    "totalContributions": 3896
   },
   "streak": {
     "currentStreak": 80,
     "longest": 80,
     "lastActiveDate": "2026-08-02",
     "activeDays": 202,
-    "totalContributions": 3891
+    "totalContributions": 3896
   },
   "commitHours": {
-    "sampled": 2352,
+    "sampled": 2840,
     "hourCounts": [
-      101,
-      19,
-      8,
-      16,
-      13,
-      38,
-      55,
-      103,
-      53,
+      114,
+      31,
+      21,
+      25,
+      29,
+      56,
+      75,
+      120,
+      54,
       109,
-      53,
-      102,
+      67,
+      122,
+      135,
+      99,
+      91,
+      79,
+      134,
       123,
-      84,
-      30,
-      63,
-      107,
-      98,
-      97,
-      52,
-      107,
-      266,
-      351,
-      304
+      125,
+      87,
+      130,
+      285,
+      367,
+      362
     ],
     "weekdayCounts": [
-      311,
-      336,
-      322,
-      401,
-      222,
-      371,
-      389
+      444,
+      406,
+      360,
+      441,
+      252,
+      485,
+      452
     ],
     "peakHour": 22,
-    "peakWeekday": "Thu",
-    "circularMean": 20.294722469267864,
-    "circularStd": 6.055409837050906,
+    "peakWeekday": "Sat",
+    "circularMean": 20.02204968552213,
+    "circularStd": 6.16303945247552,
     "activeHours": 24,
     "rhythm": {
       "label": "Night Owl",
       "emoji": "🦉",
-      "share": 0.34523809523809523,
+      "share": 0.3341549295774648,
       "buckets": [
         {
           "name": "Night Owl",
           "emoji": "🦉",
-          "count": 812,
-          "pct": 34.523809523809526
+          "count": 949,
+          "pct": 33.41549295774648
         },
         {
           "name": "Early Bird",
           "emoji": "🐦",
-          "count": 358,
-          "pct": 15.22108843537415
+          "count": 414,
+          "pct": 14.577464788732394
         },
         {
           "name": "Day Coder",
           "emoji": "☀️",
-          "count": 562,
-          "pct": 23.89455782312925
+          "count": 727,
+          "pct": 25.598591549295772
         },
         {
           "name": "Evening",
           "emoji": "🌆",
-          "count": 620,
-          "pct": 26.360544217687078
+          "count": 750,
+          "pct": 26.408450704225352
         }
       ],
       "peakHour": 22
@@ -100,24 +100,6 @@
   },
   "top5Repos": [
     {
-      "name": "pterodactyl-gateway",
-      "url": "https://github.com/akaanakbaik/pterodactyl-gateway",
-      "language": "TypeScript",
-      "watchersTotal": 0,
-      "pullRequests": 18,
-      "issues": 0,
-      "discussions": 0,
-      "daysSincePush": 14,
-      "commits": 95,
-      "score": 9.661881290384661,
-      "stars": 10,
-      "forks": 0,
-      "watchers": 0,
-      "prs": 18,
-      "recency": 0.7326324677392158,
-      "scorePct": 100
-    },
-    {
       "name": "akaanakbaik",
       "url": "https://github.com/akaanakbaik/akaanakbaik",
       "language": "JavaScript",
@@ -126,14 +108,68 @@
       "issues": 0,
       "discussions": 0,
       "daysSincePush": 0,
-      "commits": 86,
-      "score": 9.054364415376575,
+      "commits": 341,
+      "score": 10.302828807595358,
       "stars": 5,
       "forks": 0,
       "watchers": 1,
       "prs": 3,
       "recency": 1,
-      "scorePct": 93.71222998141494
+      "scorePct": 100
+    },
+    {
+      "name": "pterodactyl-gateway",
+      "url": "https://github.com/akaanakbaik/pterodactyl-gateway",
+      "language": "TypeScript",
+      "watchersTotal": 0,
+      "pullRequests": 18,
+      "issues": 0,
+      "discussions": 0,
+      "daysSincePush": 14,
+      "commits": 159,
+      "score": 10.127763664579009,
+      "stars": 10,
+      "forks": 0,
+      "watchers": 0,
+      "prs": 18,
+      "recency": 0.7326324677392158,
+      "scorePct": 98.30080508678074
+    },
+    {
+      "name": "portofoliov2",
+      "url": "https://github.com/akaanakbaik/portofoliov2",
+      "language": "JavaScript",
+      "watchersTotal": 0,
+      "pullRequests": 0,
+      "issues": 0,
+      "discussions": 0,
+      "daysSincePush": 117,
+      "commits": 139,
+      "score": 7.144050174782839,
+      "stars": 4,
+      "forks": 2,
+      "watchers": 0,
+      "prs": 0,
+      "recency": 0.07427357821433388,
+      "scorePct": 69.34066660911775
+    },
+    {
+      "name": "startup-tes",
+      "url": "https://github.com/akaanakbaik/startup-tes",
+      "language": "JavaScript",
+      "watchersTotal": 0,
+      "pullRequests": 0,
+      "issues": 0,
+      "discussions": 0,
+      "daysSincePush": 122,
+      "commits": 167,
+      "score": 6.995354330632872,
+      "stars": 4,
+      "forks": 1,
+      "watchers": 0,
+      "prs": 0,
+      "recency": 0.06646291798667318,
+      "scorePct": 67.89741401386598
     },
     {
       "name": "domkuv2",
@@ -151,43 +187,7 @@
       "watchers": 0,
       "prs": 13,
       "recency": 0.0033089938417302316,
-      "scorePct": 72.16480349531554
-    },
-    {
-      "name": "portofoliov2",
-      "url": "https://github.com/akaanakbaik/portofoliov2",
-      "language": "JavaScript",
-      "watchersTotal": 0,
-      "pullRequests": 0,
-      "issues": 0,
-      "discussions": 0,
-      "daysSincePush": 117,
-      "commits": 100,
-      "score": 6.846256184802089,
-      "stars": 4,
-      "forks": 2,
-      "watchers": 0,
-      "prs": 0,
-      "recency": 0.07427357821433388,
-      "scorePct": 70.85841751766672
-    },
-    {
-      "name": "dashterm",
-      "url": "https://github.com/akaanakbaik/dashterm",
-      "language": "Shell",
-      "watchersTotal": 0,
-      "pullRequests": 0,
-      "issues": 0,
-      "discussions": 0,
-      "daysSincePush": 240,
-      "commits": 64,
-      "score": 6.79529605074175,
-      "stars": 7,
-      "forks": 2,
-      "watchers": 0,
-      "prs": 0,
-      "recency": 0.004827949993831441,
-      "scorePct": 70.33098261623553
+      "scorePct": 67.6753712729514
     }
   ]
 }

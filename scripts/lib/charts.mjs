@@ -466,14 +466,15 @@ export function streakSvg(data) {
 <path d="M0 44 C0 26 14 12 26 0 C24 20 34 30 40 22 C46 30 52 36 52 48 C52 62 40 72 26 72 C12 72 0 62 0 44 Z" fill="url(#flameGrad)"/>
 <path d="M18 58 C18 48 26 40 34 34 C33 46 40 52 44 48 C47 54 47 60 43 64 C38 70 26 70 22 66 C19 64 18 61 18 58 Z" fill="#ffedd5" opacity="0.9"/>
 </g>`;
+  const lastActiveTs = data.lastActiveIso || (data.lastActiveDate ? `${data.lastActiveDate}T00:00:00Z` : null);
   const hero = `<g transform="translate(30 108)">
 <rect width="380" height="206" rx="20" fill="#0d1322" stroke="#667eea" stroke-opacity="0.5" stroke-width="1.4"/>
 <rect width="380" height="6" rx="3" fill="url(#bar)"/>
 ${flame}
 <text x="78" y="152" fill="#ffffff" font-size="52" font-weight="900" ${font()}>${data.currentStreak}</text>
 <text x="78" y="174" fill="#a78bfa" font-size="13" font-weight="800" letter-spacing="2" ${font()}>DAY STREAK</text>
-<text x="78" y="204" fill="#8b93a7" font-size="12" ${font()}>Last active: <tspan fill="#e2e8f0" font-weight="700">${data.lastActiveDate ? relativeTime(data.lastActiveDate + 'T00:00:00Z') : 'unknown'}</tspan></text>
-<text x="78" y="224" fill="#64748b" font-size="11" ${font()}>${data.lastActiveDate ? monthDay(data.lastActiveDate + 'T00:00:00Z') : ''} · longest streak ${data.longest} days</text>
+<text x="78" y="204" fill="#8b93a7" font-size="12" ${font()}>Last active: <tspan fill="#e2e8f0" font-weight="700">${lastActiveTs ? relativeTime(lastActiveTs) : 'unknown'}</tspan></text>
+<text x="78" y="224" fill="#64748b" font-size="11" ${font()}>${data.lastActiveDate ? monthDay(`${data.lastActiveDate}T00:00:00Z`) : ''} · longest streak ${data.longest} days</text>
 <text x="20" y="258" fill="#5b6478" font-size="10" ${font()}>GITHUB CONTRIBUTION CALENDAR · 365 DAYS</text>
 </g>`;
   const statCard = (x, y, label, value, color) => `<g transform="translate(${x} ${y})">
