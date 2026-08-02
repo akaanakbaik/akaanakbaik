@@ -48,7 +48,7 @@ jobs:
         run: node scripts/generate-profile-metrics.mjs
 
       - name: Commit generated metrics
-        uses: stefanzweifel/git-auto-commit-action@v6
+        uses: stefanzweifel/git-auto-commit-action@v7
         with:
           commit_message: 'chore(metrics): auto-update profile metrics, code totals, language charts and badges'
           file_pattern: 'badges/*.json stats/* generated/*.svg'

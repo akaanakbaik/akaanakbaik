@@ -33,7 +33,7 @@ jobs:
         run: node scripts/pinned-repos.mjs
 
       - name: Commit and Push
-        uses: stefanzweifel/git-auto-commit-action@v6
+        uses: stefanzweifel/git-auto-commit-action@v7
         with:
           commit_message: 'chore(metrics): update pinned repository cards'
           file_pattern: 'generated/pinned-*.svg'

@@ -32,7 +32,7 @@ jobs:
         run: node scripts/monthly-summary.mjs
 
       - name: Commit monthly summary
-        uses: stefanzweifel/git-auto-commit-action@v6
+        uses: stefanzweifel/git-auto-commit-action@v7
         with:
           commit_message: 'chore(summary): publish monthly AI activity summary'
           file_pattern: 'generated/monthly-summary.svg stats/monthly-summary.md badges/monthly-commits.json badges/monthly-active-days.json badges/monthly-top-repo.json'
