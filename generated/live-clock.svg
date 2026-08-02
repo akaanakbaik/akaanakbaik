@@ -14,20 +14,20 @@
 <line x1="128" y1="148" x2="128" y2="84" stroke="#e2e8f0" stroke-width="6" stroke-linecap="round"/>
 <animateTransform attributeName="transform" type="rotate" from="222.5 128 128" to="582.5 128 128" dur="43200s" repeatCount="indefinite"/>
 </g>
-<g transform="rotate(150.8 128 128)">
+<g transform="rotate(154.6 128 128)">
 <line x1="128" y1="148" x2="128" y2="60" stroke="#c7d2fe" stroke-width="4" stroke-linecap="round"/>
-<animateTransform attributeName="transform" type="rotate" from="150.8 128 128" to="510.8 128 128" dur="3600s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="rotate" from="154.6 128 128" to="514.6 128 128" dur="3600s" repeatCount="indefinite"/>
 </g>
-<g transform="rotate(48 128 128)">
+<g transform="rotate(276 128 128)">
 <line x1="128" y1="148" x2="128" y2="48" stroke="#f59e0b" stroke-width="2" stroke-linecap="round"/>
-<animateTransform attributeName="transform" type="rotate" from="48 128 128" to="408 128 128" dur="60s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="rotate" from="276 128 128" to="636 128 128" dur="60s" repeatCount="indefinite"/>
 </g>
 <circle cx="128" cy="128" r="6" fill="#f59e0b"/>
 <circle cx="128" cy="128" r="2.5" fill="#0b1020"/>
 </g>
 <g transform="translate(250 70)">
 <rect width="360" height="70" rx="16" fill="#0d1322" stroke="#667eea" stroke-opacity="0.4" stroke-width="1.2"/>
-<text x="180" y="36" text-anchor="middle" fill="#ffffff" font-size="40" font-weight="900" font-family="Inter,'Segoe UI',system-ui,sans-serif">19:25:08</text>
+<text x="180" y="36" text-anchor="middle" fill="#ffffff" font-size="40" font-weight="900" font-family="Inter,'Segoe UI',system-ui,sans-serif">19:25:46</text>
 <text x="180" y="58" text-anchor="middle" fill="#94a3b8" font-size="12" font-weight="700" letter-spacing="2" font-family="Inter,'Segoe UI',system-ui,sans-serif">WIB · ASIA/JAKARTA · UTC+7</text>
 </g>
 <g transform="translate(250 158)">
@@ -38,5 +38,5 @@
 <text x="0" y="38" fill="#64748b" font-size="12" font-family="Inter,'Segoe UI',system-ui,sans-serif">Sunday · refreshed by GitHub Actions every 30 minutes</text>
 </g>
 
-<text x="320" y="238" text-anchor="middle" fill="#5b6478" font-size="10.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">LIVE · generated 02 Aug 2026, 19:24 · auto-updates every 30 min</text>
+<text x="320" y="238" text-anchor="middle" fill="#5b6478" font-size="10.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">LIVE · generated 02 Aug 2026, 19:25 · auto-updates every 30 min</text>
 </svg>
