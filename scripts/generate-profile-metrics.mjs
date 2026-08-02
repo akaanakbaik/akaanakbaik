@@ -1,6 +1,6 @@
 import { mkdir, writeFile } from 'node:fs/promises';
 import { join } from 'node:path';
-import { compact, thousandSep, humanBytes, dateStamp, writeBadge, relativeTime, preciseAge, classifyRhythm, monthDay } from './lib/engine.mjs';
+import { compact, thousandSep, humanBytes, dateStamp, writeBadge, relativeTime, preciseAge, classifyRhythm, monthDay, jakartaNow } from './lib/engine.mjs';
 import { fetchProfileData } from './lib/collect.mjs';
 import { ensureClones, scanRepository, aggregateCodeMetrics } from './lib/loc.mjs';
 import { fetchUserActivity, computeStreak, fetchCommitTimestamps, fetchTopReposRanking } from './lib/activity.mjs';
@@ -200,15 +200,11 @@ async function main() {
     await writeFile('generated/calendar.svg', calendarSvg({ days: activity.days, level: activity.level, currentStreak: streak.currentStreak, longest: streak.longest }));
     await writeFile('generated/top-repos.svg', topReposSvg(topRanked));
     const rhythm = classifyRhythm(commitHours.hourCounts);
-    const now = new Date();
-    const wibParts = new Intl.DateTimeFormat('en-GB', { timeZone: 'Asia/Jakarta', hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: false }).formatToParts(now);
-    const wib = Object.fromEntries(wibParts.filter((p) => p.type !== 'literal').map((p) => [p.type, p.value]));
-    const dateText = new Intl.DateTimeFormat('en-GB', { timeZone: 'Asia/Jakarta', day: '2-digit', month: 'long', year: 'numeric' }).format(now);
-    const dayName = new Intl.DateTimeFormat('en-US', { timeZone: 'Asia/Jakarta', weekday: 'long' }).format(now);
-    await writeFile('generated/live-clock.svg', liveClockSvg({ hour: Number(wib.hour), minute: Number(wib.minute), second: Number(wib.second), dateText, dayName, generatedAt: data.generatedAt }));
+    const wj = jakartaNow();
+    await writeFile('generated/live-clock.svg', liveClockSvg({ hour: wj.hour, minute: wj.minute, second: wj.second, dateText: wj.dateText, dayName: wj.dayName, generatedAt: data.generatedAt }));
     await writeFile('generated/coding-rhythm.svg', codingRhythmSvg({ rhythm, hourCounts: commitHours.hourCounts, peakHour: commitHours.peakHour, sampled: commitHours.sampled, circularMean: commitHours.circularMean, circularStd: commitHours.circularStd, activeHours: commitHours.activeHours }));
     await writeBadge('streak-days', 'current streak', `${streak.currentStreak} days`, 'f59e0b');
-    await writeBadge('total-commits', 'commits', compact(activity.totalCommitContributions), '2563eb');
+    await writeBadge('total-commits', 'commits (365d)', compact(activity.totalCommitContributions), '2563eb');
     await writeBadge('total-prs', 'pull requests', compact(activity.pullRequests), '16a34a');
     await writeBadge('last-active', 'last active', streak.lastActiveDate ? relativeTime(`${streak.lastActiveDate}T00:00:00Z`) : 'unknown', '06b6d4');
     await writeBadge('peak-hour', 'peak coding hour', `${commitHours.peakHour}:00 WIB`, 'db2777');
@@ -276,12 +272,12 @@ async function main() {
   await writeBadge('public-gists', 'public gists', compact(data.publicGists), '16a34a');
   await writeBadge('total-stars', 'total stars', compact(data.totalStars), 'f59e0b');
   await writeBadge('total-forks', 'total forks', compact(data.totalForks), '16a34a');
-  await writeBadge('total-watchers', 'watchers', compact(data.totalWatchers), 'db2777');
+  await writeBadge('total-watchers', 'watchers (subscribers)', compact(data.totalWatchers), 'db2777');
   await writeBadge('repo-size', 'repo size', data.totalSize, '06b6d4');
   await writeBadge('top-language', 'top language', data.topLanguage, 'a855f7');
   if (topRanked.length === 0) await writeBadge('top-repo', 'top repo', data.topRepo, '764ba2');
   await writeBadge('recent-repo', 'recent repo', data.recentRepo, '667eea');
-  await writeBadge('account-age', 'account age', data.accountAge, '16a34a');
+  await writeBadge('account-age', 'account age', data.accountAgePrecise || data.accountAge, '16a34a');
   await writeBadge('last-updated', 'updated', data.generatedAt, 'ef4444');
   const payload = {
     username,
@@ -300,6 +296,8 @@ async function main() {
     totalSizeKb: data.totalSizeKb,
     topLanguage: data.topLanguage,
     accountAge: data.accountAge,
+    accountAgePrecise: data.accountAgePrecise || data.accountAge,
+    accountCreatedAt: data.accountCreatedAt,
     topRepo: data.topRepo,
     recentRepo: data.recentRepo,
     largestRepo: data.largestRepo,

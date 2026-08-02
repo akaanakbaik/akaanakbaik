@@ -81,11 +81,11 @@
 <rect x="711.76" y="332.24" width="23.15" height="83.76" rx="3.5" fill="url(#hourGrad)" opacity="0.85"/>
 <text x="723.33" y="326.24" text-anchor="middle" fill="#8b93a7" font-size="9.5" font-weight="600" font-family="Inter,'Segoe UI',system-ui,sans-serif">98</text>
 </g><g>
-<rect x="749.09" y="333.09" width="23.15" height="82.91" rx="3.5" fill="url(#hourGrad)" opacity="0.85"/>
-<text x="760.67" y="327.09" text-anchor="middle" fill="#8b93a7" font-size="9.5" font-weight="600" font-family="Inter,'Segoe UI',system-ui,sans-serif">97</text>
+<rect x="749.09" y="333.95" width="23.15" height="82.05" rx="3.5" fill="url(#hourGrad)" opacity="0.85"/>
+<text x="760.67" y="327.95" text-anchor="middle" fill="#8b93a7" font-size="9.5" font-weight="600" font-family="Inter,'Segoe UI',system-ui,sans-serif">96</text>
 </g><g>
-<rect x="786.43" y="370.70" width="23.15" height="45.30" rx="3.5" fill="url(#hourGrad)" opacity="0.85"/>
-<text x="798.00" y="364.70" text-anchor="middle" fill="#8b93a7" font-size="9.5" font-weight="600" font-family="Inter,'Segoe UI',system-ui,sans-serif">53</text>
+<rect x="786.43" y="368.99" width="23.15" height="47.01" rx="3.5" fill="url(#hourGrad)" opacity="0.85"/>
+<text x="798.00" y="362.99" text-anchor="middle" fill="#8b93a7" font-size="9.5" font-weight="600" font-family="Inter,'Segoe UI',system-ui,sans-serif">55</text>
 </g><g>
 <rect x="823.76" y="324.55" width="23.15" height="91.45" rx="3.5" fill="url(#hourGrad)" opacity="0.85"/>
 <text x="835.33" y="318.55" text-anchor="middle" fill="#8b93a7" font-size="9.5" font-weight="600" font-family="Inter,'Segoe UI',system-ui,sans-serif">107</text>
@@ -112,7 +112,7 @@
 </g><g transform="translate(370 446)">
 <rect width="170" height="54" rx="12" fill="#0d1322" stroke="#2563eb" stroke-opacity="0.35" stroke-width="1.2"/>
 <text x="14" y="20" fill="#8b93a7" font-size="10.5" font-weight="700" letter-spacing="1.2" font-family="Inter,'Segoe UI',system-ui,sans-serif">SAMPLED COMMITS</text>
-<text x="14" y="42" fill="#2563eb" font-size="17" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">2,352</text>
+<text x="14" y="42" fill="#2563eb" font-size="17" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">2,353</text>
 </g><g transform="translate(550 446)">
 <rect width="150" height="54" rx="12" fill="#0d1322" stroke="#16a34a" stroke-opacity="0.35" stroke-width="1.2"/>
 <text x="14" y="20" fill="#8b93a7" font-size="10.5" font-weight="700" letter-spacing="1.2" font-family="Inter,'Segoe UI',system-ui,sans-serif">ACTIVE HOURS</text>
@@ -124,7 +124,7 @@
 </g><g transform="translate(850 446)">
 <rect width="130" height="54" rx="12" fill="#0d1322" stroke="#db2777" stroke-opacity="0.35" stroke-width="1.2"/>
 <text x="14" y="20" fill="#8b93a7" font-size="10.5" font-weight="700" letter-spacing="1.2" font-family="Inter,'Segoe UI',system-ui,sans-serif">COMMITS TOTAL</text>
-<text x="14" y="42" fill="#db2777" font-size="17" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">3.4K</text>
+<text x="14" y="42" fill="#db2777" font-size="17" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">3.8K</text>
 </g>
 <text x="30" y="526" fill="#94a3b8" font-size="11" font-weight="800" letter-spacing="1.3" font-family="Inter,'Segoe UI',system-ui,sans-serif">COMMITS BY WEEKDAY</text>
 <g>
@@ -152,8 +152,8 @@
 <text x="697" y="532.8428927680798" text-anchor="middle" fill="#cbd5e1" font-size="10.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">371</text>
 <text x="697" y="590" text-anchor="middle" fill="#8b93a7" font-size="10.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">Sat</text>
 </g><g>
-<rect x="808" y="537.1371571072319" width="34" height="36.86284289276808" rx="4" fill="#89e051" opacity="0.9"/>
-<text x="825" y="531.1371571072319" text-anchor="middle" fill="#cbd5e1" font-size="10.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">389</text>
+<rect x="808" y="537.0423940149626" width="34" height="36.95760598503741" rx="4" fill="#89e051" opacity="0.9"/>
+<text x="825" y="531.0423940149626" text-anchor="middle" fill="#cbd5e1" font-size="10.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">390</text>
 <text x="825" y="590" text-anchor="middle" fill="#8b93a7" font-size="10.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">Sun</text>
 </g>
 

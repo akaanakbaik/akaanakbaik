@@ -161,7 +161,19 @@ I build real projects while learning: web apps, bot systems, Linux/VPS tools, an
 
 </div>
 
-> A real-time Jakarta clock refreshed by GitHub Actions **every 30 minutes** — analog hands are animated, and the digital time, date and day update automatically.
+> A real-time Jakarta clock refreshed by GitHub Actions **every 15 minutes** — analog hands are animated, and the digital time, date, day and social badges (followers, stars, forks) update automatically with live API data.
+
+---
+
+## Developer Motivation
+
+<div align="center">
+
+<img width="100%" src="https://raw.githubusercontent.com/akaanakbaik/akaanakbaik/main/generated/motivation-quote.svg" alt="Daily Developer Motivation" />
+
+</div>
+
+> A random quote from real legendary developers (Linus Torvalds, Grace Hopper, Donald Knuth, Ada Lovelace, Dennis Ritchie, Guido van Rossum and 40+ more) — shown in the original English **and** translated into Bahasa Indonesia. A new quote appears automatically every 15 minutes.
 
 ---
 
@@ -186,6 +198,28 @@ I build real projects while learning: web apps, bot systems, Linux/VPS tools, an
 </a>
 
 </div>
+
+---
+
+## Monthly AI Summary
+
+<div align="center">
+
+<img width="100%" src="https://raw.githubusercontent.com/akaanakbaik/akaanakbaik/main/generated/monthly-summary.svg" alt="Monthly AI Summary" />
+
+<br />
+
+<a href="https://github.com/akaanakbaik/akaanakbaik/actions/workflows/monthly-summary.yml"><img src="https://img.shields.io/github/actions/workflow/status/akaanakbaik/akaanakbaik/monthly-summary.yml?branch=main&label=monthly%20AI%20summary&style=flat-square&logo=githubactions&color=16a34a" alt="Monthly AI Summary Workflow" /></a>
+
+<a href="https://github.com/akaanakbaik"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaanakbaik%2Fakaanakbaik%2Fmain%2Fbadges%2Fmonthly-commits.json&style=flat-square&logo=githubactions&logoColor=white" alt="Commits this month" /></a>
+
+<a href="https://github.com/akaanakbaik"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaanakbaik%2Fakaanakbaik%2Fmain%2Fbadges%2Fmonthly-active-days.json&style=flat-square&logo=githubactions&logoColor=white" alt="Active days this month" /></a>
+
+</div>
+
+> Every 1st of the month, our own AI engine narrates the past 30 days in natural language: total commits, busiest day, peak coding hour, streak, busiest repos and languages, PRs and issues — based on real commit timestamps.
+
+---
 
 ---
 

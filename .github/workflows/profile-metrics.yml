@@ -52,3 +52,4 @@ jobs:
         with:
           commit_message: 'chore(metrics): auto-update profile metrics, code totals, language charts and badges'
           file_pattern: 'badges/*.json stats/* generated/*.svg'
+          pull: '--rebase'

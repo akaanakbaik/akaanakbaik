@@ -1,5 +1,5 @@
 import { mkdir, writeFile } from 'node:fs/promises';
-import { createClient, compact, thousandSep, dateStamp, classifyRhythm } from './lib/engine.mjs';
+import { createClient, compact, thousandSep, dateStamp, classifyRhythm, jakartaNow } from './lib/engine.mjs';
 import { fetchUserActivity, computeStreak, fetchCommitTimestamps, fetchTopReposRanking } from './lib/activity.mjs';
 import { streakSvg, commitHoursSvg, calendarSvg, codingRhythmSvg, topReposSvg, codingAgeSvg, liveClockSvg } from './lib/charts.mjs';
 import { preciseAge } from './lib/engine.mjs';
@@ -23,9 +23,7 @@ async function main() {
   const rhythm = classifyRhythm(commitHours.hourCounts);
   const user = await client.request(`/users/${username}`);
   const codingAge = preciseAge(user.created_at);
-  const now = new Date();
-  const wibParts = new Intl.DateTimeFormat('en-GB', { timeZone: 'Asia/Jakarta', hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: false }).formatToParts(now);
-  const wib = Object.fromEntries(wibParts.filter((p) => p.type !== 'literal').map((p) => [p.type, p.value]));
+  const wj = jakartaNow();
   await mkdir('generated', { recursive: true });
   await mkdir('stats', { recursive: true });
   await writeFile('generated/streak.svg', streakSvg({ ...activity, ...streak, activeDays: streak.activeDays }));
@@ -34,7 +32,7 @@ async function main() {
   await writeFile('generated/coding-rhythm.svg', codingRhythmSvg({ rhythm, hourCounts: commitHours.hourCounts, peakHour: commitHours.peakHour, sampled: commitHours.sampled, circularMean: commitHours.circularMean, circularStd: commitHours.circularStd, activeHours: commitHours.activeHours }));
   await writeFile('generated/top-repos.svg', topReposSvg(topRanked));
   await writeFile('generated/coding-age.svg', codingAgeSvg({ years: codingAge.years, months: codingAge.months, days: codingAge.days, totalDays: codingAge.totalDays, label: codingAge.label, createdAtText: new Intl.DateTimeFormat('en-GB', { timeZone: 'Asia/Jakarta', day: '2-digit', month: 'short', year: 'numeric' }).format(new Date(user.created_at)), repos: allRepos.length, commits: activity.totalCommitContributions }));
-  await writeFile('generated/live-clock.svg', liveClockSvg({ hour: Number(wib.hour), minute: Number(wib.minute), second: Number(wib.second), dateText: new Intl.DateTimeFormat('en-GB', { timeZone: 'Asia/Jakarta', day: '2-digit', month: 'long', year: 'numeric' }).format(now), dayName: new Intl.DateTimeFormat('en-US', { timeZone: 'Asia/Jakarta', weekday: 'long' }).format(now), generatedAt: dateStamp() }));
+  await writeFile('generated/live-clock.svg', liveClockSvg({ hour: wj.hour, minute: wj.minute, second: wj.second, dateText: wj.dateText, dayName: wj.dayName, generatedAt: dateStamp() }));
   const snapshot = {
     username,
     generatedAt: dateStamp(),

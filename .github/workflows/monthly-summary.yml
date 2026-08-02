@@ -1,0 +1,38 @@
+name: Monthly AI Summary
+
+on:
+  schedule:
+    - cron: '0 5 1 * *'
+  workflow_dispatch:
+
+concurrency:
+  group: monthly-summary
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+
+jobs:
+  narrate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Generate monthly AI activity summary
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PROFILE_USERNAME: akaanakbaik
+        run: node scripts/monthly-summary.mjs
+
+      - name: Commit monthly summary
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 'chore(summary): publish monthly AI activity summary'
+          file_pattern: 'generated/monthly-summary.svg stats/monthly-summary.md badges/monthly-commits.json badges/monthly-active-days.json badges/monthly-top-repo.json'

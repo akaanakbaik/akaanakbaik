@@ -321,6 +321,34 @@ export function relativeTime(iso) {
   return `${Math.floor(months / 12)} yr ago`;
 }
 
+export function jakartaNow(date = new Date()) {
+  const parts = new Intl.DateTimeFormat('en-GB', {
+    timeZone: 'Asia/Jakarta',
+    hour: '2-digit',
+    minute: '2-digit',
+    second: '2-digit',
+    hourCycle: 'h23'
+  }).formatToParts(date);
+  const wib = Object.fromEntries(parts.filter((p) => p.type !== 'literal').map((p) => [p.type, p.value]));
+  const dateText = new Intl.DateTimeFormat('en-GB', {
+    timeZone: 'Asia/Jakarta',
+    day: '2-digit',
+    month: 'long',
+    year: 'numeric'
+  }).format(date);
+  const dayName = new Intl.DateTimeFormat('en-US', { timeZone: 'Asia/Jakarta', weekday: 'long' }).format(date);
+  const shortDay = new Intl.DateTimeFormat('en-US', { timeZone: 'Asia/Jakarta', weekday: 'short' }).format(date);
+  return {
+    hour: Number(wib.hour),
+    minute: Number(wib.minute),
+    second: Number(wib.second),
+    timeText: `${wib.hour}:${wib.minute}:${wib.second}`,
+    dateText,
+    dayName,
+    shortDay
+  };
+}
+
 export function monthDay(iso) {
   const date = new Date(iso);
   if (Number.isNaN(date.getTime())) return '';

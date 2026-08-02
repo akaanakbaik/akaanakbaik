@@ -328,7 +328,7 @@ export function statsGridSvg(data) {
     ['PUBLIC GISTS', data.publicGists, '#db2777'],
     ['TOP LANGUAGE', data.topLanguage, '#a855f7'],
     ['REPO SIZE', data.totalSize, '#14b8a6'],
-    ['ACCOUNT AGE', data.accountAge, '#22c55e'],
+    ['ACCOUNT AGE', data.accountAgePrecise || data.accountAge, '#22c55e'],
     ['TOTAL WATCHERS', data.totalWatchers, '#ec4899']
   ];
   const inner = cards.map(([label, value, color], i) => {
@@ -886,6 +886,101 @@ ${chips}
 <text x="30" y="66" fill="#94a3b8" font-size="12.5" ${font()}>Night owl or early bird? Real commit timestamps decide — circular statistics, 24-hour polar chart</text>
 <rect x="30" y="80" width="${width - 60}" height="3.5" rx="1.75" fill="url(#rhythmBar)"/>
 ${inner}
+</svg>
+`;
+}
+
+function wrapText(text, maxChars) {
+  const words = String(text).split(' ');
+  const lines = [];
+  let current = '';
+  for (const word of words) {
+    if ((current + ' ' + word).trim().length > maxChars && current) {
+      lines.push(current.trim());
+      current = word;
+    } else {
+      current = (current + ' ' + word).trim();
+    }
+  }
+  if (current) lines.push(current.trim());
+  return lines;
+}
+
+export function motivationQuoteSvg(quote, index = 0, total = 0) {
+  const width = 1000;
+  const height = 320;
+  const accents = ['#667eea', '#f59e0b', '#16a34a', '#db2777', '#06b6d4', '#a855f7'];
+  const accent = accents[index % accents.length];
+  const origLines = wrapText(quote.quote, 92);
+  const idLines = wrapText(quote.id, 110);
+  const origSize = origLines.length > 2 ? 19 : origLines.length === 2 ? 21 : 23;
+  const idSize = idLines.length > 2 ? 13 : idLines.length === 2 ? 14 : 15;
+  const origStart = 118;
+  const idStart = origStart + origLines.length * (origSize + 7) + 34;
+  const orig = origLines.map((line, i) => `<text x="70" y="${origStart + i * (origSize + 7)}" fill="#ffffff" font-size="${origSize}" font-style="italic" font-weight="800" ${font()}>${esc(line)}</text>`).join('');
+  const idText = idLines.map((line, i) => `<text x="70" y="${idStart + i * (idSize + 6)}" fill="#cbd5e1" font-size="${idSize}" ${font()}>${esc(line)}</text>`).join('');
+  const authorY = Math.max(idStart + idLines.length * (idSize + 6) + 26, 262);
+  const inner = `
+<defs>
+<linearGradient id="motBg" x1="0" y1="0" x2="${width}" y2="${height}"><stop stop-color="#0f172a"/><stop offset="1" stop-color="#312e81"/></linearGradient>
+<linearGradient id="motAccent" x1="0" y1="0" x2="${width}" y2="0"><stop stop-color="${accent}" stop-opacity="0"/><stop offset="0.15" stop-color="${accent}"/><stop offset="0.85" stop-color="${accent}"/><stop offset="1" stop-color="${accent}" stop-opacity="0"/></linearGradient>
+</defs>
+<rect width="${width}" height="${height}" rx="26" fill="url(#motBg)"/>
+<rect x="30" y="84" width="${width - 60}" height="4" rx="2" fill="url(#motAccent)"/>
+<text x="40" y="152" fill="${accent}" font-size="110" font-weight="900" ${font()}>“</text>
+<circle cx="${width - 70}" cy="56" r="34" fill="${accent}" opacity="0.14"/>
+<text x="${width - 70}" y="66" text-anchor="middle" fill="${accent}" font-size="20" font-weight="900" ${font()}>#${index + 1}</text>
+${orig}
+${idText}
+<line x1="70" y1="${authorY - 16}" x2="${width - 70}" y2="${authorY - 16}" stroke="#ffffff" stroke-opacity="0.08"/>
+<text x="70" y="${authorY + 4}" fill="${accent}" font-size="17" font-weight="900" ${font()}>— ${esc(quote.author)}</text>
+<text x="70" y="${authorY + 24}" fill="#64748b" font-size="11.5" ${font()}>${esc(quote.role)} · original in English · translated to Bahasa Indonesia</text>
+<text x="${width - 70}" y="${authorY + 4}" text-anchor="end" fill="#5b6478" font-size="11" ${font()}>random · from ${total} real developer quotes</text>
+`;
+  return `<svg width="${width}" height="${height}" viewBox="0 0 ${width} ${height}" fill="none" xmlns="http://www.w3.org/2000/svg">
+${inner}
+</svg>`;
+}
+
+export function monthlySummarySvg(data) {
+  const width = 1000;
+  const paragraphs = String(data.body).split('\n\n').filter(Boolean);
+  const wrapped = paragraphs.map((p) => wrapText(p, 118));
+  const lineH = 21;
+  const paraGap = 14;
+  let y = 122;
+  const paraEls = wrapped.map((lines) => {
+    const out = lines.map((line) => {
+      const yy = y;
+      y += lineH;
+      return `<text x="40" y="${yy}" fill="#cbd5e1" font-size="15" ${font()}>${esc(line)}</text>`;
+    }).join('');
+    y += paraGap;
+    return out;
+  }).join('');
+  const chipsY = Math.max(y + 22, 300);
+  const chips = [
+    statChip(30, chipsY, 'COMMITS (30D)', thousandSep(data.stats.total), '#2563eb', 180),
+    statChip(220, chipsY, 'ACTIVE DAYS', `${data.stats.activeDays}/30`, '#16a34a', 160),
+    statChip(390, chipsY, 'PEAK HOUR', `${data.stats.peakHour}:00 WIB`, '#f59e0b', 150),
+    statChip(550, chipsY, 'BUSIEST DAY', data.stats.busiestWeekday, '#db2777', 150),
+    statChip(710, chipsY, 'PRS OPENED', thousandSep(data.prs), '#06b6d4', 130),
+    statChip(850, chipsY, 'ISSUES', thousandSep(data.issues), '#a855f7', 120)
+  ].join('');
+  const height = chipsY + 84;
+  return `<svg width="${width}" height="${height}" viewBox="0 0 ${width} ${height}" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="msBg" x1="0" y1="0" x2="${width}" y2="${height}"><stop stop-color="#0f172a"/><stop offset="1" stop-color="#312e81"/></linearGradient>
+<linearGradient id="msAccent" x1="0" y1="0" x2="${width}" y2="0"><stop stop-color="#667eea"/><stop offset="1" stop-color="#764ba2"/></linearGradient>
+</defs>
+<rect width="${width}" height="${height}" rx="26" fill="url(#msBg)"/>
+<circle cx="${width - 60}" cy="40" r="130" fill="#667eea" opacity="0.12"/>
+<text x="30" y="44" fill="#ffffff" font-size="25" font-weight="900" ${font()}>Monthly AI Summary — ${esc(data.monthName)}</text>
+<text x="30" y="66" fill="#94a3b8" font-size="12.5" ${font()}>${esc(data.rangeStart)} – ${esc(data.rangeEnd)} · auto-narrated from real commit data by our own AI engine</text>
+<rect x="30" y="80" width="${width - 60}" height="3.5" rx="1.75" fill="url(#msAccent)"/>
+${paraEls}
+${chips}
+<text x="40" y="${height - 18}" fill="#5b6478" font-size="10.5" ${font()}>Narrative is generated from real commit timestamps, PRs and issues — regenerated on the 1st of every month</text>
 </svg>
 `;
 }

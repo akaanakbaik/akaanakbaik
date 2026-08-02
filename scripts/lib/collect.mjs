@@ -1,4 +1,4 @@
-import { createClient, runPool, shannonEntropy, herfindahl, giniCoefficient, concentrationRatio, paretoAnalysis, logNormalize, geometricMean, median, coefficientOfVariation, humanSize, ageFrom, dateStamp } from './engine.mjs';
+import { createClient, runPool, shannonEntropy, herfindahl, giniCoefficient, concentrationRatio, paretoAnalysis, logNormalize, geometricMean, median, coefficientOfVariation, humanSize, ageFrom, preciseAge, dateStamp } from './engine.mjs';
 
 const FRONTEND_DEPS = new Map(
   Object.entries({
@@ -119,6 +119,19 @@ export async function fetchPerRepoLanguages(client, username, allRepos, log) {
   return runPool(tasks, 14);
 }
 
+export async function fetchPerRepoSubscribers(client, username, allRepos, log) {
+  const tasks = allRepos.map((repo) => async () => {
+    try {
+      const full = await client.request(`/repos/${username}/${encodeURIComponent(repo.name)}`);
+      return { repo: repo.name, subscribers: full && full.subscribers_count ? full.subscribers_count : 0 };
+    } catch (error) {
+      log(`subscribers skip ${repo.name}: ${error.message}`);
+      return { repo: repo.name, subscribers: 0 };
+    }
+  });
+  return runPool(tasks, 14);
+}
+
 async function fetchPackageJson(client, username, repo) {
   try {
     const ref = encodeURIComponent(repo.default_branch || 'main');
@@ -167,10 +180,12 @@ export async function fetchProfileData({ username, token = '', log = () => {} })
   const archived = allRepos.filter((r) => r.archived);
   const totalStars = allRepos.reduce((a, r) => a + (r.stargazers_count || 0), 0);
   const totalForks = allRepos.reduce((a, r) => a + (r.forks_count || 0), 0);
-  const totalWatchers = allRepos.reduce((a, r) => a + (r.watchers_count || 0), 0);
   const totalSizeKb = allRepos.reduce((a, r) => a + (r.size || 0), 0);
   log('fetching languages for every repository');
   const perRepoLanguages = await fetchPerRepoLanguages(client, username, allRepos, log);
+  log('fetching real subscriber (watch) counts for every repository');
+  const perRepoSubscribers = await fetchPerRepoSubscribers(client, username, allRepos, log);
+  const totalWatchers = perRepoSubscribers.reduce((a, s) => a + s.subscribers, 0);
   const byBytes = new Map();
   const byRepo = new Map();
   for (const { languages } of perRepoLanguages) {
@@ -230,6 +245,8 @@ export async function fetchProfileData({ username, token = '', log = () => {} })
     totalSizeKb,
     topLanguage: languageDistribution.byBytes[0]?.name || 'Unknown',
     accountAge: ageFrom(user.created_at),
+    accountAgePrecise: preciseAge(user.created_at).label,
+    accountCreatedAt: user.created_at,
     topRepo: byStars[0]?.name || 'none',
     recentRepo: byUpdate[0]?.name || 'none',
     largestRepo: bySize[0]?.name || 'none',
