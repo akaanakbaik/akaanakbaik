@@ -1,6 +1,6 @@
 {
   "username": "akaanakbaik",
-  "generatedAt": "02 Aug 2026, 18:42",
+  "generatedAt": "02 Aug 2026, 18:43",
   "publicRepos": 107,
   "originalRepos": 87,
   "forkedRepos": 20,
@@ -19,28 +19,28 @@
   "recentRepo": "akaanakbaik",
   "largestRepo": "Hacktoberfest2025-3",
   "languageDistribution": {
-    "totalBytes": 47794595,
+    "totalBytes": 47819231,
     "languagesCount": 41,
-    "entropy": 2.2508560530402453,
+    "entropy": 2.2502287388444726,
     "entropyMax": 5.357552004618084,
-    "redundancy": 0.5798722903482671,
-    "hhi": 3126.6461176073126,
-    "gini": 0.9091756596959215,
-    "cr3": 84.838455059615,
-    "cr5": 90.52259151897825,
+    "redundancy": 0.5799893800555126,
+    "hhi": 3128.4586439232507,
+    "gini": 0.9092098858924689,
+    "cr3": 84.84626613924428,
+    "cr5": 90.52747418711104,
     "pareto80": {
       "count": 3,
       "totalCount": 41,
-      "share": 0.84838455059615
+      "share": 0.8484626613924428
     },
-    "topShare": 48.84865956077251,
-    "geomeanBytes": 4858.347133382186,
+    "topShare": 48.87501223095788,
+    "geomeanBytes": 4858.472107475557,
     "medianBytes": 2515,
-    "cv": 3.4379134779964975,
+    "cv": 3.4389941029442515,
     "byBytes": [
       {
         "name": "JavaScript",
-        "bytes": 23347019,
+        "bytes": 23371655,
         "repos": 70
       },
       {
@@ -413,12 +413,12 @@
   },
   "codeTotals": {
     "totals": {
-      "files": 8055,
-      "lines": 1371838,
-      "codeLines": 1236372,
-      "chars": 50037907,
-      "nonWsChars": 38122749,
-      "bytes": 50177456
+      "files": 8065,
+      "lines": 1372819,
+      "codeLines": 1237317,
+      "chars": 50103759,
+      "nonWsChars": 38180755,
+      "bytes": 50243322
     },
     "perLang": [
       {
@@ -431,11 +431,11 @@
       },
       {
         "name": "JavaScript",
-        "files": 958,
-        "lines": 290665,
-        "codeLines": 272079,
-        "chars": 11677252,
-        "bytes": 11708657
+        "files": 960,
+        "lines": 291170,
+        "codeLines": 272562,
+        "chars": 11701877,
+        "bytes": 11733293
       },
       {
         "name": "Python",
@@ -456,10 +456,10 @@
       {
         "name": "Markdown",
         "files": 394,
-        "lines": 75848,
-        "codeLines": 50917,
-        "chars": 1956975,
-        "bytes": 1979256
+        "lines": 75885,
+        "codeLines": 50944,
+        "chars": 1958515,
+        "bytes": 1980796
       },
       {
         "name": "CSS",
@@ -471,11 +471,11 @@
       },
       {
         "name": "JSON",
-        "files": 289,
-        "lines": 44208,
-        "codeLines": 44183,
-        "chars": 1501133,
-        "bytes": 1501171
+        "files": 295,
+        "lines": 44393,
+        "codeLines": 44368,
+        "chars": 1504133,
+        "bytes": 1504171
       },
       {
         "name": "C++",
@@ -567,11 +567,11 @@
       },
       {
         "name": "SVG",
-        "files": 45,
-        "lines": 4252,
-        "codeLines": 4188,
-        "chars": 422294,
-        "bytes": 422397
+        "files": 47,
+        "lines": 4506,
+        "codeLines": 4438,
+        "chars": 458981,
+        "bytes": 459087
       },
       {
         "name": "Jupyter Notebook",
@@ -951,7 +951,7 @@
       "name": "akaanakbaik",
       "url": "https://github.com/akaanakbaik/akaanakbaik",
       "language": "JavaScript",
-      "updatedAt": "2026-08-02T11:23:35Z"
+      "updatedAt": "2026-08-02T11:43:24Z"
     },
     {
       "name": "dastermv2",
@@ -999,20 +999,20 @@
   "activity": {
     "pullRequests": 42,
     "issues": 15,
-    "reposContributed": 13,
-    "totalCommitContributions": 3749,
+    "reposContributed": 12,
+    "totalCommitContributions": 3426,
     "totalIssueContributions": 13,
     "totalPRContributions": 39,
     "totalPRReviews": 0,
-    "totalRepositoryContributions": 82,
-    "totalContributions": 3887
+    "totalRepositoryContributions": 76,
+    "totalContributions": 3888
   },
   "streak": {
     "currentStreak": 80,
     "longest": 80,
     "lastActiveDate": "2026-08-02",
-    "activeDays": 202,
-    "totalContributions": 3887
+    "activeDays": 204,
+    "totalContributions": 3888
   },
   "commitHours": {
     "sampled": 2351,
@@ -1024,7 +1024,7 @@
       13,
       38,
       55,
-      104,
+      103,
       53,
       109,
       54,
@@ -1035,7 +1035,7 @@
       63,
       107,
       98,
-      93,
+      94,
       52,
       107,
       266,
@@ -1062,8 +1062,8 @@
     ],
     "peakHour": 22,
     "peakWeekday": "Thu",
-    "circularMean": 20.301733694709675,
-    "circularStd": 6.07414718526799,
+    "circularMean": 20.29656393688789,
+    "circularStd": 6.0677598694215655,
     "activeHours": 24,
     "reposWithCommits": 84,
     "topCommitRepos": [
