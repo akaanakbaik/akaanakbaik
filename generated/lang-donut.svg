@@ -1,0 +1,107 @@
+<svg width="900" height="510" viewBox="0 0 900 510" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="900" y2="510">
+<stop stop-color="#0f172a"/><stop offset="0.55" stop-color="#111827"/><stop offset="1" stop-color="#312e81"/>
+</linearGradient>
+<linearGradient id="bar" x1="0" y1="0" x2="900" y2="0">
+<stop stop-color="#667eea"/><stop offset="1" stop-color="#764ba2"/>
+</linearGradient>
+<linearGradient id="titleLine" x1="0" y1="0" x2="900" y2="0">
+<stop stop-color="#667eea" stop-opacity="0"/><stop offset="0.5" stop-color="#a78bfa"/><stop offset="1" stop-color="#667eea" stop-opacity="0"/>
+</linearGradient>
+</defs>
+<rect width="900" height="510" rx="26" fill="url(#bg)"/>
+<circle cx="820" cy="40" r="130" fill="#667eea" opacity="0.12"/>
+<circle cx="90" cy="490" r="150" fill="#764ba2" opacity="0.12"/>
+<text x="30" y="44" fill="#ffffff" font-size="25" font-weight="900" font-family="Inter,'Segoe UI',system-ui,sans-serif">Language Distribution</text>
+<text x="30" y="66" fill="#94a3b8" font-size="12.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">Byte share of every language across all 107 public repositories · GitHub /languages API · professor-grade statistics</text>
+<rect x="30" y="80" width="840" height="3.5" rx="1.75" fill="url(#titleLine)"/>
+
+<text x="240" y="246" text-anchor="middle" fill="#94a3b8" font-size="12" font-weight="700" letter-spacing="1.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">CODE BYTES</text>
+<text x="240" y="276" text-anchor="middle" fill="#ffffff" font-size="26" font-weight="900" font-family="Inter,'Segoe UI',system-ui,sans-serif">47.7M</text>
+<text x="240" y="298" text-anchor="middle" fill="#64748b" font-size="11" font-family="Inter,'Segoe UI',system-ui,sans-serif">across 41 languages</text>
+<path d="M 240.00 120.00 A 148 148 0 0 1 251.23 415.57 L 246.98 359.73 A 92 92 0 0 0 240.00 176.00 Z" fill="#f1e05a" stroke="#0b1020" stroke-width="2.5"/><path d="M 251.23 415.57 A 148 148 0 0 1 94.10 292.86 L 149.31 283.45 A 92 92 0 0 0 246.98 359.73 Z" fill="#3178c6" stroke="#0b1020" stroke-width="2.5"/><path d="M 94.10 292.86 A 148 148 0 0 1 119.30 182.36 L 164.97 214.76 A 92 92 0 0 0 149.31 283.45 Z" fill="#3572A5" stroke="#0b1020" stroke-width="2.5"/><path d="M 119.30 182.36 A 148 148 0 0 1 139.90 158.99 L 177.77 200.24 A 92 92 0 0 0 164.97 214.76 Z" fill="#563d7c" stroke="#0b1020" stroke-width="2.5"/><path d="M 139.90 158.99 A 148 148 0 0 1 156.90 145.53 L 188.35 191.87 A 92 92 0 0 0 177.77 200.24 Z" fill="#f34b7d" stroke="#0b1020" stroke-width="2.5"/><path d="M 156.90 145.53 A 148 148 0 0 1 175.04 135.02 L 199.62 185.34 A 92 92 0 0 0 188.35 191.87 Z" fill="#DA5B0B" stroke="#0b1020" stroke-width="2.5"/><path d="M 175.04 135.02 A 148 148 0 0 1 193.73 127.42 L 211.24 180.61 A 92 92 0 0 0 199.62 185.34 Z" fill="#e34c26" stroke="#0b1020" stroke-width="2.5"/><path d="M 193.73 127.42 A 148 148 0 0 1 211.40 122.79 L 222.22 177.73 A 92 92 0 0 0 211.24 180.61 Z" fill="#b07219" stroke="#0b1020" stroke-width="2.5"/><path d="M 211.40 122.79 A 148 148 0 0 1 220.00 121.36 L 227.56 176.84 A 92 92 0 0 0 222.22 177.73 Z" fill="#555555" stroke="#0b1020" stroke-width="2.5"/><path d="M 220.00 121.36 A 148 148 0 0 1 226.49 120.62 L 231.60 176.38 A 92 92 0 0 0 227.56 176.84 Z" fill="#00B4AB" stroke="#0b1020" stroke-width="2.5"/><path d="M 226.49 120.62 A 148 148 0 0 1 240.00 120.00 L 240.00 176.00 A 92 92 0 0 0 231.60 176.38 Z" fill="#8b93a7" stroke="#0b1020" stroke-width="2.5"/>
+<g transform="translate(440 130)">
+<rect x="0" y="4" width="13" height="13" rx="3.5" fill="#f1e05a"/>
+<text x="21" y="15" fill="#e2e8f0" font-size="12.5" font-weight="600" font-family="Inter,'Segoe UI',system-ui,sans-serif">JavaScript</text>
+<text x="212" y="15" fill="#cbd5e1" font-size="12" text-anchor="end" font-family="Inter,'Segoe UI',system-ui,sans-serif">48.8%</text>
+<text x="236" y="15" fill="#64748b" font-size="11" text-anchor="end" font-family="Inter,'Segoe UI',system-ui,sans-serif">22.21 MB</text>
+</g><g transform="translate(440 159)">
+<rect x="0" y="4" width="13" height="13" rx="3.5" fill="#3178c6"/>
+<text x="21" y="15" fill="#e2e8f0" font-size="12.5" font-weight="600" font-family="Inter,'Segoe UI',system-ui,sans-serif">TypeScript</text>
+<text x="212" y="15" fill="#cbd5e1" font-size="12" text-anchor="end" font-family="Inter,'Segoe UI',system-ui,sans-serif">23.5%</text>
+<text x="236" y="15" fill="#64748b" font-size="11" text-anchor="end" font-family="Inter,'Segoe UI',system-ui,sans-serif">10.71 MB</text>
+</g><g transform="translate(440 188)">
+<rect x="0" y="4" width="13" height="13" rx="3.5" fill="#3572A5"/>
+<text x="21" y="15" fill="#e2e8f0" font-size="12.5" font-weight="600" font-family="Inter,'Segoe UI',system-ui,sans-serif">Python</text>
+<text x="212" y="15" fill="#cbd5e1" font-size="12" text-anchor="end" font-family="Inter,'Segoe UI',system-ui,sans-serif">12.5%</text>
+<text x="236" y="15" fill="#64748b" font-size="11" text-anchor="end" font-family="Inter,'Segoe UI',system-ui,sans-serif">5.69 MB</text>
+</g><g transform="translate(440 217)">
+<rect x="0" y="4" width="13" height="13" rx="3.5" fill="#563d7c"/>
+<text x="21" y="15" fill="#e2e8f0" font-size="12.5" font-weight="600" font-family="Inter,'Segoe UI',system-ui,sans-serif">CSS</text>
+<text x="212" y="15" fill="#cbd5e1" font-size="12" text-anchor="end" font-family="Inter,'Segoe UI',system-ui,sans-serif">3.4%</text>
+<text x="236" y="15" fill="#64748b" font-size="11" text-anchor="end" font-family="Inter,'Segoe UI',system-ui,sans-serif">1.53 MB</text>
+</g><g transform="translate(440 246)">
+<rect x="0" y="4" width="13" height="13" rx="3.5" fill="#f34b7d"/>
+<text x="21" y="15" fill="#e2e8f0" font-size="12.5" font-weight="600" font-family="Inter,'Segoe UI',system-ui,sans-serif">C++</text>
+<text x="212" y="15" fill="#cbd5e1" font-size="12" text-anchor="end" font-family="Inter,'Segoe UI',system-ui,sans-serif">2.3%</text>
+<text x="236" y="15" fill="#64748b" font-size="11" text-anchor="end" font-family="Inter,'Segoe UI',system-ui,sans-serif">1.06 MB</text>
+</g><g transform="translate(440 275)">
+<rect x="0" y="4" width="13" height="13" rx="3.5" fill="#DA5B0B"/>
+<text x="21" y="15" fill="#e2e8f0" font-size="12.5" font-weight="600" font-family="Inter,'Segoe UI',system-ui,sans-serif">Jupyter Notebook</text>
+<text x="212" y="15" fill="#cbd5e1" font-size="12" text-anchor="end" font-family="Inter,'Segoe UI',system-ui,sans-serif">2.3%</text>
+<text x="236" y="15" fill="#64748b" font-size="11" text-anchor="end" font-family="Inter,'Segoe UI',system-ui,sans-serif">1.03 MB</text>
+</g>
+<g transform="translate(700 130)">
+<rect x="0" y="4" width="13" height="13" rx="3.5" fill="#e34c26"/>
+<text x="21" y="15" fill="#e2e8f0" font-size="12.5" font-weight="600" font-family="Inter,'Segoe UI',system-ui,sans-serif">HTML</text>
+<text x="212" y="15" fill="#cbd5e1" font-size="12" text-anchor="end" font-family="Inter,'Segoe UI',system-ui,sans-serif">2.2%</text>
+<text x="236" y="15" fill="#64748b" font-size="11" text-anchor="end" font-family="Inter,'Segoe UI',system-ui,sans-serif">1012.4 KB</text>
+</g><g transform="translate(700 159)">
+<rect x="0" y="4" width="13" height="13" rx="3.5" fill="#b07219"/>
+<text x="21" y="15" fill="#e2e8f0" font-size="12.5" font-weight="600" font-family="Inter,'Segoe UI',system-ui,sans-serif">Java</text>
+<text x="212" y="15" fill="#cbd5e1" font-size="12" text-anchor="end" font-family="Inter,'Segoe UI',system-ui,sans-serif">2.0%</text>
+<text x="236" y="15" fill="#64748b" font-size="11" text-anchor="end" font-family="Inter,'Segoe UI',system-ui,sans-serif">916.6 KB</text>
+</g><g transform="translate(700 188)">
+<rect x="0" y="4" width="13" height="13" rx="3.5" fill="#555555"/>
+<text x="21" y="15" fill="#e2e8f0" font-size="12.5" font-weight="600" font-family="Inter,'Segoe UI',system-ui,sans-serif">C</text>
+<text x="212" y="15" fill="#cbd5e1" font-size="12" text-anchor="end" font-family="Inter,'Segoe UI',system-ui,sans-serif">0.9%</text>
+<text x="236" y="15" fill="#64748b" font-size="11" text-anchor="end" font-family="Inter,'Segoe UI',system-ui,sans-serif">436.7 KB</text>
+</g><g transform="translate(700 217)">
+<rect x="0" y="4" width="13" height="13" rx="3.5" fill="#00B4AB"/>
+<text x="21" y="15" fill="#e2e8f0" font-size="12.5" font-weight="600" font-family="Inter,'Segoe UI',system-ui,sans-serif">Dart</text>
+<text x="212" y="15" fill="#cbd5e1" font-size="12" text-anchor="end" font-family="Inter,'Segoe UI',system-ui,sans-serif">0.7%</text>
+<text x="236" y="15" fill="#64748b" font-size="11" text-anchor="end" font-family="Inter,'Segoe UI',system-ui,sans-serif">327.6 KB</text>
+</g><g transform="translate(700 246)">
+<rect x="0" y="4" width="13" height="13" rx="3.5" fill="#8b93a7"/>
+<text x="21" y="15" fill="#e2e8f0" font-size="12.5" font-weight="600" font-family="Inter,'Segoe UI',system-ui,sans-serif">Other</text>
+<text x="212" y="15" fill="#cbd5e1" font-size="12" text-anchor="end" font-family="Inter,'Segoe UI',system-ui,sans-serif">1.5%</text>
+<text x="236" y="15" fill="#64748b" font-size="11" text-anchor="end" font-family="Inter,'Segoe UI',system-ui,sans-serif">678.4 KB</text>
+</g>
+<g transform="translate(30 436)">
+<rect width="168" height="54" rx="12" fill="#0d1322" stroke="#667eea" stroke-opacity="0.35" stroke-width="1.2"/>
+<text x="14" y="20" fill="#8b93a7" font-size="10.5" font-weight="700" letter-spacing="1.2" font-family="Inter,'Segoe UI',system-ui,sans-serif">SHANNON ENTROPY</text>
+<text x="14" y="42" fill="#667eea" font-size="17" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">2.25 bits</text>
+</g><g transform="translate(208 436)">
+<rect width="122" height="54" rx="12" fill="#0d1322" stroke="#764ba2" stroke-opacity="0.35" stroke-width="1.2"/>
+<text x="14" y="20" fill="#8b93a7" font-size="10.5" font-weight="700" letter-spacing="1.2" font-family="Inter,'Segoe UI',system-ui,sans-serif">HHI ×10⁴</text>
+<text x="14" y="42" fill="#764ba2" font-size="17" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">3122.7</text>
+</g><g transform="translate(340 436)">
+<rect width="122" height="54" rx="12" fill="#0d1322" stroke="#16a34a" stroke-opacity="0.35" stroke-width="1.2"/>
+<text x="14" y="20" fill="#8b93a7" font-size="10.5" font-weight="700" letter-spacing="1.2" font-family="Inter,'Segoe UI',system-ui,sans-serif">GINI COEF.</text>
+<text x="14" y="42" fill="#16a34a" font-size="17" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">0.909</text>
+</g><g transform="translate(472 436)">
+<rect width="122" height="54" rx="12" fill="#0d1322" stroke="#f59e0b" stroke-opacity="0.35" stroke-width="1.2"/>
+<text x="14" y="20" fill="#8b93a7" font-size="10.5" font-weight="700" letter-spacing="1.2" font-family="Inter,'Segoe UI',system-ui,sans-serif">CR₃</text>
+<text x="14" y="42" fill="#f59e0b" font-size="17" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">84.8%</text>
+</g><g transform="translate(604 436)">
+<rect width="122" height="54" rx="12" fill="#0d1322" stroke="#06b6d4" stroke-opacity="0.35" stroke-width="1.2"/>
+<text x="14" y="20" fill="#8b93a7" font-size="10.5" font-weight="700" letter-spacing="1.2" font-family="Inter,'Segoe UI',system-ui,sans-serif">CR₅</text>
+<text x="14" y="42" fill="#06b6d4" font-size="17" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">90.5%</text>
+</g><g transform="translate(736 436)">
+<rect width="146" height="54" rx="12" fill="#0d1322" stroke="#db2777" stroke-opacity="0.35" stroke-width="1.2"/>
+<text x="14" y="20" fill="#8b93a7" font-size="10.5" font-weight="700" letter-spacing="1.2" font-family="Inter,'Segoe UI',system-ui,sans-serif">80/20 TOP</text>
+<text x="14" y="42" fill="#db2777" font-size="17" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">3/41</text>
+</g>
+
+</svg>

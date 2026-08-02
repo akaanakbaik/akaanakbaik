@@ -1,6 +1,6 @@
 {
   "username": "akaanakbaik",
-  "generatedAt": "02 Aug 2026, 16:22",
+  "generatedAt": "02 Aug 2026, 18:16",
   "publicRepos": 107,
   "originalRepos": 87,
   "forkedRepos": 20,
@@ -12,260 +12,777 @@
   "totalForks": 27,
   "totalWatchers": 410,
   "totalSize": "834.5 MB",
-  "totalSizeKb": 854551,
+  "totalSizeKb": 854555,
   "topLanguage": "JavaScript",
   "accountAge": "2 years",
   "topRepo": "pterodactyl-gateway",
   "recentRepo": "dastermv2",
   "largestRepo": "Hacktoberfest2025-3",
-  "languageStack": [
-    {
-      "name": "JavaScript",
-      "bytes": 23292941,
-      "repos": 70,
-      "logo": "javascript"
+  "languageDistribution": {
+    "totalBytes": 47740517,
+    "languagesCount": 41,
+    "entropy": 2.2522339184789257,
+    "entropyMax": 5.357552004618084,
+    "redundancy": 0.5796151084417747,
+    "hhi": 3122.6671830869095,
+    "gini": 0.9091004065715114,
+    "cr3": 84.82128084201518,
+    "cr5": 90.51185599854313,
+    "pareto80": {
+      "count": 3,
+      "totalCount": 41,
+      "share": 0.8482128084201518
     },
-    {
-      "name": "TypeScript",
-      "bytes": 11230276,
-      "repos": 30,
-      "logo": "typescript"
+    "topShare": 48.79071795556801,
+    "geomeanBytes": 4858.072353428325,
+    "medianBytes": 2515,
+    "cv": 3.4355400522561714,
+    "byBytes": [
+      {
+        "name": "JavaScript",
+        "bytes": 23292941,
+        "repos": 70
+      },
+      {
+        "name": "TypeScript",
+        "bytes": 11230276,
+        "repos": 30
+      },
+      {
+        "name": "Python",
+        "bytes": 5970901,
+        "repos": 12
+      },
+      {
+        "name": "CSS",
+        "bytes": 1602416,
+        "repos": 51
+      },
+      {
+        "name": "C++",
+        "bytes": 1114294,
+        "repos": 9
+      },
+      {
+        "name": "Jupyter Notebook",
+        "bytes": 1077015,
+        "repos": 1
+      },
+      {
+        "name": "HTML",
+        "bytes": 1036724,
+        "repos": 51
+      },
+      {
+        "name": "Java",
+        "bytes": 938571,
+        "repos": 7
+      },
+      {
+        "name": "C",
+        "bytes": 447195,
+        "repos": 7
+      },
+      {
+        "name": "Dart",
+        "bytes": 335452,
+        "repos": 4
+      },
+      {
+        "name": "Shell",
+        "bytes": 281201,
+        "repos": 20
+      },
+      {
+        "name": "Rust",
+        "bytes": 204518,
+        "repos": 3
+      },
+      {
+        "name": "Go",
+        "bytes": 113542,
+        "repos": 5
+      },
+      {
+        "name": "PHP",
+        "bytes": 27465,
+        "repos": 5
+      },
+      {
+        "name": "CMake",
+        "bytes": 19831,
+        "repos": 1
+      },
+      {
+        "name": "Jinja",
+        "bytes": 16737,
+        "repos": 1
+      },
+      {
+        "name": "Dockerfile",
+        "bytes": 12255,
+        "repos": 5
+      },
+      {
+        "name": "PowerShell",
+        "bytes": 4863,
+        "repos": 1
+      },
+      {
+        "name": "Batchfile",
+        "bytes": 4254,
+        "repos": 3
+      },
+      {
+        "name": "C#",
+        "bytes": 3555,
+        "repos": 2
+      },
+      {
+        "name": "Swift",
+        "bytes": 2515,
+        "repos": 2
+      },
+      {
+        "name": "Assembly",
+        "bytes": 1130,
+        "repos": 1
+      },
+      {
+        "name": "Makefile",
+        "bytes": 598,
+        "repos": 1
+      },
+      {
+        "name": "Kotlin",
+        "bytes": 565,
+        "repos": 3
+      },
+      {
+        "name": "V",
+        "bytes": 297,
+        "repos": 1
+      },
+      {
+        "name": "Elixir",
+        "bytes": 192,
+        "repos": 1
+      },
+      {
+        "name": "Scala",
+        "bytes": 142,
+        "repos": 1
+      },
+      {
+        "name": "Zig",
+        "bytes": 133,
+        "repos": 1
+      },
+      {
+        "name": "Ada",
+        "bytes": 113,
+        "repos": 1
+      },
+      {
+        "name": "Haskell",
+        "bytes": 110,
+        "repos": 1
+      },
+      {
+        "name": "Lua",
+        "bytes": 110,
+        "repos": 1
+      },
+      {
+        "name": "Erlang",
+        "bytes": 100,
+        "repos": 1
+      },
+      {
+        "name": "Perl",
+        "bytes": 83,
+        "repos": 1
+      },
+      {
+        "name": "Ruby",
+        "bytes": 83,
+        "repos": 1
+      },
+      {
+        "name": "Pawn",
+        "bytes": 56,
+        "repos": 1
+      },
+      {
+        "name": "LOLCODE",
+        "bytes": 52,
+        "repos": 1
+      },
+      {
+        "name": "Julia",
+        "bytes": 51,
+        "repos": 1
+      },
+      {
+        "name": "MATLAB",
+        "bytes": 50,
+        "repos": 1
+      },
+      {
+        "name": "F#",
+        "bytes": 48,
+        "repos": 1
+      },
+      {
+        "name": "R",
+        "bytes": 45,
+        "repos": 1
+      },
+      {
+        "name": "Objective-C",
+        "bytes": 38,
+        "repos": 1
+      }
+    ],
+    "byRepo": [
+      {
+        "name": "JavaScript",
+        "repos": 70
+      },
+      {
+        "name": "HTML",
+        "repos": 51
+      },
+      {
+        "name": "CSS",
+        "repos": 51
+      },
+      {
+        "name": "TypeScript",
+        "repos": 30
+      },
+      {
+        "name": "Shell",
+        "repos": 20
+      },
+      {
+        "name": "Python",
+        "repos": 12
+      },
+      {
+        "name": "C++",
+        "repos": 9
+      },
+      {
+        "name": "C",
+        "repos": 7
+      },
+      {
+        "name": "Java",
+        "repos": 7
+      },
+      {
+        "name": "Dockerfile",
+        "repos": 5
+      },
+      {
+        "name": "PHP",
+        "repos": 5
+      },
+      {
+        "name": "Go",
+        "repos": 5
+      },
+      {
+        "name": "Dart",
+        "repos": 4
+      },
+      {
+        "name": "Kotlin",
+        "repos": 3
+      },
+      {
+        "name": "Batchfile",
+        "repos": 3
+      },
+      {
+        "name": "Rust",
+        "repos": 3
+      },
+      {
+        "name": "Swift",
+        "repos": 2
+      },
+      {
+        "name": "C#",
+        "repos": 2
+      },
+      {
+        "name": "Objective-C",
+        "repos": 1
+      },
+      {
+        "name": "R",
+        "repos": 1
+      },
+      {
+        "name": "F#",
+        "repos": 1
+      },
+      {
+        "name": "MATLAB",
+        "repos": 1
+      },
+      {
+        "name": "Julia",
+        "repos": 1
+      },
+      {
+        "name": "LOLCODE",
+        "repos": 1
+      },
+      {
+        "name": "Pawn",
+        "repos": 1
+      },
+      {
+        "name": "Perl",
+        "repos": 1
+      },
+      {
+        "name": "Ruby",
+        "repos": 1
+      },
+      {
+        "name": "Erlang",
+        "repos": 1
+      },
+      {
+        "name": "Haskell",
+        "repos": 1
+      },
+      {
+        "name": "Lua",
+        "repos": 1
+      },
+      {
+        "name": "Ada",
+        "repos": 1
+      },
+      {
+        "name": "Zig",
+        "repos": 1
+      },
+      {
+        "name": "Scala",
+        "repos": 1
+      },
+      {
+        "name": "Elixir",
+        "repos": 1
+      },
+      {
+        "name": "V",
+        "repos": 1
+      },
+      {
+        "name": "Makefile",
+        "repos": 1
+      },
+      {
+        "name": "Assembly",
+        "repos": 1
+      },
+      {
+        "name": "PowerShell",
+        "repos": 1
+      },
+      {
+        "name": "Jinja",
+        "repos": 1
+      },
+      {
+        "name": "CMake",
+        "repos": 1
+      },
+      {
+        "name": "Jupyter Notebook",
+        "repos": 1
+      }
+    ]
+  },
+  "codeTotals": {
+    "totals": {
+      "files": 8039,
+      "lines": 1368916,
+      "codeLines": 1233546,
+      "chars": 49915083,
+      "nonWsChars": 38019969,
+      "bytes": 50054555
     },
-    {
-      "name": "Python",
-      "bytes": 5970901,
-      "repos": 12,
-      "logo": "python"
-    },
-    {
-      "name": "CSS",
-      "bytes": 1602416,
-      "repos": 51,
-      "logo": "css3"
-    },
-    {
-      "name": "C++",
-      "bytes": 1114294,
-      "repos": 9,
-      "logo": "cplusplus"
-    },
-    {
-      "name": "Jupyter Notebook",
-      "bytes": 1077015,
-      "repos": 1,
-      "logo": ""
-    },
-    {
-      "name": "HTML",
-      "bytes": 1036724,
-      "repos": 51,
-      "logo": "html5"
-    },
-    {
-      "name": "Java",
-      "bytes": 938571,
-      "repos": 7,
-      "logo": "openjdk"
-    },
-    {
-      "name": "C",
-      "bytes": 447195,
-      "repos": 7,
-      "logo": "c"
-    },
-    {
-      "name": "Dart",
-      "bytes": 335452,
-      "repos": 4,
-      "logo": "dart"
-    },
-    {
-      "name": "Shell",
-      "bytes": 281201,
-      "repos": 20,
-      "logo": "gnubash"
-    },
-    {
-      "name": "Rust",
-      "bytes": 204518,
-      "repos": 3,
-      "logo": "rust"
-    },
-    {
-      "name": "Go",
-      "bytes": 113542,
-      "repos": 5,
-      "logo": "go"
-    },
-    {
-      "name": "PHP",
-      "bytes": 27465,
-      "repos": 5,
-      "logo": "php"
-    },
-    {
-      "name": "CMake",
-      "bytes": 19831,
-      "repos": 1,
-      "logo": ""
-    },
-    {
-      "name": "Jinja",
-      "bytes": 16737,
-      "repos": 1,
-      "logo": ""
-    },
-    {
-      "name": "Dockerfile",
-      "bytes": 12255,
-      "repos": 5,
-      "logo": ""
-    },
-    {
-      "name": "PowerShell",
-      "bytes": 4863,
-      "repos": 1,
-      "logo": ""
-    },
-    {
-      "name": "Batchfile",
-      "bytes": 4254,
-      "repos": 3,
-      "logo": ""
-    },
-    {
-      "name": "C#",
-      "bytes": 3555,
-      "repos": 2,
-      "logo": ""
-    },
-    {
-      "name": "Swift",
-      "bytes": 2515,
-      "repos": 2,
-      "logo": ""
-    },
-    {
-      "name": "Assembly",
-      "bytes": 1130,
-      "repos": 1,
-      "logo": ""
-    },
-    {
-      "name": "Makefile",
-      "bytes": 598,
-      "repos": 1,
-      "logo": ""
-    },
-    {
-      "name": "Kotlin",
-      "bytes": 565,
-      "repos": 3,
-      "logo": ""
-    },
-    {
-      "name": "V",
-      "bytes": 297,
-      "repos": 1,
-      "logo": ""
-    },
-    {
-      "name": "Elixir",
-      "bytes": 192,
-      "repos": 1,
-      "logo": ""
-    },
-    {
-      "name": "Scala",
-      "bytes": 142,
-      "repos": 1,
-      "logo": ""
-    },
-    {
-      "name": "Zig",
-      "bytes": 133,
-      "repos": 1,
-      "logo": ""
-    },
-    {
-      "name": "Ada",
-      "bytes": 113,
-      "repos": 1,
-      "logo": ""
-    },
-    {
-      "name": "Haskell",
-      "bytes": 110,
-      "repos": 1,
-      "logo": ""
-    },
-    {
-      "name": "Lua",
-      "bytes": 110,
-      "repos": 1,
-      "logo": ""
-    },
-    {
-      "name": "Erlang",
-      "bytes": 100,
-      "repos": 1,
-      "logo": ""
-    },
-    {
-      "name": "Perl",
-      "bytes": 83,
-      "repos": 1,
-      "logo": ""
-    },
-    {
-      "name": "Ruby",
-      "bytes": 83,
-      "repos": 1,
-      "logo": "ruby"
-    },
-    {
-      "name": "Pawn",
-      "bytes": 56,
-      "repos": 1,
-      "logo": ""
-    },
-    {
-      "name": "LOLCODE",
-      "bytes": 52,
-      "repos": 1,
-      "logo": ""
-    },
-    {
-      "name": "Julia",
-      "bytes": 51,
-      "repos": 1,
-      "logo": ""
-    },
-    {
-      "name": "MATLAB",
-      "bytes": 50,
-      "repos": 1,
-      "logo": ""
-    },
-    {
-      "name": "F#",
-      "bytes": 48,
-      "repos": 1,
-      "logo": ""
-    },
-    {
-      "name": "R",
-      "bytes": 45,
-      "repos": 1,
-      "logo": ""
-    },
-    {
-      "name": "Objective-C",
-      "bytes": 38,
-      "repos": 1,
-      "logo": ""
-    }
-  ],
+    "perLang": [
+      {
+        "name": "TypeScript",
+        "files": 2777,
+        "lines": 398287,
+        "codeLines": 356693,
+        "chars": 14793040,
+        "bytes": 14830071
+      },
+      {
+        "name": "JavaScript",
+        "files": 952,
+        "lines": 289216,
+        "codeLines": 270711,
+        "chars": 11623204,
+        "bytes": 11654579
+      },
+      {
+        "name": "Python",
+        "files": 922,
+        "lines": 146439,
+        "codeLines": 124748,
+        "chars": 5809165,
+        "bytes": 5824528
+      },
+      {
+        "name": "Text",
+        "files": 71,
+        "lines": 139196,
+        "codeLines": 137984,
+        "chars": 1816678,
+        "bytes": 1818007
+      },
+      {
+        "name": "Markdown",
+        "files": 394,
+        "lines": 75756,
+        "codeLines": 50833,
+        "chars": 1953656,
+        "bytes": 1975928
+      },
+      {
+        "name": "CSS",
+        "files": 100,
+        "lines": 59470,
+        "codeLines": 55689,
+        "chars": 1596249,
+        "bytes": 1602416
+      },
+      {
+        "name": "C++",
+        "files": 657,
+        "lines": 44165,
+        "codeLines": 37192,
+        "chars": 1106349,
+        "bytes": 1107070
+      },
+      {
+        "name": "JSON",
+        "files": 285,
+        "lines": 43631,
+        "codeLines": 43606,
+        "chars": 1490234,
+        "bytes": 1490272
+      },
+      {
+        "name": "XML",
+        "files": 509,
+        "lines": 34151,
+        "codeLines": 33688,
+        "chars": 2872596,
+        "bytes": 2876157
+      },
+      {
+        "name": "Java",
+        "files": 413,
+        "lines": 30391,
+        "codeLines": 25714,
+        "chars": 937967,
+        "bytes": 938571
+      },
+      {
+        "name": "HTML",
+        "files": 133,
+        "lines": 24170,
+        "codeLines": 22221,
+        "chars": 1092222,
+        "bytes": 1093456
+      },
+      {
+        "name": "Unknown",
+        "files": 329,
+        "lines": 21984,
+        "codeLines": 19065,
+        "chars": 1681874,
+        "bytes": 1687795
+      },
+      {
+        "name": "C",
+        "files": 164,
+        "lines": 18320,
+        "codeLines": 15682,
+        "chars": 452275,
+        "bytes": 452355
+      },
+      {
+        "name": "Dart",
+        "files": 58,
+        "lines": 9668,
+        "codeLines": 8922,
+        "chars": 335393,
+        "bytes": 335452
+      },
+      {
+        "name": "Shell",
+        "files": 64,
+        "lines": 7730,
+        "codeLines": 6833,
+        "chars": 252146,
+        "bytes": 263267
+      },
+      {
+        "name": "Protocol Buffer",
+        "files": 3,
+        "lines": 6716,
+        "codeLines": 6088,
+        "chars": 214771,
+        "bytes": 214771
+      },
+      {
+        "name": "Rust",
+        "files": 23,
+        "lines": 5609,
+        "codeLines": 4888,
+        "chars": 197336,
+        "bytes": 199735
+      },
+      {
+        "name": "Go",
+        "files": 25,
+        "lines": 4602,
+        "codeLines": 4094,
+        "chars": 121409,
+        "bytes": 121485
+      },
+      {
+        "name": "SVG",
+        "files": 40,
+        "lines": 3451,
+        "codeLines": 3394,
+        "chars": 367764,
+        "bytes": 367829
+      },
+      {
+        "name": "Jupyter Notebook",
+        "files": 4,
+        "lines": 2001,
+        "codeLines": 2001,
+        "chars": 1077015,
+        "bytes": 1077015
+      },
+      {
+        "name": "YAML",
+        "files": 17,
+        "lines": 1488,
+        "codeLines": 1420,
+        "chars": 45316,
+        "bytes": 45340
+      },
+      {
+        "name": "PHP",
+        "files": 13,
+        "lines": 827,
+        "codeLines": 685,
+        "chars": 27465,
+        "bytes": 27465
+      },
+      {
+        "name": "Batchfile",
+        "files": 6,
+        "lines": 446,
+        "codeLines": 348,
+        "chars": 11708,
+        "bytes": 11740
+      },
+      {
+        "name": "SQL",
+        "files": 25,
+        "lines": 324,
+        "codeLines": 291,
+        "chars": 13142,
+        "bytes": 13142
+      },
+      {
+        "name": "INI",
+        "files": 11,
+        "lines": 141,
+        "codeLines": 128,
+        "chars": 5341,
+        "bytes": 5341
+      },
+      {
+        "name": "Kotlin",
+        "files": 8,
+        "lines": 136,
+        "codeLines": 115,
+        "chars": 3348,
+        "bytes": 3348
+      },
+      {
+        "name": "PowerShell",
+        "files": 1,
+        "lines": 136,
+        "codeLines": 118,
+        "chars": 4999,
+        "bytes": 4999
+      },
+      {
+        "name": "C#",
+        "files": 3,
+        "lines": 113,
+        "codeLines": 97,
+        "chars": 3555,
+        "bytes": 3555
+      },
+      {
+        "name": "TOML",
+        "files": 3,
+        "lines": 95,
+        "codeLines": 87,
+        "chars": 2187,
+        "bytes": 2187
+      },
+      {
+        "name": "Swift",
+        "files": 8,
+        "lines": 90,
+        "codeLines": 74,
+        "chars": 2515,
+        "bytes": 2515
+      },
+      {
+        "name": "CMake",
+        "files": 2,
+        "lines": 50,
+        "codeLines": 40,
+        "chars": 1590,
+        "bytes": 1590
+      },
+      {
+        "name": "Assembly",
+        "files": 2,
+        "lines": 45,
+        "codeLines": 36,
+        "chars": 1130,
+        "bytes": 1130
+      },
+      {
+        "name": "Elixir",
+        "files": 2,
+        "lines": 12,
+        "codeLines": 10,
+        "chars": 192,
+        "bytes": 192
+      },
+      {
+        "name": "V",
+        "files": 1,
+        "lines": 9,
+        "codeLines": 8,
+        "chars": 297,
+        "bytes": 297
+      },
+      {
+        "name": "Scala",
+        "files": 1,
+        "lines": 8,
+        "codeLines": 7,
+        "chars": 142,
+        "bytes": 142
+      },
+      {
+        "name": "Zig",
+        "files": 1,
+        "lines": 8,
+        "codeLines": 6,
+        "chars": 133,
+        "bytes": 133
+      },
+      {
+        "name": "Erlang",
+        "files": 1,
+        "lines": 6,
+        "codeLines": 5,
+        "chars": 100,
+        "bytes": 100
+      },
+      {
+        "name": "Lua",
+        "files": 2,
+        "lines": 6,
+        "codeLines": 5,
+        "chars": 110,
+        "bytes": 110
+      },
+      {
+        "name": "Haskell",
+        "files": 2,
+        "lines": 5,
+        "codeLines": 4,
+        "chars": 110,
+        "bytes": 110
+      },
+      {
+        "name": "Perl",
+        "files": 1,
+        "lines": 5,
+        "codeLines": 4,
+        "chars": 83,
+        "bytes": 83
+      },
+      {
+        "name": "Ruby",
+        "files": 2,
+        "lines": 5,
+        "codeLines": 4,
+        "chars": 83,
+        "bytes": 83
+      },
+      {
+        "name": "F#",
+        "files": 1,
+        "lines": 2,
+        "codeLines": 2,
+        "chars": 48,
+        "bytes": 48
+      },
+      {
+        "name": "Julia",
+        "files": 1,
+        "lines": 2,
+        "codeLines": 2,
+        "chars": 51,
+        "bytes": 51
+      },
+      {
+        "name": "Objective-C",
+        "files": 1,
+        "lines": 2,
+        "codeLines": 2,
+        "chars": 50,
+        "bytes": 50
+      },
+      {
+        "name": "R",
+        "files": 1,
+        "lines": 2,
+        "codeLines": 2,
+        "chars": 45,
+        "bytes": 45
+      }
+    ]
+  },
   "frontendStack": [
     {
       "name": "React",
@@ -292,11 +809,19 @@
       "count": 23
     },
     {
+      "name": "React Router",
+      "count": 11
+    },
+    {
       "name": "Next.js",
       "count": 9
     },
     {
       "name": "R3F",
+      "count": 1
+    },
+    {
+      "name": "shadcn/ui",
       "count": 1
     },
     {
@@ -314,6 +839,18 @@
       "count": 22
     },
     {
+      "name": "WebSocket",
+      "count": 20
+    },
+    {
+      "name": "Zod",
+      "count": 18
+    },
+    {
+      "name": "CORS",
+      "count": 12
+    },
+    {
       "name": "Neon DB",
       "count": 12
     },
@@ -326,15 +863,27 @@
       "count": 11
     },
     {
+      "name": "Helmet",
+      "count": 11
+    },
+    {
       "name": "PostgreSQL",
       "count": 6
     },
     {
-      "name": "Postgres",
-      "count": 2
+      "name": "JWT",
+      "count": 4
     },
     {
       "name": "Prisma",
+      "count": 4
+    },
+    {
+      "name": "Socket.io",
+      "count": 3
+    },
+    {
+      "name": "Postgres",
       "count": 2
     },
     {
@@ -343,6 +892,10 @@
     },
     {
       "name": "Baileys",
+      "count": 1
+    },
+    {
+      "name": "bcrypt",
       "count": 1
     },
     {
@@ -398,19 +951,19 @@
       "name": "dastermv2",
       "url": "https://github.com/akaanakbaik/dastermv2",
       "language": "Shell",
-      "updatedAt": "2026-08-02T08:54:27Z"
+      "updatedAt": "2026-08-02T10:41:42Z"
     },
     {
       "name": "auto-commit",
       "url": "https://github.com/akaanakbaik/auto-commit",
       "language": "Unknown",
-      "updatedAt": "2026-08-02T07:16:55Z"
+      "updatedAt": "2026-08-02T09:24:07Z"
     },
     {
       "name": "akaanakbaik",
       "url": "https://github.com/akaanakbaik/akaanakbaik",
       "language": "JavaScript",
-      "updatedAt": "2026-08-02T06:47:21Z"
+      "updatedAt": "2026-08-02T09:22:45Z"
     },
     {
       "name": "musika-apk",

@@ -1,0 +1,76 @@
+<svg width="900" height="540" viewBox="0 0 900 540" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="900" y2="540">
+<stop stop-color="#0f172a"/><stop offset="0.55" stop-color="#111827"/><stop offset="1" stop-color="#312e81"/>
+</linearGradient>
+<linearGradient id="bar" x1="0" y1="0" x2="900" y2="0">
+<stop stop-color="#667eea"/><stop offset="1" stop-color="#764ba2"/>
+</linearGradient>
+<linearGradient id="titleLine" x1="0" y1="0" x2="900" y2="0">
+<stop stop-color="#667eea" stop-opacity="0"/><stop offset="0.5" stop-color="#a78bfa"/><stop offset="1" stop-color="#667eea" stop-opacity="0"/>
+</linearGradient>
+</defs>
+<rect width="900" height="540" rx="26" fill="url(#bg)"/>
+<circle cx="820" cy="40" r="130" fill="#667eea" opacity="0.12"/>
+<circle cx="90" cy="520" r="150" fill="#764ba2" opacity="0.12"/>
+<text x="30" y="44" fill="#ffffff" font-size="25" font-weight="900" font-family="Inter,'Segoe UI',system-ui,sans-serif">Language Adoption Radar</text>
+<text x="30" y="66" fill="#94a3b8" font-size="12.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">Top 8 languages by repository count, log-normalized radar — all languages supported, full census below and in stats</text>
+<rect x="30" y="80" width="840" height="3.5" rx="1.75" fill="url(#titleLine)"/>
+
+<polygon points="320.00,227.50 346.52,238.48 357.50,265.00 346.52,291.52 320.00,302.50 293.48,291.52 282.50,265.00 293.48,238.48" fill="none" stroke="#ffffff" stroke-opacity="0.1" stroke-width="1"/><polygon points="320.00,190.00 373.03,211.97 395.00,265.00 373.03,318.03 320.00,340.00 266.97,318.03 245.00,265.00 266.97,211.97" fill="none" stroke="#ffffff" stroke-opacity="0.1" stroke-width="1"/><polygon points="320.00,152.50 399.55,185.45 432.50,265.00 399.55,344.55 320.00,377.50 240.45,344.55 207.50,265.00 240.45,185.45" fill="none" stroke="#ffffff" stroke-opacity="0.1" stroke-width="1"/><polygon points="320.00,115.00 426.07,158.93 470.00,265.00 426.07,371.07 320.00,415.00 213.93,371.07 170.00,265.00 213.93,158.93" fill="none" stroke="#ffffff" stroke-opacity="0.1" stroke-width="1"/>
+<line x1="320" y1="265" x2="320.00" y2="115.00" stroke="#ffffff" stroke-opacity="0.12" stroke-width="1"/>
+<text x="320.00" y="89.00" text-anchor="middle" fill="#cbd5e1" font-size="11.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">JavaScript</text><line x1="320" y1="265" x2="426.07" y2="158.93" stroke="#ffffff" stroke-opacity="0.12" stroke-width="1"/>
+<text x="444.45" y="140.55" text-anchor="middle" fill="#cbd5e1" font-size="11.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">HTML</text><line x1="320" y1="265" x2="470.00" y2="265.00" stroke="#ffffff" stroke-opacity="0.12" stroke-width="1"/>
+<text x="496.00" y="265.00" text-anchor="middle" fill="#cbd5e1" font-size="11.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">CSS</text><line x1="320" y1="265" x2="426.07" y2="371.07" stroke="#ffffff" stroke-opacity="0.12" stroke-width="1"/>
+<text x="444.45" y="389.45" text-anchor="middle" fill="#cbd5e1" font-size="11.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">TypeScript</text><line x1="320" y1="265" x2="320.00" y2="415.00" stroke="#ffffff" stroke-opacity="0.12" stroke-width="1"/>
+<text x="320.00" y="441.00" text-anchor="middle" fill="#cbd5e1" font-size="11.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">Shell</text><line x1="320" y1="265" x2="213.93" y2="371.07" stroke="#ffffff" stroke-opacity="0.12" stroke-width="1"/>
+<text x="195.55" y="389.45" text-anchor="middle" fill="#cbd5e1" font-size="11.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">Python</text><line x1="320" y1="265" x2="170.00" y2="265.00" stroke="#ffffff" stroke-opacity="0.12" stroke-width="1"/>
+<text x="144.00" y="265.00" text-anchor="middle" fill="#cbd5e1" font-size="11.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">C++</text><line x1="320" y1="265" x2="213.93" y2="158.93" stroke="#ffffff" stroke-opacity="0.12" stroke-width="1"/>
+<text x="195.55" y="140.55" text-anchor="middle" fill="#cbd5e1" font-size="11.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">C</text>
+<polygon points="320.00,115.00 418.32,166.68 459.04,265.00 405.45,350.45 320.00,372.13 256.18,328.82 238.97,265.00 268.26,213.26" fill="#667eea" fill-opacity="0.32" stroke="#a78bfa" stroke-width="2.5" stroke-linejoin="round"/>
+<circle cx="320.00" cy="115.00" r="4.5" fill="#a78bfa" stroke="#0b1020" stroke-width="2"/><circle cx="418.32" cy="166.68" r="4.5" fill="#a78bfa" stroke="#0b1020" stroke-width="2"/><circle cx="459.04" cy="265.00" r="4.5" fill="#a78bfa" stroke="#0b1020" stroke-width="2"/><circle cx="405.45" cy="350.45" r="4.5" fill="#a78bfa" stroke="#0b1020" stroke-width="2"/><circle cx="320.00" cy="372.13" r="4.5" fill="#a78bfa" stroke="#0b1020" stroke-width="2"/><circle cx="256.18" cy="328.82" r="4.5" fill="#a78bfa" stroke="#0b1020" stroke-width="2"/><circle cx="238.97" cy="265.00" r="4.5" fill="#a78bfa" stroke="#0b1020" stroke-width="2"/><circle cx="268.26" cy="213.26" r="4.5" fill="#a78bfa" stroke="#0b1020" stroke-width="2"/>
+<g transform="translate(520 112)">
+<text x="0" y="15" fill="#e2e8f0" font-size="13.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">JavaScript</text>
+<text x="180" y="15" text-anchor="end" fill="#cbd5e1" font-size="12.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">70 repos</text>
+<rect x="0" y="24" width="250" height="7" rx="3.5" fill="#1e293b"/>
+<rect x="0" y="24" width="250" height="7" rx="3.5" fill="#f1e05a"/>
+</g><g transform="translate(520 150)">
+<text x="0" y="15" fill="#e2e8f0" font-size="13.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">HTML</text>
+<text x="180" y="15" text-anchor="end" fill="#cbd5e1" font-size="12.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">51 repos</text>
+<rect x="0" y="24" width="250" height="7" rx="3.5" fill="#1e293b"/>
+<rect x="0" y="24" width="232.5" height="7" rx="3.5" fill="#e34c26"/>
+</g><g transform="translate(520 188)">
+<text x="0" y="15" fill="#e2e8f0" font-size="13.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">CSS</text>
+<text x="180" y="15" text-anchor="end" fill="#cbd5e1" font-size="12.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">51 repos</text>
+<rect x="0" y="24" width="250" height="7" rx="3.5" fill="#1e293b"/>
+<rect x="0" y="24" width="232.5" height="7" rx="3.5" fill="#563d7c"/>
+</g><g transform="translate(520 226)">
+<text x="0" y="15" fill="#e2e8f0" font-size="13.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">TypeScript</text>
+<text x="180" y="15" text-anchor="end" fill="#cbd5e1" font-size="12.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">30 repos</text>
+<rect x="0" y="24" width="250" height="7" rx="3.5" fill="#1e293b"/>
+<rect x="0" y="24" width="202.5" height="7" rx="3.5" fill="#3178c6"/>
+</g><g transform="translate(520 264)">
+<text x="0" y="15" fill="#e2e8f0" font-size="13.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">Shell</text>
+<text x="180" y="15" text-anchor="end" fill="#cbd5e1" font-size="12.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">20 repos</text>
+<rect x="0" y="24" width="250" height="7" rx="3.5" fill="#1e293b"/>
+<rect x="0" y="24" width="177.5" height="7" rx="3.5" fill="#89e051"/>
+</g><g transform="translate(520 302)">
+<text x="0" y="15" fill="#e2e8f0" font-size="13.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">Python</text>
+<text x="180" y="15" text-anchor="end" fill="#cbd5e1" font-size="12.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">12 repos</text>
+<rect x="0" y="24" width="250" height="7" rx="3.5" fill="#1e293b"/>
+<rect x="0" y="24" width="150" height="7" rx="3.5" fill="#3572A5"/>
+</g><g transform="translate(520 340)">
+<text x="0" y="15" fill="#e2e8f0" font-size="13.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">C++</text>
+<text x="180" y="15" text-anchor="end" fill="#cbd5e1" font-size="12.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">9 repos</text>
+<rect x="0" y="24" width="250" height="7" rx="3.5" fill="#1e293b"/>
+<rect x="0" y="24" width="135" height="7" rx="3.5" fill="#f34b7d"/>
+</g><g transform="translate(520 378)">
+<text x="0" y="15" fill="#e2e8f0" font-size="13.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">C</text>
+<text x="180" y="15" text-anchor="end" fill="#cbd5e1" font-size="12.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">7 repos</text>
+<rect x="0" y="24" width="250" height="7" rx="3.5" fill="#1e293b"/>
+<rect x="0" y="24" width="122.5" height="7" rx="3.5" fill="#555555"/>
+</g>
+<text x="520" y="442" fill="#94a3b8" font-size="11.5" font-weight="700" letter-spacing="1" font-family="Inter,'Segoe UI',system-ui,sans-serif">LOG-NORMALIZED ADOPTION</text>
+<text x="30" y="512" fill="#64748b" font-size="10.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">LANGUAGE CENSUS (107 REPOS): JavaScript (70) · HTML (51) · CSS (51) · TypeScript (30) · Shell (20) · Python (12) · C++ (9) · C (7) · Java (7) · Dockerfile (5) · PHP (5) · Go (5) · Dart (4) · Kotlin (3) · Batchfile (3) · Rust (3) · +25 more</text>
+
+</svg>
