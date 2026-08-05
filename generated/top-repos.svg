@@ -16,37 +16,37 @@
 <text x="30" y="44" fill="#ffffff" font-size="25" font-weight="900" font-family="Inter,'Segoe UI',system-ui,sans-serif">Top 5 Repositories — Dynamic Ranking</text>
 <text x="30" y="66" fill="#94a3b8" font-size="12.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">Re-ranked every run by a composite activity score: stars, forks, watchers, PRs, issues, discussions, commits, recency</text>
 <rect x="30" y="80" width="940" height="3.5" rx="1.75" fill="url(#titleLine)"/>
-<defs><linearGradient id="scoreGrad0" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#fbbf24"/><stop offset="1" stop-color="#fbbf24" stop-opacity="0.35"/></linearGradient><linearGradient id="scoreGrad1" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#c7cedb"/><stop offset="1" stop-color="#c7cedb" stop-opacity="0.35"/></linearGradient><linearGradient id="scoreGrad2" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#c08552"/><stop offset="1" stop-color="#c08552" stop-opacity="0.35"/></linearGradient><linearGradient id="scoreGrad3" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#667eea"/><stop offset="1" stop-color="#667eea" stop-opacity="0.35"/></linearGradient><linearGradient id="scoreGrad4" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#764ba2"/><stop offset="1" stop-color="#764ba2" stop-opacity="0.35"/></linearGradient></defs><a href="https://github.com/akaanakbaik/akaanakbaik"><g transform="translate(30 108)">
+<defs><linearGradient id="scoreGrad0" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#fbbf24"/><stop offset="1" stop-color="#fbbf24" stop-opacity="0.35"/></linearGradient><linearGradient id="scoreGrad1" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#c7cedb"/><stop offset="1" stop-color="#c7cedb" stop-opacity="0.35"/></linearGradient><linearGradient id="scoreGrad2" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#c08552"/><stop offset="1" stop-color="#c08552" stop-opacity="0.35"/></linearGradient><linearGradient id="scoreGrad3" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#667eea"/><stop offset="1" stop-color="#667eea" stop-opacity="0.35"/></linearGradient><linearGradient id="scoreGrad4" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#764ba2"/><stop offset="1" stop-color="#764ba2" stop-opacity="0.35"/></linearGradient></defs><a href="https://github.com/akaanakbaik/pterodactyl-gateway"><g transform="translate(30 108)">
 <rect width="940" height="76" rx="18" fill="#0d1322" stroke="#fbbf24" stroke-opacity="0.5" stroke-width="1.4"/>
 <circle cx="38" cy="38" r="20" fill="#fbbf24" fill-opacity="0.16" stroke="#fbbf24" stroke-width="2"/>
 <text x="38" y="44" text-anchor="middle" fill="#fbbf24" font-size="17" font-weight="900" font-family="Inter,'Segoe UI',system-ui,sans-serif">1</text>
-<text x="72" y="30" fill="#ffffff" font-size="18.5" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">akaanakbaik</text>
-<circle cx="72" cy="50" r="4" fill="#f1e05a"/>
-<text x="84" y="54" fill="#8b93a7" font-size="11.5" font-weight="600" font-family="Inter,'Segoe UI',system-ui,sans-serif">JavaScript</text>
-<rect x="72" y="63" width="560" height="7" rx="3.5" fill="#1e293b"/>
-<rect x="72" y="63" width="560" height="7" rx="3.5" fill="url(#scoreGrad0)"/>
-<text x="660" y="69" fill="#fbbf24" font-size="16" font-weight="900" font-family="Inter,'Segoe UI',system-ui,sans-serif">100.0</text>
-<text x="730" y="28" fill="#e2e8f0" font-size="12.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">★ 5</text>
-<text x="796" y="28" fill="#e2e8f0" font-size="12.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">⑂ 0</text>
-<text x="862" y="28" fill="#cbd5e1" font-size="12.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">328 commits</text>
-<text x="730" y="50" fill="#cbd5e1" font-size="11.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">3 PR · 0 IS · 1 W</text>
-<text x="850" y="50" fill="#5b6478" font-size="11.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">pushed today</text>
-<text x="960" y="38" fill="#64748b" font-size="10.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">score</text>
-</g></a><a href="https://github.com/akaanakbaik/pterodactyl-gateway"><g transform="translate(30 196)">
-<rect width="940" height="76" rx="18" fill="#0d1322" stroke="#c7cedb" stroke-opacity="0.5" stroke-width="1.4"/>
-<circle cx="38" cy="38" r="20" fill="#c7cedb" fill-opacity="0.16" stroke="#c7cedb" stroke-width="2"/>
-<text x="38" y="44" text-anchor="middle" fill="#c7cedb" font-size="17" font-weight="900" font-family="Inter,'Segoe UI',system-ui,sans-serif">2</text>
 <text x="72" y="30" fill="#ffffff" font-size="18.5" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">pterodactyl-gateway</text>
 <circle cx="72" cy="50" r="4" fill="#3178c6"/>
 <text x="84" y="54" fill="#8b93a7" font-size="11.5" font-weight="600" font-family="Inter,'Segoe UI',system-ui,sans-serif">TypeScript</text>
 <rect x="72" y="63" width="560" height="7" rx="3.5" fill="#1e293b"/>
-<rect x="72" y="63" width="552.3794237310952" height="7" rx="3.5" fill="url(#scoreGrad1)"/>
-<text x="660" y="69" fill="#c7cedb" font-size="16" font-weight="900" font-family="Inter,'Segoe UI',system-ui,sans-serif">98.6</text>
+<rect x="72" y="63" width="560" height="7" rx="3.5" fill="url(#scoreGrad0)"/>
+<text x="660" y="69" fill="#fbbf24" font-size="16" font-weight="900" font-family="Inter,'Segoe UI',system-ui,sans-serif">100.0</text>
 <text x="730" y="28" fill="#e2e8f0" font-size="12.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">★ 10</text>
 <text x="796" y="28" fill="#e2e8f0" font-size="12.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">⑂ 0</text>
 <text x="862" y="28" fill="#cbd5e1" font-size="12.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">159 commits</text>
-<text x="730" y="50" fill="#cbd5e1" font-size="11.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">18 PR · 0 IS · 0 W</text>
-<text x="850" y="50" fill="#5b6478" font-size="11.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">pushed 14 d ago</text>
+<text x="730" y="50" fill="#cbd5e1" font-size="11.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">19 PR · 0 IS · 0 W</text>
+<text x="850" y="50" fill="#5b6478" font-size="11.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">pushed 2 d ago</text>
+<text x="960" y="38" fill="#64748b" font-size="10.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">score</text>
+</g></a><a href="https://github.com/akaanakbaik/akaanakbaik"><g transform="translate(30 196)">
+<rect width="940" height="76" rx="18" fill="#0d1322" stroke="#c7cedb" stroke-opacity="0.5" stroke-width="1.4"/>
+<circle cx="38" cy="38" r="20" fill="#c7cedb" fill-opacity="0.16" stroke="#c7cedb" stroke-width="2"/>
+<text x="38" y="44" text-anchor="middle" fill="#c7cedb" font-size="17" font-weight="900" font-family="Inter,'Segoe UI',system-ui,sans-serif">2</text>
+<text x="72" y="30" fill="#ffffff" font-size="18.5" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">akaanakbaik</text>
+<circle cx="72" cy="50" r="4" fill="#f1e05a"/>
+<text x="84" y="54" fill="#8b93a7" font-size="11.5" font-weight="600" font-family="Inter,'Segoe UI',system-ui,sans-serif">JavaScript</text>
+<rect x="72" y="63" width="560" height="7" rx="3.5" fill="#1e293b"/>
+<rect x="72" y="63" width="537.7102388663591" height="7" rx="3.5" fill="url(#scoreGrad1)"/>
+<text x="660" y="69" fill="#c7cedb" font-size="16" font-weight="900" font-family="Inter,'Segoe UI',system-ui,sans-serif">96.0</text>
+<text x="730" y="28" fill="#e2e8f0" font-size="12.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">★ 5</text>
+<text x="796" y="28" fill="#e2e8f0" font-size="12.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">⑂ 0</text>
+<text x="862" y="28" fill="#cbd5e1" font-size="12.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">298 commits</text>
+<text x="730" y="50" fill="#cbd5e1" font-size="11.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">3 PR · 0 IS · 1 W</text>
+<text x="850" y="50" fill="#5b6478" font-size="11.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">pushed today</text>
 <text x="960" y="38" fill="#64748b" font-size="10.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">score</text>
 </g></a><a href="https://github.com/akaanakbaik/portofoliov2"><g transform="translate(30 284)">
 <rect width="940" height="76" rx="18" fill="#0d1322" stroke="#c08552" stroke-opacity="0.5" stroke-width="1.4"/>
@@ -56,8 +56,8 @@
 <circle cx="72" cy="50" r="4" fill="#f1e05a"/>
 <text x="84" y="54" fill="#8b93a7" font-size="11.5" font-weight="600" font-family="Inter,'Segoe UI',system-ui,sans-serif">JavaScript</text>
 <rect x="72" y="63" width="560" height="7" rx="3.5" fill="#1e293b"/>
-<rect x="72" y="63" width="389.644392320702" height="7" rx="3.5" fill="url(#scoreGrad2)"/>
-<text x="660" y="69" fill="#c08552" font-size="16" font-weight="900" font-family="Inter,'Segoe UI',system-ui,sans-serif">69.6</text>
+<rect x="72" y="63" width="376.83405699846986" height="7" rx="3.5" fill="url(#scoreGrad2)"/>
+<text x="660" y="69" fill="#c08552" font-size="16" font-weight="900" font-family="Inter,'Segoe UI',system-ui,sans-serif">67.3</text>
 <text x="730" y="28" fill="#e2e8f0" font-size="12.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">★ 4</text>
 <text x="796" y="28" fill="#e2e8f0" font-size="12.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">⑂ 2</text>
 <text x="862" y="28" fill="#cbd5e1" font-size="12.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">139 commits</text>
@@ -72,8 +72,8 @@
 <circle cx="72" cy="50" r="4" fill="#f1e05a"/>
 <text x="84" y="54" fill="#8b93a7" font-size="11.5" font-weight="600" font-family="Inter,'Segoe UI',system-ui,sans-serif">JavaScript</text>
 <rect x="72" y="63" width="560" height="7" rx="3.5" fill="#1e293b"/>
-<rect x="72" y="63" width="381.5343566382905" height="7" rx="3.5" fill="url(#scoreGrad3)"/>
-<text x="660" y="69" fill="#667eea" font-size="16" font-weight="900" font-family="Inter,'Segoe UI',system-ui,sans-serif">68.1</text>
+<rect x="72" y="63" width="369.0333358086317" height="7" rx="3.5" fill="url(#scoreGrad3)"/>
+<text x="660" y="69" fill="#667eea" font-size="16" font-weight="900" font-family="Inter,'Segoe UI',system-ui,sans-serif">65.9</text>
 <text x="730" y="28" fill="#e2e8f0" font-size="12.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">★ 4</text>
 <text x="796" y="28" fill="#e2e8f0" font-size="12.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">⑂ 1</text>
 <text x="862" y="28" fill="#cbd5e1" font-size="12.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">167 commits</text>
@@ -88,8 +88,8 @@
 <circle cx="72" cy="50" r="4" fill="#f1e05a"/>
 <text x="84" y="54" fill="#8b93a7" font-size="11.5" font-weight="600" font-family="Inter,'Segoe UI',system-ui,sans-serif">JavaScript</text>
 <rect x="72" y="63" width="560" height="7" rx="3.5" fill="#1e293b"/>
-<rect x="72" y="63" width="380.28663703760367" height="7" rx="3.5" fill="url(#scoreGrad4)"/>
-<text x="660" y="69" fill="#764ba2" font-size="16" font-weight="900" font-family="Inter,'Segoe UI',system-ui,sans-serif">67.9</text>
+<rect x="72" y="63" width="368.26262581954035" height="7" rx="3.5" fill="url(#scoreGrad4)"/>
+<text x="660" y="69" fill="#764ba2" font-size="16" font-weight="900" font-family="Inter,'Segoe UI',system-ui,sans-serif">65.8</text>
 <text x="730" y="28" fill="#e2e8f0" font-size="12.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">★ 4</text>
 <text x="796" y="28" fill="#e2e8f0" font-size="12.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">⑂ 0</text>
 <text x="862" y="28" fill="#cbd5e1" font-size="12.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">72 commits</text>
