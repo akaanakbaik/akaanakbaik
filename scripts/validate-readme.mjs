@@ -1,5 +1,7 @@
 import { readFile, readdir } from 'node:fs/promises';
 
+const MIN_BADGE_CONTRAST = 4.5;
+
 const README_PATH = 'README.md';
 const URL_PATTERN = /https?:\/\/[^\s"'<>]+/g;
 const ENDPOINT_PATTERN = /badges%2F([A-Za-z0-9._-]+)\.json/g;
@@ -52,6 +54,18 @@ async function checkUrl(url) {
   throw new Error('URL check exhausted retries');
 }
 
+function relativeLuminance(hex) {
+  const rgb = [0, 2, 4].map((offset) => parseInt(hex.slice(offset, offset + 2), 16) / 255);
+  const linear = rgb.map((value) => value <= 0.04045 ? value / 12.92 : ((value + 0.055) / 1.055) ** 2.4);
+  return 0.2126 * linear[0] + 0.7152 * linear[1] + 0.0722 * linear[2];
+}
+
+function badgeContrast(color) {
+  const normalized = String(color || '').replace(/^#/, '').toLowerCase();
+  if (!/^[0-9a-f]{6}$/.test(normalized)) return 0;
+  return 1.05 / (relativeLuminance(normalized) + 0.05);
+}
+
 async function validateBadges() {
   const files = (await readdir('badges')).filter((name) => name.endsWith('.json')).sort();
   if (!files.length) throw new Error('badges directory is empty');
@@ -61,6 +75,8 @@ async function validateBadges() {
     if (!String(payload.label || '').trim()) throw new Error(`${file}: label is missing`);
     if (!String(payload.message || '').trim()) throw new Error(`${file}: message is missing`);
     if (!String(payload.color || '').trim()) throw new Error(`${file}: color is missing`);
+    const contrast = badgeContrast(payload.color);
+    if (contrast < MIN_BADGE_CONTRAST) throw new Error(`${file}: color contrast ${contrast.toFixed(2)} is below ${MIN_BADGE_CONTRAST}`);
   }
   return files;
 }

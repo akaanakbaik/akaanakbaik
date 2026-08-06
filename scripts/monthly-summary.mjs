@@ -162,9 +162,9 @@ async function main() {
   await writeFile('generated/monthly-summary.svg', monthlySummarySvg({ monthName, rangeStart, rangeEnd, body, stats, prs, issues }));
   const md = `# Ringkasan AI Bulanan — ${monthName}\n\n**Periode:** ${rangeStart} – ${rangeEnd} · dihasilkan otomatis oleh GitHub Actions\n\n${body.split('\n\n').map((p) => p + '\n').join('\n')}\n\n---\n\n## Statistik\n\n| Metrik | Nilai |\n| --- | ---: |\n| Total commit (30 hari) | ${thousandSep(stats.total)} |\n| Hari aktif | ${stats.activeDays} / ${DAYS_BACK} |\n| Commit per hari aktif | ${stats.total ? (stats.total / stats.activeDays).toFixed(1) : 0} |\n| Hari tersibuk | ${stats.busiestDay ? `${shortDate(stats.busiestDay[0])} (${thousandSep(stats.busiestDay[1])} commit)` : '-'} |\n| Hari tersibuk (pekan) | ${stats.busiestWeekday} |\n| Jam puncak | ${stats.peakHour}:00 WIB |\n| Streak aktif | ${stats.currentStreak} hari |\n| Repo tersibuk | ${stats.sortedRepos.slice(0, 3).map(([n, c]) => `${n} (${c})`).join(', ') || '-'} |\n| Pull request dibuka | ${prs} |\n| Issue dibuka | ${issues} |\n`;
   await writeFile('stats/monthly-summary.md', md);
-  await writeBadge('monthly-commits', 'commits (30d)', compact(stats.total), '2563eb');
-  await writeBadge('monthly-active-days', 'active days (30d)', `${stats.activeDays}`, '16a34a');
-  await writeBadge('monthly-top-repo', 'top repo (30d)', stats.sortedRepos[0] ? stats.sortedRepos[0][0] : 'none', 'f59e0b');
+  await writeBadge('monthly-commits', 'commits (30d)', compact(stats.total), '1d4ed8');
+  await writeBadge('monthly-active-days', 'active days (30d)', `${stats.activeDays}`, '15803d');
+  await writeBadge('monthly-top-repo', 'top repo (30d)', stats.sortedRepos[0] ? stats.sortedRepos[0][0] : 'none', 'b45309');
   log('monthly summary complete');
 }
 

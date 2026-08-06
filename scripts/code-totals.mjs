@@ -48,11 +48,11 @@ async function main() {
   await mkdir('stats', { recursive: true });
   await writeFile(
     'badges/total-lines.json',
-    JSON.stringify({ schemaVersion: 1, label: 'source lines', message: compact(totals.codeLines), color: '667eea' }, null, 2) + '\n'
+    JSON.stringify({ schemaVersion: 1, label: 'source lines', message: compact(totals.codeLines), color: '4338ca' }, null, 2) + '\n'
   );
   await writeFile(
     'badges/total-chars.json',
-    JSON.stringify({ schemaVersion: 1, label: 'source characters', message: compact(totals.chars), color: 'f59e0b' }, null, 2) + '\n'
+    JSON.stringify({ schemaVersion: 1, label: 'source characters', message: compact(totals.chars), color: 'b45309' }, null, 2) + '\n'
   );
   await writeFile('generated/code-totals.svg', badge);
   const snapshot = {

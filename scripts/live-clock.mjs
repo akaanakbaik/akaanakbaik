@@ -1,5 +1,5 @@
 import { mkdir, writeFile, readFile } from 'node:fs/promises';
-import { dateStamp, writeBadge, jakartaNow, createClient, compact } from './lib/engine.mjs';
+import { dateStamp, writeBadge, jakartaNow } from './lib/engine.mjs';
 import { liveClockSvg, motivationQuoteSvg } from './lib/charts.mjs';
 
 async function pickRandomQuote() {
@@ -18,8 +18,6 @@ async function pickRandomQuote() {
 }
 
 async function main() {
-  const username = process.env.PROFILE_USERNAME || 'akaanakbaik';
-  const token = process.env.GITHUB_TOKEN || '';
   const now = jakartaNow();
   const generatedAt = dateStamp();
   await mkdir('generated', { recursive: true });
@@ -35,27 +33,12 @@ async function main() {
       generatedAt
     })
   );
-  await writeBadge('live-time', 'Jakarta time (WIB)', now.timeText, 'f59e0b');
-  await writeBadge('live-date', 'Jakarta date', now.dateText, '06b6d4');
+  await writeBadge('live-time', 'Jakarta time (WIB)', now.timeText, 'b45309');
+  await writeBadge('live-date', 'Jakarta date', now.dateText, '0e7490');
   const picked = await pickRandomQuote();
   if (picked) console.log(`[live-clock] quote #${picked.index + 1}/${picked.total} by ${picked.author}`);
   console.log(`[live-clock] ${now.timeText} WIB — ${now.dateText} — ${now.dayName}`);
 
-  if (token) {
-    try {
-      const client = createClient({ token, owner: username, log: () => {} });
-      const user = await client.request(`/users/${username}`);
-      await writeBadge('followers', 'followers', compact(user.followers || 0), '2563eb');
-      const allRepos = (await client.paginate(`/users/${username}/repos?type=owner&sort=updated&direction=desc`)).filter((r) => !r.private);
-      const totalStars = allRepos.reduce((a, r) => a + (r.stargazers_count || 0), 0);
-      const totalForks = allRepos.reduce((a, r) => a + (r.forks_count || 0), 0);
-      await writeBadge('total-stars', 'total stars', compact(totalStars), 'f59e0b');
-      await writeBadge('total-forks', 'total forks', compact(totalForks), '16a34a');
-      console.log(`[live-clock] social refresh: ${user.followers} followers, ${totalStars} stars, ${allRepos.length} repos`);
-    } catch (error) {
-      console.log(`[live-clock] social refresh skipped: ${error.message}`);
-    }
-  }
 }
 
 main().catch((error) => {

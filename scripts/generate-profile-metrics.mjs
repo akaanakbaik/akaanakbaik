@@ -184,9 +184,9 @@ async function main() {
       perLangTop
     });
     await writeFile('generated/code-totals.svg', badge);
-    await writeBadge('total-lines', 'source lines', compact(t.codeLines), '667eea');
-    await writeBadge('total-chars', 'source characters', compact(t.chars), 'f59e0b');
-    await writeBadge('code-files', 'code files', compact(t.files), '06b6d4');
+    await writeBadge('total-lines', 'source lines', compact(t.codeLines), '4338ca');
+    await writeBadge('total-chars', 'source characters', compact(t.chars), 'b45309');
+    await writeBadge('code-files', 'code files', compact(t.files), '0e7490');
   }
   const distribution = data.languageDistribution;
   let activity = null;
@@ -212,7 +212,7 @@ async function main() {
     const wj = jakartaNow();
     await writeFile('generated/live-clock.svg', liveClockSvg({ hour: wj.hour, minute: wj.minute, second: wj.second, dateText: wj.dateText, dayName: wj.dayName, generatedAt: data.generatedAt }));
     await writeFile('generated/coding-rhythm.svg', codingRhythmSvg({ rhythm, hourCounts: commitHours.hourCounts, peakHour: commitHours.peakHour, sampled: commitHours.sampled, circularMean: commitHours.circularMean, circularStd: commitHours.circularStd, activeHours: commitHours.activeHours }));
-    await writeBadge('streak-days', 'current streak', `${streak.currentStreak} days`, 'f59e0b');
+    await writeBadge('streak-days', 'current streak', `${streak.currentStreak} days`, 'b45309');
     await writeBadge('total-commits', 'commits (365d)', compact(activity.totalCommitContributions), '2563eb');
     await writeBadge('last-active', 'last active', lastActiveIso ? relativeTime(lastActiveIso) : 'unknown', '06b6d4');
     await writeBadge('peak-hour', 'peak coding hour', `${commitHours.peakHour}:00 WIB`, 'db2777');
@@ -265,14 +265,14 @@ async function main() {
     repos: data.publicRepos,
     commits: activitySafe.totalCommitContributions
   }));
-  await writeBadge('language-count', 'languages', compact(distribution.languagesCount), 'a855f7');
-  await writeBadge('followers', 'followers', compact(data.followers), '2563eb');
-  await writeBadge('total-stars', 'total stars', compact(data.totalStars), 'f59e0b');
-  await writeBadge('total-forks', 'total forks', compact(data.totalForks), '16a34a');
-  await writeBadge('total-watchers', 'watchers (subscribers)', compact(data.totalWatchers), 'db2777');
-  await writeBadge('repo-size', 'repo size', data.totalSize, '06b6d4');
-  await writeBadge('top-language', 'top language', data.topLanguage, 'a855f7');
-  await writeBadge('public-repos', 'public repos', compact(data.publicRepos), '667eea');
+  await writeBadge('language-count', 'languages', compact(distribution.languagesCount), '7e22ce');
+  await writeBadge('followers', 'followers', compact(data.followers), '1d4ed8');
+  await writeBadge('total-stars', 'total stars', compact(data.totalStars), 'b45309');
+  await writeBadge('total-forks', 'total forks', compact(data.totalForks), '15803d');
+  await writeBadge('total-watchers', 'watchers (subscribers)', compact(data.totalWatchers), 'be185d');
+  await writeBadge('repo-size', 'repo size', data.totalSize, '0e7490');
+  await writeBadge('top-language', 'top language', data.topLanguage, '7e22ce');
+  await writeBadge('public-repos', 'public repos', compact(data.publicRepos), '4338ca');
   const payload = {
     username,
     generatedAt: data.generatedAt,

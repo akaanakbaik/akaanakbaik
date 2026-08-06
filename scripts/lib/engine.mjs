@@ -436,11 +436,26 @@ export function colorFor(language, index = 0) {
   return LANG_COLORS[language] || PALETTE[index % PALETTE.length];
 }
 
+const BADGE_COLOR_REMAP = new Map([
+  ['f59e0b', 'b45309'],
+  ['06b6d4', '0e7490'],
+  ['667eea', '4338ca'],
+  ['16a34a', '15803d'],
+  ['2563eb', '1d4ed8'],
+  ['a855f7', '7e22ce'],
+  ['db2777', 'be185d']
+]);
+
+export function badgeColor(color) {
+  const normalized = String(color || '').replace(/^#/, '').toLowerCase();
+  return BADGE_COLOR_REMAP.get(normalized) || normalized;
+}
+
 export async function writeBadge(name, label, message, color) {
   await mkdir('badges', { recursive: true });
   await writeFile(
     `badges/${name}.json`,
-    JSON.stringify({ schemaVersion: 1, label, message: String(message), color }, null, 2) + '\n'
+    JSON.stringify({ schemaVersion: 1, label, message: String(message), color: badgeColor(color) }, null, 2) + '\n'
   );
 }
 
