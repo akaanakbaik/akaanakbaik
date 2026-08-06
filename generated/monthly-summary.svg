@@ -1,38 +1,38 @@
-<svg width="1000" height="501" viewBox="0 0 1000 501" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="1000" height="466" viewBox="0 0 1000 466" fill="none" xmlns="http://www.w3.org/2000/svg">
 <defs>
-<linearGradient id="msBg" x1="0" y1="0" x2="1000" y2="501"><stop stop-color="#0f172a"/><stop offset="1" stop-color="#312e81"/></linearGradient>
+<linearGradient id="msBg" x1="0" y1="0" x2="1000" y2="466"><stop stop-color="#0f172a"/><stop offset="1" stop-color="#312e81"/></linearGradient>
 <linearGradient id="msAccent" x1="0" y1="0" x2="1000" y2="0"><stop stop-color="#667eea"/><stop offset="1" stop-color="#764ba2"/></linearGradient>
 </defs>
-<rect width="1000" height="501" rx="26" fill="url(#msBg)"/>
+<rect width="1000" height="466" rx="26" fill="url(#msBg)"/>
 <circle cx="940" cy="40" r="130" fill="#667eea" opacity="0.12"/>
 <text x="30" y="44" fill="#ffffff" font-size="25" font-weight="900" font-family="Inter,'Segoe UI',system-ui,sans-serif">Monthly AI Summary — August 2026</text>
-<text x="30" y="66" fill="#94a3b8" font-size="12.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">03 Jul – 02 Aug · auto-narrated from real commit data by our own AI engine</text>
+<text x="30" y="66" fill="#94a3b8" font-size="12.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">08 Jul – 07 Aug · auto-narrated from real commit data by our own AI engine</text>
 <rect x="30" y="80" width="940" height="3.5" rx="1.75" fill="url(#msAccent)"/>
-<text x="40" y="122" fill="#cbd5e1" font-size="15" font-family="Inter,'Segoe UI',system-ui,sans-serif">Selama 30 hari terakhir (03 Jul – 02 Aug), aku membuat 181 commit di 7 repositori dan aktif selama 16 hari — rata-rata</text><text x="40" y="143" fill="#cbd5e1" font-size="15" font-family="Inter,'Segoe UI',system-ui,sans-serif">11.3 commit per hari aktif.</text><text x="40" y="178" fill="#cbd5e1" font-size="15" font-family="Inter,'Segoe UI',system-ui,sans-serif">Hari paling produktif adalah 20 Jul dengan 29 commit, dan Tue menjadi hari tersibuk dalam seminggu. Puncak aktivitas</text><text x="40" y="199" fill="#cbd5e1" font-size="15" font-family="Inter,'Segoe UI',system-ui,sans-serif">terjadi sekitar jam 5:00 WIB — aku bangun pagi dan langsung ngoding (early bird).</text><text x="40" y="234" fill="#cbd5e1" font-size="15" font-family="Inter,'Segoe UI',system-ui,sans-serif">Catatan penting: ada streak aktif 7 hari berturut-turut tanpa putus — konsistensi yang luar biasa!</text><text x="40" y="269" fill="#cbd5e1" font-size="15" font-family="Inter,'Segoe UI',system-ui,sans-serif">Repo paling sibuk bulan ini: akaanakbaik (87), musika-apk (46), musika (32).</text><text x="40" y="304" fill="#cbd5e1" font-size="15" font-family="Inter,'Segoe UI',system-ui,sans-serif">Bahasa yang paling sering kupakai: TypeScript ×3, JavaScript ×2, Dart ×1.</text><text x="40" y="339" fill="#cbd5e1" font-size="15" font-family="Inter,'Segoe UI',system-ui,sans-serif">Kesimpulan: bulan yang sangat produktif — energiku tinggi dan proyek terus bergerak maju. Terus ngoding, tetap</text><text x="40" y="360" fill="#cbd5e1" font-size="15" font-family="Inter,'Segoe UI',system-ui,sans-serif">semangat! 🚀</text>
-<g transform="translate(30 417)">
+<text x="40" y="122" fill="#cbd5e1" font-size="15" font-family="Inter,'Segoe UI',system-ui,sans-serif">Selama 30 hari terakhir (08 Jul – 07 Aug), aku membuat 409 commit di 6 repositori dan aktif selama 28 hari — rata-rata</text><text x="40" y="143" fill="#cbd5e1" font-size="15" font-family="Inter,'Segoe UI',system-ui,sans-serif">14.6 commit per hari aktif.</text><text x="40" y="178" fill="#cbd5e1" font-size="15" font-family="Inter,'Segoe UI',system-ui,sans-serif">Hari paling produktif adalah 20 Jul dengan 39 commit, dan Sun menjadi hari tersibuk dalam seminggu. Puncak aktivitas</text><text x="40" y="199" fill="#cbd5e1" font-size="15" font-family="Inter,'Segoe UI',system-ui,sans-serif">terjadi sekitar jam 5:00 WIB — aku bangun pagi dan langsung ngoding (early bird).</text><text x="40" y="234" fill="#cbd5e1" font-size="15" font-family="Inter,'Segoe UI',system-ui,sans-serif">Repo paling sibuk bulan ini: akaanakbaik (317), musika-apk (49), musika (33).</text><text x="40" y="269" fill="#cbd5e1" font-size="15" font-family="Inter,'Segoe UI',system-ui,sans-serif">Bahasa yang paling sering kupakai: TypeScript ×2, JavaScript ×1, Shell ×1.</text><text x="40" y="304" fill="#cbd5e1" font-size="15" font-family="Inter,'Segoe UI',system-ui,sans-serif">Kesimpulan: bulan yang sangat produktif — energiku tinggi dan proyek terus bergerak maju. Terus ngoding, tetap</text><text x="40" y="325" fill="#cbd5e1" font-size="15" font-family="Inter,'Segoe UI',system-ui,sans-serif">semangat! 🚀</text>
+<g transform="translate(30 382)">
 <rect width="180" height="54" rx="12" fill="#0d1322" stroke="#2563eb" stroke-opacity="0.35" stroke-width="1.2"/>
 <text x="14" y="20" fill="#8b93a7" font-size="10.5" font-weight="700" letter-spacing="1.2" font-family="Inter,'Segoe UI',system-ui,sans-serif">COMMITS (30D)</text>
-<text x="14" y="42" fill="#2563eb" font-size="17" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">181</text>
-</g><g transform="translate(220 417)">
+<text x="14" y="42" fill="#2563eb" font-size="17" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">409</text>
+</g><g transform="translate(220 382)">
 <rect width="160" height="54" rx="12" fill="#0d1322" stroke="#16a34a" stroke-opacity="0.35" stroke-width="1.2"/>
 <text x="14" y="20" fill="#8b93a7" font-size="10.5" font-weight="700" letter-spacing="1.2" font-family="Inter,'Segoe UI',system-ui,sans-serif">ACTIVE DAYS</text>
-<text x="14" y="42" fill="#16a34a" font-size="17" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">16/30</text>
-</g><g transform="translate(390 417)">
+<text x="14" y="42" fill="#16a34a" font-size="17" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">28/30</text>
+</g><g transform="translate(390 382)">
 <rect width="150" height="54" rx="12" fill="#0d1322" stroke="#f59e0b" stroke-opacity="0.35" stroke-width="1.2"/>
 <text x="14" y="20" fill="#8b93a7" font-size="10.5" font-weight="700" letter-spacing="1.2" font-family="Inter,'Segoe UI',system-ui,sans-serif">PEAK HOUR</text>
 <text x="14" y="42" fill="#f59e0b" font-size="17" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">5:00 WIB</text>
-</g><g transform="translate(550 417)">
+</g><g transform="translate(550 382)">
 <rect width="150" height="54" rx="12" fill="#0d1322" stroke="#db2777" stroke-opacity="0.35" stroke-width="1.2"/>
 <text x="14" y="20" fill="#8b93a7" font-size="10.5" font-weight="700" letter-spacing="1.2" font-family="Inter,'Segoe UI',system-ui,sans-serif">BUSIEST DAY</text>
-<text x="14" y="42" fill="#db2777" font-size="17" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">Tue</text>
-</g><g transform="translate(710 417)">
+<text x="14" y="42" fill="#db2777" font-size="17" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">Sun</text>
+</g><g transform="translate(710 382)">
 <rect width="130" height="54" rx="12" fill="#0d1322" stroke="#06b6d4" stroke-opacity="0.35" stroke-width="1.2"/>
 <text x="14" y="20" fill="#8b93a7" font-size="10.5" font-weight="700" letter-spacing="1.2" font-family="Inter,'Segoe UI',system-ui,sans-serif">PRS OPENED</text>
 <text x="14" y="42" fill="#06b6d4" font-size="17" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">0</text>
-</g><g transform="translate(850 417)">
+</g><g transform="translate(850 382)">
 <rect width="120" height="54" rx="12" fill="#0d1322" stroke="#a855f7" stroke-opacity="0.35" stroke-width="1.2"/>
 <text x="14" y="20" fill="#8b93a7" font-size="10.5" font-weight="700" letter-spacing="1.2" font-family="Inter,'Segoe UI',system-ui,sans-serif">ISSUES</text>
 <text x="14" y="42" fill="#a855f7" font-size="17" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">0</text>
 </g>
-<text x="40" y="483" fill="#5b6478" font-size="10.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">Narrative is generated from real commit timestamps, PRs and issues — regenerated on the 1st of every month</text>
+<text x="40" y="448" fill="#5b6478" font-size="10.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">Narrative is generated from real commit timestamps, PRs and issues — regenerated on the 1st of every month</text>
 </svg>
