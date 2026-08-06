@@ -76,20 +76,27 @@ jobs:
           set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add badges stats generated
-          if git diff --cached --quiet; then
-            echo "No generated changes"
-            exit 0
-          fi
-          git commit -m "chore(metrics): refresh profile snapshot"
+          snapshot="$RUNNER_TEMP/profile-snapshot"
+          rm -rf "$snapshot"
+          mkdir -p "$snapshot"
+          cp -a badges stats generated "$snapshot/"
           for attempt in 1 2 3 4 5; do
             git fetch origin main
-            if git rebase origin/main && git push origin HEAD:main; then
+            git reset --hard origin/main
+            rm -rf badges stats generated
+            cp -a "$snapshot/badges" "$snapshot/stats" "$snapshot/generated" .
+            git add badges stats generated
+            if git diff --cached --quiet; then
+              echo "No generated changes"
+              exit 0
+            fi
+            git commit -m "chore(metrics): refresh profile snapshot"
+            if git push origin HEAD:main; then
               echo "Published consistent metrics snapshot"
               exit 0
             fi
-            git rebase --abort 2>/dev/null || true
-            echo "Publication retry ${attempt}/5"
+            echo "Publication retry ${attempt}/5 after remote advanced"
+            git reset --hard origin/main
             sleep $((attempt * 5))
           done
           exit 1
