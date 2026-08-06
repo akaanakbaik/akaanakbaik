@@ -31,17 +31,23 @@ async function collectCodeTotals(allRepos) {
   const outcomes = await ensureClones(allRepos, cacheDir, { token, owner: username, log });
   const cloned = outcomes.filter((o) => o.status.startsWith('cloned'));
   const cached = outcomes.filter((o) => o.status === 'cached');
+  const empty = outcomes.filter((o) => o.status === 'empty');
   const skipped = outcomes.filter((o) => o.status === 'skipped');
-  log(`clones: ${cloned.length} new, ${cached.length} cached, ${skipped.length} skipped`);
+  log(`clones: ${cloned.length} new, ${cached.length} cached, ${empty.length} empty, ${skipped.length} skipped`);
+  if (skipped.length) {
+    throw new Error(`code scan aborted: ${skipped.length} repositories could not be cloned (${skipped.map((o) => o.repo).join(', ')})`);
+  }
   const scans = [];
+  const scanErrors = [];
   const tasks = allRepos.map((repo) => async () => {
     try {
-      scans.push(await scanRepository(join(cacheDir, repo.name)));
+      scans.push({ repo: repo.name, ...await scanRepository(join(cacheDir, repo.name)) });
     } catch (error) {
-      log(`scan skip ${repo.name}: ${error.message}`);
+      scanErrors.push(`${repo.name}: ${error.message}`);
     }
   });
   await runPool(tasks, 10);
+  if (scanErrors.length) throw new Error(`code scan aborted: ${scanErrors.join('; ')}`);
   const aggregate = aggregateCodeMetrics(scans);
   return { aggregate, skipped };
 }
@@ -51,7 +57,7 @@ function summaryMarkdown(data) {
   const dist = data.languageDistribution;
   const topRows = data.topRepositories.map((r, i) => `| ${i + 1} | [${r.name}](${r.url}) | ${r.stars} | ${r.forks} | ${r.language} |`).join('\n');
   const langRows = dist.byBytes.map((x) => `| ${x.name} | ${x.repos} | ${x.bytes} | ${((x.bytes / (dist.totalBytes || 1)) * 100).toFixed(2)}% |`).join('\n');
-  const codeRows = code ? code.perLang.map((x) => `| ${x.name} | ${thousandSep(x.lines)} | ${thousandSep(x.chars)} | ${thousandSep(x.files)} |`).join('\n') : '| - | 0 | 0 | 0 |';
+  const codeRows = code ? code.perLang.map((x) => `| ${x.name} | ${thousandSep(x.codeLines)} | ${thousandSep(x.chars)} | ${thousandSep(x.files)} |`).join('\n') : '| - | 0 | 0 | 0 |';
   const frontRows = (data.frontendStack || []).map((x) => `| ${x.name} | ${x.count} |`).join('\n') || '| - | 0 |';
   const backRows = (data.backendStack || []).map((x) => `| ${x.name} | ${x.count} |`).join('\n') || '| - | 0 |';
   return `# Profile Metrics Summary
@@ -79,10 +85,12 @@ Generated: ${data.generatedAt}
 
 | Metric | Value |
 | --- | ---: |
-| Files scanned | ${code ? thousandSep(code.totals.files) : '0'} |
-| Total lines | ${code ? thousandSep(code.totals.lines) : '0'} |
-| Code lines (non-empty) | ${code ? thousandSep(code.totals.codeLines) : '0'} |
-| Total characters | ${code ? thousandSep(code.totals.chars) : '0'} |
+| Source files counted | ${code ? thousandSep(code.totals.files) : '0'} |
+| Tracked source candidates | ${code ? thousandSep(code.scannedFiles) : '0'} |
+| Excluded source candidates | ${code ? thousandSep(code.excludedFiles) : '0'} |
+| Source lines (physical) | ${code ? thousandSep(code.totals.lines) : '0'} |
+| Source lines (non-empty) | ${code ? thousandSep(code.totals.codeLines) : '0'} |
+| Source characters (Unicode) | ${code ? thousandSep(code.totals.chars) : '0'} |
 | Non-whitespace characters | ${code ? thousandSep(code.totals.nonWsChars) : '0'} |
 | Bytes scanned | ${code ? humanBytes(code.totals.bytes) : '0'} |
 
@@ -165,10 +173,10 @@ async function main() {
     const result = await collectCodeTotals(data.allRepos);
     codeTotals = result.aggregate;
     const t = codeTotals.totals;
-    log(`code totals: ${thousandSep(t.lines)} lines, ${thousandSep(t.chars)} chars, ${thousandSep(t.files)} files`);
+    log(`code totals: ${thousandSep(t.codeLines)} source lines, ${thousandSep(t.lines)} physical lines, ${thousandSep(t.chars)} Unicode characters, ${thousandSep(t.files)} files`);
     const perLangTop = codeTotals.perLang.slice(0, 5).map((x) => x.name).join(', ');
     const badge = codeTotalsBadgeSvg({
-      totalLines: t.lines,
+      totalLines: t.codeLines,
       totalChars: t.chars,
       repoCount: data.publicRepos,
       files: t.files,
@@ -176,8 +184,8 @@ async function main() {
       perLangTop
     });
     await writeFile('generated/code-totals.svg', badge);
-    await writeBadge('total-lines', 'lines of code', compact(t.lines), '667eea');
-    await writeBadge('total-chars', 'code characters', compact(t.chars), 'f59e0b');
+    await writeBadge('total-lines', 'source lines', compact(t.codeLines), '667eea');
+    await writeBadge('total-chars', 'source characters', compact(t.chars), 'f59e0b');
     await writeBadge('code-files', 'code files', compact(t.files), '06b6d4');
   }
   const distribution = data.languageDistribution;
@@ -308,6 +316,10 @@ async function main() {
     codeTotals: codeTotals
       ? {
           totals: codeTotals.totals,
+          scannedFiles: codeTotals.scannedFiles,
+          excludedFiles: codeTotals.excludedFiles,
+          exclusionSamples: codeTotals.exclusionSamples,
+          policy: codeTotals.policy,
           perLang: codeTotals.perLang
         }
       : null,

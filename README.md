@@ -82,17 +82,17 @@ I build practical projects while learning: web apps, bot systems, Linux/VPS tool
 
 <div align="center">
 
-<img width="100%" src="https://raw.githubusercontent.com/akaanakbaik/akaanakbaik/main/generated/code-totals.svg" alt="Total scanned code lines and characters" />
+<img width="100%" src="https://raw.githubusercontent.com/akaanakbaik/akaanakbaik/main/generated/code-totals.svg" alt="Tracked source lines and Unicode characters" />
 
 <br />
 
-<a href="https://github.com/akaanakbaik"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaanakbaik%2Fakaanakbaik%2Fmain%2Fbadges%2Ftotal-lines.json&cacheSeconds=300&style=flat-square&logo=githubactions&logoColor=white" alt="Total lines of code" /></a>
-<a href="https://github.com/akaanakbaik"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaanakbaik%2Fakaanakbaik%2Fmain%2Fbadges%2Ftotal-chars.json&cacheSeconds=300&style=flat-square&logo=githubactions&logoColor=white" alt="Total code characters" /></a>
+<a href="https://github.com/akaanakbaik"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaanakbaik%2Fakaanakbaik%2Fmain%2Fbadges%2Ftotal-lines.json&cacheSeconds=300&style=flat-square&logo=githubactions&logoColor=white" alt="Tracked source lines" /></a>
+<a href="https://github.com/akaanakbaik"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaanakbaik%2Fakaanakbaik%2Fmain%2Fbadges%2Ftotal-chars.json&cacheSeconds=300&style=flat-square&logo=githubactions&logoColor=white" alt="Tracked source characters" /></a>
 <a href="https://github.com/akaanakbaik"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaanakbaik%2Fakaanakbaik%2Fmain%2Fbadges%2Frepo-size.json&cacheSeconds=300&style=flat-square&logo=databricks&logoColor=white" alt="Repository size" /></a>
 
 </div>
 
-> The code census clones each public repository shallowly, excludes dependency/build/binary directories, and counts readable source files physically. A failed clone is recorded rather than silently represented as zero.
+> The code census uses each repository's tracked Git files, counts source extensions only, excludes docs/data/dependencies/build output/binaries/symlinks, measures non-empty source lines for the badge, and counts Unicode characters consistently. A failed clone aborts publication instead of creating a partial total.
 
 ---
 

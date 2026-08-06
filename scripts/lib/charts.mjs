@@ -251,8 +251,8 @@ export function codeTotalsBadgeSvg({ totalLines, totalChars, repoCount, files, g
   const digitsC = charsStr.length;
   const fontL = clamp(Math.floor(Math.min(54, (blockW - 22) / (digitsL * 0.58))), 22, 54);
   const fontC = clamp(Math.floor(Math.min(48, (blockW - 22) / (digitsC * 0.58))), 20, 48);
-  const labelL = 'TOTAL LINES OF CODE';
-  const labelC = 'TOTAL CHARACTERS';
+  const labelL = 'SOURCE LINES (NON-EMPTY)';
+  const labelC = 'SOURCE CHARACTERS (UNICODE)';
   const cap = `SCANNED ${repoCount} REPOSITORIES · ${compact(files)} FILES · ${generatedAt}`;
   const capChars = cap.length;
   const capFont = clamp(Math.floor((width - 40) / (capChars * 0.62)), 8, 10);
@@ -995,7 +995,7 @@ export function manifestLine(data) {
     `stars=${data.totalStars}`,
     `forks=${data.totalForks}`,
     `followers=${data.followers}`,
-    `codeLines=${data.codeTotals ? data.codeTotals.totals.lines : 0}`,
+    `sourceLines=${data.codeTotals ? data.codeTotals.totals.codeLines : 0}`,
     `codeChars=${data.codeTotals ? data.codeTotals.totals.chars : 0}`,
     `languages=${data.languageDistribution ? data.languageDistribution.languagesCount : 0}`,
     `entropy=${data.languageDistribution ? data.languageDistribution.entropy.toFixed(2) : 0}`,

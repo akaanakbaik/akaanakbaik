@@ -16,24 +16,27 @@ async function main() {
   const outcomes = await ensureClones(allRepos, cacheDir, { token, owner: username, log });
   const cloned = outcomes.filter((o) => o.status.startsWith('cloned'));
   const cached = outcomes.filter((o) => o.status === 'cached');
+  const empty = outcomes.filter((o) => o.status === 'empty');
   const skipped = outcomes.filter((o) => o.status === 'skipped');
-  log(`clones: ${cloned.length} new, ${cached.length} cached, ${skipped.length} skipped`);
+  log(`clones: ${cloned.length} new, ${cached.length} cached, ${empty.length} empty, ${skipped.length} skipped`);
+  if (skipped.length) throw new Error(`code scan aborted: ${skipped.length} repositories could not be cloned`);
   const scans = [];
+  const scanErrors = [];
   const scanTasks = allRepos.map((repo) => async () => {
     const dir = join(cacheDir, repo.name);
     try {
-      const scan = await scanRepository(dir);
-      scans.push(scan);
+      scans.push({ repo: repo.name, ...await scanRepository(dir) });
     } catch (error) {
-      log(`scan skip ${repo.name}: ${error.message}`);
+      scanErrors.push(`${repo.name}: ${error.message}`);
     }
   });
   await runPool(scanTasks, 10);
+  if (scanErrors.length) throw new Error(`code scan aborted: ${scanErrors.join('; ')}`);
   const aggregate = aggregateCodeMetrics(scans);
   const totals = aggregate.totals;
   const perLangTop = aggregate.perLang.slice(0, 5).map((x) => x.name).join(', ');
   const badge = codeTotalsBadgeSvg({
-    totalLines: totals.lines,
+    totalLines: totals.codeLines,
     totalChars: totals.chars,
     repoCount: allRepos.length,
     files: totals.files,
@@ -45,11 +48,11 @@ async function main() {
   await mkdir('stats', { recursive: true });
   await writeFile(
     'badges/total-lines.json',
-    JSON.stringify({ schemaVersion: 1, label: 'lines of code', message: compact(totals.lines), color: '667eea' }, null, 2) + '\n'
+    JSON.stringify({ schemaVersion: 1, label: 'source lines', message: compact(totals.codeLines), color: '667eea' }, null, 2) + '\n'
   );
   await writeFile(
     'badges/total-chars.json',
-    JSON.stringify({ schemaVersion: 1, label: 'code characters', message: compact(totals.chars), color: 'f59e0b' }, null, 2) + '\n'
+    JSON.stringify({ schemaVersion: 1, label: 'source characters', message: compact(totals.chars), color: 'f59e0b' }, null, 2) + '\n'
   );
   await writeFile('generated/code-totals.svg', badge);
   const snapshot = {
@@ -57,16 +60,23 @@ async function main() {
     generatedAt: dateStamp(),
     reposScanned: allRepos.length,
     skippedRepos: skipped.map((o) => o.repo),
+    emptyRepos: empty.map((o) => o.repo),
     files: totals.files,
     lines: totals.lines,
-    codeLines: totals.codeLines,
     chars: totals.chars,
-    nonWhitespaceChars: totals.nonWsChars,
+    physicalLines: totals.lines,
+    sourceLines: totals.codeLines,
+    unicodeCharacters: totals.chars,
+    nonWhitespaceCharacters: totals.nonWsChars,
+    scannedFiles: aggregate.scannedFiles,
+    excludedFiles: aggregate.excludedFiles,
+    exclusionSamples: aggregate.exclusionSamples,
     bytes: totals.bytes,
+    policy: 'tracked source files only; UTF-8 Unicode characters; generated/vendor/docs/data excluded',
     perLanguage: aggregate.perLang
   };
   await writeFile('stats/code-totals.json', JSON.stringify(snapshot, null, 2) + '\n');
-  log(`lines=${thousandSep(totals.lines)} chars=${thousandSep(totals.chars)} files=${thousandSep(totals.files)} langs=${aggregate.perLang.length}`);
+  log(`sourceLines=${thousandSep(totals.codeLines)} physicalLines=${thousandSep(totals.lines)} unicodeChars=${thousandSep(totals.chars)} files=${thousandSep(totals.files)} langs=${aggregate.perLang.length}`);
 }
 
 main().catch((error) => {

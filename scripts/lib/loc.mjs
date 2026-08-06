@@ -1,6 +1,6 @@
 import { execFile } from 'node:child_process';
 import { promisify } from 'node:util';
-import { mkdir, readFile, readdir, stat, writeFile, rm } from 'node:fs/promises';
+import { mkdir, readFile, lstat, writeFile, rm } from 'node:fs/promises';
 import { existsSync } from 'node:fs';
 import { join, extname } from 'node:path';
 import { runPool } from './engine.mjs';
@@ -32,6 +32,24 @@ const BINARY_EXT = new Set([
 ]);
 
 const MAX_FILE_BYTES = 4 * 1024 * 1024;
+
+const SOURCE_EXTENSIONS = new Set([
+  'js', 'jsx', 'mjs', 'cjs', 'ts', 'tsx', 'py', 'pyw', 'html', 'htm', 'css', 'scss', 'sass', 'less',
+  'sh', 'bash', 'zsh', 'ksh', 'fish', 'java', 'cpp', 'cxx', 'cc', 'hpp', 'hh', 'hxx', 'c', 'h',
+  'php', 'rb', 'go', 'rs', 'dart', 'vue', 'jl', 'r', 'scm', 'lisp', 'swift', 'kt', 'kts', 'scala',
+  'hs', 'lhs', 'ex', 'exs', 'erl', 'hrl', 'pl', 'pm', 'lua', 'zig', 'nim', 'v', 'fs', 'fsx', 'fsi',
+  'ml', 'mli', 'clj', 'cljs', 'cljc', 'groovy', 'gvy', 'cs', 'vb', 'f90', 'f95', 'f03', 'f', 'for',
+  'sol', 'cr', 'coffee', 'elm', 'pas', 'pp', 'd', 'asm', 's', 'nasm', 'm', 'mm', 'proto', 'ps1',
+  'psm1', 'psd1', 'bat', 'cmd', 'sql', 'graphql', 'gql', 'pug', 'jade', 'ejs', 'hbs', 'handlebars',
+  'mustache', 'twig', 'njk', 'tcl', 'tk', 'awk', 'sed', 'ahk', 'raku', 'rakumod', 'p6', 'idr',
+  'qml', 'gd', 'gdscript', 'vhd', 'vhdl', 'sv', 'svh', 'coq', 'agda', 'lean', 'purescript', 'purs',
+  'reason', 'res', 'resi', 'glsl', 'vs', 'hlsl', 'wgsl', 'matlab', 'm4', 'nix', 'guile', 'cl', 'bqn',
+  'forth', 'fth', 'apl', 'dyalog', 'ceylon', 'e', 'eiffel', 'mercury', 'prolog'
+]);
+
+const SOURCE_FILENAMES = new Set([
+  'dockerfile', 'makefile', 'gnumakefile', 'cmakelists.txt', 'rakefile', 'gemfile', 'vagrantfile'
+]);
 
 const EXT_LANG = {
   js: 'JavaScript', jsx: 'JavaScript', mjs: 'JavaScript', cjs: 'JavaScript', ts: 'TypeScript',
@@ -91,84 +109,106 @@ function isBinary(buffer) {
   return false;
 }
 
+function isSourceFile(relativePath) {
+  const name = relativePath.split('/').at(-1).toLowerCase();
+  if (SOURCE_FILENAMES.has(name)) return true;
+  const ext = extname(name).slice(1);
+  return SOURCE_EXTENSIONS.has(ext);
+}
+
 function countText(buffer) {
   const text = buffer.toString('utf8');
-  const totalChars = text.length;
+  const chars = Array.from(text).length;
   let nonWhitespace = 0;
-  for (let i = 0; i < totalChars; i++) {
-    const c = text.charCodeAt(i);
-    if (c !== 32 && c !== 9 && c !== 10 && c !== 13 && c !== 11 && c !== 12) nonWhitespace += 1;
+  for (const character of text) {
+    if (!/\s/u.test(character)) nonWhitespace += 1;
   }
-  const body = text.endsWith('\n') ? text.slice(0, -1) : text;
-  const lines = body.split('\n');
-  let codeLines = 0;
-  for (const line of lines) {
-    if (line.trim().length > 0) codeLines += 1;
-  }
-  return { lines: lines.length, codeLines, chars: totalChars, nonWsChars: nonWhitespace };
+  const normalized = text.replace(/\r\n?/g, '\n');
+  const body = normalized.endsWith('\n') ? normalized.slice(0, -1) : normalized;
+  const lines = body.length === 0 ? 0 : body.split('\n').length;
+  const codeLines = body === '' ? 0 : body.split('\n').filter((line) => line.trim().length > 0).length;
+  return { lines, codeLines, chars, nonWsChars: nonWhitespace };
+}
+
+async function trackedSourceFiles(root) {
+  const result = await exec('git', ['-C', root, 'ls-files', '-z', '--cached'], { timeout: 30000, maxBuffer: 1024 * 1024 * 16 });
+  return String(result.stdout)
+    .split('\0')
+    .filter(Boolean)
+    .filter((relativePath) => !isSkippedPath(relativePath))
+    .filter((relativePath) => !relativePath.split('/').some((part) => SKIP_DIRS.has(part)))
+    .filter(isSourceFile);
 }
 
 export async function scanRepository(root) {
   const totals = { files: 0, lines: 0, codeLines: 0, chars: 0, nonWsChars: 0, bytes: 0 };
   const perLang = new Map();
-  const stack = [root];
-  while (stack.length) {
-    const dir = stack.pop();
-    let entries;
+  const files = await trackedSourceFiles(root);
+  const exclusions = [];
+  const exclude = (relativePath, reason) => exclusions.push({ path: relativePath, reason });
+  for (const relativePath of files) {
+    const full = join(root, relativePath);
+    let fileStat;
     try {
-      entries = await readdir(dir, { withFileTypes: true });
+      fileStat = await lstat(full);
     } catch {
+      exclude(relativePath, 'stat-failed');
       continue;
     }
-    for (const entry of entries) {
-      const full = join(dir, entry.name);
-      if (entry.isDirectory()) {
-        if (SKIP_DIRS.has(entry.name) || entry.name.startsWith('.')) continue;
-        stack.push(full);
-        continue;
-      }
-      if (!entry.isFile()) continue;
-      const name = entry.name;
-      const ext = extname(name).toLowerCase().slice(1);
-      if (SKIP_FILES.has(name)) continue;
-      if (BINARY_EXT.has(ext)) continue;
-      if (isSkippedPath(full.replace(root, ''))) continue;
-      let fileStat;
-      try {
-        fileStat = await stat(full);
-      } catch {
-        continue;
-      }
-      if (fileStat.size === 0 || fileStat.size > MAX_FILE_BYTES) continue;
-      let buffer;
-      try {
-        buffer = await readFile(full);
-      } catch {
-        continue;
-      }
-      if (isBinary(buffer)) continue;
-      const counted = countText(buffer);
-      totals.files += 1;
-      totals.lines += counted.lines;
-      totals.codeLines += counted.codeLines;
-      totals.chars += counted.chars;
-      totals.nonWsChars += counted.nonWsChars;
-      totals.bytes += fileStat.size;
-      const lang = EXT_LANG[ext] || 'Unknown';
-      const bucket = perLang.get(lang) || { files: 0, lines: 0, codeLines: 0, chars: 0, bytes: 0 };
-      bucket.files += 1;
-      bucket.lines += counted.lines;
-      bucket.codeLines += counted.codeLines;
-      bucket.chars += counted.chars;
-      bucket.bytes += fileStat.size;
-      perLang.set(lang, bucket);
+    if (!fileStat.isFile()) {
+      exclude(relativePath, 'not-regular-file');
+      continue;
     }
+    if (fileStat.isSymbolicLink()) {
+      exclude(relativePath, 'symlink');
+      continue;
+    }
+    if (fileStat.size === 0) {
+      exclude(relativePath, 'empty-file');
+      continue;
+    }
+    if (fileStat.size > MAX_FILE_BYTES) {
+      exclude(relativePath, 'file-too-large');
+      continue;
+    }
+    let buffer;
+    try {
+      buffer = await readFile(full);
+    } catch {
+      exclude(relativePath, 'read-failed');
+      continue;
+    }
+    if (isBinary(buffer)) {
+      exclude(relativePath, 'binary-content');
+      continue;
+    }
+    const counted = countText(buffer);
+    totals.files += 1;
+    totals.lines += counted.lines;
+    totals.codeLines += counted.codeLines;
+    totals.chars += counted.chars;
+    totals.nonWsChars += counted.nonWsChars;
+    totals.bytes += fileStat.size;
+    const name = relativePath.split('/').at(-1).toLowerCase();
+    const ext = extname(name).slice(1);
+    const lang = EXT_LANG[ext] || EXT_LANG[name] || 'Unknown';
+    const bucket = perLang.get(lang) || { files: 0, lines: 0, codeLines: 0, chars: 0, bytes: 0 };
+    bucket.files += 1;
+    bucket.lines += counted.lines;
+    bucket.codeLines += counted.codeLines;
+    bucket.chars += counted.chars;
+    bucket.bytes += fileStat.size;
+    perLang.set(lang, bucket);
   }
   return {
     totals,
+    scannedFiles: files.length,
+    excludedFiles: exclusions.length,
+    exclusionSamples: exclusions.slice(0, 50),
+    policy: 'tracked source files only; UTF-8 Unicode characters; generated/vendor/docs/data excluded',
     perLang: [...perLang.entries()]
       .map(([name, value]) => ({ name, ...value }))
-      .sort((a, b) => b.lines - a.lines)
+      .sort((a, b) => b.codeLines - a.codeLines)
   };
 }
 
@@ -186,11 +226,21 @@ export async function ensureClones(repos, targetDir, { token = '', owner = 'akaa
   const tasks = repos.map((repo) => async () => {
     const dir = join(targetDir, repo.name);
     let head = null;
+    let lsRemoteFailed = false;
     try {
       const ls = await exec('git', ['ls-remote', `https://${auth}github.com/${owner}/${repo.name}.git`, 'HEAD'], { timeout: 30000 });
       head = String(ls.stdout).split(/\s+/)[0] || null;
     } catch {
-      head = null;
+      lsRemoteFailed = true;
+    }
+    if (!head && !lsRemoteFailed && repo.size === 0) {
+      if (existsSync(dir)) await rm(dir, { recursive: true, force: true });
+      await mkdir(dir, { recursive: true });
+      await exec('git', ['init', '--quiet', dir], { timeout: 30000 });
+      manifest[repo.name] = 'EMPTY';
+      outcomes.push({ repo: repo.name, status: 'empty', head: null });
+      log(`empty repository ${repo.name}`);
+      return;
     }
     if (head && manifest[repo.name] === head && existsSync(dir)) {
       outcomes.push({ repo: repo.name, status: 'cached', head });
@@ -220,6 +270,9 @@ export async function ensureClones(repos, targetDir, { token = '', owner = 'akaa
 
 export function aggregateCodeMetrics(repoScans) {
   const totals = { files: 0, lines: 0, codeLines: 0, chars: 0, nonWsChars: 0, bytes: 0 };
+  let scannedFiles = 0;
+  let excludedFiles = 0;
+  const exclusionSamples = [];
   const perLang = new Map();
   for (const scan of repoScans) {
     if (!scan) continue;
@@ -229,6 +282,9 @@ export function aggregateCodeMetrics(repoScans) {
     totals.chars += scan.totals.chars;
     totals.nonWsChars += scan.totals.nonWsChars;
     totals.bytes += scan.totals.bytes;
+    scannedFiles += scan.scannedFiles || 0;
+    excludedFiles += scan.excludedFiles || 0;
+    if (Array.isArray(scan.exclusionSamples)) exclusionSamples.push(...scan.exclusionSamples.slice(0, Math.max(0, 50 - exclusionSamples.length)));
     for (const lang of scan.perLang) {
       const bucket = perLang.get(lang.name) || { files: 0, lines: 0, codeLines: 0, chars: 0, bytes: 0 };
       bucket.files += lang.files;
@@ -241,9 +297,12 @@ export function aggregateCodeMetrics(repoScans) {
   }
   return {
     totals,
+    scannedFiles,
+    excludedFiles,
+    exclusionSamples,
     perLang: [...perLang.entries()]
       .map(([name, value]) => ({ name, ...value }))
-      .sort((a, b) => b.lines - a.lines)
+      .sort((a, b) => b.codeLines - a.codeLines)
   };
 }
 
