@@ -14,20 +14,42 @@ function normalizeUrl(url) {
 }
 
 async function checkUrl(url) {
-  const controller = new AbortController();
-  const timer = setTimeout(() => controller.abort(), timeoutMs);
-  try {
-    const response = await fetch(url, {
-      method: 'GET',
-      redirect: 'follow',
-      signal: controller.signal,
-      headers: { 'User-Agent': 'akaanakbaik-readme-health' }
-    });
-    if (!response.ok) throw new Error(`${response.status} ${response.statusText}`);
-    return `${response.status} ${response.url}`;
-  } finally {
-    clearTimeout(timer);
+  const retryable = new Set([408, 425, 429, 500, 502, 503, 504]);
+  for (let attempt = 0; attempt < 3; attempt += 1) {
+    const controller = new AbortController();
+    const timer = setTimeout(() => controller.abort(), timeoutMs);
+    let response;
+    let fetchError;
+    try {
+      response = await fetch(url, {
+        method: 'GET',
+        redirect: 'follow',
+        signal: controller.signal,
+        headers: { 'User-Agent': 'akaanakbaik-readme-health' }
+      });
+    } catch (error) {
+      fetchError = error;
+    } finally {
+      clearTimeout(timer);
+    }
+    if (fetchError) {
+      if (attempt === 2) throw fetchError;
+      await new Promise((resolve) => setTimeout(resolve, 1000 * (attempt + 1)));
+      continue;
+    }
+    if (response.ok) return { status: response.status, url: response.url };
+    if (response.status === 429 && attempt === 2) {
+      return { status: response.status, url: response.url, warning: 'rate limited but reachable' };
+    }
+    if (!retryable.has(response.status)) {
+      throw new Error(`${response.status} ${response.statusText}`);
+    }
+    if (attempt === 2) {
+      throw new Error(`${response.status} ${response.statusText}`);
+    }
+    await new Promise((resolve) => setTimeout(resolve, 1000 * (attempt + 1)));
   }
+  throw new Error('URL check exhausted retries');
 }
 
 async function validateBadges() {
@@ -59,7 +81,11 @@ async function main() {
       const url = urls[index];
       try {
         const result = await checkUrl(url);
-        console.log(`OK ${result} ${url}`);
+        if (result.warning) {
+          console.warn(`WARN ${result.status} ${result.url} ${url}: ${result.warning}`);
+        } else {
+          console.log(`OK ${result.status} ${result.url} ${url}`);
+        }
       } catch (error) {
         failures.push(`${url}: ${error.message}`);
       }
