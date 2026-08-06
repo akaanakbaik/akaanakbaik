@@ -1,6 +1,6 @@
 # Profile Metrics Summary
 
-Generated: 07 Aug 2026, 05:48
+Generated: 07 Aug 2026, 06:20
 
 ## Account
 
@@ -23,58 +23,52 @@ Generated: 07 Aug 2026, 05:48
 
 | Metric | Value |
 | --- | ---: |
-| Files scanned | 8,070 |
-| Total lines | 1,372,347 |
-| Code lines (non-empty) | 1,236,754 |
-| Total characters | 50,027,344 |
-| Non-whitespace characters | 38,165,136 |
-| Bytes scanned | 47.84 MB |
+| Source files counted | 6,406 |
+| Tracked source candidates | 6,433 |
+| Excluded source candidates | 27 |
+| Source lines (physical) | 1,052,065 |
+| Source lines (non-empty) | 945,990 |
+| Source characters (Unicode) | 38,810,008 |
+| Non-whitespace characters | 28,421,465 |
+| Bytes scanned | 37.12 MB |
 
 ## Lines of Code per Language
 
 | Language | Lines | Chars | Files |
 | --- | ---: | ---: | ---: |
-| TypeScript | 398,599 | 14,805,524 | 2,778 |
-| JavaScript | 292,548 | 11,769,357 | 966 |
-| Python | 146,439 | 5,809,165 | 922 |
-| Text | 139,196 | 1,816,678 | 71 |
-| Markdown | 75,953 | 1,962,822 | 395 |
-| CSS | 59,470 | 1,596,249 | 100 |
-| JSON | 44,680 | 1,522,252 | 291 |
-| C++ | 44,165 | 1,106,349 | 657 |
-| XML | 34,151 | 2,872,596 | 509 |
-| Java | 30,391 | 937,967 | 413 |
-| HTML | 24,170 | 1,092,222 | 133 |
-| Unknown | 21,987 | 1,681,902 | 330 |
-| C | 18,320 | 452,275 | 164 |
-| Dart | 9,662 | 335,021 | 58 |
-| Shell | 7,730 | 252,146 | 64 |
-| Protocol Buffer | 6,716 | 214,771 | 3 |
-| Rust | 5,609 | 197,336 | 23 |
-| Go | 4,602 | 121,409 | 25 |
-| Jupyter Notebook | 2,001 | 1,077,015 | 4 |
-| SVG | 1,995 | 280,547 | 48 |
-| YAML | 1,488 | 45,317 | 17 |
-| PHP | 827 | 27,465 | 13 |
-| Batchfile | 446 | 11,708 | 6 |
-| SQL | 324 | 13,142 | 25 |
-| INI | 141 | 5,341 | 11 |
-| Kotlin | 136 | 3,348 | 8 |
-| PowerShell | 136 | 4,999 | 1 |
-| C# | 113 | 3,555 | 3 |
-| TOML | 95 | 2,187 | 3 |
-| Swift | 90 | 2,515 | 8 |
-| CMake | 50 | 1,590 | 2 |
-| Assembly | 45 | 1,130 | 2 |
-| Elixir | 12 | 192 | 2 |
-| V | 9 | 297 | 1 |
-| Scala | 8 | 142 | 1 |
-| Zig | 8 | 133 | 1 |
-| Erlang | 6 | 100 | 1 |
-| Lua | 6 | 110 | 2 |
-| Haskell | 5 | 110 | 2 |
-| Perl | 5 | 83 | 1 |
-| Ruby | 5 | 83 | 2 |
+| TypeScript | 356,967 | 14,805,135 | 2,778 |
+| JavaScript | 274,255 | 11,785,974 | 970 |
+| Python | 124,748 | 5,808,906 | 922 |
+| CSS | 55,689 | 1,596,249 | 100 |
+| C++ | 37,192 | 1,106,284 | 657 |
+| Java | 25,714 | 937,878 | 413 |
+| HTML | 22,221 | 1,092,123 | 133 |
+| C | 15,682 | 452,275 | 164 |
+| Dart | 8,916 | 335,021 | 58 |
+| Shell | 6,939 | 256,303 | 65 |
+| Protocol Buffer | 6,088 | 214,771 | 3 |
+| Rust | 4,888 | 197,303 | 23 |
+| Go | 4,094 | 121,397 | 25 |
+| PHP | 685 | 27,465 | 13 |
+| Text | 425 | 18,241 | 6 |
+| Batchfile | 348 | 11,699 | 6 |
+| Dockerfile | 323 | 12,253 | 5 |
+| SQL | 291 | 13,142 | 25 |
+| PowerShell | 118 | 4,999 | 1 |
+| Kotlin | 115 | 3,348 | 8 |
+| C# | 97 | 3,555 | 3 |
+| Swift | 74 | 2,515 | 8 |
+| Assembly | 36 | 1,130 | 2 |
+| Unknown | 24 | 598 | 1 |
+| Elixir | 10 | 192 | 2 |
+| V | 8 | 297 | 1 |
+| Scala | 7 | 142 | 1 |
+| Zig | 6 | 133 | 1 |
+| Erlang | 5 | 100 | 1 |
+| Lua | 5 | 110 | 2 |
+| Haskell | 4 | 110 | 2 |
+| Perl | 4 | 83 | 1 |
+| Ruby | 4 | 83 | 2 |
 | F# | 2 | 48 | 1 |
 | Julia | 2 | 51 | 1 |
 | Objective-C | 2 | 50 | 1 |
@@ -87,12 +81,12 @@ Generated: 07 Aug 2026, 05:48
 | Distinct languages | 41 |
 | Shannon entropy | 2.248 bits (max 5.358) |
 | Redundancy | 58.0% |
-| Herfindahl-Hirschman Index | 3133.1 (×10⁴) |
+| Herfindahl-Hirschman Index | 3133.4 (×10⁴) |
 | Gini coefficient | 0.9093 |
 | CR₃ concentration | 84.87% |
 | CR₅ concentration | 90.54% |
 | Pareto 80% coverage | top 3 of 41 languages |
-| Top language share | 48.93% |
+| Top language share | 48.94% |
 | Geometric mean bytes | 4.9K |
 | Coefficient of variation | 3.442 |
 
@@ -112,15 +106,15 @@ Generated: 07 Aug 2026, 05:48
 | Peak coding hour | 22:00 WIB |
 | Circular mean hour | 20.0:00 |
 | Busiest weekday | Sat |
-| Commits sampled | 2,784 |
+| Commits sampled | 2,783 |
 
 ## Language Bytes
 
 | Language | Repos | Bytes | Share |
 | --- | ---: | ---: | ---: |
-| JavaScript | 70 | 23439241 | 48.93% |
+| JavaScript | 70 | 23443892 | 48.94% |
 | TypeScript | 30 | 11242766 | 23.47% |
-| Python | 12 | 5970901 | 12.47% |
+| Python | 12 | 5970901 | 12.46% |
 | CSS | 51 | 1602416 | 3.35% |
 | C++ | 9 | 1114294 | 2.33% |
 | Jupyter Notebook | 1 | 1077015 | 2.25% |
