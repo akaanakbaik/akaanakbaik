@@ -29,7 +29,15 @@ async function main() {
 
   const totalStars = allRepos.reduce((a, r) => a + (r.stargazers_count || 0), 0);
   const totalForks = allRepos.reduce((a, r) => a + (r.forks_count || 0), 0);
-  const totalWatchers = allRepos.reduce((a, r) => a + (r.watchers_count || 0), 0);
+  const subscriberCounts = await Promise.all(allRepos.map(async (repo) => {
+    try {
+      const full = await client.request(`/repos/${username}/${encodeURIComponent(repo.name)}`);
+      return full && full.subscribers_count ? full.subscribers_count : 0;
+    } catch {
+      return 0;
+    }
+  }));
+  const totalWatchers = subscriberCounts.reduce((a, count) => a + count, 0);
   const totalSizeKb = allRepos.reduce((a, r) => a + (r.size || 0), 0);
   const sizeMb = (totalSizeKb / 1024).toFixed(1);
   const langs = new Map();
@@ -44,14 +52,10 @@ async function main() {
   console.log('=== BADGE vs GROUND TRUTH ===');
   line('public-repos', await readBadge('public-repos'), allRepos.length, ' repos');
   line('followers', await readBadge('followers'), user.followers, '');
-  line('following', await readBadge('following'), user.following, '');
-  line('public-gists', await readBadge('public-gists'), user.public_gists, '');
   line('total-stars', await readBadge('total-stars'), compact(totalStars), '');
   line('total-forks', await readBadge('total-forks'), compact(totalForks), '');
   line('total-watchers', await readBadge('total-watchers'), compact(totalWatchers), '');
   line('repo-size', await readBadge('repo-size'), `${sizeMb} MB`, '');
-  line('account-age', await readBadge('account-age'), ageOld, '');
-  line('coding-age', await readBadge('coding-age'), age.label, '');
   line('top-language', await readBadge('top-language'), topLang ? topLang[0] : 'none', '');
 
   console.log('');

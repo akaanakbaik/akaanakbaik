@@ -5,13 +5,10 @@ import { fetchProfileData } from './lib/collect.mjs';
 import { ensureClones, scanRepository, aggregateCodeMetrics } from './lib/loc.mjs';
 import { fetchUserActivity, computeStreak, fetchCommitTimestamps, fetchTopReposRanking } from './lib/activity.mjs';
 import {
-  githubStatsSvg,
-  topLangsSvg,
   topReposSvg,
   cloudSvg,
   langDonutSvg,
   langParetoSvg,
-  langRadarSvg,
   codeTotalsBadgeSvg,
   statsGridSvg,
   streakSvg,
@@ -157,6 +154,9 @@ ${backRows}
 
 async function main() {
   const log = (msg) => console.log(`[metrics] ${msg}`);
+  await mkdir('badges', { recursive: true });
+  await mkdir('stats', { recursive: true });
+  await mkdir('generated', { recursive: true });
   log(`starting profile metrics for ${username}${skipCodeTotals ? ' (skipping code totals)' : ''}`);
   const data = await fetchProfileData({ username, token, log });
   let codeTotals = null;
@@ -206,12 +206,8 @@ async function main() {
     await writeFile('generated/coding-rhythm.svg', codingRhythmSvg({ rhythm, hourCounts: commitHours.hourCounts, peakHour: commitHours.peakHour, sampled: commitHours.sampled, circularMean: commitHours.circularMean, circularStd: commitHours.circularStd, activeHours: commitHours.activeHours }));
     await writeBadge('streak-days', 'current streak', `${streak.currentStreak} days`, 'f59e0b');
     await writeBadge('total-commits', 'commits (365d)', compact(activity.totalCommitContributions), '2563eb');
-    await writeBadge('total-prs', 'pull requests', compact(activity.pullRequests), '16a34a');
     await writeBadge('last-active', 'last active', lastActiveIso ? relativeTime(lastActiveIso) : 'unknown', '06b6d4');
     await writeBadge('peak-hour', 'peak coding hour', `${commitHours.peakHour}:00 WIB`, 'db2777');
-    await writeBadge('coding-rhythm', 'coding rhythm', rhythm.label, 'a78bfa');
-    await writeBadge('top-repo', 'top repo', topRanked[0] ? topRanked[0].name : 'none', 'fbbf24');
-    await writeBadge('top-repo-score', 'top repo score', topRanked[0] ? topRanked[0].scorePct.toFixed(1) : '0', 'fbbf24');
   } catch (error) {
     log(`activity collection skipped: ${error.message}`);
   }
@@ -261,26 +257,14 @@ async function main() {
     repos: data.publicRepos,
     commits: activitySafe.totalCommitContributions
   }));
-  await writeBadge('coding-age', 'coding on GitHub', codingAge.label, '16a34a');
   await writeBadge('language-count', 'languages', compact(distribution.languagesCount), 'a855f7');
-  await mkdir('badges', { recursive: true });
-  await mkdir('stats', { recursive: true });
-  await mkdir('generated', { recursive: true });
-  await writeBadge('public-repos', 'public repos', compact(data.publicRepos), '667eea');
-  await writeBadge('original-repos', 'original repos', compact(data.originalRepos), '764ba2');
-  await writeBadge('forked-repos', 'forked repos', compact(data.forkedRepos), '111827');
   await writeBadge('followers', 'followers', compact(data.followers), '2563eb');
-  await writeBadge('following', 'following', compact(data.following), '06b6d4');
-  await writeBadge('public-gists', 'public gists', compact(data.publicGists), '16a34a');
   await writeBadge('total-stars', 'total stars', compact(data.totalStars), 'f59e0b');
   await writeBadge('total-forks', 'total forks', compact(data.totalForks), '16a34a');
   await writeBadge('total-watchers', 'watchers (subscribers)', compact(data.totalWatchers), 'db2777');
   await writeBadge('repo-size', 'repo size', data.totalSize, '06b6d4');
   await writeBadge('top-language', 'top language', data.topLanguage, 'a855f7');
-  if (topRanked.length === 0) await writeBadge('top-repo', 'top repo', data.topRepo, '764ba2');
-  await writeBadge('recent-repo', 'recent repo', data.recentRepo, '667eea');
-  await writeBadge('account-age', 'account age', data.accountAgePrecise || data.accountAge, '16a34a');
-  await writeBadge('last-updated', 'updated', data.generatedAt, 'ef4444');
+  await writeBadge('public-repos', 'public repos', compact(data.publicRepos), '667eea');
   const payload = {
     username,
     generatedAt: data.generatedAt,
@@ -370,14 +354,10 @@ async function main() {
   };
   await writeFile('stats/profile-summary.json', JSON.stringify(payload, null, 2) + '\n');
   await writeFile('stats/profile-summary.md', summaryMarkdown(payload));
-  await writeFile('generated/github-stats.svg', githubStatsSvg(payload));
   await writeFile('generated/stats-grid.svg', statsGridSvg(payload));
-  await writeFile('generated/profile-dashboard.svg', githubStatsSvg(payload));
-  await writeFile('generated/top-langs.svg', topLangsSvg({ byBytes: distribution.byBytes }));
   await writeFile('generated/top-repos.svg', topReposSvg(topRanked.length ? topRanked : data.topRepositories));
   await writeFile('generated/lang-donut.svg', langDonutSvg({ ...distribution, repoCount: data.publicRepos }));
   await writeFile('generated/lang-pareto.svg', langParetoSvg({ ...distribution, repoCount: data.publicRepos }));
-  await writeFile('generated/lang-radar.svg', langRadarSvg({ ...distribution, repoCount: data.publicRepos }));
   await writeFile(
     'generated/stack-languages.svg',
     cloudSvg(

@@ -5,17 +5,16 @@ on:
     branches:
       - main
     paths-ignore:
-      - 'badges/**'
-      - 'stats/**'
-      - 'generated/**'
-      - 'github-metrics.svg'
+      - badges/**
+      - stats/**
+      - generated/**
   schedule:
-    - cron: '0 0 */4 * *'
+    - cron: '0 */4 * * *'
   workflow_dispatch:
 
 concurrency:
-  group: profile-metrics
-  cancel-in-progress: true
+  group: generated-assets-main
+  cancel-in-progress: false
 
 permissions:
   contents: write
@@ -23,10 +22,12 @@ permissions:
 jobs:
   generate:
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    timeout-minutes: 60
     steps:
       - name: Checkout
         uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
 
       - name: Setup Node.js
         uses: actions/setup-node@v5
@@ -37,29 +38,58 @@ jobs:
         uses: actions/cache@v5
         with:
           path: .cache/repos
-          key: code-repos-${{ hashFiles('scripts/**') }}
+          key: code-repositories-${{ runner.os }}-${{ hashFiles('scripts/**') }}
           restore-keys: |
-            code-repos-
+            code-repositories-${{ runner.os }}-
 
-      - name: Generate profile metrics, code totals and language charts
+      - name: Generate authoritative profile metrics
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PROFILE_USERNAME: akaanakbaik
         run: node scripts/generate-profile-metrics.mjs
 
-      - name: Commit and push generated metrics
+      - name: Refresh clock, social badges and motivation
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PROFILE_USERNAME: akaanakbaik
+        run: node scripts/live-clock.mjs
+
+      - name: Refresh featured repository cards
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PROFILE_USERNAME: akaanakbaik
+          PINNED_REPOS: portofoliov2,dastermv2,musika
+        run: node scripts/pinned-repos.mjs
+
+      - name: Refresh rolling 30-day summary and badges
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PROFILE_USERNAME: akaanakbaik
+        run: node scripts/monthly-summary.mjs
+
+      - name: Validate generated badge data and README links
+        run: node scripts/validate-readme.mjs
+
+      - name: Commit one consistent snapshot
+        shell: bash
         run: |
+          set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add badges stats generated
-          if git diff --cached --quiet; then echo "No changes to commit"; exit 0; fi
-          git commit -m "chore(metrics): auto-update profile metrics, code totals, language charts and badges"
-          for i in 1 2 3 4 5; do
-            if git pull --rebase origin main --quiet && git push --quiet; then
-              echo "Pushed generated metrics"
+          if git diff --cached --quiet; then
+            echo "No generated changes"
+            exit 0
+          fi
+          git commit -m "chore(metrics): refresh profile snapshot"
+          for attempt in 1 2 3 4 5; do
+            git fetch origin main
+            if git rebase origin/main && git push origin HEAD:main; then
+              echo "Published consistent metrics snapshot"
               exit 0
             fi
-            echo "Push rejected, retry $i/5..."
-            sleep 3
+            git rebase --abort 2>/dev/null || true
+            echo "Publication retry ${attempt}/5"
+            sleep $((attempt * 5))
           done
           exit 1

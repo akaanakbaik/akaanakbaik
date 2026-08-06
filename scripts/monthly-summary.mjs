@@ -17,15 +17,17 @@ function shortDate(isoStr) {
 
 async function fetchRepoCommits(client, username, repo, sinceIso, log) {
   try {
-    const ref = encodeURIComponent(repo.default_branch || 'main');
-    const commits = await client.request(`/repos/${username}/${encodeURIComponent(repo.name)}/commits?since=${sinceIso}&per_page=100`);
-    if (!Array.isArray(commits)) return { repo: repo.name, commits: [] };
     const owned = [];
-    for (const c of commits) {
-      if (c.author && c.author.login !== username) continue;
-      const date = c.commit && c.commit.author && c.commit.author.date;
-      if (!date) continue;
-      owned.push({ date, sha: c.sha, message: (c.commit.message || '').split('\n')[0] });
+    for (let page = 1; page <= 10; page += 1) {
+      const commits = await client.request(`/repos/${username}/${encodeURIComponent(repo.name)}/commits?since=${sinceIso}&per_page=100&page=${page}`);
+      if (!Array.isArray(commits) || commits.length === 0) break;
+      for (const c of commits) {
+        if (c.author && c.author.login !== username) continue;
+        const date = c.commit && c.commit.author && c.commit.author.date;
+        if (!date) continue;
+        owned.push({ date, sha: c.sha, message: (c.commit.message || '').split('\n')[0] });
+      }
+      if (commits.length < 100) break;
     }
     return { repo: repo.name, commits: owned };
   } catch (error) {

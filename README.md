@@ -1,38 +1,24 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:667eea,100:764ba2&height=155&section=header&text=AKA%20ANAK%20BAIK&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=34&desc=Student%20Developer%20%7C%20Web%20%2B%20Linux%20%2B%20AI&descAlignY=58&descSize=14" alt="Aka Anak Baik Header" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:667eea,100:764ba2&height=155&section=header&text=AKA%20ANAK%20BAIK&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=34&desc=Student%20Developer%20%7C%20Web%20%2B%20Linux%20%2B%20AI&descAlignY=58&descSize=14" alt="Aka Anak Baik header" />
 
 <a href="https://github.com/akaanakbaik">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=17&duration=2600&pause=700&color=667EEA&center=true&vCenter=true&width=680&lines=Hello%2C%20World!%20I'm%20Aka.;Building%20web%20apps%2C%20bots%2C%20Linux%20tools%2C%20and%20AI%20experiments.;Still%20water%2C%20flowing.%20%E2%80%94%20Air%20tenang%20menghanyutkan." alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=17&duration=2600&pause=700&color=667EEA&center=true&vCenter=true&width=680&lines=Hello%2C%20World!%20I'm%20Aka.;Building%20web%20apps%2C%20bots%2C%20Linux%20tools%2C%20and%20AI%20experiments.;Still%20water%2C%20flowing.%20%E2%80%94%20Air%20tenang%20menghanyutkan." alt="Typing introduction" />
 </a>
 
 <br />
 
-<p>
-  <img src="https://komarev.com/ghpvc/?username=akaanakbaik&label=views&color=667eea&style=flat-square" alt="Profile views" />
-  <a href="https://github.com/akaanakbaik?tab=followers"><img src="https://img.shields.io/github/followers/akaanakbaik?label=followers&style=flat-square&color=764ba2&logo=github" alt="Followers" /></a>
-  <a href="https://github.com/akaanakbaik/akaanakbaik/actions/workflows/profile-metrics.yml"><img src="https://img.shields.io/github/actions/workflow/status/akaanakbaik/akaanakbaik/profile-metrics.yml?branch=main&label=metrics&style=flat-square&logo=githubactions&color=16a34a" alt="Profile Metrics" /></a>
-  <a href="https://github.com/akaanakbaik/akaanakbaik/actions/workflows/snake.yml"><img src="https://img.shields.io/github/actions/workflow/status/akaanakbaik/akaanakbaik/snake.yml?branch=main&label=snake&style=flat-square&logo=githubactions&color=2563eb" alt="Snake" /></a>
-  <a href="https://github.com/akaanakbaik"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaanakbaik%2Fakaanakbaik%2Fmain%2Fbadges%2Ftotal-lines.json&style=flat-square&logo=githubactions&logoColor=white" alt="Total lines of code" /></a>
-  <a href="https://github.com/akaanakbaik"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaanakbaik%2Fakaanakbaik%2Fmain%2Fbadges%2Ftotal-chars.json&style=flat-square&logo=githubactions&logoColor=white" alt="Total code characters" /></a>
-  <a href="https://github.com/akaanakbaik"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaanakbaik%2Fakaanakbaik%2Fmain%2Fbadges%2Fstreak-days.json&style=flat-square&logo=githubactions&logoColor=white" alt="Current streak" /></a>
-  <a href="https://github.com/akaanakbaik"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaanakbaik%2Fakaanakbaik%2Fmain%2Fbadges%2Ftotal-commits.json&style=flat-square&logo=githubactions&logoColor=white" alt="Total commits" /></a>
-  <a href="https://github.com/akaanakbaik"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaanakbaik%2Fakaanakbaik%2Fmain%2Fbadges%2Fcoding-age.json&style=flat-square&logo=githubactions&logoColor=white" alt="Coding age" /></a>
-  <a href="https://github.com/akaanakbaik"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaanakbaik%2Fakaanakbaik%2Fmain%2Fbadges%2Fcoding-rhythm.json&style=flat-square&logo=githubactions&logoColor=white" alt="Coding rhythm" /></a>
-  <a href="https://github.com/akaanakbaik"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaanakbaik%2Fakaanakbaik%2Fmain%2Fbadges%2Ftop-repo-score.json&style=flat-square&logo=githubactions&logoColor=white" alt="Top repo score" /></a>
-</p>
+<a href="https://github.com/akaanakbaik?tab=followers"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaanakbaik%2Fakaanakbaik%2Fmain%2Fbadges%2Ffollowers.json&cacheSeconds=300&style=for-the-badge&logo=github&logoColor=white" alt="Followers" /></a>
+<a href="https://github.com/akaanakbaik"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaanakbaik%2Fakaanakbaik%2Fmain%2Fbadges%2Ftotal-stars.json&cacheSeconds=300&style=for-the-badge&logo=github&logoColor=white" alt="Total stars" /></a>
+<a href="https://github.com/akaanakbaik"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaanakbaik%2Fakaanakbaik%2Fmain%2Fbadges%2Fpublic-repos.json&cacheSeconds=300&style=for-the-badge&logo=github&logoColor=white" alt="Public repositories" /></a>
+<a href="https://github.com/akaanakbaik/akaanakbaik/actions/workflows/profile-metrics.yml"><img src="https://github.com/akaanakbaik/akaanakbaik/actions/workflows/profile-metrics.yml/badge.svg?branch=main" alt="Profile metrics workflow" /></a>
+<a href="https://github.com/akaanakbaik/akaanakbaik/actions/workflows/readme-health.yml"><img src="https://github.com/akaanakbaik/akaanakbaik/actions/workflows/readme-health.yml/badge.svg?branch=main" alt="README health workflow" /></a>
 
-<p>
-  <a href="https://github.com/akaanakbaik/akaanakbaik/actions/workflows/live-clock.yml"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaanakbaik%2Fakaanakbaik%2Fmain%2Fbadges%2Flive-time.json&style=flat-square&logo=clockify&logoColor=white" alt="Live Jakarta time" /></a>
-  <a href="https://github.com/akaanakbaik/akaanakbaik/actions/workflows/live-clock.yml"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaanakbaik%2Fakaanakbaik%2Fmain%2Fbadges%2Flive-date.json&style=flat-square" alt="Live Jakarta date" /></a>
-</p>
+<br />
 
-<p>
-  <a href="https://t.me/akamodebaik"><img src="https://img.shields.io/badge/telegram-2CA5E0?style=flat-square&logo=telegram&logoColor=white" alt="Telegram" /></a>
-  <a href="https://www.instagram.com/kenal.aka"><img src="https://img.shields.io/badge/instagram-E4405F?style=flat-square&logo=instagram&logoColor=white" alt="Instagram" /></a>
-  <a href="https://www.tiktok.com/@kenal_aka"><img src="https://img.shields.io/badge/tiktok-000000?style=flat-square&logo=tiktok&logoColor=white" alt="TikTok" /></a>
-  <a href="mailto:furinabyaka@gmail.com"><img src="https://img.shields.io/badge/gmail-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Gmail" /></a>
-</p>
+<a href="https://t.me/akamodebaik"><img src="https://img.shields.io/badge/Telegram-2CA5E0?style=flat-square&logo=telegram&logoColor=white" alt="Telegram" /></a>
+<a href="https://www.instagram.com/kenal.aka"><img src="https://img.shields.io/badge/Instagram-E4405F?style=flat-square&logo=instagram&logoColor=white" alt="Instagram" /></a>
+<a href="mailto:furinabyaka@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
 
 </div>
 
@@ -44,7 +30,6 @@
 const aka = {
   name: "Aka",
   username: "akaanakbaik",
-  age: 16,
   location: "Sumatra Barat, Indonesia 🇮🇩",
   role: "Student Developer",
   focus: ["Web Development", "Linux", "Automation", "AI", "Bots", "Cloud"],
@@ -52,83 +37,91 @@ const aka = {
 };
 ```
 
-I build real projects while learning: web apps, bot systems, Linux/VPS tools, and AI-powered experiments.
+I build practical projects while learning: web apps, bot systems, Linux/VPS tools, automation, and AI-powered experiments.
 
 ---
 
-## GitHub Overview
+## Live Profile Snapshot
 
 <div align="center">
 
-<img width="100%" src="https://raw.githubusercontent.com/akaanakbaik/akaanakbaik/main/generated/stats-grid.svg" alt="GitHub Overview" />
+<img width="100%" src="https://raw.githubusercontent.com/akaanakbaik/akaanakbaik/main/generated/stats-grid.svg" alt="Generated GitHub profile statistics" />
 
 <br />
-<br />
 
-<img width="100%" src="https://raw.githubusercontent.com/akaanakbaik/akaanakbaik/main/generated/lang-donut.svg" alt="Language Distribution Donut" />
-
-<br />
-<br />
-
-<img width="100%" src="https://raw.githubusercontent.com/akaanakbaik/akaanakbaik/main/generated/lang-pareto.svg" alt="Language Bytes Pareto Analysis" />
-
-<br />
-<br />
-
-<img width="100%" src="https://raw.githubusercontent.com/akaanakbaik/akaanakbaik/main/generated/lang-radar.svg" alt="Language Adoption Radar" />
+<a href="https://github.com/akaanakbaik"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaanakbaik%2Fakaanakbaik%2Fmain%2Fbadges%2Ftotal-forks.json&cacheSeconds=300&style=flat-square&logo=git&logoColor=white" alt="Total forks" /></a>
+<a href="https://github.com/akaanakbaik"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaanakbaik%2Fakaanakbaik%2Fmain%2Fbadges%2Ftotal-watchers.json&cacheSeconds=300&style=flat-square&logo=github&logoColor=white" alt="Total watchers" /></a>
+<a href="https://github.com/akaanakbaik"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaanakbaik%2Fakaanakbaik%2Fmain%2Fbadges%2Ftop-language.json&cacheSeconds=300&style=flat-square&logo=codeforces&logoColor=white" alt="Top language" /></a>
+<a href="https://github.com/akaanakbaik"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaanakbaik%2Fakaanakbaik%2Fmain%2Fbadges%2Flanguage-count.json&cacheSeconds=300&style=flat-square&logo=polywork&logoColor=white" alt="Language count" /></a>
+<a href="https://github.com/akaanakbaik"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaanakbaik%2Fakaanakbaik%2Fmain%2Fbadges%2Fcode-files.json&cacheSeconds=300&style=flat-square&logo=files&logoColor=white" alt="Code files" /></a>
 
 </div>
+
+> This section is generated from the GitHub REST and GraphQL APIs. The authoritative snapshot runs automatically every four hours, on pushes that affect the profile, and on manual dispatch.
 
 ---
 
-## Live Generated Metrics
+## Language Engineering
 
 <div align="center">
 
-<img width="100%" src="https://raw.githubusercontent.com/akaanakbaik/akaanakbaik/main/generated/code-totals.svg" alt="Total Lines & Characters of Code" />
+<img width="100%" src="https://raw.githubusercontent.com/akaanakbaik/akaanakbaik/main/generated/lang-donut.svg" alt="Language distribution by repository bytes" />
 
 <br />
 <br />
 
-<img width="100%" src="https://raw.githubusercontent.com/akaanakbaik/akaanakbaik/main/generated/github-stats.svg" alt="Generated GitHub Stats" />
-
-<br />
-<br />
-
-<img width="100%" src="https://raw.githubusercontent.com/akaanakbaik/akaanakbaik/main/generated/top-langs.svg" alt="Generated Top Languages" />
+<img width="100%" src="https://raw.githubusercontent.com/akaanakbaik/akaanakbaik/main/generated/lang-pareto.svg" alt="Language bytes Pareto analysis" />
 
 </div>
 
-> Local metrics, code totals, and language charts are generated by our own GitHub Action engine from the GitHub API — and the total lines/characters are physically counted by scanning every single repository (no estimates). Everything auto-updates on every commit and every 4 days.
+> Language shares use the GitHub `/languages` byte counts for every public repository. The charts include concentration, entropy, Gini, coefficient of variation, and Pareto calculations instead of estimates from repository names.
 
 ---
 
-## Commit Streak & Activity
+## Code Census
 
 <div align="center">
 
-<img width="100%" src="https://raw.githubusercontent.com/akaanakbaik/akaanakbaik/main/generated/streak.svg" alt="Contribution Streak" />
+<img width="100%" src="https://raw.githubusercontent.com/akaanakbaik/akaanakbaik/main/generated/code-totals.svg" alt="Total scanned code lines and characters" />
 
 <br />
-<br />
 
-<img width="100%" src="https://raw.githubusercontent.com/akaanakbaik/akaanakbaik/main/generated/commit-hours.svg" alt="Commit Activity by Hour" />
+<a href="https://github.com/akaanakbaik"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaanakbaik%2Fakaanakbaik%2Fmain%2Fbadges%2Ftotal-lines.json&cacheSeconds=300&style=flat-square&logo=githubactions&logoColor=white" alt="Total lines of code" /></a>
+<a href="https://github.com/akaanakbaik"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaanakbaik%2Fakaanakbaik%2Fmain%2Fbadges%2Ftotal-chars.json&cacheSeconds=300&style=flat-square&logo=githubactions&logoColor=white" alt="Total code characters" /></a>
+<a href="https://github.com/akaanakbaik"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaanakbaik%2Fakaanakbaik%2Fmain%2Fbadges%2Frepo-size.json&cacheSeconds=300&style=flat-square&logo=databricks&logoColor=white" alt="Repository size" /></a>
 
 </div>
 
-> Streak is computed from the official GitHub contribution calendar, and the hour chart from real commit timestamps across every repository (Asia/Jakarta timezone). Auto-updates on every commit and every 4 days.
+> The code census clones each public repository shallowly, excludes dependency/build/binary directories, and counts readable source files physically. A failed clone is recorded rather than silently represented as zero.
 
 ---
 
-## Full-Year Contribution Calendar
+## Contribution Activity
 
 <div align="center">
 
-<img width="100%" src="https://raw.githubusercontent.com/akaanakbaik/akaanakbaik/main/generated/calendar.svg" alt="Full-Year Contribution Calendar" />
+<img width="100%" src="https://raw.githubusercontent.com/akaanakbaik/akaanakbaik/main/generated/streak.svg" alt="Contribution streak" />
+
+<br />
+<br />
+
+<img width="100%" src="https://raw.githubusercontent.com/akaanakbaik/akaanakbaik/main/generated/commit-hours.svg" alt="Commit activity by Jakarta hour" />
+
+<br />
+<br />
+
+<img width="100%" src="https://raw.githubusercontent.com/akaanakbaik/akaanakbaik/main/generated/calendar.svg" alt="Full-year contribution calendar" />
 
 </div>
 
-> The complete last 365 days — a full year of contributions, not just recent weeks. Hover any square to see the exact date and count.
+<p align="center">
+  <a href="https://github.com/akaanakbaik"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaanakbaik%2Fakaanakbaik%2Fmain%2Fbadges%2Fstreak-days.json&cacheSeconds=300&style=flat-square&logo=github&logoColor=white" alt="Current streak" /></a>
+  <a href="https://github.com/akaanakbaik"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaanakbaik%2Fakaanakbaik%2Fmain%2Fbadges%2Ftotal-commits.json&cacheSeconds=300&style=flat-square&logo=github&logoColor=white" alt="Commits in the contribution window" /></a>
+  <a href="https://github.com/akaanakbaik"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaanakbaik%2Fakaanakbaik%2Fmain%2Fbadges%2Fpeak-hour.json&cacheSeconds=300&style=flat-square&logo=clockify&logoColor=white" alt="Peak coding hour" /></a>
+  <a href="https://github.com/akaanakbaik"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaanakbaik%2Fakaanakbaik%2Fmain%2Fbadges%2Flast-active.json&cacheSeconds=300&style=flat-square&logo=github&logoColor=white" alt="Last active" /></a>
+</p>
+
+> Streaks come from the official contribution calendar. Commit hours use the owned commit history sampled by the API collector, converted to Asia/Jakarta, with known automation commits excluded so scheduled updates do not inflate personal activity.
 
 ---
 
@@ -136,94 +129,52 @@ I build real projects while learning: web apps, bot systems, Linux/VPS tools, an
 
 <div align="center">
 
-<img width="100%" src="https://raw.githubusercontent.com/akaanakbaik/akaanakbaik/main/generated/coding-age.svg" alt="Coding Age" />
+<img width="100%" src="https://raw.githubusercontent.com/akaanakbaik/akaanakbaik/main/generated/coding-age.svg" alt="Coding age calculated from account creation" />
 
 <br />
 <br />
 
-<img width="100%" src="https://raw.githubusercontent.com/akaanakbaik/akaanakbaik/main/generated/coding-rhythm.svg" alt="Coding Rhythm" />
+<img width="100%" src="https://raw.githubusercontent.com/akaanakbaik/akaanakbaik/main/generated/coding-rhythm.svg" alt="Coding rhythm by time of day" />
 
 </div>
 
-> Coding age is measured precisely from account creation (years, months, days). The rhythm chart classifies every commit into Night Owl 🦉 / Early Bird 🐦 / Day Coder ☀️ / Evening 🌆 using circular statistics on real commit timestamps in Asia/Jakarta.
-
 ---
 
-## Live Jakarta Time
+## Jakarta Time & Motivation
 
 <div align="center">
 
-<img width="100%" src="https://raw.githubusercontent.com/akaanakbaik/akaanakbaik/main/generated/live-clock.svg" alt="Live Jakarta Time Clock" />
+<img width="100%" src="https://raw.githubusercontent.com/akaanakbaik/akaanakbaik/main/generated/live-clock.svg" alt="Generated Jakarta time" />
 
 <br />
 
-<a href="https://github.com/akaanakbaik/akaanakbaik/actions/workflows/live-clock.yml"><img src="https://img.shields.io/github/actions/workflow/status/akaanakbaik/akaanakbaik/live-clock.yml?branch=main&label=live%20clock&style=flat-square&logo=githubactions&color=f59e0b" alt="Live Clock Workflow" /></a>
-
-</div>
-
-> A real-time Jakarta clock refreshed by GitHub Actions **every 15 minutes** — analog hands are animated, and the digital time, date, day and social badges (followers, stars, forks) update automatically with live API data.
-
----
-
-## Developer Motivation
-
-<div align="center">
-
-<img width="100%" src="https://raw.githubusercontent.com/akaanakbaik/akaanakbaik/main/generated/motivation-quote.svg" alt="Daily Developer Motivation" />
-
-</div>
-
-> A random quote from real legendary developers (Linus Torvalds, Grace Hopper, Donald Knuth, Ada Lovelace, Dennis Ritchie, Guido van Rossum and 40+ more) — shown in the original English **and** translated into Bahasa Indonesia. A new quote appears automatically every 15 minutes.
-
----
-
-## Top 5 Repositories — Dynamic Ranking
-
-<div align="center">
-
-<img width="100%" src="https://raw.githubusercontent.com/akaanakbaik/akaanakbaik/main/generated/top-repos.svg" alt="Top 5 Repositories by Composite Score" />
-
-</div>
-
-> Re-ranked automatically on every run by a **composite activity score**: stars, forks, watchers, pull requests, issues, discussions, commit activity and push recency — live from the GitHub API. The #1 repo rotates whenever another repository becomes more active.
-
----
-
-## 30-Day Activity
-
-<div align="center">
-
-<a href="https://github.com/akaanakbaik">
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=akaanakbaik&theme=tokyo-night&hide_border=true&radius=12&area=true&height=280&custom_title=30-Day%20GitHub%20Activity" alt="30-Day GitHub Activity Graph" />
-</a>
-
-</div>
-
----
-
-## Monthly AI Summary
-
-<div align="center">
-
-<img width="100%" src="https://raw.githubusercontent.com/akaanakbaik/akaanakbaik/main/generated/monthly-summary.svg" alt="Monthly AI Summary" />
+<a href="https://github.com/akaanakbaik"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaanakbaik%2Fakaanakbaik%2Fmain%2Fbadges%2Flive-time.json&cacheSeconds=300&style=flat-square&logo=clockify&logoColor=white" alt="Jakarta time" /></a>
+<a href="https://github.com/akaanakbaik"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaanakbaik%2Fakaanakbaik%2Fmain%2Fbadges%2Flive-date.json&cacheSeconds=300&style=flat-square&logo=googlecalendar&logoColor=white" alt="Jakarta date" /></a>
 
 <br />
+<br />
 
-<a href="https://github.com/akaanakbaik/akaanakbaik/actions/workflows/monthly-summary.yml"><img src="https://img.shields.io/github/actions/workflow/status/akaanakbaik/akaanakbaik/monthly-summary.yml?branch=main&label=monthly%20AI%20summary&style=flat-square&logo=githubactions&color=16a34a" alt="Monthly AI Summary Workflow" /></a>
-
-<a href="https://github.com/akaanakbaik"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaanakbaik%2Fakaanakbaik%2Fmain%2Fbadges%2Fmonthly-commits.json&style=flat-square&logo=githubactions&logoColor=white" alt="Commits this month" /></a>
-
-<a href="https://github.com/akaanakbaik"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaanakbaik%2Fakaanakbaik%2Fmain%2Fbadges%2Fmonthly-active-days.json&style=flat-square&logo=githubactions&logoColor=white" alt="Active days this month" /></a>
+<img width="100%" src="https://raw.githubusercontent.com/akaanakbaik/akaanakbaik/main/generated/motivation-quote.svg" alt="Developer motivation quote" />
 
 </div>
 
-> Every 1st of the month, our own AI engine narrates the past 30 days in natural language: total commits, busiest day, peak coding hour, streak, busiest repos and languages, PRs and issues — based on real commit timestamps.
+> The clock and quote are refreshed as part of the same four-hour snapshot, so the README reports when the generated data was last published instead of claiming second-by-second data from a static file.
 
 ---
 
+## Dynamic Repository Ranking
+
+<div align="center">
+
+<img width="100%" src="https://raw.githubusercontent.com/akaanakbaik/akaanakbaik/main/generated/top-repos.svg" alt="Top repositories by composite activity score" />
+
+</div>
+
+> Ranking combines logarithmically scaled stars, forks, watchers, pull requests, issues, discussions, owned commits, and exponential push recency. The score is a transparent activity heuristic, not a popularity claim.
+
 ---
 
-## Featured Top Repositories
+## Featured Projects
 
 <div align="center">
 
@@ -231,20 +182,15 @@ I build real projects while learning: web apps, bot systems, Linux/VPS tools, an
   <tr>
     <td align="center" width="33%">
       <a href="https://github.com/akaanakbaik/portofoliov2"><img src="https://raw.githubusercontent.com/akaanakbaik/akaanakbaik/main/generated/pinned-portofoliov2.svg" alt="portofoliov2" width="100%" /></a>
-      <sub>Modern personal portfolio.</sub>
     </td>
     <td align="center" width="33%">
       <a href="https://github.com/akaanakbaik/dastermv2"><img src="https://raw.githubusercontent.com/akaanakbaik/akaanakbaik/main/generated/pinned-dastermv2.svg" alt="dastermv2" width="100%" /></a>
-      <sub>Linux terminal dashboard.</sub>
     </td>
     <td align="center" width="33%">
       <a href="https://github.com/akaanakbaik/musika"><img src="https://raw.githubusercontent.com/akaanakbaik/akaanakbaik/main/generated/pinned-musika.svg" alt="musika" width="100%" /></a>
-      <sub>Music app and PWA experiment.</sub>
     </td>
   </tr>
 </table>
-
-<sub>Pinned cards are generated by our own Action engine from the GitHub API — they never break.</sub>
 
 </div>
 
@@ -254,42 +200,37 @@ I build real projects while learning: web apps, bot systems, Linux/VPS tools, an
 
 <div align="center">
 
-<img width="100%" src="https://raw.githubusercontent.com/akaanakbaik/akaanakbaik/main/generated/stack-languages.svg" alt="Generated Language Stack" />
+<img width="100%" src="https://raw.githubusercontent.com/akaanakbaik/akaanakbaik/main/generated/stack-languages.svg" alt="Generated language stack" />
 
 <br />
 <br />
 
-<img width="100%" src="https://raw.githubusercontent.com/akaanakbaik/akaanakbaik/main/generated/stack-frontend.svg" alt="Generated Frontend Stack" />
+<img width="100%" src="https://raw.githubusercontent.com/akaanakbaik/akaanakbaik/main/generated/stack-frontend.svg" alt="Generated frontend stack" />
 
 <br />
 <br />
 
-<img width="100%" src="https://raw.githubusercontent.com/akaanakbaik/akaanakbaik/main/generated/stack-backend.svg" alt="Generated Backend Stack" />
+<img width="100%" src="https://raw.githubusercontent.com/akaanakbaik/akaanakbaik/main/generated/stack-backend.svg" alt="Generated backend stack" />
 
 </div>
 
 ---
 
-## Tools, Platforms & AI
+## Monthly Activity
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white" alt="Gemini" />
-<img src="https://img.shields.io/badge/ChatGPT-111827?style=flat-square&logo=openai&logoColor=white" alt="ChatGPT" />
-<img src="https://img.shields.io/badge/Qwen-2563eb?style=flat-square&logo=alibabacloud&logoColor=white" alt="Qwen" />
-<img src="https://img.shields.io/badge/Kimi%20AI-0f172a?style=flat-square" alt="Kimi AI" />
-<img src="https://img.shields.io/badge/DeepSeek-1e40af?style=flat-square" alt="DeepSeek" />
-<img src="https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white" alt="Supabase" />
-<img src="https://img.shields.io/badge/Neon%20DB-00E599?style=flat-square&logo=neon&logoColor=black" alt="Neon DB" />
-<img src="https://img.shields.io/badge/Pterodactyl-171717?style=flat-square&logo=serverfault&logoColor=white" alt="Pterodactyl" />
-<img src="https://img.shields.io/badge/Ubuntu-E95420?style=flat-square&logo=ubuntu&logoColor=white" alt="Ubuntu" />
-<img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
-<img src="https://img.shields.io/badge/Windows-0078D4?style=flat-square&logo=windows11&logoColor=white" alt="Windows" />
-<img src="https://img.shields.io/badge/Tor%20Browser-7D4698?style=flat-square&logo=torbrowser&logoColor=white" alt="Tor Browser" />
-<img src="https://img.shields.io/badge/Edge-0078D7?style=flat-square&logo=microsoftedge&logoColor=white" alt="Microsoft Edge" />
-<img src="https://img.shields.io/badge/Chrome-4285F4?style=flat-square&logo=googlechrome&logoColor=white" alt="Google Chrome" />
+<img width="100%" src="https://raw.githubusercontent.com/akaanakbaik/akaanakbaik/main/generated/monthly-summary.svg" alt="Monthly activity summary" />
+
+<br />
+
+<a href="https://github.com/akaanakbaik"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaanakbaik%2Fakaanakbaik%2Fmain%2Fbadges%2Fmonthly-commits.json&cacheSeconds=300&style=flat-square&logo=github&logoColor=white" alt="Commits in the last 30 days" /></a>
+<a href="https://github.com/akaanakbaik"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaanakbaik%2Fakaanakbaik%2Fmain%2Fbadges%2Fmonthly-active-days.json&cacheSeconds=300&style=flat-square&logo=github&logoColor=white" alt="Active days in the last 30 days" /></a>
+<a href="https://github.com/akaanakbaik"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaanakbaik%2Fakaanakbaik%2Fmain%2Fbadges%2Fmonthly-top-repo.json&cacheSeconds=300&style=flat-square&logo=github&logoColor=white" alt="Top repository in the last 30 days" /></a>
 
 </div>
+
+> The rolling 30-day report is generated inside the same four-hour snapshot as the other profile assets, so its badges and chart share one consistent publication point.
 
 ---
 
@@ -299,7 +240,7 @@ I build real projects while learning: web apps, bot systems, Linux/VPS tools, an
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/akaanakbaik/akaanakbaik/output/github-contribution-grid-snake-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/akaanakbaik/akaanakbaik/output/github-contribution-grid-snake.svg" />
-    <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/akaanakbaik/akaanakbaik/output/github-contribution-grid-snake.svg" width="100%" />
+    <img alt="GitHub contribution snake" src="https://raw.githubusercontent.com/akaanakbaik/akaanakbaik/output/github-contribution-grid-snake.svg" width="100%" />
   </picture>
 </p>
 
@@ -312,8 +253,6 @@ Working on   → Music Player Web App, Portfolio v2, Linux tools, AI tools, and 
 Learning     → React, Node.js, TypeScript, Docker, Cloud, DevOps, and AI Agents
 Ask me about → JavaScript, Web Development, UI/UX, Linux, VPS, bots, and automation
 ```
-
----
 
 <div align="center">
 

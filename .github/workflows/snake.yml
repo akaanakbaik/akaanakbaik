@@ -2,41 +2,38 @@ name: Generate Snake Animation
 
 on:
   schedule:
-    # Berjalan otomatis setiap 12 jam
-    - cron: "0 */12 * * *"
-  
-  # Memungkinkan kamu menjalankan workflow secara manual dari tab Actions
+    - cron: '0 */12 * * *'
   workflow_dispatch:
-  
-  # Berjalan otomatis setiap ada push ke branch main/master
   push:
     branches:
-    - main
-    - master
+      - main
+      - master
     paths-ignore:
-    - 'badges/**'
-    - 'stats/**'
-    - 'generated/**'
+      - badges/**
+      - stats/**
+      - generated/**
+
+concurrency:
+  group: contribution-snake
+  cancel-in-progress: true
+
+permissions:
+  contents: write
 
 jobs:
   generate:
-    permissions: 
-      contents: write # Wajib agar bot memiliki izin menulis file
     runs-on: ubuntu-latest
     timeout-minutes: 5
-    
     steps:
-      # Generate animasi snake dari kontribusi GitHub kamu
-      - name: Generate github-contribution-grid-snake.svg
+      - name: Generate contribution snake
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-          
-      # Push file hasil render ke branch 'output'
-      - name: Push github-contribution-grid-snake.svg to the output branch
+
+      - name: Publish contribution snake
         uses: crazy-max/ghaction-github-pages@v5
         with:
           target_branch: output

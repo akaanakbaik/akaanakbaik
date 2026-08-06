@@ -1,7 +1,7 @@
 import { mkdir, writeFile } from 'node:fs/promises';
 import { createClient, compact, dateStamp } from './lib/engine.mjs';
 import { fetchProfileData } from './lib/collect.mjs';
-import { langDonutSvg, langParetoSvg, langRadarSvg } from './lib/charts.mjs';
+import { langDonutSvg, langParetoSvg } from './lib/charts.mjs';
 
 const username = process.env.PROFILE_USERNAME || 'akaanakbaik';
 const token = process.env.GITHUB_TOKEN || '';
@@ -14,10 +14,8 @@ async function main() {
   await mkdir('stats', { recursive: true });
   const donut = langDonutSvg({ ...distribution, repoCount: data.publicRepos });
   const pareto = langParetoSvg({ ...distribution, repoCount: data.publicRepos });
-  const radar = langRadarSvg({ ...distribution, repoCount: data.publicRepos });
   await writeFile('generated/lang-donut.svg', donut);
   await writeFile('generated/lang-pareto.svg', pareto);
-  await writeFile('generated/lang-radar.svg', radar);
   const snapshot = {
     username,
     generatedAt: dateStamp(),

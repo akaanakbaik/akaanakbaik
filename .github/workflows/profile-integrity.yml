@@ -1,8 +1,8 @@
-name: README Health Check
+name: Profile Integrity
 
 on:
   schedule:
-    - cron: '30 */4 * * *'
+    - cron: '45 */4 * * *'
   workflow_dispatch:
   push:
     branches:
@@ -11,20 +11,20 @@ on:
       - README.md
       - badges/**
       - generated/**
-      - scripts/validate-readme.mjs
-      - .github/workflows/readme-health.yml
+      - scripts/**
+      - .github/workflows/profile-integrity.yml
 
 concurrency:
-  group: readme-health
+  group: profile-integrity
   cancel-in-progress: true
 
 permissions:
   contents: read
 
 jobs:
-  validate:
+  check:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 10
     steps:
       - name: Checkout
         uses: actions/checkout@v5
@@ -34,5 +34,13 @@ jobs:
         with:
           node-version: 22
 
-      - name: Validate README links and generated badge contracts
+      - name: Check module syntax
+        shell: bash
+        run: |
+          set -euo pipefail
+          for file in scripts/*.mjs scripts/lib/*.mjs; do
+            node --check "$file"
+          done
+
+      - name: Check badge contracts and README references
         run: node scripts/validate-readme.mjs
