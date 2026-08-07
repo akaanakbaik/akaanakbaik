@@ -84,8 +84,8 @@
 <rect x="749.09" y="319.31" width="23.15" height="96.69" rx="3.5" fill="url(#hourGrad)" opacity="0.85"/>
 <text x="760.67" y="313.31" text-anchor="middle" fill="#8b93a7" font-size="9.5" font-weight="600" font-family="Inter,'Segoe UI',system-ui,sans-serif">117</text>
 </g><g>
-<rect x="786.43" y="347.40" width="23.15" height="68.60" rx="3.5" fill="url(#hourGrad)" opacity="0.85"/>
-<text x="798.00" y="341.40" text-anchor="middle" fill="#8b93a7" font-size="9.5" font-weight="600" font-family="Inter,'Segoe UI',system-ui,sans-serif">83</text>
+<rect x="786.43" y="348.23" width="23.15" height="67.77" rx="3.5" fill="url(#hourGrad)" opacity="0.85"/>
+<text x="798.00" y="342.23" text-anchor="middle" fill="#8b93a7" font-size="9.5" font-weight="600" font-family="Inter,'Segoe UI',system-ui,sans-serif">82</text>
 </g><g>
 <rect x="823.76" y="304.43" width="23.15" height="111.57" rx="3.5" fill="url(#hourGrad)" opacity="0.85"/>
 <text x="835.33" y="298.43" text-anchor="middle" fill="#8b93a7" font-size="9.5" font-weight="600" font-family="Inter,'Segoe UI',system-ui,sans-serif">135</text>
@@ -112,7 +112,7 @@
 </g><g transform="translate(370 446)">
 <rect width="170" height="54" rx="12" fill="#0d1322" stroke="#2563eb" stroke-opacity="0.35" stroke-width="1.2"/>
 <text x="14" y="20" fill="#8b93a7" font-size="10.5" font-weight="700" letter-spacing="1.2" font-family="Inter,'Segoe UI',system-ui,sans-serif">SAMPLED COMMITS</text>
-<text x="14" y="42" fill="#2563eb" font-size="17" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">2,778</text>
+<text x="14" y="42" fill="#2563eb" font-size="17" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">2,777</text>
 </g><g transform="translate(550 446)">
 <rect width="150" height="54" rx="12" fill="#0d1322" stroke="#16a34a" stroke-opacity="0.35" stroke-width="1.2"/>
 <text x="14" y="20" fill="#8b93a7" font-size="10.5" font-weight="700" letter-spacing="1.2" font-family="Inter,'Segoe UI',system-ui,sans-serif">ACTIVE HOURS</text>
@@ -128,32 +128,32 @@
 </g>
 <text x="30" y="526" fill="#94a3b8" font-size="11" font-weight="800" letter-spacing="1.3" font-family="Inter,'Segoe UI',system-ui,sans-serif">COMMITS BY WEEKDAY</text>
 <g>
-<rect x="40" y="538.6737739872068" width="34" height="35.32622601279318" rx="4" fill="#89e051" opacity="0.9"/>
-<text x="57" y="532.6737739872068" text-anchor="middle" fill="#cbd5e1" font-size="10.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">436</text>
+<rect x="40" y="538.5982905982906" width="34" height="35.401709401709404" rx="4" fill="#89e051" opacity="0.9"/>
+<text x="57" y="532.5982905982906" text-anchor="middle" fill="#cbd5e1" font-size="10.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">436</text>
 <text x="57" y="590" text-anchor="middle" fill="#8b93a7" font-size="10.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">Mon</text>
 </g><g>
-<rect x="168" y="541.7526652452026" width="34" height="32.24733475479744" rx="4" fill="#89e051" opacity="0.9"/>
-<text x="185" y="535.7526652452026" text-anchor="middle" fill="#cbd5e1" font-size="10.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">398</text>
+<rect x="168" y="541.6837606837607" width="34" height="32.31623931623932" rx="4" fill="#89e051" opacity="0.9"/>
+<text x="185" y="535.6837606837607" text-anchor="middle" fill="#cbd5e1" font-size="10.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">398</text>
 <text x="185" y="590" text-anchor="middle" fill="#8b93a7" font-size="10.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">Tue</text>
 </g><g>
-<rect x="296" y="545.7228144989339" width="34" height="28.277185501066096" rx="4" fill="#89e051" opacity="0.9"/>
-<text x="313" y="539.7228144989339" text-anchor="middle" fill="#cbd5e1" font-size="10.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">349</text>
+<rect x="296" y="545.6623931623932" width="34" height="28.337606837606838" rx="4" fill="#89e051" opacity="0.9"/>
+<text x="313" y="539.6623931623932" text-anchor="middle" fill="#cbd5e1" font-size="10.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">349</text>
 <text x="313" y="590" text-anchor="middle" fill="#8b93a7" font-size="10.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">Wed</text>
 </g><g>
-<rect x="424" y="538.5927505330491" width="34" height="35.40724946695096" rx="4" fill="#89e051" opacity="0.9"/>
-<text x="441" y="532.5927505330491" text-anchor="middle" fill="#cbd5e1" font-size="10.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">437</text>
+<rect x="424" y="538.517094017094" width="34" height="35.48290598290598" rx="4" fill="#89e051" opacity="0.9"/>
+<text x="441" y="532.517094017094" text-anchor="middle" fill="#cbd5e1" font-size="10.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">437</text>
 <text x="441" y="590" text-anchor="middle" fill="#8b93a7" font-size="10.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">Thu</text>
 </g><g>
-<rect x="552" y="553.8251599147121" width="34" height="20.174840085287844" rx="4" fill="#89e051" opacity="0.9"/>
-<text x="569" y="547.8251599147121" text-anchor="middle" fill="#cbd5e1" font-size="10.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">249</text>
+<rect x="552" y="553.7820512820513" width="34" height="20.21794871794872" rx="4" fill="#89e051" opacity="0.9"/>
+<text x="569" y="547.7820512820513" text-anchor="middle" fill="#cbd5e1" font-size="10.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">249</text>
 <text x="569" y="590" text-anchor="middle" fill="#8b93a7" font-size="10.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">Fri</text>
 </g><g>
 <rect x="680" y="536" width="34" height="38" rx="4" fill="#89e051" opacity="0.9"/>
-<text x="697" y="530" text-anchor="middle" fill="#cbd5e1" font-size="10.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">469</text>
+<text x="697" y="530" text-anchor="middle" fill="#cbd5e1" font-size="10.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">468</text>
 <text x="697" y="590" text-anchor="middle" fill="#8b93a7" font-size="10.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">Sat</text>
 </g><g>
-<rect x="808" y="538.3496801705757" width="34" height="35.650319829424305" rx="4" fill="#89e051" opacity="0.9"/>
-<text x="825" y="532.3496801705757" text-anchor="middle" fill="#cbd5e1" font-size="10.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">440</text>
+<rect x="808" y="538.2735042735043" width="34" height="35.72649572649573" rx="4" fill="#89e051" opacity="0.9"/>
+<text x="825" y="532.2735042735043" text-anchor="middle" fill="#cbd5e1" font-size="10.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">440</text>
 <text x="825" y="590" text-anchor="middle" fill="#8b93a7" font-size="10.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">Sun</text>
 </g>
 
