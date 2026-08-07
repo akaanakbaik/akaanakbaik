@@ -1,6 +1,6 @@
 {
   "username": "akaanakbaik",
-  "generatedAt": "07 Aug 2026, 15:50",
+  "generatedAt": "07 Aug 2026, 19:45",
   "publicRepos": 107,
   "originalRepos": 87,
   "forkedRepos": 20,
@@ -12,13 +12,13 @@
   "totalForks": 27,
   "totalWatchers": 13,
   "totalSize": "835.2 MB",
-  "totalSizeKb": 855195,
+  "totalSizeKb": 855202,
   "topLanguage": "JavaScript",
   "accountAge": "2 years",
   "accountAgePrecise": "2 years",
   "accountCreatedAt": "2024-08-03T01:58:16Z",
   "topRepo": "pterodactyl-gateway",
-  "recentRepo": "dastermv2",
+  "recentRepo": "auto-commit",
   "largestRepo": "Hacktoberfest2025-3",
   "languageDistribution": {
     "totalBytes": 47903622,
@@ -998,22 +998,22 @@
   ],
   "recentRepositories": [
     {
-      "name": "dastermv2",
-      "url": "https://github.com/akaanakbaik/dastermv2",
-      "language": "Shell",
-      "updatedAt": "2026-08-07T08:15:52Z"
-    },
-    {
       "name": "auto-commit",
       "url": "https://github.com/akaanakbaik/auto-commit",
       "language": "Unknown",
-      "updatedAt": "2026-08-07T08:04:43Z"
+      "updatedAt": "2026-08-07T11:53:08Z"
+    },
+    {
+      "name": "dastermv2",
+      "url": "https://github.com/akaanakbaik/dastermv2",
+      "language": "Shell",
+      "updatedAt": "2026-08-07T11:46:02Z"
     },
     {
       "name": "akaanakbaik",
       "url": "https://github.com/akaanakbaik/akaanakbaik",
       "language": "JavaScript",
-      "updatedAt": "2026-08-07T05:30:07Z"
+      "updatedAt": "2026-08-07T08:52:12Z"
     },
     {
       "name": "musika-apk",
@@ -1065,7 +1065,7 @@
     "totalContributions": 3896
   },
   "commitHours": {
-    "sampled": 2779,
+    "sampled": 2778,
     "hourCounts": [
       111,
       27,
@@ -1084,7 +1084,7 @@
       88,
       77,
       132,
-      123,
+      122,
       117,
       83,
       135,
@@ -1098,7 +1098,7 @@
       349,
       437,
       249,
-      470,
+      469,
       440
     ],
     "weekdayOrder": [
@@ -1112,14 +1112,14 @@
     ],
     "peakHour": 22,
     "peakWeekday": "Sat",
-    "circularMean": 19.98768629682423,
-    "circularStd": 6.110309701173087,
+    "circularMean": 19.99117202249008,
+    "circularStd": 6.111641283509196,
     "activeHours": 24,
     "reposWithCommits": 86,
     "topCommitRepos": [
       {
         "repo": "akaanakbaik",
-        "count": 276
+        "count": 275
       },
       {
         "repo": "startup-tes",
@@ -1142,31 +1142,31 @@
     "rhythm": {
       "label": "Night Owl",
       "emoji": "🦉",
-      "share": 0.33213386110111554,
+      "share": 0.33225341972642186,
       "buckets": [
         {
           "name": "Night Owl",
           "emoji": "🦉",
           "count": 923,
-          "pct": 33.21338611011156
+          "pct": 33.225341972642184
         },
         {
           "name": "Early Bird",
           "emoji": "🐦",
           "count": 405,
-          "pct": 14.573587621446563
+          "pct": 14.578833693304535
         },
         {
           "name": "Day Coder",
           "emoji": "☀️",
           "count": 710,
-          "pct": 25.548758546239654
+          "pct": 25.557955363570915
         },
         {
           "name": "Evening",
           "emoji": "🌆",
-          "count": 741,
-          "pct": 26.66426772220223
+          "count": 740,
+          "pct": 26.63786897048236
         }
       ],
       "peakHour": 22
@@ -1189,14 +1189,14 @@
       "pullRequests": 19,
       "issues": 0,
       "discussions": 0,
-      "daysSincePush": 4,
+      "daysSincePush": 5,
       "commits": 159,
-      "score": 10.519124860214022,
+      "score": 10.4789090363827,
       "stars": 10,
       "forks": 0,
       "watchers": 0,
       "prs": 19,
-      "recency": 0.914947228730031,
+      "recency": 0.8948393168143698,
       "scorePct": 100
     },
     {
@@ -1208,14 +1208,14 @@
       "issues": 0,
       "discussions": 0,
       "daysSincePush": 0,
-      "commits": 276,
-      "score": 10.110581499912819,
+      "commits": 275,
+      "score": 10.107283057214433,
       "stars": 5,
       "forks": 0,
       "watchers": 1,
       "prs": 3,
       "recency": 1,
-      "scorePct": 96.11618489436876
+      "scorePct": 96.45358139976229
     },
     {
       "name": "portofoliov2",
@@ -1233,7 +1233,7 @@
       "watchers": 0,
       "prs": 0,
       "recency": 0.06646291798667318,
-      "scorePct": 67.76636791610898
+      "scorePct": 68.02644082105935
     },
     {
       "name": "startup-tes",
@@ -1251,7 +1251,7 @@
       "watchers": 0,
       "prs": 0,
       "recency": 0.059473632124684116,
-      "scorePct": 66.36840851004834
+      "scorePct": 66.62311634416909
     },
     {
       "name": "domkuv2",
@@ -1261,15 +1261,15 @@
       "pullRequests": 13,
       "issues": 0,
       "discussions": 0,
-      "daysSincePush": 261,
+      "daysSincePush": 262,
       "commits": 72,
-      "score": 6.97191476896404,
+      "score": 6.971781695050642,
       "stars": 4,
       "forks": 0,
       "watchers": 0,
       "prs": 13,
-      "recency": 0.0030275547453758153,
-      "scorePct": 66.27846766353707
+      "recency": 0.0029610177886768385,
+      "scorePct": 66.53156040237266
     }
   ]
 }

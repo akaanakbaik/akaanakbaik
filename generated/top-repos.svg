@@ -30,7 +30,7 @@
 <text x="796" y="28" fill="#e2e8f0" font-size="12.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">⑂ 0</text>
 <text x="862" y="28" fill="#cbd5e1" font-size="12.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">159 commits</text>
 <text x="730" y="50" fill="#cbd5e1" font-size="11.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">19 PR · 0 IS · 0 W</text>
-<text x="850" y="50" fill="#5b6478" font-size="11.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">pushed 4 d ago</text>
+<text x="850" y="50" fill="#5b6478" font-size="11.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">pushed 5 d ago</text>
 <text x="960" y="38" fill="#64748b" font-size="10.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">score</text>
 </g></a><a href="https://github.com/akaanakbaik/akaanakbaik"><g transform="translate(30 196)">
 <rect width="940" height="76" rx="18" fill="#0d1322" stroke="#c7cedb" stroke-opacity="0.5" stroke-width="1.4"/>
@@ -40,11 +40,11 @@
 <circle cx="72" cy="50" r="4" fill="#f1e05a"/>
 <text x="84" y="54" fill="#8b93a7" font-size="11.5" font-weight="600" font-family="Inter,'Segoe UI',system-ui,sans-serif">JavaScript</text>
 <rect x="72" y="63" width="560" height="7" rx="3.5" fill="#1e293b"/>
-<rect x="72" y="63" width="538.2506354084651" height="7" rx="3.5" fill="url(#scoreGrad1)"/>
-<text x="660" y="69" fill="#c7cedb" font-size="16" font-weight="900" font-family="Inter,'Segoe UI',system-ui,sans-serif">96.1</text>
+<rect x="72" y="63" width="540.1400558386688" height="7" rx="3.5" fill="url(#scoreGrad1)"/>
+<text x="660" y="69" fill="#c7cedb" font-size="16" font-weight="900" font-family="Inter,'Segoe UI',system-ui,sans-serif">96.5</text>
 <text x="730" y="28" fill="#e2e8f0" font-size="12.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">★ 5</text>
 <text x="796" y="28" fill="#e2e8f0" font-size="12.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">⑂ 0</text>
-<text x="862" y="28" fill="#cbd5e1" font-size="12.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">276 commits</text>
+<text x="862" y="28" fill="#cbd5e1" font-size="12.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">275 commits</text>
 <text x="730" y="50" fill="#cbd5e1" font-size="11.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">3 PR · 0 IS · 1 W</text>
 <text x="850" y="50" fill="#5b6478" font-size="11.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">pushed today</text>
 <text x="960" y="38" fill="#64748b" font-size="10.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">score</text>
@@ -56,8 +56,8 @@
 <circle cx="72" cy="50" r="4" fill="#f1e05a"/>
 <text x="84" y="54" fill="#8b93a7" font-size="11.5" font-weight="600" font-family="Inter,'Segoe UI',system-ui,sans-serif">JavaScript</text>
 <rect x="72" y="63" width="560" height="7" rx="3.5" fill="#1e293b"/>
-<rect x="72" y="63" width="379.49166033021027" height="7" rx="3.5" fill="url(#scoreGrad2)"/>
-<text x="660" y="69" fill="#c08552" font-size="16" font-weight="900" font-family="Inter,'Segoe UI',system-ui,sans-serif">67.8</text>
+<rect x="72" y="63" width="380.9480685979324" height="7" rx="3.5" fill="url(#scoreGrad2)"/>
+<text x="660" y="69" fill="#c08552" font-size="16" font-weight="900" font-family="Inter,'Segoe UI',system-ui,sans-serif">68.0</text>
 <text x="730" y="28" fill="#e2e8f0" font-size="12.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">★ 4</text>
 <text x="796" y="28" fill="#e2e8f0" font-size="12.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">⑂ 2</text>
 <text x="862" y="28" fill="#cbd5e1" font-size="12.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">139 commits</text>
@@ -72,8 +72,8 @@
 <circle cx="72" cy="50" r="4" fill="#f1e05a"/>
 <text x="84" y="54" fill="#8b93a7" font-size="11.5" font-weight="600" font-family="Inter,'Segoe UI',system-ui,sans-serif">JavaScript</text>
 <rect x="72" y="63" width="560" height="7" rx="3.5" fill="#1e293b"/>
-<rect x="72" y="63" width="371.6630876562707" height="7" rx="3.5" fill="url(#scoreGrad3)"/>
-<text x="660" y="69" fill="#667eea" font-size="16" font-weight="900" font-family="Inter,'Segoe UI',system-ui,sans-serif">66.4</text>
+<rect x="72" y="63" width="373.0894515273469" height="7" rx="3.5" fill="url(#scoreGrad3)"/>
+<text x="660" y="69" fill="#667eea" font-size="16" font-weight="900" font-family="Inter,'Segoe UI',system-ui,sans-serif">66.6</text>
 <text x="730" y="28" fill="#e2e8f0" font-size="12.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">★ 4</text>
 <text x="796" y="28" fill="#e2e8f0" font-size="12.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">⑂ 1</text>
 <text x="862" y="28" fill="#cbd5e1" font-size="12.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">167 commits</text>
@@ -88,8 +88,8 @@
 <circle cx="72" cy="50" r="4" fill="#f1e05a"/>
 <text x="84" y="54" fill="#8b93a7" font-size="11.5" font-weight="600" font-family="Inter,'Segoe UI',system-ui,sans-serif">JavaScript</text>
 <rect x="72" y="63" width="560" height="7" rx="3.5" fill="#1e293b"/>
-<rect x="72" y="63" width="371.1594189158076" height="7" rx="3.5" fill="url(#scoreGrad4)"/>
-<text x="660" y="69" fill="#764ba2" font-size="16" font-weight="900" font-family="Inter,'Segoe UI',system-ui,sans-serif">66.3</text>
+<rect x="72" y="63" width="372.57673825328686" height="7" rx="3.5" fill="url(#scoreGrad4)"/>
+<text x="660" y="69" fill="#764ba2" font-size="16" font-weight="900" font-family="Inter,'Segoe UI',system-ui,sans-serif">66.5</text>
 <text x="730" y="28" fill="#e2e8f0" font-size="12.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">★ 4</text>
 <text x="796" y="28" fill="#e2e8f0" font-size="12.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">⑂ 0</text>
 <text x="862" y="28" fill="#cbd5e1" font-size="12.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">72 commits</text>
