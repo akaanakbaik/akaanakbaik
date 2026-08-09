@@ -2,11 +2,11 @@
 
 **Periode:** 10 Jul – 09 Aug · dihasilkan otomatis oleh GitHub Actions
 
-Selama 30 hari terakhir (10 Jul – 09 Aug), aku membuat 392 commit di 6 repositori dan aktif selama 25 hari — rata-rata 15.7 commit per hari aktif.
+Selama 30 hari terakhir (10 Jul – 09 Aug), aku membuat 391 commit di 6 repositori dan aktif selama 25 hari — rata-rata 15.6 commit per hari aktif.
 
 Hari paling produktif adalah 20 Jul dengan 39 commit, dan Sun menjadi hari tersibuk dalam seminggu. Puncak aktivitas terjadi sekitar jam 5:00 WIB — aku bangun pagi dan langsung ngoding (early bird).
 
-Repo paling sibuk bulan ini: akaanakbaik (300), musika-apk (49), musika (33).
+Repo paling sibuk bulan ini: akaanakbaik (299), musika-apk (49), musika (33).
 
 Bahasa yang paling sering kupakai: TypeScript ×2, Shell ×1, JavaScript ×1.
 
@@ -19,13 +19,13 @@ Kesimpulan: bulan yang sangat produktif — energiku tinggi dan proyek terus ber
 
 | Metrik | Nilai |
 | --- | ---: |
-| Total commit (30 hari) | 392 |
+| Total commit (30 hari) | 391 |
 | Hari aktif | 25 / 30 |
-| Commit per hari aktif | 15.7 |
+| Commit per hari aktif | 15.6 |
 | Hari tersibuk | 20 Jul (39 commit) |
 | Hari tersibuk (pekan) | Sun |
 | Jam puncak | 5:00 WIB |
 | Streak aktif | 0 hari |
-| Repo tersibuk | akaanakbaik (300), musika-apk (49), musika (33) |
+| Repo tersibuk | akaanakbaik (299), musika-apk (49), musika (33) |
 | Pull request dibuka | 0 |
 | Issue dibuka | 0 |
