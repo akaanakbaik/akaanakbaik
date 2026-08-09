@@ -1,6 +1,6 @@
 {
   "username": "akaanakbaik",
-  "generatedAt": "09 Aug 2026, 19:34",
+  "generatedAt": "09 Aug 2026, 23:25",
   "publicRepos": 107,
   "originalRepos": 87,
   "forkedRepos": 20,
@@ -11,34 +11,34 @@
   "totalStars": 409,
   "totalForks": 27,
   "totalWatchers": 13,
-  "totalSize": "834.9 MB",
-  "totalSizeKb": 854901,
+  "totalSize": "837.3 MB",
+  "totalSizeKb": 857431,
   "topLanguage": "JavaScript",
   "accountAge": "2 years",
   "accountAgePrecise": "2 years",
   "accountCreatedAt": "2024-08-03T01:58:16Z",
   "topRepo": "pterodactyl-gateway",
-  "recentRepo": "auto-commit",
+  "recentRepo": "dastermv2",
   "largestRepo": "Hacktoberfest2025-3",
   "languageDistribution": {
-    "totalBytes": 47903622,
+    "totalBytes": 47903624,
     "languagesCount": 41,
-    "entropy": 2.24831087821221,
+    "entropy": 2.248311426059593,
     "entropyMax": 5.357552004618084,
-    "redundancy": 0.5803473533669447,
-    "hhi": 3133.412225133049,
-    "gini": 0.9093175520774384,
-    "cr3": 84.87373877490934,
-    "cr5": 90.5449383347255,
+    "redundancy": 0.5803472511099096,
+    "hhi": 3133.411963509748,
+    "gini": 0.9093175120763712,
+    "cr3": 84.87373523138876,
+    "cr5": 90.54493455442953,
     "pareto80": {
       "count": 3,
       "totalCount": 41,
-      "share": 0.8487373877490934
+      "share": 0.8487373523138876
     },
-    "topShare": 48.939781630708424,
-    "geomeanBytes": 4858.838231010401,
+    "topShare": 48.939779587448335,
+    "geomeanBytes": 4859.047799244016,
     "medianBytes": 2515,
-    "cv": 3.4419456885670794,
+    "cv": 3.4419455327459736,
     "byBytes": [
       {
         "name": "JavaScript",
@@ -147,8 +147,8 @@
       },
       {
         "name": "Assembly",
-        "bytes": 1130,
-        "repos": 1
+        "bytes": 1132,
+        "repos": 2
       },
       {
         "name": "Makefile",
@@ -312,6 +312,10 @@
         "repos": 3
       },
       {
+        "name": "Assembly",
+        "repos": 2
+      },
+      {
         "name": "Swift",
         "repos": 2
       },
@@ -392,10 +396,6 @@
         "repos": 1
       },
       {
-        "name": "Assembly",
-        "repos": 1
-      },
-      {
         "name": "PowerShell",
         "repos": 1
       },
@@ -415,14 +415,14 @@
   },
   "codeTotals": {
     "totals": {
-      "files": 6406,
-      "lines": 1052079,
-      "codeLines": 945999,
-      "chars": 38810044,
-      "nonWsChars": 28421515,
-      "bytes": 38918911
+      "files": 6407,
+      "lines": 1052080,
+      "codeLines": 946000,
+      "chars": 38810046,
+      "nonWsChars": 28421516,
+      "bytes": 38918913
     },
-    "scannedFiles": 6433,
+    "scannedFiles": 6434,
     "excludedFiles": 27,
     "exclusionSamples": [
       {
@@ -713,11 +713,11 @@
       },
       {
         "name": "Assembly",
-        "files": 2,
-        "lines": 45,
-        "codeLines": 36,
-        "chars": 1130,
-        "bytes": 1130
+        "files": 3,
+        "lines": 46,
+        "codeLines": 37,
+        "chars": 1132,
+        "bytes": 1132
       },
       {
         "name": "Unknown",
@@ -998,22 +998,28 @@
   ],
   "recentRepositories": [
     {
-      "name": "auto-commit",
-      "url": "https://github.com/akaanakbaik/auto-commit",
-      "language": "Unknown",
-      "updatedAt": "2026-08-09T12:17:43Z"
-    },
-    {
       "name": "dastermv2",
       "url": "https://github.com/akaanakbaik/dastermv2",
       "language": "Shell",
-      "updatedAt": "2026-08-09T11:58:21Z"
+      "updatedAt": "2026-08-09T15:57:57Z"
+    },
+    {
+      "name": "my-cdn",
+      "url": "https://github.com/akaanakbaik/my-cdn",
+      "language": "Assembly",
+      "updatedAt": "2026-08-09T14:49:04Z"
+    },
+    {
+      "name": "auto-commit",
+      "url": "https://github.com/akaanakbaik/auto-commit",
+      "language": "Unknown",
+      "updatedAt": "2026-08-09T14:02:04Z"
     },
     {
       "name": "akaanakbaik",
       "url": "https://github.com/akaanakbaik/akaanakbaik",
       "language": "JavaScript",
-      "updatedAt": "2026-08-09T08:34:27Z"
+      "updatedAt": "2026-08-09T12:35:43Z"
     },
     {
       "name": "pterodactyl-gateway",
@@ -1038,34 +1044,28 @@
       "url": "https://github.com/akaanakbaik/odysseus",
       "language": "Unknown",
       "updatedAt": "2026-07-15T09:33:24Z"
-    },
-    {
-      "name": "mydash-vps",
-      "url": "https://github.com/akaanakbaik/mydash-vps",
-      "language": "TypeScript",
-      "updatedAt": "2026-07-11T08:01:31Z"
     }
   ],
   "activity": {
     "pullRequests": 42,
     "issues": 15,
     "reposContributed": 12,
-    "totalCommitContributions": 3411,
+    "totalCommitContributions": 3413,
     "totalIssueContributions": 11,
     "totalPRContributions": 39,
     "totalPRReviews": 0,
     "totalRepositoryContributions": 73,
-    "totalContributions": 3896
+    "totalContributions": 3898
   },
   "streak": {
-    "currentStreak": 0,
+    "currentStreak": 1,
     "longest": 80,
-    "lastActiveDate": "2026-08-07",
-    "activeDays": 206,
-    "totalContributions": 3896
+    "lastActiveDate": "2026-08-09",
+    "activeDays": 207,
+    "totalContributions": 3898
   },
   "commitHours": {
-    "sampled": 2767,
+    "sampled": 2769,
     "hourCounts": [
       110,
       26,
@@ -1088,7 +1088,7 @@
       117,
       82,
       134,
-      283,
+      285,
       362,
       358
     ],
@@ -1099,7 +1099,7 @@
       437,
       249,
       465,
-      433
+      435
     ],
     "weekdayOrder": [
       "Mon",
@@ -1112,8 +1112,8 @@
     ],
     "peakHour": 22,
     "peakWeekday": "Sat",
-    "circularMean": 19.960881523708608,
-    "circularStd": 6.105942217213574,
+    "circularMean": 19.963536798722792,
+    "circularStd": 6.101704673254917,
     "activeHours": 24,
     "reposWithCommits": 86,
     "topCommitRepos": [
@@ -1138,35 +1138,35 @@
         "count": 124
       }
     ],
-    "latestDate": "2026-08-06T23:48:56Z",
+    "latestDate": "2026-08-09T14:48:50Z",
     "rhythm": {
       "label": "Night Owl",
       "emoji": "🦉",
-      "share": 0.33140585471629924,
+      "share": 0.3311664860960636,
       "buckets": [
         {
           "name": "Night Owl",
           "emoji": "🦉",
           "count": 917,
-          "pct": 33.140585471629926
+          "pct": 33.11664860960636
         },
         {
           "name": "Early Bird",
           "emoji": "🐦",
           "count": 402,
-          "pct": 14.52837007589447
+          "pct": 14.517876489707476
         },
         {
           "name": "Day Coder",
           "emoji": "☀️",
           "count": 710,
-          "pct": 25.659559089266352
+          "pct": 25.64102564102564
         },
         {
           "name": "Evening",
           "emoji": "🌆",
-          "count": 738,
-          "pct": 26.671485363209253
+          "count": 740,
+          "pct": 26.724449259660528
         }
       ],
       "peakHour": 22
@@ -1218,6 +1218,24 @@
       "scorePct": 97.75206831083334
     },
     {
+      "name": "my-cdn",
+      "url": "https://github.com/akaanakbaik/my-cdn",
+      "language": "Assembly",
+      "watchersTotal": 0,
+      "pullRequests": 0,
+      "issues": 0,
+      "discussions": 0,
+      "daysSincePush": 0,
+      "commits": 26,
+      "score": 7.195142907769087,
+      "stars": 4,
+      "forks": 1,
+      "watchers": 0,
+      "prs": 0,
+      "recency": 1,
+      "scorePct": 69.84377441402124
+    },
+    {
       "name": "portofoliov2",
       "url": "https://github.com/akaanakbaik/portofoliov2",
       "language": "JavaScript",
@@ -1252,24 +1270,6 @@
       "prs": 0,
       "recency": 0.056888238346101516,
       "scorePct": 67.71852797516398
-    },
-    {
-      "name": "domkuv2",
-      "url": "https://github.com/akaanakbaik/domkuv2",
-      "language": "JavaScript",
-      "watchersTotal": 0,
-      "pullRequests": 13,
-      "issues": 0,
-      "discussions": 0,
-      "daysSincePush": 264,
-      "commits": 72,
-      "score": 6.971524256697018,
-      "stars": 4,
-      "forks": 0,
-      "watchers": 0,
-      "prs": 13,
-      "recency": 0.0028322986118646965,
-      "scorePct": 67.6730919382943
     }
   ]
 }

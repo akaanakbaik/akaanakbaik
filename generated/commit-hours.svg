@@ -90,8 +90,8 @@
 <rect x="823.76" y="304.95" width="23.15" height="111.05" rx="3.5" fill="url(#hourGrad)" opacity="0.85"/>
 <text x="835.33" y="298.95" text-anchor="middle" fill="#8b93a7" font-size="9.5" font-weight="600" font-family="Inter,'Segoe UI',system-ui,sans-serif">134</text>
 </g><g>
-<rect x="861.09" y="181.47" width="23.15" height="234.53" rx="3.5" fill="url(#hourGrad)" opacity="0.85"/>
-<text x="872.67" y="175.47" text-anchor="middle" fill="#8b93a7" font-size="9.5" font-weight="600" font-family="Inter,'Segoe UI',system-ui,sans-serif">283</text>
+<rect x="861.09" y="179.81" width="23.15" height="236.19" rx="3.5" fill="url(#hourGrad)" opacity="0.85"/>
+<text x="872.67" y="173.81" text-anchor="middle" fill="#8b93a7" font-size="9.5" font-weight="600" font-family="Inter,'Segoe UI',system-ui,sans-serif">285</text>
 </g><g>
 <rect x="898.43" y="116.00" width="23.15" height="300.00" rx="3.5" fill="url(#peakGrad)" opacity="1"/>
 <text x="910.00" y="110.00" text-anchor="middle" fill="#fbbf24" font-size="9.5" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">362</text>
@@ -112,7 +112,7 @@
 </g><g transform="translate(370 446)">
 <rect width="170" height="54" rx="12" fill="#0d1322" stroke="#2563eb" stroke-opacity="0.35" stroke-width="1.2"/>
 <text x="14" y="20" fill="#8b93a7" font-size="10.5" font-weight="700" letter-spacing="1.2" font-family="Inter,'Segoe UI',system-ui,sans-serif">SAMPLED COMMITS</text>
-<text x="14" y="42" fill="#2563eb" font-size="17" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">2,767</text>
+<text x="14" y="42" fill="#2563eb" font-size="17" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">2,769</text>
 </g><g transform="translate(550 446)">
 <rect width="150" height="54" rx="12" fill="#0d1322" stroke="#16a34a" stroke-opacity="0.35" stroke-width="1.2"/>
 <text x="14" y="20" fill="#8b93a7" font-size="10.5" font-weight="700" letter-spacing="1.2" font-family="Inter,'Segoe UI',system-ui,sans-serif">ACTIVE HOURS</text>
@@ -152,8 +152,8 @@
 <text x="697" y="530" text-anchor="middle" fill="#cbd5e1" font-size="10.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">465</text>
 <text x="697" y="590" text-anchor="middle" fill="#8b93a7" font-size="10.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">Sat</text>
 </g><g>
-<rect x="808" y="538.6150537634409" width="34" height="35.38494623655914" rx="4" fill="#89e051" opacity="0.9"/>
-<text x="825" y="532.6150537634409" text-anchor="middle" fill="#cbd5e1" font-size="10.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">433</text>
+<rect x="808" y="538.4516129032259" width="34" height="35.54838709677419" rx="4" fill="#89e051" opacity="0.9"/>
+<text x="825" y="532.4516129032259" text-anchor="middle" fill="#cbd5e1" font-size="10.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">435</text>
 <text x="825" y="590" text-anchor="middle" fill="#8b93a7" font-size="10.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">Sun</text>
 </g>
 
