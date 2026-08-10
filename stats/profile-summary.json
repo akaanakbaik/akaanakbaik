@@ -1,6 +1,6 @@
 {
   "username": "akaanakbaik",
-  "generatedAt": "10 Aug 2026, 03:23",
+  "generatedAt": "10 Aug 2026, 08:10",
   "publicRepos": 107,
   "originalRepos": 87,
   "forkedRepos": 20,
@@ -11,8 +11,8 @@
   "totalStars": 409,
   "totalForks": 27,
   "totalWatchers": 13,
-  "totalSize": "837.3 MB",
-  "totalSizeKb": 857440,
+  "totalSize": "837.4 MB",
+  "totalSizeKb": 857453,
   "topLanguage": "JavaScript",
   "accountAge": "2 years",
   "accountAgePrecise": "2 years",
@@ -1001,13 +1001,13 @@
       "name": "dastermv2",
       "url": "https://github.com/akaanakbaik/dastermv2",
       "language": "Shell",
-      "updatedAt": "2026-08-09T19:33:25Z"
+      "updatedAt": "2026-08-09T23:31:45Z"
     },
     {
       "name": "akaanakbaik",
       "url": "https://github.com/akaanakbaik/akaanakbaik",
       "language": "JavaScript",
-      "updatedAt": "2026-08-09T16:26:35Z"
+      "updatedAt": "2026-08-09T20:24:19Z"
     },
     {
       "name": "my-cdn",
@@ -1050,22 +1050,22 @@
     "pullRequests": 42,
     "issues": 15,
     "reposContributed": 12,
-    "totalCommitContributions": 3413,
+    "totalCommitContributions": 3407,
     "totalIssueContributions": 11,
     "totalPRContributions": 39,
     "totalPRReviews": 0,
-    "totalRepositoryContributions": 73,
-    "totalContributions": 3898
+    "totalRepositoryContributions": 72,
+    "totalContributions": 3891
   },
   "streak": {
     "currentStreak": 1,
     "longest": 80,
     "lastActiveDate": "2026-08-09",
     "activeDays": 207,
-    "totalContributions": 3898
+    "totalContributions": 3891
   },
   "commitHours": {
-    "sampled": 2768,
+    "sampled": 2767,
     "hourCounts": [
       110,
       26,
@@ -1080,7 +1080,7 @@
       64,
       117,
       134,
-      97,
+      96,
       88,
       77,
       132,
@@ -1099,7 +1099,7 @@
       437,
       249,
       465,
-      434
+      433
     ],
     "weekdayOrder": [
       "Mon",
@@ -1112,14 +1112,14 @@
     ],
     "peakHour": 22,
     "peakWeekday": "Sat",
-    "circularMean": 19.96604524399894,
-    "circularStd": 6.098177082062214,
+    "circularMean": 19.97082220174933,
+    "circularStd": 6.096537042860522,
     "activeHours": 24,
     "reposWithCommits": 86,
     "topCommitRepos": [
       {
         "repo": "akaanakbaik",
-        "count": 263
+        "count": 262
       },
       {
         "repo": "startup-tes",
@@ -1142,31 +1142,31 @@
     "rhythm": {
       "label": "Night Owl",
       "emoji": "🦉",
-      "share": 0.33128612716763006,
+      "share": 0.33140585471629924,
       "buckets": [
         {
           "name": "Night Owl",
           "emoji": "🦉",
           "count": 917,
-          "pct": 33.12861271676301
+          "pct": 33.140585471629926
         },
         {
           "name": "Early Bird",
           "emoji": "🐦",
           "count": 402,
-          "pct": 14.523121387283236
+          "pct": 14.52837007589447
         },
         {
           "name": "Day Coder",
           "emoji": "☀️",
-          "count": 709,
-          "pct": 25.61416184971098
+          "count": 708,
+          "pct": 25.587278641127575
         },
         {
           "name": "Evening",
           "emoji": "🌆",
           "count": 740,
-          "pct": 26.734104046242773
+          "pct": 26.74376581134803
         }
       ],
       "peakHour": 22
@@ -1175,7 +1175,7 @@
   "codingAge": {
     "years": 2,
     "months": 0,
-    "days": 6,
+    "days": 7,
     "totalDays": 736,
     "label": "2 years",
     "createdAt": "2024-08-03T01:58:16Z"
@@ -1186,17 +1186,17 @@
       "url": "https://github.com/akaanakbaik/pterodactyl-gateway",
       "language": "TypeScript",
       "watchersTotal": 0,
-      "pullRequests": 19,
+      "pullRequests": 21,
       "issues": 0,
       "discussions": 0,
-      "daysSincePush": 7,
+      "daysSincePush": 0,
       "commits": 159,
-      "score": 10.30176700519875,
+      "score": 10.639559180564088,
       "stars": 9,
       "forks": 0,
       "watchers": 0,
-      "prs": 19,
-      "recency": 0.8559395234122652,
+      "prs": 21,
+      "recency": 1,
       "scorePct": 100
     },
     {
@@ -1208,14 +1208,14 @@
       "issues": 0,
       "discussions": 0,
       "daysSincePush": 0,
-      "commits": 263,
-      "score": 10.066742231304122,
+      "commits": 262,
+      "score": 10.063281056705968,
       "stars": 5,
       "forks": 0,
       "watchers": 1,
       "prs": 3,
       "recency": 1,
-      "scorePct": 97.71859746220213
+      "scorePct": 94.5836278169227
     },
     {
       "name": "my-cdn",
@@ -1233,7 +1233,7 @@
       "watchers": 0,
       "prs": 0,
       "recency": 1,
-      "scorePct": 69.84377441402124
+      "scorePct": 67.62632535484065
     },
     {
       "name": "portofoliov2",
@@ -1251,7 +1251,7 @@
       "watchers": 0,
       "prs": 0,
       "recency": 0.06217652402211632,
-      "scorePct": 69.11295958067576
+      "scorePct": 66.91871294258756
     },
     {
       "name": "startup-tes",
@@ -1261,15 +1261,15 @@
       "pullRequests": 0,
       "issues": 0,
       "discussions": 0,
-      "daysSincePush": 129,
+      "daysSincePush": 130,
       "commits": 167,
-      "score": 6.976204971351728,
+      "score": 6.973704491215211,
       "stars": 4,
       "forks": 1,
       "watchers": 0,
       "prs": 0,
-      "recency": 0.056888238346101516,
-      "scorePct": 67.71852797516398
+      "recency": 0.05563799827784281,
+      "scorePct": 65.54505100130925
     }
   ]
 }

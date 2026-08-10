@@ -29,8 +29,8 @@
 <text x="730" y="28" fill="#e2e8f0" font-size="12.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">★ 9</text>
 <text x="796" y="28" fill="#e2e8f0" font-size="12.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">⑂ 0</text>
 <text x="862" y="28" fill="#cbd5e1" font-size="12.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">159 commits</text>
-<text x="730" y="50" fill="#cbd5e1" font-size="11.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">19 PR · 0 IS · 0 W</text>
-<text x="850" y="50" fill="#5b6478" font-size="11.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">pushed 7 d ago</text>
+<text x="730" y="50" fill="#cbd5e1" font-size="11.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">21 PR · 0 IS · 0 W</text>
+<text x="850" y="50" fill="#5b6478" font-size="11.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">pushed today</text>
 <text x="960" y="38" fill="#64748b" font-size="10.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">score</text>
 </g></a><a href="https://github.com/akaanakbaik/akaanakbaik"><g transform="translate(30 196)">
 <rect width="940" height="76" rx="18" fill="#0d1322" stroke="#c7cedb" stroke-opacity="0.5" stroke-width="1.4"/>
@@ -40,11 +40,11 @@
 <circle cx="72" cy="50" r="4" fill="#f1e05a"/>
 <text x="84" y="54" fill="#8b93a7" font-size="11.5" font-weight="600" font-family="Inter,'Segoe UI',system-ui,sans-serif">JavaScript</text>
 <rect x="72" y="63" width="560" height="7" rx="3.5" fill="#1e293b"/>
-<rect x="72" y="63" width="547.224145788332" height="7" rx="3.5" fill="url(#scoreGrad1)"/>
-<text x="660" y="69" fill="#c7cedb" font-size="16" font-weight="900" font-family="Inter,'Segoe UI',system-ui,sans-serif">97.7</text>
+<rect x="72" y="63" width="529.6683157747672" height="7" rx="3.5" fill="url(#scoreGrad1)"/>
+<text x="660" y="69" fill="#c7cedb" font-size="16" font-weight="900" font-family="Inter,'Segoe UI',system-ui,sans-serif">94.6</text>
 <text x="730" y="28" fill="#e2e8f0" font-size="12.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">★ 5</text>
 <text x="796" y="28" fill="#e2e8f0" font-size="12.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">⑂ 0</text>
-<text x="862" y="28" fill="#cbd5e1" font-size="12.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">263 commits</text>
+<text x="862" y="28" fill="#cbd5e1" font-size="12.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">262 commits</text>
 <text x="730" y="50" fill="#cbd5e1" font-size="11.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">3 PR · 0 IS · 1 W</text>
 <text x="850" y="50" fill="#5b6478" font-size="11.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">pushed today</text>
 <text x="960" y="38" fill="#64748b" font-size="10.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">score</text>
@@ -56,8 +56,8 @@
 <circle cx="72" cy="50" r="4" fill="#6E4C13"/>
 <text x="84" y="54" fill="#8b93a7" font-size="11.5" font-weight="600" font-family="Inter,'Segoe UI',system-ui,sans-serif">Assembly</text>
 <rect x="72" y="63" width="560" height="7" rx="3.5" fill="#1e293b"/>
-<rect x="72" y="63" width="391.12513671851895" height="7" rx="3.5" fill="url(#scoreGrad2)"/>
-<text x="660" y="69" fill="#c08552" font-size="16" font-weight="900" font-family="Inter,'Segoe UI',system-ui,sans-serif">69.8</text>
+<rect x="72" y="63" width="378.7074219871076" height="7" rx="3.5" fill="url(#scoreGrad2)"/>
+<text x="660" y="69" fill="#c08552" font-size="16" font-weight="900" font-family="Inter,'Segoe UI',system-ui,sans-serif">67.6</text>
 <text x="730" y="28" fill="#e2e8f0" font-size="12.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">★ 4</text>
 <text x="796" y="28" fill="#e2e8f0" font-size="12.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">⑂ 1</text>
 <text x="862" y="28" fill="#cbd5e1" font-size="12.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">26 commits</text>
@@ -72,8 +72,8 @@
 <circle cx="72" cy="50" r="4" fill="#f1e05a"/>
 <text x="84" y="54" fill="#8b93a7" font-size="11.5" font-weight="600" font-family="Inter,'Segoe UI',system-ui,sans-serif">JavaScript</text>
 <rect x="72" y="63" width="560" height="7" rx="3.5" fill="#1e293b"/>
-<rect x="72" y="63" width="387.0325736517843" height="7" rx="3.5" fill="url(#scoreGrad3)"/>
-<text x="660" y="69" fill="#667eea" font-size="16" font-weight="900" font-family="Inter,'Segoe UI',system-ui,sans-serif">69.1</text>
+<rect x="72" y="63" width="374.74479247849035" height="7" rx="3.5" fill="url(#scoreGrad3)"/>
+<text x="660" y="69" fill="#667eea" font-size="16" font-weight="900" font-family="Inter,'Segoe UI',system-ui,sans-serif">66.9</text>
 <text x="730" y="28" fill="#e2e8f0" font-size="12.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">★ 4</text>
 <text x="796" y="28" fill="#e2e8f0" font-size="12.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">⑂ 2</text>
 <text x="862" y="28" fill="#cbd5e1" font-size="12.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">139 commits</text>
@@ -88,8 +88,8 @@
 <circle cx="72" cy="50" r="4" fill="#f1e05a"/>
 <text x="84" y="54" fill="#8b93a7" font-size="11.5" font-weight="600" font-family="Inter,'Segoe UI',system-ui,sans-serif">JavaScript</text>
 <rect x="72" y="63" width="560" height="7" rx="3.5" fill="#1e293b"/>
-<rect x="72" y="63" width="379.2237566609183" height="7" rx="3.5" fill="url(#scoreGrad4)"/>
-<text x="660" y="69" fill="#764ba2" font-size="16" font-weight="900" font-family="Inter,'Segoe UI',system-ui,sans-serif">67.7</text>
+<rect x="72" y="63" width="367.0522856073318" height="7" rx="3.5" fill="url(#scoreGrad4)"/>
+<text x="660" y="69" fill="#764ba2" font-size="16" font-weight="900" font-family="Inter,'Segoe UI',system-ui,sans-serif">65.5</text>
 <text x="730" y="28" fill="#e2e8f0" font-size="12.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">★ 4</text>
 <text x="796" y="28" fill="#e2e8f0" font-size="12.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">⑂ 1</text>
 <text x="862" y="28" fill="#cbd5e1" font-size="12.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">167 commits</text>
