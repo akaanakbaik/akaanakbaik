@@ -40,45 +40,45 @@
 <circle cx="72" cy="50" r="4" fill="#f1e05a"/>
 <text x="84" y="54" fill="#8b93a7" font-size="11.5" font-weight="600" font-family="Inter,'Segoe UI',system-ui,sans-serif">JavaScript</text>
 <rect x="72" y="63" width="560" height="7" rx="3.5" fill="#1e293b"/>
-<rect x="72" y="63" width="530.940351710122" height="7" rx="3.5" fill="url(#scoreGrad1)"/>
+<rect x="72" y="63" width="530.7531588892217" height="7" rx="3.5" fill="url(#scoreGrad1)"/>
 <text x="660" y="69" fill="#c7cedb" font-size="16" font-weight="900" font-family="Inter,'Segoe UI',system-ui,sans-serif">94.8</text>
 <text x="730" y="28" fill="#e2e8f0" font-size="12.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">★ 5</text>
 <text x="796" y="28" fill="#e2e8f0" font-size="12.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">⑂ 0</text>
-<text x="862" y="28" fill="#cbd5e1" font-size="12.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">257 commits</text>
+<text x="862" y="28" fill="#cbd5e1" font-size="12.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">256 commits</text>
 <text x="730" y="50" fill="#cbd5e1" font-size="11.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">3 PR · 0 IS · 1 W</text>
 <text x="850" y="50" fill="#5b6478" font-size="11.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">pushed today</text>
 <text x="960" y="38" fill="#64748b" font-size="10.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">score</text>
-</g></a><a href="https://github.com/akaanakbaik/my-cdn"><g transform="translate(30 284)">
+</g></a><a href="https://github.com/akaanakbaik/portofoliov2"><g transform="translate(30 284)">
 <rect width="940" height="76" rx="18" fill="#0d1322" stroke="#c08552" stroke-opacity="0.5" stroke-width="1.4"/>
 <circle cx="38" cy="38" r="20" fill="#c08552" fill-opacity="0.16" stroke="#c08552" stroke-width="2"/>
 <text x="38" y="44" text-anchor="middle" fill="#c08552" font-size="17" font-weight="900" font-family="Inter,'Segoe UI',system-ui,sans-serif">3</text>
-<text x="72" y="30" fill="#ffffff" font-size="18.5" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">my-cdn</text>
-<circle cx="72" cy="50" r="4" fill="#6E4C13"/>
-<text x="84" y="54" fill="#8b93a7" font-size="11.5" font-weight="600" font-family="Inter,'Segoe UI',system-ui,sans-serif">Assembly</text>
-<rect x="72" y="63" width="560" height="7" rx="3.5" fill="#1e293b"/>
-<rect x="72" y="63" width="377.955357308859" height="7" rx="3.5" fill="url(#scoreGrad2)"/>
-<text x="660" y="69" fill="#c08552" font-size="16" font-weight="900" font-family="Inter,'Segoe UI',system-ui,sans-serif">67.5</text>
-<text x="730" y="28" fill="#e2e8f0" font-size="12.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">★ 4</text>
-<text x="796" y="28" fill="#e2e8f0" font-size="12.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">⑂ 1</text>
-<text x="862" y="28" fill="#cbd5e1" font-size="12.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">26 commits</text>
-<text x="730" y="50" fill="#cbd5e1" font-size="11.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">0 PR · 0 IS · 0 W</text>
-<text x="850" y="50" fill="#5b6478" font-size="11.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">pushed today</text>
-<text x="960" y="38" fill="#64748b" font-size="10.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">score</text>
-</g></a><a href="https://github.com/akaanakbaik/portofoliov2"><g transform="translate(30 372)">
-<rect width="940" height="76" rx="18" fill="#0d1322" stroke="#667eea" stroke-opacity="0.5" stroke-width="1.4"/>
-<circle cx="38" cy="38" r="20" fill="#667eea" fill-opacity="0.16" stroke="#667eea" stroke-width="2"/>
-<text x="38" y="44" text-anchor="middle" fill="#667eea" font-size="17" font-weight="900" font-family="Inter,'Segoe UI',system-ui,sans-serif">4</text>
 <text x="72" y="30" fill="#ffffff" font-size="18.5" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">portofoliov2</text>
 <circle cx="72" cy="50" r="4" fill="#f1e05a"/>
 <text x="84" y="54" fill="#8b93a7" font-size="11.5" font-weight="600" font-family="Inter,'Segoe UI',system-ui,sans-serif">JavaScript</text>
 <rect x="72" y="63" width="560" height="7" rx="3.5" fill="#1e293b"/>
-<rect x="72" y="63" width="376.1549235206107" height="7" rx="3.5" fill="url(#scoreGrad3)"/>
-<text x="660" y="69" fill="#667eea" font-size="16" font-weight="900" font-family="Inter,'Segoe UI',system-ui,sans-serif">67.2</text>
+<rect x="72" y="63" width="376.1549235206107" height="7" rx="3.5" fill="url(#scoreGrad2)"/>
+<text x="660" y="69" fill="#c08552" font-size="16" font-weight="900" font-family="Inter,'Segoe UI',system-ui,sans-serif">67.2</text>
 <text x="730" y="28" fill="#e2e8f0" font-size="12.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">★ 4</text>
 <text x="796" y="28" fill="#e2e8f0" font-size="12.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">⑂ 2</text>
 <text x="862" y="28" fill="#cbd5e1" font-size="12.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">139 commits</text>
 <text x="730" y="50" fill="#cbd5e1" font-size="11.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">0 PR · 0 IS · 0 W</text>
 <text x="850" y="50" fill="#5b6478" font-size="11.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">pushed 4 mo ago</text>
+<text x="960" y="38" fill="#64748b" font-size="10.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">score</text>
+</g></a><a href="https://github.com/akaanakbaik/my-cdn"><g transform="translate(30 372)">
+<rect width="940" height="76" rx="18" fill="#0d1322" stroke="#667eea" stroke-opacity="0.5" stroke-width="1.4"/>
+<circle cx="38" cy="38" r="20" fill="#667eea" fill-opacity="0.16" stroke="#667eea" stroke-width="2"/>
+<text x="38" y="44" text-anchor="middle" fill="#667eea" font-size="17" font-weight="900" font-family="Inter,'Segoe UI',system-ui,sans-serif">4</text>
+<text x="72" y="30" fill="#ffffff" font-size="18.5" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">my-cdn</text>
+<circle cx="72" cy="50" r="4" fill="#6E4C13"/>
+<text x="84" y="54" fill="#8b93a7" font-size="11.5" font-weight="600" font-family="Inter,'Segoe UI',system-ui,sans-serif">Assembly</text>
+<rect x="72" y="63" width="560" height="7" rx="3.5" fill="#1e293b"/>
+<rect x="72" y="63" width="375.68333701775254" height="7" rx="3.5" fill="url(#scoreGrad3)"/>
+<text x="660" y="69" fill="#667eea" font-size="16" font-weight="900" font-family="Inter,'Segoe UI',system-ui,sans-serif">67.1</text>
+<text x="730" y="28" fill="#e2e8f0" font-size="12.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">★ 4</text>
+<text x="796" y="28" fill="#e2e8f0" font-size="12.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">⑂ 1</text>
+<text x="862" y="28" fill="#cbd5e1" font-size="12.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">26 commits</text>
+<text x="730" y="50" fill="#cbd5e1" font-size="11.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">0 PR · 0 IS · 0 W</text>
+<text x="850" y="50" fill="#5b6478" font-size="11.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">pushed 2 d ago</text>
 <text x="960" y="38" fill="#64748b" font-size="10.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">score</text>
 </g></a><a href="https://github.com/akaanakbaik/domkuv2"><g transform="translate(30 460)">
 <rect width="940" height="76" rx="18" fill="#0d1322" stroke="#764ba2" stroke-opacity="0.5" stroke-width="1.4"/>
