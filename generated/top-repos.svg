@@ -40,11 +40,11 @@
 <circle cx="72" cy="50" r="4" fill="#f1e05a"/>
 <text x="84" y="54" fill="#8b93a7" font-size="11.5" font-weight="600" font-family="Inter,'Segoe UI',system-ui,sans-serif">JavaScript</text>
 <rect x="72" y="63" width="560" height="7" rx="3.5" fill="#1e293b"/>
-<rect x="72" y="63" width="527.2348963457991" height="7" rx="3.5" fill="url(#scoreGrad1)"/>
+<rect x="72" y="63" width="527.0424994636547" height="7" rx="3.5" fill="url(#scoreGrad1)"/>
 <text x="660" y="69" fill="#c7cedb" font-size="16" font-weight="900" font-family="Inter,'Segoe UI',system-ui,sans-serif">94.1</text>
 <text x="730" y="28" fill="#e2e8f0" font-size="12.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">★ 5</text>
 <text x="796" y="28" fill="#e2e8f0" font-size="12.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">⑂ 0</text>
-<text x="862" y="28" fill="#cbd5e1" font-size="12.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">249 commits</text>
+<text x="862" y="28" fill="#cbd5e1" font-size="12.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">248 commits</text>
 <text x="730" y="50" fill="#cbd5e1" font-size="11.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">3 PR · 0 IS · 1 W</text>
 <text x="850" y="50" fill="#5b6478" font-size="11.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">pushed today</text>
 <text x="960" y="38" fill="#64748b" font-size="10.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">score</text>
@@ -56,8 +56,8 @@
 <circle cx="72" cy="50" r="4" fill="#f1e05a"/>
 <text x="84" y="54" fill="#8b93a7" font-size="11.5" font-weight="600" font-family="Inter,'Segoe UI',system-ui,sans-serif">JavaScript</text>
 <rect x="72" y="63" width="560" height="7" rx="3.5" fill="#1e293b"/>
-<rect x="72" y="63" width="374.46026575386304" height="7" rx="3.5" fill="url(#scoreGrad2)"/>
-<text x="660" y="69" fill="#c08552" font-size="16" font-weight="900" font-family="Inter,'Segoe UI',system-ui,sans-serif">66.9</text>
+<rect x="72" y="63" width="374.32267483267873" height="7" rx="3.5" fill="url(#scoreGrad2)"/>
+<text x="660" y="69" fill="#c08552" font-size="16" font-weight="900" font-family="Inter,'Segoe UI',system-ui,sans-serif">66.8</text>
 <text x="730" y="28" fill="#e2e8f0" font-size="12.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">★ 4</text>
 <text x="796" y="28" fill="#e2e8f0" font-size="12.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">⑂ 2</text>
 <text x="862" y="28" fill="#cbd5e1" font-size="12.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">139 commits</text>
