@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "verifiedAt": "2026-08-13T14:56:13.033Z",
+  "verifiedAt": "2026-08-13T14:59:08.901Z",
   "repositories": 107,
-  "scannedFiles": 17677,
+  "scannedFiles": 17678,
   "excludedFiles": 2,
   "policy": "all tracked regular source files; Unicode code points; notebook code cells; no file-size limit; dependencies and generated source included when tracked",
   "totals": {
-    "files": 17675,
-    "lines": 3405905,
-    "codeLines": 3167308,
-    "chars": 144820366,
-    "nonWsChars": 110398227,
-    "bytes": 146289828
+    "files": 17676,
+    "lines": 3405935,
+    "codeLines": 3167337,
+    "chars": 144821724,
+    "nonWsChars": 110399143,
+    "bytes": 146291189
   }
 }
