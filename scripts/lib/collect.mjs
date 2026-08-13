@@ -106,28 +106,18 @@ export function computeLanguageMath(byBytes, byRepo) {
   };
 }
 
-export async function fetchPerRepoLanguages(client, username, allRepos, log) {
+export async function fetchPerRepoLanguages(client, username, allRepos) {
   const tasks = allRepos.map((repo) => async () => {
-    try {
-      const languages = await client.request(`/repos/${username}/${encodeURIComponent(repo.name)}/languages`);
-      return { repo: repo.name, languages: languages || {} };
-    } catch (error) {
-      log(`languages skip ${repo.name}: ${error.message}`);
-      return { repo: repo.name, languages: {} };
-    }
+    const languages = await client.request(`/repos/${username}/${encodeURIComponent(repo.name)}/languages`);
+    return { repo: repo.name, languages: languages || {} };
   });
   return runPool(tasks, 14);
 }
 
-export async function fetchPerRepoSubscribers(client, username, allRepos, log) {
+export async function fetchPerRepoSubscribers(client, username, allRepos) {
   const tasks = allRepos.map((repo) => async () => {
-    try {
-      const full = await client.request(`/repos/${username}/${encodeURIComponent(repo.name)}`);
-      return { repo: repo.name, subscribers: full && full.subscribers_count ? full.subscribers_count : 0 };
-    } catch (error) {
-      log(`subscribers skip ${repo.name}: ${error.message}`);
-      return { repo: repo.name, subscribers: 0 };
-    }
+    const full = await client.request(`/repos/${username}/${encodeURIComponent(repo.name)}`);
+    return { repo: repo.name, subscribers: full && full.subscribers_count ? full.subscribers_count : 0 };
   });
   return runPool(tasks, 14);
 }
@@ -182,9 +172,9 @@ export async function fetchProfileData({ username, token = '', log = () => {} })
   const totalForks = allRepos.reduce((a, r) => a + (r.forks_count || 0), 0);
   const totalSizeKb = allRepos.reduce((a, r) => a + (r.size || 0), 0);
   log('fetching languages for every repository');
-  const perRepoLanguages = await fetchPerRepoLanguages(client, username, allRepos, log);
+  const perRepoLanguages = await fetchPerRepoLanguages(client, username, allRepos);
   log('fetching real subscriber (watch) counts for every repository');
-  const perRepoSubscribers = await fetchPerRepoSubscribers(client, username, allRepos, log);
+  const perRepoSubscribers = await fetchPerRepoSubscribers(client, username, allRepos);
   const totalWatchers = perRepoSubscribers.reduce((a, s) => a + s.subscribers, 0);
   const byBytes = new Map();
   const byRepo = new Map();

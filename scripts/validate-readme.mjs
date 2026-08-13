@@ -6,6 +6,8 @@ const README_PATH = 'README.md';
 const URL_PATTERN = /https?:\/\/[^\s"'<>]+/g;
 const ENDPOINT_PATTERN = /badges%2F([A-Za-z0-9._-]+)\.json/g;
 const timeoutMs = 20000;
+const BADGE_STYLE = 'for-the-badge';
+const BADGE_CACHE_SECONDS = '300';
 
 function unique(values) {
   return [...new Set(values)];
@@ -88,6 +90,18 @@ async function main() {
   const available = new Set(await readdir('badges'));
   const missing = badgeNames.filter((name) => !available.has(name));
   if (missing.length) throw new Error(`README references missing endpoint badges: ${missing.join(', ')}`);
+  const unused = [...available].filter((name) => name.endsWith('.json') && !badgeNames.includes(name));
+  if (unused.length) throw new Error(`Badge payloads are not referenced by README: ${unused.join(', ')}`);
+  const endpointUrls = urls.filter((url) => url.startsWith('https://img.shields.io/endpoint?'));
+  if (endpointUrls.length !== badgeNames.length) throw new Error(`Expected one endpoint URL per badge payload, found ${endpointUrls.length} URLs for ${badgeNames.length} payloads`);
+  const visualBadgeUrls = urls.filter((url) => url.startsWith('https://img.shields.io/endpoint?') || url.startsWith('https://img.shields.io/badge/') || /\/badge\.svg\?/.test(url));
+  for (const url of visualBadgeUrls) {
+    if (!url.includes(`style=${BADGE_STYLE}`)) throw new Error(`Badge does not use ${BADGE_STYLE}: ${url}`);
+  }
+  for (const url of endpointUrls) {
+    if (!url.includes(`cacheSeconds=${BADGE_CACHE_SECONDS}`)) throw new Error(`Endpoint badge does not use cacheSeconds=${BADGE_CACHE_SECONDS}: ${url}`);
+    if (!url.includes('logoSize=auto')) throw new Error(`Endpoint badge does not use adaptive logo sizing: ${url}`);
+  }
   const badges = await validateBadges();
   const failures = [];
   let completed = 0;
@@ -112,7 +126,7 @@ async function main() {
     for (const failure of failures) console.error(`FAIL ${failure}`);
     throw new Error(`${failures.length} README URLs failed`);
   }
-  console.log(`Validated ${urls.length} README URLs and ${badges.length} badge payloads`);
+  console.log(`Validated ${urls.length} README URLs, ${badges.length} badge payloads, and ${visualBadgeUrls.length} uniform badge renderers`);
 }
 
 main().catch((error) => {

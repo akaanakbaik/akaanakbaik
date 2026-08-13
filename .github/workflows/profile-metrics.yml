@@ -9,7 +9,7 @@ on:
       - stats/**
       - generated/**
   schedule:
-    - cron: '0 */4 * * *'
+    - cron: '17 * * * *'
   workflow_dispatch:
 
 concurrency:

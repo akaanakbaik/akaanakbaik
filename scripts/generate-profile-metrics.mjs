@@ -217,7 +217,7 @@ async function main() {
     await writeBadge('last-active', 'last active', lastActiveIso ? relativeTime(lastActiveIso) : 'unknown', '06b6d4');
     await writeBadge('peak-hour', 'peak coding hour', `${commitHours.peakHour}:00 WIB`, 'db2777');
   } catch (error) {
-    log(`activity collection skipped: ${error.message}`);
+    throw new Error(`activity collection failed: ${error.message}`);
   }
   const activitySafe = activity || {
     pullRequests: 0,

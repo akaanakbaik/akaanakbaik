@@ -266,28 +266,20 @@ export async function fetchCommitTimestamps(client, username, allRepos, log = ()
     return owned;
   };
   const tasks = allRepos.map((repo) => async () => {
+    let owned = 0;
+    let page = 1;
     try {
-      let owned = 0;
-      const commits = await client.request(`/repos/${username}/${encodeURIComponent(repo.name)}/commits?per_page=100&page=1`);
-      if (!Array.isArray(commits) || commits.length === 0) {
-        perRepoCounts.push({ repo: repo.name, count: 0 });
-        return;
-      }
-      owned += processCommits(commits, repo);
-      let page = 2;
-      let current = commits;
-      while (current.length === 100 && page <= 4) {
-        const more = await client.request(`/repos/${username}/${encodeURIComponent(repo.name)}/commits?per_page=100&page=${page}`);
-        if (!Array.isArray(more) || more.length === 0) break;
-        owned += processCommits(more, repo);
-        current = more;
+      while (true) {
+        const commits = await client.request(`/repos/${username}/${encodeURIComponent(repo.name)}/commits?per_page=100&page=${page}`);
+        if (!Array.isArray(commits) || commits.length === 0) break;
+        owned += processCommits(commits, repo);
+        if (commits.length < 100) break;
         page += 1;
       }
-      perRepoCounts.push({ repo: repo.name, count: owned });
     } catch (error) {
-      log(`commits skip ${repo.name}: ${error.message}`);
-      perRepoCounts.push({ repo: repo.name, count: 0 });
+      if (!String(error.message || error).startsWith('409 ')) throw error;
     }
+    perRepoCounts.push({ repo: repo.name, count: owned });
   });
   await runPool(tasks, 10);
   const hourCounts = Array.from({ length: 24 }, (_, i) => hours.filter((h) => h === i).length);

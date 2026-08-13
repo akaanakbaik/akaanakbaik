@@ -7,7 +7,14 @@ const token = process.env.GITHUB_TOKEN || '';
 const DAYS_BACK = 30;
 
 function iso(d) {
-  return d.toISOString().slice(0, 10);
+  const parts = new Intl.DateTimeFormat('en-GB', {
+    timeZone: 'Asia/Jakarta',
+    year: 'numeric',
+    month: '2-digit',
+    day: '2-digit'
+  }).formatToParts(d);
+  const date = Object.fromEntries(parts.filter((part) => part.type !== 'literal').map((part) => [part.type, part.value]));
+  return `${date.year}-${date.month}-${date.day}`;
 }
 
 function shortDate(isoStr) {
@@ -15,10 +22,11 @@ function shortDate(isoStr) {
   return new Intl.DateTimeFormat('en-GB', { timeZone: 'Asia/Jakarta', day: '2-digit', month: 'short' }).format(d);
 }
 
-async function fetchRepoCommits(client, username, repo, sinceIso, log) {
+async function fetchRepoCommits(client, username, repo, sinceIso) {
+  const owned = [];
+  let page = 1;
   try {
-    const owned = [];
-    for (let page = 1; page <= 10; page += 1) {
+    while (true) {
       const commits = await client.request(`/repos/${username}/${encodeURIComponent(repo.name)}/commits?since=${sinceIso}&per_page=100&page=${page}`);
       if (!Array.isArray(commits) || commits.length === 0) break;
       for (const c of commits) {
@@ -28,12 +36,12 @@ async function fetchRepoCommits(client, username, repo, sinceIso, log) {
         owned.push({ date, sha: c.sha, message: (c.commit.message || '').split('\n')[0] });
       }
       if (commits.length < 100) break;
+      page += 1;
     }
-    return { repo: repo.name, commits: owned };
   } catch (error) {
-    log(`monthly commits skip ${repo.name}: ${error.message}`);
-    return { repo: repo.name, commits: [] };
+    if (!String(error.message || error).startsWith('409 ')) throw error;
   }
+  return { repo: repo.name, commits: owned };
 }
 
 function computeStats(allCommits, daysBack) {
@@ -132,7 +140,7 @@ async function main() {
   const rangeEnd = shortDate(now.toISOString());
   log(`collecting commits since ${sinceIso}`);
   const allRepos = (await client.paginate(`/users/${username}/repos?type=owner&sort=updated&direction=desc`)).filter((r) => !r.private);
-  const tasks = allRepos.map((repo) => async () => fetchRepoCommits(client, username, repo, sinceIso, log));
+  const tasks = allRepos.map((repo) => async () => fetchRepoCommits(client, username, repo, sinceIso));
   const results = await runPool(tasks, 12);
   const enriched = results.map((r) => {
     const repo = allRepos.find((x) => x.name === r.repo);

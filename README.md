@@ -8,17 +8,17 @@
 
 <br />
 
-<a href="https://github.com/akaanakbaik?tab=followers"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaanakbaik%2Fakaanakbaik%2Fmain%2Fbadges%2Ffollowers.json&cacheSeconds=14400&style=for-the-badge&logo=github&logoColor=white" alt="Followers" /></a>&nbsp;
-<a href="https://github.com/akaanakbaik"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaanakbaik%2Fakaanakbaik%2Fmain%2Fbadges%2Ftotal-stars.json&cacheSeconds=14400&style=for-the-badge&logo=github&logoColor=white" alt="Total stars" /></a>&nbsp;
-<a href="https://github.com/akaanakbaik"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaanakbaik%2Fakaanakbaik%2Fmain%2Fbadges%2Fpublic-repos.json&cacheSeconds=14400&style=for-the-badge&logo=github&logoColor=white" alt="Public repositories" /></a>&nbsp;
-<a href="https://github.com/akaanakbaik/akaanakbaik/actions/workflows/profile-metrics.yml"><img src="https://github.com/akaanakbaik/akaanakbaik/actions/workflows/profile-metrics.yml/badge.svg?branch=main" alt="Profile metrics workflow" /></a>&nbsp;
-<a href="https://github.com/akaanakbaik/akaanakbaik/actions/workflows/readme-health.yml"><img src="https://github.com/akaanakbaik/akaanakbaik/actions/workflows/readme-health.yml/badge.svg?branch=main" alt="README health workflow" /></a>
+<a href="https://github.com/akaanakbaik?tab=followers"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaanakbaik%2Fakaanakbaik%2Fmain%2Fbadges%2Ffollowers.json&cacheSeconds=300&style=for-the-badge&logoSize=auto&logo=github&logoColor=white" alt="Followers" /></a>&nbsp;
+<a href="https://github.com/akaanakbaik"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaanakbaik%2Fakaanakbaik%2Fmain%2Fbadges%2Ftotal-stars.json&cacheSeconds=300&style=for-the-badge&logoSize=auto&logo=github&logoColor=white" alt="Total stars" /></a>&nbsp;
+<a href="https://github.com/akaanakbaik"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaanakbaik%2Fakaanakbaik%2Fmain%2Fbadges%2Fpublic-repos.json&cacheSeconds=300&style=for-the-badge&logoSize=auto&logo=github&logoColor=white" alt="Public repositories" /></a>&nbsp;
+<a href="https://github.com/akaanakbaik/akaanakbaik/actions/workflows/profile-metrics.yml"><img src="https://github.com/akaanakbaik/akaanakbaik/actions/workflows/profile-metrics.yml/badge.svg?branch=main&style=for-the-badge" alt="Profile metrics workflow" /></a>&nbsp;
+<a href="https://github.com/akaanakbaik/akaanakbaik/actions/workflows/readme-health.yml"><img src="https://github.com/akaanakbaik/akaanakbaik/actions/workflows/readme-health.yml/badge.svg?branch=main&style=for-the-badge" alt="README health workflow" /></a>
 
 <br />
 
-<a href="https://t.me/akamodebaik"><img src="https://img.shields.io/badge/Telegram-2CA5E0?style=flat-square&logo=telegram&logoColor=white" alt="Telegram" /></a>&nbsp;
-<a href="https://www.instagram.com/kenal.aka"><img src="https://img.shields.io/badge/Instagram-E4405F?style=flat-square&logo=instagram&logoColor=white" alt="Instagram" /></a>&nbsp;
-<a href="mailto:furinabyaka@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
+<a href="https://t.me/akamodebaik"><img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logoSize=auto&logo=telegram&logoColor=white" alt="Telegram" /></a>&nbsp;
+<a href="https://www.instagram.com/kenal.aka"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logoSize=auto&logo=instagram&logoColor=white" alt="Instagram" /></a>&nbsp;
+<a href="mailto:furinabyaka@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logoSize=auto&logo=gmail&logoColor=white" alt="Email" /></a>
 
 </div>
 
@@ -49,15 +49,15 @@ I build practical projects while learning: web apps, bot systems, Linux/VPS tool
 
 <br />
 
-<a href="https://github.com/akaanakbaik"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaanakbaik%2Fakaanakbaik%2Fmain%2Fbadges%2Ftotal-forks.json&cacheSeconds=14400&style=flat-square&logo=git&logoColor=white" alt="Total forks" /></a>&nbsp;
-<a href="https://github.com/akaanakbaik"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaanakbaik%2Fakaanakbaik%2Fmain%2Fbadges%2Ftotal-watchers.json&cacheSeconds=14400&style=flat-square&logo=github&logoColor=white" alt="Total watchers" /></a>&nbsp;
-<a href="https://github.com/akaanakbaik"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaanakbaik%2Fakaanakbaik%2Fmain%2Fbadges%2Ftop-language.json&cacheSeconds=14400&style=flat-square&logo=codeforces&logoColor=white" alt="Top language" /></a>&nbsp;
-<a href="https://github.com/akaanakbaik"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaanakbaik%2Fakaanakbaik%2Fmain%2Fbadges%2Flanguage-count.json&cacheSeconds=14400&style=flat-square&logo=polywork&logoColor=white" alt="Language count" /></a>&nbsp;
-<a href="https://github.com/akaanakbaik"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaanakbaik%2Fakaanakbaik%2Fmain%2Fbadges%2Fcode-files.json&cacheSeconds=14400&style=flat-square&logo=files&logoColor=white" alt="Code files" /></a>
+<a href="https://github.com/akaanakbaik"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaanakbaik%2Fakaanakbaik%2Fmain%2Fbadges%2Ftotal-forks.json&cacheSeconds=300&style=for-the-badge&logoSize=auto&logo=git&logoColor=white" alt="Total forks" /></a>&nbsp;
+<a href="https://github.com/akaanakbaik"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaanakbaik%2Fakaanakbaik%2Fmain%2Fbadges%2Ftotal-watchers.json&cacheSeconds=300&style=for-the-badge&logoSize=auto&logo=github&logoColor=white" alt="Total watchers" /></a>&nbsp;
+<a href="https://github.com/akaanakbaik"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaanakbaik%2Fakaanakbaik%2Fmain%2Fbadges%2Ftop-language.json&cacheSeconds=300&style=for-the-badge&logoSize=auto&logo=codeforces&logoColor=white" alt="Top language" /></a>&nbsp;
+<a href="https://github.com/akaanakbaik"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaanakbaik%2Fakaanakbaik%2Fmain%2Fbadges%2Flanguage-count.json&cacheSeconds=300&style=for-the-badge&logoSize=auto&logo=polywork&logoColor=white" alt="Language count" /></a>&nbsp;
+<a href="https://github.com/akaanakbaik"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaanakbaik%2Fakaanakbaik%2Fmain%2Fbadges%2Fcode-files.json&cacheSeconds=300&style=for-the-badge&logoSize=auto&logo=files&logoColor=white" alt="Code files" /></a>
 
 </div>
 
-> This section is generated from the GitHub REST and GraphQL APIs. The authoritative snapshot runs automatically every four hours, on pushes that affect the profile, and on manual dispatch.
+> This section is generated from the GitHub REST and GraphQL APIs. The verified snapshot runs automatically every hour at minute 17 UTC, on pushes that affect the profile, and on manual dispatch. Badge delivery uses a short cache to surface each completed snapshot promptly.
 
 ---
 
@@ -86,9 +86,9 @@ I build practical projects while learning: web apps, bot systems, Linux/VPS tool
 
 <br />
 
-<a href="https://github.com/akaanakbaik"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaanakbaik%2Fakaanakbaik%2Fmain%2Fbadges%2Ftotal-lines.json&cacheSeconds=14400&style=flat-square&logo=githubactions&logoColor=white" alt="Tracked source lines" /></a>&nbsp;
-<a href="https://github.com/akaanakbaik"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaanakbaik%2Fakaanakbaik%2Fmain%2Fbadges%2Ftotal-chars.json&cacheSeconds=14400&style=flat-square&logo=githubactions&logoColor=white" alt="Tracked source characters" /></a>&nbsp;
-<a href="https://github.com/akaanakbaik"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaanakbaik%2Fakaanakbaik%2Fmain%2Fbadges%2Frepo-size.json&cacheSeconds=14400&style=flat-square&logo=databricks&logoColor=white" alt="Repository size" /></a>
+<a href="https://github.com/akaanakbaik"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaanakbaik%2Fakaanakbaik%2Fmain%2Fbadges%2Ftotal-lines.json&cacheSeconds=300&style=for-the-badge&logoSize=auto&logo=githubactions&logoColor=white" alt="Tracked source lines" /></a>&nbsp;
+<a href="https://github.com/akaanakbaik"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaanakbaik%2Fakaanakbaik%2Fmain%2Fbadges%2Ftotal-chars.json&cacheSeconds=300&style=for-the-badge&logoSize=auto&logo=githubactions&logoColor=white" alt="Tracked source characters" /></a>&nbsp;
+<a href="https://github.com/akaanakbaik"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaanakbaik%2Fakaanakbaik%2Fmain%2Fbadges%2Frepo-size.json&cacheSeconds=300&style=for-the-badge&logoSize=auto&logo=databricks&logoColor=white" alt="Repository size" /></a>
 
 </div>
 
@@ -115,13 +115,13 @@ I build practical projects while learning: web apps, bot systems, Linux/VPS tool
 </div>
 
 <p align="center">
-  <a href="https://github.com/akaanakbaik"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaanakbaik%2Fakaanakbaik%2Fmain%2Fbadges%2Fstreak-days.json&cacheSeconds=14400&style=flat-square&logo=github&logoColor=white" alt="Current streak" /></a>&nbsp;
-  <a href="https://github.com/akaanakbaik"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaanakbaik%2Fakaanakbaik%2Fmain%2Fbadges%2Ftotal-commits.json&cacheSeconds=14400&style=flat-square&logo=github&logoColor=white" alt="Commits in the contribution window" /></a>&nbsp;
-  <a href="https://github.com/akaanakbaik"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaanakbaik%2Fakaanakbaik%2Fmain%2Fbadges%2Fpeak-hour.json&cacheSeconds=14400&style=flat-square&logo=clockify&logoColor=white" alt="Peak coding hour" /></a>&nbsp;
-  <a href="https://github.com/akaanakbaik"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaanakbaik%2Fakaanakbaik%2Fmain%2Fbadges%2Flast-active.json&cacheSeconds=14400&style=flat-square&logo=github&logoColor=white" alt="Last active" /></a>
+  <a href="https://github.com/akaanakbaik"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaanakbaik%2Fakaanakbaik%2Fmain%2Fbadges%2Fstreak-days.json&cacheSeconds=300&style=for-the-badge&logoSize=auto&logo=github&logoColor=white" alt="Current streak" /></a>&nbsp;
+  <a href="https://github.com/akaanakbaik"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaanakbaik%2Fakaanakbaik%2Fmain%2Fbadges%2Ftotal-commits.json&cacheSeconds=300&style=for-the-badge&logoSize=auto&logo=github&logoColor=white" alt="Commits in the contribution window" /></a>&nbsp;
+  <a href="https://github.com/akaanakbaik"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaanakbaik%2Fakaanakbaik%2Fmain%2Fbadges%2Fpeak-hour.json&cacheSeconds=300&style=for-the-badge&logoSize=auto&logo=clockify&logoColor=white" alt="Peak coding hour" /></a>&nbsp;
+  <a href="https://github.com/akaanakbaik"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaanakbaik%2Fakaanakbaik%2Fmain%2Fbadges%2Flast-active.json&cacheSeconds=300&style=for-the-badge&logoSize=auto&logo=github&logoColor=white" alt="Last active" /></a>
 </p>
 
-> Streaks come from the official contribution calendar. Commit hours use the owned commit history sampled by the API collector, converted to Asia/Jakarta, with known automation commits excluded so scheduled updates do not inflate personal activity.
+> Streaks come from the official contribution calendar. Commit hours use the complete owned public commit history returned by the API collector, converted to Asia/Jakarta, with known automation commits excluded so scheduled updates do not inflate personal activity. Any incomplete API collection aborts publication instead of displaying a partial metric.
 
 ---
 
@@ -148,8 +148,8 @@ I build practical projects while learning: web apps, bot systems, Linux/VPS tool
 
 <br />
 
-<a href="https://github.com/akaanakbaik"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaanakbaik%2Fakaanakbaik%2Fmain%2Fbadges%2Flive-time.json&cacheSeconds=14400&style=flat-square&logo=clockify&logoColor=white" alt="Jakarta time" /></a>&nbsp;
-<a href="https://github.com/akaanakbaik"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaanakbaik%2Fakaanakbaik%2Fmain%2Fbadges%2Flive-date.json&cacheSeconds=14400&style=flat-square&logo=googlecalendar&logoColor=white" alt="Jakarta date" /></a>
+<a href="https://github.com/akaanakbaik"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaanakbaik%2Fakaanakbaik%2Fmain%2Fbadges%2Flive-time.json&cacheSeconds=300&style=for-the-badge&logoSize=auto&logo=clockify&logoColor=white" alt="Jakarta time" /></a>&nbsp;
+<a href="https://github.com/akaanakbaik"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaanakbaik%2Fakaanakbaik%2Fmain%2Fbadges%2Flive-date.json&cacheSeconds=300&style=for-the-badge&logoSize=auto&logo=googlecalendar&logoColor=white" alt="Jakarta date" /></a>
 
 <br />
 <br />
@@ -158,7 +158,7 @@ I build practical projects while learning: web apps, bot systems, Linux/VPS tool
 
 </div>
 
-> The clock and quote are refreshed as part of the same four-hour snapshot, so the README reports when the generated data was last published instead of claiming second-by-second data from a static file.
+> The clock and quote are refreshed as part of the same hourly snapshot. The README therefore reports a verified publication snapshot rather than claiming second-by-second updates from a static file.
 
 ---
 
@@ -224,13 +224,13 @@ I build practical projects while learning: web apps, bot systems, Linux/VPS tool
 
 <br />
 
-<a href="https://github.com/akaanakbaik"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaanakbaik%2Fakaanakbaik%2Fmain%2Fbadges%2Fmonthly-commits.json&cacheSeconds=14400&style=flat-square&logo=github&logoColor=white" alt="Commits in the last 30 days" /></a>&nbsp;
-<a href="https://github.com/akaanakbaik"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaanakbaik%2Fakaanakbaik%2Fmain%2Fbadges%2Fmonthly-active-days.json&cacheSeconds=14400&style=flat-square&logo=github&logoColor=white" alt="Active days in the last 30 days" /></a>&nbsp;
-<a href="https://github.com/akaanakbaik"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaanakbaik%2Fakaanakbaik%2Fmain%2Fbadges%2Fmonthly-top-repo.json&cacheSeconds=14400&style=flat-square&logo=github&logoColor=white" alt="Top repository in the last 30 days" /></a>
+<a href="https://github.com/akaanakbaik"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaanakbaik%2Fakaanakbaik%2Fmain%2Fbadges%2Fmonthly-commits.json&cacheSeconds=300&style=for-the-badge&logoSize=auto&logo=github&logoColor=white" alt="Commits in the last 30 days" /></a>&nbsp;
+<a href="https://github.com/akaanakbaik"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaanakbaik%2Fakaanakbaik%2Fmain%2Fbadges%2Fmonthly-active-days.json&cacheSeconds=300&style=for-the-badge&logoSize=auto&logo=github&logoColor=white" alt="Active days in the last 30 days" /></a>&nbsp;
+<a href="https://github.com/akaanakbaik"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaanakbaik%2Fakaanakbaik%2Fmain%2Fbadges%2Fmonthly-top-repo.json&cacheSeconds=300&style=for-the-badge&logoSize=auto&logo=github&logoColor=white" alt="Top repository in the last 30 days" /></a>
 
 </div>
 
-> The rolling 30-day report is generated inside the same four-hour snapshot as the other profile assets, so its badges and chart share one consistent publication point.
+> The rolling 30-day report is generated inside the same hourly snapshot as the other profile assets, with every activity date normalized to Asia/Jakarta so its badges and chart share one consistent publication point.
 
 ---
 
