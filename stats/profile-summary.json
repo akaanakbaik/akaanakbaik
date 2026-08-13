@@ -1,6 +1,6 @@
 {
   "username": "akaanakbaik",
-  "generatedAt": "14 Aug 2026, 01:06",
+  "generatedAt": "14 Aug 2026, 02:18",
   "publicRepos": 107,
   "originalRepos": 87,
   "forkedRepos": 20,
@@ -11,14 +11,14 @@
   "totalStars": 409,
   "totalForks": 27,
   "totalWatchers": 13,
-  "totalSize": "837.8 MB",
-  "totalSizeKb": 857948,
+  "totalSize": "837.9 MB",
+  "totalSizeKb": 857968,
   "topLanguage": "JavaScript",
   "accountAge": "2 years",
   "accountAgePrecise": "2 years",
   "accountCreatedAt": "2024-08-03T01:58:16Z",
   "topRepo": "pterodactyl-gateway",
-  "recentRepo": "akaanakbaik",
+  "recentRepo": "dastermv2",
   "largestRepo": "Hacktoberfest2025-3",
   "languageDistribution": {
     "totalBytes": 47957753,
@@ -925,16 +925,16 @@
   ],
   "recentRepositories": [
     {
-      "name": "akaanakbaik",
-      "url": "https://github.com/akaanakbaik/akaanakbaik",
-      "language": "JavaScript",
-      "updatedAt": "2026-08-13T17:23:21Z"
-    },
-    {
       "name": "dastermv2",
       "url": "https://github.com/akaanakbaik/dastermv2",
       "language": "Shell",
-      "updatedAt": "2026-08-13T17:06:12Z"
+      "updatedAt": "2026-08-13T18:27:42Z"
+    },
+    {
+      "name": "akaanakbaik",
+      "url": "https://github.com/akaanakbaik/akaanakbaik",
+      "language": "JavaScript",
+      "updatedAt": "2026-08-13T18:08:10Z"
     },
     {
       "name": "auto-commit",
@@ -1039,8 +1039,8 @@
     ],
     "peakHour": 23,
     "peakWeekday": "Sun",
-    "circularMean": 20.350441393953915,
-    "circularStd": 6.259997212061224,
+    "circularMean": 20.35044139395392,
+    "circularStd": 6.259997212061226,
     "activeHours": 24,
     "reposWithCommits": 86,
     "topCommitRepos": [
@@ -1188,15 +1188,15 @@
       "pullRequests": 0,
       "issues": 0,
       "discussions": 0,
-      "daysSincePush": 128,
+      "daysSincePush": 129,
       "commits": 139,
-      "score": 7.111836163409523,
+      "score": 7.109279495046374,
       "stars": 4,
       "forks": 2,
       "watchers": 0,
       "prs": 0,
-      "recency": 0.05816657252767598,
-      "scorePct": 64.21849264492488
+      "recency": 0.056888238346101516,
+      "scorePct": 64.19540642855237
     }
   ]
 }
