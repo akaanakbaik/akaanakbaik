@@ -239,79 +239,45 @@ ${list}
   return baseCard(1150, 660, 'Language Adoption Radar', 'Top 8 languages by repository count, log-normalized radar — every language supported, full census below', inner);
 }
 
-export function codeTotalsBadgeSvg({ totalLines, totalChars, repoCount, files, generatedAt, perLangTop }) {
-  const linesStr = thousandSep(totalLines);
-  const charsStr = thousandSep(totalChars);
-  const width = 600;
-  const height = 126;
-  const gap = 20;
-  const padX = 38;
-  const blockW = (width - padX * 2 - gap) / 2;
-  const digitsL = linesStr.length;
-  const digitsC = charsStr.length;
-  const fontL = clamp(Math.floor(Math.min(54, (blockW - 22) / (digitsL * 0.58))), 22, 54);
-  const fontC = clamp(Math.floor(Math.min(48, (blockW - 22) / (digitsC * 0.58))), 20, 48);
-  const labelL = 'SOURCE LINES (NON-EMPTY)';
-  const labelC = 'SOURCE CHARACTERS (UNICODE)';
-  const cap = `SCANNED ${repoCount} REPOSITORIES · ${compact(files)} FILES · ${generatedAt}`;
-  const capChars = cap.length;
-  const capFont = clamp(Math.floor((width - 40) / (capChars * 0.62)), 8, 10);
+export function codeTotalsBadgeSvg({ totalLines, totalChars, repoCount, files, generatedAt }) {
+  const width = 900;
+  const height = 178;
+  const padX = 34;
+  const gap = 16;
+  const tileW = (width - padX * 2 - gap * 2) / 3;
+  const metrics = [
+    { label: 'NON-BLANK CODE LINES', value: thousandSep(totalLines), accent: '#818cf8', glow: '#4f46e5' },
+    { label: 'UNICODE CHARACTERS', value: thousandSep(totalChars), accent: '#fbbf24', glow: '#d97706' },
+    { label: 'TRACKED CODE FILES', value: thousandSep(files), accent: '#2dd4bf', glow: '#0f766e' }
+  ];
+  const tiles = metrics.map((metric, index) => {
+    const x = padX + index * (tileW + gap);
+    const valueFont = clamp(Math.floor(Math.min(42, (tileW - 32) / (metric.value.length * 0.59))), 19, 42);
+    return `<g transform="translate(${x} 55)">
+<rect width="${tileW}" height="74" rx="14" fill="#080d19" stroke="#ffffff" stroke-opacity="0.1"/>
+<rect width="${tileW}" height="74" rx="14" fill="url(#tileGloss)" opacity="0.5"/>
+<rect x="10" y="12" width="5" height="50" rx="2.5" fill="${metric.accent}"/>
+<text x="${tileW / 2 + 10}" y="23" text-anchor="middle" fill="#94a3b8" font-size="10" font-weight="800" letter-spacing="1.25" ${font()}>${metric.label}</text>
+<text x="${tileW / 2 + 10}" y="58" text-anchor="middle" fill="#f8fafc" font-size="${valueFont}" font-weight="900" filter="url(#glow${index})" ${font()}>${metric.value}</text>
+</g>`;
+  }).join('');
+  const cap = `${repoCount} PUBLIC REPOSITORIES · EVERY TRACKED SOURCE FILE · VERIFIED ON EACH SNAPSHOT · ${generatedAt}`;
+  const capFont = clamp(Math.floor((width - 60) / (cap.length * 0.59)), 8, 10);
   return `<svg width="${width}" height="${height}" viewBox="0 0 ${width} ${height}" fill="none" xmlns="http://www.w3.org/2000/svg">
 <defs>
-<linearGradient id="metal" x1="0" y1="0" x2="0" y2="${height}">
-<stop stop-color="#262d40"/><stop offset="0.42" stop-color="#151a27"/><stop offset="0.6" stop-color="#0d1220"/><stop offset="1" stop-color="#090d18"/>
-</linearGradient>
-<linearGradient id="bevel" x1="0" y1="0" x2="0" y2="${height}">
-<stop stop-color="#3d465c" stop-opacity="0.9"/><stop offset="0.18" stop-color="#242b3d" stop-opacity="0.7"/><stop offset="1" stop-color="#04060b" stop-opacity="0.95"/>
-</linearGradient>
-<linearGradient id="gloss" x1="0" y1="0" x2="0" y2="${height * 0.5}">
-<stop stop-color="#ffffff" stop-opacity="0.1"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
-</linearGradient>
-<radialGradient id="rivet" cx="0.5" cy="0.35" r="0.75">
-<stop stop-color="#8b93a7"/><stop offset="0.45" stop-color="#3b4254"/><stop offset="1" stop-color="#0d101a"/>
-</radialGradient>
-<linearGradient id="numGradL" x1="0" y1="0" x2="0" y2="1">
-<stop stop-color="#ffffff"/><stop offset="1" stop-color="#c7cdf5"/>
-</linearGradient>
-<linearGradient id="numGradC" x1="0" y1="0" x2="0" y2="1">
-<stop stop-color="#ffe9a8"/><stop offset="1" stop-color="#c9920f"/>
-</linearGradient>
-<linearGradient id="accL" x1="0" y1="0" x2="0" y2="1">
-<stop stop-color="#a78bfa"/><stop offset="1" stop-color="#4c1d95"/>
-</linearGradient>
-<linearGradient id="accC" x1="0" y1="0" x2="0" y2="1">
-<stop stop-color="#fbbf24"/><stop offset="1" stop-color="#92400e"/>
-</linearGradient>
-<linearGradient id="inset" x1="0" y1="0" x2="0" y2="1">
-<stop stop-color="#000000" stop-opacity="0.6"/><stop offset="1" stop-color="#ffffff" stop-opacity="0.05"/>
-</linearGradient>
-<filter id="glowL" x="-30%" y="-60%" width="160%" height="260%">
-<feGaussianBlur stdDeviation="3" result="b"/><feFlood flood-color="#667eea" flood-opacity="0.55"/><feComposite in2="b" operator="in"/><feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
-</filter>
-<filter id="glowC" x="-30%" y="-60%" width="160%" height="260%">
-<feGaussianBlur stdDeviation="3" result="b"/><feFlood flood-color="#f59e0b" flood-opacity="0.5"/><feComposite in2="b" operator="in"/><feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
-</filter>
+<linearGradient id="censusBg" x1="0" y1="0" x2="${width}" y2="${height}"><stop stop-color="#0b1120"/><stop offset="0.52" stop-color="#111827"/><stop offset="1" stop-color="#1e1b4b"/></linearGradient>
+<linearGradient id="tileGloss" x1="0" y1="0" x2="0" y2="74"><stop stop-color="#ffffff" stop-opacity="0.1"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></linearGradient>
+${metrics.map((metric, index) => `<filter id="glow${index}" x="-25%" y="-45%" width="150%" height="220%"><feGaussianBlur stdDeviation="2.5" result="blur"/><feFlood flood-color="${metric.glow}" flood-opacity="0.55"/><feComposite in2="blur" operator="in"/><feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge></filter>`).join('')}
 </defs>
-<rect x="2.5" y="2.5" width="${width - 5}" height="${height - 5}" rx="20" fill="url(#metal)" stroke="url(#bevel)" stroke-width="3"/>
-<rect x="5" y="5" width="${width - 10}" height="${height - 10}" rx="17" fill="url(#gloss)"/>
-<circle cx="19" cy="17" r="5" fill="url(#rivet)"/><circle cx="${width - 19}" cy="17" r="5" fill="url(#rivet)"/>
-<circle cx="19" cy="${height - 17}" r="5" fill="url(#rivet)"/><circle cx="${width - 19}" cy="${height - 17}" r="5" fill="url(#rivet)"/>
-<g transform="translate(${padX} 27)">
-<rect width="${blockW}" height="62" rx="13" fill="#0a0e1a" stroke="#ffffff" stroke-opacity="0.08" stroke-width="1"/>
-<rect width="${blockW}" height="62" rx="13" fill="url(#inset)" opacity="0.5"/>
-<rect x="7" y="12" width="4.5" height="38" rx="2.25" fill="url(#accL)"/>
-<text x="${blockW / 2 + 8}" y="19" text-anchor="middle" fill="#8b93a7" font-size="9.5" font-weight="800" letter-spacing="1.7" ${font()}>${labelL}</text>
-<text x="${blockW / 2 + 8}" y="53" text-anchor="middle" fill="url(#numGradL)" font-size="${fontL}" font-weight="900" filter="url(#glowL)" letter-spacing="0.4" ${font()}>${linesStr}</text>
-</g>
-<g transform="translate(${padX + blockW + gap} 27)">
-<rect width="${blockW}" height="62" rx="13" fill="#0a0e1a" stroke="#ffffff" stroke-opacity="0.08" stroke-width="1"/>
-<rect width="${blockW}" height="62" rx="13" fill="url(#inset)" opacity="0.5"/>
-<rect x="7" y="12" width="4.5" height="38" rx="2.25" fill="url(#accC)"/>
-<text x="${blockW / 2 + 8}" y="19" text-anchor="middle" fill="#8b93a7" font-size="9.5" font-weight="800" letter-spacing="1.7" ${font()}>${labelC}</text>
-<text x="${blockW / 2 + 8}" y="53" text-anchor="middle" fill="url(#numGradC)" font-size="${fontC}" font-weight="900" filter="url(#glowC)" letter-spacing="0.4" ${font()}>${charsStr}</text>
-</g>
-<line x1="22" y1="101" x2="${width - 22}" y2="101" stroke="#ffffff" stroke-opacity="0.08"/>
-<text x="${width / 2}" y="117" text-anchor="middle" fill="#5b6478" font-size="${capFont}" font-weight="700" letter-spacing="1.1" ${font()}>${esc(cap.toUpperCase())}</text>
+<rect x="2" y="2" width="${width - 4}" height="${height - 4}" rx="22" fill="url(#censusBg)" stroke="#475569" stroke-opacity="0.9" stroke-width="2"/>
+<rect x="3" y="3" width="${width - 6}" height="48" rx="20" fill="#ffffff" fill-opacity="0.035"/>
+<circle cx="31" cy="28" r="9" fill="#22c55e"/><path d="M27 28.5l2.8 2.8L35 25.5" stroke="white" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="49" y="25" fill="#f8fafc" font-size="17" font-weight="900" letter-spacing="1.3" ${font()}>FULL CODE CENSUS</text>
+<text x="49" y="42" fill="#94a3b8" font-size="10.5" font-weight="700" letter-spacing="0.55" ${font()}>ALL TRACKED SOURCE FILES · COMPLETE READ · REPRODUCIBLE TOTALS</text>
+<text x="${width - 34}" y="32" text-anchor="end" fill="#86efac" font-size="11" font-weight="900" letter-spacing="1.1" ${font()}>VERIFIED</text>
+${tiles}
+<line x1="28" y1="143" x2="${width - 28}" y2="143" stroke="#ffffff" stroke-opacity="0.1"/>
+<text x="${width / 2}" y="162" text-anchor="middle" fill="#94a3b8" font-size="${capFont}" font-weight="800" letter-spacing="0.9" ${font()}>${esc(cap.toUpperCase())}</text>
 </svg>
 `;
 }

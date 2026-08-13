@@ -1,57 +1,34 @@
-<svg width="600" height="126" viewBox="0 0 600 126" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="900" height="178" viewBox="0 0 900 178" fill="none" xmlns="http://www.w3.org/2000/svg">
 <defs>
-<linearGradient id="metal" x1="0" y1="0" x2="0" y2="126">
-<stop stop-color="#262d40"/><stop offset="0.42" stop-color="#151a27"/><stop offset="0.6" stop-color="#0d1220"/><stop offset="1" stop-color="#090d18"/>
-</linearGradient>
-<linearGradient id="bevel" x1="0" y1="0" x2="0" y2="126">
-<stop stop-color="#3d465c" stop-opacity="0.9"/><stop offset="0.18" stop-color="#242b3d" stop-opacity="0.7"/><stop offset="1" stop-color="#04060b" stop-opacity="0.95"/>
-</linearGradient>
-<linearGradient id="gloss" x1="0" y1="0" x2="0" y2="63">
-<stop stop-color="#ffffff" stop-opacity="0.1"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
-</linearGradient>
-<radialGradient id="rivet" cx="0.5" cy="0.35" r="0.75">
-<stop stop-color="#8b93a7"/><stop offset="0.45" stop-color="#3b4254"/><stop offset="1" stop-color="#0d101a"/>
-</radialGradient>
-<linearGradient id="numGradL" x1="0" y1="0" x2="0" y2="1">
-<stop stop-color="#ffffff"/><stop offset="1" stop-color="#c7cdf5"/>
-</linearGradient>
-<linearGradient id="numGradC" x1="0" y1="0" x2="0" y2="1">
-<stop stop-color="#ffe9a8"/><stop offset="1" stop-color="#c9920f"/>
-</linearGradient>
-<linearGradient id="accL" x1="0" y1="0" x2="0" y2="1">
-<stop stop-color="#a78bfa"/><stop offset="1" stop-color="#4c1d95"/>
-</linearGradient>
-<linearGradient id="accC" x1="0" y1="0" x2="0" y2="1">
-<stop stop-color="#fbbf24"/><stop offset="1" stop-color="#92400e"/>
-</linearGradient>
-<linearGradient id="inset" x1="0" y1="0" x2="0" y2="1">
-<stop stop-color="#000000" stop-opacity="0.6"/><stop offset="1" stop-color="#ffffff" stop-opacity="0.05"/>
-</linearGradient>
-<filter id="glowL" x="-30%" y="-60%" width="160%" height="260%">
-<feGaussianBlur stdDeviation="3" result="b"/><feFlood flood-color="#667eea" flood-opacity="0.55"/><feComposite in2="b" operator="in"/><feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
-</filter>
-<filter id="glowC" x="-30%" y="-60%" width="160%" height="260%">
-<feGaussianBlur stdDeviation="3" result="b"/><feFlood flood-color="#f59e0b" flood-opacity="0.5"/><feComposite in2="b" operator="in"/><feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
-</filter>
+<linearGradient id="censusBg" x1="0" y1="0" x2="900" y2="178"><stop stop-color="#0b1120"/><stop offset="0.52" stop-color="#111827"/><stop offset="1" stop-color="#1e1b4b"/></linearGradient>
+<linearGradient id="tileGloss" x1="0" y1="0" x2="0" y2="74"><stop stop-color="#ffffff" stop-opacity="0.1"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></linearGradient>
+<filter id="glow0" x="-25%" y="-45%" width="150%" height="220%"><feGaussianBlur stdDeviation="2.5" result="blur"/><feFlood flood-color="#4f46e5" flood-opacity="0.55"/><feComposite in2="blur" operator="in"/><feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge></filter><filter id="glow1" x="-25%" y="-45%" width="150%" height="220%"><feGaussianBlur stdDeviation="2.5" result="blur"/><feFlood flood-color="#d97706" flood-opacity="0.55"/><feComposite in2="blur" operator="in"/><feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge></filter><filter id="glow2" x="-25%" y="-45%" width="150%" height="220%"><feGaussianBlur stdDeviation="2.5" result="blur"/><feFlood flood-color="#0f766e" flood-opacity="0.55"/><feComposite in2="blur" operator="in"/><feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge></filter>
 </defs>
-<rect x="2.5" y="2.5" width="595" height="121" rx="20" fill="url(#metal)" stroke="url(#bevel)" stroke-width="3"/>
-<rect x="5" y="5" width="590" height="116" rx="17" fill="url(#gloss)"/>
-<circle cx="19" cy="17" r="5" fill="url(#rivet)"/><circle cx="581" cy="17" r="5" fill="url(#rivet)"/>
-<circle cx="19" cy="109" r="5" fill="url(#rivet)"/><circle cx="581" cy="109" r="5" fill="url(#rivet)"/>
-<g transform="translate(38 27)">
-<rect width="252" height="62" rx="13" fill="#0a0e1a" stroke="#ffffff" stroke-opacity="0.08" stroke-width="1"/>
-<rect width="252" height="62" rx="13" fill="url(#inset)" opacity="0.5"/>
-<rect x="7" y="12" width="4.5" height="38" rx="2.25" fill="url(#accL)"/>
-<text x="134" y="19" text-anchor="middle" fill="#8b93a7" font-size="9.5" font-weight="800" letter-spacing="1.7" font-family="Inter,'Segoe UI',system-ui,sans-serif">SOURCE LINES (NON-EMPTY)</text>
-<text x="134" y="53" text-anchor="middle" fill="url(#numGradL)" font-size="54" font-weight="900" filter="url(#glowL)" letter-spacing="0.4" font-family="Inter,'Segoe UI',system-ui,sans-serif">946,849</text>
+<rect x="2" y="2" width="896" height="174" rx="22" fill="url(#censusBg)" stroke="#475569" stroke-opacity="0.9" stroke-width="2"/>
+<rect x="3" y="3" width="894" height="48" rx="20" fill="#ffffff" fill-opacity="0.035"/>
+<circle cx="31" cy="28" r="9" fill="#22c55e"/><path d="M27 28.5l2.8 2.8L35 25.5" stroke="white" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="49" y="25" fill="#f8fafc" font-size="17" font-weight="900" letter-spacing="1.3" font-family="Inter,'Segoe UI',system-ui,sans-serif">FULL CODE CENSUS</text>
+<text x="49" y="42" fill="#94a3b8" font-size="10.5" font-weight="700" letter-spacing="0.55" font-family="Inter,'Segoe UI',system-ui,sans-serif">ALL TRACKED SOURCE FILES · COMPLETE READ · REPRODUCIBLE TOTALS</text>
+<text x="866" y="32" text-anchor="end" fill="#86efac" font-size="11" font-weight="900" letter-spacing="1.1" font-family="Inter,'Segoe UI',system-ui,sans-serif">VERIFIED</text>
+<g transform="translate(34 55)">
+<rect width="266.6666666666667" height="74" rx="14" fill="#080d19" stroke="#ffffff" stroke-opacity="0.1"/>
+<rect width="266.6666666666667" height="74" rx="14" fill="url(#tileGloss)" opacity="0.5"/>
+<rect x="10" y="12" width="5" height="50" rx="2.5" fill="#818cf8"/>
+<text x="143.33333333333334" y="23" text-anchor="middle" fill="#94a3b8" font-size="10" font-weight="800" letter-spacing="1.25" font-family="Inter,'Segoe UI',system-ui,sans-serif">NON-BLANK CODE LINES</text>
+<text x="143.33333333333334" y="58" text-anchor="middle" fill="#f8fafc" font-size="42" font-weight="900" filter="url(#glow0)" font-family="Inter,'Segoe UI',system-ui,sans-serif">3,167,308</text>
+</g><g transform="translate(316.6666666666667 55)">
+<rect width="266.6666666666667" height="74" rx="14" fill="#080d19" stroke="#ffffff" stroke-opacity="0.1"/>
+<rect width="266.6666666666667" height="74" rx="14" fill="url(#tileGloss)" opacity="0.5"/>
+<rect x="10" y="12" width="5" height="50" rx="2.5" fill="#fbbf24"/>
+<text x="143.33333333333334" y="23" text-anchor="middle" fill="#94a3b8" font-size="10" font-weight="800" letter-spacing="1.25" font-family="Inter,'Segoe UI',system-ui,sans-serif">UNICODE CHARACTERS</text>
+<text x="143.33333333333334" y="58" text-anchor="middle" fill="#f8fafc" font-size="36" font-weight="900" filter="url(#glow1)" font-family="Inter,'Segoe UI',system-ui,sans-serif">144,820,366</text>
+</g><g transform="translate(599.3333333333334 55)">
+<rect width="266.6666666666667" height="74" rx="14" fill="#080d19" stroke="#ffffff" stroke-opacity="0.1"/>
+<rect width="266.6666666666667" height="74" rx="14" fill="url(#tileGloss)" opacity="0.5"/>
+<rect x="10" y="12" width="5" height="50" rx="2.5" fill="#2dd4bf"/>
+<text x="143.33333333333334" y="23" text-anchor="middle" fill="#94a3b8" font-size="10" font-weight="800" letter-spacing="1.25" font-family="Inter,'Segoe UI',system-ui,sans-serif">TRACKED CODE FILES</text>
+<text x="143.33333333333334" y="58" text-anchor="middle" fill="#f8fafc" font-size="42" font-weight="900" filter="url(#glow2)" font-family="Inter,'Segoe UI',system-ui,sans-serif">17,675</text>
 </g>
-<g transform="translate(310 27)">
-<rect width="252" height="62" rx="13" fill="#0a0e1a" stroke="#ffffff" stroke-opacity="0.08" stroke-width="1"/>
-<rect width="252" height="62" rx="13" fill="url(#inset)" opacity="0.5"/>
-<rect x="7" y="12" width="4.5" height="38" rx="2.25" fill="url(#accC)"/>
-<text x="134" y="19" text-anchor="middle" fill="#8b93a7" font-size="9.5" font-weight="800" letter-spacing="1.7" font-family="Inter,'Segoe UI',system-ui,sans-serif">SOURCE CHARACTERS (UNICODE)</text>
-<text x="134" y="53" text-anchor="middle" fill="url(#numGradC)" font-size="39" font-weight="900" filter="url(#glowC)" letter-spacing="0.4" font-family="Inter,'Segoe UI',system-ui,sans-serif">38,861,251</text>
-</g>
-<line x1="22" y1="101" x2="578" y2="101" stroke="#ffffff" stroke-opacity="0.08"/>
-<text x="300" y="117" text-anchor="middle" fill="#5b6478" font-size="10" font-weight="700" letter-spacing="1.1" font-family="Inter,'Segoe UI',system-ui,sans-serif">SCANNED 107 REPOSITORIES · 6.4K FILES · 13 AUG 2026, 21:34</text>
+<line x1="28" y1="143" x2="872" y2="143" stroke="#ffffff" stroke-opacity="0.1"/>
+<text x="450" y="162" text-anchor="middle" fill="#94a3b8" font-size="10" font-weight="800" letter-spacing="0.9" font-family="Inter,'Segoe UI',system-ui,sans-serif">107 PUBLIC REPOSITORIES · EVERY TRACKED SOURCE FILE · VERIFIED ON EACH SNAPSHOT · 13 AUG 2026, 21:55</text>
 </svg>

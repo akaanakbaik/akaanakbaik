@@ -86,13 +86,15 @@ I build practical projects while learning: web apps, bot systems, Linux/VPS tool
 
 <br />
 
-<a href="https://github.com/akaanakbaik"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaanakbaik%2Fakaanakbaik%2Fmain%2Fbadges%2Ftotal-lines.json&cacheSeconds=300&style=for-the-badge&logoSize=auto&logo=githubactions&logoColor=white" alt="Tracked source lines" /></a>&nbsp;
-<a href="https://github.com/akaanakbaik"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaanakbaik%2Fakaanakbaik%2Fmain%2Fbadges%2Ftotal-chars.json&cacheSeconds=300&style=for-the-badge&logoSize=auto&logo=githubactions&logoColor=white" alt="Tracked source characters" /></a>&nbsp;
-<a href="https://github.com/akaanakbaik"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaanakbaik%2Fakaanakbaik%2Fmain%2Fbadges%2Frepo-size.json&cacheSeconds=300&style=for-the-badge&logoSize=auto&logo=databricks&logoColor=white" alt="Repository size" /></a>
+<p align="center">
+  <a href="https://github.com/akaanakbaik"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaanakbaik%2Fakaanakbaik%2Fmain%2Fbadges%2Ftotal-lines.json&cacheSeconds=300&style=for-the-badge&logoSize=auto&logo=githubactions&logoColor=white" alt="Nonblank tracked code lines" /></a>&nbsp;
+  <a href="https://github.com/akaanakbaik"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaanakbaik%2Fakaanakbaik%2Fmain%2Fbadges%2Ftotal-chars.json&cacheSeconds=300&style=for-the-badge&logoSize=auto&logo=unicode&logoColor=white" alt="Unicode characters in tracked code" /></a>&nbsp;
+  <a href="https://github.com/akaanakbaik"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaanakbaik%2Fakaanakbaik%2Fmain%2Fbadges%2Fcode-files.json&cacheSeconds=300&style=for-the-badge&logoSize=auto&logo=files&logoColor=white" alt="Tracked code files" /></a>
+</p>
 
 </div>
 
-> The code census uses each repository's tracked Git files, counts source extensions only, excludes docs/data/dependencies/build output/binaries/symlinks, measures non-empty source lines for the badge, and counts Unicode characters consistently. A failed clone aborts publication instead of creating a partial total.
+> **Full Code Census.** Every tracked, regular source file on the default branch of every public repository is read without a file-size limit, including tracked dependencies and generated source when present. “Lines” means non-empty code lines; “characters” means Unicode code points; notebooks contribute only their code cells. Empty files are counted as files with zero lines and characters. Symlinks do not contain source themselves and are recorded separately. Any unreadable, binary, or unparsable source file fails the snapshot rather than creating a partial total; the workflow then independently recounts every cached clone before publication.
 
 ---
 

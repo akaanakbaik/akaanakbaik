@@ -1,6 +1,6 @@
 # Profile Metrics Summary
 
-Generated: 13 Aug 2026, 21:34
+Generated: 13 Aug 2026, 21:55
 
 ## Account
 
@@ -23,43 +23,45 @@ Generated: 13 Aug 2026, 21:34
 
 | Metric | Value |
 | --- | ---: |
-| Source files counted | 6,412 |
-| Tracked source candidates | 6,439 |
-| Excluded source candidates | 27 |
-| Source lines (physical) | 1,052,988 |
-| Source lines (non-empty) | 946,849 |
-| Source characters (Unicode) | 38,861,251 |
-| Non-whitespace characters | 28,464,769 |
-| Bytes scanned | 37.16 MB |
+| Source files counted | 17,675 |
+| Tracked source candidates | 17,677 |
+| Excluded source candidates | 2 |
+| Source lines (physical) | 3,405,905 |
+| Source lines (non-empty) | 3,167,308 |
+| Source characters (Unicode) | 144,820,366 |
+| Non-whitespace characters | 110,398,227 |
+| Bytes scanned | 139.51 MB |
 
 ## Lines of Code per Language
 
 | Language | Lines | Chars | Files |
 | --- | ---: | ---: | ---: |
-| TypeScript | 357,432 | 14,837,481 | 2,780 |
-| JavaScript | 274,619 | 11,802,531 | 973 |
-| Python | 124,748 | 5,808,906 | 922 |
-| CSS | 55,718 | 1,598,476 | 100 |
-| C++ | 37,192 | 1,106,284 | 657 |
-| Java | 25,714 | 937,878 | 413 |
-| HTML | 22,221 | 1,092,234 | 133 |
-| C | 15,682 | 452,275 | 164 |
+| JavaScript | 2,051,115 | 98,233,700 | 9,322 |
+| TypeScript | 797,643 | 33,737,911 | 5,552 |
+| Python | 124,866 | 5,812,766 | 935 |
+| CSS | 56,170 | 2,126,650 | 108 |
+| C++ | 37,192 | 1,106,284 | 662 |
+| Java | 25,714 | 937,878 | 414 |
+| HTML | 22,845 | 1,113,753 | 142 |
+| C | 15,682 | 452,275 | 165 |
 | Dart | 8,916 | 335,021 | 58 |
-| Shell | 6,939 | 256,303 | 65 |
+| Shell | 6,993 | 258,636 | 68 |
 | Protocol Buffer | 6,088 | 214,771 | 3 |
-| Rust | 4,888 | 197,303 | 23 |
-| Go | 4,094 | 121,397 | 25 |
-| PHP | 685 | 27,465 | 13 |
+| Rust | 5,021 | 201,964 | 24 |
+| Go | 4,094 | 121,397 | 26 |
+| PowerShell | 1,225 | 38,260 | 42 |
+| Batchfile | 963 | 24,391 | 47 |
+| PHP | 828 | 32,078 | 16 |
 | Text | 425 | 18,241 | 6 |
-| Batchfile | 348 | 11,699 | 6 |
 | Dockerfile | 323 | 12,253 | 5 |
 | SQL | 291 | 13,142 | 25 |
-| PowerShell | 118 | 4,999 | 1 |
+| Jupyter Notebook | 257 | 9,302 | 4 |
+| Unknown | 254 | 7,239 | 9 |
 | Kotlin | 115 | 3,348 | 8 |
 | C# | 97 | 3,555 | 3 |
 | Swift | 74 | 2,515 | 8 |
 | Assembly | 37 | 1,132 | 3 |
-| Unknown | 24 | 598 | 1 |
+| Nix | 19 | 459 | 1 |
 | Elixir | 10 | 192 | 2 |
 | V | 8 | 297 | 1 |
 | Scala | 7 | 142 | 1 |
@@ -73,6 +75,7 @@ Generated: 13 Aug 2026, 21:34
 | Julia | 2 | 51 | 1 |
 | Objective-C | 2 | 50 | 1 |
 | R | 2 | 45 | 1 |
+| CoffeeScript | 0 | 1 | 2 |
 
 ## Language Distribution Statistics
 
@@ -81,10 +84,10 @@ Generated: 13 Aug 2026, 21:34
 | Distinct languages | 41 |
 | Shannon entropy | 2.248 bits (max 5.358) |
 | Redundancy | 58.0% |
-| Herfindahl-Hirschman Index | 3133.3 (×10⁴) |
-| Gini coefficient | 0.9093 |
+| Herfindahl-Hirschman Index | 3133.4 (×10⁴) |
+| Gini coefficient | 0.9094 |
 | CR₃ concentration | 84.89% |
-| CR₅ concentration | 90.55% |
+| CR₅ concentration | 90.56% |
 | Pareto 80% coverage | top 3 of 41 languages |
 | Top language share | 48.92% |
 | Geometric mean bytes | 4.9K |
@@ -102,7 +105,7 @@ Generated: 13 Aug 2026, 21:34
 | Pull requests | 42 |
 | Issues | 15 |
 | PR reviews | 0 |
-| Repos contributed | 12 |
+| Repos contributed | 13 |
 | Peak coding hour | 23:00 WIB |
 | Circular mean hour | 20.4:00 |
 | Busiest weekday | Sun |
@@ -112,7 +115,7 @@ Generated: 13 Aug 2026, 21:34
 
 | Language | Repos | Bytes | Share |
 | --- | ---: | ---: | ---: |
-| JavaScript | 70 | 23461185 | 48.92% |
+| JavaScript | 70 | 23461990 | 48.92% |
 | TypeScript | 30 | 11275134 | 23.51% |
 | Python | 12 | 5970901 | 12.45% |
 | CSS | 51 | 1604643 | 3.35% |

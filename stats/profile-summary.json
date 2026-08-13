@@ -1,6 +1,6 @@
 {
   "username": "akaanakbaik",
-  "generatedAt": "13 Aug 2026, 21:34",
+  "generatedAt": "13 Aug 2026, 21:55",
   "publicRepos": 107,
   "originalRepos": 87,
   "forkedRepos": 20,
@@ -21,28 +21,28 @@
   "recentRepo": "auto-commit",
   "largestRepo": "Hacktoberfest2025-3",
   "languageDistribution": {
-    "totalBytes": 47955587,
+    "totalBytes": 47956392,
     "languagesCount": 41,
-    "entropy": 2.247897288649577,
+    "entropy": 2.247876868598733,
     "entropyMax": 5.357552004618084,
-    "redundancy": 0.5804245508560734,
-    "hhi": 3133.346213815561,
-    "gini": 0.9093489458862192,
-    "cr3": 84.88525017950464,
-    "cr5": 90.55494826911409,
+    "redundancy": 0.580428362307801,
+    "hhi": 3133.4052657615002,
+    "gini": 0.9093500581457115,
+    "cr3": 84.88550389695705,
+    "cr5": 90.555106814541,
     "pareto80": {
       "count": 3,
       "totalCount": 41,
-      "share": 0.8488525017950463
+      "share": 0.8488550389695705
     },
-    "topShare": 48.922735530273044,
-    "geomeanBytes": 4859.653033744731,
+    "topShare": 48.92359291749888,
+    "geomeanBytes": 4859.657100612711,
     "medianBytes": 2515,
-    "cv": 3.4419063724401053,
+    "cv": 3.441941543609094,
     "byBytes": [
       {
         "name": "JavaScript",
-        "bytes": 23461185,
+        "bytes": 23461990,
         "repos": 70
       },
       {
@@ -415,161 +415,64 @@
   },
   "codeTotals": {
     "totals": {
-      "files": 6412,
-      "lines": 1052988,
-      "codeLines": 946849,
-      "chars": 38861251,
-      "nonWsChars": 28464769,
-      "bytes": 38970131
+      "files": 17675,
+      "lines": 3405905,
+      "codeLines": 3167308,
+      "chars": 144820366,
+      "nonWsChars": 110398227,
+      "bytes": 146289828
     },
-    "scannedFiles": 6439,
-    "excludedFiles": 27,
+    "scannedFiles": 17677,
+    "excludedFiles": 2,
     "exclusionSamples": [
       {
-        "path": "tools/console/kalkulator-by-hinamizawa/index.py",
-        "reason": "empty-file"
+        "repository": "musika",
+        "path": "artifacts/api-server/node_modules/.pnpm/node_modules/ipaddr.js",
+        "reason": "symlink"
       },
       {
-        "path": "tools/cybersec/port-scanner-by-kachina/index.go",
-        "reason": "empty-file"
-      },
-      {
-        "path": "tools/others/todolist-by-sonata/index.py",
-        "reason": "empty-file"
-      },
-      {
-        "path": "tools/scrapers/kbbi-scraper-by-kanata/index.js",
-        "reason": "empty-file"
-      },
-      {
-        "path": "tools/web/mini-manager-by kira/index.php",
-        "reason": "empty-file"
-      },
-      {
-        "path": "tools/web/mini-manager-by kira/koneksi.php",
-        "reason": "empty-file"
-      },
-      {
-        "path": "WAProto/index.js",
-        "reason": "file-too-large"
-      },
-      {
-        "path": "WAProto/index.js",
-        "reason": "file-too-large"
-      },
-      {
-        "path": "plugins/utility/donate.js",
-        "reason": "empty-file"
-      },
-      {
-        "path": "solutions/day05/solution_C.c",
-        "reason": "empty-file"
-      },
-      {
-        "path": "solutions/day26/solution_java.java",
-        "reason": "empty-file"
-      },
-      {
-        "path": "bot_tele/feature/__init__.py",
-        "reason": "empty-file"
-      },
-      {
-        "path": "bot_tele/system/__init__.py",
-        "reason": "empty-file"
-      },
-      {
-        "path": "backend/#170_database_Integration_PostgreSQL_Django/backend/backend/__init__.py",
-        "reason": "empty-file"
-      },
-      {
-        "path": "backend/#170_database_Integration_PostgreSQL_Django/backend/blog/__init__.py",
-        "reason": "empty-file"
-      },
-      {
-        "path": "backend/#170_database_Integration_PostgreSQL_Django/backend/blog/migrations/__init__.py",
-        "reason": "empty-file"
-      },
-      {
-        "path": "Add Code Here/test.py",
-        "reason": "empty-file"
-      },
-      {
-        "path": "mcp_servers/__init__.py",
-        "reason": "empty-file"
-      },
-      {
-        "path": "routes/__init__.py",
-        "reason": "empty-file"
-      },
-      {
-        "path": "scripts/_lib/__init__.py",
-        "reason": "empty-file"
-      },
-      {
-        "path": "services/hwfit/__init__.py",
-        "reason": "empty-file"
-      },
-      {
-        "path": "Pyramid_patern.cpp",
-        "reason": "empty-file"
-      },
-      {
-        "path": "CPP/algorithms/sorting/Sorting/Bubble_Sort.cpp",
-        "reason": "empty-file"
-      },
-      {
-        "path": "CPP/data_structures/tries/Tries/Stack/length_of_longest_valid_parenthesis.cpp",
-        "reason": "empty-file"
-      },
-      {
-        "path": "CPP/practice_questions/cpp_50_questions/25.cpp",
-        "reason": "empty-file"
-      },
-      {
-        "path": "CPP/practice_questions/cpp_50_questions/29.cpp",
-        "reason": "empty-file"
-      },
-      {
-        "path": "Test/test.js",
-        "reason": "empty-file"
+        "repository": "musika",
+        "path": "artifacts/api-server/node_modules/.pnpm/proxy-addr@2.0.7/node_modules/ipaddr.js",
+        "reason": "symlink"
       }
     ],
+    "policy": "all tracked regular source files; Unicode code points; notebook code cells; no file-size limit; dependencies and generated source included when tracked",
     "perLang": [
       {
-        "name": "TypeScript",
-        "files": 2780,
-        "lines": 399093,
-        "codeLines": 357432,
-        "chars": 14837481,
-        "bytes": 14874920
+        "name": "JavaScript",
+        "files": 9322,
+        "lines": 2175109,
+        "codeLines": 2051115,
+        "chars": 98233700,
+        "bytes": 98556847
       },
       {
-        "name": "JavaScript",
-        "files": 973,
-        "lines": 293383,
-        "codeLines": 274619,
-        "chars": 11802531,
-        "bytes": 11835419
+        "name": "TypeScript",
+        "files": 5552,
+        "lines": 866080,
+        "codeLines": 797643,
+        "chars": 33737911,
+        "bytes": 33777818
       },
       {
         "name": "Python",
-        "files": 922,
-        "lines": 146439,
-        "codeLines": 124748,
-        "chars": 5808906,
-        "bytes": 5824528
+        "files": 935,
+        "lines": 146588,
+        "codeLines": 124866,
+        "chars": 5812766,
+        "bytes": 5828388
       },
       {
         "name": "CSS",
-        "files": 100,
-        "lines": 59500,
-        "codeLines": 55718,
-        "chars": 1598476,
-        "bytes": 1604643
+        "files": 108,
+        "lines": 60028,
+        "codeLines": 56170,
+        "chars": 2126650,
+        "bytes": 2132833
       },
       {
         "name": "C++",
-        "files": 657,
+        "files": 662,
         "lines": 44165,
         "codeLines": 37192,
         "chars": 1106284,
@@ -577,7 +480,7 @@
       },
       {
         "name": "Java",
-        "files": 413,
+        "files": 414,
         "lines": 30391,
         "codeLines": 25714,
         "chars": 937878,
@@ -585,15 +488,15 @@
       },
       {
         "name": "HTML",
-        "files": 133,
-        "lines": 24170,
-        "codeLines": 22221,
-        "chars": 1092234,
-        "bytes": 1093567
+        "files": 142,
+        "lines": 24801,
+        "codeLines": 22845,
+        "chars": 1113753,
+        "bytes": 1115090
       },
       {
         "name": "C",
-        "files": 164,
+        "files": 165,
         "lines": 18320,
         "codeLines": 15682,
         "chars": 452275,
@@ -609,11 +512,11 @@
       },
       {
         "name": "Shell",
-        "files": 65,
-        "lines": 7855,
-        "codeLines": 6939,
-        "chars": 256303,
-        "bytes": 267553
+        "files": 68,
+        "lines": 7924,
+        "codeLines": 6993,
+        "chars": 258636,
+        "bytes": 269886
       },
       {
         "name": "Protocol Buffer",
@@ -625,27 +528,43 @@
       },
       {
         "name": "Rust",
-        "files": 23,
-        "lines": 5609,
-        "codeLines": 4888,
-        "chars": 197303,
-        "bytes": 199735
+        "files": 24,
+        "lines": 5766,
+        "codeLines": 5021,
+        "chars": 201964,
+        "bytes": 204518
       },
       {
         "name": "Go",
-        "files": 25,
+        "files": 26,
         "lines": 4602,
         "codeLines": 4094,
         "chars": 121397,
         "bytes": 121485
       },
       {
+        "name": "PowerShell",
+        "files": 42,
+        "lines": 1284,
+        "codeLines": 1225,
+        "chars": 38260,
+        "bytes": 38260
+      },
+      {
+        "name": "Batchfile",
+        "files": 47,
+        "lines": 1143,
+        "codeLines": 963,
+        "chars": 24391,
+        "bytes": 24432
+      },
+      {
         "name": "PHP",
-        "files": 13,
-        "lines": 827,
-        "codeLines": 685,
-        "chars": 27465,
-        "bytes": 27465
+        "files": 16,
+        "lines": 983,
+        "codeLines": 828,
+        "chars": 32078,
+        "bytes": 32078
       },
       {
         "name": "Text",
@@ -654,14 +573,6 @@
         "codeLines": 425,
         "chars": 18241,
         "bytes": 18241
-      },
-      {
-        "name": "Batchfile",
-        "files": 6,
-        "lines": 446,
-        "codeLines": 348,
-        "chars": 11699,
-        "bytes": 11740
       },
       {
         "name": "Dockerfile",
@@ -680,12 +591,20 @@
         "bytes": 13142
       },
       {
-        "name": "PowerShell",
-        "files": 1,
-        "lines": 136,
-        "codeLines": 118,
-        "chars": 4999,
-        "bytes": 4999
+        "name": "Jupyter Notebook",
+        "files": 4,
+        "lines": 329,
+        "codeLines": 257,
+        "chars": 9302,
+        "bytes": 1077015
+      },
+      {
+        "name": "Unknown",
+        "files": 9,
+        "lines": 354,
+        "codeLines": 254,
+        "chars": 7239,
+        "bytes": 7239
       },
       {
         "name": "Kotlin",
@@ -720,12 +639,12 @@
         "bytes": 1132
       },
       {
-        "name": "Unknown",
+        "name": "Nix",
         "files": 1,
-        "lines": 34,
-        "codeLines": 24,
-        "chars": 598,
-        "bytes": 598
+        "lines": 20,
+        "codeLines": 19,
+        "chars": 459,
+        "bytes": 459
       },
       {
         "name": "Elixir",
@@ -830,6 +749,14 @@
         "codeLines": 2,
         "chars": 45,
         "bytes": 45
+      },
+      {
+        "name": "CoffeeScript",
+        "files": 2,
+        "lines": 0,
+        "codeLines": 0,
+        "chars": 1,
+        "bytes": 1
       }
     ]
   },
@@ -1001,7 +928,13 @@
       "name": "auto-commit",
       "url": "https://github.com/akaanakbaik/auto-commit",
       "language": "Unknown",
-      "updatedAt": "2026-08-13T13:43:17Z"
+      "updatedAt": "2026-08-13T14:42:58Z"
+    },
+    {
+      "name": "akaanakbaik",
+      "url": "https://github.com/akaanakbaik/akaanakbaik",
+      "language": "JavaScript",
+      "updatedAt": "2026-08-13T14:37:15Z"
     },
     {
       "name": "web-docs-pterodacty-gateway",
@@ -1014,12 +947,6 @@
       "url": "https://github.com/akaanakbaik/dastermv2",
       "language": "Shell",
       "updatedAt": "2026-08-13T13:14:17Z"
-    },
-    {
-      "name": "akaanakbaik",
-      "url": "https://github.com/akaanakbaik/akaanakbaik",
-      "language": "JavaScript",
-      "updatedAt": "2026-08-13T12:55:35Z"
     },
     {
       "name": "pterodactyl-gateway",
@@ -1049,7 +976,7 @@
   "activity": {
     "pullRequests": 42,
     "issues": 15,
-    "reposContributed": 12,
+    "reposContributed": 13,
     "totalCommitContributions": 3407,
     "totalIssueContributions": 11,
     "totalPRContributions": 39,
@@ -1112,8 +1039,8 @@
     ],
     "peakHour": 23,
     "peakWeekday": "Sun",
-    "circularMean": 20.350441393953915,
-    "circularStd": 6.259997212061223,
+    "circularMean": 20.350441393953922,
+    "circularStd": 6.259997212061227,
     "activeHours": 24,
     "reposWithCommits": 86,
     "topCommitRepos": [

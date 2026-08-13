@@ -7,34 +7,8 @@ import { runPool } from './engine.mjs';
 
 const exec = promisify(execFile);
 
-const SKIP_DIRS = new Set([
-  'node_modules', '.git', 'vendor', 'dist', 'build', 'out', '.next', '__pycache__',
-  '.venv', 'venv', 'env', 'target', '.gradle', '.idea', '.cache', 'coverage',
-  '.turbo', '.svelte-kit', '.vercel', '.expo', 'Pods', 'DerivedData', 'bin', 'obj',
-  '.parcel-cache', '.yarn', '.pytest_cache', '.mypy_cache', '.ruff_cache', '.svn',
-  '.hg', 'bower_components', 'jspm_packages', '.pnpm-store', '.nuxt', '.output',
-  '.docusaurus', 'site-packages', '.serverless', '.terraform', 'node_modules_install'
-]);
-
-const SKIP_FILES = new Set([
-  'package-lock.json', 'yarn.lock', 'pnpm-lock.yaml', 'bun.lockb', 'composer.lock',
-  'poetry.lock', 'Cargo.lock', 'Gemfile.lock', 'go.sum', 'npm-shrinkwrap.json',
-  '.DS_Store', 'Thumbs.db', 'LICENSE', 'LICENSE.md', 'LICENSE.txt', 'COPYING', 'AUTHORS'
-]);
-
-const BINARY_EXT = new Set([
-  'png', 'jpg', 'jpeg', 'gif', 'webp', 'ico', 'bmp', 'tiff', 'avif', 'woff', 'woff2',
-  'ttf', 'otf', 'eot', 'pdf', 'zip', 'gz', 'tar', '7z', 'rar', 'xz', 'bz2', 'jar',
-  'war', 'class', 'so', 'dll', 'exe', 'dylib', 'o', 'a', 'bin', 'dat', 'db', 'sqlite',
-  'sqlite3', 'mp3', 'mp4', 'webm', 'mov', 'avi', 'mkv', 'wav', 'flac', 'ogg', 'm4a',
-  'iso', 'img', 'lockb', 'wasm', 'pyc', 'pyo', 'pyd', 'map', 'jpeg', 'jfif', 'psd',
-  'xcf', 'blend', 'fbx', 'obj3d', 'stl', 'dwg', 'dxf', 'pdb', 'p12', 'pfx', 'key'
-]);
-
-const MAX_FILE_BYTES = 4 * 1024 * 1024;
-
 const SOURCE_EXTENSIONS = new Set([
-  'js', 'jsx', 'mjs', 'cjs', 'ts', 'tsx', 'py', 'pyw', 'html', 'htm', 'css', 'scss', 'sass', 'less',
+  'js', 'jsx', 'mjs', 'cjs', 'ts', 'tsx', 'py', 'pyw', 'ipynb', 'html', 'htm', 'css', 'scss', 'sass', 'less',
   'sh', 'bash', 'zsh', 'ksh', 'fish', 'java', 'cpp', 'cxx', 'cc', 'hpp', 'hh', 'hxx', 'c', 'h',
   'php', 'rb', 'go', 'rs', 'dart', 'vue', 'jl', 'r', 'scm', 'lisp', 'swift', 'kt', 'kts', 'scala',
   'hs', 'lhs', 'ex', 'exs', 'erl', 'hrl', 'pl', 'pm', 'lua', 'zig', 'nim', 'v', 'fs', 'fsx', 'fsi',
@@ -92,15 +66,6 @@ const EXT_LANG = {
   orig: 'Text', draft: 'Text', stash: 'Text', local: 'Text', old: 'Text', swp: 'Text'
 };
 
-function isSkippedPath(relativePath) {
-  const lower = relativePath.toLowerCase();
-  if (/\.min\.(js|css)$/.test(lower)) return true;
-  if (/\.bundle\.(js|css)$/.test(lower)) return true;
-  if (lower.endsWith('.map')) return true;
-  if (lower.endsWith('.min')) return true;
-  return false;
-}
-
 function isBinary(buffer) {
   const probe = buffer.subarray(0, 8192);
   for (let i = 0; i < probe.length; i++) {
@@ -116,14 +81,32 @@ function isSourceFile(relativePath) {
   return SOURCE_EXTENSIONS.has(ext);
 }
 
-function countText(buffer) {
-  const text = buffer.toString('utf8');
-  const chars = Array.from(text).length;
+function decodeText(buffer) {
+  try {
+    return new TextDecoder('utf-8', { fatal: true }).decode(buffer);
+  } catch {
+    return new TextDecoder('windows-1252').decode(buffer);
+  }
+}
+
+function notebookSource(text) {
+  const notebook = JSON.parse(text);
+  const cells = Array.isArray(notebook.cells) ? notebook.cells : [];
+  return cells
+    .filter((cell) => cell && cell.cell_type === 'code')
+    .map((cell) => Array.isArray(cell.source) ? cell.source.join('') : String(cell.source || ''))
+    .join('');
+}
+
+function countText(buffer, relativePath) {
+  const text = decodeText(buffer);
+  const source = extname(relativePath).toLowerCase() === '.ipynb' ? notebookSource(text) : text;
+  const chars = Array.from(source).length;
   let nonWhitespace = 0;
-  for (const character of text) {
+  for (const character of source) {
     if (!/\s/u.test(character)) nonWhitespace += 1;
   }
-  const normalized = text.replace(/\r\n?/g, '\n');
+  const normalized = source.replace(/\r\n?/g, '\n');
   const body = normalized.endsWith('\n') ? normalized.slice(0, -1) : normalized;
   const lines = body.length === 0 ? 0 : body.split('\n').length;
   const codeLines = body === '' ? 0 : body.split('\n').filter((line) => line.trim().length > 0).length;
@@ -135,8 +118,6 @@ async function trackedSourceFiles(root) {
   return String(result.stdout)
     .split('\0')
     .filter(Boolean)
-    .filter((relativePath) => !isSkippedPath(relativePath))
-    .filter((relativePath) => !relativePath.split('/').some((part) => SKIP_DIRS.has(part)))
     .filter(isSourceFile);
 }
 
@@ -145,44 +126,43 @@ export async function scanRepository(root) {
   const perLang = new Map();
   const files = await trackedSourceFiles(root);
   const exclusions = [];
+  const failures = [];
   const exclude = (relativePath, reason) => exclusions.push({ path: relativePath, reason });
   for (const relativePath of files) {
     const full = join(root, relativePath);
     let fileStat;
     try {
       fileStat = await lstat(full);
-    } catch {
-      exclude(relativePath, 'stat-failed');
-      continue;
-    }
-    if (!fileStat.isFile()) {
-      exclude(relativePath, 'not-regular-file');
+    } catch (error) {
+      failures.push(`${relativePath}: stat failed (${error.message})`);
       continue;
     }
     if (fileStat.isSymbolicLink()) {
       exclude(relativePath, 'symlink');
       continue;
     }
-    if (fileStat.size === 0) {
-      exclude(relativePath, 'empty-file');
-      continue;
-    }
-    if (fileStat.size > MAX_FILE_BYTES) {
-      exclude(relativePath, 'file-too-large');
+    if (!fileStat.isFile()) {
+      exclude(relativePath, 'not-regular-file');
       continue;
     }
     let buffer;
     try {
       buffer = await readFile(full);
-    } catch {
-      exclude(relativePath, 'read-failed');
+    } catch (error) {
+      failures.push(`${relativePath}: read failed (${error.message})`);
       continue;
     }
     if (isBinary(buffer)) {
-      exclude(relativePath, 'binary-content');
+      failures.push(`${relativePath}: binary content in a source file`);
       continue;
     }
-    const counted = countText(buffer);
+    let counted;
+    try {
+      counted = countText(buffer, relativePath);
+    } catch (error) {
+      failures.push(`${relativePath}: parse failed (${error.message})`);
+      continue;
+    }
     totals.files += 1;
     totals.lines += counted.lines;
     totals.codeLines += counted.codeLines;
@@ -200,12 +180,13 @@ export async function scanRepository(root) {
     bucket.bytes += fileStat.size;
     perLang.set(lang, bucket);
   }
+  if (failures.length) throw new Error(`Code Census failed for ${failures.length} source files: ${failures.slice(0, 20).join('; ')}`);
   return {
     totals,
     scannedFiles: files.length,
     excludedFiles: exclusions.length,
     exclusionSamples: exclusions.slice(0, 50),
-    policy: 'tracked source files only; UTF-8 Unicode characters; generated/vendor/docs/data excluded',
+    policy: 'all tracked regular source files; Unicode code points; notebook code cells; no file-size limit; dependencies and generated source included when tracked',
     perLang: [...perLang.entries()]
       .map(([name, value]) => ({ name, ...value }))
       .sort((a, b) => b.codeLines - a.codeLines)
@@ -273,6 +254,7 @@ export function aggregateCodeMetrics(repoScans) {
   let scannedFiles = 0;
   let excludedFiles = 0;
   const exclusionSamples = [];
+  const policies = new Set();
   const perLang = new Map();
   for (const scan of repoScans) {
     if (!scan) continue;
@@ -284,7 +266,11 @@ export function aggregateCodeMetrics(repoScans) {
     totals.bytes += scan.totals.bytes;
     scannedFiles += scan.scannedFiles || 0;
     excludedFiles += scan.excludedFiles || 0;
-    if (Array.isArray(scan.exclusionSamples)) exclusionSamples.push(...scan.exclusionSamples.slice(0, Math.max(0, 50 - exclusionSamples.length)));
+    if (scan.policy) policies.add(scan.policy);
+    if (Array.isArray(scan.exclusionSamples)) {
+      const room = Math.max(0, 50 - exclusionSamples.length);
+      exclusionSamples.push(...scan.exclusionSamples.slice(0, room).map((sample) => ({ repository: scan.repo || 'unknown', ...sample })));
+    }
     for (const lang of scan.perLang) {
       const bucket = perLang.get(lang.name) || { files: 0, lines: 0, codeLines: 0, chars: 0, bytes: 0 };
       bucket.files += lang.files;
@@ -297,9 +283,11 @@ export function aggregateCodeMetrics(repoScans) {
   }
   return {
     totals,
+    repositories: repoScans.length,
     scannedFiles,
     excludedFiles,
     exclusionSamples,
+    policy: policies.size === 1 ? [...policies][0] : 'mixed Code Census policies',
     perLang: [...perLang.entries()]
       .map(([name, value]) => ({ name, ...value }))
       .sort((a, b) => b.codeLines - a.codeLines)

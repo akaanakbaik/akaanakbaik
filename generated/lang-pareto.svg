@@ -30,10 +30,10 @@
 <text x="159.25" y="117.00" text-anchor="middle" fill="#ffffff" font-size="12" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">23.5M</text>
 <text x="159.25" y="99.00" text-anchor="middle" fill="#94a3b8" font-size="10" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">48.9%</text>
 </g><g>
-<rect x="220.66" y="294.21" width="50.17" height="153.79" rx="5" fill="url(#grad1)" opacity="0.96"/>
-<rect x="220.66" y="294.21" width="50.17" height="3.5" rx="1.75" fill="#ffffff" fill-opacity="0.28"/>
-<text x="245.75" y="283.21" text-anchor="middle" fill="#ffffff" font-size="12" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">11.3M</text>
-<text x="245.75" y="265.21" text-anchor="middle" fill="#94a3b8" font-size="10" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">23.5%</text>
+<rect x="220.66" y="294.22" width="50.17" height="153.78" rx="5" fill="url(#grad1)" opacity="0.96"/>
+<rect x="220.66" y="294.22" width="50.17" height="3.5" rx="1.75" fill="#ffffff" fill-opacity="0.28"/>
+<text x="245.75" y="283.22" text-anchor="middle" fill="#ffffff" font-size="12" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">11.3M</text>
+<text x="245.75" y="265.22" text-anchor="middle" fill="#94a3b8" font-size="10" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">23.5%</text>
 </g><g>
 <rect x="307.17" y="366.56" width="50.17" height="81.44" rx="5" fill="url(#grad2)" opacity="0.96"/>
 <rect x="307.17" y="366.56" width="50.17" height="3.5" rx="1.75" fill="#ffffff" fill-opacity="0.28"/>
@@ -86,11 +86,11 @@
 <text x="1110.75" y="416.00" text-anchor="middle" fill="#94a3b8" font-size="10" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">0.4%</text>
 </g>
 
-<polyline points="159.25,291.45 245.75,216.21 332.25,176.37 418.75,165.66 505.25,158.22 591.75,151.04 678.25,144.12 764.75,137.86 851.25,134.87 937.75,132.64 1024.25,130.76 1110.75,129.39" fill="none" stroke="#a78bfa" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-<circle cx="159.25" cy="291.45" r="4.5" fill="#a78bfa" stroke="#0b1020" stroke-width="2.5"/><circle cx="245.75" cy="216.21" r="4.5" fill="#a78bfa" stroke="#0b1020" stroke-width="2.5"/><circle cx="332.25" cy="176.37" r="4.5" fill="#a78bfa" stroke="#0b1020" stroke-width="2.5"/><circle cx="418.75" cy="165.66" r="4.5" fill="#a78bfa" stroke="#0b1020" stroke-width="2.5"/><circle cx="505.25" cy="158.22" r="4.5" fill="#a78bfa" stroke="#0b1020" stroke-width="2.5"/><circle cx="591.75" cy="151.04" r="4.5" fill="#a78bfa" stroke="#0b1020" stroke-width="2.5"/><circle cx="678.25" cy="144.12" r="4.5" fill="#a78bfa" stroke="#0b1020" stroke-width="2.5"/><circle cx="764.75" cy="137.86" r="4.5" fill="#a78bfa" stroke="#0b1020" stroke-width="2.5"/><circle cx="851.25" cy="134.87" r="4.5" fill="#a78bfa" stroke="#0b1020" stroke-width="2.5"/><circle cx="937.75" cy="132.64" r="4.5" fill="#a78bfa" stroke="#0b1020" stroke-width="2.5"/><circle cx="1024.25" cy="130.76" r="4.5" fill="#a78bfa" stroke="#0b1020" stroke-width="2.5"/><circle cx="1110.75" cy="129.39" r="4.5" fill="#a78bfa" stroke="#0b1020" stroke-width="2.5"/>
+<polyline points="159.25,291.44 245.75,216.21 332.25,176.37 418.75,165.66 505.25,158.22 591.75,151.04 678.25,144.12 764.75,137.86 851.25,134.87 937.75,132.64 1024.25,130.76 1110.75,129.39" fill="none" stroke="#a78bfa" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="159.25" cy="291.44" r="4.5" fill="#a78bfa" stroke="#0b1020" stroke-width="2.5"/><circle cx="245.75" cy="216.21" r="4.5" fill="#a78bfa" stroke="#0b1020" stroke-width="2.5"/><circle cx="332.25" cy="176.37" r="4.5" fill="#a78bfa" stroke="#0b1020" stroke-width="2.5"/><circle cx="418.75" cy="165.66" r="4.5" fill="#a78bfa" stroke="#0b1020" stroke-width="2.5"/><circle cx="505.25" cy="158.22" r="4.5" fill="#a78bfa" stroke="#0b1020" stroke-width="2.5"/><circle cx="591.75" cy="151.04" r="4.5" fill="#a78bfa" stroke="#0b1020" stroke-width="2.5"/><circle cx="678.25" cy="144.12" r="4.5" fill="#a78bfa" stroke="#0b1020" stroke-width="2.5"/><circle cx="764.75" cy="137.86" r="4.5" fill="#a78bfa" stroke="#0b1020" stroke-width="2.5"/><circle cx="851.25" cy="134.87" r="4.5" fill="#a78bfa" stroke="#0b1020" stroke-width="2.5"/><circle cx="937.75" cy="132.64" r="4.5" fill="#a78bfa" stroke="#0b1020" stroke-width="2.5"/><circle cx="1024.25" cy="130.76" r="4.5" fill="#a78bfa" stroke="#0b1020" stroke-width="2.5"/><circle cx="1110.75" cy="129.39" r="4.5" fill="#a78bfa" stroke="#0b1020" stroke-width="2.5"/>
 <g>
-<rect x="140.25" y="274.45" width="38" height="16" rx="8" fill="#0d1322" stroke="#a78bfa" stroke-opacity="0.7" stroke-width="1"/>
-<text x="159.25" y="285.45" text-anchor="middle" fill="#c4b5fd" font-size="9.5" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">49%</text>
+<rect x="140.25" y="274.44" width="38" height="16" rx="8" fill="#0d1322" stroke="#a78bfa" stroke-opacity="0.7" stroke-width="1"/>
+<text x="159.25" y="285.44" text-anchor="middle" fill="#c4b5fd" font-size="9.5" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">49%</text>
 </g><g>
 <rect x="226.75" y="199.21" width="38" height="16" rx="8" fill="#0d1322" stroke="#a78bfa" stroke-opacity="0.7" stroke-width="1"/>
 <text x="245.75" y="210.21" text-anchor="middle" fill="#c4b5fd" font-size="9.5" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">72%</text>
@@ -149,7 +149,7 @@
 </g><g transform="translate(690 560)">
 <rect width="150" height="54" rx="12" fill="#0d1322" stroke="#06b6d4" stroke-opacity="0.35" stroke-width="1.2"/>
 <text x="14" y="20" fill="#8b93a7" font-size="10.5" font-weight="700" letter-spacing="1.2" font-family="Inter,'Segoe UI',system-ui,sans-serif">TOP 12</text>
-<text x="14" y="42" fill="#06b6d4" font-size="17" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">99.56414880293302%</text>
+<text x="14" y="42" fill="#06b6d4" font-size="17" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">99.5641561191676%</text>
 </g><g transform="translate(850 560)">
 <rect width="240" height="54" rx="12" fill="#0d1322" stroke="#db2777" stroke-opacity="0.35" stroke-width="1.2"/>
 <text x="14" y="20" fill="#8b93a7" font-size="10.5" font-weight="700" letter-spacing="1.2" font-family="Inter,'Segoe UI',system-ui,sans-serif">TOTAL</text>

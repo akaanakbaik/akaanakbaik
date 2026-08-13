@@ -1,4 +1,4 @@
-import { mkdir, writeFile } from 'node:fs/promises';
+import { mkdir, writeFile, rm } from 'node:fs/promises';
 import { join } from 'node:path';
 import { compact, thousandSep, humanBytes, dateStamp, writeBadge, relativeTime, preciseAge, classifyRhythm, monthDay, jakartaNow } from './lib/engine.mjs';
 import { fetchProfileData } from './lib/collect.mjs';
@@ -163,6 +163,7 @@ ${backRows}
 async function main() {
   const log = (msg) => console.log(`[metrics] ${msg}`);
   await mkdir('badges', { recursive: true });
+  await rm('badges/repo-size.json', { force: true });
   await mkdir('stats', { recursive: true });
   await mkdir('generated', { recursive: true });
   log(`starting profile metrics for ${username}${skipCodeTotals ? ' (skipping code totals)' : ''}`);
@@ -184,9 +185,23 @@ async function main() {
       perLangTop
     });
     await writeFile('generated/code-totals.svg', badge);
-    await writeBadge('total-lines', 'source lines', compact(t.codeLines), '4338ca');
-    await writeBadge('total-chars', 'source characters', compact(t.chars), 'b45309');
-    await writeBadge('code-files', 'code files', compact(t.files), '0e7490');
+    await writeBadge('total-lines', 'nonblank code lines', compact(t.codeLines), '4338ca');
+    await writeBadge('total-chars', 'Unicode code characters', compact(t.chars), 'b45309');
+    await writeBadge('code-files', 'tracked code files', compact(t.files), '0e7490');
+    await writeFile(
+      'stats/code-census-manifest.json',
+      JSON.stringify({
+        schemaVersion: 1,
+        generatedAt: data.generatedAt,
+        policy: codeTotals.policy,
+        repositories: data.allRepos.map((repo) => ({
+          name: repo.name,
+          defaultBranch: repo.default_branch || 'main',
+          pushedAt: repo.pushed_at || null
+        })),
+        totals: codeTotals.totals
+      }, null, 2) + '\n'
+    );
   }
   const distribution = data.languageDistribution;
   let activity = null;
@@ -270,7 +285,6 @@ async function main() {
   await writeBadge('total-stars', 'total stars', compact(data.totalStars), 'b45309');
   await writeBadge('total-forks', 'total forks', compact(data.totalForks), '15803d');
   await writeBadge('total-watchers', 'watchers (subscribers)', compact(data.totalWatchers), 'be185d');
-  await writeBadge('repo-size', 'repo size', data.totalSize, '0e7490');
   await writeBadge('top-language', 'top language', data.topLanguage, '7e22ce');
   await writeBadge('public-repos', 'public repos', compact(data.publicRepos), '4338ca');
   const payload = {

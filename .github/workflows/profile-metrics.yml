@@ -48,6 +48,9 @@ jobs:
           PROFILE_USERNAME: akaanakbaik
         run: node scripts/generate-profile-metrics.mjs
 
+      - name: Verify complete Code Census
+        run: node scripts/verify-code-census.mjs
+
       - name: Refresh clock, social badges and motivation
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

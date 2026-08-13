@@ -48,11 +48,15 @@ async function main() {
   await mkdir('stats', { recursive: true });
   await writeFile(
     'badges/total-lines.json',
-    JSON.stringify({ schemaVersion: 1, label: 'source lines', message: compact(totals.codeLines), color: '4338ca' }, null, 2) + '\n'
+    JSON.stringify({ schemaVersion: 1, label: 'nonblank code lines', message: compact(totals.codeLines), color: '4338ca' }, null, 2) + '\n'
   );
   await writeFile(
     'badges/total-chars.json',
-    JSON.stringify({ schemaVersion: 1, label: 'source characters', message: compact(totals.chars), color: 'b45309' }, null, 2) + '\n'
+    JSON.stringify({ schemaVersion: 1, label: 'Unicode code characters', message: compact(totals.chars), color: 'b45309' }, null, 2) + '\n'
+  );
+  await writeFile(
+    'badges/code-files.json',
+    JSON.stringify({ schemaVersion: 1, label: 'tracked code files', message: compact(totals.files), color: '0e7490' }, null, 2) + '\n'
   );
   await writeFile('generated/code-totals.svg', badge);
   const snapshot = {
@@ -72,10 +76,20 @@ async function main() {
     excludedFiles: aggregate.excludedFiles,
     exclusionSamples: aggregate.exclusionSamples,
     bytes: totals.bytes,
-    policy: 'tracked source files only; UTF-8 Unicode characters; generated/vendor/docs/data excluded',
+    policy: aggregate.policy,
     perLanguage: aggregate.perLang
   };
   await writeFile('stats/code-totals.json', JSON.stringify(snapshot, null, 2) + '\n');
+  await writeFile(
+    'stats/code-census-manifest.json',
+    JSON.stringify({
+      schemaVersion: 1,
+      generatedAt: snapshot.generatedAt,
+      policy: aggregate.policy,
+      repositories: allRepos.map((repo) => ({ name: repo.name, defaultBranch: repo.default_branch || 'main', pushedAt: repo.pushed_at || null })),
+      totals
+    }, null, 2) + '\n'
+  );
   log(`sourceLines=${thousandSep(totals.codeLines)} physicalLines=${thousandSep(totals.lines)} unicodeChars=${thousandSep(totals.chars)} files=${thousandSep(totals.files)} langs=${aggregate.perLang.length}`);
 }
 
