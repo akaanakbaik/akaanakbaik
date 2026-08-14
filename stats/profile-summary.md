@@ -1,6 +1,6 @@
 # Profile Metrics Summary
 
-Generated: 14 Aug 2026, 13:41
+Generated: 14 Aug 2026, 15:37
 
 ## Account
 
@@ -16,7 +16,7 @@ Generated: 14 Aug 2026, 13:41
 | Total stars | 409 |
 | Total forks | 27 |
 | Total watchers | 13 |
-| Total repo size | 837.9 MB |
+| Total repo size | 838.0 MB |
 | Top language | JavaScript |
 
 ## Code Totals (scanned from all repositories)
@@ -26,20 +26,20 @@ Generated: 14 Aug 2026, 13:41
 | Source files counted | 17,676 |
 | Tracked source candidates | 17,678 |
 | Excluded source candidates | 2 |
-| Source lines (physical) | 3,405,935 |
-| Source lines (non-empty) | 3,167,337 |
-| Source characters (Unicode) | 144,821,724 |
-| Non-whitespace characters | 110,399,143 |
-| Bytes scanned | 139.51 MB |
+| Source lines (physical) | 3,406,010 |
+| Source lines (non-empty) | 3,167,406 |
+| Source characters (Unicode) | 144,827,875 |
+| Non-whitespace characters | 110,404,590 |
+| Bytes scanned | 139.52 MB |
 
 ## Lines of Code per Language
 
 | Language | Lines | Chars | Files |
 | --- | ---: | ---: | ---: |
-| JavaScript | 2,051,144 | 98,235,058 | 9,323 |
-| TypeScript | 797,643 | 33,737,911 | 5,552 |
+| JavaScript | 2,051,160 | 98,235,986 | 9,323 |
+| TypeScript | 797,673 | 33,740,402 | 5,552 |
 | Python | 124,866 | 5,812,766 | 935 |
-| CSS | 56,170 | 2,126,650 | 108 |
+| CSS | 56,193 | 2,129,382 | 108 |
 | C++ | 37,192 | 1,106,284 | 662 |
 | Java | 25,714 | 937,878 | 414 |
 | HTML | 22,845 | 1,113,753 | 142 |
@@ -84,12 +84,12 @@ Generated: 14 Aug 2026, 13:41
 | Distinct languages | 41 |
 | Shannon entropy | 2.248 bits (max 5.358) |
 | Redundancy | 58.0% |
-| Herfindahl-Hirschman Index | 3133.5 (×10⁴) |
-| Gini coefficient | 0.9094 |
-| CR₃ concentration | 84.89% |
+| Herfindahl-Hirschman Index | 3133.2 (×10⁴) |
+| Gini coefficient | 0.9093 |
+| CR₃ concentration | 84.88% |
 | CR₅ concentration | 90.56% |
 | Pareto 80% coverage | top 3 of 41 languages |
-| Top language share | 48.93% |
+| Top language share | 48.92% |
 | Geometric mean bytes | 4.9K |
 | Coefficient of variation | 3.442 |
 
@@ -115,10 +115,10 @@ Generated: 14 Aug 2026, 13:41
 
 | Language | Repos | Bytes | Share |
 | --- | ---: | ---: | ---: |
-| JavaScript | 70 | 23463351 | 48.93% |
-| TypeScript | 30 | 11275134 | 23.51% |
+| JavaScript | 70 | 23464279 | 48.92% |
+| TypeScript | 30 | 11277629 | 23.51% |
 | Python | 12 | 5970901 | 12.45% |
-| CSS | 51 | 1604643 | 3.35% |
+| CSS | 51 | 1607375 | 3.35% |
 | C++ | 9 | 1114294 | 2.32% |
 | Jupyter Notebook | 1 | 1077015 | 2.25% |
 | HTML | 51 | 1036835 | 2.16% |
