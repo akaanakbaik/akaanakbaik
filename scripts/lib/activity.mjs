@@ -1,35 +1,60 @@
 import { runPool, sleep, hourInTz, weekdayInTz, circularMeanHours, circularStdHours } from './engine.mjs';
 
 async function gqlRequest(token, query, variables, { retries = 8, log = () => {} } = {}) {
+  let last = null;
   for (let attempt = 0; attempt <= retries; attempt++) {
-    const res = await fetch('https://api.github.com/graphql', {
-      method: 'POST',
-      headers: {
-        Authorization: `Bearer ${token}`,
-        'Content-Type': 'application/json',
-        'User-Agent': 'akaanakbaik-profile-engine'
-      },
-      body: JSON.stringify({ query, variables })
-    });
-    if (res.status === 403 || res.status === 429) {
-      const retryAfter = Number(res.headers.get('retry-after'));
-      const wait = (retryAfter || 30) * 1000;
-      log(`gql rate limited, waiting ${Math.round(wait / 1000)}s`);
+    let res;
+    try {
+      res = await fetch('https://api.github.com/graphql', {
+        method: 'POST',
+        headers: {
+          Authorization: `Bearer ${token}`,
+          'Content-Type': 'application/json',
+          'User-Agent': 'akaanakbaik-profile-engine'
+        },
+        body: JSON.stringify({ query, variables }),
+        signal: AbortSignal.timeout(30000)
+      });
+    } catch (error) {
+      last = error;
+      if (attempt >= retries) break;
+      const wait = Math.min(60000, 1000 * 2 ** attempt) + Math.floor(Math.random() * 800);
+      log(`gql transport failure, retry ${attempt + 1}/${retries} in ${Math.ceil(wait / 1000)}s`);
       await sleep(wait);
       continue;
     }
-    const json = await res.json().catch(() => null);
-    if (json && json.errors) {
-      const rateLimited = json.errors.some((e) => e.type === 'RATE_LIMITED');
+    if (res.status === 403 || res.status === 429 || res.status >= 500) {
+      const retryAfter = Number(res.headers.get('retry-after') || 0) * 1000;
+      const wait = retryAfter || Math.min(60000, 30000 * 2 ** attempt) + Math.floor(Math.random() * 800);
+      last = new Error(`HTTP ${res.status}`);
+      if (attempt >= retries) break;
+      log(`gql transient HTTP ${res.status}, retry ${attempt + 1}/${retries} in ${Math.ceil(wait / 1000)}s`);
+      await sleep(wait);
+      continue;
+    }
+    const json = await res.json().catch((error) => {
+      last = error;
+      return null;
+    });
+    if (!res.ok) throw new Error(`gql HTTP ${res.status}: ${JSON.stringify(json).slice(0, 220)}`);
+    if (!json) {
+      if (attempt >= retries) break;
+      continue;
+    }
+    if (json.errors) {
+      const rateLimited = json.errors.some((e) => e.type === 'RATE_LIMITED' || /rate limit|secondary rate/i.test(e.message || ''));
       if (rateLimited && attempt < retries) {
-        await sleep(45000 + attempt * 15000);
+        const wait = Math.min(60000, 30000 * 2 ** attempt) + Math.floor(Math.random() * 800);
+        log(`gql rate limited, retry ${attempt + 1}/${retries} in ${Math.ceil(wait / 1000)}s`);
+        await sleep(wait);
         continue;
       }
       throw new Error(`gql error: ${json.errors.map((e) => e.message).join('; ')}`);
     }
-    return json && json.data ? json.data : null;
+    if (!json.data) throw new Error('gql response did not contain data');
+    return json.data;
   }
-  throw new Error('gql failed after retries');
+  throw new Error(`gql failed after ${retries + 1} attempts${last ? `: ${last.message}` : ''}`);
 }
 
 const USER_ACTIVITY_QUERY = `query($login: String!) {
@@ -281,7 +306,7 @@ export async function fetchCommitTimestamps(client, username, allRepos, log = ()
     }
     perRepoCounts.push({ repo: repo.name, count: owned });
   });
-  await runPool(tasks, 10);
+  await runPool(tasks, 6);
   const hourCounts = Array.from({ length: 24 }, (_, i) => hours.filter((h) => h === i).length);
   const weekdayOrder = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'];
   const weekdayCounts = weekdayOrder.map((wd) => weekdays.filter((w) => w === wd).length);

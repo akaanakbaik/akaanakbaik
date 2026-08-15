@@ -111,7 +111,7 @@ export async function fetchPerRepoLanguages(client, username, allRepos) {
     const languages = await client.request(`/repos/${username}/${encodeURIComponent(repo.name)}/languages`);
     return { repo: repo.name, languages: languages || {} };
   });
-  return runPool(tasks, 14);
+  return runPool(tasks, 6);
 }
 
 export async function fetchPerRepoSubscribers(client, username, allRepos) {
@@ -119,7 +119,7 @@ export async function fetchPerRepoSubscribers(client, username, allRepos) {
     const full = await client.request(`/repos/${username}/${encodeURIComponent(repo.name)}`);
     return { repo: repo.name, subscribers: full && full.subscribers_count ? full.subscribers_count : 0 };
   });
-  return runPool(tasks, 14);
+  return runPool(tasks, 6);
 }
 
 async function fetchPackageJson(client, username, repo) {
@@ -128,8 +128,9 @@ async function fetchPackageJson(client, username, repo) {
     const file = await client.request(`/repos/${username}/${encodeURIComponent(repo.name)}/contents/package.json?ref=${ref}`);
     if (!file || !file.content) return null;
     return JSON.parse(Buffer.from(file.content, 'base64').toString('utf8'));
-  } catch {
-    return null;
+  } catch (error) {
+    if (String(error.message || error).startsWith('404 ')) return null;
+    throw error;
   }
 }
 
@@ -151,7 +152,7 @@ export async function fetchDependencyStacks(client, username, allRepos, log) {
       }
     }
   });
-  await runPool(tasks, 14);
+  await runPool(tasks, 6);
   const sort = ([a, x], [b, y]) => y - x || a.localeCompare(b);
   return {
     frontend: [...frontend.entries()].sort(sort).map(([name, count]) => ({ name, count })),

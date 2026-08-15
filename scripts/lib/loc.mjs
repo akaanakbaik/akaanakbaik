@@ -3,9 +3,22 @@ import { promisify } from 'node:util';
 import { mkdir, readFile, lstat, writeFile, rm } from 'node:fs/promises';
 import { existsSync } from 'node:fs';
 import { join, extname } from 'node:path';
-import { runPool } from './engine.mjs';
+import { runPool, sleep } from './engine.mjs';
 
 const exec = promisify(execFile);
+
+async function execWithRetry(command, args, options, retries = 3) {
+  let last = null;
+  for (let attempt = 0; attempt < retries; attempt++) {
+    try {
+      return await exec(command, args, options);
+    } catch (error) {
+      last = error;
+      if (attempt + 1 < retries) await sleep(Math.min(30000, 1000 * 2 ** attempt));
+    }
+  }
+  throw last;
+}
 
 const SOURCE_EXTENSIONS = new Set([
   'js', 'jsx', 'mjs', 'cjs', 'ts', 'tsx', 'py', 'pyw', 'ipynb', 'html', 'htm', 'css', 'scss', 'sass', 'less',
@@ -209,7 +222,7 @@ export async function ensureClones(repos, targetDir, { token = '', owner = 'akaa
     let head = null;
     let lsRemoteFailed = false;
     try {
-      const ls = await exec('git', ['ls-remote', `https://${auth}github.com/${owner}/${repo.name}.git`, 'HEAD'], { timeout: 30000 });
+      const ls = await execWithRetry('git', ['ls-remote', `https://${auth}github.com/${owner}/${repo.name}.git`, 'HEAD'], { timeout: 30000 });
       head = String(ls.stdout).split(/\s+/)[0] || null;
     } catch {
       lsRemoteFailed = true;
@@ -231,17 +244,24 @@ export async function ensureClones(repos, targetDir, { token = '', owner = 'akaa
       await rm(dir, { recursive: true, force: true });
     }
     const branch = repo.default_branch || 'main';
-    try {
-      await exec(
-        'git',
-        ['clone', '--depth', '1', '--single-branch', '--branch', branch, `https://${auth}github.com/${owner}/${repo.name}.git`, dir],
-        { timeout: 240000, maxBuffer: 1024 * 1024 * 8 }
-      );
+    let cloneError = null;
+    let cloned = false;
+    for (let attempt = 0; attempt < 3 && !cloned; attempt++) {
+      try {
+        if (existsSync(dir)) await rm(dir, { recursive: true, force: true });
+        await exec('git', ['clone', '--depth', '1', '--single-branch', '--branch', branch, `https://${auth}github.com/${owner}/${repo.name}.git`, dir], { timeout: 240000, maxBuffer: 1024 * 1024 * 8 });
+        cloned = true;
+      } catch (error) {
+        cloneError = error;
+        if (attempt < 2) await sleep(Math.min(30000, 1000 * 2 ** attempt));
+      }
+    }
+    if (cloned) {
       if (head) manifest[repo.name] = head;
       outcomes.push({ repo: repo.name, status: head ? 'cloned' : 'cloned-nohead', head });
       log(`cloned ${repo.name}@${branch}`);
-    } catch (error) {
-      outcomes.push({ repo: repo.name, status: 'skipped', error: String(error).slice(0, 140) });
+    } else {
+      outcomes.push({ repo: repo.name, status: 'skipped', error: String(cloneError).slice(0, 140) });
     }
   });
   await runPool(tasks, 6);

@@ -141,7 +141,7 @@ async function main() {
   log(`collecting commits since ${sinceIso}`);
   const allRepos = (await client.paginate(`/users/${username}/repos?type=owner&sort=updated&direction=desc`)).filter((r) => !r.private);
   const tasks = allRepos.map((repo) => async () => fetchRepoCommits(client, username, repo, sinceIso));
-  const results = await runPool(tasks, 12);
+  const results = await runPool(tasks, 6);
   const enriched = results.map((r) => {
     const repo = allRepos.find((x) => x.name === r.repo);
     return { ...r, language: repo ? repo.language : 'Unknown' };
@@ -159,7 +159,7 @@ async function main() {
     issues = isRes && isRes.total_count ? isRes.total_count : 0;
     log(`PRs opened = ${prs}, issues opened = ${issues}`);
   } catch (error) {
-    log(`search skipped: ${error.message}`);
+    throw new Error(`monthly search failed: ${error.message}`);
   }
 
   const monthName = new Intl.DateTimeFormat('en-GB', { timeZone: 'Asia/Jakarta', month: 'long', year: 'numeric' }).format(now);

@@ -14,7 +14,7 @@ on:
 
 concurrency:
   group: generated-assets-main
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 permissions:
   contents: write
@@ -22,7 +22,7 @@ permissions:
 jobs:
   generate:
     runs-on: ubuntu-latest
-    timeout-minutes: 60
+    timeout-minutes: 90
     steps:
       - name: Checkout
         uses: actions/checkout@v5
@@ -34,11 +34,14 @@ jobs:
         with:
           node-version: 22
 
+      - name: Test API retry resilience
+        run: node scripts/test-reliability.mjs
+
       - name: Cache repository clones for code totals
         uses: actions/cache@v5
         with:
           path: .cache/repos
-          key: code-repositories-${{ runner.os }}-${{ hashFiles('scripts/**') }}
+          key: code-repositories-${{ runner.os }}-${{ hashFiles('scripts/lib/loc.mjs') }}
           restore-keys: |
             code-repositories-${{ runner.os }}-
 

@@ -13,34 +13,52 @@ export function createClient({ token = '', owner = 'akaanakbaik', log = () => {}
     'User-Agent': 'akaanakbaik-profile-engine'
   };
   if (token) headers.Authorization = `Bearer ${token}`;
-  async function request(path, { retries = 8, method = 'GET', body } = {}) {
+  async function request(path, { retries = 8, method = 'GET', body, timeoutMs = 30000 } = {}) {
     let last = null;
     for (let attempt = 0; attempt <= retries; attempt++) {
-      const res = await fetch(`https://api.github.com${path}`, {
-        method,
-        headers,
-        body: body ? JSON.stringify(body) : undefined
-      });
-      if (res.status === 204) return null;
-      if (res.status === 403) {
-        const remaining = res.headers.get('x-ratelimit-remaining');
-        const reset = Number(res.headers.get('x-ratelimit-reset') || 0) * 1000;
-        if (remaining === '0' && reset > Date.now()) {
-          const wait = reset - Date.now() + 2000;
-          log(`rate limited, waiting ${Math.round(wait / 1000)}s`);
-          await sleep(wait);
-          continue;
-        }
-      }
-      if (res.status === 429) {
-        const wait = (Number(res.headers.get('retry-after')) || 15) * 1000;
-        log(`secondary rate limit, waiting ${Math.round(wait / 1000)}s`);
+      let res;
+      try {
+        res = await fetch(`https://api.github.com${path}`, {
+          method,
+          headers,
+          body: body ? JSON.stringify(body) : undefined,
+          signal: AbortSignal.timeout(timeoutMs)
+        });
+      } catch (error) {
+        last = error;
+        if (attempt >= retries) break;
+        const wait = Math.min(60000, 1000 * 2 ** attempt) + Math.floor(Math.random() * 800);
+        log(`transport failure for ${path}, retry ${attempt + 1}/${retries} in ${Math.ceil(wait / 1000)}s`);
         await sleep(wait);
         continue;
       }
+      if (res.status === 204) return null;
+      const remaining = res.headers.get('x-ratelimit-remaining');
+      const reset = Number(res.headers.get('x-ratelimit-reset') || 0) * 1000;
+      const retryAfter = Number(res.headers.get('retry-after') || 0) * 1000;
+      if (res.status === 403 || res.status === 429) {
+        const text = await res.text().catch(() => '');
+        const secondary = /secondary rate limit|abuse detection|too many requests/i.test(text);
+        if (remaining === '0' && reset > Date.now()) {
+          const wait = reset - Date.now() + 2000;
+          log(`primary rate limit, waiting ${Math.ceil(wait / 1000)}s`);
+          await sleep(wait);
+          continue;
+        }
+        if (retryAfter > 0 || secondary || res.status === 429) {
+          const wait = retryAfter || Math.min(60000, 30000 * 2 ** attempt);
+          log(`secondary rate limit, waiting ${Math.ceil(wait / 1000)}s`);
+          await sleep(wait + Math.floor(Math.random() * 800));
+          continue;
+        }
+        throw new Error(`${res.status} ${path}: ${text.slice(0, 220)}`);
+      }
       if (res.status >= 500) {
         last = res;
-        await sleep(1500 * 2 ** attempt + Math.random() * 600);
+        if (attempt >= retries) break;
+        const wait = Math.min(60000, 1500 * 2 ** attempt) + Math.floor(Math.random() * 800);
+        log(`server failure ${res.status} for ${path}, retry ${attempt + 1}/${retries} in ${Math.ceil(wait / 1000)}s`);
+        await sleep(wait);
         continue;
       }
       if (!res.ok) {
@@ -48,10 +66,19 @@ export function createClient({ token = '', owner = 'akaanakbaik', log = () => {}
         throw new Error(`${res.status} ${path}: ${text.slice(0, 220)}`);
       }
       const type = res.headers.get('content-type') || '';
-      if (type.includes('json')) return res.json();
-      return res.text();
+      try {
+        if (type.includes('json')) return await res.json();
+        return await res.text();
+      } catch (error) {
+        last = error;
+        if (attempt >= retries) break;
+        const wait = Math.min(60000, 1000 * 2 ** attempt) + Math.floor(Math.random() * 800);
+        log(`invalid response for ${path}, retry ${attempt + 1}/${retries} in ${Math.ceil(wait / 1000)}s`);
+        await sleep(wait);
+      }
     }
-    throw new Error(`request failed after retries: ${path} last=${last ? last.status : 'unknown'}`);
+    const detail = last && last.message ? ` ${last.message}` : '';
+    throw new Error(`request failed after ${retries + 1} attempts: ${path}.${detail}`);
   }
   async function paginate(path, { perPage = 100, pages = 12 } = {}) {
     const out = [];
