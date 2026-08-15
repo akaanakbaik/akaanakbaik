@@ -94,6 +94,21 @@ I build practical projects while learning: web apps, bot systems, Linux/VPS tool
 
 </div>
 
+### Repository Portfolio Signals
+
+<div align="center">
+
+<p align="center">
+  <a href="https://github.com/akaanakbaik"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaanakbaik%2Fakaanakbaik%2Fmain%2Fbadges%2Foriginal-repos.json&cacheSeconds=300&style=for-the-badge&logoSize=auto&logo=github&logoColor=white" alt="Original public repositories" /></a>&nbsp;
+  <a href="https://github.com/akaanakbaik"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaanakbaik%2Fakaanakbaik%2Fmain%2Fbadges%2Factive-repos-90d.json&cacheSeconds=300&style=for-the-badge&logoSize=auto&logo=activity&logoColor=white" alt="Repositories active in the last 90 days" /></a>&nbsp;
+  <a href="https://github.com/akaanakbaik"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaanakbaik%2Fakaanakbaik%2Fmain%2Fbadges%2Farchived-repos.json&cacheSeconds=300&style=for-the-badge&logoSize=auto&logo=archive&logoColor=white" alt="Archived public repositories" /></a>&nbsp;
+  <a href="https://github.com/akaanakbaik"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaanakbaik%2Fakaanakbaik%2Fmain%2Fbadges%2Fpublic-gists.json&cacheSeconds=300&style=for-the-badge&logoSize=auto&logo=github&logoColor=white" alt="Public gists" /></a>
+</p>
+
+<img width="100%" src="https://raw.githubusercontent.com/akaanakbaik/akaanakbaik/main/generated/repository-momentum.svg" alt="Repository Momentum Matrix showing stars, forks, and repository size" />
+
+</div>
+
 > **Full Code Census.** Every tracked, regular source file on the default branch of every public repository is read without a file-size limit, including tracked dependencies and generated source when present. “Lines” means non-empty code lines; “characters” means Unicode code points; notebooks contribute only their code cells. Empty files are counted as files with zero lines and characters. Symlinks do not contain source themselves and are recorded separately. Any unreadable, binary, or unparsable source file fails the snapshot rather than creating a partial total; the workflow then independently recounts every cached clone before publication.
 
 ---

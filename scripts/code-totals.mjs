@@ -2,7 +2,7 @@ import { mkdir, writeFile } from 'node:fs/promises';
 import { join } from 'node:path';
 import { createClient, runPool, compact, thousandSep, dateStamp } from './lib/engine.mjs';
 import { ensureClones, scanRepository, aggregateCodeMetrics } from './lib/loc.mjs';
-import { codeTotalsBadgeSvg } from './lib/charts.mjs';
+import { codeTotalsBadgeSvg, repositoryMomentumSvg } from './lib/charts.mjs';
 
 const username = process.env.PROFILE_USERNAME || 'akaanakbaik';
 const token = process.env.GITHUB_TOKEN || '';
@@ -59,6 +59,7 @@ async function main() {
     JSON.stringify({ schemaVersion: 1, label: 'tracked code files', message: compact(totals.files), color: '0e7490' }, null, 2) + '\n'
   );
   await writeFile('generated/code-totals.svg', badge);
+  await writeFile('generated/repository-momentum.svg', repositoryMomentumSvg({ repos: allRepos, generatedAt: dateStamp() }));
   const snapshot = {
     username,
     generatedAt: dateStamp(),

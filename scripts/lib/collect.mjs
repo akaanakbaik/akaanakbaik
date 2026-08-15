@@ -169,6 +169,8 @@ export async function fetchProfileData({ username, token = '', log = () => {} })
   const original = allRepos.filter((r) => !r.fork);
   const forked = allRepos.filter((r) => r.fork);
   const archived = allRepos.filter((r) => r.archived);
+  const activeCutoff = Date.now() - 90 * 86400000;
+  const activeRepos90d = allRepos.filter((r) => r.pushed_at && new Date(r.pushed_at).getTime() >= activeCutoff).length;
   const totalStars = allRepos.reduce((a, r) => a + (r.stargazers_count || 0), 0);
   const totalForks = allRepos.reduce((a, r) => a + (r.forks_count || 0), 0);
   const totalSizeKb = allRepos.reduce((a, r) => a + (r.size || 0), 0);
@@ -226,6 +228,7 @@ export async function fetchProfileData({ username, token = '', log = () => {} })
     originalRepos: original.length,
     forkedRepos: forked.length,
     archivedRepos: archived.length,
+    activeRepos90d,
     followers: user.followers || 0,
     following: user.following || 0,
     publicGists: user.public_gists || 0,

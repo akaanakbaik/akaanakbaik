@@ -1,4 +1,5 @@
 import { readFile, readdir } from 'node:fs/promises';
+import { existsSync } from 'node:fs';
 
 const MIN_BADGE_CONTRAST = 4.5;
 
@@ -15,6 +16,19 @@ function unique(values) {
 
 function normalizeUrl(url) {
   return url.replace(/[),.;]+$/g, '');
+}
+
+function localGeneratedMirror(url) {
+  try {
+    const parsed = new URL(url);
+    if (parsed.hostname !== 'raw.githubusercontent.com') return null;
+    const parts = parsed.pathname.split('/').filter(Boolean);
+    if (parts.length < 4 || parts[0] !== 'akaanakbaik' || parts[1] !== 'akaanakbaik' || parts[2] !== 'main') return null;
+    const localPath = parts.slice(3).join('/');
+    return existsSync(localPath) ? localPath : null;
+  } catch {
+    return null;
+  }
 }
 
 async function checkUrl(url) {
@@ -117,7 +131,12 @@ async function main() {
           console.log(`OK ${result.status} ${result.url} ${url}`);
         }
       } catch (error) {
-        failures.push(`${url}: ${error.message}`);
+        const localPath = error.message.startsWith('404 ') ? localGeneratedMirror(url) : null;
+        if (localPath) {
+          console.warn(`LOCAL-ONLY ${url}: ${localPath} exists and will be published in this snapshot`);
+        } else {
+          failures.push(`${url}: ${error.message}`);
+        }
       }
     }
   });

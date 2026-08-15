@@ -239,6 +239,61 @@ ${list}
   return baseCard(1150, 660, 'Language Adoption Radar', 'Top 8 languages by repository count, log-normalized radar — every language supported, full census below', inner);
 }
 
+export function repositoryMomentumSvg({ repos, generatedAt }) {
+  const safeRepos = Array.isArray(repos) ? repos : [];
+  const maxStars = Math.max(...safeRepos.map((repo) => Number(repo.stargazers_count || 0)), 1);
+  const maxForks = Math.max(...safeRepos.map((repo) => Number(repo.forks_count || 0)), 1);
+  const maxSize = Math.max(...safeRepos.map((repo) => Number(repo.size || 0)), 1);
+  const width = 1000;
+  const height = 560;
+  const plotX = 78;
+  const plotY = 108;
+  const plotW = 585;
+  const plotH = 330;
+  const xLogMax = Math.log10(maxStars + 1);
+  const yLogMax = Math.log10(maxForks + 1);
+  const pointX = (value) => plotX + (Math.log10(value + 1) / xLogMax) * plotW;
+  const pointY = (value) => plotY + plotH - (Math.log10(value + 1) / yLogMax) * plotH;
+  const pointRadius = (value) => 5 + Math.min(10, Math.log10(value + 1) * 2.2);
+  const colorForRepo = (repo) => repo.archived ? '#fb7185' : repo.fork ? '#fbbf24' : '#60a5fa';
+  const dots = safeRepos.map((repo) => {
+    const stars = Number(repo.stargazers_count || 0);
+    const forks = Number(repo.forks_count || 0);
+    const size = Number(repo.size || 0);
+    const x = pointX(stars);
+    const y = pointY(forks);
+    return `<g><circle cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="${pointRadius(size).toFixed(1)}" fill="${colorForRepo(repo)}" fill-opacity="0.82" stroke="#f8fafc" stroke-opacity="0.55" stroke-width="1"/><title>${esc(`${repo.name}: ${stars} stars, ${forks} forks, ${size} KB`)}</title></g>`;
+  }).join('');
+  const tickValues = (max) => [...new Set([0, 1, 10, max].filter((value) => value <= max))];
+  const xTicks = tickValues(maxStars).map((value) => {
+    const x = pointX(value);
+    return `<g><line x1="${x.toFixed(1)}" y1="${plotY}" x2="${x.toFixed(1)}" y2="${plotY + plotH}" stroke="#64748b" stroke-opacity="0.18"/><text x="${x.toFixed(1)}" y="${plotY + plotH + 22}" text-anchor="middle" fill="#94a3b8" font-size="11" ${font()}>${compact(value)}</text></g>`;
+  }).join('');
+  const yTicks = tickValues(maxForks).map((value) => {
+    const y = pointY(value);
+    return `<g><line x1="${plotX}" y1="${y.toFixed(1)}" x2="${plotX + plotW}" y2="${y.toFixed(1)}" stroke="#64748b" stroke-opacity="0.18"/><text x="${plotX - 12}" y="${(y + 4).toFixed(1)}" text-anchor="end" fill="#94a3b8" font-size="11" ${font()}>${compact(value)}</text></g>`;
+  }).join('');
+  const topRepos = [...safeRepos].sort((a, b) => (b.stargazers_count || 0) - (a.stargazers_count || 0) || (b.forks_count || 0) - (a.forks_count || 0)).slice(0, 5);
+  const topList = topRepos.map((repo, index) => `<g transform="translate(710 ${150 + index * 45})"><circle cx="8" cy="8" r="7" fill="${colorForRepo(repo)}"/><text x="24" y="8" fill="#f8fafc" font-size="12" font-weight="800" ${font()}>${index + 1}. ${esc(repo.name)}</text><text x="24" y="26" fill="#94a3b8" font-size="10.5" ${font()}>${thousandSep(repo.stargazers_count || 0)} stars · ${thousandSep(repo.forks_count || 0)} forks</text></g>`).join('');
+  const active = safeRepos.filter((repo) => !repo.archived && !repo.fork).length;
+  const archived = safeRepos.filter((repo) => repo.archived).length;
+  const forked = safeRepos.filter((repo) => repo.fork).length;
+  const totalStars = safeRepos.reduce((sum, repo) => sum + Number(repo.stargazers_count || 0), 0);
+  const inner = `<text x="${plotX}" y="78" fill="#94a3b8" font-size="11" font-weight="800" letter-spacing="1.2" ${font()}>LOG-SCALE DISTRIBUTION · BUBBLE SIZE = REPOSITORY SIZE (KB)</text>
+<rect x="${plotX}" y="${plotY}" width="${plotW}" height="${plotH}" rx="12" fill="#0b1220" stroke="#334155" stroke-width="1.2"/>
+${xTicks}${yTicks}${dots}
+<text x="${plotX + plotW / 2}" y="${plotY + plotH + 48}" text-anchor="middle" fill="#cbd5e1" font-size="12" font-weight="800" ${font()}>STARS · LOG₁₀(x + 1)</text>
+<text x="18" y="${plotY + plotH / 2}" text-anchor="middle" transform="rotate(-90 18 ${plotY + plotH / 2})" fill="#cbd5e1" font-size="12" font-weight="800" ${font()}>FORKS · LOG₁₀(x + 1)</text>
+<text x="710" y="112" fill="#f8fafc" font-size="13" font-weight="900" letter-spacing="1.3" ${font()}>TOP SIGNAL</text>
+${topList}
+<line x1="710" y1="382" x2="962" y2="382" stroke="#334155"/>
+${statChip(710, 400, 'ACTIVE ORIGINAL', thousandSep(active), '#60a5fa', 116)}
+${statChip(838, 400, 'FORKED', thousandSep(forked), '#fbbf24', 116)}
+${statChip(710, 464, 'ARCHIVED', thousandSep(archived), '#fb7185', 116)}
+${statChip(838, 464, 'TOTAL STARS', compact(totalStars), '#a78bfa', 116)}`;
+  return baseCard(width, height, 'Repository Momentum Matrix', `All ${safeRepos.length} public repositories · stars vs forks · exact REST snapshot · ${generatedAt}`, inner);
+}
+
 export function codeTotalsBadgeSvg({ totalLines, totalChars, repoCount, files, generatedAt }) {
   const width = 900;
   const height = 178;

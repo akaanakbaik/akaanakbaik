@@ -10,6 +10,7 @@ import {
   langDonutSvg,
   langParetoSvg,
   codeTotalsBadgeSvg,
+  repositoryMomentumSvg,
   statsGridSvg,
   streakSvg,
   commitHoursSvg,
@@ -72,6 +73,7 @@ Generated: ${data.generatedAt}
 | Original repos | ${data.originalRepos} |
 | Forked repos | ${data.forkedRepos} |
 | Archived repos | ${data.archivedRepos} |
+| Active repos (90d) | ${data.activeRepos90d} |
 | Followers | ${data.followers} |
 | Following | ${data.following} |
 | Public gists | ${data.publicGists} |
@@ -203,6 +205,7 @@ async function main() {
       }, null, 2) + '\n'
     );
   }
+  await writeFile('generated/repository-momentum.svg', repositoryMomentumSvg({ repos: data.allRepos, generatedAt: data.generatedAt }));
   const distribution = data.languageDistribution;
   let activity = null;
   let streak = null;
@@ -287,6 +290,10 @@ async function main() {
   await writeBadge('total-watchers', 'watchers (subscribers)', compact(data.totalWatchers), 'be185d');
   await writeBadge('top-language', 'top language', data.topLanguage, '7e22ce');
   await writeBadge('public-repos', 'public repos', compact(data.publicRepos), '4338ca');
+  await writeBadge('original-repos', 'original repos', compact(data.originalRepos), '15803d');
+  await writeBadge('active-repos-90d', 'active repos (90d)', compact(data.activeRepos90d), '0e7490');
+  await writeBadge('archived-repos', 'archived repos', compact(data.archivedRepos), '64748b');
+  await writeBadge('public-gists', 'public gists', compact(data.publicGists), '7e22ce');
   const payload = {
     username,
     generatedAt: data.generatedAt,
@@ -294,6 +301,7 @@ async function main() {
     originalRepos: data.originalRepos,
     forkedRepos: data.forkedRepos,
     archivedRepos: data.archivedRepos,
+    activeRepos90d: data.activeRepos90d,
     followers: data.followers,
     following: data.following,
     publicGists: data.publicGists,
