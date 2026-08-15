@@ -1,10 +1,11 @@
 {
   "username": "akaanakbaik",
-  "generatedAt": "15 Aug 2026, 18:16",
+  "generatedAt": "15 Aug 2026, 18:30",
   "publicRepos": 107,
   "originalRepos": 87,
   "forkedRepos": 20,
   "archivedRepos": 0,
+  "activeRepos90d": 13,
   "followers": 59,
   "following": 62,
   "publicGists": 0,
@@ -21,28 +22,28 @@
   "recentRepo": "akaanakbaik",
   "largestRepo": "Hacktoberfest2025-3",
   "languageDistribution": {
-    "totalBytes": 47968755,
+    "totalBytes": 47975146,
     "languagesCount": 41,
-    "entropy": 2.247838680395232,
+    "entropy": 2.2476766101754024,
     "entropyMax": 5.357552004618084,
-    "redundancy": 0.5804354902280654,
-    "hhi": 3133.528460864185,
-    "gini": 0.9093562633609742,
-    "cr3": 84.88370398606342,
-    "cr5": 90.55754104937684,
+    "redundancy": 0.5804657410253866,
+    "hhi": 3133.997185324168,
+    "gini": 0.9093650893074774,
+    "cr3": 84.88571770057771,
+    "cr5": 90.55879892475993,
     "pareto80": {
       "count": 3,
       "totalCount": 41,
-      "share": 0.8488370398606343
+      "share": 0.8488571770057771
     },
-    "topShare": 48.92586017710904,
-    "geomeanBytes": 4859.921008004951,
+    "topShare": 48.932664008984986,
+    "geomeanBytes": 4859.953282508518,
     "medianBytes": 2515,
-    "cv": 3.4420149171006176,
+    "cv": 3.4422940693422874,
     "byBytes": [
       {
         "name": "JavaScript",
-        "bytes": 23469126,
+        "bytes": 23475517,
         "repos": 70
       },
       {
@@ -416,11 +417,11 @@
   "codeTotals": {
     "totals": {
       "files": 17677,
-      "lines": 3406117,
-      "codeLines": 3167510,
-      "chars": 144832722,
-      "nonWsChars": 110408321,
-      "bytes": 146302191
+      "lines": 3406203,
+      "codeLines": 3167594,
+      "chars": 144839098,
+      "nonWsChars": 110413840,
+      "bytes": 146308582
     },
     "scannedFiles": 17679,
     "excludedFiles": 2,
@@ -441,10 +442,10 @@
       {
         "name": "JavaScript",
         "files": 9324,
-        "lines": 2175264,
-        "codeLines": 2051264,
-        "chars": 98240833,
-        "bytes": 98563983
+        "lines": 2175350,
+        "codeLines": 2051348,
+        "chars": 98247209,
+        "bytes": 98570374
       },
       {
         "name": "TypeScript",
@@ -928,19 +929,19 @@
       "name": "akaanakbaik",
       "url": "https://github.com/akaanakbaik/akaanakbaik",
       "language": "JavaScript",
-      "updatedAt": "2026-08-15T11:16:17Z"
+      "updatedAt": "2026-08-15T11:29:49Z"
+    },
+    {
+      "name": "dastermv2",
+      "url": "https://github.com/akaanakbaik/dastermv2",
+      "language": "Shell",
+      "updatedAt": "2026-08-15T11:20:39Z"
     },
     {
       "name": "auto-commit",
       "url": "https://github.com/akaanakbaik/auto-commit",
       "language": "Unknown",
       "updatedAt": "2026-08-15T11:05:20Z"
-    },
-    {
-      "name": "dastermv2",
-      "url": "https://github.com/akaanakbaik/dastermv2",
-      "language": "Shell",
-      "updatedAt": "2026-08-15T10:48:50Z"
     },
     {
       "name": "web-docs-pterodacty-gateway",
@@ -1040,7 +1041,7 @@
     "peakHour": 23,
     "peakWeekday": "Sun",
     "circularMean": 20.35044139395392,
-    "circularStd": 6.2599972120612195,
+    "circularStd": 6.259997212061219,
     "activeHours": 24,
     "reposWithCommits": 86,
     "topCommitRepos": [

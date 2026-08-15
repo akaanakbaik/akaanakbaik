@@ -1,6 +1,6 @@
 # Profile Metrics Summary
 
-Generated: 15 Aug 2026, 18:16
+Generated: 15 Aug 2026, 18:30
 
 ## Account
 
@@ -10,6 +10,7 @@ Generated: 15 Aug 2026, 18:16
 | Original repos | 87 |
 | Forked repos | 20 |
 | Archived repos | 0 |
+| Active repos (90d) | 13 |
 | Followers | 59 |
 | Following | 62 |
 | Public gists | 0 |
@@ -26,17 +27,17 @@ Generated: 15 Aug 2026, 18:16
 | Source files counted | 17,677 |
 | Tracked source candidates | 17,679 |
 | Excluded source candidates | 2 |
-| Source lines (physical) | 3,406,117 |
-| Source lines (non-empty) | 3,167,510 |
-| Source characters (Unicode) | 144,832,722 |
-| Non-whitespace characters | 110,408,321 |
-| Bytes scanned | 139.52 MB |
+| Source lines (physical) | 3,406,203 |
+| Source lines (non-empty) | 3,167,594 |
+| Source characters (Unicode) | 144,839,098 |
+| Non-whitespace characters | 110,413,840 |
+| Bytes scanned | 139.53 MB |
 
 ## Lines of Code per Language
 
 | Language | Lines | Chars | Files |
 | --- | ---: | ---: | ---: |
-| JavaScript | 2,051,264 | 98,240,833 | 9,324 |
+| JavaScript | 2,051,348 | 98,247,209 | 9,324 |
 | TypeScript | 797,673 | 33,740,402 | 5,552 |
 | Python | 124,866 | 5,812,766 | 935 |
 | CSS | 56,193 | 2,129,382 | 108 |
@@ -84,9 +85,9 @@ Generated: 15 Aug 2026, 18:16
 | Distinct languages | 41 |
 | Shannon entropy | 2.248 bits (max 5.358) |
 | Redundancy | 58.0% |
-| Herfindahl-Hirschman Index | 3133.5 (×10⁴) |
+| Herfindahl-Hirschman Index | 3134.0 (×10⁴) |
 | Gini coefficient | 0.9094 |
-| CR₃ concentration | 84.88% |
+| CR₃ concentration | 84.89% |
 | CR₅ concentration | 90.56% |
 | Pareto 80% coverage | top 3 of 41 languages |
 | Top language share | 48.93% |
@@ -115,12 +116,12 @@ Generated: 15 Aug 2026, 18:16
 
 | Language | Repos | Bytes | Share |
 | --- | ---: | ---: | ---: |
-| JavaScript | 70 | 23469126 | 48.93% |
+| JavaScript | 70 | 23475517 | 48.93% |
 | TypeScript | 30 | 11277629 | 23.51% |
 | Python | 12 | 5970901 | 12.45% |
 | CSS | 51 | 1607375 | 3.35% |
 | C++ | 9 | 1114294 | 2.32% |
-| Jupyter Notebook | 1 | 1077015 | 2.25% |
+| Jupyter Notebook | 1 | 1077015 | 2.24% |
 | HTML | 51 | 1036835 | 2.16% |
 | Java | 7 | 938571 | 1.96% |
 | C | 7 | 447195 | 0.93% |
