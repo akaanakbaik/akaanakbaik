@@ -1,6 +1,6 @@
 # Profile Metrics Summary
 
-Generated: 15 Aug 2026, 17:37
+Generated: 15 Aug 2026, 18:16
 
 ## Account
 
@@ -23,20 +23,20 @@ Generated: 15 Aug 2026, 17:37
 
 | Metric | Value |
 | --- | ---: |
-| Source files counted | 17,676 |
-| Tracked source candidates | 17,678 |
+| Source files counted | 17,677 |
+| Tracked source candidates | 17,679 |
 | Excluded source candidates | 2 |
-| Source lines (physical) | 3,406,010 |
-| Source lines (non-empty) | 3,167,406 |
-| Source characters (Unicode) | 144,827,875 |
-| Non-whitespace characters | 110,404,590 |
+| Source lines (physical) | 3,406,117 |
+| Source lines (non-empty) | 3,167,510 |
+| Source characters (Unicode) | 144,832,722 |
+| Non-whitespace characters | 110,408,321 |
 | Bytes scanned | 139.52 MB |
 
 ## Lines of Code per Language
 
 | Language | Lines | Chars | Files |
 | --- | ---: | ---: | ---: |
-| JavaScript | 2,051,160 | 98,235,986 | 9,323 |
+| JavaScript | 2,051,264 | 98,240,833 | 9,324 |
 | TypeScript | 797,673 | 33,740,402 | 5,552 |
 | Python | 124,866 | 5,812,766 | 935 |
 | CSS | 56,193 | 2,129,382 | 108 |
@@ -84,12 +84,12 @@ Generated: 15 Aug 2026, 17:37
 | Distinct languages | 41 |
 | Shannon entropy | 2.248 bits (max 5.358) |
 | Redundancy | 58.0% |
-| Herfindahl-Hirschman Index | 3133.2 (×10⁴) |
-| Gini coefficient | 0.9093 |
+| Herfindahl-Hirschman Index | 3133.5 (×10⁴) |
+| Gini coefficient | 0.9094 |
 | CR₃ concentration | 84.88% |
 | CR₅ concentration | 90.56% |
 | Pareto 80% coverage | top 3 of 41 languages |
-| Top language share | 48.92% |
+| Top language share | 48.93% |
 | Geometric mean bytes | 4.9K |
 | Coefficient of variation | 3.442 |
 
@@ -115,7 +115,7 @@ Generated: 15 Aug 2026, 17:37
 
 | Language | Repos | Bytes | Share |
 | --- | ---: | ---: | ---: |
-| JavaScript | 70 | 23464279 | 48.92% |
+| JavaScript | 70 | 23469126 | 48.93% |
 | TypeScript | 30 | 11277629 | 23.51% |
 | Python | 12 | 5970901 | 12.45% |
 | CSS | 51 | 1607375 | 3.35% |
