@@ -1,6 +1,6 @@
 {
   "username": "akaanakbaik",
-  "generatedAt": "18 Aug 2026, 00:44",
+  "generatedAt": "18 Aug 2026, 01:56",
   "publicRepos": 107,
   "originalRepos": 87,
   "forkedRepos": 20,
@@ -13,7 +13,7 @@
   "totalForks": 27,
   "totalWatchers": 13,
   "totalSize": "838.5 MB",
-  "totalSizeKb": 858652,
+  "totalSizeKb": 858641,
   "topLanguage": "JavaScript",
   "accountAge": "2 years",
   "accountAgePrecise": "2 years",
@@ -929,13 +929,13 @@
       "name": "dastermv2",
       "url": "https://github.com/akaanakbaik/dastermv2",
       "language": "Shell",
-      "updatedAt": "2026-08-17T17:35:02Z"
+      "updatedAt": "2026-08-17T18:43:45Z"
     },
     {
       "name": "akaanakbaik",
       "url": "https://github.com/akaanakbaik/akaanakbaik",
       "language": "JavaScript",
-      "updatedAt": "2026-08-17T16:47:30Z"
+      "updatedAt": "2026-08-17T17:47:06Z"
     },
     {
       "name": "auto-commit",
@@ -1040,8 +1040,8 @@
     ],
     "peakHour": 23,
     "peakWeekday": "Sun",
-    "circularMean": 20.35044139395392,
-    "circularStd": 6.2599972120612195,
+    "circularMean": 20.350441393953922,
+    "circularStd": 6.259997212061219,
     "activeHours": 24,
     "reposWithCommits": 86,
     "topCommitRepos": [
@@ -1171,15 +1171,15 @@
       "pullRequests": 5,
       "issues": 0,
       "discussions": 0,
-      "daysSincePush": 3,
+      "daysSincePush": 4,
       "commits": 58,
-      "score": 7.246056684565666,
+      "score": 7.204937171962492,
       "stars": 1,
       "forks": 0,
       "watchers": 0,
       "prs": 5,
-      "recency": 0.9355069850316178,
-      "scorePct": 65.43047775715384
+      "recency": 0.914947228730031,
+      "scorePct": 65.05917658302725
     },
     {
       "name": "portofoliov2",
@@ -1189,15 +1189,15 @@
       "pullRequests": 0,
       "issues": 0,
       "discussions": 0,
-      "daysSincePush": 132,
+      "daysSincePush": 133,
       "commits": 139,
-      "score": 7.101941707032013,
+      "score": 7.099602490398369,
       "stars": 4,
       "forks": 2,
       "watchers": 0,
       "prs": 0,
-      "recency": 0.053219344338921504,
-      "scorePct": 64.12914763478899
+      "recency": 0.05204973602209906,
+      "scorePct": 64.1080249650971
     }
   ]
 }
