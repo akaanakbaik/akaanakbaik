@@ -72,13 +72,13 @@
 <circle cx="72" cy="50" r="4" fill="#3178c6"/>
 <text x="84" y="54" fill="#8b93a7" font-size="11.5" font-weight="600" font-family="Inter,'Segoe UI',system-ui,sans-serif">TypeScript</text>
 <rect x="72" y="63" width="560" height="7" rx="3.5" fill="#1e293b"/>
-<rect x="72" y="63" width="362.2977990360462" height="7" rx="3.5" fill="url(#scoreGrad3)"/>
-<text x="660" y="69" fill="#667eea" font-size="16" font-weight="900" font-family="Inter,'Segoe UI',system-ui,sans-serif">64.7</text>
+<rect x="72" y="63" width="360.30890167012336" height="7" rx="3.5" fill="url(#scoreGrad3)"/>
+<text x="660" y="69" fill="#667eea" font-size="16" font-weight="900" font-family="Inter,'Segoe UI',system-ui,sans-serif">64.3</text>
 <text x="730" y="28" fill="#e2e8f0" font-size="12.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">★ 1</text>
 <text x="796" y="28" fill="#e2e8f0" font-size="12.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">⑂ 0</text>
 <text x="862" y="28" fill="#cbd5e1" font-size="12.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">58 commits</text>
 <text x="730" y="50" fill="#cbd5e1" font-size="11.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">5 PR · 0 IS · 0 W</text>
-<text x="850" y="50" fill="#5b6478" font-size="11.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">pushed 5 d ago</text>
+<text x="850" y="50" fill="#5b6478" font-size="11.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">pushed 6 d ago</text>
 <text x="960" y="38" fill="#64748b" font-size="10.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">score</text>
 </g></a><a href="https://github.com/akaanakbaik/portofoliov2"><g transform="translate(30 460)">
 <rect width="940" height="76" rx="18" fill="#0d1322" stroke="#764ba2" stroke-opacity="0.5" stroke-width="1.4"/>
@@ -88,13 +88,13 @@
 <circle cx="72" cy="50" r="4" fill="#f1e05a"/>
 <text x="84" y="54" fill="#8b93a7" font-size="11.5" font-weight="600" font-family="Inter,'Segoe UI',system-ui,sans-serif">JavaScript</text>
 <rect x="72" y="63" width="560" height="7" rx="3.5" fill="#1e293b"/>
-<rect x="72" y="63" width="358.88925246165877" height="7" rx="3.5" fill="url(#scoreGrad4)"/>
+<rect x="72" y="63" width="358.7761075942602" height="7" rx="3.5" fill="url(#scoreGrad4)"/>
 <text x="660" y="69" fill="#764ba2" font-size="16" font-weight="900" font-family="Inter,'Segoe UI',system-ui,sans-serif">64.1</text>
 <text x="730" y="28" fill="#e2e8f0" font-size="12.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">★ 4</text>
 <text x="796" y="28" fill="#e2e8f0" font-size="12.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">⑂ 2</text>
 <text x="862" y="28" fill="#cbd5e1" font-size="12.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">139 commits</text>
 <text x="730" y="50" fill="#cbd5e1" font-size="11.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">0 PR · 0 IS · 0 W</text>
-<text x="850" y="50" fill="#5b6478" font-size="11.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">pushed 4 mo ago</text>
+<text x="850" y="50" fill="#5b6478" font-size="11.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">pushed 5 mo ago</text>
 <text x="960" y="38" fill="#64748b" font-size="10.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">score</text>
 </g></a><text x="30" y="560" fill="#5b6478" font-size="10" font-family="Inter,'Segoe UI',system-ui,sans-serif">score = 2.4·log(stars) + 1.7·log(forks) + 1.3·log(watchers) + 1.2·log(PRs) + 0.7·log(issues) + 0.6·log(disc) + 2.1·log(commits) + 2.0·e^(−d/45) · re-ranked automatically every run</text>
 </svg>
