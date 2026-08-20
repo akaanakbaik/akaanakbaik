@@ -8,12 +8,12 @@
 <rect x="30" y="84" width="940" height="4" rx="2" fill="url(#motAccent)"/>
 <text x="40" y="152" fill="#16a34a" font-size="110" font-weight="900" font-family="Inter,'Segoe UI',system-ui,sans-serif">“</text>
 <circle cx="930" cy="56" r="34" fill="#16a34a" opacity="0.14"/>
-<text x="930" y="66" text-anchor="middle" fill="#16a34a" font-size="20" font-weight="900" font-family="Inter,'Segoe UI',system-ui,sans-serif">#33</text>
-<text x="70" y="118" fill="#ffffff" font-size="21" font-style="italic" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">Always code as if the guy who ends up maintaining your code will be a violent psychopath who</text><text x="70" y="146" fill="#ffffff" font-size="21" font-style="italic" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">knows where you live.</text>
-<text x="70" y="208" fill="#cbd5e1" font-size="15" font-family="Inter,'Segoe UI',system-ui,sans-serif">Selalu menulis kode seolah orang yang kelak memeliharanya adalah psikopat kejam yang tahu alamat rumahmu.</text>
-<line x1="70" y1="246" x2="930" y2="246" stroke="#ffffff" stroke-opacity="0.08"/>
-<text x="70" y="266" fill="#16a34a" font-size="17" font-weight="900" font-family="Inter,'Segoe UI',system-ui,sans-serif">— John Woods</text>
-<text x="70" y="286" fill="#64748b" font-size="11.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">Programmer · original in English · translated to Bahasa Indonesia</text>
-<text x="930" y="266" text-anchor="end" fill="#5b6478" font-size="11" font-family="Inter,'Segoe UI',system-ui,sans-serif">random · from 48 real developer quotes</text>
+<text x="930" y="66" text-anchor="middle" fill="#16a34a" font-size="20" font-weight="900" font-family="Inter,'Segoe UI',system-ui,sans-serif">#21</text>
+<text x="70" y="118" fill="#ffffff" font-size="21" font-style="italic" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">Science is what we understand well enough to explain to a computer. Art is everything else</text><text x="70" y="146" fill="#ffffff" font-size="21" font-style="italic" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">we do.</text>
+<text x="70" y="208" fill="#cbd5e1" font-size="14" font-family="Inter,'Segoe UI',system-ui,sans-serif">Sains adalah hal yang cukup kita pahami untuk dijelaskan ke komputer. Seni adalah segala hal lain yang kita</text><text x="70" y="228" fill="#cbd5e1" font-size="14" font-family="Inter,'Segoe UI',system-ui,sans-serif">lakukan.</text>
+<line x1="70" y1="258" x2="930" y2="258" stroke="#ffffff" stroke-opacity="0.08"/>
+<text x="70" y="278" fill="#16a34a" font-size="17" font-weight="900" font-family="Inter,'Segoe UI',system-ui,sans-serif">— Donald E. Knuth</text>
+<text x="70" y="298" fill="#64748b" font-size="11.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">Author of The Art of Computer Programming · original in English · translated to Bahasa Indonesia</text>
+<text x="930" y="278" text-anchor="end" fill="#5b6478" font-size="11" font-family="Inter,'Segoe UI',system-ui,sans-serif">random · from 48 real developer quotes</text>
 
 </svg>
