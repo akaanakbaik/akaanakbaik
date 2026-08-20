@@ -8,12 +8,12 @@
 <rect x="30" y="84" width="940" height="4" rx="2" fill="url(#motAccent)"/>
 <text x="40" y="152" fill="#06b6d4" font-size="110" font-weight="900" font-family="Inter,'Segoe UI',system-ui,sans-serif">“</text>
 <circle cx="930" cy="56" r="34" fill="#06b6d4" opacity="0.14"/>
-<text x="930" y="66" text-anchor="middle" fill="#06b6d4" font-size="20" font-weight="900" font-family="Inter,'Segoe UI',system-ui,sans-serif">#17</text>
-<text x="70" y="118" fill="#ffffff" font-size="23" font-style="italic" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">Optimism is an occupational hazard of programming. Feedback is the treatment.</text>
-<text x="70" y="182" fill="#cbd5e1" font-size="15" font-family="Inter,'Segoe UI',system-ui,sans-serif">Optimisme adalah risiko pekerjaan programmer. Umpan balik adalah obatnya.</text>
-<line x1="70" y1="246" x2="930" y2="246" stroke="#ffffff" stroke-opacity="0.08"/>
-<text x="70" y="266" fill="#06b6d4" font-size="17" font-weight="900" font-family="Inter,'Segoe UI',system-ui,sans-serif">— Kent Beck</text>
-<text x="70" y="286" fill="#64748b" font-size="11.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">Creator of Extreme Programming · original in English · translated to Bahasa Indonesia</text>
-<text x="930" y="266" text-anchor="end" fill="#5b6478" font-size="11" font-family="Inter,'Segoe UI',system-ui,sans-serif">random · from 48 real developer quotes</text>
+<text x="930" y="66" text-anchor="middle" fill="#06b6d4" font-size="20" font-weight="900" font-family="Inter,'Segoe UI',system-ui,sans-serif">#11</text>
+<text x="70" y="118" fill="#ffffff" font-size="21" font-style="italic" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">Some people, when confronted with a problem, think &#39;I know, I&#39;ll use regular expressions.&#39;</text><text x="70" y="146" fill="#ffffff" font-size="21" font-style="italic" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">Now they have two problems.</text>
+<text x="70" y="208" fill="#cbd5e1" font-size="14" font-family="Inter,'Segoe UI',system-ui,sans-serif">Sebagian orang saat menghadapi masalah berpikir, &#39;Aku tahu, aku pakai regex.&#39; Sekarang mereka punya dua</text><text x="70" y="228" fill="#cbd5e1" font-size="14" font-family="Inter,'Segoe UI',system-ui,sans-serif">masalah.</text>
+<line x1="70" y1="258" x2="930" y2="258" stroke="#ffffff" stroke-opacity="0.08"/>
+<text x="70" y="278" fill="#06b6d4" font-size="17" font-weight="900" font-family="Inter,'Segoe UI',system-ui,sans-serif">— Jamie Zawinski</text>
+<text x="70" y="298" fill="#64748b" font-size="11.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">Netscape &amp; XScreenSaver developer · original in English · translated to Bahasa Indonesia</text>
+<text x="930" y="278" text-anchor="end" fill="#5b6478" font-size="11" font-family="Inter,'Segoe UI',system-ui,sans-serif">random · from 48 real developer quotes</text>
 
 </svg>
