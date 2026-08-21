@@ -87,8 +87,8 @@
 <rect x="786.43" y="317.03" width="23.15" height="98.97" rx="3.5" fill="url(#hourGrad)" opacity="0.85"/>
 <text x="798.00" y="311.03" text-anchor="middle" fill="#8b93a7" font-size="9.5" font-weight="600" font-family="Inter,'Segoe UI',system-ui,sans-serif">128</text>
 </g><g>
-<rect x="823.76" y="286.88" width="23.15" height="129.12" rx="3.5" fill="url(#hourGrad)" opacity="0.85"/>
-<text x="835.33" y="280.88" text-anchor="middle" fill="#8b93a7" font-size="9.5" font-weight="600" font-family="Inter,'Segoe UI',system-ui,sans-serif">167</text>
+<rect x="823.76" y="286.10" width="23.15" height="129.90" rx="3.5" fill="url(#hourGrad)" opacity="0.85"/>
+<text x="835.33" y="280.10" text-anchor="middle" fill="#8b93a7" font-size="9.5" font-weight="600" font-family="Inter,'Segoe UI',system-ui,sans-serif">168</text>
 </g><g>
 <rect x="861.09" y="148.47" width="23.15" height="267.53" rx="3.5" fill="url(#hourGrad)" opacity="0.85"/>
 <text x="872.67" y="142.47" text-anchor="middle" fill="#8b93a7" font-size="9.5" font-weight="600" font-family="Inter,'Segoe UI',system-ui,sans-serif">346</text>
@@ -112,7 +112,7 @@
 </g><g transform="translate(370 446)">
 <rect width="170" height="54" rx="12" fill="#0d1322" stroke="#2563eb" stroke-opacity="0.35" stroke-width="1.2"/>
 <text x="14" y="20" fill="#8b93a7" font-size="10.5" font-weight="700" letter-spacing="1.2" font-family="Inter,'Segoe UI',system-ui,sans-serif">SAMPLED COMMITS</text>
-<text x="14" y="42" fill="#2563eb" font-size="17" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">3,376</text>
+<text x="14" y="42" fill="#2563eb" font-size="17" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">3,377</text>
 </g><g transform="translate(550 446)">
 <rect width="150" height="54" rx="12" fill="#0d1322" stroke="#16a34a" stroke-opacity="0.35" stroke-width="1.2"/>
 <text x="14" y="20" fill="#8b93a7" font-size="10.5" font-weight="700" letter-spacing="1.2" font-family="Inter,'Segoe UI',system-ui,sans-serif">ACTIVE HOURS</text>
@@ -144,8 +144,8 @@
 <text x="441" y="536.1638795986622" text-anchor="middle" fill="#cbd5e1" font-size="10.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">501</text>
 <text x="441" y="590" text-anchor="middle" fill="#8b93a7" font-size="10.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">Thu</text>
 </g><g>
-<rect x="552" y="553.0301003344482" width="34" height="20.96989966555184" rx="4" fill="#89e051" opacity="0.9"/>
-<text x="569" y="547.0301003344482" text-anchor="middle" fill="#cbd5e1" font-size="10.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">330</text>
+<rect x="552" y="552.9665551839465" width="34" height="21.03344481605351" rx="4" fill="#89e051" opacity="0.9"/>
+<text x="569" y="546.9665551839465" text-anchor="middle" fill="#cbd5e1" font-size="10.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">331</text>
 <text x="569" y="590" text-anchor="middle" fill="#8b93a7" font-size="10.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">Fri</text>
 </g><g>
 <rect x="680" y="538.2876254180602" width="34" height="35.7123745819398" rx="4" fill="#89e051" opacity="0.9"/>
