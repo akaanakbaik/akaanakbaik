@@ -1,6 +1,6 @@
 {
   "username": "akaanakbaik",
-  "generatedAt": "23 Aug 2026, 14:00",
+  "generatedAt": "23 Aug 2026, 14:46",
   "publicRepos": 107,
   "originalRepos": 87,
   "forkedRepos": 20,
@@ -938,7 +938,19 @@
       "name": "dastermv2",
       "url": "https://github.com/akaanakbaik/dastermv2",
       "language": "Shell",
-      "updatedAt": "2026-08-23T06:53:44Z"
+      "updatedAt": "2026-08-23T07:34:02Z"
+    },
+    {
+      "name": "mydash-vps",
+      "url": "https://github.com/akaanakbaik/mydash-vps",
+      "language": "TypeScript",
+      "updatedAt": "2026-08-23T07:10:00Z"
+    },
+    {
+      "name": "akaanakbaik",
+      "url": "https://github.com/akaanakbaik/akaanakbaik",
+      "language": "JavaScript",
+      "updatedAt": "2026-08-23T07:01:43Z"
     },
     {
       "name": "kaboxv8",
@@ -959,12 +971,6 @@
       "updatedAt": "2026-08-23T05:56:00Z"
     },
     {
-      "name": "akaanakbaik",
-      "url": "https://github.com/akaanakbaik/akaanakbaik",
-      "language": "JavaScript",
-      "updatedAt": "2026-08-23T05:45:42Z"
-    },
-    {
       "name": "auto-commit",
       "url": "https://github.com/akaanakbaik/auto-commit",
       "language": "Unknown",
@@ -975,12 +981,6 @@
       "url": "https://github.com/akaanakbaik/portofoliov2",
       "language": "JavaScript",
       "updatedAt": "2026-08-21T13:41:31Z"
-    },
-    {
-      "name": "web-docs-pterodacty-gateway",
-      "url": "https://github.com/akaanakbaik/web-docs-pterodacty-gateway",
-      "language": "TypeScript",
-      "updatedAt": "2026-08-14T06:45:26Z"
     }
   ],
   "activity": {
