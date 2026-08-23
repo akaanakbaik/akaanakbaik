@@ -1,32 +1,37 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "23 Aug 2026, 12:43",
+  "generatedAt": "23 Aug 2026, 14:00",
   "policy": "all tracked regular source files; Unicode code points; notebook code cells; no file-size limit; dependencies and generated source included when tracked",
   "repositories": [
     {
       "name": "dastermv2",
       "defaultBranch": "main",
-      "pushedAt": "2026-08-23T05:29:54Z"
+      "pushedAt": "2026-08-23T06:53:25Z"
+    },
+    {
+      "name": "kaboxv8",
+      "defaultBranch": "main",
+      "pushedAt": "2026-08-23T06:26:02Z"
+    },
+    {
+      "name": "kaai-code-snipcets",
+      "defaultBranch": "main",
+      "pushedAt": "2026-08-23T06:02:54Z"
+    },
+    {
+      "name": "kabox",
+      "defaultBranch": "main",
+      "pushedAt": "2026-08-23T05:55:49Z"
+    },
+    {
+      "name": "akaanakbaik",
+      "defaultBranch": "main",
+      "pushedAt": "2026-08-23T05:44:39Z"
     },
     {
       "name": "auto-commit",
       "defaultBranch": "main",
       "pushedAt": "2026-08-23T05:19:23Z"
-    },
-    {
-      "name": "akaanakbaik",
-      "defaultBranch": "main",
-      "pushedAt": "2026-08-23T04:52:22Z"
-    },
-    {
-      "name": "kaai-code-snipcets",
-      "defaultBranch": "main",
-      "pushedAt": "2026-08-23T03:09:27Z"
-    },
-    {
-      "name": "kabox",
-      "defaultBranch": "main",
-      "pushedAt": "2026-08-23T03:05:48Z"
     },
     {
       "name": "portofoliov2",
@@ -117,11 +122,6 @@
       "name": "tiny-kabox",
       "defaultBranch": "main",
       "pushedAt": "2026-03-06T03:05:37Z"
-    },
-    {
-      "name": "kaboxv8",
-      "defaultBranch": "main",
-      "pushedAt": "2026-03-07T07:53:52Z"
     },
     {
       "name": "tiny-kaboxv2",
@@ -540,11 +540,11 @@
     }
   ],
   "totals": {
-    "files": 17682,
-    "lines": 3407546,
-    "codeLines": 3168881,
-    "chars": 144931007,
-    "nonWsChars": 110492238,
-    "bytes": 146400244
+    "files": 17681,
+    "lines": 3407374,
+    "codeLines": 3168720,
+    "chars": 144917915,
+    "nonWsChars": 110481333,
+    "bytes": 146387153
   }
 }

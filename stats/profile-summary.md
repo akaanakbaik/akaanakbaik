@@ -1,6 +1,6 @@
 # Profile Metrics Summary
 
-Generated: 23 Aug 2026, 12:43
+Generated: 23 Aug 2026, 14:00
 
 ## Account
 
@@ -10,7 +10,7 @@ Generated: 23 Aug 2026, 12:43
 | Original repos | 87 |
 | Forked repos | 20 |
 | Archived repos | 0 |
-| Active repos (90d) | 16 |
+| Active repos (90d) | 17 |
 | Followers | 59 |
 | Following | 62 |
 | Public gists | 0 |
@@ -24,21 +24,21 @@ Generated: 23 Aug 2026, 12:43
 
 | Metric | Value |
 | --- | ---: |
-| Source files counted | 17,682 |
-| Tracked source candidates | 17,684 |
+| Source files counted | 17,681 |
+| Tracked source candidates | 17,683 |
 | Excluded source candidates | 2 |
-| Source lines (physical) | 3,407,546 |
-| Source lines (non-empty) | 3,168,881 |
-| Source characters (Unicode) | 144,931,007 |
-| Non-whitespace characters | 110,492,238 |
-| Bytes scanned | 139.62 MB |
+| Source lines (physical) | 3,407,374 |
+| Source lines (non-empty) | 3,168,720 |
+| Source characters (Unicode) | 144,917,915 |
+| Non-whitespace characters | 110,481,333 |
+| Bytes scanned | 139.61 MB |
 
 ## Lines of Code per Language
 
 | Language | Lines | Chars | Files |
 | --- | ---: | ---: | ---: |
-| JavaScript | 2,051,348 | 98,247,209 | 9,324 |
-| TypeScript | 798,703 | 33,823,074 | 5,556 |
+| JavaScript | 2,051,367 | 98,249,301 | 9,324 |
+| TypeScript | 798,523 | 33,807,890 | 5,555 |
 | Python | 124,866 | 5,812,766 | 935 |
 | CSS | 56,353 | 2,134,804 | 108 |
 | C++ | 37,192 | 1,106,284 | 662 |
@@ -85,14 +85,14 @@ Generated: 23 Aug 2026, 12:43
 | Distinct languages | 42 |
 | Shannon entropy | 2.249 bits (max 5.392) |
 | Redundancy | 58.3% |
-| Herfindahl-Hirschman Index | 3130.2 (×10⁴) |
+| Herfindahl-Hirschman Index | 3130.9 (×10⁴) |
 | Gini coefficient | 0.9115 |
-| CR₃ concentration | 84.90% |
+| CR₃ concentration | 84.89% |
 | CR₅ concentration | 90.57% |
 | Pareto 80% coverage | top 3 of 42 languages |
-| Top language share | 48.84% |
+| Top language share | 48.86% |
 | Geometric mean bytes | 4.8K |
-| Coefficient of variation | 3.485 |
+| Coefficient of variation | 3.486 |
 
 ## Activity & Streak
 
@@ -116,9 +116,9 @@ Generated: 23 Aug 2026, 12:43
 
 | Language | Repos | Bytes | Share |
 | --- | ---: | ---: | ---: |
-| JavaScript | 70 | 23475608 | 48.84% |
-| TypeScript | 30 | 11360054 | 23.63% |
-| Python | 12 | 5970901 | 12.42% |
+| JavaScript | 70 | 23477701 | 48.86% |
+| TypeScript | 30 | 11344870 | 23.61% |
+| Python | 12 | 5970901 | 12.43% |
 | CSS | 51 | 1612797 | 3.36% |
 | C++ | 9 | 1114294 | 2.32% |
 | Jupyter Notebook | 1 | 1077015 | 2.24% |
