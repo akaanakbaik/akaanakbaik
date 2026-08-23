@@ -1,6 +1,6 @@
 {
   "username": "akaanakbaik",
-  "generatedAt": "23 Aug 2026, 21:37",
+  "generatedAt": "23 Aug 2026, 22:35",
   "publicRepos": 107,
   "originalRepos": 87,
   "forkedRepos": 20,
@@ -12,38 +12,38 @@
   "totalStars": 409,
   "totalForks": 27,
   "totalWatchers": 13,
-  "totalSize": "838.8 MB",
-  "totalSizeKb": 858934,
+  "totalSize": "838.9 MB",
+  "totalSizeKb": 859034,
   "topLanguage": "JavaScript",
   "accountAge": "2 years",
   "accountAgePrecise": "2 years",
   "accountCreatedAt": "2024-08-03T01:58:16Z",
   "topRepo": "pterodactyl-gateway",
-  "recentRepo": "kaboxv8",
+  "recentRepo": "dastermv2",
   "largestRepo": "Hacktoberfest2025-3",
   "languageDistribution": {
-    "totalBytes": 48099682,
+    "totalBytes": 48106728,
     "languagesCount": 42,
-    "entropy": 2.249333766194008,
+    "entropy": 2.2493971311138856,
     "entropyMax": 5.392317422778761,
-    "redundancy": 0.5828632497241075,
-    "hhi": 3129.40003381631,
-    "gini": 0.911457301962046,
-    "cr3": 84.86655067698784,
-    "cr5": 90.57531191162553,
+    "redundancy": 0.5828514987615974,
+    "hhi": 3129.3436713364667,
+    "gini": 0.9114578179861523,
+    "cr3": 84.86249158329787,
+    "cr5": 90.57669230798653,
     "pareto80": {
       "count": 3,
       "totalCount": 42,
-      "share": 0.8486655067698784
+      "share": 0.8486249158329787
     },
-    "topShare": 48.84217945557312,
-    "geomeanBytes": 4837.453714338208,
+    "topShare": 48.84339670742105,
+    "geomeanBytes": 4837.686380437796,
     "medianBytes": 3035,
-    "cv": 3.4847496527051276,
+    "cv": 3.4847156870558558,
     "byBytes": [
       {
         "name": "JavaScript",
-        "bytes": 23492933,
+        "bytes": 23496960,
         "repos": 70
       },
       {
@@ -58,7 +58,7 @@
       },
       {
         "name": "CSS",
-        "bytes": 1631602,
+        "bytes": 1634621,
         "repos": 51
       },
       {
@@ -426,11 +426,11 @@
   "codeTotals": {
     "totals": {
       "files": 17683,
-      "lines": 3408466,
-      "codeLines": 3169711,
-      "chars": 144963787,
-      "nonWsChars": 110519537,
-      "bytes": 146433027
+      "lines": 3408582,
+      "codeLines": 3169814,
+      "chars": 144968366,
+      "nonWsChars": 110523343,
+      "bytes": 146437608
     },
     "scannedFiles": 17685,
     "excludedFiles": 2,
@@ -451,10 +451,10 @@
       {
         "name": "JavaScript",
         "files": 9326,
-        "lines": 2175669,
-        "codeLines": 2051640,
-        "chars": 98264533,
-        "bytes": 98587699
+        "lines": 2175684,
+        "codeLines": 2051654,
+        "chars": 98266093,
+        "bytes": 98589261
       },
       {
         "name": "TypeScript",
@@ -475,10 +475,10 @@
       {
         "name": "CSS",
         "files": 108,
-        "lines": 60777,
-        "codeLines": 56863,
-        "chars": 2153609,
-        "bytes": 2159792
+        "lines": 60878,
+        "codeLines": 56952,
+        "chars": 2156628,
+        "bytes": 2162811
       },
       {
         "name": "C++",
@@ -935,28 +935,28 @@
   ],
   "recentRepositories": [
     {
-      "name": "kaboxv8",
-      "url": "https://github.com/akaanakbaik/kaboxv8",
-      "language": "JavaScript",
-      "updatedAt": "2026-08-23T14:35:58Z"
-    },
-    {
       "name": "dastermv2",
       "url": "https://github.com/akaanakbaik/dastermv2",
       "language": "Shell",
-      "updatedAt": "2026-08-23T14:24:12Z"
+      "updatedAt": "2026-08-23T15:23:07Z"
+    },
+    {
+      "name": "kaboxv8",
+      "url": "https://github.com/akaanakbaik/kaboxv8",
+      "language": "JavaScript",
+      "updatedAt": "2026-08-23T15:03:57Z"
+    },
+    {
+      "name": "akaanakbaik",
+      "url": "https://github.com/akaanakbaik/akaanakbaik",
+      "language": "JavaScript",
+      "updatedAt": "2026-08-23T14:39:29Z"
     },
     {
       "name": "auto-commit",
       "url": "https://github.com/akaanakbaik/auto-commit",
       "language": "Unknown",
       "updatedAt": "2026-08-23T13:49:50Z"
-    },
-    {
-      "name": "akaanakbaik",
-      "url": "https://github.com/akaanakbaik/akaanakbaik",
-      "language": "JavaScript",
-      "updatedAt": "2026-08-23T13:46:58Z"
     },
     {
       "name": "kaai-code-snipcets",
@@ -1050,7 +1050,7 @@
     "peakHour": 23,
     "peakWeekday": "Sun",
     "circularMean": 20.350044802694825,
-    "circularStd": 6.25805544730513,
+    "circularStd": 6.258055447305129,
     "activeHours": 24,
     "reposWithCommits": 86,
     "topCommitRepos": [

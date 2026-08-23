@@ -1,6 +1,6 @@
 # Profile Metrics Summary
 
-Generated: 23 Aug 2026, 21:37
+Generated: 23 Aug 2026, 22:35
 
 ## Account
 
@@ -17,7 +17,7 @@ Generated: 23 Aug 2026, 21:37
 | Total stars | 409 |
 | Total forks | 27 |
 | Total watchers | 13 |
-| Total repo size | 838.8 MB |
+| Total repo size | 838.9 MB |
 | Top language | JavaScript |
 
 ## Code Totals (scanned from all repositories)
@@ -27,20 +27,20 @@ Generated: 23 Aug 2026, 21:37
 | Source files counted | 17,683 |
 | Tracked source candidates | 17,685 |
 | Excluded source candidates | 2 |
-| Source lines (physical) | 3,408,466 |
-| Source lines (non-empty) | 3,169,711 |
-| Source characters (Unicode) | 144,963,787 |
-| Non-whitespace characters | 110,519,537 |
+| Source lines (physical) | 3,408,582 |
+| Source lines (non-empty) | 3,169,814 |
+| Source characters (Unicode) | 144,968,366 |
+| Non-whitespace characters | 110,523,343 |
 | Bytes scanned | 139.65 MB |
 
 ## Lines of Code per Language
 
 | Language | Lines | Chars | Files |
 | --- | ---: | ---: | ---: |
-| JavaScript | 2,051,640 | 98,264,533 | 9,326 |
+| JavaScript | 2,051,654 | 98,266,093 | 9,326 |
 | TypeScript | 798,731 | 33,819,725 | 5,555 |
 | Python | 124,866 | 5,812,766 | 935 |
-| CSS | 56,863 | 2,153,609 | 108 |
+| CSS | 56,952 | 2,156,628 | 108 |
 | C++ | 37,192 | 1,106,284 | 662 |
 | Java | 25,714 | 937,878 | 414 |
 | HTML | 22,847 | 1,113,658 | 142 |
@@ -85,9 +85,9 @@ Generated: 23 Aug 2026, 21:37
 | Distinct languages | 42 |
 | Shannon entropy | 2.249 bits (max 5.392) |
 | Redundancy | 58.3% |
-| Herfindahl-Hirschman Index | 3129.4 (×10⁴) |
+| Herfindahl-Hirschman Index | 3129.3 (×10⁴) |
 | Gini coefficient | 0.9115 |
-| CR₃ concentration | 84.87% |
+| CR₃ concentration | 84.86% |
 | CR₅ concentration | 90.58% |
 | Pareto 80% coverage | top 3 of 42 languages |
 | Top language share | 48.84% |
@@ -116,10 +116,10 @@ Generated: 23 Aug 2026, 21:37
 
 | Language | Repos | Bytes | Share |
 | --- | ---: | ---: | ---: |
-| JavaScript | 70 | 23492933 | 48.84% |
+| JavaScript | 70 | 23496960 | 48.84% |
 | TypeScript | 30 | 11356707 | 23.61% |
 | Python | 12 | 5970901 | 12.41% |
-| CSS | 51 | 1631602 | 3.39% |
+| CSS | 51 | 1634621 | 3.40% |
 | C++ | 9 | 1114294 | 2.32% |
 | Jupyter Notebook | 1 | 1077015 | 2.24% |
 | HTML | 51 | 1036740 | 2.16% |
