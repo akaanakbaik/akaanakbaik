@@ -1,6 +1,6 @@
 # Profile Metrics Summary
 
-Generated: 23 Aug 2026, 18:34
+Generated: 23 Aug 2026, 20:01
 
 ## Account
 
@@ -17,7 +17,7 @@ Generated: 23 Aug 2026, 18:34
 | Total stars | 409 |
 | Total forks | 27 |
 | Total watchers | 13 |
-| Total repo size | 838.5 MB |
+| Total repo size | 838.8 MB |
 | Top language | JavaScript |
 
 ## Code Totals (scanned from all repositories)
@@ -27,18 +27,18 @@ Generated: 23 Aug 2026, 18:34
 | Source files counted | 17,681 |
 | Tracked source candidates | 17,683 |
 | Excluded source candidates | 2 |
-| Source lines (physical) | 3,407,481 |
-| Source lines (non-empty) | 3,168,822 |
-| Source characters (Unicode) | 144,925,191 |
-| Non-whitespace characters | 110,487,336 |
-| Bytes scanned | 139.61 MB |
+| Source lines (physical) | 3,407,584 |
+| Source lines (non-empty) | 3,168,928 |
+| Source characters (Unicode) | 144,929,857 |
+| Non-whitespace characters | 110,490,830 |
+| Bytes scanned | 139.62 MB |
 
 ## Lines of Code per Language
 
 | Language | Lines | Chars | Files |
 | --- | ---: | ---: | ---: |
-| JavaScript | 2,051,367 | 98,249,301 | 9,324 |
-| TypeScript | 798,625 | 33,815,166 | 5,555 |
+| JavaScript | 2,051,367 | 98,249,408 | 9,324 |
+| TypeScript | 798,731 | 33,819,725 | 5,555 |
 | Python | 124,866 | 5,812,766 | 935 |
 | CSS | 56,353 | 2,134,804 | 108 |
 | C++ | 37,192 | 1,106,284 | 662 |
@@ -85,7 +85,7 @@ Generated: 23 Aug 2026, 18:34
 | Distinct languages | 42 |
 | Shannon entropy | 2.249 bits (max 5.392) |
 | Redundancy | 58.3% |
-| Herfindahl-Hirschman Index | 3130.6 (×10⁴) |
+| Herfindahl-Hirschman Index | 3130.5 (×10⁴) |
 | Gini coefficient | 0.9115 |
 | CR₃ concentration | 84.89% |
 | CR₅ concentration | 90.57% |
@@ -116,8 +116,8 @@ Generated: 23 Aug 2026, 18:34
 
 | Language | Repos | Bytes | Share |
 | --- | ---: | ---: | ---: |
-| JavaScript | 70 | 23477701 | 48.85% |
-| TypeScript | 30 | 11352148 | 23.62% |
+| JavaScript | 70 | 23477808 | 48.85% |
+| TypeScript | 30 | 11356707 | 23.63% |
 | Python | 12 | 5970901 | 12.42% |
 | CSS | 51 | 1612797 | 3.36% |
 | C++ | 9 | 1114294 | 2.32% |
