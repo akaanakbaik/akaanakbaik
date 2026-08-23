@@ -1,6 +1,6 @@
 # Profile Metrics Summary
 
-Generated: 23 Aug 2026, 20:45
+Generated: 23 Aug 2026, 21:37
 
 ## Account
 
@@ -27,20 +27,20 @@ Generated: 23 Aug 2026, 20:45
 | Source files counted | 17,683 |
 | Tracked source candidates | 17,685 |
 | Excluded source candidates | 2 |
-| Source lines (physical) | 3,407,657 |
-| Source lines (non-empty) | 3,168,990 |
-| Source characters (Unicode) | 144,932,516 |
-| Non-whitespace characters | 110,493,089 |
-| Bytes scanned | 139.62 MB |
+| Source lines (physical) | 3,408,466 |
+| Source lines (non-empty) | 3,169,711 |
+| Source characters (Unicode) | 144,963,787 |
+| Non-whitespace characters | 110,519,537 |
+| Bytes scanned | 139.65 MB |
 
 ## Lines of Code per Language
 
 | Language | Lines | Chars | Files |
 | --- | ---: | ---: | ---: |
-| JavaScript | 2,051,429 | 98,252,067 | 9,326 |
+| JavaScript | 2,051,640 | 98,264,533 | 9,326 |
 | TypeScript | 798,731 | 33,819,725 | 5,555 |
 | Python | 124,866 | 5,812,766 | 935 |
-| CSS | 56,353 | 2,134,804 | 108 |
+| CSS | 56,863 | 2,153,609 | 108 |
 | C++ | 37,192 | 1,106,284 | 662 |
 | Java | 25,714 | 937,878 | 414 |
 | HTML | 22,847 | 1,113,658 | 142 |
@@ -85,14 +85,14 @@ Generated: 23 Aug 2026, 20:45
 | Distinct languages | 42 |
 | Shannon entropy | 2.249 bits (max 5.392) |
 | Redundancy | 58.3% |
-| Herfindahl-Hirschman Index | 3130.7 (×10⁴) |
+| Herfindahl-Hirschman Index | 3129.4 (×10⁴) |
 | Gini coefficient | 0.9115 |
-| CR₃ concentration | 84.90% |
-| CR₅ concentration | 90.57% |
+| CR₃ concentration | 84.87% |
+| CR₅ concentration | 90.58% |
 | Pareto 80% coverage | top 3 of 42 languages |
-| Top language share | 48.85% |
+| Top language share | 48.84% |
 | Geometric mean bytes | 4.8K |
-| Coefficient of variation | 3.486 |
+| Coefficient of variation | 3.485 |
 
 ## Activity & Streak
 
@@ -116,17 +116,17 @@ Generated: 23 Aug 2026, 20:45
 
 | Language | Repos | Bytes | Share |
 | --- | ---: | ---: | ---: |
-| JavaScript | 70 | 23480467 | 48.85% |
-| TypeScript | 30 | 11356707 | 23.63% |
-| Python | 12 | 5970901 | 12.42% |
-| CSS | 51 | 1612797 | 3.36% |
+| JavaScript | 70 | 23492933 | 48.84% |
+| TypeScript | 30 | 11356707 | 23.61% |
+| Python | 12 | 5970901 | 12.41% |
+| CSS | 51 | 1631602 | 3.39% |
 | C++ | 9 | 1114294 | 2.32% |
 | Jupyter Notebook | 1 | 1077015 | 2.24% |
 | HTML | 51 | 1036740 | 2.16% |
 | Java | 7 | 938571 | 1.95% |
 | C | 7 | 447195 | 0.93% |
 | Dart | 4 | 335080 | 0.70% |
-| Shell | 20 | 281201 | 0.59% |
+| Shell | 20 | 281201 | 0.58% |
 | Rust | 3 | 204518 | 0.43% |
 | Go | 5 | 113542 | 0.24% |
 | PHP | 5 | 27465 | 0.06% |
