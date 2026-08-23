@@ -10,7 +10,7 @@ Repo paling sibuk bulan ini: akaanakbaik (134), portofoliov2 (17), kaai-code-sni
 
 Bahasa yang paling sering kupakai: TypeScript ×5, JavaScript ×3, Shell ×1.
 
-Selain itu aku juga membuka 1 pull request — terus berkontribusi dan berkolaborasi.
+Selain itu aku juga membuka 2 pull request — terus berkontribusi dan berkolaborasi.
 
 Kesimpulan: bulan yang sangat produktif — energiku tinggi dan proyek terus bergerak maju. Terus ngoding, tetap semangat! 🚀
 
@@ -29,5 +29,5 @@ Kesimpulan: bulan yang sangat produktif — energiku tinggi dan proyek terus ber
 | Jam puncak | 18:00 WIB |
 | Streak aktif | 0 hari |
 | Repo tersibuk | akaanakbaik (134), portofoliov2 (17), kaai-code-snipcets (8) |
-| Pull request dibuka | 1 |
+| Pull request dibuka | 2 |
 | Issue dibuka | 0 |
