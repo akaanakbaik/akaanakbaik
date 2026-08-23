@@ -1,8 +1,18 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "23 Aug 2026, 10:14",
+  "generatedAt": "23 Aug 2026, 11:01",
   "policy": "all tracked regular source files; Unicode code points; notebook code cells; no file-size limit; dependencies and generated source included when tracked",
   "repositories": [
+    {
+      "name": "dastermv2",
+      "defaultBranch": "main",
+      "pushedAt": "2026-08-23T03:50:53Z"
+    },
+    {
+      "name": "akaanakbaik",
+      "defaultBranch": "main",
+      "pushedAt": "2026-08-23T03:16:01Z"
+    },
     {
       "name": "kaai-code-snipcets",
       "defaultBranch": "main",
@@ -12,16 +22,6 @@
       "name": "kabox",
       "defaultBranch": "main",
       "pushedAt": "2026-08-23T03:05:48Z"
-    },
-    {
-      "name": "dastermv2",
-      "defaultBranch": "main",
-      "pushedAt": "2026-08-23T02:45:07Z"
-    },
-    {
-      "name": "akaanakbaik",
-      "defaultBranch": "main",
-      "pushedAt": "2026-08-23T02:00:36Z"
     },
     {
       "name": "auto-commit",
