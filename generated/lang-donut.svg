@@ -18,19 +18,19 @@
 <rect x="30" y="80" width="840" height="3.5" rx="1.75" fill="url(#titleLine)"/>
 
 <text x="240" y="246" text-anchor="middle" fill="#94a3b8" font-size="12" font-weight="700" letter-spacing="1.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">CODE BYTES</text>
-<text x="240" y="276" text-anchor="middle" fill="#ffffff" font-size="26" font-weight="900" font-family="Inter,'Segoe UI',system-ui,sans-serif">48.0M</text>
+<text x="240" y="276" text-anchor="middle" fill="#ffffff" font-size="26" font-weight="900" font-family="Inter,'Segoe UI',system-ui,sans-serif">48.1M</text>
 <text x="240" y="298" text-anchor="middle" fill="#64748b" font-size="11" font-family="Inter,'Segoe UI',system-ui,sans-serif">across 42 languages</text>
-<path d="M 240.00 120.00 A 148 148 0 0 1 250.47 415.63 L 246.51 359.77 A 92 92 0 0 0 240.00 176.00 Z" fill="#f1e05a" stroke="#0b1020" stroke-width="2.5"/><path d="M 250.47 415.63 A 148 148 0 0 1 93.87 291.48 L 149.17 282.60 A 92 92 0 0 0 246.51 359.77 Z" fill="#3178c6" stroke="#0b1020" stroke-width="2.5"/><path d="M 93.87 291.48 A 148 148 0 0 1 119.69 181.80 L 165.21 214.42 A 92 92 0 0 0 149.17 282.60 Z" fill="#3572A5" stroke="#0b1020" stroke-width="2.5"/><path d="M 119.69 181.80 A 148 148 0 0 1 140.34 158.58 L 178.05 199.98 A 92 92 0 0 0 165.21 214.42 Z" fill="#563d7c" stroke="#0b1020" stroke-width="2.5"/><path d="M 140.34 158.58 A 148 148 0 0 1 157.29 145.27 L 188.59 191.71 A 92 92 0 0 0 178.05 199.98 Z" fill="#f34b7d" stroke="#0b1020" stroke-width="2.5"/><path d="M 157.29 145.27 A 148 148 0 0 1 175.35 134.87 L 199.81 185.24 A 92 92 0 0 0 188.59 191.71 Z" fill="#DA5B0B" stroke="#0b1020" stroke-width="2.5"/><path d="M 175.35 134.87 A 148 148 0 0 1 193.94 127.35 L 211.37 180.57 A 92 92 0 0 0 199.81 185.24 Z" fill="#e34c26" stroke="#0b1020" stroke-width="2.5"/><path d="M 193.94 127.35 A 148 148 0 0 1 211.51 122.77 L 222.29 177.72 A 92 92 0 0 0 211.37 180.57 Z" fill="#b07219" stroke="#0b1020" stroke-width="2.5"/><path d="M 211.51 122.77 A 148 148 0 0 1 220.05 121.35 L 227.60 176.84 A 92 92 0 0 0 222.29 177.72 Z" fill="#555555" stroke="#0b1020" stroke-width="2.5"/><path d="M 220.05 121.35 A 148 148 0 0 1 226.49 120.62 L 231.60 176.38 A 92 92 0 0 0 227.60 176.84 Z" fill="#00B4AB" stroke="#0b1020" stroke-width="2.5"/><path d="M 226.49 120.62 A 148 148 0 0 1 240.00 120.00 L 240.00 176.00 A 92 92 0 0 0 231.60 176.38 Z" fill="#8b93a7" stroke="#0b1020" stroke-width="2.5"/>
+<path d="M 240.00 120.00 A 148 148 0 0 1 250.78 415.61 L 246.70 359.76 A 92 92 0 0 0 240.00 176.00 Z" fill="#f1e05a" stroke="#0b1020" stroke-width="2.5"/><path d="M 250.78 415.61 A 148 148 0 0 1 93.86 291.40 L 149.16 282.54 A 92 92 0 0 0 246.70 359.76 Z" fill="#3178c6" stroke="#0b1020" stroke-width="2.5"/><path d="M 93.86 291.40 A 148 148 0 0 1 119.70 181.80 L 165.22 214.41 A 92 92 0 0 0 149.16 282.54 Z" fill="#3572A5" stroke="#0b1020" stroke-width="2.5"/><path d="M 119.70 181.80 A 148 148 0 0 1 140.40 158.53 L 178.09 199.95 A 92 92 0 0 0 165.22 214.41 Z" fill="#563d7c" stroke="#0b1020" stroke-width="2.5"/><path d="M 140.40 158.53 A 148 148 0 0 1 157.34 145.23 L 188.62 191.69 A 92 92 0 0 0 178.09 199.95 Z" fill="#f34b7d" stroke="#0b1020" stroke-width="2.5"/><path d="M 157.34 145.23 A 148 148 0 0 1 175.39 134.85 L 199.83 185.23 A 92 92 0 0 0 188.62 191.69 Z" fill="#DA5B0B" stroke="#0b1020" stroke-width="2.5"/><path d="M 175.39 134.85 A 148 148 0 0 1 193.97 127.34 L 211.39 180.56 A 92 92 0 0 0 199.83 185.23 Z" fill="#e34c26" stroke="#0b1020" stroke-width="2.5"/><path d="M 193.97 127.34 A 148 148 0 0 1 211.53 122.76 L 222.30 177.72 A 92 92 0 0 0 211.39 180.56 Z" fill="#b07219" stroke="#0b1020" stroke-width="2.5"/><path d="M 211.53 122.76 A 148 148 0 0 1 220.06 121.35 L 227.61 176.84 A 92 92 0 0 0 222.30 177.72 Z" fill="#555555" stroke="#0b1020" stroke-width="2.5"/><path d="M 220.06 121.35 A 148 148 0 0 1 226.50 120.62 L 231.61 176.38 A 92 92 0 0 0 227.61 176.84 Z" fill="#00B4AB" stroke="#0b1020" stroke-width="2.5"/><path d="M 226.50 120.62 A 148 148 0 0 1 240.00 120.00 L 240.00 176.00 A 92 92 0 0 0 231.61 176.38 Z" fill="#8b93a7" stroke="#0b1020" stroke-width="2.5"/>
 <g transform="translate(440 130)">
 <rect x="0" y="4" width="13" height="13" rx="3.5" fill="#f1e05a"/>
 <text x="21" y="15" fill="#e2e8f0" font-size="12.5" font-weight="600" font-family="Inter,'Segoe UI',system-ui,sans-serif">JavaScript</text>
-<text x="212" y="15" fill="#cbd5e1" font-size="12" text-anchor="end" font-family="Inter,'Segoe UI',system-ui,sans-serif">48.9%</text>
+<text x="212" y="15" fill="#cbd5e1" font-size="12" text-anchor="end" font-family="Inter,'Segoe UI',system-ui,sans-serif">48.8%</text>
 <text x="236" y="15" fill="#64748b" font-size="11" text-anchor="end" font-family="Inter,'Segoe UI',system-ui,sans-serif">22.39 MB</text>
 </g><g transform="translate(440 159)">
 <rect x="0" y="4" width="13" height="13" rx="3.5" fill="#3178c6"/>
 <text x="21" y="15" fill="#e2e8f0" font-size="12.5" font-weight="600" font-family="Inter,'Segoe UI',system-ui,sans-serif">TypeScript</text>
 <text x="212" y="15" fill="#cbd5e1" font-size="12" text-anchor="end" font-family="Inter,'Segoe UI',system-ui,sans-serif">23.6%</text>
-<text x="236" y="15" fill="#64748b" font-size="11" text-anchor="end" font-family="Inter,'Segoe UI',system-ui,sans-serif">10.81 MB</text>
+<text x="236" y="15" fill="#64748b" font-size="11" text-anchor="end" font-family="Inter,'Segoe UI',system-ui,sans-serif">10.83 MB</text>
 </g><g transform="translate(440 188)">
 <rect x="0" y="4" width="13" height="13" rx="3.5" fill="#3572A5"/>
 <text x="21" y="15" fill="#e2e8f0" font-size="12.5" font-weight="600" font-family="Inter,'Segoe UI',system-ui,sans-serif">Python</text>
@@ -39,8 +39,8 @@
 </g><g transform="translate(440 217)">
 <rect x="0" y="4" width="13" height="13" rx="3.5" fill="#563d7c"/>
 <text x="21" y="15" fill="#e2e8f0" font-size="12.5" font-weight="600" font-family="Inter,'Segoe UI',system-ui,sans-serif">CSS</text>
-<text x="212" y="15" fill="#cbd5e1" font-size="12" text-anchor="end" font-family="Inter,'Segoe UI',system-ui,sans-serif">3.3%</text>
-<text x="236" y="15" fill="#64748b" font-size="11" text-anchor="end" font-family="Inter,'Segoe UI',system-ui,sans-serif">1.53 MB</text>
+<text x="212" y="15" fill="#cbd5e1" font-size="12" text-anchor="end" font-family="Inter,'Segoe UI',system-ui,sans-serif">3.4%</text>
+<text x="236" y="15" fill="#64748b" font-size="11" text-anchor="end" font-family="Inter,'Segoe UI',system-ui,sans-serif">1.54 MB</text>
 </g><g transform="translate(440 246)">
 <rect x="0" y="4" width="13" height="13" rx="3.5" fill="#f34b7d"/>
 <text x="21" y="15" fill="#e2e8f0" font-size="12.5" font-weight="600" font-family="Inter,'Segoe UI',system-ui,sans-serif">C++</text>
@@ -85,7 +85,7 @@
 </g><g transform="translate(208 436)">
 <rect width="122" height="54" rx="12" fill="#0d1322" stroke="#764ba2" stroke-opacity="0.35" stroke-width="1.2"/>
 <text x="14" y="20" fill="#8b93a7" font-size="10.5" font-weight="700" letter-spacing="1.2" font-family="Inter,'Segoe UI',system-ui,sans-serif">HHI ×10⁴</text>
-<text x="14" y="42" fill="#764ba2" font-size="17" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">3131.7</text>
+<text x="14" y="42" fill="#764ba2" font-size="17" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">3130.2</text>
 </g><g transform="translate(340 436)">
 <rect width="122" height="54" rx="12" fill="#0d1322" stroke="#16a34a" stroke-opacity="0.35" stroke-width="1.2"/>
 <text x="14" y="20" fill="#8b93a7" font-size="10.5" font-weight="700" letter-spacing="1.2" font-family="Inter,'Segoe UI',system-ui,sans-serif">GINI COEF.</text>

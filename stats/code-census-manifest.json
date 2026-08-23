@@ -1,22 +1,32 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "23 Aug 2026, 08:59",
+  "generatedAt": "23 Aug 2026, 10:14",
   "policy": "all tracked regular source files; Unicode code points; notebook code cells; no file-size limit; dependencies and generated source included when tracked",
   "repositories": [
     {
-      "name": "auto-commit",
+      "name": "kaai-code-snipcets",
       "defaultBranch": "main",
-      "pushedAt": "2026-08-23T01:44:58Z"
+      "pushedAt": "2026-08-23T03:09:27Z"
+    },
+    {
+      "name": "kabox",
+      "defaultBranch": "main",
+      "pushedAt": "2026-08-23T03:05:48Z"
     },
     {
       "name": "dastermv2",
       "defaultBranch": "main",
-      "pushedAt": "2026-08-23T01:22:26Z"
+      "pushedAt": "2026-08-23T02:45:07Z"
     },
     {
       "name": "akaanakbaik",
       "defaultBranch": "main",
-      "pushedAt": "2026-08-23T00:45:09Z"
+      "pushedAt": "2026-08-23T02:00:36Z"
+    },
+    {
+      "name": "auto-commit",
+      "defaultBranch": "main",
+      "pushedAt": "2026-08-23T01:44:58Z"
     },
     {
       "name": "portofoliov2",
@@ -139,11 +149,6 @@
       "pushedAt": "2026-04-05T06:58:00Z"
     },
     {
-      "name": "kaai-code-snipcets",
-      "defaultBranch": "main",
-      "pushedAt": "2026-04-18T00:47:31Z"
-    },
-    {
       "name": "Readme-Spotify-Now-Playing",
       "defaultBranch": "main",
       "pushedAt": "2024-04-03T23:41:34Z"
@@ -247,11 +252,6 @@
       "name": "dobe",
       "defaultBranch": "main",
       "pushedAt": "2025-06-20T09:06:52Z"
-    },
-    {
-      "name": "kabox",
-      "defaultBranch": "main",
-      "pushedAt": "2026-08-23T00:49:23Z"
     },
     {
       "name": "ur",
@@ -540,11 +540,11 @@
     }
   ],
   "totals": {
-    "files": 17680,
-    "lines": 3407044,
-    "codeLines": 3168379,
-    "chars": 144898082,
-    "nonWsChars": 110464815,
-    "bytes": 146367318
+    "files": 17682,
+    "lines": 3407546,
+    "codeLines": 3168881,
+    "chars": 144931007,
+    "nonWsChars": 110492238,
+    "bytes": 146400244
   }
 }

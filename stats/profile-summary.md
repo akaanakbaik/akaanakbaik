@@ -1,6 +1,6 @@
 # Profile Metrics Summary
 
-Generated: 23 Aug 2026, 08:59
+Generated: 23 Aug 2026, 10:14
 
 ## Account
 
@@ -10,7 +10,7 @@ Generated: 23 Aug 2026, 08:59
 | Original repos | 87 |
 | Forked repos | 20 |
 | Archived repos | 0 |
-| Active repos (90d) | 15 |
+| Active repos (90d) | 16 |
 | Followers | 59 |
 | Following | 62 |
 | Public gists | 0 |
@@ -24,23 +24,23 @@ Generated: 23 Aug 2026, 08:59
 
 | Metric | Value |
 | --- | ---: |
-| Source files counted | 17,680 |
-| Tracked source candidates | 17,682 |
+| Source files counted | 17,682 |
+| Tracked source candidates | 17,684 |
 | Excluded source candidates | 2 |
-| Source lines (physical) | 3,407,044 |
-| Source lines (non-empty) | 3,168,379 |
-| Source characters (Unicode) | 144,898,082 |
-| Non-whitespace characters | 110,464,815 |
-| Bytes scanned | 139.59 MB |
+| Source lines (physical) | 3,407,546 |
+| Source lines (non-empty) | 3,168,881 |
+| Source characters (Unicode) | 144,931,007 |
+| Non-whitespace characters | 110,492,238 |
+| Bytes scanned | 139.62 MB |
 
 ## Lines of Code per Language
 
 | Language | Lines | Chars | Files |
 | --- | ---: | ---: | ---: |
 | JavaScript | 2,051,348 | 98,247,209 | 9,324 |
-| TypeScript | 798,334 | 33,794,814 | 5,554 |
+| TypeScript | 798,703 | 33,823,074 | 5,556 |
 | Python | 124,866 | 5,812,766 | 935 |
-| CSS | 56,220 | 2,130,139 | 108 |
+| CSS | 56,353 | 2,134,804 | 108 |
 | C++ | 37,192 | 1,106,284 | 662 |
 | Java | 25,714 | 937,878 | 414 |
 | HTML | 22,847 | 1,113,658 | 142 |
@@ -85,14 +85,14 @@ Generated: 23 Aug 2026, 08:59
 | Distinct languages | 42 |
 | Shannon entropy | 2.249 bits (max 5.392) |
 | Redundancy | 58.3% |
-| Herfindahl-Hirschman Index | 3131.7 (×10⁴) |
+| Herfindahl-Hirschman Index | 3130.2 (×10⁴) |
 | Gini coefficient | 0.9115 |
-| CR₃ concentration | 84.89% |
-| CR₅ concentration | 90.56% |
+| CR₃ concentration | 84.90% |
+| CR₅ concentration | 90.57% |
 | Pareto 80% coverage | top 3 of 42 languages |
-| Top language share | 48.87% |
+| Top language share | 48.84% |
 | Geometric mean bytes | 4.8K |
-| Coefficient of variation | 3.486 |
+| Coefficient of variation | 3.485 |
 
 ## Activity & Streak
 
@@ -116,10 +116,10 @@ Generated: 23 Aug 2026, 08:59
 
 | Language | Repos | Bytes | Share |
 | --- | ---: | ---: | ---: |
-| JavaScript | 70 | 23475608 | 48.87% |
-| TypeScript | 30 | 11331793 | 23.59% |
-| Python | 12 | 5970901 | 12.43% |
-| CSS | 51 | 1608132 | 3.35% |
+| JavaScript | 70 | 23475608 | 48.84% |
+| TypeScript | 30 | 11360054 | 23.63% |
+| Python | 12 | 5970901 | 12.42% |
+| CSS | 51 | 1612797 | 3.36% |
 | C++ | 9 | 1114294 | 2.32% |
 | Jupyter Notebook | 1 | 1077015 | 2.24% |
 | HTML | 51 | 1036740 | 2.16% |

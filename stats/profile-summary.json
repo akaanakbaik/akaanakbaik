@@ -1,11 +1,11 @@
 {
   "username": "akaanakbaik",
-  "generatedAt": "23 Aug 2026, 08:59",
+  "generatedAt": "23 Aug 2026, 10:14",
   "publicRepos": 107,
   "originalRepos": 87,
   "forkedRepos": 20,
   "archivedRepos": 0,
-  "activeRepos90d": 15,
+  "activeRepos90d": 16,
   "followers": 59,
   "following": 62,
   "publicGists": 0,
@@ -13,33 +13,33 @@
   "totalForks": 27,
   "totalWatchers": 13,
   "totalSize": "838.3 MB",
-  "totalSizeKb": 858390,
+  "totalSizeKb": 858459,
   "topLanguage": "JavaScript",
   "accountAge": "2 years",
   "accountAgePrecise": "2 years",
   "accountCreatedAt": "2024-08-03T01:58:16Z",
   "topRepo": "pterodactyl-gateway",
-  "recentRepo": "auto-commit",
+  "recentRepo": "kaai-code-snipcets",
   "largestRepo": "Hacktoberfest2025-3",
   "languageDistribution": {
-    "totalBytes": 48033973,
+    "totalBytes": 48066899,
     "languagesCount": 42,
-    "entropy": 2.2485677790639986,
+    "entropy": 2.248727296765447,
     "entropyMax": 5.392317422778761,
-    "redundancy": 0.5830053012893165,
-    "hhi": 3131.661441354506,
-    "gini": 0.9114632495431436,
-    "cr3": 84.89470983380866,
-    "cr5": 90.56241922774116,
+    "redundancy": 0.5829757188873654,
+    "hhi": 3130.2131989096038,
+    "gini": 0.9114657256377301,
+    "cr3": 84.89535178876424,
+    "cr5": 90.5688840047701,
     "pareto80": {
       "count": 3,
       "totalCount": 42,
-      "share": 0.8489470983380867
+      "share": 0.8489535178876424
     },
-    "topShare": 48.87292583522083,
-    "geomeanBytes": 4835.44739291627,
+    "topShare": 48.83944770391783,
+    "geomeanBytes": 4836.067697836736,
     "medianBytes": 3035,
-    "cv": 3.486112168833489,
+    "cv": 3.4852396525088962,
     "byBytes": [
       {
         "name": "JavaScript",
@@ -48,7 +48,7 @@
       },
       {
         "name": "TypeScript",
-        "bytes": 11331793,
+        "bytes": 11360054,
         "repos": 30
       },
       {
@@ -58,7 +58,7 @@
       },
       {
         "name": "CSS",
-        "bytes": 1608132,
+        "bytes": 1612797,
         "repos": 51
       },
       {
@@ -425,14 +425,14 @@
   },
   "codeTotals": {
     "totals": {
-      "files": 17680,
-      "lines": 3407044,
-      "codeLines": 3168379,
-      "chars": 144898082,
-      "nonWsChars": 110464815,
-      "bytes": 146367318
+      "files": 17682,
+      "lines": 3407546,
+      "codeLines": 3168881,
+      "chars": 144931007,
+      "nonWsChars": 110492238,
+      "bytes": 146400244
     },
-    "scannedFiles": 17682,
+    "scannedFiles": 17684,
     "excludedFiles": 2,
     "exclusionSamples": [
       {
@@ -458,11 +458,11 @@
       },
       {
         "name": "TypeScript",
-        "files": 5554,
-        "lines": 866821,
-        "codeLines": 798334,
-        "chars": 33794814,
-        "bytes": 33834477
+        "files": 5556,
+        "lines": 867213,
+        "codeLines": 798703,
+        "chars": 33823074,
+        "bytes": 33862738
       },
       {
         "name": "Python",
@@ -475,10 +475,10 @@
       {
         "name": "CSS",
         "files": 108,
-        "lines": 60083,
-        "codeLines": 56220,
-        "chars": 2130139,
-        "bytes": 2136322
+        "lines": 60193,
+        "codeLines": 56353,
+        "chars": 2134804,
+        "bytes": 2140987
       },
       {
         "name": "C++",
@@ -935,22 +935,34 @@
   ],
   "recentRepositories": [
     {
-      "name": "auto-commit",
-      "url": "https://github.com/akaanakbaik/auto-commit",
-      "language": "Unknown",
-      "updatedAt": "2026-08-23T01:45:02Z"
+      "name": "kaai-code-snipcets",
+      "url": "https://github.com/akaanakbaik/kaai-code-snipcets",
+      "language": "TypeScript",
+      "updatedAt": "2026-08-23T03:09:51Z"
+    },
+    {
+      "name": "kabox",
+      "url": "https://github.com/akaanakbaik/kabox",
+      "language": "TypeScript",
+      "updatedAt": "2026-08-23T03:06:10Z"
     },
     {
       "name": "dastermv2",
       "url": "https://github.com/akaanakbaik/dastermv2",
       "language": "Shell",
-      "updatedAt": "2026-08-23T01:22:31Z"
+      "updatedAt": "2026-08-23T02:45:16Z"
     },
     {
       "name": "akaanakbaik",
       "url": "https://github.com/akaanakbaik/akaanakbaik",
       "language": "JavaScript",
-      "updatedAt": "2026-08-22T23:35:27Z"
+      "updatedAt": "2026-08-23T02:01:10Z"
+    },
+    {
+      "name": "auto-commit",
+      "url": "https://github.com/akaanakbaik/auto-commit",
+      "language": "Unknown",
+      "updatedAt": "2026-08-23T01:45:02Z"
     },
     {
       "name": "portofoliov2",
@@ -969,18 +981,6 @@
       "url": "https://github.com/akaanakbaik/libsignal",
       "language": "JavaScript",
       "updatedAt": "2026-08-14T06:14:47Z"
-    },
-    {
-      "name": "pterodactyl-gateway",
-      "url": "https://github.com/akaanakbaik/pterodactyl-gateway",
-      "language": "TypeScript",
-      "updatedAt": "2026-08-12T16:18:36Z"
-    },
-    {
-      "name": "my-cdn",
-      "url": "https://github.com/akaanakbaik/my-cdn",
-      "language": "Assembly",
-      "updatedAt": "2026-08-09T14:49:04Z"
     }
   ],
   "activity": {
@@ -1049,8 +1049,8 @@
     ],
     "peakHour": 23,
     "peakWeekday": "Sun",
-    "circularMean": 20.35004480269482,
-    "circularStd": 6.258055447305131,
+    "circularMean": 20.350044802694825,
+    "circularStd": 6.258055447305129,
     "activeHours": 24,
     "reposWithCommits": 86,
     "topCommitRepos": [
@@ -1173,6 +1173,24 @@
       "scorePct": 83.76306809537405
     },
     {
+      "name": "kaai-code-snipcets",
+      "url": "https://github.com/akaanakbaik/kaai-code-snipcets",
+      "language": "TypeScript",
+      "watchersTotal": 0,
+      "pullRequests": 0,
+      "issues": 0,
+      "discussions": 0,
+      "daysSincePush": 0,
+      "commits": 101,
+      "score": 8.706694504129898,
+      "stars": 4,
+      "forks": 2,
+      "watchers": 0,
+      "prs": 0,
+      "recency": 1,
+      "scorePct": 78.61975221698836
+    },
+    {
       "name": "dastermv2",
       "url": "https://github.com/akaanakbaik/dastermv2",
       "language": "Shell",
@@ -1189,24 +1207,6 @@
       "prs": 0,
       "recency": 1,
       "scorePct": 71.91800269354908
-    },
-    {
-      "name": "web-docs-pterodacty-gateway",
-      "url": "https://github.com/akaanakbaik/web-docs-pterodacty-gateway",
-      "language": "TypeScript",
-      "watchersTotal": 0,
-      "pullRequests": 5,
-      "issues": 0,
-      "discussions": 0,
-      "daysSincePush": 9,
-      "commits": 58,
-      "score": 7.012504220658394,
-      "stars": 1,
-      "forks": 0,
-      "watchers": 0,
-      "prs": 5,
-      "recency": 0.8187307530779818,
-      "scorePct": 63.321544587011346
     }
   ]
 }
