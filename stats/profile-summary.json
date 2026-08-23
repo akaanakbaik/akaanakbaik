@@ -1,6 +1,6 @@
 {
   "username": "akaanakbaik",
-  "generatedAt": "23 Aug 2026, 20:01",
+  "generatedAt": "23 Aug 2026, 20:45",
   "publicRepos": 107,
   "originalRepos": 87,
   "forkedRepos": 20,
@@ -13,7 +13,7 @@
   "totalForks": 27,
   "totalWatchers": 13,
   "totalSize": "838.8 MB",
-  "totalSizeKb": 858900,
+  "totalSizeKb": 858938,
   "topLanguage": "JavaScript",
   "accountAge": "2 years",
   "accountAgePrecise": "2 years",
@@ -22,28 +22,28 @@
   "recentRepo": "kaboxv8",
   "largestRepo": "Hacktoberfest2025-3",
   "languageDistribution": {
-    "totalBytes": 48065752,
+    "totalBytes": 48068411,
     "languagesCount": 42,
-    "entropy": 2.2486833493344256,
+    "entropy": 2.2486161384371615,
     "entropyMax": 5.392317422778761,
-    "redundancy": 0.58298386889553,
-    "hhi": 3130.48060619216,
-    "gini": 0.9114674969959207,
-    "cr3": 84.89499134435678,
-    "cr5": 90.56865894868346,
+    "redundancy": 0.5829963330907905,
+    "hhi": 3130.674672743022,
+    "gini": 0.9114710772765686,
+    "cr3": 84.89582690802906,
+    "cr5": 90.56918066211924,
     "pareto80": {
       "count": 3,
       "totalCount": 42,
-      "share": 0.8489499134435678
+      "share": 0.8489582690802906
     },
-    "topShare": 48.8451902302496,
-    "geomeanBytes": 4836.044558184299,
+    "topShare": 48.84801996055164,
+    "geomeanBytes": 4836.057598190184,
     "medianBytes": 3035,
-    "cv": 3.4854007726525627,
+    "cv": 3.4855176983513765,
     "byBytes": [
       {
         "name": "JavaScript",
-        "bytes": 23477808,
+        "bytes": 23480467,
         "repos": 70
       },
       {
@@ -425,14 +425,14 @@
   },
   "codeTotals": {
     "totals": {
-      "files": 17681,
-      "lines": 3407584,
-      "codeLines": 3168928,
-      "chars": 144929857,
-      "nonWsChars": 110490830,
-      "bytes": 146399097
+      "files": 17683,
+      "lines": 3407657,
+      "codeLines": 3168990,
+      "chars": 144932516,
+      "nonWsChars": 110493089,
+      "bytes": 146401756
     },
-    "scannedFiles": 17683,
+    "scannedFiles": 17685,
     "excludedFiles": 2,
     "exclusionSamples": [
       {
@@ -450,11 +450,11 @@
     "perLang": [
       {
         "name": "JavaScript",
-        "files": 9324,
-        "lines": 2175371,
-        "codeLines": 2051367,
-        "chars": 98249408,
-        "bytes": 98572574
+        "files": 9326,
+        "lines": 2175444,
+        "codeLines": 2051429,
+        "chars": 98252067,
+        "bytes": 98575233
       },
       {
         "name": "TypeScript",
@@ -938,31 +938,31 @@
       "name": "kaboxv8",
       "url": "https://github.com/akaanakbaik/kaboxv8",
       "language": "JavaScript",
-      "updatedAt": "2026-08-23T12:54:08Z"
+      "updatedAt": "2026-08-23T13:44:15Z"
     },
     {
       "name": "dastermv2",
       "url": "https://github.com/akaanakbaik/dastermv2",
       "language": "Shell",
-      "updatedAt": "2026-08-23T12:40:47Z"
+      "updatedAt": "2026-08-23T13:33:00Z"
     },
     {
       "name": "auto-commit",
       "url": "https://github.com/akaanakbaik/auto-commit",
       "language": "Unknown",
-      "updatedAt": "2026-08-23T11:49:08Z"
+      "updatedAt": "2026-08-23T13:21:58Z"
+    },
+    {
+      "name": "akaanakbaik",
+      "url": "https://github.com/akaanakbaik/akaanakbaik",
+      "language": "JavaScript",
+      "updatedAt": "2026-08-23T13:02:54Z"
     },
     {
       "name": "kaai-code-snipcets",
       "url": "https://github.com/akaanakbaik/kaai-code-snipcets",
       "language": "TypeScript",
       "updatedAt": "2026-08-23T11:42:30Z"
-    },
-    {
-      "name": "akaanakbaik",
-      "url": "https://github.com/akaanakbaik/akaanakbaik",
-      "language": "JavaScript",
-      "updatedAt": "2026-08-23T11:36:23Z"
     },
     {
       "name": "mydash-vps",
