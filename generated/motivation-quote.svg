@@ -8,12 +8,12 @@
 <rect x="30" y="84" width="940" height="4" rx="2" fill="url(#motAccent)"/>
 <text x="40" y="152" fill="#f59e0b" font-size="110" font-weight="900" font-family="Inter,'Segoe UI',system-ui,sans-serif">“</text>
 <circle cx="930" cy="56" r="34" fill="#f59e0b" opacity="0.14"/>
-<text x="930" y="66" text-anchor="middle" fill="#f59e0b" font-size="20" font-weight="900" font-family="Inter,'Segoe UI',system-ui,sans-serif">#26</text>
-<text x="70" y="118" fill="#ffffff" font-size="23" font-style="italic" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">The code is read much more often than it is written.</text>
-<text x="70" y="182" fill="#cbd5e1" font-size="15" font-family="Inter,'Segoe UI',system-ui,sans-serif">Kode lebih sering dibaca daripada ditulis.</text>
+<text x="930" y="66" text-anchor="middle" fill="#f59e0b" font-size="20" font-weight="900" font-family="Inter,'Segoe UI',system-ui,sans-serif">#2</text>
+<text x="70" y="118" fill="#ffffff" font-size="21" font-style="italic" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">Any fool can write code that a computer can understand. Good programmers write code that</text><text x="70" y="146" fill="#ffffff" font-size="21" font-style="italic" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">humans can understand.</text>
+<text x="70" y="208" fill="#cbd5e1" font-size="15" font-family="Inter,'Segoe UI',system-ui,sans-serif">Orang bodoh pun bisa menulis kode yang dipahami komputer. Programmer hebat menulis kode yang dipahami manusia.</text>
 <line x1="70" y1="246" x2="930" y2="246" stroke="#ffffff" stroke-opacity="0.08"/>
-<text x="70" y="266" fill="#f59e0b" font-size="17" font-weight="900" font-family="Inter,'Segoe UI',system-ui,sans-serif">— Guido van Rossum</text>
-<text x="70" y="286" fill="#64748b" font-size="11.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">Creator of Python · original in English · translated to Bahasa Indonesia</text>
+<text x="70" y="266" fill="#f59e0b" font-size="17" font-weight="900" font-family="Inter,'Segoe UI',system-ui,sans-serif">— Martin Fowler</text>
+<text x="70" y="286" fill="#64748b" font-size="11.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">Software Engineer &amp; Author · original in English · translated to Bahasa Indonesia</text>
 <text x="930" y="266" text-anchor="end" fill="#5b6478" font-size="11" font-family="Inter,'Segoe UI',system-ui,sans-serif">random · from 48 real developer quotes</text>
 
 </svg>
