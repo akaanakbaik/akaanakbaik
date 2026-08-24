@@ -1,6 +1,6 @@
 {
   "username": "akaanakbaik",
-  "generatedAt": "24 Aug 2026, 11:07",
+  "generatedAt": "24 Aug 2026, 12:00",
   "publicRepos": 107,
   "originalRepos": 87,
   "forkedRepos": 20,
@@ -12,8 +12,8 @@
   "totalStars": 409,
   "totalForks": 27,
   "totalWatchers": 13,
-  "totalSize": "839.0 MB",
-  "totalSizeKb": 859165,
+  "totalSize": "839.1 MB",
+  "totalSizeKb": 859207,
   "topLanguage": "JavaScript",
   "accountAge": "2 years",
   "accountAgePrecise": "2 years",
@@ -938,19 +938,19 @@
       "name": "dastermv2",
       "url": "https://github.com/akaanakbaik/dastermv2",
       "language": "Shell",
-      "updatedAt": "2026-08-24T03:55:41Z"
+      "updatedAt": "2026-08-24T04:45:30Z"
     },
     {
       "name": "auto-commit",
       "url": "https://github.com/akaanakbaik/auto-commit",
       "language": "Unknown",
-      "updatedAt": "2026-08-24T03:41:36Z"
+      "updatedAt": "2026-08-24T04:26:23Z"
     },
     {
       "name": "akaanakbaik",
       "url": "https://github.com/akaanakbaik/akaanakbaik",
       "language": "JavaScript",
-      "updatedAt": "2026-08-24T03:17:36Z"
+      "updatedAt": "2026-08-24T04:09:54Z"
     },
     {
       "name": "kaboxv8",
@@ -1049,8 +1049,8 @@
     ],
     "peakHour": 23,
     "peakWeekday": "Sun",
-    "circularMean": 20.35004480269483,
-    "circularStd": 6.258055447305129,
+    "circularMean": 20.350044802694825,
+    "circularStd": 6.258055447305132,
     "activeHours": 24,
     "reposWithCommits": 86,
     "topCommitRepos": [
@@ -1144,15 +1144,15 @@
       "pullRequests": 21,
       "issues": 0,
       "discussions": 0,
-      "daysSincePush": 11,
+      "daysSincePush": 12,
       "commits": 159,
-      "score": 10.205838170377199,
+      "score": 10.171415857293386,
       "stars": 9,
       "forks": 0,
       "watchers": 0,
       "prs": 21,
-      "recency": 0.7831394949065555,
-      "scorePct": 92.15672695776098
+      "recency": 0.7659283383646487,
+      "scorePct": 91.84590018830201
     },
     {
       "name": "portofoliov2",
