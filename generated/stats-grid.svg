@@ -14,7 +14,7 @@
 <circle cx="820" cy="40" r="130" fill="#667eea" opacity="0.12"/>
 <circle cx="90" cy="390" r="150" fill="#764ba2" opacity="0.12"/>
 <text x="30" y="44" fill="#ffffff" font-size="25" font-weight="900" font-family="Inter,'Segoe UI',system-ui,sans-serif">GitHub Overview</text>
-<text x="30" y="66" fill="#94a3b8" font-size="12.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">Auto-generated snapshot · 24 Aug 2026, 23:54 · live from the GitHub API</text>
+<text x="30" y="66" fill="#94a3b8" font-size="12.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">Auto-generated snapshot · 25 Aug 2026, 00:46 · live from the GitHub API</text>
 <rect x="30" y="80" width="840" height="3.5" rx="1.75" fill="url(#titleLine)"/>
 <g transform="translate(30 108)">
 <rect width="190" height="74" rx="16" fill="#0d1322" stroke="#667eea" stroke-opacity="0.4" stroke-width="1.3"/>
@@ -65,7 +65,7 @@
 <rect width="190" height="74" rx="16" fill="#0d1322" stroke="#14b8a6" stroke-opacity="0.4" stroke-width="1.3"/>
 <rect width="190" height="4" rx="2" fill="#14b8a6" opacity="0.85"/>
 <text x="15" y="27" fill="#94a3b8" font-size="11" font-weight="800" letter-spacing="1.1" font-family="Inter,'Segoe UI',system-ui,sans-serif">REPO SIZE</text>
-<text x="15" y="58" fill="#ffffff" font-size="20" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">838.6 MB</text>
+<text x="15" y="58" fill="#ffffff" font-size="20" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">838.7 MB</text>
 </g><g transform="translate(452 300)">
 <rect width="190" height="74" rx="16" fill="#0d1322" stroke="#22c55e" stroke-opacity="0.4" stroke-width="1.3"/>
 <rect width="190" height="4" rx="2" fill="#22c55e" opacity="0.85"/>
