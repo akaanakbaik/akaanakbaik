@@ -1,6 +1,6 @@
 # Profile Metrics Summary
 
-Generated: 26 Aug 2026, 21:05
+Generated: 26 Aug 2026, 22:52
 
 ## Account
 
@@ -27,18 +27,18 @@ Generated: 26 Aug 2026, 21:05
 | Source files counted | 17,683 |
 | Tracked source candidates | 17,685 |
 | Excluded source candidates | 2 |
-| Source lines (physical) | 3,408,582 |
-| Source lines (non-empty) | 3,169,814 |
-| Source characters (Unicode) | 144,968,366 |
-| Non-whitespace characters | 110,523,343 |
-| Bytes scanned | 139.65 MB |
+| Source lines (physical) | 3,408,654 |
+| Source lines (non-empty) | 3,169,881 |
+| Source characters (Unicode) | 144,971,819 |
+| Non-whitespace characters | 110,525,938 |
+| Bytes scanned | 139.66 MB |
 
 ## Lines of Code per Language
 
 | Language | Lines | Chars | Files |
 | --- | ---: | ---: | ---: |
 | JavaScript | 2,051,654 | 98,266,093 | 9,326 |
-| TypeScript | 798,731 | 33,819,725 | 5,555 |
+| TypeScript | 798,798 | 33,823,178 | 5,555 |
 | Python | 124,866 | 5,812,766 | 935 |
 | CSS | 56,952 | 2,156,628 | 108 |
 | C++ | 37,192 | 1,106,284 | 662 |
@@ -85,7 +85,7 @@ Generated: 26 Aug 2026, 21:05
 | Distinct languages | 42 |
 | Shannon entropy | 2.249 bits (max 5.392) |
 | Redundancy | 58.3% |
-| Herfindahl-Hirschman Index | 3129.3 (×10⁴) |
+| Herfindahl-Hirschman Index | 3129.2 (×10⁴) |
 | Gini coefficient | 0.9115 |
 | CR₃ concentration | 84.86% |
 | CR₅ concentration | 90.58% |
@@ -117,12 +117,12 @@ Generated: 26 Aug 2026, 21:05
 | Language | Repos | Bytes | Share |
 | --- | ---: | ---: | ---: |
 | JavaScript | 70 | 23496960 | 48.84% |
-| TypeScript | 30 | 11356707 | 23.61% |
+| TypeScript | 30 | 11360160 | 23.61% |
 | Python | 12 | 5970901 | 12.41% |
 | CSS | 51 | 1634621 | 3.40% |
 | C++ | 9 | 1114294 | 2.32% |
 | Jupyter Notebook | 1 | 1077015 | 2.24% |
-| HTML | 51 | 1036740 | 2.16% |
+| HTML | 51 | 1036740 | 2.15% |
 | Java | 7 | 938571 | 1.95% |
 | C | 7 | 447195 | 0.93% |
 | Dart | 4 | 335080 | 0.70% |

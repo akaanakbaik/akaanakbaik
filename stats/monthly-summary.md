@@ -6,7 +6,7 @@ Selama 30 hari terakhir (27 Jul – 26 Aug), aku membuat 164 commit di 11 reposi
 
 Hari paling produktif adalah 02 Aug dengan 35 commit, dan Sun menjadi hari tersibuk dalam seminggu. Puncak aktivitas terjadi sekitar jam 20:00 WIB — aku paling produktif di malam hari (night owl mode).
 
-Repo paling sibuk bulan ini: akaanakbaik (97), kaboxv8 (18), portofoliov2 (17).
+Repo paling sibuk bulan ini: akaanakbaik (96), kaboxv8 (18), portofoliov2 (17).
 
 Bahasa yang paling sering kupakai: TypeScript ×5, JavaScript ×3, Shell ×1.
 
@@ -28,6 +28,6 @@ Kesimpulan: bulan yang sangat produktif — energiku tinggi dan proyek terus ber
 | Hari tersibuk (pekan) | Sun |
 | Jam puncak | 20:00 WIB |
 | Streak aktif | 0 hari |
-| Repo tersibuk | akaanakbaik (97), kaboxv8 (18), portofoliov2 (17) |
+| Repo tersibuk | akaanakbaik (96), kaboxv8 (18), portofoliov2 (17) |
 | Pull request dibuka | 2 |
 | Issue dibuka | 0 |

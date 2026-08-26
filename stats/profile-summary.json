@@ -1,6 +1,6 @@
 {
   "username": "akaanakbaik",
-  "generatedAt": "26 Aug 2026, 21:05",
+  "generatedAt": "26 Aug 2026, 22:52",
   "publicRepos": 107,
   "originalRepos": 87,
   "forkedRepos": 20,
@@ -13,33 +13,33 @@
   "totalForks": 27,
   "totalWatchers": 13,
   "totalSize": "839.2 MB",
-  "totalSizeKb": 859342,
+  "totalSizeKb": 859365,
   "topLanguage": "JavaScript",
   "accountAge": "2 years",
   "accountAgePrecise": "2 years",
   "accountCreatedAt": "2024-08-03T01:58:16Z",
   "topRepo": "pterodactyl-gateway",
-  "recentRepo": "auto-commit",
+  "recentRepo": "dastermv2",
   "largestRepo": "Hacktoberfest2025-3",
   "languageDistribution": {
-    "totalBytes": 48106728,
+    "totalBytes": 48110181,
     "languagesCount": 42,
-    "entropy": 2.2493971311138856,
+    "entropy": 2.249385154355464,
     "entropyMax": 5.392317422778761,
-    "redundancy": 0.5828514987615974,
-    "hhi": 3129.3436713364667,
-    "gini": 0.9114578179861523,
-    "cr3": 84.86249158329787,
-    "cr5": 90.57669230798653,
+    "redundancy": 0.5828537198397503,
+    "hhi": 3129.2333838350773,
+    "gini": 0.9114590462770489,
+    "cr3": 84.86357804390717,
+    "cr5": 90.57736864469497,
     "pareto80": {
       "count": 3,
       "totalCount": 42,
-      "share": 0.8486249158329787
+      "share": 0.8486357804390717
     },
-    "topShare": 48.84339670742105,
-    "geomeanBytes": 4837.686380437796,
+    "topShare": 48.83989108251328,
+    "geomeanBytes": 4837.7213965668,
     "medianBytes": 3035,
-    "cv": 3.4847156870558558,
+    "cv": 3.484649223681966,
     "byBytes": [
       {
         "name": "JavaScript",
@@ -48,7 +48,7 @@
       },
       {
         "name": "TypeScript",
-        "bytes": 11356707,
+        "bytes": 11360160,
         "repos": 30
       },
       {
@@ -426,11 +426,11 @@
   "codeTotals": {
     "totals": {
       "files": 17683,
-      "lines": 3408582,
-      "codeLines": 3169814,
-      "chars": 144968366,
-      "nonWsChars": 110523343,
-      "bytes": 146437608
+      "lines": 3408654,
+      "codeLines": 3169881,
+      "chars": 144971819,
+      "nonWsChars": 110525938,
+      "bytes": 146441061
     },
     "scannedFiles": 17685,
     "excludedFiles": 2,
@@ -459,10 +459,10 @@
       {
         "name": "TypeScript",
         "files": 5555,
-        "lines": 867230,
-        "codeLines": 798731,
-        "chars": 33819725,
-        "bytes": 33859391
+        "lines": 867302,
+        "codeLines": 798798,
+        "chars": 33823178,
+        "bytes": 33862844
       },
       {
         "name": "Python",
@@ -935,34 +935,34 @@
   ],
   "recentRepositories": [
     {
+      "name": "dastermv2",
+      "url": "https://github.com/akaanakbaik/dastermv2",
+      "language": "Shell",
+      "updatedAt": "2026-08-26T15:21:46Z"
+    },
+    {
+      "name": "kaai-code-snipcets",
+      "url": "https://github.com/akaanakbaik/kaai-code-snipcets",
+      "language": "TypeScript",
+      "updatedAt": "2026-08-26T14:32:36Z"
+    },
+    {
+      "name": "akaanakbaik",
+      "url": "https://github.com/akaanakbaik/akaanakbaik",
+      "language": "JavaScript",
+      "updatedAt": "2026-08-26T14:27:44Z"
+    },
+    {
       "name": "auto-commit",
       "url": "https://github.com/akaanakbaik/auto-commit",
       "language": "Unknown",
       "updatedAt": "2026-08-26T13:54:49Z"
     },
     {
-      "name": "akaanakbaik",
-      "url": "https://github.com/akaanakbaik/akaanakbaik",
-      "language": "JavaScript",
-      "updatedAt": "2026-08-26T13:27:16Z"
-    },
-    {
-      "name": "dastermv2",
-      "url": "https://github.com/akaanakbaik/dastermv2",
-      "language": "Shell",
-      "updatedAt": "2026-08-26T13:00:06Z"
-    },
-    {
       "name": "kaboxv8",
       "url": "https://github.com/akaanakbaik/kaboxv8",
       "language": "JavaScript",
       "updatedAt": "2026-08-23T15:03:57Z"
-    },
-    {
-      "name": "kaai-code-snipcets",
-      "url": "https://github.com/akaanakbaik/kaai-code-snipcets",
-      "language": "TypeScript",
-      "updatedAt": "2026-08-23T11:42:30Z"
     },
     {
       "name": "mydash-vps",
@@ -1049,8 +1049,8 @@
     ],
     "peakHour": 23,
     "peakWeekday": "Sun",
-    "circularMean": 20.350044802694825,
-    "circularStd": 6.258055447305129,
+    "circularMean": 20.35004480269483,
+    "circularStd": 6.25805544730513,
     "activeHours": 24,
     "reposWithCommits": 86,
     "topCommitRepos": [
@@ -1180,15 +1180,15 @@
       "pullRequests": 0,
       "issues": 0,
       "discussions": 0,
-      "daysSincePush": 3,
+      "daysSincePush": 0,
       "commits": 101,
-      "score": 8.577708474193134,
+      "score": 8.706694504129898,
       "stars": 4,
       "forks": 2,
       "watchers": 0,
       "prs": 0,
-      "recency": 0.9355069850316178,
-      "scorePct": 77.45503353893307
+      "recency": 1,
+      "scorePct": 78.61975221698836
     },
     {
       "name": "dastermv2",
