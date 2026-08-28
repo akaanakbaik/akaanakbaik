@@ -1,6 +1,6 @@
 {
   "username": "akaanakbaik",
-  "generatedAt": "28 Aug 2026, 03:29",
+  "generatedAt": "28 Aug 2026, 12:22",
   "publicRepos": 107,
   "originalRepos": 87,
   "forkedRepos": 20,
@@ -13,7 +13,7 @@
   "totalForks": 27,
   "totalWatchers": 13,
   "totalSize": "838.7 MB",
-  "totalSizeKb": 858856,
+  "totalSizeKb": 858861,
   "topLanguage": "JavaScript",
   "accountAge": "2 years",
   "accountAgePrecise": "2 years",
@@ -938,13 +938,13 @@
       "name": "dastermv2",
       "url": "https://github.com/akaanakbaik/dastermv2",
       "language": "Shell",
-      "updatedAt": "2026-08-27T10:59:54Z"
+      "updatedAt": "2026-08-28T05:10:46Z"
     },
     {
       "name": "akaanakbaik",
       "url": "https://github.com/akaanakbaik/akaanakbaik",
       "language": "JavaScript",
-      "updatedAt": "2026-08-27T09:51:43Z"
+      "updatedAt": "2026-08-27T20:31:09Z"
     },
     {
       "name": "kaai-code-snipcets",
@@ -1049,7 +1049,7 @@
     ],
     "peakHour": 23,
     "peakWeekday": "Sun",
-    "circularMean": 20.35004480269482,
+    "circularMean": 20.350044802694825,
     "circularStd": 6.258055447305129,
     "activeHours": 24,
     "reposWithCommits": 86,
@@ -1112,8 +1112,8 @@
   "codingAge": {
     "years": 2,
     "months": 0,
-    "days": 24,
-    "totalDays": 754,
+    "days": 25,
+    "totalDays": 755,
     "label": "2 years",
     "createdAt": "2024-08-03T01:58:16Z"
   },
@@ -1144,15 +1144,15 @@
       "pullRequests": 21,
       "issues": 0,
       "discussions": 0,
-      "daysSincePush": 15,
+      "daysSincePush": 16,
       "commits": 159,
-      "score": 10.072621801711668,
+      "score": 10.041127201749154,
       "stars": 9,
       "forks": 0,
       "watchers": 0,
       "prs": 21,
-      "recency": 0.7165313105737893,
-      "scorePct": 90.95380914655685
+      "recency": 0.7007840105925328,
+      "scorePct": 90.66941905522523
     },
     {
       "name": "portofoliov2",
@@ -1162,15 +1162,15 @@
       "pullRequests": 1,
       "issues": 0,
       "discussions": 0,
-      "daysSincePush": 6,
+      "daysSincePush": 7,
       "commits": 140,
-      "score": 9.113576912888842,
+      "score": 9.075109321627476,
       "stars": 4,
       "forks": 2,
       "watchers": 0,
       "prs": 1,
-      "recency": 0.8751733190429475,
-      "scorePct": 82.29382096292932
+      "recency": 0.8559395234122652,
+      "scorePct": 81.94646612098346
     },
     {
       "name": "kaai-code-snipcets",
@@ -1180,15 +1180,15 @@
       "pullRequests": 0,
       "issues": 0,
       "discussions": 0,
-      "daysSincePush": 1,
+      "daysSincePush": 2,
       "commits": 101,
-      "score": 8.662740249099098,
+      "score": 8.619751982335956,
       "stars": 4,
       "forks": 2,
       "watchers": 0,
       "prs": 0,
-      "recency": 0.9780228724846005,
-      "scorePct": 78.22285387195458
+      "recency": 0.9565287391030293,
+      "scorePct": 77.83467821246029
     },
     {
       "name": "dastermv2",
