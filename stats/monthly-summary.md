@@ -2,11 +2,11 @@
 
 **Periode:** 31 Jul – 30 Aug · dihasilkan otomatis oleh GitHub Actions
 
-Selama 30 hari terakhir (31 Jul – 30 Aug), aku membuat 132 commit di 11 repositori dan aktif selama 14 hari — rata-rata 9.4 commit per hari aktif.
+Selama 30 hari terakhir (31 Jul – 30 Aug), aku membuat 130 commit di 11 repositori dan aktif selama 14 hari — rata-rata 9.3 commit per hari aktif.
 
 Hari paling produktif adalah 02 Aug dengan 35 commit, dan Sun menjadi hari tersibuk dalam seminggu. Puncak aktivitas terjadi sekitar jam 20:00 WIB — aku paling produktif di malam hari (night owl mode).
 
-Repo paling sibuk bulan ini: akaanakbaik (64), kaboxv8 (18), portofoliov2 (17).
+Repo paling sibuk bulan ini: akaanakbaik (62), kaboxv8 (18), portofoliov2 (17).
 
 Bahasa yang paling sering kupakai: TypeScript ×5, JavaScript ×3, Shell ×1.
 
@@ -21,13 +21,13 @@ Kesimpulan: bulan yang solid — ritme konsisten, tinggal dijaga momentumnya. Te
 
 | Metrik | Nilai |
 | --- | ---: |
-| Total commit (30 hari) | 132 |
+| Total commit (30 hari) | 130 |
 | Hari aktif | 14 / 30 |
-| Commit per hari aktif | 9.4 |
+| Commit per hari aktif | 9.3 |
 | Hari tersibuk | 02 Aug (35 commit) |
 | Hari tersibuk (pekan) | Sun |
 | Jam puncak | 20:00 WIB |
 | Streak aktif | 0 hari |
-| Repo tersibuk | akaanakbaik (64), kaboxv8 (18), portofoliov2 (17) |
+| Repo tersibuk | akaanakbaik (62), kaboxv8 (18), portofoliov2 (17) |
 | Pull request dibuka | 2 |
 | Issue dibuka | 0 |
