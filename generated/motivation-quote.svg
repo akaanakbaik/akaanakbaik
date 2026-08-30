@@ -2,18 +2,18 @@
 
 <defs>
 <linearGradient id="motBg" x1="0" y1="0" x2="1000" y2="320"><stop stop-color="#0f172a"/><stop offset="1" stop-color="#312e81"/></linearGradient>
-<linearGradient id="motAccent" x1="0" y1="0" x2="1000" y2="0"><stop stop-color="#db2777" stop-opacity="0"/><stop offset="0.15" stop-color="#db2777"/><stop offset="0.85" stop-color="#db2777"/><stop offset="1" stop-color="#db2777" stop-opacity="0"/></linearGradient>
+<linearGradient id="motAccent" x1="0" y1="0" x2="1000" y2="0"><stop stop-color="#667eea" stop-opacity="0"/><stop offset="0.15" stop-color="#667eea"/><stop offset="0.85" stop-color="#667eea"/><stop offset="1" stop-color="#667eea" stop-opacity="0"/></linearGradient>
 </defs>
 <rect width="1000" height="320" rx="26" fill="url(#motBg)"/>
 <rect x="30" y="84" width="940" height="4" rx="2" fill="url(#motAccent)"/>
-<text x="40" y="152" fill="#db2777" font-size="110" font-weight="900" font-family="Inter,'Segoe UI',system-ui,sans-serif">“</text>
-<circle cx="930" cy="56" r="34" fill="#db2777" opacity="0.14"/>
-<text x="930" y="66" text-anchor="middle" fill="#db2777" font-size="20" font-weight="900" font-family="Inter,'Segoe UI',system-ui,sans-serif">#40</text>
-<text x="70" y="118" fill="#ffffff" font-size="23" font-style="italic" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">Java is C++ without the guns, clubs, and knives.</text>
-<text x="70" y="182" fill="#cbd5e1" font-size="15" font-family="Inter,'Segoe UI',system-ui,sans-serif">Java adalah C++ tanpa senjata, pentungan, dan pisau.</text>
+<text x="40" y="152" fill="#667eea" font-size="110" font-weight="900" font-family="Inter,'Segoe UI',system-ui,sans-serif">“</text>
+<circle cx="930" cy="56" r="34" fill="#667eea" opacity="0.14"/>
+<text x="930" y="66" text-anchor="middle" fill="#667eea" font-size="20" font-weight="900" font-family="Inter,'Segoe UI',system-ui,sans-serif">#31</text>
+<text x="70" y="118" fill="#ffffff" font-size="23" font-style="italic" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">Never trust a computer you can&#39;t throw out a window.</text>
+<text x="70" y="182" fill="#cbd5e1" font-size="15" font-family="Inter,'Segoe UI',system-ui,sans-serif">Jangan pernah percaya komputer yang tidak bisa kamu lemparkan ke luar jendela.</text>
 <line x1="70" y1="246" x2="930" y2="246" stroke="#ffffff" stroke-opacity="0.08"/>
-<text x="70" y="266" fill="#db2777" font-size="17" font-weight="900" font-family="Inter,'Segoe UI',system-ui,sans-serif">— James Gosling</text>
-<text x="70" y="286" fill="#64748b" font-size="11.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">Creator of Java · original in English · translated to Bahasa Indonesia</text>
+<text x="70" y="266" fill="#667eea" font-size="17" font-weight="900" font-family="Inter,'Segoe UI',system-ui,sans-serif">— Steve Wozniak</text>
+<text x="70" y="286" fill="#64748b" font-size="11.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">Co-founder of Apple · original in English · translated to Bahasa Indonesia</text>
 <text x="930" y="266" text-anchor="end" fill="#5b6478" font-size="11" font-family="Inter,'Segoe UI',system-ui,sans-serif">random · from 48 real developer quotes</text>
 
 </svg>
