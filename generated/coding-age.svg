@@ -23,7 +23,7 @@
 </g><g transform="translate(620 96)">
 <rect width="230" height="58" rx="14" fill="#0d1322" stroke="#16a34a" stroke-opacity="0.4" stroke-width="1.2"/>
 <text x="14" y="22" fill="#8b93a7" font-size="10.5" font-weight="800" letter-spacing="1.2" font-family="Inter,'Segoe UI',system-ui,sans-serif">DAYS</text>
-<text x="14" y="46" fill="#ffffff" font-size="20" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">759</text>
+<text x="14" y="46" fill="#ffffff" font-size="20" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">760</text>
 </g><g transform="translate(370 166)">
 <rect width="230" height="58" rx="14" fill="#0d1322" stroke="#f59e0b" stroke-opacity="0.4" stroke-width="1.2"/>
 <text x="14" y="22" fill="#8b93a7" font-size="10.5" font-weight="800" letter-spacing="1.2" font-family="Inter,'Segoe UI',system-ui,sans-serif">PUBLIC REPOS</text>
