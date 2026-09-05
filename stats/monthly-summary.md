@@ -2,7 +2,7 @@
 
 **Periode:** 07 Aug – 06 Sept · dihasilkan otomatis oleh GitHub Actions
 
-Selama 30 hari terakhir (07 Aug – 06 Sept), aku membuat 74 commit di 9 repositori dan aktif selama 11 hari — rata-rata 6.7 commit per hari aktif.
+Selama 30 hari terakhir (07 Aug – 06 Sept), aku membuat 72 commit di 9 repositori dan aktif selama 11 hari — rata-rata 6.5 commit per hari aktif.
 
 Hari paling produktif adalah 23 Aug dengan 35 commit, dan Sun menjadi hari tersibuk dalam seminggu. Puncak aktivitas terjadi sekitar jam 20:00 WIB — aku paling produktif di malam hari (night owl mode).
 
@@ -21,9 +21,9 @@ Kesimpulan: bulan yang solid — ritme konsisten, tinggal dijaga momentumnya. Te
 
 | Metrik | Nilai |
 | --- | ---: |
-| Total commit (30 hari) | 74 |
+| Total commit (30 hari) | 72 |
 | Hari aktif | 11 / 30 |
-| Commit per hari aktif | 6.7 |
+| Commit per hari aktif | 6.5 |
 | Hari tersibuk | 23 Aug (35 commit) |
 | Hari tersibuk (pekan) | Sun |
 | Jam puncak | 20:00 WIB |
