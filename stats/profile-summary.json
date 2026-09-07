@@ -1,6 +1,6 @@
 {
   "username": "akaanakbaik",
-  "generatedAt": "07 Sept 2026, 06:52",
+  "generatedAt": "07 Sept 2026, 11:37",
   "publicRepos": 107,
   "originalRepos": 87,
   "forkedRepos": 20,
@@ -12,8 +12,8 @@
   "totalStars": 409,
   "totalForks": 27,
   "totalWatchers": 13,
-  "totalSize": "839.5 MB",
-  "totalSizeKb": 859681,
+  "totalSize": "839.6 MB",
+  "totalSizeKb": 859703,
   "topLanguage": "JavaScript",
   "accountAge": "2y 1m",
   "accountAgePrecise": "2 years 1 month",
@@ -938,19 +938,19 @@
       "name": "dastermv2",
       "url": "https://github.com/akaanakbaik/dastermv2",
       "language": "Shell",
-      "updatedAt": "2026-09-06T22:59:06Z"
-    },
-    {
-      "name": "akaanakbaik",
-      "url": "https://github.com/akaanakbaik/akaanakbaik",
-      "language": "JavaScript",
-      "updatedAt": "2026-09-06T21:21:04Z"
+      "updatedAt": "2026-09-07T00:51:40Z"
     },
     {
       "name": "auto-commit",
       "url": "https://github.com/akaanakbaik/auto-commit",
       "language": "Unknown",
-      "updatedAt": "2026-09-06T15:44:26Z"
+      "updatedAt": "2026-09-07T00:30:03Z"
+    },
+    {
+      "name": "akaanakbaik",
+      "url": "https://github.com/akaanakbaik/akaanakbaik",
+      "language": "JavaScript",
+      "updatedAt": "2026-09-06T23:54:23Z"
     },
     {
       "name": "my-cdn",
@@ -987,19 +987,19 @@
     "pullRequests": 44,
     "issues": 15,
     "reposContributed": 12,
-    "totalCommitContributions": 3375,
+    "totalCommitContributions": 3362,
     "totalIssueContributions": 11,
     "totalPRContributions": 41,
     "totalPRReviews": 0,
     "totalRepositoryContributions": 71,
-    "totalContributions": 3881
+    "totalContributions": 3868
   },
   "streak": {
     "currentStreak": 0,
     "longest": 80,
     "lastActiveDate": "2026-09-01",
     "activeDays": 206,
-    "totalContributions": 3881
+    "totalContributions": 3868
   },
   "commitHours": {
     "sampled": 3378,
@@ -1049,8 +1049,8 @@
     ],
     "peakHour": 23,
     "peakWeekday": "Sun",
-    "circularMean": 20.350777016678848,
-    "circularStd": 6.256142839228095,
+    "circularMean": 20.35077701667885,
+    "circularStd": 6.256142839228094,
     "activeHours": 24,
     "reposWithCommits": 86,
     "topCommitRepos": [
@@ -1112,8 +1112,8 @@
   "codingAge": {
     "years": 2,
     "months": 1,
-    "days": 3,
-    "totalDays": 764,
+    "days": 4,
+    "totalDays": 765,
     "label": "2 years 1 month",
     "createdAt": "2024-08-03T01:58:16Z"
   },
@@ -1144,15 +1144,15 @@
       "pullRequests": 21,
       "issues": 0,
       "discussions": 0,
-      "daysSincePush": 25,
+      "daysSincePush": 26,
       "commits": 159,
-      "score": 9.787066022038953,
+      "score": 9.761847117859068,
       "stars": 9,
       "forks": 0,
       "watchers": 0,
       "prs": 21,
-      "recency": 0.5737534207374327,
-      "scorePct": 88.37529618376153
+      "recency": 0.5611439686474896,
+      "scorePct": 88.1475744006134
     },
     {
       "name": "portofoliov2",
@@ -1162,15 +1162,15 @@
       "pullRequests": 1,
       "issues": 0,
       "discussions": 0,
-      "daysSincePush": 16,
+      "daysSincePush": 17,
       "commits": 140,
-      "score": 8.764798295988012,
+      "score": 8.733995856864922,
       "stars": 4,
       "forks": 2,
       "watchers": 0,
       "prs": 1,
-      "recency": 0.7007840105925328,
-      "scorePct": 79.14441811821936
+      "recency": 0.6853827910309876,
+      "scorePct": 78.86627810418906
     },
     {
       "name": "kaai-code-snipcets",
@@ -1180,15 +1180,15 @@
       "pullRequests": 0,
       "issues": 0,
       "discussions": 0,
-      "daysSincePush": 11,
+      "daysSincePush": 12,
       "commits": 101,
-      "score": 8.27297349394301,
+      "score": 8.238551180859195,
       "stars": 4,
       "forks": 2,
       "watchers": 0,
       "prs": 0,
-      "recency": 0.7831394949065555,
-      "scorePct": 74.70333613784138
+      "recency": 0.7659283383646487,
+      "scorePct": 74.39250936838238
     },
     {
       "name": "dastermv2",
