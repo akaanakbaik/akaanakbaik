@@ -1,59 +1,59 @@
 {
   "username": "akaanakbaik",
-  "generatedAt": "15 Sept 2026, 20:31",
+  "generatedAt": "16 Sept 2026, 01:10",
   "publicRepos": 107,
   "originalRepos": 87,
   "forkedRepos": 20,
   "archivedRepos": 0,
-  "activeRepos90d": 15,
+  "activeRepos90d": 30,
   "followers": 67,
-  "following": 62,
+  "following": 67,
   "publicGists": 0,
   "totalStars": 409,
   "totalForks": 27,
   "totalWatchers": 13,
   "totalSize": "839.9 MB",
-  "totalSizeKb": 860048,
+  "totalSizeKb": 860074,
   "topLanguage": "JavaScript",
   "accountAge": "2y 1m",
   "accountAgePrecise": "2 years 1 month",
   "accountCreatedAt": "2024-08-03T01:58:16Z",
   "topRepo": "pterodactyl-gateway",
-  "recentRepo": "dastermv2",
+  "recentRepo": "libsignal",
   "largestRepo": "Hacktoberfest2025-3",
   "languageDistribution": {
-    "totalBytes": 48110181,
+    "totalBytes": 48110112,
     "languagesCount": 42,
-    "entropy": 2.249385154355464,
+    "entropy": 2.2496225867486346,
     "entropyMax": 5.392317422778761,
-    "redundancy": 0.5828537198397503,
-    "hhi": 3129.2333838350773,
-    "gini": 0.9114590462770489,
-    "cr3": 84.86357804390717,
-    "cr5": 90.57736864469497,
+    "redundancy": 0.5828096882343097,
+    "hhi": 3128.090726496207,
+    "gini": 0.9114482607058139,
+    "cr3": 84.86358335644698,
+    "cr5": 90.57738215200996,
     "pareto80": {
       "count": 3,
       "totalCount": 42,
-      "share": 0.8486357804390717
+      "share": 0.8486358335644698
     },
-    "topShare": 48.83989108251328,
-    "geomeanBytes": 4837.7213965668,
+    "topShare": 48.81722578405139,
+    "geomeanBytes": 4837.776594846455,
     "medianBytes": 3035,
-    "cv": 3.484649223681966,
+    "cv": 3.483960541005606,
     "byBytes": [
       {
         "name": "JavaScript",
-        "bytes": 23496960,
+        "bytes": 23486022,
         "repos": 70
       },
       {
         "name": "TypeScript",
-        "bytes": 11360160,
+        "bytes": 11371043,
         "repos": 30
       },
       {
         "name": "Python",
-        "bytes": 5970901,
+        "bytes": 5970900,
         "repos": 12
       },
       {
@@ -73,7 +73,7 @@
       },
       {
         "name": "HTML",
-        "bytes": 1036740,
+        "bytes": 1036727,
         "repos": 51
       },
       {
@@ -428,9 +428,9 @@
       "files": 17683,
       "lines": 3408654,
       "codeLines": 3169881,
-      "chars": 144971819,
-      "nonWsChars": 110525938,
-      "bytes": 146441061
+      "chars": 144971750,
+      "nonWsChars": 110525869,
+      "bytes": 146440992
     },
     "scannedFiles": 17685,
     "excludedFiles": 2,
@@ -453,24 +453,24 @@
         "files": 9326,
         "lines": 2175684,
         "codeLines": 2051654,
-        "chars": 98266093,
-        "bytes": 98589261
+        "chars": 98266075,
+        "bytes": 98589243
       },
       {
         "name": "TypeScript",
         "files": 5555,
         "lines": 867302,
         "codeLines": 798798,
-        "chars": 33823178,
-        "bytes": 33862844
+        "chars": 33823141,
+        "bytes": 33862807
       },
       {
         "name": "Python",
         "files": 935,
         "lines": 146588,
         "codeLines": 124866,
-        "chars": 5812766,
-        "bytes": 5828388
+        "chars": 5812765,
+        "bytes": 5828387
       },
       {
         "name": "CSS",
@@ -501,8 +501,8 @@
         "files": 142,
         "lines": 24803,
         "codeLines": 22847,
-        "chars": 1113658,
-        "bytes": 1114995
+        "chars": 1113645,
+        "bytes": 1114982
       },
       {
         "name": "C",
@@ -935,77 +935,77 @@
   ],
   "recentRepositories": [
     {
+      "name": "libsignal",
+      "url": "https://github.com/akaanakbaik/libsignal",
+      "language": "JavaScript",
+      "updatedAt": "2026-09-15T18:06:20Z"
+    },
+    {
+      "name": "pterodactyl-gateway",
+      "url": "https://github.com/akaanakbaik/pterodactyl-gateway",
+      "language": "TypeScript",
+      "updatedAt": "2026-09-15T17:58:19Z"
+    },
+    {
       "name": "dastermv2",
       "url": "https://github.com/akaanakbaik/dastermv2",
       "language": "Shell",
-      "updatedAt": "2026-09-15T12:47:51Z"
+      "updatedAt": "2026-09-15T17:30:03Z"
     },
     {
-      "name": "auto-commit",
-      "url": "https://github.com/akaanakbaik/auto-commit",
-      "language": "Unknown",
-      "updatedAt": "2026-09-15T11:36:11Z"
-    },
-    {
-      "name": "akaanakbaik",
-      "url": "https://github.com/akaanakbaik/akaanakbaik",
-      "language": "JavaScript",
-      "updatedAt": "2026-09-15T07:44:28Z"
-    },
-    {
-      "name": "my-cdn",
-      "url": "https://github.com/akaanakbaik/my-cdn",
-      "language": "Assembly",
-      "updatedAt": "2026-09-01T15:46:35Z"
-    },
-    {
-      "name": "kaai-code-snipcets",
-      "url": "https://github.com/akaanakbaik/kaai-code-snipcets",
+      "name": "web-docs-pterodacty-gateway",
+      "url": "https://github.com/akaanakbaik/web-docs-pterodacty-gateway",
       "language": "TypeScript",
-      "updatedAt": "2026-08-26T14:32:36Z"
+      "updatedAt": "2026-09-15T17:28:24Z"
     },
     {
-      "name": "kaboxv8",
-      "url": "https://github.com/akaanakbaik/kaboxv8",
-      "language": "JavaScript",
-      "updatedAt": "2026-08-23T15:03:57Z"
+      "name": "tiny-kaboxv2",
+      "url": "https://github.com/akaanakbaik/tiny-kaboxv2",
+      "language": "TypeScript",
+      "updatedAt": "2026-09-15T17:28:21Z"
+    },
+    {
+      "name": "tiny-kabox",
+      "url": "https://github.com/akaanakbaik/tiny-kabox",
+      "language": "TypeScript",
+      "updatedAt": "2026-09-15T17:28:19Z"
     },
     {
       "name": "mydash-vps",
       "url": "https://github.com/akaanakbaik/mydash-vps",
       "language": "TypeScript",
-      "updatedAt": "2026-08-23T07:10:00Z"
+      "updatedAt": "2026-09-15T17:28:14Z"
     },
     {
-      "name": "kabox",
-      "url": "https://github.com/akaanakbaik/kabox",
+      "name": "musika",
+      "url": "https://github.com/akaanakbaik/musika",
       "language": "TypeScript",
-      "updatedAt": "2026-08-23T05:56:00Z"
+      "updatedAt": "2026-09-15T17:28:11Z"
     }
   ],
   "activity": {
     "pullRequests": 45,
     "issues": 15,
     "reposContributed": 12,
-    "totalCommitContributions": 3359,
+    "totalCommitContributions": 3380,
     "totalIssueContributions": 11,
     "totalPRContributions": 41,
     "totalPRReviews": 0,
     "totalRepositoryContributions": 70,
-    "totalContributions": 3885
+    "totalContributions": 4052
   },
   "streak": {
-    "currentStreak": 0,
+    "currentStreak": 1,
     "longest": 80,
-    "lastActiveDate": "2026-09-10",
-    "activeDays": 207,
-    "totalContributions": 3885
+    "lastActiveDate": "2026-09-15",
+    "activeDays": 208,
+    "totalContributions": 4052
   },
   "commitHours": {
-    "sampled": 3378,
+    "sampled": 3399,
     "hourCounts": [
-      133,
-      51,
+      152,
+      52,
       44,
       48,
       57,
@@ -1027,12 +1027,12 @@
       168,
       347,
       386,
-      388
+      389
     ],
     "weekdayCounts": [
       500,
-      463,
-      423,
+      464,
+      443,
       501,
       331,
       562,
@@ -1049,8 +1049,8 @@
     ],
     "peakHour": 23,
     "peakWeekday": "Sun",
-    "circularMean": 20.350777016678848,
-    "circularStd": 6.256142839228094,
+    "circularMean": 20.42367357374908,
+    "circularStd": 6.238460134144405,
     "activeHours": 24,
     "reposWithCommits": 86,
     "topCommitRepos": [
@@ -1064,46 +1064,46 @@
       },
       {
         "repo": "pterodactyl-gateway",
-        "count": 159
+        "count": 160
       },
       {
         "repo": "portofoliov2",
-        "count": 140
+        "count": 141
       },
       {
         "repo": "kaai",
-        "count": 124
+        "count": 125
       }
     ],
-    "latestDate": "2026-09-01T14:43:14Z",
+    "latestDate": "2026-09-15T18:06:14Z",
     "rhythm": {
       "label": "Night Owl",
       "emoji": "🦉",
-      "share": 0.327708703374778,
+      "share": 0.3318623124448367,
       "buckets": [
         {
           "name": "Night Owl",
           "emoji": "🦉",
-          "count": 1107,
-          "pct": 32.770870337477795
+          "count": 1128,
+          "pct": 33.18623124448367
         },
         {
           "name": "Early Bird",
           "emoji": "🐦",
           "count": 513,
-          "pct": 15.186500888099467
+          "pct": 15.092674315975287
         },
         {
           "name": "Day Coder",
           "emoji": "☀️",
           "count": 813,
-          "pct": 24.067495559502664
+          "pct": 23.918799646954987
         },
         {
           "name": "Evening",
           "emoji": "🌆",
           "count": 945,
-          "pct": 27.975133214920074
+          "pct": 27.802294792586054
         }
       ],
       "peakHour": 23
@@ -1144,15 +1144,15 @@
       "pullRequests": 21,
       "issues": 0,
       "discussions": 0,
-      "daysSincePush": 34,
-      "commits": 159,
-      "score": 9.579058321046942,
+      "daysSincePush": 0,
+      "commits": 160,
+      "score": 10.64524155665353,
       "stars": 9,
       "forks": 0,
       "watchers": 0,
       "prs": 21,
-      "recency": 0.46974957024142655,
-      "scorePct": 86.49702723755465
+      "recency": 1,
+      "scorePct": 96.12445378405133
     },
     {
       "name": "portofoliov2",
@@ -1162,15 +1162,15 @@
       "pullRequests": 1,
       "issues": 0,
       "discussions": 0,
-      "daysSincePush": 25,
-      "commits": 140,
-      "score": 8.510737116277811,
+      "daysSincePush": 0,
+      "commits": 141,
+      "score": 9.369675661431067,
       "stars": 4,
       "forks": 2,
       "watchers": 0,
       "prs": 1,
-      "recency": 0.5737534207374327,
-      "scorePct": 76.85029524675566
+      "recency": 1,
+      "scorePct": 84.60634268330438
     },
     {
       "name": "kaai-code-snipcets",
@@ -1180,33 +1180,33 @@
       "pullRequests": 0,
       "issues": 0,
       "discussions": 0,
-      "daysSincePush": 20,
+      "daysSincePush": 0,
       "commits": 101,
-      "score": 7.989055280989807,
+      "score": 8.706694504129898,
       "stars": 4,
       "forks": 2,
       "watchers": 0,
       "prs": 0,
-      "recency": 0.6411803884299546,
-      "scorePct": 72.13961008294383
+      "recency": 1,
+      "scorePct": 78.61975221698836
     },
     {
-      "name": "dastermv2",
-      "url": "https://github.com/akaanakbaik/dastermv2",
-      "language": "Shell",
+      "name": "tiny-kabox",
+      "url": "https://github.com/akaanakbaik/tiny-kabox",
+      "language": "TypeScript",
       "watchersTotal": 0,
       "pullRequests": 0,
       "issues": 0,
       "discussions": 0,
       "daysSincePush": 0,
-      "commits": 80,
-      "score": 7.964513511461043,
-      "stars": 3,
+      "commits": 94,
+      "score": 8.342498574141793,
+      "stars": 4,
       "forks": 1,
       "watchers": 0,
       "prs": 0,
       "recency": 1,
-      "scorePct": 71.91800269354908
+      "scorePct": 75.33113404386665
     }
   ]
 }

@@ -1,12 +1,132 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "15 Sept 2026, 20:31",
+  "generatedAt": "16 Sept 2026, 01:10",
   "policy": "all tracked regular source files; Unicode code points; notebook code cells; no file-size limit; dependencies and generated source included when tracked",
   "repositories": [
     {
+      "name": "libsignal",
+      "defaultBranch": "master",
+      "pushedAt": "2026-09-15T18:06:24Z"
+    },
+    {
+      "name": "pterodactyl-gateway",
+      "defaultBranch": "main",
+      "pushedAt": "2026-09-15T17:58:16Z"
+    },
+    {
       "name": "dastermv2",
       "defaultBranch": "main",
-      "pushedAt": "2026-09-15T12:47:47Z"
+      "pushedAt": "2026-09-15T17:29:59Z"
+    },
+    {
+      "name": "web-docs-pterodacty-gateway",
+      "defaultBranch": "main",
+      "pushedAt": "2026-09-15T17:28:19Z"
+    },
+    {
+      "name": "tiny-kaboxv2",
+      "defaultBranch": "main",
+      "pushedAt": "2026-09-15T17:28:17Z"
+    },
+    {
+      "name": "tiny-kabox",
+      "defaultBranch": "main",
+      "pushedAt": "2026-09-15T17:28:14Z"
+    },
+    {
+      "name": "mydash-vps",
+      "defaultBranch": "main",
+      "pushedAt": "2026-09-15T17:28:08Z"
+    },
+    {
+      "name": "musika",
+      "defaultBranch": "main",
+      "pushedAt": "2026-09-15T17:28:04Z"
+    },
+    {
+      "name": "my-web-api",
+      "defaultBranch": "main",
+      "pushedAt": "2026-09-15T17:28:06Z"
+    },
+    {
+      "name": "kaboxv8",
+      "defaultBranch": "main",
+      "pushedAt": "2026-09-15T17:28:02Z"
+    },
+    {
+      "name": "kaboxv7",
+      "defaultBranch": "main",
+      "pushedAt": "2026-09-15T17:27:59Z"
+    },
+    {
+      "name": "kaboxv6",
+      "defaultBranch": "main",
+      "pushedAt": "2026-09-15T17:27:57Z"
+    },
+    {
+      "name": "kaboxv5",
+      "defaultBranch": "main",
+      "pushedAt": "2026-09-15T17:27:54Z"
+    },
+    {
+      "name": "kaboxv4",
+      "defaultBranch": "main",
+      "pushedAt": "2026-09-15T17:27:52Z"
+    },
+    {
+      "name": "kaboxv2",
+      "defaultBranch": "main",
+      "pushedAt": "2026-09-15T17:27:50Z"
+    },
+    {
+      "name": "kaai",
+      "defaultBranch": "main",
+      "pushedAt": "2026-09-15T17:27:46Z"
+    },
+    {
+      "name": "kaai-code-snipcets",
+      "defaultBranch": "main",
+      "pushedAt": "2026-09-15T17:27:43Z"
+    },
+    {
+      "name": "domkuv4",
+      "defaultBranch": "main",
+      "pushedAt": "2026-09-15T17:27:38Z"
+    },
+    {
+      "name": "domkuv3",
+      "defaultBranch": "main",
+      "pushedAt": "2026-09-15T17:27:36Z"
+    },
+    {
+      "name": "domku_v2",
+      "defaultBranch": "main",
+      "pushedAt": "2026-09-15T17:27:34Z"
+    },
+    {
+      "name": "belajar-frontand-dan-backend-terpisah",
+      "defaultBranch": "main",
+      "pushedAt": "2026-09-15T17:27:32Z"
+    },
+    {
+      "name": "backend-ytdl-kaai",
+      "defaultBranch": "master",
+      "pushedAt": "2026-09-15T17:27:30Z"
+    },
+    {
+      "name": "akaanakbaik.github.io",
+      "defaultBranch": "main",
+      "pushedAt": "2026-09-15T17:27:27Z"
+    },
+    {
+      "name": "portofoliov2",
+      "defaultBranch": "main",
+      "pushedAt": "2026-09-15T16:30:49Z"
+    },
+    {
+      "name": "akaanakbaik",
+      "defaultBranch": "main",
+      "pushedAt": "2026-09-15T15:56:24Z"
     },
     {
       "name": "auto-commit",
@@ -14,29 +134,9 @@
       "pushedAt": "2026-09-15T11:36:06Z"
     },
     {
-      "name": "akaanakbaik",
-      "defaultBranch": "main",
-      "pushedAt": "2026-09-15T07:44:24Z"
-    },
-    {
       "name": "my-cdn",
       "defaultBranch": "main",
       "pushedAt": "2026-09-01T14:43:15Z"
-    },
-    {
-      "name": "kaai-code-snipcets",
-      "defaultBranch": "main",
-      "pushedAt": "2026-08-26T14:13:59Z"
-    },
-    {
-      "name": "kaboxv8",
-      "defaultBranch": "main",
-      "pushedAt": "2026-08-23T15:03:33Z"
-    },
-    {
-      "name": "mydash-vps",
-      "defaultBranch": "main",
-      "pushedAt": "2026-08-23T13:13:10Z"
     },
     {
       "name": "kabox",
@@ -44,34 +144,9 @@
       "pushedAt": "2026-08-23T05:55:49Z"
     },
     {
-      "name": "portofoliov2",
-      "defaultBranch": "main",
-      "pushedAt": "2026-08-21T13:32:24Z"
-    },
-    {
-      "name": "web-docs-pterodacty-gateway",
-      "defaultBranch": "main",
-      "pushedAt": "2026-09-08T15:39:30Z"
-    },
-    {
-      "name": "libsignal",
-      "defaultBranch": "master",
-      "pushedAt": "2026-09-14T02:11:02Z"
-    },
-    {
-      "name": "pterodactyl-gateway",
-      "defaultBranch": "main",
-      "pushedAt": "2026-08-12T16:16:07Z"
-    },
-    {
       "name": "musika-apk",
       "defaultBranch": "master",
       "pushedAt": "2026-08-06T11:45:59Z"
-    },
-    {
-      "name": "musika",
-      "defaultBranch": "main",
-      "pushedAt": "2026-08-06T09:14:43Z"
     },
     {
       "name": "odysseus",
@@ -117,16 +192,6 @@
       "name": "web-math-dan-physic-by-kimi",
       "defaultBranch": "main",
       "pushedAt": "2026-05-10T02:28:44Z"
-    },
-    {
-      "name": "tiny-kabox",
-      "defaultBranch": "main",
-      "pushedAt": "2026-03-06T03:05:37Z"
-    },
-    {
-      "name": "tiny-kaboxv2",
-      "defaultBranch": "main",
-      "pushedAt": "2026-03-07T08:39:26Z"
     },
     {
       "name": "aiagent",
@@ -304,11 +369,6 @@
       "pushedAt": "2025-08-27T03:19:16Z"
     },
     {
-      "name": "akaanakbaik.github.io",
-      "defaultBranch": "main",
-      "pushedAt": "2025-09-16T13:52:29Z"
-    },
-    {
       "name": "apisku",
       "defaultBranch": "master",
       "pushedAt": "2025-09-28T00:35:52Z"
@@ -449,29 +509,9 @@
       "pushedAt": "2025-12-05T08:49:12Z"
     },
     {
-      "name": "belajar-frontand-dan-backend-terpisah",
-      "defaultBranch": "main",
-      "pushedAt": "2025-12-13T15:05:24Z"
-    },
-    {
-      "name": "my-web-api",
-      "defaultBranch": "main",
-      "pushedAt": "2025-12-14T14:17:53Z"
-    },
-    {
       "name": "my-portofolio",
       "defaultBranch": "main",
       "pushedAt": "2026-01-01T03:36:43Z"
-    },
-    {
-      "name": "backend-ytdl-kaai",
-      "defaultBranch": "master",
-      "pushedAt": "2026-01-10T01:35:29Z"
-    },
-    {
-      "name": "kaai",
-      "defaultBranch": "main",
-      "pushedAt": "2026-01-12T08:11:46Z"
     },
     {
       "name": "kadicty",
@@ -484,11 +524,6 @@
       "pushedAt": "2026-01-28T10:01:32Z"
     },
     {
-      "name": "domku_v2",
-      "defaultBranch": "main",
-      "pushedAt": "2026-01-30T10:47:01Z"
-    },
-    {
       "name": "aio_tools",
       "defaultBranch": "main",
       "pushedAt": "2026-02-01T04:45:48Z"
@@ -497,41 +532,6 @@
       "name": "mini-Dasboard",
       "defaultBranch": "main",
       "pushedAt": "2026-02-06T01:06:58Z"
-    },
-    {
-      "name": "kaboxv2",
-      "defaultBranch": "main",
-      "pushedAt": "2026-02-07T15:50:45Z"
-    },
-    {
-      "name": "domkuv3",
-      "defaultBranch": "main",
-      "pushedAt": "2026-02-09T06:36:10Z"
-    },
-    {
-      "name": "domkuv4",
-      "defaultBranch": "main",
-      "pushedAt": "2026-02-10T05:19:34Z"
-    },
-    {
-      "name": "kaboxv4",
-      "defaultBranch": "main",
-      "pushedAt": "2026-02-11T04:22:09Z"
-    },
-    {
-      "name": "kaboxv5",
-      "defaultBranch": "main",
-      "pushedAt": "2026-02-11T05:36:37Z"
-    },
-    {
-      "name": "kaboxv6",
-      "defaultBranch": "main",
-      "pushedAt": "2026-02-12T10:36:49Z"
-    },
-    {
-      "name": "kaboxv7",
-      "defaultBranch": "main",
-      "pushedAt": "2026-02-19T04:16:36Z"
     },
     {
       "name": "backend-kabox",
@@ -543,8 +543,8 @@
     "files": 17683,
     "lines": 3408654,
     "codeLines": 3169881,
-    "chars": 144971819,
-    "nonWsChars": 110525938,
-    "bytes": 146441061
+    "chars": 144971750,
+    "nonWsChars": 110525869,
+    "bytes": 146440992
   }
 }
