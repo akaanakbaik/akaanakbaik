@@ -233,8 +233,10 @@ async function main() {
     // REST API. The contribution calendar (email-attribution based) is a
     // separate metric and is intentionally not mixed in here.
     const todayJakarta = new Intl.DateTimeFormat('en-CA', { timeZone: 'Asia/Jakarta' }).format(new Date());
+    const jakartaFmt = new Intl.DateTimeFormat('en-CA', { timeZone: 'Asia/Jakarta' });
     const last10 = Array.from({ length: 10 }, (_, i) => {
-      const date = new Date(Date.parse(`${todayJakarta}T00:00:00+07:00`) - (9 - i) * 86400000).toISOString().slice(0, 10);
+      const ts = Date.parse(`${todayJakarta}T00:00:00+07:00`) - (9 - i) * 86400000;
+      const date = jakartaFmt.format(new Date(ts));
       const commits = dailyCommits.get(date) || 0;
       return { date, count: commits, commits };
     });
