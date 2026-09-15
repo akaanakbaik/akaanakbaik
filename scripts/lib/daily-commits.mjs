@@ -106,7 +106,7 @@ export function last10BadgeJson({ days, total10, average }) {
     schemaVersion: 1,
     label: 'commits · 10 days',
     message: `${thousandSep(total10)} (${average.toFixed(1)}/day)`,
-    color: total10 > 0 ? '8b5cf6' : '6b7280',
+    color: total10 > 0 ? '6d28d9' : '4b5563',
     namedLogo: 'github',
     style: 'for-the-badge'
   };
