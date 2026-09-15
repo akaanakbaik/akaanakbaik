@@ -1,0 +1,259 @@
+<svg width="1000" height="560" viewBox="0 0 1000 560" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1000" y2="560">
+<stop stop-color="#0f172a"/><stop offset="0.55" stop-color="#111827"/><stop offset="1" stop-color="#312e81"/>
+</linearGradient>
+<linearGradient id="bar" x1="0" y1="0" x2="1000" y2="0">
+<stop stop-color="#667eea"/><stop offset="1" stop-color="#764ba2"/>
+</linearGradient>
+<linearGradient id="titleLine" x1="0" y1="0" x2="1000" y2="0">
+<stop stop-color="#667eea" stop-opacity="0"/><stop offset="0.5" stop-color="#a78bfa"/><stop offset="1" stop-color="#667eea" stop-opacity="0"/>
+</linearGradient>
+</defs>
+<rect width="1000" height="560" rx="26" fill="url(#bg)"/>
+<circle cx="920" cy="40" r="130" fill="#667eea" opacity="0.12"/>
+<circle cx="90" cy="540" r="150" fill="#764ba2" opacity="0.12"/>
+<text x="30" y="44" fill="#ffffff" font-size="25" font-weight="900" font-family="Inter,'Segoe UI',system-ui,sans-serif">Daily Commit Activity — 10-Day Console</text>
+<text x="30" y="66" fill="#94a3b8" font-size="12.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">Real GitHub data · refreshed hourly · daily totals snapshotted at 03:00 WIB</text>
+<rect x="30" y="80" width="940" height="3.5" rx="1.75" fill="url(#titleLine)"/>
+
+<defs>
+<filter id="plate" x="-20%" y="-20%" width="140%" height="140%">
+<feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#000000" flood-opacity="0.55"/>
+</filter>
+<linearGradient id="plateG" x1="0" y1="0" x2="0" y2="1">
+<stop stop-color="#0c1120"/><stop offset="1" stop-color="#101830"/>
+</linearGradient>
+<linearGradient id="needle" x1="0" y1="0" x2="0" y2="1">
+<stop stop-color="#f8fafc"/><stop offset="1" stop-color="#94a3b8"/>
+</linearGradient>
+</defs>
+
+<g filter="url(#plate)">
+<rect x="40" y="96" width="920" height="404" rx="22" fill="url(#plateG)" stroke="#1e2a44" stroke-width="1.6"/>
+<rect x="40" y="96" width="920" height="10" rx="5" fill="url(#bar)" opacity="0.9"/>
+<circle cx="942" cy="112" r="4.5" fill="#22c55e"/>
+<circle cx="922" cy="112" r="4.5" fill="#f59e0b"/>
+<circle cx="902" cy="112" r="4.5" fill="#ef4444"/>
+</g>
+<text x="66" y="134" fill="#a78bfa" font-size="13.5" font-weight="900" letter-spacing="2.2" font-family="Inter,'Segoe UI',system-ui,sans-serif">COMMITS PER DAY · LAST 10 DAYS · ASIA/JAKARTA</text>
+
+<line x1="70" y1="345" x2="930" y2="345" stroke="#ffffff" stroke-opacity="0.06" stroke-width="1"/>
+<text x="60" y="349" text-anchor="end" fill="#4b5568" font-size="9.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">8</text><line x1="70" y1="290" x2="930" y2="290" stroke="#ffffff" stroke-opacity="0.06" stroke-width="1"/>
+<text x="60" y="294" text-anchor="end" fill="#4b5568" font-size="9.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">16</text><line x1="70" y1="235" x2="930" y2="235" stroke="#ffffff" stroke-opacity="0.06" stroke-width="1"/>
+<text x="60" y="239" text-anchor="end" fill="#4b5568" font-size="9.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">23</text><line x1="70" y1="180" x2="930" y2="180" stroke="#ffffff" stroke-opacity="0.06" stroke-width="1"/>
+<text x="60" y="184" text-anchor="end" fill="#4b5568" font-size="9.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">31</text>
+<g><g>
+<defs>
+<linearGradient id="barG0" x1="0" y1="1" x2="0" y2="0">
+<stop stop-color="#312e81"/><stop offset="1" stop-color="#8b7cf7"/>
+</linearGradient>
+<linearGradient id="gloss0" x1="0" y1="0" x2="0" y2="1">
+<stop stop-color="#ffffff" stop-opacity="0.32"/><stop offset="0.4" stop-color="#ffffff" stop-opacity="0.05"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+</linearGradient>
+</defs>
+<rect x="74" y="138" width="64" height="262" rx="12" fill="#0a0f1d" stroke="#04060d" stroke-width="1.5" opacity="0.85"/>
+<rect x="80" y="394" width="52" height="6" rx="8" fill="url(#barG0)"/>
+<rect x="83" y="397" width="46" height="3" rx="6" fill="url(#gloss0)"/>
+<rect x="78" y="389" width="56" height="7" rx="3.5" fill="#c4b5fd" opacity="0.35"/>
+<text x="106" y="380" text-anchor="middle" fill="#e2e8f0" font-size="16" font-weight="900" font-family="Inter,'Segoe UI',system-ui,sans-serif">0</text>
+<text x="106" y="364" text-anchor="middle" fill="#7c86a2" font-size="9.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">0 commits</text>
+<text x="106" y="422" text-anchor="middle" fill="#8b93a7" font-size="11" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">Sun</text>
+<text x="106" y="438" text-anchor="middle" fill="#5b6478" font-size="9.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">06 Sept</text>
+
+</g><g>
+<defs>
+<linearGradient id="barG1" x1="0" y1="1" x2="0" y2="0">
+<stop stop-color="#312e81"/><stop offset="1" stop-color="#8b7cf7"/>
+</linearGradient>
+<linearGradient id="gloss1" x1="0" y1="0" x2="0" y2="1">
+<stop stop-color="#ffffff" stop-opacity="0.32"/><stop offset="0.4" stop-color="#ffffff" stop-opacity="0.05"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+</linearGradient>
+</defs>
+<rect x="161.55555555555554" y="138" width="64" height="262" rx="12" fill="#0a0f1d" stroke="#04060d" stroke-width="1.5" opacity="0.85"/>
+<rect x="167.55555555555554" y="394" width="52" height="6" rx="8" fill="url(#barG1)"/>
+<rect x="170.55555555555554" y="397" width="46" height="3" rx="6" fill="url(#gloss1)"/>
+<rect x="165.55555555555554" y="389" width="56" height="7" rx="3.5" fill="#c4b5fd" opacity="0.35"/>
+<text x="193.55555555555554" y="380" text-anchor="middle" fill="#e2e8f0" font-size="16" font-weight="900" font-family="Inter,'Segoe UI',system-ui,sans-serif">0</text>
+<text x="193.55555555555554" y="364" text-anchor="middle" fill="#7c86a2" font-size="9.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">0 commits</text>
+<text x="193.55555555555554" y="422" text-anchor="middle" fill="#8b93a7" font-size="11" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">Mon</text>
+<text x="193.55555555555554" y="438" text-anchor="middle" fill="#5b6478" font-size="9.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">07 Sept</text>
+
+</g><g>
+<defs>
+<linearGradient id="barG2" x1="0" y1="1" x2="0" y2="0">
+<stop stop-color="#312e81"/><stop offset="1" stop-color="#8b7cf7"/>
+</linearGradient>
+<linearGradient id="gloss2" x1="0" y1="0" x2="0" y2="1">
+<stop stop-color="#ffffff" stop-opacity="0.32"/><stop offset="0.4" stop-color="#ffffff" stop-opacity="0.05"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+</linearGradient>
+</defs>
+<rect x="249.11111111111111" y="138" width="64" height="262" rx="12" fill="#0a0f1d" stroke="#04060d" stroke-width="1.5" opacity="0.85"/>
+<rect x="255.11111111111111" y="322" width="52" height="78" rx="8" fill="url(#barG2)"/>
+<rect x="258.1111111111111" y="325" width="46" height="72" rx="6" fill="url(#gloss2)"/>
+<rect x="253.11111111111111" y="317" width="56" height="7" rx="3.5" fill="#c4b5fd" opacity="0.35"/>
+<text x="281.1111111111111" y="308" text-anchor="middle" fill="#e2e8f0" font-size="16" font-weight="900" font-family="Inter,'Segoe UI',system-ui,sans-serif">11</text>
+<text x="281.1111111111111" y="292" text-anchor="middle" fill="#7c86a2" font-size="9.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">0 commits</text>
+<text x="281.1111111111111" y="422" text-anchor="middle" fill="#8b93a7" font-size="11" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">Tue</text>
+<text x="281.1111111111111" y="438" text-anchor="middle" fill="#5b6478" font-size="9.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">08 Sept</text>
+
+</g><g>
+<defs>
+<linearGradient id="barG3" x1="0" y1="1" x2="0" y2="0">
+<stop stop-color="#312e81"/><stop offset="1" stop-color="#8b7cf7"/>
+</linearGradient>
+<linearGradient id="gloss3" x1="0" y1="0" x2="0" y2="1">
+<stop stop-color="#ffffff" stop-opacity="0.32"/><stop offset="0.4" stop-color="#ffffff" stop-opacity="0.05"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+</linearGradient>
+</defs>
+<rect x="336.6666666666667" y="138" width="64" height="262" rx="12" fill="#0a0f1d" stroke="#04060d" stroke-width="1.5" opacity="0.85"/>
+<rect x="342.6666666666667" y="215" width="52" height="185" rx="8" fill="url(#barG3)"/>
+<rect x="345.6666666666667" y="218" width="46" height="179" rx="6" fill="url(#gloss3)"/>
+<rect x="340.6666666666667" y="210" width="56" height="7" rx="3.5" fill="#c4b5fd" opacity="0.35"/>
+<text x="368.6666666666667" y="201" text-anchor="middle" fill="#e2e8f0" font-size="16" font-weight="900" font-family="Inter,'Segoe UI',system-ui,sans-serif">26</text>
+<text x="368.6666666666667" y="185" text-anchor="middle" fill="#7c86a2" font-size="9.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">0 commits</text>
+<text x="368.6666666666667" y="422" text-anchor="middle" fill="#8b93a7" font-size="11" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">Wed</text>
+<text x="368.6666666666667" y="438" text-anchor="middle" fill="#5b6478" font-size="9.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">09 Sept</text>
+
+</g><g>
+<defs>
+<linearGradient id="barG4" x1="0" y1="1" x2="0" y2="0">
+<stop stop-color="#312e81"/><stop offset="1" stop-color="#8b7cf7"/>
+</linearGradient>
+<linearGradient id="gloss4" x1="0" y1="0" x2="0" y2="1">
+<stop stop-color="#ffffff" stop-opacity="0.32"/><stop offset="0.4" stop-color="#ffffff" stop-opacity="0.05"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+</linearGradient>
+</defs>
+<rect x="424.22222222222223" y="138" width="64" height="262" rx="12" fill="#0a0f1d" stroke="#04060d" stroke-width="1.5" opacity="0.85"/>
+<rect x="430.22222222222223" y="357" width="52" height="43" rx="8" fill="url(#barG4)"/>
+<rect x="433.22222222222223" y="360" width="46" height="37" rx="6" fill="url(#gloss4)"/>
+<rect x="428.22222222222223" y="352" width="56" height="7" rx="3.5" fill="#c4b5fd" opacity="0.35"/>
+<text x="456.22222222222223" y="343" text-anchor="middle" fill="#e2e8f0" font-size="16" font-weight="900" font-family="Inter,'Segoe UI',system-ui,sans-serif">6</text>
+<text x="456.22222222222223" y="327" text-anchor="middle" fill="#7c86a2" font-size="9.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">0 commits</text>
+<text x="456.22222222222223" y="422" text-anchor="middle" fill="#8b93a7" font-size="11" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">Thu</text>
+<text x="456.22222222222223" y="438" text-anchor="middle" fill="#5b6478" font-size="9.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">10 Sept</text>
+
+</g><g>
+<defs>
+<linearGradient id="barG5" x1="0" y1="1" x2="0" y2="0">
+<stop stop-color="#312e81"/><stop offset="1" stop-color="#8b7cf7"/>
+</linearGradient>
+<linearGradient id="gloss5" x1="0" y1="0" x2="0" y2="1">
+<stop stop-color="#ffffff" stop-opacity="0.32"/><stop offset="0.4" stop-color="#ffffff" stop-opacity="0.05"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+</linearGradient>
+</defs>
+<rect x="511.7777777777778" y="138" width="64" height="262" rx="12" fill="#0a0f1d" stroke="#04060d" stroke-width="1.5" opacity="0.85"/>
+<rect x="517.7777777777778" y="394" width="52" height="6" rx="8" fill="url(#barG5)"/>
+<rect x="520.7777777777778" y="397" width="46" height="3" rx="6" fill="url(#gloss5)"/>
+<rect x="515.7777777777778" y="389" width="56" height="7" rx="3.5" fill="#c4b5fd" opacity="0.35"/>
+<text x="543.7777777777778" y="380" text-anchor="middle" fill="#e2e8f0" font-size="16" font-weight="900" font-family="Inter,'Segoe UI',system-ui,sans-serif">0</text>
+<text x="543.7777777777778" y="364" text-anchor="middle" fill="#7c86a2" font-size="9.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">0 commits</text>
+<text x="543.7777777777778" y="422" text-anchor="middle" fill="#8b93a7" font-size="11" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">Fri</text>
+<text x="543.7777777777778" y="438" text-anchor="middle" fill="#5b6478" font-size="9.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">11 Sept</text>
+
+</g><g>
+<defs>
+<linearGradient id="barG6" x1="0" y1="1" x2="0" y2="0">
+<stop stop-color="#312e81"/><stop offset="1" stop-color="#8b7cf7"/>
+</linearGradient>
+<linearGradient id="gloss6" x1="0" y1="0" x2="0" y2="1">
+<stop stop-color="#ffffff" stop-opacity="0.32"/><stop offset="0.4" stop-color="#ffffff" stop-opacity="0.05"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+</linearGradient>
+</defs>
+<rect x="599.3333333333334" y="138" width="64" height="262" rx="12" fill="#0a0f1d" stroke="#04060d" stroke-width="1.5" opacity="0.85"/>
+<rect x="605.3333333333334" y="394" width="52" height="6" rx="8" fill="url(#barG6)"/>
+<rect x="608.3333333333334" y="397" width="46" height="3" rx="6" fill="url(#gloss6)"/>
+<rect x="603.3333333333334" y="389" width="56" height="7" rx="3.5" fill="#c4b5fd" opacity="0.35"/>
+<text x="631.3333333333334" y="380" text-anchor="middle" fill="#e2e8f0" font-size="16" font-weight="900" font-family="Inter,'Segoe UI',system-ui,sans-serif">0</text>
+<text x="631.3333333333334" y="364" text-anchor="middle" fill="#7c86a2" font-size="9.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">0 commits</text>
+<text x="631.3333333333334" y="422" text-anchor="middle" fill="#8b93a7" font-size="11" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">Sat</text>
+<text x="631.3333333333334" y="438" text-anchor="middle" fill="#5b6478" font-size="9.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">12 Sept</text>
+
+</g><g>
+<defs>
+<linearGradient id="barG7" x1="0" y1="1" x2="0" y2="0">
+<stop stop-color="#312e81"/><stop offset="1" stop-color="#8b7cf7"/>
+</linearGradient>
+<linearGradient id="gloss7" x1="0" y1="0" x2="0" y2="1">
+<stop stop-color="#ffffff" stop-opacity="0.32"/><stop offset="0.4" stop-color="#ffffff" stop-opacity="0.05"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+</linearGradient>
+</defs>
+<rect x="686.8888888888889" y="138" width="64" height="262" rx="12" fill="#0a0f1d" stroke="#04060d" stroke-width="1.5" opacity="0.85"/>
+<rect x="692.8888888888889" y="394" width="52" height="6" rx="8" fill="url(#barG7)"/>
+<rect x="695.8888888888889" y="397" width="46" height="3" rx="6" fill="url(#gloss7)"/>
+<rect x="690.8888888888889" y="389" width="56" height="7" rx="3.5" fill="#c4b5fd" opacity="0.35"/>
+<text x="718.8888888888889" y="380" text-anchor="middle" fill="#e2e8f0" font-size="16" font-weight="900" font-family="Inter,'Segoe UI',system-ui,sans-serif">0</text>
+<text x="718.8888888888889" y="364" text-anchor="middle" fill="#7c86a2" font-size="9.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">0 commits</text>
+<text x="718.8888888888889" y="422" text-anchor="middle" fill="#8b93a7" font-size="11" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">Sun</text>
+<text x="718.8888888888889" y="438" text-anchor="middle" fill="#5b6478" font-size="9.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">13 Sept</text>
+
+</g><g>
+<defs>
+<linearGradient id="barG8" x1="0" y1="1" x2="0" y2="0">
+<stop stop-color="#312e81"/><stop offset="1" stop-color="#8b7cf7"/>
+</linearGradient>
+<linearGradient id="gloss8" x1="0" y1="0" x2="0" y2="1">
+<stop stop-color="#ffffff" stop-opacity="0.32"/><stop offset="0.4" stop-color="#ffffff" stop-opacity="0.05"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+</linearGradient>
+</defs>
+<rect x="774.4444444444445" y="138" width="64" height="262" rx="12" fill="#0a0f1d" stroke="#04060d" stroke-width="1.5" opacity="0.85"/>
+<rect x="780.4444444444445" y="394" width="52" height="6" rx="8" fill="url(#barG8)"/>
+<rect x="783.4444444444445" y="397" width="46" height="3" rx="6" fill="url(#gloss8)"/>
+<rect x="778.4444444444445" y="389" width="56" height="7" rx="3.5" fill="#c4b5fd" opacity="0.35"/>
+<text x="806.4444444444445" y="380" text-anchor="middle" fill="#e2e8f0" font-size="16" font-weight="900" font-family="Inter,'Segoe UI',system-ui,sans-serif">0</text>
+<text x="806.4444444444445" y="364" text-anchor="middle" fill="#7c86a2" font-size="9.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">0 commits</text>
+<text x="806.4444444444445" y="422" text-anchor="middle" fill="#8b93a7" font-size="11" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">Mon</text>
+<text x="806.4444444444445" y="438" text-anchor="middle" fill="#5b6478" font-size="9.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">14 Sept</text>
+
+</g><g>
+<defs>
+<linearGradient id="barG9" x1="0" y1="1" x2="0" y2="0">
+<stop stop-color="#f59e0b"/><stop offset="1" stop-color="#fbbf24"/>
+</linearGradient>
+<linearGradient id="gloss9" x1="0" y1="0" x2="0" y2="1">
+<stop stop-color="#ffffff" stop-opacity="0.32"/><stop offset="0.4" stop-color="#ffffff" stop-opacity="0.05"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+</linearGradient>
+</defs>
+<rect x="862" y="138" width="64" height="262" rx="12" fill="#0a0f1d" stroke="#04060d" stroke-width="1.5" opacity="0.85"/>
+<rect x="868" y="180" width="52" height="220" rx="8" fill="url(#barG9)"/>
+<rect x="871" y="183" width="46" height="214" rx="6" fill="url(#gloss9)"/>
+<rect x="866" y="175" width="56" height="7" rx="3.5" fill="#c4b5fd" opacity="0.95"/>
+<text x="894" y="166" text-anchor="middle" fill="#fbbf24" font-size="16" font-weight="900" font-family="Inter,'Segoe UI',system-ui,sans-serif">31</text>
+<text x="894" y="150" text-anchor="middle" fill="#7c86a2" font-size="9.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">1 commit</text>
+<text x="894" y="422" text-anchor="middle" fill="#8b93a7" font-size="11" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">Tue</text>
+<text x="894" y="438" text-anchor="middle" fill="#5b6478" font-size="9.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">15 Sept</text>
+<rect x="860" y="446" width="68" height="17" rx="8.5" fill="#667eea" opacity="0.9"/><text x="894" y="458" text-anchor="middle" fill="#ffffff" font-size="9" font-weight="900" letter-spacing="1.2" font-family="Inter,'Segoe UI',system-ui,sans-serif">TODAY</text>
+</g></g>
+
+<g transform="translate(66 428)">
+<rect width="225" height="64" rx="14" fill="#0d1322" stroke="#667eea" stroke-opacity="0.4" stroke-width="1.3"/>
+<rect width="225" height="4" rx="2" fill="#667eea"/>
+<circle cx="14" cy="21" r="3" fill="#667eea"/>
+<text x="24" y="24" fill="#8b93a7" font-size="10.5" font-weight="800" letter-spacing="1.1" font-family="Inter,'Segoe UI',system-ui,sans-serif">TOTAL (10 DAYS)</text>
+<text x="14" y="52" fill="#ffffff" font-size="21" font-weight="900" font-family="Inter,'Segoe UI',system-ui,sans-serif">74</text>
+</g>
+<g transform="translate(313 428)">
+<rect width="225" height="64" rx="14" fill="#0d1322" stroke="#f59e0b" stroke-opacity="0.4" stroke-width="1.3"/>
+<rect width="225" height="4" rx="2" fill="#f59e0b"/>
+<circle cx="14" cy="21" r="3" fill="#f59e0b"/>
+<text x="24" y="24" fill="#8b93a7" font-size="10.5" font-weight="800" letter-spacing="1.1" font-family="Inter,'Segoe UI',system-ui,sans-serif">BEST DAY</text>
+<text x="14" y="52" fill="#ffffff" font-size="21" font-weight="900" font-family="Inter,'Segoe UI',system-ui,sans-serif">31 · 15 Sept 2026</text>
+</g>
+<g transform="translate(560 428)">
+<rect width="225" height="64" rx="14" fill="#0d1322" stroke="#22c55e" stroke-opacity="0.4" stroke-width="1.3"/>
+<rect width="225" height="4" rx="2" fill="#22c55e"/>
+<circle cx="14" cy="21" r="3" fill="#22c55e"/>
+<text x="24" y="24" fill="#8b93a7" font-size="10.5" font-weight="800" letter-spacing="1.1" font-family="Inter,'Segoe UI',system-ui,sans-serif">DAILY AVERAGE</text>
+<text x="14" y="52" fill="#ffffff" font-size="21" font-weight="900" font-family="Inter,'Segoe UI',system-ui,sans-serif">7.4</text>
+</g>
+<g transform="translate(807 428)">
+<rect width="225" height="64" rx="14" fill="#0d1322" stroke="#06b6d4" stroke-opacity="0.4" stroke-width="1.3"/>
+<rect width="225" height="4" rx="2" fill="#06b6d4"/>
+<circle cx="14" cy="21" r="3" fill="#06b6d4"/>
+<text x="24" y="24" fill="#8b93a7" font-size="10.5" font-weight="800" letter-spacing="1.1" font-family="Inter,'Segoe UI',system-ui,sans-serif">ACTIVE DAYS</text>
+<text x="14" y="52" fill="#ffffff" font-size="21" font-weight="900" font-family="Inter,'Segoe UI',system-ui,sans-serif">4/10</text>
+</g>
+
+<text x="66" y="486" fill="#5b6478" font-size="10" font-family="Inter,'Segoe UI',system-ui,sans-serif">Counts from the official GitHub contribution calendar (all activity) with per-day commit totals from owned public repositories · snapshot 16 Sept 2026, 02:12 WIB</text>
+
+</svg>

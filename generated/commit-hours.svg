@@ -30,11 +30,11 @@
 <rect x="77.09" y="298.78" width="23.15" height="117.22" rx="3.5" fill="url(#hourGrad)" opacity="0.85"/>
 <text x="88.67" y="292.78" text-anchor="middle" fill="#8b93a7" font-size="9.5" font-weight="600" font-family="Inter,'Segoe UI',system-ui,sans-serif">152</text>
 </g><g>
-<rect x="114.43" y="375.90" width="23.15" height="40.10" rx="3.5" fill="url(#hourGrad)" opacity="0.85"/>
-<text x="126.00" y="369.90" text-anchor="middle" fill="#8b93a7" font-size="9.5" font-weight="600" font-family="Inter,'Segoe UI',system-ui,sans-serif">52</text>
+<rect x="114.43" y="374.35" width="23.15" height="41.65" rx="3.5" fill="url(#hourGrad)" opacity="0.85"/>
+<text x="126.00" y="368.35" text-anchor="middle" fill="#8b93a7" font-size="9.5" font-weight="600" font-family="Inter,'Segoe UI',system-ui,sans-serif">54</text>
 </g><g>
-<rect x="151.76" y="382.07" width="23.15" height="33.93" rx="3.5" fill="url(#hourGrad)" opacity="0.85"/>
-<text x="163.33" y="376.07" text-anchor="middle" fill="#8b93a7" font-size="9.5" font-weight="600" font-family="Inter,'Segoe UI',system-ui,sans-serif">44</text>
+<rect x="151.76" y="381.30" width="23.15" height="34.70" rx="3.5" fill="url(#hourGrad)" opacity="0.85"/>
+<text x="163.33" y="375.30" text-anchor="middle" fill="#8b93a7" font-size="9.5" font-weight="600" font-family="Inter,'Segoe UI',system-ui,sans-serif">45</text>
 </g><g>
 <rect x="189.09" y="378.98" width="23.15" height="37.02" rx="3.5" fill="url(#hourGrad)" opacity="0.85"/>
 <text x="200.67" y="372.98" text-anchor="middle" fill="#8b93a7" font-size="9.5" font-weight="600" font-family="Inter,'Segoe UI',system-ui,sans-serif">48</text>
@@ -112,7 +112,7 @@
 </g><g transform="translate(370 446)">
 <rect width="170" height="54" rx="12" fill="#0d1322" stroke="#2563eb" stroke-opacity="0.35" stroke-width="1.2"/>
 <text x="14" y="20" fill="#8b93a7" font-size="10.5" font-weight="700" letter-spacing="1.2" font-family="Inter,'Segoe UI',system-ui,sans-serif">SAMPLED COMMITS</text>
-<text x="14" y="42" fill="#2563eb" font-size="17" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">3,399</text>
+<text x="14" y="42" fill="#2563eb" font-size="17" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">3,402</text>
 </g><g transform="translate(550 446)">
 <rect width="150" height="54" rx="12" fill="#0d1322" stroke="#16a34a" stroke-opacity="0.35" stroke-width="1.2"/>
 <text x="14" y="20" fill="#8b93a7" font-size="10.5" font-weight="700" letter-spacing="1.2" font-family="Inter,'Segoe UI',system-ui,sans-serif">ACTIVE HOURS</text>
@@ -136,8 +136,8 @@
 <text x="185" y="538.5150501672241" text-anchor="middle" fill="#cbd5e1" font-size="10.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">464</text>
 <text x="185" y="590" text-anchor="middle" fill="#8b93a7" font-size="10.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">Tue</text>
 </g><g>
-<rect x="296" y="545.8494983277592" width="34" height="28.1505016722408" rx="4" fill="#89e051" opacity="0.9"/>
-<text x="313" y="539.8494983277592" text-anchor="middle" fill="#cbd5e1" font-size="10.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">443</text>
+<rect x="296" y="545.6588628762541" width="34" height="28.341137123745817" rx="4" fill="#89e051" opacity="0.9"/>
+<text x="313" y="539.6588628762541" text-anchor="middle" fill="#cbd5e1" font-size="10.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">446</text>
 <text x="313" y="590" text-anchor="middle" fill="#8b93a7" font-size="10.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">Wed</text>
 </g><g>
 <rect x="424" y="542.1638795986622" width="34" height="31.836120401337794" rx="4" fill="#89e051" opacity="0.9"/>
