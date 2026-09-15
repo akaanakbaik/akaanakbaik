@@ -127,6 +127,11 @@ I build practical projects while learning: web apps, bot systems, Linux/VPS tool
 <br />
 <br />
 
+<img width="100%" src="https://raw.githubusercontent.com/akaanakbaik/akaanakbaik/main/generated/daily-commits.svg" alt="Commits per day — last 10 days (skeuomorphic dark console)" />
+
+<br />
+<br />
+
 <img width="100%" src="https://raw.githubusercontent.com/akaanakbaik/akaanakbaik/main/generated/calendar.svg" alt="Full-year contribution calendar" />
 
 </div>
@@ -135,7 +140,8 @@ I build practical projects while learning: web apps, bot systems, Linux/VPS tool
   <a href="https://github.com/akaanakbaik"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaanakbaik%2Fakaanakbaik%2Fmain%2Fbadges%2Fstreak-days.json&cacheSeconds=300&style=for-the-badge&logoSize=auto&logo=github&logoColor=white" alt="Current streak" /></a>&nbsp;
   <a href="https://github.com/akaanakbaik"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaanakbaik%2Fakaanakbaik%2Fmain%2Fbadges%2Ftotal-commits.json&cacheSeconds=300&style=for-the-badge&logoSize=auto&logo=github&logoColor=white" alt="Commits in the contribution window" /></a>&nbsp;
   <a href="https://github.com/akaanakbaik"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaanakbaik%2Fakaanakbaik%2Fmain%2Fbadges%2Fpeak-hour.json&cacheSeconds=300&style=for-the-badge&logoSize=auto&logo=clockify&logoColor=white" alt="Peak coding hour" /></a>&nbsp;
-  <a href="https://github.com/akaanakbaik"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaanakbaik%2Fakaanakbaik%2Fmain%2Fbadges%2Flast-active.json&cacheSeconds=300&style=for-the-badge&logoSize=auto&logo=github&logoColor=white" alt="Last active" /></a>
+  <a href="https://github.com/akaanakbaik"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaanakbaik%2Fakaanakbaik%2Fmain%2Fbadges%2Flast-active.json&cacheSeconds=300&style=for-the-badge&logoSize=auto&logo=github&logoColor=white" alt="Last active" /></a>&nbsp;
+  <a href="https://github.com/akaanakbaik"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaanakbaik%2Fakaanakbaik%2Fmain%2Fbadges%2Fcommits-10d.json&cacheSeconds=1800&style=for-the-badge&logoSize=auto&logo=github&logoColor=white" alt="Commits in the last 10 days" /></a>
 </p>
 
 > Streaks come from the official contribution calendar. Commit hours use the complete owned public commit history returned by the API collector, converted to Asia/Jakarta, with known automation commits excluded so scheduled updates do not inflate personal activity. Any incomplete API collection aborts publication instead of displaying a partial metric.

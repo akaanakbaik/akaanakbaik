@@ -10,6 +10,8 @@ on:
       - generated/**
   schedule:
     - cron: '17 * * * *'
+    # 03:00 WIB daily snapshot for the 10-day commit graph (20:00 UTC)
+    - cron: '0 20 * * *'
   workflow_dispatch:
 
 concurrency:

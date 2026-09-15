@@ -4,6 +4,8 @@ import { compact, thousandSep, humanBytes, dateStamp, writeBadge, relativeTime, 
 import { fetchProfileData } from './lib/collect.mjs';
 import { ensureClones, scanRepository, aggregateCodeMetrics } from './lib/loc.mjs';
 import { fetchUserActivity, computeStreak, fetchCommitTimestamps, fetchTopReposRanking } from './lib/activity.mjs';
+import { dailyCommitsSvg, last10BadgeJson } from './lib/daily-commits.mjs';
+import { fetchDailyCommitCounts } from './lib/daily-commit-counts.mjs';
 import {
   topReposSvg,
   cloudSvg,
@@ -225,6 +227,26 @@ async function main() {
     await writeFile('generated/streak.svg', streakSvg({ ...activity, ...streak, activeDays: streak.activeDays, lastActiveIso }));
     await writeFile('generated/commit-hours.svg', commitHoursSvg({ ...commitHours, totalCommitContributions: activity.totalCommitContributions }));
     await writeFile('generated/calendar.svg', calendarSvg({ days: activity.days, level: activity.level, currentStreak: streak.currentStreak, longest: streak.longest }));
+    const dailyCommits = await fetchDailyCommitCounts(data.client, username, data.allRepos, 10, log);
+    const last10 = [...activity.days].sort((a, b) => a.date.localeCompare(b.date)).slice(-10).map((d) => ({
+      date: d.date,
+      count: d.count,
+      commits: dailyCommits.get(d.date) || 0
+    }));
+    const total10 = last10.reduce((a, d) => a + d.count, 0);
+    const best10 = last10.reduce((b, d) => (d.count > b.count ? { count: d.count, label: monthDay(`${d.date}T00:00:00Z`) } : b), { count: -1, label: '-' });
+    const average10 = total10 / 10;
+    await writeFile('generated/daily-commits.svg', dailyCommitsSvg({
+      days: last10.map(({ date, count }) => ({ date, count })),
+      perDayCommits: dailyCommits,
+      total10,
+      best: best10,
+      average: average10,
+      generatedAt: data.generatedAt
+    }));
+    await writeFile('badges/commits-10d.json', JSON.stringify(last10BadgeJson({ days: last10, total10, average: average10 }), null, 2) + '\n');
+    await writeFile('stats/daily-commits.json', JSON.stringify({ generatedAt: data.generatedAt, total10, average10, best: best10, days: last10 }, null, 2) + '\\n');
+    log(`daily-commits: total10=${total10} best=${best10.count} avg=${average10.toFixed(1)} (03:00 WIB snapshot series)`);
     await writeFile('generated/top-repos.svg', topReposSvg(topRanked));
     const rhythm = classifyRhythm(commitHours.hourCounts);
     const wj = jakartaNow();
