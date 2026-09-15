@@ -1,6 +1,6 @@
 {
   "username": "akaanakbaik",
-  "generatedAt": "16 Sept 2026, 04:19",
+  "generatedAt": "16 Sept 2026, 05:30",
   "publicRepos": 107,
   "originalRepos": 87,
   "forkedRepos": 20,
@@ -13,37 +13,37 @@
   "totalForks": 27,
   "totalWatchers": 13,
   "totalSize": "839.9 MB",
-  "totalSizeKb": 860065,
+  "totalSizeKb": 860069,
   "topLanguage": "JavaScript",
   "accountAge": "2y 1m",
   "accountAgePrecise": "2 years 1 month",
   "accountCreatedAt": "2024-08-03T01:58:16Z",
   "topRepo": "pterodactyl-gateway",
-  "recentRepo": "dastermv2",
+  "recentRepo": "akaanakbaik",
   "largestRepo": "Hacktoberfest2025-3",
   "languageDistribution": {
-    "totalBytes": 48120688,
+    "totalBytes": 48122859,
     "languagesCount": 42,
-    "entropy": 2.249355497990079,
+    "entropy": 2.2493006765393324,
     "entropyMax": 5.392317422778761,
-    "redundancy": 0.5828592195837491,
-    "hhi": 3128.86171800234,
-    "gini": 0.9114624897972801,
-    "cr3": 84.86691004916638,
-    "cr5": 90.5794530618515,
+    "redundancy": 0.5828693861682523,
+    "hhi": 3129.0199824055617,
+    "gini": 0.9114654099159385,
+    "cr3": 84.86759275877603,
+    "cr5": 90.57987805753602,
     "pareto80": {
       "count": 3,
       "totalCount": 42,
-      "share": 0.8486691004916638
+      "share": 0.8486759275877603
     },
-    "topShare": 48.828474771599275,
-    "geomeanBytes": 4837.828452523621,
+    "topShare": 48.83078330819871,
+    "geomeanBytes": 4837.839094846375,
     "medianBytes": 3035,
-    "cv": 3.4844252346132834,
+    "cv": 3.484520616398094,
     "byBytes": [
       {
         "name": "JavaScript",
-        "bytes": 23496598,
+        "bytes": 23498769,
         "repos": 70
       },
       {
@@ -426,11 +426,11 @@
   "codeTotals": {
     "totals": {
       "files": 17685,
-      "lines": 3408849,
-      "codeLines": 3170061,
-      "chars": 144982317,
-      "nonWsChars": 110534764,
-      "bytes": 146451568
+      "lines": 3408882,
+      "codeLines": 3170093,
+      "chars": 144984488,
+      "nonWsChars": 110536544,
+      "bytes": 146453739
     },
     "scannedFiles": 17687,
     "excludedFiles": 2,
@@ -451,10 +451,10 @@
       {
         "name": "JavaScript",
         "files": 9328,
-        "lines": 2175879,
-        "codeLines": 2051834,
-        "chars": 98276642,
-        "bytes": 98599819
+        "lines": 2175912,
+        "codeLines": 2051866,
+        "chars": 98278813,
+        "bytes": 98601990
       },
       {
         "name": "TypeScript",
@@ -935,16 +935,16 @@
   ],
   "recentRepositories": [
     {
+      "name": "akaanakbaik",
+      "url": "https://github.com/akaanakbaik/akaanakbaik",
+      "language": "JavaScript",
+      "updatedAt": "2026-09-15T22:30:29Z"
+    },
+    {
       "name": "dastermv2",
       "url": "https://github.com/akaanakbaik/dastermv2",
       "language": "Shell",
       "updatedAt": "2026-09-15T20:24:40Z"
-    },
-    {
-      "name": "akaanakbaik",
-      "url": "https://github.com/akaanakbaik/akaanakbaik",
-      "language": "JavaScript",
-      "updatedAt": "2026-09-15T19:13:26Z"
     },
     {
       "name": "portofoliov2",
@@ -987,29 +987,29 @@
     "pullRequests": 45,
     "issues": 15,
     "reposContributed": 12,
-    "totalCommitContributions": 3383,
+    "totalCommitContributions": 3384,
     "totalIssueContributions": 11,
     "totalPRContributions": 41,
     "totalPRReviews": 0,
     "totalRepositoryContributions": 70,
-    "totalContributions": 4055
+    "totalContributions": 4056
   },
   "streak": {
     "currentStreak": 1,
     "longest": 80,
     "lastActiveDate": "2026-09-15",
     "activeDays": 208,
-    "totalContributions": 4055
+    "totalContributions": 4056
   },
   "commitHours": {
-    "sampled": 3402,
+    "sampled": 3403,
     "hourCounts": [
       152,
       54,
       45,
       48,
       57,
-      87,
+      88,
       117,
       130,
       70,
@@ -1032,7 +1032,7 @@
     "weekdayCounts": [
       500,
       464,
-      446,
+      447,
       501,
       331,
       562,
@@ -1049,14 +1049,14 @@
     ],
     "peakHour": 23,
     "peakWeekday": "Sun",
-    "circularMean": 20.435844842598378,
-    "circularStd": 6.238321746030334,
+    "circularMean": 20.439183468941515,
+    "circularStd": 6.240631108840168,
     "activeHours": 24,
     "reposWithCommits": 86,
     "topCommitRepos": [
       {
         "repo": "akaanakbaik",
-        "count": 799
+        "count": 800
       },
       {
         "repo": "startup-tes",
@@ -1075,35 +1075,35 @@
         "count": 125
       }
     ],
-    "latestDate": "2026-09-15T19:10:24Z",
+    "latestDate": "2026-09-15T22:30:24Z",
     "rhythm": {
       "label": "Night Owl",
       "emoji": "🦉",
-      "share": 0.3324514991181658,
+      "share": 0.3323538054657655,
       "buckets": [
         {
           "name": "Night Owl",
           "emoji": "🦉",
           "count": 1131,
-          "pct": 33.24514991181658
+          "pct": 33.23538054657655
         },
         {
           "name": "Early Bird",
           "emoji": "🐦",
-          "count": 513,
-          "pct": 15.079365079365079
+          "count": 514,
+          "pct": 15.104319717895976
         },
         {
           "name": "Day Coder",
           "emoji": "☀️",
           "count": 813,
-          "pct": 23.897707231040563
+          "pct": 23.89068468997943
         },
         {
           "name": "Evening",
           "emoji": "🌆",
           "count": 945,
-          "pct": 27.77777777777778
+          "pct": 27.769615045548047
         }
       ],
       "peakHour": 23
@@ -1127,8 +1127,8 @@
       "issues": 0,
       "discussions": 0,
       "daysSincePush": 0,
-      "commits": 799,
-      "score": 11.077862957560558,
+      "commits": 800,
+      "score": 11.079002268654374,
       "stars": 5,
       "forks": 0,
       "watchers": 1,
@@ -1152,7 +1152,7 @@
       "watchers": 0,
       "prs": 21,
       "recency": 1,
-      "scorePct": 96.09472149489116
+      "scorePct": 96.08483957776527
     },
     {
       "name": "portofoliov2",
@@ -1170,7 +1170,7 @@
       "watchers": 0,
       "prs": 1,
       "recency": 1,
-      "scorePct": 84.58017306520598
+      "scorePct": 84.57147524863792
     },
     {
       "name": "kaai-code-snipcets",
@@ -1188,7 +1188,7 @@
       "watchers": 0,
       "prs": 0,
       "recency": 1,
-      "scorePct": 78.59543431332705
+      "scorePct": 78.58735193839246
     },
     {
       "name": "tiny-kabox",
@@ -1206,7 +1206,7 @@
       "watchers": 0,
       "prs": 0,
       "recency": 1,
-      "scorePct": 75.307833343868
+      "scorePct": 75.30008904994159
     }
   ]
 }
