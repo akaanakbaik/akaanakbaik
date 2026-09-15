@@ -1,6 +1,10 @@
 // Per-day commit counts for the last N days (Asia/Jakarta day boundary).
-// Reuses the same client/pool pattern as fetchCommitTimestamps so the numbers
-// come from the identical commit stream the other charts are built on.
+// Counts every non-bot commit on each owned public repository's default branch.
+// We deliberately do NOT filter by author login: the account owner commits from
+// multiple email addresses, several of which GitHub cannot attribute to the
+// profile (login: null). Filtering on login would silently drop the owner's own
+// real commits. Instead we exclude automation identities (github-actions[bot],
+// dependabot[bot], etc.) so the numbers reflect genuine human commits.
 export async function fetchDailyCommitCounts(client, username, allRepos, daysBack = 10, log = () => {}) {
   const sinceIso = new Date(Date.now() - (daysBack + 1) * 86400000).toISOString();
   const dayMap = new Map(); // 'YYYY-MM-DD' (Jakarta) -> count
@@ -14,11 +18,12 @@ export async function fetchDailyCommitCounts(client, username, allRepos, daysBac
     return `${parts.year}-${parts.month}-${parts.day}`;
   };
 
-  const isBotCommit = (commit) => {
-    const msg = (commit.commit && commit.commit.message) || '';
-    if (/\[skip github action\]/i.test(msg)) return true;
-    if (/^update .*\.svg - \[/i.test(msg) && /bot/i.test(msg)) return true;
-    if (/chore\((metrics|clock|summary)\)/i.test(msg) && /auto-update|refresh|publish/i.test(msg)) return true;
+  const isBot = (commit) => {
+    const login = (commit.author && commit.author.login) || '';
+    if (/\[bot\]$/i.test(login)) return true; // github-actions[bot], dependabot[bot], ...
+    const email = (commit.commit && commit.commit.author && commit.commit.author.email) || '';
+    if (/\[bot\]/i.test(email)) return true; // 41898282+github-actions[bot]@users.noreply.github.com
+    if (/^(actions|bot|ci|automation)[@.-]/i.test(email)) return true;
     return false;
   };
 
@@ -31,8 +36,7 @@ export async function fetchDailyCommitCounts(client, username, allRepos, daysBac
         );
         if (!Array.isArray(commits) || commits.length === 0) break;
         for (const commit of commits) {
-          if ((commit.author && commit.author.login) !== username) continue;
-          if (isBotCommit(commit)) continue;
+          if (isBot(commit)) continue;
           const date = commit.commit && commit.commit.author && commit.commit.author.date;
           if (!date) continue;
           const day = jakartaDay(date);
@@ -45,7 +49,7 @@ export async function fetchDailyCommitCounts(client, username, allRepos, daysBac
       if (!String(error.message || error).startsWith('409 ')) throw error;
     }
   });
-  // runPool is internal to activity.mjs; replicate a small pool here
+  // Small bounded pool (mirrors runPool from activity.mjs without importing it)
   const CONCURRENCY = 6;
   let index = 0;
   const workers = Array.from({ length: Math.min(CONCURRENCY, tasks.length) }, async () => {

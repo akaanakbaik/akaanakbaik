@@ -97,6 +97,29 @@ async function validateBadges() {
   return files;
 }
 
+async function validateStats() {
+  const files = (await readdir('stats')).filter((name) => name.endsWith('.json')).sort();
+  if (!files.length) throw new Error('stats directory is empty');
+  for (const file of files) {
+    // Must be strict JSON: no trailing junk, no stray escape artifacts.
+    const payload = JSON.parse(await readFile(`stats/${file}`, 'utf8'));
+    if (file === 'daily-commits.json') {
+      const days = Array.isArray(payload.days) ? payload.days : [];
+      if (days.length !== 10) throw new Error(`${file}: expected 10 days, got ${days.length}`);
+      const dates = days.map((d) => String(d.date));
+      if (dates.some((d) => !/^\d{4}-\d{2}-\d{2}$/.test(d))) throw new Error(`${file}: malformed date`);
+      if ([...dates].sort().join() !== dates.join()) throw new Error(`${file}: days not sorted`);
+      for (const d of days) {
+        if (!Number.isInteger(d.count) || d.count < 0) throw new Error(`${file}: invalid count for ${d.date}`);
+        if (!Number.isInteger(d.commits) || d.commits < 0) throw new Error(`${file}: invalid commits for ${d.date}`);
+      }
+      const sum = days.reduce((acc, d) => acc + d.count, 0);
+      if (payload.total10 !== sum) throw new Error(`${file}: total10 ${payload.total10} != sum(days) ${sum}`);
+    }
+  }
+  return files;
+}
+
 async function main() {
   const readme = await readFile(README_PATH, 'utf8');
   const urls = unique((readme.match(URL_PATTERN) || []).map(normalizeUrl));
@@ -117,6 +140,7 @@ async function main() {
     if (!url.includes('logoSize=auto')) throw new Error(`Endpoint badge does not use adaptive logo sizing: ${url}`);
   }
   const badges = await validateBadges();
+  const stats = await validateStats();
   const failures = [];
   let completed = 0;
   const workers = Array.from({ length: Math.min(12, urls.length) }, async () => {
