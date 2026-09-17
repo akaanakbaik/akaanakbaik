@@ -1,6 +1,6 @@
 {
   "username": "akaanakbaik",
-  "generatedAt": "17 Sept 2026, 08:24",
+  "generatedAt": "17 Sept 2026, 14:37",
   "publicRepos": 107,
   "originalRepos": 87,
   "forkedRepos": 20,
@@ -12,14 +12,14 @@
   "totalStars": 409,
   "totalForks": 27,
   "totalWatchers": 13,
-  "totalSize": "840.1 MB",
-  "totalSizeKb": 860223,
+  "totalSize": "839.5 MB",
+  "totalSizeKb": 859671,
   "topLanguage": "JavaScript",
   "accountAge": "2y 1m",
   "accountAgePrecise": "2 years 1 month",
   "accountCreatedAt": "2024-08-03T01:58:16Z",
   "topRepo": "pterodactyl-gateway",
-  "recentRepo": "auto-commit",
+  "recentRepo": "dastermv2",
   "largestRepo": "Hacktoberfest2025-3",
   "languageDistribution": {
     "totalBytes": 48122959,
@@ -935,22 +935,22 @@
   ],
   "recentRepositories": [
     {
-      "name": "auto-commit",
-      "url": "https://github.com/akaanakbaik/auto-commit",
-      "language": "Unknown",
-      "updatedAt": "2026-09-17T00:58:13Z"
-    },
-    {
       "name": "dastermv2",
       "url": "https://github.com/akaanakbaik/dastermv2",
       "language": "Shell",
-      "updatedAt": "2026-09-16T23:36:34Z"
+      "updatedAt": "2026-09-17T03:51:26Z"
     },
     {
       "name": "akaanakbaik",
       "url": "https://github.com/akaanakbaik/akaanakbaik",
       "language": "JavaScript",
-      "updatedAt": "2026-09-16T22:56:18Z"
+      "updatedAt": "2026-09-17T01:25:34Z"
+    },
+    {
+      "name": "auto-commit",
+      "url": "https://github.com/akaanakbaik/auto-commit",
+      "language": "Unknown",
+      "updatedAt": "2026-09-17T00:58:13Z"
     },
     {
       "name": "portofoliov2",
@@ -1049,8 +1049,8 @@
     ],
     "peakHour": 23,
     "peakWeekday": "Sun",
-    "circularMean": 20.442526729497462,
-    "circularStd": 6.242938751800616,
+    "circularMean": 20.442526729497466,
+    "circularStd": 6.242938751800614,
     "activeHours": 24,
     "reposWithCommits": 86,
     "topCommitRepos": [
@@ -1113,7 +1113,7 @@
     "years": 2,
     "months": 1,
     "days": 14,
-    "totalDays": 774,
+    "totalDays": 775,
     "label": "2 years 1 month",
     "createdAt": "2024-08-03T01:58:16Z"
   },
@@ -1144,15 +1144,15 @@
       "pullRequests": 21,
       "issues": 0,
       "discussions": 0,
-      "daysSincePush": 1,
+      "daysSincePush": 2,
       "commits": 160,
-      "score": 10.601287301622731,
+      "score": 10.558299034859589,
       "stars": 9,
       "forks": 0,
       "watchers": 0,
       "prs": 21,
-      "recency": 0.9780228724846005,
-      "scorePct": 95.67827798375006
+      "recency": 0.9565287391030293,
+      "scorePct": 95.29030214455419
     },
     {
       "name": "portofoliov2",
@@ -1162,15 +1162,15 @@
       "pullRequests": 1,
       "issues": 0,
       "discussions": 0,
-      "daysSincePush": 1,
+      "daysSincePush": 2,
       "commits": 141,
-      "score": 9.325721406400268,
+      "score": 9.282733139637125,
       "stars": 4,
       "forks": 2,
       "watchers": 0,
       "prs": 1,
-      "recency": 0.9780228724846005,
-      "scorePct": 84.16609603477066
+      "recency": 0.9565287391030293,
+      "scorePct": 83.77812019557479
     },
     {
       "name": "kaai-code-snipcets",
@@ -1180,15 +1180,15 @@
       "pullRequests": 0,
       "issues": 0,
       "discussions": 0,
-      "daysSincePush": 1,
+      "daysSincePush": 2,
       "commits": 101,
-      "score": 8.662740249099098,
+      "score": 8.619751982335956,
       "stars": 4,
       "forks": 2,
       "watchers": 0,
       "prs": 0,
-      "recency": 0.9780228724846005,
-      "scorePct": 78.18258727196785
+      "recency": 0.9565287391030293,
+      "scorePct": 77.79461143277199
     },
     {
       "name": "tiny-kabox",
@@ -1198,15 +1198,15 @@
       "pullRequests": 0,
       "issues": 0,
       "discussions": 0,
-      "daysSincePush": 1,
+      "daysSincePush": 2,
       "commits": 94,
-      "score": 8.298544319110995,
+      "score": 8.255556052347853,
       "stars": 4,
       "forks": 1,
       "watchers": 0,
       "prs": 0,
-      "recency": 0.9780228724846005,
-      "scorePct": 74.89566197331867
+      "recency": 0.9565287391030293,
+      "scorePct": 74.5076861341228
     }
   ]
 }
