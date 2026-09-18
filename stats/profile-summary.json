@@ -1,6 +1,6 @@
 {
   "username": "akaanakbaik",
-  "generatedAt": "18 Sept 2026, 11:47",
+  "generatedAt": "18 Sept 2026, 16:44",
   "publicRepos": 107,
   "originalRepos": 87,
   "forkedRepos": 20,
@@ -13,7 +13,7 @@
   "totalForks": 27,
   "totalWatchers": 13,
   "totalSize": "839.6 MB",
-  "totalSizeKb": 859768,
+  "totalSizeKb": 859797,
   "topLanguage": "JavaScript",
   "accountAge": "2y 1m",
   "accountAgePrecise": "2 years 1 month",
@@ -938,19 +938,19 @@
       "name": "dastermv2",
       "url": "https://github.com/akaanakbaik/dastermv2",
       "language": "Shell",
-      "updatedAt": "2026-09-18T04:04:02Z"
+      "updatedAt": "2026-09-18T09:07:15Z"
+    },
+    {
+      "name": "akaanakbaik",
+      "url": "https://github.com/akaanakbaik/akaanakbaik",
+      "language": "JavaScript",
+      "updatedAt": "2026-09-18T04:48:36Z"
     },
     {
       "name": "auto-commit",
       "url": "https://github.com/akaanakbaik/auto-commit",
       "language": "Unknown",
       "updatedAt": "2026-09-18T00:55:04Z"
-    },
-    {
-      "name": "akaanakbaik",
-      "url": "https://github.com/akaanakbaik/akaanakbaik",
-      "language": "JavaScript",
-      "updatedAt": "2026-09-18T00:17:26Z"
     },
     {
       "name": "portofoliov2",
@@ -1144,15 +1144,15 @@
       "pullRequests": 21,
       "issues": 0,
       "discussions": 0,
-      "daysSincePush": 2,
+      "daysSincePush": 3,
       "commits": 160,
-      "score": 10.558299034859589,
+      "score": 10.516255526716765,
       "stars": 9,
       "forks": 0,
       "watchers": 0,
       "prs": 21,
-      "recency": 0.9565287391030293,
-      "scorePct": 95.29030214455419
+      "recency": 0.9355069850316178,
+      "scorePct": 94.91085289984923
     },
     {
       "name": "portofoliov2",
@@ -1180,15 +1180,15 @@
       "pullRequests": 0,
       "issues": 0,
       "discussions": 0,
-      "daysSincePush": 2,
+      "daysSincePush": 3,
       "commits": 101,
-      "score": 8.619751982335956,
+      "score": 8.577708474193134,
       "stars": 4,
       "forks": 2,
       "watchers": 0,
       "prs": 0,
-      "recency": 0.9565287391030293,
-      "scorePct": 77.79461143277199
+      "recency": 0.9355069850316178,
+      "scorePct": 77.41516218806703
     },
     {
       "name": "tiny-kabox",
@@ -1198,15 +1198,15 @@
       "pullRequests": 0,
       "issues": 0,
       "discussions": 0,
-      "daysSincePush": 2,
+      "daysSincePush": 3,
       "commits": 94,
-      "score": 8.255556052347853,
+      "score": 8.21351254420503,
       "stars": 4,
       "forks": 1,
       "watchers": 0,
       "prs": 0,
-      "recency": 0.9565287391030293,
-      "scorePct": 74.5076861341228
+      "recency": 0.9355069850316178,
+      "scorePct": 74.12823688941783
     }
   ]
 }
