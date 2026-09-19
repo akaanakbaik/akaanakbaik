@@ -58,8 +58,8 @@
 <rect x="78" y="389" width="56" height="7" rx="3.5" fill="#c4b5fd" opacity="0.35"/>
 <text x="106" y="380" text-anchor="middle" fill="#e2e8f0" font-size="16" font-weight="900" font-family="Inter,'Segoe UI',system-ui,sans-serif">0</text>
 <text x="106" y="364" text-anchor="middle" fill="#7c86a2" font-size="9.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">0 commits</text>
-<text x="106" y="422" text-anchor="middle" fill="#8b93a7" font-size="11" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">Thu</text>
-<text x="106" y="438" text-anchor="middle" fill="#5b6478" font-size="9.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">10 Sept</text>
+<text x="106" y="422" text-anchor="middle" fill="#8b93a7" font-size="11" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">Fri</text>
+<text x="106" y="438" text-anchor="middle" fill="#5b6478" font-size="9.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">11 Sept</text>
 
 </g><g>
 <defs>
@@ -76,8 +76,8 @@
 <rect x="165.55555555555554" y="389" width="56" height="7" rx="3.5" fill="#c4b5fd" opacity="0.35"/>
 <text x="193.55555555555554" y="380" text-anchor="middle" fill="#e2e8f0" font-size="16" font-weight="900" font-family="Inter,'Segoe UI',system-ui,sans-serif">0</text>
 <text x="193.55555555555554" y="364" text-anchor="middle" fill="#7c86a2" font-size="9.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">0 commits</text>
-<text x="193.55555555555554" y="422" text-anchor="middle" fill="#8b93a7" font-size="11" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">Fri</text>
-<text x="193.55555555555554" y="438" text-anchor="middle" fill="#5b6478" font-size="9.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">11 Sept</text>
+<text x="193.55555555555554" y="422" text-anchor="middle" fill="#8b93a7" font-size="11" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">Sat</text>
+<text x="193.55555555555554" y="438" text-anchor="middle" fill="#5b6478" font-size="9.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">12 Sept</text>
 
 </g><g>
 <defs>
@@ -94,8 +94,8 @@
 <rect x="253.11111111111111" y="389" width="56" height="7" rx="3.5" fill="#c4b5fd" opacity="0.35"/>
 <text x="281.1111111111111" y="380" text-anchor="middle" fill="#e2e8f0" font-size="16" font-weight="900" font-family="Inter,'Segoe UI',system-ui,sans-serif">0</text>
 <text x="281.1111111111111" y="364" text-anchor="middle" fill="#7c86a2" font-size="9.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">0 commits</text>
-<text x="281.1111111111111" y="422" text-anchor="middle" fill="#8b93a7" font-size="11" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">Sat</text>
-<text x="281.1111111111111" y="438" text-anchor="middle" fill="#5b6478" font-size="9.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">12 Sept</text>
+<text x="281.1111111111111" y="422" text-anchor="middle" fill="#8b93a7" font-size="11" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">Sun</text>
+<text x="281.1111111111111" y="438" text-anchor="middle" fill="#5b6478" font-size="9.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">13 Sept</text>
 
 </g><g>
 <defs>
@@ -112,8 +112,8 @@
 <rect x="340.6666666666667" y="389" width="56" height="7" rx="3.5" fill="#c4b5fd" opacity="0.35"/>
 <text x="368.6666666666667" y="380" text-anchor="middle" fill="#e2e8f0" font-size="16" font-weight="900" font-family="Inter,'Segoe UI',system-ui,sans-serif">0</text>
 <text x="368.6666666666667" y="364" text-anchor="middle" fill="#7c86a2" font-size="9.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">0 commits</text>
-<text x="368.6666666666667" y="422" text-anchor="middle" fill="#8b93a7" font-size="11" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">Sun</text>
-<text x="368.6666666666667" y="438" text-anchor="middle" fill="#5b6478" font-size="9.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">13 Sept</text>
+<text x="368.6666666666667" y="422" text-anchor="middle" fill="#8b93a7" font-size="11" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">Mon</text>
+<text x="368.6666666666667" y="438" text-anchor="middle" fill="#5b6478" font-size="9.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">14 Sept</text>
 
 </g><g>
 <defs>
@@ -125,49 +125,49 @@
 </linearGradient>
 </defs>
 <rect x="424.22222222222223" y="138" width="64" height="262" rx="12" fill="#0a0f1d" stroke="#04060d" stroke-width="1.5" opacity="0.85"/>
-<rect x="430.22222222222223" y="394" width="52" height="6" rx="8" fill="url(#barG4)"/>
-<rect x="433.22222222222223" y="397" width="46" height="3" rx="6" fill="url(#gloss4)"/>
-<rect x="428.22222222222223" y="389" width="56" height="7" rx="3.5" fill="#c4b5fd" opacity="0.35"/>
-<text x="456.22222222222223" y="380" text-anchor="middle" fill="#e2e8f0" font-size="16" font-weight="900" font-family="Inter,'Segoe UI',system-ui,sans-serif">0</text>
-<text x="456.22222222222223" y="364" text-anchor="middle" fill="#7c86a2" font-size="9.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">0 commits</text>
-<text x="456.22222222222223" y="422" text-anchor="middle" fill="#8b93a7" font-size="11" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">Mon</text>
-<text x="456.22222222222223" y="438" text-anchor="middle" fill="#5b6478" font-size="9.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">14 Sept</text>
+<rect x="430.22222222222223" y="393" width="52" height="7" rx="8" fill="url(#barG4)"/>
+<rect x="433.22222222222223" y="396" width="46" height="3" rx="6" fill="url(#gloss4)"/>
+<rect x="428.22222222222223" y="388" width="56" height="7" rx="3.5" fill="#c4b5fd" opacity="0.35"/>
+<text x="456.22222222222223" y="379" text-anchor="middle" fill="#e2e8f0" font-size="16" font-weight="900" font-family="Inter,'Segoe UI',system-ui,sans-serif">1</text>
+<text x="456.22222222222223" y="363" text-anchor="middle" fill="#7c86a2" font-size="9.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">1 commit</text>
+<text x="456.22222222222223" y="422" text-anchor="middle" fill="#8b93a7" font-size="11" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">Tue</text>
+<text x="456.22222222222223" y="438" text-anchor="middle" fill="#5b6478" font-size="9.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">15 Sept</text>
 
 </g><g>
 <defs>
 <linearGradient id="barG5" x1="0" y1="1" x2="0" y2="0">
-<stop stop-color="#312e81"/><stop offset="1" stop-color="#8b7cf7"/>
+<stop stop-color="#f59e0b"/><stop offset="1" stop-color="#fbbf24"/>
 </linearGradient>
 <linearGradient id="gloss5" x1="0" y1="0" x2="0" y2="1">
 <stop stop-color="#ffffff" stop-opacity="0.32"/><stop offset="0.4" stop-color="#ffffff" stop-opacity="0.05"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
 </linearGradient>
 </defs>
 <rect x="511.7777777777778" y="138" width="64" height="262" rx="12" fill="#0a0f1d" stroke="#04060d" stroke-width="1.5" opacity="0.85"/>
-<rect x="517.7777777777778" y="393" width="52" height="7" rx="8" fill="url(#barG5)"/>
-<rect x="520.7777777777778" y="396" width="46" height="3" rx="6" fill="url(#gloss5)"/>
-<rect x="515.7777777777778" y="388" width="56" height="7" rx="3.5" fill="#c4b5fd" opacity="0.35"/>
-<text x="543.7777777777778" y="379" text-anchor="middle" fill="#e2e8f0" font-size="16" font-weight="900" font-family="Inter,'Segoe UI',system-ui,sans-serif">1</text>
-<text x="543.7777777777778" y="363" text-anchor="middle" fill="#7c86a2" font-size="9.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">1 commit</text>
-<text x="543.7777777777778" y="422" text-anchor="middle" fill="#8b93a7" font-size="11" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">Tue</text>
-<text x="543.7777777777778" y="438" text-anchor="middle" fill="#5b6478" font-size="9.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">15 Sept</text>
+<rect x="517.7777777777778" y="180" width="52" height="220" rx="8" fill="url(#barG5)"/>
+<rect x="520.7777777777778" y="183" width="46" height="214" rx="6" fill="url(#gloss5)"/>
+<rect x="515.7777777777778" y="175" width="56" height="7" rx="3.5" fill="#c4b5fd" opacity="0.35"/>
+<text x="543.7777777777778" y="166" text-anchor="middle" fill="#fbbf24" font-size="16" font-weight="900" font-family="Inter,'Segoe UI',system-ui,sans-serif">30</text>
+<text x="543.7777777777778" y="150" text-anchor="middle" fill="#7c86a2" font-size="9.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">30 commits</text>
+<text x="543.7777777777778" y="422" text-anchor="middle" fill="#8b93a7" font-size="11" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">Wed</text>
+<text x="543.7777777777778" y="438" text-anchor="middle" fill="#5b6478" font-size="9.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">16 Sept</text>
 
 </g><g>
 <defs>
 <linearGradient id="barG6" x1="0" y1="1" x2="0" y2="0">
-<stop stop-color="#f59e0b"/><stop offset="1" stop-color="#fbbf24"/>
+<stop stop-color="#312e81"/><stop offset="1" stop-color="#8b7cf7"/>
 </linearGradient>
 <linearGradient id="gloss6" x1="0" y1="0" x2="0" y2="1">
 <stop stop-color="#ffffff" stop-opacity="0.32"/><stop offset="0.4" stop-color="#ffffff" stop-opacity="0.05"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
 </linearGradient>
 </defs>
 <rect x="599.3333333333334" y="138" width="64" height="262" rx="12" fill="#0a0f1d" stroke="#04060d" stroke-width="1.5" opacity="0.85"/>
-<rect x="605.3333333333334" y="180" width="52" height="220" rx="8" fill="url(#barG6)"/>
-<rect x="608.3333333333334" y="183" width="46" height="214" rx="6" fill="url(#gloss6)"/>
-<rect x="603.3333333333334" y="175" width="56" height="7" rx="3.5" fill="#c4b5fd" opacity="0.35"/>
-<text x="631.3333333333334" y="166" text-anchor="middle" fill="#fbbf24" font-size="16" font-weight="900" font-family="Inter,'Segoe UI',system-ui,sans-serif">30</text>
-<text x="631.3333333333334" y="150" text-anchor="middle" fill="#7c86a2" font-size="9.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">30 commits</text>
-<text x="631.3333333333334" y="422" text-anchor="middle" fill="#8b93a7" font-size="11" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">Wed</text>
-<text x="631.3333333333334" y="438" text-anchor="middle" fill="#5b6478" font-size="9.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">16 Sept</text>
+<rect x="605.3333333333334" y="394" width="52" height="6" rx="8" fill="url(#barG6)"/>
+<rect x="608.3333333333334" y="397" width="46" height="3" rx="6" fill="url(#gloss6)"/>
+<rect x="603.3333333333334" y="389" width="56" height="7" rx="3.5" fill="#c4b5fd" opacity="0.35"/>
+<text x="631.3333333333334" y="380" text-anchor="middle" fill="#e2e8f0" font-size="16" font-weight="900" font-family="Inter,'Segoe UI',system-ui,sans-serif">0</text>
+<text x="631.3333333333334" y="364" text-anchor="middle" fill="#7c86a2" font-size="9.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">0 commits</text>
+<text x="631.3333333333334" y="422" text-anchor="middle" fill="#8b93a7" font-size="11" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">Thu</text>
+<text x="631.3333333333334" y="438" text-anchor="middle" fill="#5b6478" font-size="9.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">17 Sept</text>
 
 </g><g>
 <defs>
@@ -184,8 +184,8 @@
 <rect x="690.8888888888889" y="389" width="56" height="7" rx="3.5" fill="#c4b5fd" opacity="0.35"/>
 <text x="718.8888888888889" y="380" text-anchor="middle" fill="#e2e8f0" font-size="16" font-weight="900" font-family="Inter,'Segoe UI',system-ui,sans-serif">0</text>
 <text x="718.8888888888889" y="364" text-anchor="middle" fill="#7c86a2" font-size="9.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">0 commits</text>
-<text x="718.8888888888889" y="422" text-anchor="middle" fill="#8b93a7" font-size="11" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">Thu</text>
-<text x="718.8888888888889" y="438" text-anchor="middle" fill="#5b6478" font-size="9.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">17 Sept</text>
+<text x="718.8888888888889" y="422" text-anchor="middle" fill="#8b93a7" font-size="11" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">Fri</text>
+<text x="718.8888888888889" y="438" text-anchor="middle" fill="#5b6478" font-size="9.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">18 Sept</text>
 
 </g><g>
 <defs>
@@ -197,13 +197,13 @@
 </linearGradient>
 </defs>
 <rect x="774.4444444444445" y="138" width="64" height="262" rx="12" fill="#0a0f1d" stroke="#04060d" stroke-width="1.5" opacity="0.85"/>
-<rect x="780.4444444444445" y="394" width="52" height="6" rx="8" fill="url(#barG8)"/>
-<rect x="783.4444444444445" y="397" width="46" height="3" rx="6" fill="url(#gloss8)"/>
-<rect x="778.4444444444445" y="389" width="56" height="7" rx="3.5" fill="#c4b5fd" opacity="0.35"/>
-<text x="806.4444444444445" y="380" text-anchor="middle" fill="#e2e8f0" font-size="16" font-weight="900" font-family="Inter,'Segoe UI',system-ui,sans-serif">0</text>
-<text x="806.4444444444445" y="364" text-anchor="middle" fill="#7c86a2" font-size="9.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">0 commits</text>
-<text x="806.4444444444445" y="422" text-anchor="middle" fill="#8b93a7" font-size="11" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">Fri</text>
-<text x="806.4444444444445" y="438" text-anchor="middle" fill="#5b6478" font-size="9.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">18 Sept</text>
+<rect x="780.4444444444445" y="385" width="52" height="15" rx="8" fill="url(#barG8)"/>
+<rect x="783.4444444444445" y="388" width="46" height="9" rx="6" fill="url(#gloss8)"/>
+<rect x="778.4444444444445" y="380" width="56" height="7" rx="3.5" fill="#c4b5fd" opacity="0.35"/>
+<text x="806.4444444444445" y="371" text-anchor="middle" fill="#e2e8f0" font-size="16" font-weight="900" font-family="Inter,'Segoe UI',system-ui,sans-serif">2</text>
+<text x="806.4444444444445" y="355" text-anchor="middle" fill="#7c86a2" font-size="9.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">2 commits</text>
+<text x="806.4444444444445" y="422" text-anchor="middle" fill="#8b93a7" font-size="11" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">Sat</text>
+<text x="806.4444444444445" y="438" text-anchor="middle" fill="#5b6478" font-size="9.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">19 Sept</text>
 
 </g><g>
 <defs>
@@ -215,13 +215,13 @@
 </linearGradient>
 </defs>
 <rect x="862" y="138" width="64" height="262" rx="12" fill="#0a0f1d" stroke="#04060d" stroke-width="1.5" opacity="0.85"/>
-<rect x="868" y="385" width="52" height="15" rx="8" fill="url(#barG9)"/>
-<rect x="871" y="388" width="46" height="9" rx="6" fill="url(#gloss9)"/>
-<rect x="866" y="380" width="56" height="7" rx="3.5" fill="#c4b5fd" opacity="0.95"/>
-<text x="894" y="371" text-anchor="middle" fill="#e2e8f0" font-size="16" font-weight="900" font-family="Inter,'Segoe UI',system-ui,sans-serif">2</text>
-<text x="894" y="355" text-anchor="middle" fill="#7c86a2" font-size="9.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">2 commits</text>
-<text x="894" y="422" text-anchor="middle" fill="#8b93a7" font-size="11" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">Sat</text>
-<text x="894" y="438" text-anchor="middle" fill="#5b6478" font-size="9.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">19 Sept</text>
+<rect x="868" y="394" width="52" height="6" rx="8" fill="url(#barG9)"/>
+<rect x="871" y="397" width="46" height="3" rx="6" fill="url(#gloss9)"/>
+<rect x="866" y="389" width="56" height="7" rx="3.5" fill="#c4b5fd" opacity="0.95"/>
+<text x="894" y="380" text-anchor="middle" fill="#e2e8f0" font-size="16" font-weight="900" font-family="Inter,'Segoe UI',system-ui,sans-serif">0</text>
+<text x="894" y="364" text-anchor="middle" fill="#7c86a2" font-size="9.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">0 commits</text>
+<text x="894" y="422" text-anchor="middle" fill="#8b93a7" font-size="11" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">Sun</text>
+<text x="894" y="438" text-anchor="middle" fill="#5b6478" font-size="9.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">20 Sept</text>
 <rect x="860" y="446" width="68" height="17" rx="8.5" fill="#667eea" opacity="0.9"/><text x="894" y="458" text-anchor="middle" fill="#ffffff" font-size="9" font-weight="900" letter-spacing="1.2" font-family="Inter,'Segoe UI',system-ui,sans-serif">TODAY</text>
 </g></g>
 
@@ -254,6 +254,6 @@
 <text x="14" y="52" fill="#ffffff" font-size="21" font-weight="900" font-family="Inter,'Segoe UI',system-ui,sans-serif">3/10</text>
 </g>
 
-<text x="66" y="486" fill="#5b6478" font-size="10" font-family="Inter,'Segoe UI',system-ui,sans-serif">Counts from the official GitHub contribution calendar (all activity) with per-day commit totals from owned public repositories · snapshot 19 Sept 2026, 21:23 WIB</text>
+<text x="66" y="486" fill="#5b6478" font-size="10" font-family="Inter,'Segoe UI',system-ui,sans-serif">Counts from the official GitHub contribution calendar (all activity) with per-day commit totals from owned public repositories · snapshot 20 Sept 2026, 01:00 WIB</text>
 
 </svg>
