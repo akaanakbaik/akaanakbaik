@@ -10,7 +10,7 @@ Repo paling sibuk bulan ini: kaboxv8 (21), kaai-code-snipcets (11), kabox (8).
 
 Bahasa yang paling sering kupakai: TypeScript ×12, JavaScript ×9, HTML ×1.
 
-Selain itu aku juga membuka 3 pull request — terus berkontribusi dan berkolaborasi.
+Selain itu aku juga membuka 2 pull request — terus berkontribusi dan berkolaborasi.
 
 Kesimpulan: bulan yang solid — ritme konsisten, tinggal dijaga momentumnya. Terus ngoding, tetap semangat! 🚀
 
@@ -29,5 +29,5 @@ Kesimpulan: bulan yang solid — ritme konsisten, tinggal dijaga momentumnya. Te
 | Jam puncak | 0:00 WIB |
 | Streak aktif | 0 hari |
 | Repo tersibuk | kaboxv8 (21), kaai-code-snipcets (11), kabox (8) |
-| Pull request dibuka | 3 |
+| Pull request dibuka | 2 |
 | Issue dibuka | 0 |
