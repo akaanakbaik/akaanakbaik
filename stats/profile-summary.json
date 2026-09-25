@@ -1,6 +1,6 @@
 {
   "username": "akaanakbaik",
-  "generatedAt": "25 Sept 2026, 08:28",
+  "generatedAt": "25 Sept 2026, 14:46",
   "publicRepos": 107,
   "originalRepos": 87,
   "forkedRepos": 20,
@@ -12,8 +12,8 @@
   "totalStars": 409,
   "totalForks": 27,
   "totalWatchers": 13,
-  "totalSize": "839.8 MB",
-  "totalSizeKb": 860003,
+  "totalSize": "839.9 MB",
+  "totalSizeKb": 860012,
   "topLanguage": "JavaScript",
   "accountAge": "2y 1m",
   "accountAgePrecise": "2 years 1 month",
@@ -938,19 +938,19 @@
       "name": "auto-commit",
       "url": "https://github.com/akaanakbaik/auto-commit",
       "language": "Unknown",
-      "updatedAt": "2026-09-25T01:00:48Z"
+      "updatedAt": "2026-09-25T06:00:03Z"
     },
     {
       "name": "dastermv2",
       "url": "https://github.com/akaanakbaik/dastermv2",
       "language": "Shell",
-      "updatedAt": "2026-09-25T00:40:54Z"
+      "updatedAt": "2026-09-25T05:55:03Z"
     },
     {
       "name": "akaanakbaik",
       "url": "https://github.com/akaanakbaik/akaanakbaik",
       "language": "JavaScript",
-      "updatedAt": "2026-09-24T23:06:58Z"
+      "updatedAt": "2026-09-25T01:30:19Z"
     },
     {
       "name": "kaboxv8",
@@ -1049,8 +1049,8 @@
     ],
     "peakHour": 23,
     "peakWeekday": "Sun",
-    "circularMean": 20.449227171321542,
-    "circularStd": 6.247548862704614,
+    "circularMean": 20.449227171321546,
+    "circularStd": 6.24754886270461,
     "activeHours": 24,
     "reposWithCommits": 86,
     "topCommitRepos": [
@@ -1113,7 +1113,7 @@
     "years": 2,
     "months": 1,
     "days": 22,
-    "totalDays": 782,
+    "totalDays": 783,
     "label": "2 years 1 month",
     "createdAt": "2024-08-03T01:58:16Z"
   },
@@ -1144,15 +1144,15 @@
       "pullRequests": 21,
       "issues": 0,
       "discussions": 0,
-      "daysSincePush": 9,
+      "daysSincePush": 10,
       "commits": 160,
-      "score": 10.282703062809494,
+      "score": 10.246716362487147,
       "stars": 9,
       "forks": 0,
       "watchers": 0,
       "prs": 21,
-      "recency": 0.8187307530779818,
-      "scorePct": 92.80300534042225
+      "recency": 0.8007374029168081,
+      "scorePct": 92.47821973475034
     },
     {
       "name": "portofoliov2",
@@ -1162,15 +1162,15 @@
       "pullRequests": 1,
       "issues": 0,
       "discussions": 0,
-      "daysSincePush": 9,
+      "daysSincePush": 10,
       "commits": 141,
-      "score": 9.00713716758703,
+      "score": 8.971150467264684,
       "stars": 4,
       "forks": 2,
       "watchers": 0,
       "prs": 1,
-      "recency": 0.8187307530779818,
-      "scorePct": 81.29082339144284
+      "recency": 0.8007374029168081,
+      "scorePct": 80.96603778577094
     },
     {
       "name": "kaai-code-snipcets",
@@ -1180,33 +1180,33 @@
       "pullRequests": 0,
       "issues": 0,
       "discussions": 0,
-      "daysSincePush": 9,
+      "daysSincePush": 10,
       "commits": 101,
-      "score": 8.344156010285861,
+      "score": 8.308169309963514,
       "stars": 4,
       "forks": 2,
       "watchers": 0,
       "prs": 0,
-      "recency": 0.8187307530779818,
-      "scorePct": 75.30731462864004
+      "recency": 0.8007374029168081,
+      "scorePct": 74.98252902296814
     },
     {
-      "name": "tiny-kabox",
-      "url": "https://github.com/akaanakbaik/tiny-kabox",
-      "language": "TypeScript",
+      "name": "dastermv2",
+      "url": "https://github.com/akaanakbaik/dastermv2",
+      "language": "Shell",
       "watchersTotal": 0,
       "pullRequests": 0,
       "issues": 0,
       "discussions": 0,
-      "daysSincePush": 9,
-      "commits": 94,
-      "score": 7.979960080297757,
-      "stars": 4,
+      "daysSincePush": 0,
+      "commits": 80,
+      "score": 7.964513511461043,
+      "stars": 3,
       "forks": 1,
       "watchers": 0,
       "prs": 0,
-      "recency": 0.8187307530779818,
-      "scorePct": 72.02038932999085
+      "recency": 1,
+      "scorePct": 71.88098162741609
     }
   ]
 }
