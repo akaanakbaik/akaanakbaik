@@ -513,7 +513,7 @@
 <text x="1076.50" y="444.50" text-anchor="middle" fill="#cbd5e1" font-size="10" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">36</text>
 </g><g>
 <rect x="1104.00" y="420.00" width="41" height="41" rx="7" fill="#6d28d9" stroke="#ffffff" stroke-opacity="0.06" stroke-width="1"/>
-<text x="1124.50" y="444.50" text-anchor="middle" fill="#cbd5e1" font-size="10" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">66</text>
+<text x="1124.50" y="444.50" text-anchor="middle" fill="#cbd5e1" font-size="10" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">68</text>
 </g><g>
 <rect x="1152.00" y="420.00" width="41" height="41" rx="7" fill="#6d28d9" stroke="#ffffff" stroke-opacity="0.06" stroke-width="1"/>
 <text x="1172.50" y="444.50" text-anchor="middle" fill="#cbd5e1" font-size="10" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">55</text>
@@ -529,7 +529,7 @@
 <text x="790" y="483" fill="#64748b" font-size="10.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">141</text><g transform="translate(30 539)">
 <rect width="175" height="54" rx="12" fill="#0d1322" stroke="#4338ca" stroke-opacity="0.35" stroke-width="1.2"/>
 <text x="14" y="20" fill="#8b93a7" font-size="10.5" font-weight="700" letter-spacing="1.2" font-family="Inter,'Segoe UI',system-ui,sans-serif">COMMITS PLOTTED</text>
-<text x="14" y="42" fill="#4338ca" font-size="17" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">3,406</text>
+<text x="14" y="42" fill="#4338ca" font-size="17" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">3,408</text>
 </g><g transform="translate(215 539)">
 <rect width="155" height="54" rx="12" fill="#0d1322" stroke="#764ba2" stroke-opacity="0.35" stroke-width="1.2"/>
 <text x="14" y="20" fill="#8b93a7" font-size="10.5" font-weight="700" letter-spacing="1.2" font-family="Inter,'Segoe UI',system-ui,sans-serif">BUSIEST DAY</text>
@@ -541,7 +541,7 @@
 </g><g transform="translate(580 539)">
 <rect width="180" height="54" rx="12" fill="#0d1322" stroke="#15803d" stroke-opacity="0.35" stroke-width="1.2"/>
 <text x="14" y="20" fill="#8b93a7" font-size="10.5" font-weight="700" letter-spacing="1.2" font-family="Inter,'Segoe UI',system-ui,sans-serif">WEEKDAY SHARE</text>
-<text x="14" y="42" fill="#15803d" font-size="17" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">65.9%</text>
+<text x="14" y="42" fill="#15803d" font-size="17" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">65.8%</text>
 </g><g transform="translate(770 539)">
 <rect width="190" height="54" rx="12" fill="#0d1322" stroke="#7e22ce" stroke-opacity="0.35" stroke-width="1.2"/>
 <text x="14" y="20" fill="#8b93a7" font-size="10.5" font-weight="700" letter-spacing="1.2" font-family="Inter,'Segoe UI',system-ui,sans-serif">PEAK CELL</text>
