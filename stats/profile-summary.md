@@ -1,6 +1,6 @@
 # Profile Metrics Summary
 
-Generated: 04 Oct 2026, 09:37
+Generated: 04 Oct 2026, 15:47
 
 ## Account
 
@@ -17,27 +17,27 @@ Generated: 04 Oct 2026, 09:37
 | Total stars | 409 |
 | Total forks | 27 |
 | Total watchers | 13 |
-| Total repo size | 840.2 MB |
+| Total repo size | 840.3 MB |
 | Top language | JavaScript |
 
 ## Code Totals (scanned from all repositories)
 
 | Metric | Value |
 | --- | ---: |
-| Source files counted | 17,686 |
-| Tracked source candidates | 17,688 |
+| Source files counted | 17,683 |
+| Tracked source candidates | 17,685 |
 | Excluded source candidates | 2 |
-| Source lines (physical) | 3,408,895 |
-| Source lines (non-empty) | 3,170,105 |
-| Source characters (Unicode) | 144,985,454 |
-| Non-whitespace characters | 110,537,351 |
-| Bytes scanned | 139.67 MB |
+| Source lines (physical) | 3,409,047 |
+| Source lines (non-empty) | 3,170,235 |
+| Source characters (Unicode) | 144,995,801 |
+| Non-whitespace characters | 110,545,747 |
+| Bytes scanned | 139.68 MB |
 
 ## Lines of Code per Language
 
 | Language | Lines | Chars | Files |
 | --- | ---: | ---: | ---: |
-| JavaScript | 2,051,877 | 98,279,468 | 9,329 |
+| JavaScript | 2,052,007 | 98,289,815 | 9,326 |
 | TypeScript | 798,798 | 33,823,141 | 5,555 |
 | Python | 124,866 | 5,812,765 | 935 |
 | CSS | 56,953 | 2,156,939 | 108 |
@@ -85,12 +85,12 @@ Generated: 04 Oct 2026, 09:37
 | Distinct languages | 42 |
 | Shannon entropy | 2.249 bits (max 5.392) |
 | Redundancy | 58.3% |
-| Herfindahl-Hirschman Index | 3129.0 (×10⁴) |
+| Herfindahl-Hirschman Index | 3129.8 (×10⁴) |
 | Gini coefficient | 0.9115 |
 | CR₃ concentration | 84.87% |
 | CR₅ concentration | 90.58% |
 | Pareto 80% coverage | top 3 of 42 languages |
-| Top language share | 48.83% |
+| Top language share | 48.84% |
 | Geometric mean bytes | 4.8K |
 | Coefficient of variation | 3.485 |
 
@@ -116,11 +116,11 @@ Generated: 04 Oct 2026, 09:37
 
 | Language | Repos | Bytes | Share |
 | --- | ---: | ---: | ---: |
-| JavaScript | 70 | 23499424 | 48.83% |
-| TypeScript | 30 | 11371043 | 23.63% |
-| Python | 12 | 5970900 | 12.41% |
+| JavaScript | 70 | 23509811 | 48.84% |
+| TypeScript | 30 | 11371043 | 23.62% |
+| Python | 12 | 5970900 | 12.40% |
 | CSS | 51 | 1634932 | 3.40% |
-| C++ | 9 | 1114294 | 2.32% |
+| C++ | 9 | 1114294 | 2.31% |
 | Jupyter Notebook | 1 | 1077015 | 2.24% |
 | HTML | 51 | 1036727 | 2.15% |
 | Java | 7 | 938571 | 1.95% |
