@@ -276,8 +276,20 @@ export function aggregateCodeMetrics(repoScans) {
   const exclusionSamples = [];
   const policies = new Set();
   const perLang = new Map();
+  const perRepo = [];
   for (const scan of repoScans) {
     if (!scan) continue;
+    const dominant = [...(scan.perLang || [])].sort((a, b) => b.codeLines - a.codeLines)[0];
+    perRepo.push({
+      repo: scan.repo || 'unknown',
+      files: scan.totals.files,
+      lines: scan.totals.lines,
+      codeLines: scan.totals.codeLines,
+      chars: scan.totals.chars,
+      nonWsChars: scan.totals.nonWsChars,
+      bytes: scan.totals.bytes,
+      topLanguage: dominant ? dominant.name : null
+    });
     totals.files += scan.totals.files;
     totals.lines += scan.totals.lines;
     totals.codeLines += scan.totals.codeLines;
@@ -310,7 +322,8 @@ export function aggregateCodeMetrics(repoScans) {
     policy: policies.size === 1 ? [...policies][0] : 'mixed Code Census policies',
     perLang: [...perLang.entries()]
       .map(([name, value]) => ({ name, ...value }))
-      .sort((a, b) => b.codeLines - a.codeLines)
+      .sort((a, b) => b.codeLines - a.codeLines),
+    perRepo: perRepo.sort((a, b) => b.codeLines - a.codeLines || a.repo.localeCompare(b.repo))
   };
 }
 

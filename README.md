@@ -57,7 +57,7 @@ I build practical projects while learning: web apps, bot systems, Linux/VPS tool
 
 </div>
 
-> This section is generated from the GitHub REST and GraphQL APIs. The verified snapshot runs automatically every hour at minute 17 UTC, on pushes that affect the profile, and on manual dispatch. Badge delivery uses a short cache to surface each completed snapshot promptly.
+> This section is generated from the GitHub REST and GraphQL APIs. One workflow rebuilds the entire snapshot — scheduled at minute 17 of every hour, plus every push that touches the profile and manual dispatch — and publishes it only after the census is independently recounted and every badge passes validation. GitHub delays scheduled runs on this repository by hours at times, so every number here carries its own publication time: what you see is the last snapshot that actually completed and passed, not a promise about when the next one lands. Badge delivery uses a short cache to surface each completed snapshot promptly.
 
 ---
 
@@ -90,6 +90,12 @@ I build practical projects while learning: web apps, bot systems, Linux/VPS tool
   <a href="https://github.com/akaanakbaik"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaanakbaik%2Fakaanakbaik%2Fmain%2Fbadges%2Ftotal-lines.json&cacheSeconds=300&style=for-the-badge&logoSize=auto&logo=githubactions&logoColor=white" alt="Nonblank tracked code lines" /></a>&nbsp;
   <a href="https://github.com/akaanakbaik"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaanakbaik%2Fakaanakbaik%2Fmain%2Fbadges%2Ftotal-chars.json&cacheSeconds=300&style=for-the-badge&logoSize=auto&logo=unicode&logoColor=white" alt="Unicode characters in tracked code" /></a>&nbsp;
   <a href="https://github.com/akaanakbaik"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaanakbaik%2Fakaanakbaik%2Fmain%2Fbadges%2Fcode-files.json&cacheSeconds=300&style=for-the-badge&logoSize=auto&logo=files&logoColor=white" alt="Tracked code files" /></a>
+
+  <a href="https://github.com/akaanakbaik"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaanakbaik%2Fakaanakbaik%2Fmain%2Fbadges%2Fcensus-languages.json&cacheSeconds=300&style=for-the-badge&logoSize=auto&logo=polywork&logoColor=white" alt="Languages detected by the Code Census" /></a>&nbsp;
+  <a href="https://github.com/akaanakbaik"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaanakbaik%2Fakaanakbaik%2Fmain%2Fbadges%2Fcode-repos.json&cacheSeconds=300&style=for-the-badge&logoSize=auto&logo=files&logoColor=white" alt="Repositories that contain tracked source" /></a>&nbsp;
+  <a href="https://github.com/akaanakbaik"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaanakbaik%2Fakaanakbaik%2Fmain%2Fbadges%2Flines-per-file.json&cacheSeconds=300&style=for-the-badge&logoSize=auto&logo=githubactions&logoColor=white" alt="Code lines per tracked file" /></a>&nbsp;
+  <a href="https://github.com/akaanakbaik"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaanakbaik%2Fakaanakbaik%2Fmain%2Fbadges%2Fmedian-repo-lines.json&cacheSeconds=300&style=for-the-badge&logoSize=auto&logo=codeforces&logoColor=white" alt="Median repository size" /></a>&nbsp;
+  <a href="https://github.com/akaanakbaik"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaanakbaik%2Fakaanakbaik%2Fmain%2Fbadges%2Flargest-repo.json&cacheSeconds=300&style=for-the-badge&logoSize=auto&logo=git&logoColor=white" alt="Largest repository by tracked code lines" /></a>&nbsp;
 </p>
 
 </div>
@@ -113,6 +119,28 @@ I build practical projects while learning: web apps, bot systems, Linux/VPS tool
 
 ---
 
+## Census Distribution
+
+<div align="center">
+
+<img width="100%" src="https://raw.githubusercontent.com/akaanakbaik/akaanakbaik/main/generated/census-distribution.svg" alt="Histogram of repository sizes by tracked code lines" />
+
+<br />
+<br />
+
+<img width="100%" src="https://raw.githubusercontent.com/akaanakbaik/akaanakbaik/main/generated/census-by-repo.svg" alt="Top 15 repositories by tracked code lines" />
+
+<br />
+<br />
+
+<img width="100%" src="https://raw.githubusercontent.com/akaanakbaik/akaanakbaik/main/generated/repo-treemap.svg" alt="Squarified treemap of every repository sized by tracked code lines" />
+
+</div>
+
+> These three graphs are projections of the same single Code Census pass, never a second estimate. Bucket heights are real repository counts, bar lengths are real non-blank tracked source lines, and in the treemap every tile's area is directly proportional to that repository's tracked code lines while its colour is the dominant language found by reading those files. Repositories with no tracked source are counted as zero rather than dropped, so the distribution always reconciles with the published totals.
+
+---
+
 ## Contribution Activity
 
 <div align="center">
@@ -123,6 +151,11 @@ I build practical projects while learning: web apps, bot systems, Linux/VPS tool
 <br />
 
 <img width="100%" src="https://raw.githubusercontent.com/akaanakbaik/akaanakbaik/main/generated/commit-hours.svg" alt="Commit activity by Jakarta hour" />
+
+<br />
+<br />
+
+<img width="100%" src="https://raw.githubusercontent.com/akaanakbaik/akaanakbaik/main/generated/commit-heatmap.svg" alt="Commit heatmap by weekday and Jakarta hour" />
 
 <br />
 <br />
@@ -142,6 +175,7 @@ I build practical projects while learning: web apps, bot systems, Linux/VPS tool
   <a href="https://github.com/akaanakbaik"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaanakbaik%2Fakaanakbaik%2Fmain%2Fbadges%2Fpeak-hour.json&cacheSeconds=300&style=for-the-badge&logoSize=auto&logo=clockify&logoColor=white" alt="Peak coding hour" /></a>&nbsp;
   <a href="https://github.com/akaanakbaik"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaanakbaik%2Fakaanakbaik%2Fmain%2Fbadges%2Flast-active.json&cacheSeconds=300&style=for-the-badge&logoSize=auto&logo=github&logoColor=white" alt="Last active" /></a>&nbsp;
   <a href="https://github.com/akaanakbaik"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaanakbaik%2Fakaanakbaik%2Fmain%2Fbadges%2Fcommits-10d.json&cacheSeconds=300&style=for-the-badge&logoSize=auto&logo=github&logoColor=white" alt="Commits in the last 10 days" /></a>
+  <a href="https://github.com/akaanakbaik"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaanakbaik%2Fakaanakbaik%2Fmain%2Fbadges%2Fbusiest-weekday.json&cacheSeconds=300&style=for-the-badge&logoSize=auto&logo=clockify&logoColor=white" alt="Busiest weekday for commits" /></a>&nbsp;
 </p>
 
 > Streaks come from the official contribution calendar. Commit hours use the complete owned public commit history returned by the API collector, converted to Asia/Jakarta, with known automation commits excluded so scheduled updates do not inflate personal activity. Any incomplete API collection aborts publication instead of displaying a partial metric.
@@ -181,7 +215,7 @@ I build practical projects while learning: web apps, bot systems, Linux/VPS tool
 
 </div>
 
-> The clock and quote are refreshed as part of the same hourly snapshot. The README therefore reports a verified publication snapshot rather than claiming second-by-second updates from a static file.
+> The clock and quote are refreshed by the same scheduled snapshot as every other number above. The README therefore reports a verified publication snapshot, stamped with its own generation time, rather than claiming second-by-second updates from a static file.
 
 ---
 

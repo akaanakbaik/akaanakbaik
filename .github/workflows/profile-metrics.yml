@@ -50,7 +50,7 @@ jobs:
       - name: Generate authoritative profile metrics
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          PROFILE_USERNAME: akaanakbaik
+          PROFILE_USERNAME: ${{ github.repository_owner }}
         run: node scripts/generate-profile-metrics.mjs
 
       - name: Verify complete Code Census
@@ -59,23 +59,28 @@ jobs:
       - name: Refresh clock, social badges and motivation
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          PROFILE_USERNAME: akaanakbaik
+          PROFILE_USERNAME: ${{ github.repository_owner }}
         run: node scripts/live-clock.mjs
 
       - name: Refresh featured repository cards
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          PROFILE_USERNAME: akaanakbaik
+          PROFILE_USERNAME: ${{ github.repository_owner }}
           PINNED_REPOS: portofoliov2,dastermv2,musika
         run: node scripts/pinned-repos.mjs
 
       - name: Refresh rolling 30-day summary and badges
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          PROFILE_USERNAME: akaanakbaik
+          PROFILE_USERNAME: ${{ github.repository_owner }}
         run: node scripts/monthly-summary.mjs
 
+      - name: Audit script wiring
+        run: node scripts/audit-scripts.mjs
+
       - name: Validate generated badge data and README links
+        env:
+          PROFILE_USERNAME: ${{ github.repository_owner }}
         run: node scripts/validate-readme.mjs
 
       - name: Commit one consistent snapshot

@@ -22,6 +22,7 @@ import {
   codingRhythmSvg,
   manifestLine
 } from './lib/charts.mjs';
+import { censusByRepoSvg, censusDistributionSvg, commitHeatmapSvg, repoTreemapSvg } from './lib/census-charts.mjs';
 import { runPool } from './lib/engine.mjs';
 
 const username = process.env.PROFILE_USERNAME || 'akaanakbaik';
@@ -164,6 +165,13 @@ ${backRows}
 `;
 }
 
+function medianOf(values) {
+  if (!values.length) return 0;
+  const sorted = [...values].sort((a, b) => a - b);
+  const mid = sorted.length >> 1;
+  return sorted.length % 2 ? sorted[mid] : Math.round((sorted[mid - 1] + sorted[mid]) / 2);
+}
+
 async function main() {
   const log = (msg) => console.log(`[metrics] ${msg}`);
   await mkdir('badges', { recursive: true });
@@ -192,6 +200,20 @@ async function main() {
     await writeBadge('total-lines', 'nonblank code lines', compact(t.codeLines), '4338ca');
     await writeBadge('total-chars', 'Unicode code characters', compact(t.chars), 'b45309');
     await writeBadge('code-files', 'tracked code files', compact(t.files), '0e7490');
+    const perRepo = codeTotals.perRepo;
+    const ranked = [...perRepo].sort((a, b) => b.codeLines - a.codeLines || a.repo.localeCompare(b.repo));
+    const withCode = ranked.filter((r) => r.codeLines > 0);
+    const largest = ranked[0] || { repo: '-', codeLines: 0 };
+    const medianLines = medianOf(withCode.map((r) => r.codeLines));
+    const censusLanguages = codeTotals.perLang.length;
+    await writeBadge('census-languages', 'census languages', compact(censusLanguages), '7e22ce');
+    await writeBadge('code-repos', 'repos with source', `${compact(withCode.length)} of ${compact(perRepo.length)}`, '1d4ed8');
+    await writeBadge('median-repo-lines', 'median repo size', `${compact(medianLines)} lines`, '4338ca');
+    await writeBadge('largest-repo', 'largest repository', `${largest.repo} · ${compact(largest.codeLines)} lines`, '764ba2');
+    await writeBadge('lines-per-file', 'code lines per file', compact(Math.round(t.codeLines / (t.files || 1))), 'b45309');
+    await writeFile('generated/census-by-repo.svg', censusByRepoSvg({ perRepo: ranked, totals: t, generatedAt: data.generatedAt }));
+    await writeFile('generated/census-distribution.svg', censusDistributionSvg({ perRepo: ranked, totals: t, generatedAt: data.generatedAt }));
+    await writeFile('generated/repo-treemap.svg', repoTreemapSvg({ perRepo: ranked, totals: t, generatedAt: data.generatedAt }));
     await writeFile(
       'stats/code-census-manifest.json',
       JSON.stringify({
@@ -226,6 +248,13 @@ async function main() {
     const lastActiveIso = commitHours.latestDate || (streak.lastActiveDate ? `${streak.lastActiveDate}T00:00:00Z` : null);
     await writeFile('generated/streak.svg', streakSvg({ ...activity, ...streak, activeDays: streak.activeDays, lastActiveIso }));
     await writeFile('generated/commit-hours.svg', commitHoursSvg({ ...commitHours, totalCommitContributions: activity.totalCommitContributions }));
+    await writeFile('generated/commit-heatmap.svg', commitHeatmapSvg({
+      grid: commitHours.weekdayHourGrid,
+      weekdayOrder: commitHours.weekdayOrder,
+      sampled: commitHours.sampled,
+      peakHour: commitHours.peakHour,
+      peakWeekday: commitHours.peakWeekday
+    }));
     await writeFile('generated/calendar.svg', calendarSvg({ days: activity.days, level: activity.level, currentStreak: streak.currentStreak, longest: streak.longest }));
     const dailyCommits = await fetchDailyCommitCounts(data.client, username, data.allRepos, 10, log);
     // The 10-day card is driven entirely by the real per-day commit scan so
@@ -263,6 +292,8 @@ async function main() {
     await writeBadge('total-commits', 'commits (365d)', compact(activity.totalCommitContributions), '2563eb');
     await writeBadge('last-active', 'last active', lastActiveIso ? relativeTime(lastActiveIso) : 'unknown', '06b6d4');
     await writeBadge('peak-hour', 'peak coding hour', `${commitHours.peakHour}:00 WIB`, 'db2777');
+    const busiestWeekdayShare = ((Math.max(...commitHours.weekdayCounts) / (commitHours.sampled || 1)) * 100).toFixed(1);
+    await writeBadge('busiest-weekday', 'busiest weekday', `${commitHours.peakWeekday} · ${busiestWeekdayShare}%`, '764ba2');
   } catch (error) {
     throw new Error(`activity collection failed: ${error.message}`);
   }
@@ -290,6 +321,7 @@ async function main() {
     sampled: 0,
     hourCounts: Array.from({ length: 24 }, () => 0),
     weekdayCounts: Array.from({ length: 7 }, () => 0),
+    weekdayHourGrid: Array.from({ length: 7 }, () => Array.from({ length: 24 }, () => 0)),
     weekdayOrder: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'],
     peakHour: 0,
     peakWeekday: 'Mon',
@@ -371,7 +403,8 @@ async function main() {
           excludedFiles: codeTotals.excludedFiles,
           exclusionSamples: codeTotals.exclusionSamples,
           policy: codeTotals.policy,
-          perLang: codeTotals.perLang
+          perLang: codeTotals.perLang,
+          perRepo: codeTotals.perRepo
         }
       : null,
     frontendStack: data.dependencyStacks.frontend,
@@ -394,6 +427,7 @@ async function main() {
       sampled: commitHoursSafe.sampled,
       hourCounts: commitHoursSafe.hourCounts,
       weekdayCounts: commitHoursSafe.weekdayCounts,
+      weekdayHourGrid: commitHoursSafe.weekdayHourGrid,
       weekdayOrder: commitHoursSafe.weekdayOrder,
       peakHour: commitHoursSafe.peakHour,
       peakWeekday: commitHoursSafe.peakWeekday,

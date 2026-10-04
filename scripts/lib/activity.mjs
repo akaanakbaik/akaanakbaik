@@ -264,6 +264,7 @@ export function computeStreak(activity) {
 export async function fetchCommitTimestamps(client, username, allRepos, log = () => {}) {
   const hours = [];
   const weekdays = [];
+  const weekdayHours = [];
   const perRepoCounts = [];
   let newestDate = null;
   const isBotCommit = (commit) => {
@@ -287,6 +288,7 @@ export async function fetchCommitTimestamps(client, username, allRepos, log = ()
       const weekday = weekdayInTz(date);
       if (hour !== null) hours.push(hour);
       if (weekday !== null) weekdays.push(weekday);
+      if (hour !== null && weekday !== null) weekdayHours.push({ hour, weekday });
     }
     return owned;
   };
@@ -312,10 +314,16 @@ export async function fetchCommitTimestamps(client, username, allRepos, log = ()
   const weekdayCounts = weekdayOrder.map((wd) => weekdays.filter((w) => w === wd).length);
   const peakHour = hourCounts.indexOf(Math.max(...hourCounts));
   const peakWeekdayIndex = weekdayCounts.indexOf(Math.max(...weekdayCounts));
+  const weekdayHourGrid = weekdayOrder.map((wd) => {
+    const row = Array.from({ length: 24 }, () => 0);
+    for (const entry of weekdayHours) if (entry.weekday === wd) row[entry.hour] += 1;
+    return row;
+  });
   return {
     sampled: hours.length,
     hourCounts,
     weekdayCounts,
+    weekdayHourGrid,
     weekdayOrder,
     peakHour,
     peakWeekday: weekdayOrder[peakWeekdayIndex],

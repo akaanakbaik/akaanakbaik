@@ -35,4 +35,6 @@ jobs:
           node-version: 22
 
       - name: Validate README links and generated badge contracts
+        env:
+          PROFILE_USERNAME: ${{ github.repository_owner }}
         run: node scripts/validate-readme.mjs

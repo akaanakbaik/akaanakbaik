@@ -42,5 +42,10 @@ jobs:
             node --check "$file"
           done
 
+      - name: Audit script wiring
+        run: node scripts/audit-scripts.mjs
+
       - name: Check badge contracts and README references
+        env:
+          PROFILE_USERNAME: ${{ github.repository_owner }}
         run: node scripts/validate-readme.mjs

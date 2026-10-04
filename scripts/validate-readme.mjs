@@ -2,6 +2,16 @@ import { readFile, readdir } from 'node:fs/promises';
 import { existsSync } from 'node:fs';
 
 const MIN_BADGE_CONTRAST = 4.5;
+// Two different budgets, because they answer two different questions.
+// Drift is the strict one: stats files that disagree with each other always mean
+// one of them is an orphan, and that is a bug no amount of schedule jitter can
+// excuse. Age is calibrated to reality — GitHub delays scheduled runs heavily on
+// this repository, and the observed gap between published snapshots over the last
+// five days ranges from 18 minutes to 7h16m despite an hourly cron, so anything
+// near three hours would fail constantly and be ignored. Ten hours still catches a
+// generator that has been broken for a day, which is what went unnoticed before.
+const MAX_SNAPSHOT_DRIFT_MINUTES = 180;
+const MAX_SNAPSHOT_AGE_MINUTES = 600;
 
 const README_PATH = 'README.md';
 const URL_PATTERN = /https?:\/\/[^\s"'<>]+/g;
@@ -18,12 +28,22 @@ function normalizeUrl(url) {
   return url.replace(/[),.;]+$/g, '');
 }
 
+// The owner is taken from the environment so the same validator works in every
+// workflow and locally, instead of depending on one hardcoded literal.
+function repositoryOwner() {
+  if (process.env.PROFILE_USERNAME) return process.env.PROFILE_USERNAME;
+  if (process.env.GITHUB_REPOSITORY_OWNER) return process.env.GITHUB_REPOSITORY_OWNER;
+  if (process.env.GITHUB_REPOSITORY) return String(process.env.GITHUB_REPOSITORY).split('/')[0];
+  return '';
+}
+
 function localGeneratedMirror(url) {
   try {
     const parsed = new URL(url);
     if (parsed.hostname !== 'raw.githubusercontent.com') return null;
+    const owner = repositoryOwner();
     const parts = parsed.pathname.split('/').filter(Boolean);
-    if (parts.length < 4 || parts[0] !== 'akaanakbaik' || parts[1] !== 'akaanakbaik' || parts[2] !== 'main') return null;
+    if (parts.length < 4 || parts[0] !== owner || parts[1] !== owner || parts[2] !== 'main') return null;
     const localPath = parts.slice(3).join('/');
     return existsSync(localPath) ? localPath : null;
   } catch {
@@ -120,6 +140,72 @@ async function validateStats() {
   return files;
 }
 
+// Snapshot stamps are emitted by dateStamp() as Asia/Jakarta wall-clock text
+// ("04 Oct 2026, 15:29"). Date.parse() would silently read that as machine-local
+// time, which made a freshly generated snapshot look seven hours in the future
+// and flagged healthy files as stale. Jakarta is a fixed UTC+7 with no daylight
+// saving, so the offset below is exact.
+const JAKARTA_STAMP = /^(\d{2}) ([A-Za-z]{3}) (\d{4}), (\d{2}):(\d{2})$/;
+const JAKARTA_MONTHS = { Jan: '01', Feb: '02', Mar: '03', Apr: '04', May: '05', Jun: '06', Jul: '07', Aug: '08', Sep: '09', Oct: '10', Nov: '11', Dec: '12' };
+
+function parseStamp(stamp) {
+  const text = String(stamp).trim();
+  const match = JAKARTA_STAMP.exec(text);
+  if (!match) return Date.parse(text);
+  const month = JAKARTA_MONTHS[match[2]];
+  if (!month) return Date.parse(text);
+  return Date.parse(`${match[3]}-${month}-${match[1]}T${match[4]}:${match[5]}:00+07:00`);
+}
+
+// Every published snapshot must carry the same publication timestamp, otherwise a
+// data file whose writer was dropped from CI silently keeps serving old numbers
+// while the rest of the profile advances. This is the guard that caught the stale
+// stats/code-totals.json and stats/activity-metrics.json files.
+async function validateSnapshotFreshness() {
+  const files = (await readdir('stats')).filter((name) => name.endsWith('.json')).sort();
+  const stamps = [];
+  for (const file of files) {
+    const payload = JSON.parse(await readFile(`stats/${file}`, 'utf8'));
+    const stamp = payload.generatedAt || payload.verifiedAt;
+    if (!stamp) throw new Error(`${file}: missing generatedAt/verifiedAt publication stamp`);
+    const parsed = parseStamp(stamp);
+    if (Number.isNaN(parsed)) throw new Error(`${file}: unparsable publication stamp "${stamp}"`);
+    if (parsed > Date.now() + 60000) throw new Error(`${file}: publication stamp "${stamp}" is in the future`);
+    stamps.push({ file, parsed, stamp });
+  }
+  const newest = Math.max(...stamps.map((s) => s.parsed));
+  const oldest = Math.min(...stamps.map((s) => s.parsed));
+  const ageMinutes = (Date.now() - newest) / 60000;
+  const driftMinutes = (newest - oldest) / 60000;
+  if (ageMinutes > MAX_SNAPSHOT_AGE_MINUTES) {
+    throw new Error(`newest stats snapshot is ${ageMinutes.toFixed(0)} min old, limit is ${MAX_SNAPSHOT_AGE_MINUTES} min — the snapshot generator has not run`);
+  }
+  if (driftMinutes > MAX_SNAPSHOT_DRIFT_MINUTES) {
+    const stale = stamps.filter((s) => newest - s.parsed > MAX_SNAPSHOT_DRIFT_MINUTES * 60000).map((s) => s.file);
+    throw new Error(`stats files are not one consistent snapshot (drift ${driftMinutes.toFixed(0)} min, limit ${MAX_SNAPSHOT_DRIFT_MINUTES}). Stale: ${stale.join(', ')}`);
+  }
+  return { stats: stamps.length, newest, driftMinutes, ageMinutes };
+}
+
+// The Code Census is the headline "lines and characters" claim on the profile, so
+// its headline numbers are cross-checked here against the independent recount that
+// profile-metrics runs on a separate clone pass. They must agree exactly.
+async function validateCensusConsistency() {
+  const manifest = JSON.parse(await readFile('stats/code-census-manifest.json', 'utf8'));
+  const verification = JSON.parse(await readFile('stats/code-census-verification.json', 'utf8'));
+  const profile = JSON.parse(await readFile('stats/profile-summary.json', 'utf8'));
+  if (!profile.codeTotals) throw new Error('profile-summary.json is missing codeTotals');
+  const fields = ['files', 'lines', 'codeLines', 'chars', 'nonWsChars', 'bytes'];
+  for (const field of fields) {
+    const a = Number(manifest.totals[field]);
+    const b = Number(verification.totals[field]);
+    const c = Number(profile.codeTotals.totals[field]);
+    if (!Number.isFinite(a) || !Number.isFinite(b) || !Number.isFinite(c)) throw new Error(`census field ${field} is not numeric`);
+    if (a !== b || b !== c) throw new Error(`census field ${field} disagrees: manifest=${a} verification=${b} profile=${c}`);
+  }
+  return manifest.totals;
+}
+
 async function main() {
   const readme = await readFile(README_PATH, 'utf8');
   const urls = unique((readme.match(URL_PATTERN) || []).map(normalizeUrl));
@@ -141,6 +227,8 @@ async function main() {
   }
   const badges = await validateBadges();
   const stats = await validateStats();
+  const freshness = await validateSnapshotFreshness();
+  const census = await validateCensusConsistency();
   const failures = [];
   let completed = 0;
   const workers = Array.from({ length: Math.min(12, urls.length) }, async () => {
@@ -170,6 +258,8 @@ async function main() {
     throw new Error(`${failures.length} README URLs failed`);
   }
   console.log(`Validated ${urls.length} README URLs, ${badges.length} badge payloads, and ${visualBadgeUrls.length} uniform badge renderers`);
+  console.log(`Snapshot freshness OK: ${freshness.stats} stats files within ${freshness.driftMinutes.toFixed(0)} min drift (limit ${MAX_SNAPSHOT_DRIFT_MINUTES}), newest ${freshness.ageMinutes.toFixed(0)} min old (limit ${MAX_SNAPSHOT_AGE_MINUTES})`);
+  console.log(`Code Census agrees across manifest, independent recount, and profile summary: ${census.files} files / ${census.codeLines} code lines / ${census.chars} characters`);
 }
 
 main().catch((error) => {

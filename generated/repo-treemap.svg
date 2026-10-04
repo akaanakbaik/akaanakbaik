@@ -1,0 +1,302 @@
+<svg width="1250" height="852" viewBox="0 0 1250 852" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1250" y2="852">
+<stop stop-color="#0f172a"/><stop offset="0.55" stop-color="#111827"/><stop offset="1" stop-color="#312e81"/>
+</linearGradient>
+<linearGradient id="bar" x1="0" y1="0" x2="1250" y2="0">
+<stop stop-color="#667eea"/><stop offset="1" stop-color="#764ba2"/>
+</linearGradient>
+<linearGradient id="titleLine" x1="0" y1="0" x2="1250" y2="0">
+<stop stop-color="#667eea" stop-opacity="0"/><stop offset="0.5" stop-color="#a78bfa"/><stop offset="1" stop-color="#667eea" stop-opacity="0"/>
+</linearGradient>
+</defs>
+<rect width="1250" height="852" rx="26" fill="url(#bg)"/>
+<circle cx="1170" cy="40" r="130" fill="#667eea" opacity="0.12"/>
+<circle cx="90" cy="832" r="150" fill="#764ba2" opacity="0.12"/>
+<text x="30" y="44" fill="#ffffff" font-size="25" font-weight="900" font-family="Inter,'Segoe UI',system-ui,sans-serif">Repository Treemap</text>
+<text x="30" y="66" fill="#94a3b8" font-size="12.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">Every repository with source, sized by tracked code lines and coloured by its dominant language</text>
+<rect x="30" y="80" width="1190" height="3.5" rx="1.75" fill="url(#titleLine)"/>
+<g>
+<rect x="30.00" y="124.00" width="508.49" height="556.00" rx="8" fill="#f1e05a" fill-opacity="0.82"/>
+<rect x="30.00" y="124.00" width="508.49" height="556.00" rx="8" fill="none" stroke="#0b1020" stroke-opacity="0.5" stroke-width="1.5"/>
+<text x="40.00" y="148.00" fill="#0b1020" font-size="12.5" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">Hacktoberfest-2025</text>
+<text x="40.00" y="168.00" fill="#0b1020" fill-opacity="0.78" font-size="11" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">1.4M lines · 8.1K files</text>
+</g><g>
+<rect x="542.49" y="124.00" width="249.54" height="556.00" rx="8" fill="#f1e05a" fill-opacity="0.82"/>
+<rect x="542.49" y="124.00" width="249.54" height="556.00" rx="8" fill="none" stroke="#0b1020" stroke-opacity="0.5" stroke-width="1.5"/>
+<text x="552.49" y="148.00" fill="#0b1020" font-size="12.5" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">musika</text>
+<text x="552.49" y="168.00" fill="#0b1020" fill-opacity="0.78" font-size="11" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">668.5K lines · 3.5K files</text>
+</g><g>
+<rect x="796.02" y="124.00" width="243.02" height="225.95" rx="8" fill="#f1e05a" fill-opacity="0.82"/>
+<rect x="796.02" y="124.00" width="243.02" height="225.95" rx="8" fill="none" stroke="#0b1020" stroke-opacity="0.5" stroke-width="1.5"/>
+<text x="806.02" y="148.00" fill="#0b1020" font-size="12.5" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">odysseus</text>
+<text x="806.02" y="168.00" fill="#0b1020" fill-opacity="0.78" font-size="11" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">267.4K lines · 730 files</text>
+</g><g>
+<rect x="1043.04" y="124.00" width="172.96" height="225.95" rx="8" fill="#f1e05a" fill-opacity="0.82"/>
+<rect x="1043.04" y="124.00" width="172.96" height="225.95" rx="8" fill="none" stroke="#0b1020" stroke-opacity="0.5" stroke-width="1.5"/>
+<text x="1053.04" y="148.00" fill="#0b1020" font-size="12.5" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">kelvdra-bails</text>
+<text x="1053.04" y="168.00" fill="#0b1020" fill-opacity="0.78" font-size="11" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">191.6K lines · 189 files</text>
+</g><g>
+<rect x="796.02" y="353.95" width="144.32" height="225.50" rx="8" fill="#f1e05a" fill-opacity="0.82"/>
+<rect x="796.02" y="353.95" width="144.32" height="225.50" rx="8" fill="none" stroke="#0b1020" stroke-opacity="0.5" stroke-width="1.5"/>
+<text x="806.02" y="377.95" fill="#0b1020" font-size="12.5" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">yousoclix-wabailey…</text>
+<text x="806.02" y="397.95" fill="#0b1020" fill-opacity="0.78" font-size="11" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">160.3K lines · 167 files</text>
+</g><g>
+<rect x="796.02" y="583.45" width="144.32" height="96.55" rx="8" fill="#3178c6" fill-opacity="0.82"/>
+<rect x="796.02" y="583.45" width="144.32" height="96.55" rx="8" fill="none" stroke="#0b1020" stroke-opacity="0.5" stroke-width="1.5"/>
+<text x="806.02" y="607.45" fill="#0b1020" font-size="12.5" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">apisku</text>
+<text x="806.02" y="627.45" fill="#0b1020" fill-opacity="0.78" font-size="11" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">70.2K lines · 319 files</text>
+</g><g>
+<rect x="944.34" y="353.95" width="105.44" height="107.67" rx="8" fill="#f34b7d" fill-opacity="0.82"/>
+<rect x="944.34" y="353.95" width="105.44" height="107.67" rx="8" fill="none" stroke="#0b1020" stroke-opacity="0.5" stroke-width="1.5"/>
+<text x="954.34" y="377.95" fill="#0b1020" font-size="12.5" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">DSA_Code</text>
+<text x="954.34" y="397.95" fill="#0b1020" fill-opacity="0.78" font-size="11" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">57.5K lines · 661 files</text>
+</g><g>
+<rect x="1053.78" y="353.95" width="86.83" height="107.67" rx="8" fill="#f1e05a" fill-opacity="0.82"/>
+<rect x="1053.78" y="353.95" width="86.83" height="107.67" rx="8" fill="none" stroke="#0b1020" stroke-opacity="0.5" stroke-width="1.5"/>
+<text x="1063.78" y="377.95" fill="#0b1020" font-size="12.5" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">portofolio…</text>
+<text x="1063.78" y="397.95" fill="#0b1020" fill-opacity="0.78" font-size="11" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">47.8K lines · 90 files</text>
+</g><g>
+<rect x="1144.61" y="353.95" width="71.39" height="107.67" rx="8" fill="#3178c6" fill-opacity="0.82"/>
+<rect x="1144.61" y="353.95" width="71.39" height="107.67" rx="8" fill="none" stroke="#0b1020" stroke-opacity="0.5" stroke-width="1.5"/>
+
+
+</g><g>
+<rect x="944.34" y="465.62" width="94.38" height="76.70" rx="8" fill="#3178c6" fill-opacity="0.82"/>
+<rect x="944.34" y="465.62" width="94.38" height="76.70" rx="8" fill="none" stroke="#0b1020" stroke-opacity="0.5" stroke-width="1.5"/>
+<text x="954.34" y="489.62" fill="#0b1020" font-size="12.5" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">kaai-code-s…</text>
+<text x="954.34" y="509.62" fill="#0b1020" fill-opacity="0.78" font-size="11" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">37.4K lines · 242 files</text>
+</g><g>
+<rect x="944.34" y="546.32" width="94.38" height="67.97" rx="8" fill="#f34b7d" fill-opacity="0.82"/>
+<rect x="944.34" y="546.32" width="94.38" height="67.97" rx="8" fill="none" stroke="#0b1020" stroke-opacity="0.5" stroke-width="1.5"/>
+<text x="954.34" y="570.32" fill="#0b1020" font-size="12.5" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">Hacktoberfe…</text>
+<text x="954.34" y="590.32" fill="#0b1020" fill-opacity="0.78" font-size="11" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">33.3K lines · 520 files</text>
+</g><g>
+<rect x="944.34" y="618.29" width="94.38" height="61.71" rx="8" fill="#3178c6" fill-opacity="0.82"/>
+<rect x="944.34" y="618.29" width="94.38" height="61.71" rx="8" fill="none" stroke="#0b1020" stroke-opacity="0.5" stroke-width="1.5"/>
+<text x="954.34" y="642.29" fill="#0b1020" font-size="12.5" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">coding-agen…</text>
+<text x="954.34" y="662.29" fill="#0b1020" fill-opacity="0.78" font-size="11" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">30.4K lines · 242 files</text>
+</g><g>
+<rect x="1042.73" y="465.62" width="61.12" height="44.29" rx="8" fill="#3178c6" fill-opacity="0.82"/>
+<rect x="1042.73" y="465.62" width="61.12" height="44.29" rx="8" fill="none" stroke="#0b1020" stroke-opacity="0.5" stroke-width="1.5"/>
+
+
+</g><g>
+<rect x="1107.84" y="465.62" width="54.54" height="44.29" rx="8" fill="#3178c6" fill-opacity="0.82"/>
+<rect x="1107.84" y="465.62" width="54.54" height="44.29" rx="8" fill="none" stroke="#0b1020" stroke-opacity="0.5" stroke-width="1.5"/>
+
+
+</g><g>
+<rect x="1166.38" y="465.62" width="49.62" height="44.29" rx="8" fill="#b07219" fill-opacity="0.82"/>
+<rect x="1166.38" y="465.62" width="49.62" height="44.29" rx="8" fill="none" stroke="#0b1020" stroke-opacity="0.5" stroke-width="1.5"/>
+
+
+</g><g>
+<rect x="1042.73" y="513.91" width="41.29" height="46.25" rx="8" fill="#3178c6" fill-opacity="0.82"/>
+<rect x="1042.73" y="513.91" width="41.29" height="46.25" rx="8" fill="none" stroke="#0b1020" stroke-opacity="0.5" stroke-width="1.5"/>
+
+
+</g><g>
+<rect x="1042.73" y="564.16" width="41.29" height="42.75" rx="8" fill="#00B4AB" fill-opacity="0.82"/>
+<rect x="1042.73" y="564.16" width="41.29" height="42.75" rx="8" fill="none" stroke="#0b1020" stroke-opacity="0.5" stroke-width="1.5"/>
+
+
+</g><g>
+<rect x="1042.73" y="610.92" width="41.29" height="33.92" rx="8" fill="#3178c6" fill-opacity="0.82"/>
+<rect x="1042.73" y="610.92" width="41.29" height="33.92" rx="8" fill="none" stroke="#0b1020" stroke-opacity="0.5" stroke-width="1.5"/>
+
+
+</g><g>
+<rect x="1042.73" y="648.84" width="41.29" height="31.16" rx="8" fill="#f1e05a" fill-opacity="0.82"/>
+<rect x="1042.73" y="648.84" width="41.29" height="31.16" rx="8" fill="none" stroke="#0b1020" stroke-opacity="0.5" stroke-width="1.5"/>
+
+
+</g><g>
+<rect x="1088.01" y="513.91" width="41.86" height="30.16" rx="8" fill="#3178c6" fill-opacity="0.82"/>
+<rect x="1088.01" y="513.91" width="41.86" height="30.16" rx="8" fill="none" stroke="#0b1020" stroke-opacity="0.5" stroke-width="1.5"/>
+
+
+</g><g>
+<rect x="1133.87" y="513.91" width="41.32" height="30.16" rx="8" fill="#563d7c" fill-opacity="0.82"/>
+<rect x="1133.87" y="513.91" width="41.32" height="30.16" rx="8" fill="none" stroke="#0b1020" stroke-opacity="0.5" stroke-width="1.5"/>
+
+
+</g><g>
+<rect x="1179.19" y="513.91" width="36.81" height="30.16" rx="8" fill="#f1e05a" fill-opacity="0.82"/>
+<rect x="1179.19" y="513.91" width="36.81" height="30.16" rx="8" fill="none" stroke="#0b1020" stroke-opacity="0.5" stroke-width="1.5"/>
+
+
+</g><g>
+<rect x="1088.01" y="548.07" width="30.44" height="32.93" rx="8" fill="#3178c6" fill-opacity="0.82"/>
+<rect x="1088.01" y="548.07" width="30.44" height="32.93" rx="8" fill="none" stroke="#0b1020" stroke-opacity="0.5" stroke-width="1.5"/>
+
+
+</g><g>
+<rect x="1122.45" y="548.07" width="30.18" height="32.93" rx="8" fill="#3178c6" fill-opacity="0.82"/>
+<rect x="1122.45" y="548.07" width="30.18" height="32.93" rx="8" fill="none" stroke="#0b1020" stroke-opacity="0.5" stroke-width="1.5"/>
+
+
+</g><g>
+<rect x="1156.63" y="548.07" width="28.09" height="32.93" rx="8" fill="#3178c6" fill-opacity="0.82"/>
+<rect x="1156.63" y="548.07" width="28.09" height="32.93" rx="8" fill="none" stroke="#0b1020" stroke-opacity="0.5" stroke-width="1.5"/>
+
+
+</g><g>
+<rect x="1188.72" y="548.07" width="27.28" height="32.93" rx="8" fill="#3178c6" fill-opacity="0.82"/>
+<rect x="1188.72" y="548.07" width="27.28" height="32.93" rx="8" fill="none" stroke="#0b1020" stroke-opacity="0.5" stroke-width="1.5"/>
+
+
+</g><g>
+<rect x="1088.01" y="585.00" width="27.34" height="32.53" rx="8" fill="#3178c6" fill-opacity="0.82"/>
+<rect x="1088.01" y="585.00" width="27.34" height="32.53" rx="8" fill="none" stroke="#0b1020" stroke-opacity="0.5" stroke-width="1.5"/>
+
+
+</g><g>
+<rect x="1088.01" y="621.53" width="27.34" height="31.18" rx="8" fill="#dea584" fill-opacity="0.82"/>
+<rect x="1088.01" y="621.53" width="27.34" height="31.18" rx="8" fill="none" stroke="#0b1020" stroke-opacity="0.5" stroke-width="1.5"/>
+
+
+</g><g>
+<rect x="1088.01" y="656.71" width="27.34" height="23.29" rx="8" fill="#f1e05a" fill-opacity="0.82"/>
+<rect x="1088.01" y="656.71" width="27.34" height="23.29" rx="8" fill="none" stroke="#0b1020" stroke-opacity="0.5" stroke-width="1.5"/>
+
+
+</g><g>
+<rect x="1119.35" y="585.00" width="21.31" height="29.37" rx="8" fill="#f1e05a" fill-opacity="0.82"/>
+<rect x="1119.35" y="585.00" width="21.31" height="29.37" rx="8" fill="none" stroke="#0b1020" stroke-opacity="0.5" stroke-width="1.5"/>
+
+
+</g><g>
+<rect x="1119.35" y="618.37" width="21.31" height="28.94" rx="8" fill="#f1e05a" fill-opacity="0.82"/>
+<rect x="1119.35" y="618.37" width="21.31" height="28.94" rx="8" fill="none" stroke="#0b1020" stroke-opacity="0.5" stroke-width="1.5"/>
+
+
+</g><g>
+<rect x="1119.35" y="651.31" width="21.31" height="28.69" rx="8" fill="#f1e05a" fill-opacity="0.82"/>
+<rect x="1119.35" y="651.31" width="21.31" height="28.69" rx="8" fill="none" stroke="#0b1020" stroke-opacity="0.5" stroke-width="1.5"/>
+
+
+</g><g>
+<rect x="1144.67" y="585.00" width="21.26" height="27.42" rx="8" fill="#563d7c" fill-opacity="0.82"/>
+<rect x="1144.67" y="585.00" width="21.26" height="27.42" rx="8" fill="none" stroke="#0b1020" stroke-opacity="0.5" stroke-width="1.5"/>
+
+
+</g><g>
+<rect x="1169.92" y="585.00" width="21.08" height="27.42" rx="8" fill="#3178c6" fill-opacity="0.82"/>
+<rect x="1169.92" y="585.00" width="21.08" height="27.42" rx="8" fill="none" stroke="#0b1020" stroke-opacity="0.5" stroke-width="1.5"/>
+
+
+</g><g>
+<rect x="1195.00" y="585.00" width="21.00" height="27.42" rx="8" fill="#3572A5" fill-opacity="0.82"/>
+<rect x="1195.00" y="585.00" width="21.00" height="27.42" rx="8" fill="none" stroke="#0b1020" stroke-opacity="0.5" stroke-width="1.5"/>
+
+
+</g><g>
+<rect x="1144.67" y="616.42" width="24.74" height="22.17" rx="8" fill="#f1e05a" fill-opacity="0.82"/>
+<rect x="1144.67" y="616.42" width="24.74" height="22.17" rx="8" fill="none" stroke="#0b1020" stroke-opacity="0.5" stroke-width="1.5"/>
+
+
+</g><g>
+<rect x="1144.67" y="642.60" width="24.74" height="17.39" rx="8" fill="#89e051" fill-opacity="0.82"/>
+<rect x="1144.67" y="642.60" width="24.74" height="17.39" rx="8" fill="none" stroke="#0b1020" stroke-opacity="0.5" stroke-width="1.5"/>
+
+
+</g><g>
+<rect x="1144.67" y="663.98" width="24.74" height="16.02" rx="8" fill="#563d7c" fill-opacity="0.82"/>
+<rect x="1144.67" y="663.98" width="24.74" height="16.02" rx="8" fill="none" stroke="#0b1020" stroke-opacity="0.5" stroke-width="1.5"/>
+
+
+</g><g>
+<rect x="1173.41" y="616.42" width="20.28" height="17.37" rx="8" fill="#f34b7d" fill-opacity="0.82"/>
+<rect x="1173.41" y="616.42" width="20.28" height="17.37" rx="8" fill="none" stroke="#0b1020" stroke-opacity="0.5" stroke-width="1.5"/>
+
+
+</g><g>
+<rect x="1197.68" y="616.42" width="18.32" height="17.37" rx="8" fill="#3178c6" fill-opacity="0.82"/>
+<rect x="1197.68" y="616.42" width="18.32" height="17.37" rx="8" fill="none" stroke="#0b1020" stroke-opacity="0.5" stroke-width="1.5"/>
+
+
+</g><g>
+<rect x="1173.41" y="637.79" width="15.62" height="19.30" rx="8" fill="#3572A5" fill-opacity="0.82"/>
+<rect x="1173.41" y="637.79" width="15.62" height="19.30" rx="8" fill="none" stroke="#0b1020" stroke-opacity="0.5" stroke-width="1.5"/>
+
+
+</g><g>
+<rect x="1173.41" y="661.09" width="15.62" height="18.91" rx="8" fill="#3178c6" fill-opacity="0.82"/>
+<rect x="1173.41" y="661.09" width="15.62" height="18.91" rx="8" fill="none" stroke="#0b1020" stroke-opacity="0.5" stroke-width="1.5"/>
+
+
+</g><g>
+<rect x="1193.02" y="637.79" width="22.98" height="12.28" rx="8" fill="#f1e05a" fill-opacity="0.82"/>
+<rect x="1193.02" y="637.79" width="22.98" height="12.28" rx="8" fill="none" stroke="#0b1020" stroke-opacity="0.5" stroke-width="1.5"/>
+
+
+</g><g>
+<rect x="1193.02" y="654.07" width="22.98" height="11.15" rx="8" fill="#f1e05a" fill-opacity="0.82"/>
+<rect x="1193.02" y="654.07" width="22.98" height="11.15" rx="8" fill="none" stroke="#0b1020" stroke-opacity="0.5" stroke-width="1.5"/>
+
+
+</g><g>
+<rect x="1193.02" y="669.22" width="22.98" height="10.78" rx="8" fill="#f1e05a" fill-opacity="0.82"/>
+<rect x="1193.02" y="669.22" width="22.98" height="10.78" rx="8" fill="none" stroke="#0b1020" stroke-opacity="0.5" stroke-width="1.5"/>
+
+
+</g><text x="30" y="710" fill="#8b93a7" font-size="11" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">dominant language of each repository</text><g transform="translate(30 724)">
+<rect width="15" height="15" rx="4" fill="#f1e05a"/>
+<text x="24" y="12" fill="#e2e8f0" font-size="11.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">JavaScript</text>
+<text x="24" y="29" fill="#64748b" font-size="10.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">16 repos · 86.9%</text>
+</g><g transform="translate(164 724)">
+<rect width="15" height="15" rx="4" fill="#3178c6"/>
+<text x="24" y="12" fill="#e2e8f0" font-size="11.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">TypeScript</text>
+<text x="24" y="29" fill="#64748b" font-size="10.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">17 repos · 8.6%</text>
+</g><g transform="translate(298 724)">
+<rect width="15" height="15" rx="4" fill="#f34b7d"/>
+<text x="24" y="12" fill="#e2e8f0" font-size="11.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">C++</text>
+<text x="24" y="29" fill="#64748b" font-size="10.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">3 repos · 3.0%</text>
+</g><g transform="translate(432 724)">
+<rect width="15" height="15" rx="4" fill="#563d7c"/>
+<text x="24" y="12" fill="#e2e8f0" font-size="11.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">CSS</text>
+<text x="24" y="29" fill="#64748b" font-size="10.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">3 repos · 0.4%</text>
+</g><g transform="translate(566 724)">
+<rect width="15" height="15" rx="4" fill="#b07219"/>
+<text x="24" y="12" fill="#e2e8f0" font-size="11.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">Java</text>
+<text x="24" y="29" fill="#64748b" font-size="10.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">1 repos · 0.4%</text>
+</g><g transform="translate(700 724)">
+<rect width="15" height="15" rx="4" fill="#00B4AB"/>
+<text x="24" y="12" fill="#e2e8f0" font-size="11.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">Dart</text>
+<text x="24" y="29" fill="#64748b" font-size="10.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">1 repos · 0.3%</text>
+</g><g transform="translate(834 724)">
+<rect width="15" height="15" rx="4" fill="#3572A5"/>
+<text x="24" y="12" fill="#e2e8f0" font-size="11.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">Python</text>
+<text x="24" y="29" fill="#64748b" font-size="10.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">2 repos · 0.2%</text>
+</g><g transform="translate(968 724)">
+<rect width="15" height="15" rx="4" fill="#dea584"/>
+<text x="24" y="12" fill="#e2e8f0" font-size="11.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">Rust</text>
+<text x="24" y="29" fill="#64748b" font-size="10.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">1 repos · 0.2%</text>
+</g><g transform="translate(1102 724)">
+<rect width="15" height="15" rx="4" fill="#89e051"/>
+<text x="24" y="12" fill="#e2e8f0" font-size="11.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">Shell</text>
+<text x="24" y="29" fill="#64748b" font-size="10.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">1 repos · 0.1%</text>
+</g><g transform="translate(30 780)">
+<rect width="130" height="54" rx="12" fill="#0d1322" stroke="#4338ca" stroke-opacity="0.35" stroke-width="1.2"/>
+<text x="14" y="20" fill="#8b93a7" font-size="10.5" font-weight="700" letter-spacing="1.2" font-family="Inter,'Segoe UI',system-ui,sans-serif">TILES</text>
+<text x="14" y="42" fill="#4338ca" font-size="17" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">45</text>
+</g><g transform="translate(170 780)">
+<rect width="190" height="54" rx="12" fill="#0d1322" stroke="#764ba2" stroke-opacity="0.35" stroke-width="1.2"/>
+<text x="14" y="20" fill="#8b93a7" font-size="10.5" font-weight="700" letter-spacing="1.2" font-family="Inter,'Segoe UI',system-ui,sans-serif">LANGUAGES SHOWN</text>
+<text x="14" y="42" fill="#764ba2" font-size="17" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">9</text>
+</g><g transform="translate(370 780)">
+<rect width="165" height="54" rx="12" fill="#0d1322" stroke="#15803d" stroke-opacity="0.35" stroke-width="1.2"/>
+<text x="14" y="20" fill="#8b93a7" font-size="10.5" font-weight="700" letter-spacing="1.2" font-family="Inter,'Segoe UI',system-ui,sans-serif">SHOWN SHARE</text>
+<text x="14" y="42" fill="#15803d" font-size="17" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">99.0%</text>
+</g><g transform="translate(545 780)">
+<rect width="185" height="54" rx="12" fill="#0d1322" stroke="#b45309" stroke-opacity="0.35" stroke-width="1.2"/>
+<text x="14" y="20" fill="#8b93a7" font-size="10.5" font-weight="700" letter-spacing="1.2" font-family="Inter,'Segoe UI',system-ui,sans-serif">CENSUS TOTAL</text>
+<text x="14" y="42" fill="#b45309" font-size="17" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">3.2M lines</text>
+</g><g transform="translate(740 780)">
+<rect width="165" height="54" rx="12" fill="#0d1322" stroke="#0e7490" stroke-opacity="0.35" stroke-width="1.2"/>
+<text x="14" y="20" fill="#8b93a7" font-size="10.5" font-weight="700" letter-spacing="1.2" font-family="Inter,'Segoe UI',system-ui,sans-serif">CELL AREA</text>
+<text x="14" y="42" fill="#0e7490" font-size="17" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">code lines</text>
+</g>
+<text x="30" y="838" fill="#64748b" font-size="11" font-family="Inter,'Segoe UI',system-ui,sans-serif">Squarified treemap: tile area is proportional to tracked non-blank source lines, colour is the repository’s dominant language · generated 04 Oct 2026, 15:39</text>
+</svg>

@@ -1,0 +1,81 @@
+<svg width="1250" height="640" viewBox="0 0 1250 640" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1250" y2="640">
+<stop stop-color="#0f172a"/><stop offset="0.55" stop-color="#111827"/><stop offset="1" stop-color="#312e81"/>
+</linearGradient>
+<linearGradient id="bar" x1="0" y1="0" x2="1250" y2="0">
+<stop stop-color="#667eea"/><stop offset="1" stop-color="#764ba2"/>
+</linearGradient>
+<linearGradient id="titleLine" x1="0" y1="0" x2="1250" y2="0">
+<stop stop-color="#667eea" stop-opacity="0"/><stop offset="0.5" stop-color="#a78bfa"/><stop offset="1" stop-color="#667eea" stop-opacity="0"/>
+</linearGradient>
+</defs>
+<rect width="1250" height="640" rx="26" fill="url(#bg)"/>
+<circle cx="1170" cy="40" r="130" fill="#667eea" opacity="0.12"/>
+<circle cx="90" cy="620" r="150" fill="#764ba2" opacity="0.12"/>
+<text x="30" y="44" fill="#ffffff" font-size="25" font-weight="900" font-family="Inter,'Segoe UI',system-ui,sans-serif">Repository Size Distribution</text>
+<text x="30" y="66" fill="#94a3b8" font-size="12.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">How the code census is distributed across repositories — bar height is repository count, label above each bar is that band’s share of all census lines</text>
+<rect x="30" y="80" width="1190" height="3.5" rx="1.75" fill="url(#titleLine)"/>
+<text x="78" y="116" text-anchor="end" fill="#8b93a7" font-size="11" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">repos</text>
+<text x="1168" y="116" fill="#c4b5fd" font-size="11" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">% of lines</text><line x1="92" y1="450.00" x2="1154" y2="450.00" stroke="#ffffff" stroke-opacity="0.07" stroke-width="1"/>
+<text x="78" y="454.00" text-anchor="end" fill="#64748b" font-size="11.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">0</text><line x1="92" y1="369.50" x2="1154" y2="369.50" stroke="#ffffff" stroke-opacity="0.07" stroke-width="1"/>
+<text x="78" y="373.50" text-anchor="end" fill="#64748b" font-size="11.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">8</text><line x1="92" y1="289.00" x2="1154" y2="289.00" stroke="#ffffff" stroke-opacity="0.07" stroke-width="1"/>
+<text x="78" y="293.00" text-anchor="end" fill="#64748b" font-size="11.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">16</text><line x1="92" y1="208.50" x2="1154" y2="208.50" stroke="#ffffff" stroke-opacity="0.07" stroke-width="1"/>
+<text x="78" y="212.50" text-anchor="end" fill="#64748b" font-size="11.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">24</text><line x1="92" y1="128.00" x2="1154" y2="128.00" stroke="#ffffff" stroke-opacity="0.07" stroke-width="1"/>
+<text x="78" y="132.00" text-anchor="end" fill="#64748b" font-size="11.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">32</text><g>
+<rect x="134.48" y="258.81" width="92.04" height="191.19" rx="6" fill="#334155"/>
+<text x="180.50" y="248.81" text-anchor="middle" fill="#ffffff" font-size="13" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">19</text>
+<text x="180.50" y="231.81" text-anchor="middle" fill="#94a3b8" font-size="10.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">0.0% lines</text>
+<text x="180.50" y="472" text-anchor="middle" fill="#cbd5e1" font-size="11.5" font-weight="600" font-family="Inter,'Segoe UI',system-ui,sans-serif">0</text>
+</g><g>
+<rect x="311.48" y="168.25" width="92.04" height="281.75" rx="6" fill="#4338ca"/>
+<text x="357.50" y="158.25" text-anchor="middle" fill="#ffffff" font-size="13" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">28</text>
+<text x="357.50" y="141.25" text-anchor="middle" fill="#94a3b8" font-size="10.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">0.3% lines</text>
+<text x="357.50" y="472" text-anchor="middle" fill="#cbd5e1" font-size="11.5" font-weight="600" font-family="Inter,'Segoe UI',system-ui,sans-serif">1–999</text>
+</g><g>
+<rect x="488.48" y="128.00" width="92.04" height="322.00" rx="6" fill="#5b21b6"/>
+<text x="534.50" y="118.00" text-anchor="middle" fill="#ffffff" font-size="13" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">32</text>
+<text x="534.50" y="101.00" text-anchor="middle" fill="#94a3b8" font-size="10.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">2.3% lines</text>
+<text x="534.50" y="472" text-anchor="middle" fill="#cbd5e1" font-size="11.5" font-weight="600" font-family="Inter,'Segoe UI',system-ui,sans-serif">1k–4.9k</text>
+</g><g>
+<rect x="665.48" y="289.00" width="92.04" height="161.00" rx="6" fill="#7c3aed"/>
+<text x="711.50" y="279.00" text-anchor="middle" fill="#ffffff" font-size="13" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">16</text>
+<text x="711.50" y="262.00" text-anchor="middle" fill="#94a3b8" font-size="10.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">4.1% lines</text>
+<text x="711.50" y="472" text-anchor="middle" fill="#cbd5e1" font-size="11.5" font-weight="600" font-family="Inter,'Segoe UI',system-ui,sans-serif">5k–19.9k</text>
+</g><g>
+<rect x="842.48" y="379.56" width="92.04" height="70.44" rx="6" fill="#a78bfa"/>
+<text x="888.50" y="369.56" text-anchor="middle" fill="#ffffff" font-size="13" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">7</text>
+<text x="888.50" y="352.56" text-anchor="middle" fill="#94a3b8" font-size="10.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">10.0% lines</text>
+<text x="888.50" y="472" text-anchor="middle" fill="#cbd5e1" font-size="11.5" font-weight="600" font-family="Inter,'Segoe UI',system-ui,sans-serif">20k–99.9k</text>
+</g><g>
+<rect x="1019.48" y="399.69" width="92.04" height="50.31" rx="6" fill="#e9d5ff"/>
+<text x="1065.50" y="389.69" text-anchor="middle" fill="#ffffff" font-size="13" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">5</text>
+<text x="1065.50" y="372.69" text-anchor="middle" fill="#94a3b8" font-size="10.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">83.2% lines</text>
+<text x="1065.50" y="472" text-anchor="middle" fill="#cbd5e1" font-size="11.5" font-weight="600" font-family="Inter,'Segoe UI',system-ui,sans-serif">100k+</text>
+</g><g transform="translate(30 548)">
+<rect width="165" height="54" rx="12" fill="#0d1322" stroke="#4338ca" stroke-opacity="0.35" stroke-width="1.2"/>
+<text x="14" y="20" fill="#8b93a7" font-size="10.5" font-weight="700" letter-spacing="1.2" font-family="Inter,'Segoe UI',system-ui,sans-serif">REPOS SCANNED</text>
+<text x="14" y="42" fill="#4338ca" font-size="17" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">107</text>
+</g><g transform="translate(205 548)">
+<rect width="165" height="54" rx="12" fill="#0d1322" stroke="#15803d" stroke-opacity="0.35" stroke-width="1.2"/>
+<text x="14" y="20" fill="#8b93a7" font-size="10.5" font-weight="700" letter-spacing="1.2" font-family="Inter,'Segoe UI',system-ui,sans-serif">WITH SOURCE</text>
+<text x="14" y="42" fill="#15803d" font-size="17" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">88</text>
+</g><g transform="translate(380 548)">
+<rect width="175" height="54" rx="12" fill="#0d1322" stroke="#764ba2" stroke-opacity="0.35" stroke-width="1.2"/>
+<text x="14" y="20" fill="#8b93a7" font-size="10.5" font-weight="700" letter-spacing="1.2" font-family="Inter,'Segoe UI',system-ui,sans-serif">LARGEST</text>
+<text x="14" y="42" fill="#764ba2" font-size="17" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">1.4M lines</text>
+</g><g transform="translate(565 548)">
+<rect width="175" height="54" rx="12" fill="#0d1322" stroke="#0e7490" stroke-opacity="0.35" stroke-width="1.2"/>
+<text x="14" y="20" fill="#8b93a7" font-size="10.5" font-weight="700" letter-spacing="1.2" font-family="Inter,'Segoe UI',system-ui,sans-serif">MEDIAN</text>
+<text x="14" y="42" fill="#0e7490" font-size="17" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">1.4K lines</text>
+</g><g transform="translate(750 548)">
+<rect width="175" height="54" rx="12" fill="#0d1322" stroke="#b45309" stroke-opacity="0.35" stroke-width="1.2"/>
+<text x="14" y="20" fill="#8b93a7" font-size="10.5" font-weight="700" letter-spacing="1.2" font-family="Inter,'Segoe UI',system-ui,sans-serif">GINI (REPOS)</text>
+<text x="14" y="42" fill="#b45309" font-size="17" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">0.91</text>
+</g><g transform="translate(935 548)">
+<rect width="215" height="54" rx="12" fill="#0d1322" stroke="#7e22ce" stroke-opacity="0.35" stroke-width="1.2"/>
+<text x="14" y="20" fill="#8b93a7" font-size="10.5" font-weight="700" letter-spacing="1.2" font-family="Inter,'Segoe UI',system-ui,sans-serif">TOTAL</text>
+<text x="14" y="42" fill="#7e22ce" font-size="17" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">3.2M lines</text>
+</g>
+<text x="30" y="626" fill="#64748b" font-size="11" font-family="Inter,'Segoe UI',system-ui,sans-serif">Buckets are magnitude bands of non-blank tracked source lines per repository · generated 04 Oct 2026, 15:39</text>
+</svg>
