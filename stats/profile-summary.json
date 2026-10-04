@@ -1,6 +1,6 @@
 {
   "username": "akaanakbaik",
-  "generatedAt": "04 Oct 2026, 22:21",
+  "generatedAt": "05 Oct 2026, 02:35",
   "publicRepos": 107,
   "originalRepos": 87,
   "forkedRepos": 20,
@@ -13,13 +13,13 @@
   "totalForks": 27,
   "totalWatchers": 13,
   "totalSize": "840.4 MB",
-  "totalSizeKb": 860524,
+  "totalSizeKb": 860572,
   "topLanguage": "JavaScript",
   "accountAge": "2y 2m",
   "accountAgePrecise": "2 years 2 months",
   "accountCreatedAt": "2024-08-03T01:58:16Z",
   "topRepo": "pterodactyl-gateway",
-  "recentRepo": "kaboxv8",
+  "recentRepo": "dastermv2",
   "largestRepo": "Hacktoberfest2025-3",
   "languageDistribution": {
     "totalBytes": 48138717,
@@ -2007,22 +2007,22 @@
   ],
   "recentRepositories": [
     {
-      "name": "kaboxv8",
-      "url": "https://github.com/akaanakbaik/kaboxv8",
-      "language": "JavaScript",
-      "updatedAt": "2026-10-04T14:27:42Z"
-    },
-    {
       "name": "dastermv2",
       "url": "https://github.com/akaanakbaik/dastermv2",
       "language": "Shell",
-      "updatedAt": "2026-10-04T13:45:49Z"
+      "updatedAt": "2026-10-04T18:00:43Z"
     },
     {
       "name": "akaanakbaik",
       "url": "https://github.com/akaanakbaik/akaanakbaik",
       "language": "JavaScript",
-      "updatedAt": "2026-10-04T09:46:08Z"
+      "updatedAt": "2026-10-04T15:22:50Z"
+    },
+    {
+      "name": "kaboxv8",
+      "url": "https://github.com/akaanakbaik/kaboxv8",
+      "language": "JavaScript",
+      "updatedAt": "2026-10-04T14:27:42Z"
     },
     {
       "name": "auto-commit",
