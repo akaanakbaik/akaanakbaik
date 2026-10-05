@@ -1,6 +1,6 @@
 {
   "username": "akaanakbaik",
-  "generatedAt": "05 Oct 2026, 06:07",
+  "generatedAt": "05 Oct 2026, 08:58",
   "publicRepos": 107,
   "originalRepos": 87,
   "forkedRepos": 20,
@@ -13,13 +13,13 @@
   "totalForks": 27,
   "totalWatchers": 13,
   "totalSize": "840.4 MB",
-  "totalSizeKb": 860577,
+  "totalSizeKb": 860615,
   "topLanguage": "JavaScript",
   "accountAge": "2y 2m",
   "accountAgePrecise": "2 years 2 months",
   "accountCreatedAt": "2024-08-03T01:58:16Z",
   "topRepo": "pterodactyl-gateway",
-  "recentRepo": "akaanakbaik",
+  "recentRepo": "dastermv2",
   "largestRepo": "Hacktoberfest2025-3",
   "languageDistribution": {
     "totalBytes": 48138717,
@@ -2007,16 +2007,16 @@
   ],
   "recentRepositories": [
     {
-      "name": "akaanakbaik",
-      "url": "https://github.com/akaanakbaik/akaanakbaik",
-      "language": "JavaScript",
-      "updatedAt": "2026-10-04T22:54:27Z"
-    },
-    {
       "name": "dastermv2",
       "url": "https://github.com/akaanakbaik/dastermv2",
       "language": "Shell",
-      "updatedAt": "2026-10-04T21:46:33Z"
+      "updatedAt": "2026-10-05T00:29:33Z"
+    },
+    {
+      "name": "akaanakbaik",
+      "url": "https://github.com/akaanakbaik/akaanakbaik",
+      "language": "JavaScript",
+      "updatedAt": "2026-10-04T23:08:51Z"
     },
     {
       "name": "kaboxv8",
@@ -2059,19 +2059,19 @@
     "pullRequests": 45,
     "issues": 15,
     "reposContributed": 9,
-    "totalCommitContributions": 3380,
-    "totalIssueContributions": 11,
-    "totalPRContributions": 40,
+    "totalCommitContributions": 3379,
+    "totalIssueContributions": 10,
+    "totalPRContributions": 39,
     "totalPRReviews": 0,
-    "totalRepositoryContributions": 69,
-    "totalContributions": 4103
+    "totalRepositoryContributions": 66,
+    "totalContributions": 4097
   },
   "streak": {
     "currentStreak": 1,
     "longest": 80,
     "lastActiveDate": "2026-10-04",
     "activeDays": 210,
-    "totalContributions": 4103
+    "totalContributions": 4097
   },
   "commitHours": {
     "sampled": 3408,
@@ -2305,8 +2305,8 @@
     ],
     "peakHour": 23,
     "peakWeekday": "Sun",
-    "circularMean": 20.450452363337128,
-    "circularStd": 6.24375386288656,
+    "circularMean": 20.450452363337124,
+    "circularStd": 6.243753862886559,
     "activeHours": 24,
     "reposWithCommits": 86,
     "topCommitRepos": [
@@ -2368,8 +2368,8 @@
   "codingAge": {
     "years": 2,
     "months": 2,
-    "days": 1,
-    "totalDays": 792,
+    "days": 2,
+    "totalDays": 793,
     "label": "2 years 2 months",
     "createdAt": "2024-08-03T01:58:16Z"
   },
