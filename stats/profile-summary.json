@@ -1,6 +1,6 @@
 {
   "username": "akaanakbaik",
-  "generatedAt": "09 Oct 2026, 07:12",
+  "generatedAt": "09 Oct 2026, 09:07",
   "publicRepos": 107,
   "originalRepos": 87,
   "forkedRepos": 20,
@@ -12,14 +12,14 @@
   "totalStars": 409,
   "totalForks": 27,
   "totalWatchers": 13,
-  "totalSize": "840.2 MB",
-  "totalSizeKb": 860394,
+  "totalSize": "840.3 MB",
+  "totalSizeKb": 860425,
   "topLanguage": "JavaScript",
   "accountAge": "2y 2m",
   "accountAgePrecise": "2 years 2 months",
   "accountCreatedAt": "2024-08-03T01:58:16Z",
   "topRepo": "pterodactyl-gateway",
-  "recentRepo": "dastermv2",
+  "recentRepo": "akaanakbaik",
   "largestRepo": "Hacktoberfest2025-3",
   "languageDistribution": {
     "totalBytes": 48138717,
@@ -2007,16 +2007,16 @@
   ],
   "recentRepositories": [
     {
+      "name": "akaanakbaik",
+      "url": "https://github.com/akaanakbaik/akaanakbaik",
+      "language": "JavaScript",
+      "updatedAt": "2026-10-09T00:13:41Z"
+    },
+    {
       "name": "dastermv2",
       "url": "https://github.com/akaanakbaik/dastermv2",
       "language": "Shell",
       "updatedAt": "2026-10-09T00:10:21Z"
-    },
-    {
-      "name": "akaanakbaik",
-      "url": "https://github.com/akaanakbaik/akaanakbaik",
-      "language": "JavaScript",
-      "updatedAt": "2026-10-08T21:19:52Z"
     },
     {
       "name": "auto-commit",
@@ -2306,7 +2306,7 @@
     "peakHour": 23,
     "peakWeekday": "Sun",
     "circularMean": 20.450452363337128,
-    "circularStd": 6.24375386288656,
+    "circularStd": 6.243753862886561,
     "activeHours": 24,
     "reposWithCommits": 86,
     "topCommitRepos": [
@@ -2369,7 +2369,7 @@
     "years": 2,
     "months": 2,
     "days": 6,
-    "totalDays": 796,
+    "totalDays": 797,
     "label": "2 years 2 months",
     "createdAt": "2024-08-03T01:58:16Z"
   },
