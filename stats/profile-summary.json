@@ -1,6 +1,6 @@
 {
   "username": "akaanakbaik",
-  "generatedAt": "09 Oct 2026, 09:07",
+  "generatedAt": "09 Oct 2026, 16:00",
   "publicRepos": 107,
   "originalRepos": 87,
   "forkedRepos": 20,
@@ -13,13 +13,13 @@
   "totalForks": 27,
   "totalWatchers": 13,
   "totalSize": "840.3 MB",
-  "totalSizeKb": 860425,
+  "totalSizeKb": 860462,
   "topLanguage": "JavaScript",
   "accountAge": "2y 2m",
   "accountAgePrecise": "2 years 2 months",
   "accountCreatedAt": "2024-08-03T01:58:16Z",
   "topRepo": "pterodactyl-gateway",
-  "recentRepo": "akaanakbaik",
+  "recentRepo": "dastermv2",
   "largestRepo": "Hacktoberfest2025-3",
   "languageDistribution": {
     "totalBytes": 48138717,
@@ -2007,16 +2007,16 @@
   ],
   "recentRepositories": [
     {
-      "name": "akaanakbaik",
-      "url": "https://github.com/akaanakbaik/akaanakbaik",
-      "language": "JavaScript",
-      "updatedAt": "2026-10-09T00:13:41Z"
-    },
-    {
       "name": "dastermv2",
       "url": "https://github.com/akaanakbaik/dastermv2",
       "language": "Shell",
-      "updatedAt": "2026-10-09T00:10:21Z"
+      "updatedAt": "2026-10-09T06:30:30Z"
+    },
+    {
+      "name": "akaanakbaik",
+      "url": "https://github.com/akaanakbaik/akaanakbaik",
+      "language": "JavaScript",
+      "updatedAt": "2026-10-09T02:09:08Z"
     },
     {
       "name": "auto-commit",
@@ -2305,8 +2305,8 @@
     ],
     "peakHour": 23,
     "peakWeekday": "Sun",
-    "circularMean": 20.450452363337128,
-    "circularStd": 6.243753862886561,
+    "circularMean": 20.45045236333712,
+    "circularStd": 6.243753862886565,
     "activeHours": 24,
     "reposWithCommits": 86,
     "topCommitRepos": [
@@ -2400,15 +2400,15 @@
       "pullRequests": 21,
       "issues": 0,
       "discussions": 0,
-      "daysSincePush": 23,
+      "daysSincePush": 24,
       "commits": 160,
-      "score": 9.844899020736548,
+      "score": 9.818533995673594,
       "stars": 9,
       "forks": 0,
       "watchers": 0,
       "prs": 21,
-      "recency": 0.5998287320415084,
-      "scorePct": 88.85175530369767
+      "recency": 0.5866462195100318,
+      "scorePct": 88.61380682392806
     },
     {
       "name": "portofoliov2",
@@ -2418,15 +2418,15 @@
       "pullRequests": 1,
       "issues": 0,
       "discussions": 0,
-      "daysSincePush": 23,
+      "daysSincePush": 24,
       "commits": 141,
-      "score": 8.569333125514085,
+      "score": 8.54296810045113,
       "stars": 4,
       "forks": 2,
       "watchers": 0,
       "prs": 1,
-      "recency": 0.5998287320415084,
-      "scorePct": 77.33957335471825
+      "recency": 0.5866462195100318,
+      "scorePct": 77.10162487494866
     },
     {
       "name": "dastermv2",
@@ -2454,15 +2454,15 @@
       "pullRequests": 0,
       "issues": 0,
       "discussions": 0,
-      "daysSincePush": 23,
+      "daysSincePush": 24,
       "commits": 101,
-      "score": 7.906351968212914,
+      "score": 7.879986943149961,
       "stars": 4,
       "forks": 2,
       "watchers": 0,
       "prs": 0,
-      "recency": 0.5998287320415084,
-      "scorePct": 71.35606459191544
+      "recency": 0.5866462195100318,
+      "scorePct": 71.11811611214587
     }
   ]
 }
