@@ -10,8 +10,6 @@ Repo paling sibuk bulan ini: akaanakbaik (6), kaboxv8 (5), libsignal (3).
 
 Bahasa yang paling sering kupakai: TypeScript ×11, JavaScript ×9, HTML ×1.
 
-Selain itu aku juga membuka 1 pull request — terus berkontribusi dan berkolaborasi.
-
 Kesimpulan: bulan yang santai — waktu untuk recharge dan mulai proyek baru. Terus ngoding, tetap semangat! 🚀
 
 
@@ -29,5 +27,5 @@ Kesimpulan: bulan yang santai — waktu untuk recharge dan mulai proyek baru. Te
 | Jam puncak | 0:00 WIB |
 | Streak aktif | 0 hari |
 | Repo tersibuk | akaanakbaik (6), kaboxv8 (5), libsignal (3) |
-| Pull request dibuka | 1 |
+| Pull request dibuka | 0 |
 | Issue dibuka | 0 |
