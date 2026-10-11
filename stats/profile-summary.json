@@ -1,6 +1,6 @@
 {
   "username": "akaanakbaik",
-  "generatedAt": "11 Oct 2026, 08:51",
+  "generatedAt": "11 Oct 2026, 15:47",
   "publicRepos": 107,
   "originalRepos": 87,
   "forkedRepos": 20,
@@ -12,14 +12,14 @@
   "totalStars": 409,
   "totalForks": 27,
   "totalWatchers": 13,
-  "totalSize": "840.5 MB",
-  "totalSizeKb": 860712,
+  "totalSize": "840.6 MB",
+  "totalSizeKb": 860746,
   "topLanguage": "JavaScript",
   "accountAge": "2y 2m",
   "accountAgePrecise": "2 years 2 months",
   "accountCreatedAt": "2024-08-03T01:58:16Z",
   "topRepo": "pterodactyl-gateway",
-  "recentRepo": "auto-commit",
+  "recentRepo": "dastermv2",
   "largestRepo": "Hacktoberfest2025-3",
   "languageDistribution": {
     "totalBytes": 48138717,
@@ -2007,22 +2007,22 @@
   ],
   "recentRepositories": [
     {
-      "name": "auto-commit",
-      "url": "https://github.com/akaanakbaik/auto-commit",
-      "language": "Unknown",
-      "updatedAt": "2026-10-11T01:24:40Z"
-    },
-    {
       "name": "dastermv2",
       "url": "https://github.com/akaanakbaik/dastermv2",
       "language": "Shell",
-      "updatedAt": "2026-10-10T23:43:08Z"
+      "updatedAt": "2026-10-11T04:32:07Z"
     },
     {
       "name": "akaanakbaik",
       "url": "https://github.com/akaanakbaik/akaanakbaik",
       "language": "JavaScript",
-      "updatedAt": "2026-10-10T23:21:33Z"
+      "updatedAt": "2026-10-11T01:52:40Z"
+    },
+    {
+      "name": "auto-commit",
+      "url": "https://github.com/akaanakbaik/auto-commit",
+      "language": "Unknown",
+      "updatedAt": "2026-10-11T01:24:40Z"
     },
     {
       "name": "kaboxv8",
@@ -2305,7 +2305,7 @@
     ],
     "peakHour": 23,
     "peakWeekday": "Sun",
-    "circularMean": 20.450452363337128,
+    "circularMean": 20.45045236333713,
     "circularStd": 6.24375386288656,
     "activeHours": 24,
     "reposWithCommits": 86,
@@ -2369,7 +2369,7 @@
     "years": 2,
     "months": 2,
     "days": 8,
-    "totalDays": 798,
+    "totalDays": 799,
     "label": "2 years 2 months",
     "createdAt": "2024-08-03T01:58:16Z"
   },
@@ -2400,15 +2400,15 @@
       "pullRequests": 21,
       "issues": 0,
       "discussions": 0,
-      "daysSincePush": 25,
+      "daysSincePush": 26,
       "commits": 160,
-      "score": 9.792748398128396,
+      "score": 9.76752949394851,
       "stars": 9,
       "forks": 0,
       "watchers": 0,
       "prs": 21,
-      "recency": 0.5737534207374327,
-      "scorePct": 88.38108776824048
+      "recency": 0.5611439686474896,
+      "scorePct": 88.15348320891499
     },
     {
       "name": "portofoliov2",
@@ -2418,15 +2418,15 @@
       "pullRequests": 1,
       "issues": 0,
       "discussions": 0,
-      "daysSincePush": 25,
+      "daysSincePush": 26,
       "commits": 141,
-      "score": 8.517182502905932,
+      "score": 8.491963598726047,
       "stars": 4,
       "forks": 2,
       "watchers": 0,
       "prs": 1,
-      "recency": 0.5737534207374327,
-      "scorePct": 76.86890581926106
+      "recency": 0.5611439686474896,
+      "scorePct": 76.64130125993557
     },
     {
       "name": "dastermv2",
@@ -2454,15 +2454,15 @@
       "pullRequests": 0,
       "issues": 0,
       "discussions": 0,
-      "daysSincePush": 25,
+      "daysSincePush": 26,
       "commits": 101,
-      "score": 7.854201345604763,
+      "score": 7.828982441424877,
       "stars": 4,
       "forks": 2,
       "watchers": 0,
       "prs": 0,
-      "recency": 0.5737534207374327,
-      "scorePct": 70.88539705645826
+      "recency": 0.5611439686474896,
+      "scorePct": 70.65779249713277
     }
   ]
 }
