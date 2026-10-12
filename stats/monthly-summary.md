@@ -8,7 +8,7 @@ Hari paling produktif adalah 16 Sept dengan 30 commit, dan Wed menjadi hari ters
 
 Repo paling sibuk bulan ini: akaanakbaik (6), kaboxv8 (5), libsignal (3).
 
-Bahasa yang paling sering kupakai: TypeScript ×11, JavaScript ×9, HTML ×1.
+Bahasa yang paling sering kupakai: TypeScript ×11, JavaScript ×9, Python ×1.
 
 Kesimpulan: bulan yang santai — waktu untuk recharge dan mulai proyek baru. Terus ngoding, tetap semangat! 🚀
 

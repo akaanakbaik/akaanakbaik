@@ -1,25 +1,25 @@
 {
   "username": "akaanakbaik",
-  "generatedAt": "12 Oct 2026, 12:53",
+  "generatedAt": "12 Oct 2026, 22:19",
   "publicRepos": 107,
   "originalRepos": 87,
   "forkedRepos": 20,
   "archivedRepos": 0,
   "activeRepos90d": 29,
-  "followers": 80,
+  "followers": 81,
   "following": 75,
   "publicGists": 0,
-  "totalStars": 409,
+  "totalStars": 514,
   "totalForks": 27,
   "totalWatchers": 13,
   "totalSize": "840.7 MB",
-  "totalSizeKb": 860915,
+  "totalSizeKb": 860906,
   "topLanguage": "JavaScript",
   "accountAge": "2y 2m",
   "accountAgePrecise": "2 years 2 months",
   "accountCreatedAt": "2024-08-03T01:58:16Z",
   "topRepo": "pterodactyl-gateway",
-  "recentRepo": "auto-commit",
+  "recentRepo": "Readme-Spotify-Now-Playing",
   "largestRepo": "Hacktoberfest2025-3",
   "languageDistribution": {
     "totalBytes": 48138717,
@@ -1986,73 +1986,73 @@
     {
       "name": "pterodactyl-gateway",
       "url": "https://github.com/akaanakbaik/pterodactyl-gateway",
-      "stars": 9,
+      "stars": 10,
       "forks": 0,
-      "language": "TypeScript"
-    },
-    {
-      "name": "my-portofolio",
-      "url": "https://github.com/akaanakbaik/my-portofolio",
-      "stars": 7,
-      "forks": 2,
       "language": "TypeScript"
     },
     {
       "name": "dashterm",
       "url": "https://github.com/akaanakbaik/dashterm",
-      "stars": 7,
+      "stars": 8,
       "forks": 2,
       "language": "Shell"
-    }
-  ],
-  "recentRepositories": [
-    {
-      "name": "auto-commit",
-      "url": "https://github.com/akaanakbaik/auto-commit",
-      "language": "Unknown",
-      "updatedAt": "2026-10-12T01:54:19Z"
-    },
-    {
-      "name": "dastermv2",
-      "url": "https://github.com/akaanakbaik/dastermv2",
-      "language": "Shell",
-      "updatedAt": "2026-10-12T00:15:32Z"
-    },
-    {
-      "name": "akaanakbaik",
-      "url": "https://github.com/akaanakbaik/akaanakbaik",
-      "language": "JavaScript",
-      "updatedAt": "2026-10-11T23:41:27Z"
-    },
-    {
-      "name": "kaboxv8",
-      "url": "https://github.com/akaanakbaik/kaboxv8",
-      "language": "JavaScript",
-      "updatedAt": "2026-10-04T14:27:42Z"
-    },
-    {
-      "name": "portofoliov2",
-      "url": "https://github.com/akaanakbaik/portofoliov2",
-      "language": "JavaScript",
-      "updatedAt": "2026-09-15T18:46:06Z"
     },
     {
       "name": "my-portofolio",
       "url": "https://github.com/akaanakbaik/my-portofolio",
-      "language": "TypeScript",
-      "updatedAt": "2026-09-15T18:46:04Z"
+      "stars": 8,
+      "forks": 2,
+      "language": "TypeScript"
+    }
+  ],
+  "recentRepositories": [
+    {
+      "name": "Readme-Spotify-Now-Playing",
+      "url": "https://github.com/akaanakbaik/Readme-Spotify-Now-Playing",
+      "language": "Unknown",
+      "updatedAt": "2026-10-12T14:18:12Z"
     },
     {
-      "name": "pterodactyl-gateway",
-      "url": "https://github.com/akaanakbaik/pterodactyl-gateway",
-      "language": "TypeScript",
-      "updatedAt": "2026-09-15T18:46:03Z"
+      "name": "akaa",
+      "url": "https://github.com/akaanakbaik/akaa",
+      "language": "Unknown",
+      "updatedAt": "2026-10-12T14:18:11Z"
     },
     {
-      "name": "web-docs-pterodacty-gateway",
-      "url": "https://github.com/akaanakbaik/web-docs-pterodacty-gateway",
-      "language": "TypeScript",
-      "updatedAt": "2026-09-15T18:46:03Z"
+      "name": "profile-card",
+      "url": "https://github.com/akaanakbaik/profile-card",
+      "language": "Unknown",
+      "updatedAt": "2026-10-12T14:18:11Z"
+    },
+    {
+      "name": "aka",
+      "url": "https://github.com/akaanakbaik/aka",
+      "language": "HTML",
+      "updatedAt": "2026-10-12T14:18:10Z"
+    },
+    {
+      "name": "tes",
+      "url": "https://github.com/akaanakbaik/tes",
+      "language": "HTML",
+      "updatedAt": "2026-10-12T14:18:10Z"
+    },
+    {
+      "name": "h",
+      "url": "https://github.com/akaanakbaik/h",
+      "language": "HTML",
+      "updatedAt": "2026-10-12T14:18:09Z"
+    },
+    {
+      "name": "def",
+      "url": "https://github.com/akaanakbaik/def",
+      "language": "HTML",
+      "updatedAt": "2026-10-12T14:18:08Z"
+    },
+    {
+      "name": "tesaj",
+      "url": "https://github.com/akaanakbaik/tesaj",
+      "language": "Unknown",
+      "updatedAt": "2026-10-12T14:18:07Z"
     }
   ],
   "activity": {
@@ -2305,8 +2305,8 @@
     ],
     "peakHour": 23,
     "peakWeekday": "Sun",
-    "circularMean": 20.450452363337128,
-    "circularStd": 6.24375386288656,
+    "circularMean": 20.450452363337135,
+    "circularStd": 6.243753862886546,
     "activeHours": 24,
     "reposWithCommits": 86,
     "topCommitRepos": [
@@ -2384,8 +2384,8 @@
       "discussions": 0,
       "daysSincePush": 0,
       "commits": 801,
-      "score": 11.080140158274219,
-      "stars": 5,
+      "score": 11.24081245338769,
+      "stars": 6,
       "forks": 0,
       "watchers": 1,
       "prs": 3,
@@ -2400,15 +2400,15 @@
       "pullRequests": 21,
       "issues": 0,
       "discussions": 0,
-      "daysSincePush": 26,
+      "daysSincePush": 27,
       "commits": 160,
-      "score": 9.76752949394851,
-      "stars": 9,
+      "score": 9.842207273221323,
+      "stars": 10,
       "forks": 0,
       "watchers": 0,
       "prs": 21,
-      "recency": 0.5611439686474896,
-      "scorePct": 88.15348320891499
+      "recency": 0.5488116360940265,
+      "scorePct": 87.55779276661747
     },
     {
       "name": "portofoliov2",
@@ -2420,13 +2420,13 @@
       "discussions": 0,
       "daysSincePush": 27,
       "commits": 141,
-      "score": 8.46729893361912,
-      "stars": 4,
+      "score": 8.657333924133418,
+      "stars": 5,
       "forks": 2,
       "watchers": 0,
       "prs": 1,
       "recency": 0.5488116360940265,
-      "scorePct": 76.41869879503346
+      "scorePct": 77.01697684249079
     },
     {
       "name": "dastermv2",
@@ -2438,13 +2438,13 @@
       "discussions": 0,
       "daysSincePush": 0,
       "commits": 80,
-      "score": 7.964513511461043,
-      "stars": 3,
+      "score": 8.197097542680378,
+      "stars": 4,
       "forks": 1,
       "watchers": 0,
       "prs": 0,
       "recency": 1,
-      "scorePct": 71.88098162741609
+      "scorePct": 72.92264306224578
     },
     {
       "name": "kaai-code-snipcets",
@@ -2456,13 +2456,13 @@
       "discussions": 0,
       "daysSincePush": 27,
       "commits": 101,
-      "score": 7.8043177763179505,
-      "stars": 4,
+      "score": 7.99435276683225,
+      "stars": 5,
       "forks": 2,
       "watchers": 0,
       "prs": 0,
       "recency": 0.5488116360940265,
-      "scorePct": 70.43519003223068
+      "scorePct": 71.11899428962502
     }
   ]
 }

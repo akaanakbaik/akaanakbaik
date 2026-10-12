@@ -1,223 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "12 Oct 2026, 12:53",
+  "generatedAt": "12 Oct 2026, 22:19",
   "policy": "all tracked regular source files; Unicode code points; notebook code cells; no file-size limit; dependencies and generated source included when tracked",
   "repositories": [
-    {
-      "name": "auto-commit",
-      "defaultBranch": "main",
-      "pushedAt": "2026-10-12T01:54:16Z"
-    },
-    {
-      "name": "dastermv2",
-      "defaultBranch": "main",
-      "pushedAt": "2026-10-12T00:15:28Z"
-    },
-    {
-      "name": "akaanakbaik",
-      "defaultBranch": "main",
-      "pushedAt": "2026-10-12T03:25:26Z"
-    },
-    {
-      "name": "kaboxv8",
-      "defaultBranch": "main",
-      "pushedAt": "2026-10-04T14:27:38Z"
-    },
-    {
-      "name": "portofoliov2",
-      "defaultBranch": "main",
-      "pushedAt": "2026-09-15T16:30:49Z"
-    },
-    {
-      "name": "my-portofolio",
-      "defaultBranch": "main",
-      "pushedAt": "2026-01-01T03:36:43Z"
-    },
-    {
-      "name": "pterodactyl-gateway",
-      "defaultBranch": "main",
-      "pushedAt": "2026-09-15T17:58:16Z"
-    },
-    {
-      "name": "web-docs-pterodacty-gateway",
-      "defaultBranch": "main",
-      "pushedAt": "2026-09-15T17:28:19Z"
-    },
-    {
-      "name": "libsignal",
-      "defaultBranch": "master",
-      "pushedAt": "2026-10-12T05:33:35Z"
-    },
-    {
-      "name": "tiny-kaboxv2",
-      "defaultBranch": "main",
-      "pushedAt": "2026-09-15T17:28:17Z"
-    },
-    {
-      "name": "tiny-kabox",
-      "defaultBranch": "main",
-      "pushedAt": "2026-09-15T17:28:14Z"
-    },
-    {
-      "name": "mydash-vps",
-      "defaultBranch": "main",
-      "pushedAt": "2026-09-15T17:28:08Z"
-    },
-    {
-      "name": "musika",
-      "defaultBranch": "main",
-      "pushedAt": "2026-09-15T17:28:04Z"
-    },
-    {
-      "name": "my-web-api",
-      "defaultBranch": "main",
-      "pushedAt": "2026-09-15T17:28:06Z"
-    },
-    {
-      "name": "kaboxv7",
-      "defaultBranch": "main",
-      "pushedAt": "2026-09-15T17:27:59Z"
-    },
-    {
-      "name": "kaboxv6",
-      "defaultBranch": "main",
-      "pushedAt": "2026-09-15T17:27:57Z"
-    },
-    {
-      "name": "kaboxv5",
-      "defaultBranch": "main",
-      "pushedAt": "2026-09-15T17:27:54Z"
-    },
-    {
-      "name": "kaboxv4",
-      "defaultBranch": "main",
-      "pushedAt": "2026-09-15T17:27:52Z"
-    },
-    {
-      "name": "kaboxv2",
-      "defaultBranch": "main",
-      "pushedAt": "2026-09-15T17:27:50Z"
-    },
-    {
-      "name": "kaai",
-      "defaultBranch": "main",
-      "pushedAt": "2026-09-15T17:27:46Z"
-    },
-    {
-      "name": "kaai-code-snipcets",
-      "defaultBranch": "main",
-      "pushedAt": "2026-09-15T17:27:43Z"
-    },
-    {
-      "name": "domkuv4",
-      "defaultBranch": "main",
-      "pushedAt": "2026-09-15T17:27:38Z"
-    },
-    {
-      "name": "domkuv3",
-      "defaultBranch": "main",
-      "pushedAt": "2026-09-15T17:27:36Z"
-    },
-    {
-      "name": "domku_v2",
-      "defaultBranch": "main",
-      "pushedAt": "2026-09-15T17:27:34Z"
-    },
-    {
-      "name": "belajar-frontand-dan-backend-terpisah",
-      "defaultBranch": "main",
-      "pushedAt": "2026-09-15T17:27:32Z"
-    },
-    {
-      "name": "backend-ytdl-kaai",
-      "defaultBranch": "master",
-      "pushedAt": "2026-09-15T17:27:30Z"
-    },
-    {
-      "name": "akaanakbaik.github.io",
-      "defaultBranch": "main",
-      "pushedAt": "2026-09-15T17:27:27Z"
-    },
-    {
-      "name": "my-cdn",
-      "defaultBranch": "main",
-      "pushedAt": "2026-09-01T14:43:15Z"
-    },
-    {
-      "name": "kabox",
-      "defaultBranch": "main",
-      "pushedAt": "2026-08-23T05:55:49Z"
-    },
-    {
-      "name": "musika-apk",
-      "defaultBranch": "master",
-      "pushedAt": "2026-08-06T11:45:59Z"
-    },
-    {
-      "name": "odysseus",
-      "defaultBranch": "main",
-      "pushedAt": "2026-06-03T14:58:11Z"
-    },
-    {
-      "name": "plugin-mydash-vps",
-      "defaultBranch": "main",
-      "pushedAt": "2026-07-10T08:35:34Z"
-    },
-    {
-      "name": "ai-cli",
-      "defaultBranch": "main",
-      "pushedAt": "2026-04-20T11:14:03Z"
-    },
-    {
-      "name": "liora",
-      "defaultBranch": "main",
-      "pushedAt": "2026-04-18T17:55:30Z"
-    },
-    {
-      "name": "test-scraper-ai",
-      "defaultBranch": "main",
-      "pushedAt": "2026-04-24T14:59:18Z"
-    },
-    {
-      "name": "vps-inspec",
-      "defaultBranch": "main",
-      "pushedAt": "2026-05-09T03:59:39Z"
-    },
-    {
-      "name": "egg-multi-terminal",
-      "defaultBranch": "main",
-      "pushedAt": "2026-05-15T10:35:21Z"
-    },
-    {
-      "name": "web-math-dan-physics-by-gpt",
-      "defaultBranch": "main",
-      "pushedAt": "2026-05-10T01:10:01Z"
-    },
-    {
-      "name": "web-math-dan-physic-by-kimi",
-      "defaultBranch": "main",
-      "pushedAt": "2026-05-10T02:28:44Z"
-    },
-    {
-      "name": "aiagent",
-      "defaultBranch": "main",
-      "pushedAt": "2026-03-21T16:16:33Z"
-    },
-    {
-      "name": "startup-tes",
-      "defaultBranch": "main",
-      "pushedAt": "2026-04-02T12:09:43Z"
-    },
-    {
-      "name": "testaiagent",
-      "defaultBranch": "main",
-      "pushedAt": "2026-04-03T04:36:58Z"
-    },
-    {
-      "name": "code-snipset",
-      "defaultBranch": "main",
-      "pushedAt": "2026-04-05T06:58:00Z"
-    },
     {
       "name": "Readme-Spotify-Now-Playing",
       "defaultBranch": "main",
@@ -239,11 +24,6 @@
       "pushedAt": "2024-10-07T10:30:51Z"
     },
     {
-      "name": "def",
-      "defaultBranch": "main",
-      "pushedAt": "2024-10-30T13:25:04Z"
-    },
-    {
       "name": "tes",
       "defaultBranch": "main",
       "pushedAt": "2024-10-30T12:18:15Z"
@@ -252,6 +32,11 @@
       "name": "h",
       "defaultBranch": "main",
       "pushedAt": "2024-10-30T12:58:50Z"
+    },
+    {
+      "name": "def",
+      "defaultBranch": "main",
+      "pushedAt": "2024-10-30T13:25:04Z"
     },
     {
       "name": "tesaj",
@@ -264,14 +49,14 @@
       "pushedAt": "2025-02-17T16:28:33Z"
     },
     {
-      "name": "tourl",
-      "defaultBranch": "master",
-      "pushedAt": "2025-03-02T00:55:28Z"
-    },
-    {
       "name": "yousoclix-wabaileysbeta",
       "defaultBranch": "main",
       "pushedAt": "2025-04-02T02:13:51Z"
+    },
+    {
+      "name": "tourl",
+      "defaultBranch": "master",
+      "pushedAt": "2025-03-02T00:55:28Z"
     },
     {
       "name": "portofolio",
@@ -284,6 +69,11 @@
       "pushedAt": "2025-04-12T18:20:01Z"
     },
     {
+      "name": "ppo",
+      "defaultBranch": "main",
+      "pushedAt": "2025-06-08T09:06:57Z"
+    },
+    {
       "name": "pfo",
       "defaultBranch": "main",
       "pushedAt": "2025-04-13T06:34:16Z"
@@ -294,39 +84,119 @@
       "pushedAt": "2025-04-23T12:19:01Z"
     },
     {
-      "name": "ppo",
-      "defaultBranch": "main",
-      "pushedAt": "2025-06-08T09:06:57Z"
-    },
-    {
       "name": "profile-card-by-aka",
       "defaultBranch": "main",
       "pushedAt": "2025-05-18T16:21:23Z"
     },
     {
-      "name": "ai-pun",
+      "name": "ytdl-aka",
       "defaultBranch": "main",
-      "pushedAt": "2025-06-14T10:11:19Z"
+      "pushedAt": "2025-10-26T05:25:08Z"
     },
     {
-      "name": "i-am-coming-hacktoberfest",
+      "name": "ytdl-backend",
       "defaultBranch": "main",
-      "pushedAt": "2025-06-18T17:20:07Z"
+      "pushedAt": "2025-10-23T20:33:50Z"
     },
     {
-      "name": "api-cdn",
+      "name": "ESEMPE-MD",
       "defaultBranch": "main",
-      "pushedAt": "2025-06-17T08:59:12Z"
+      "pushedAt": "2025-10-23T11:57:53Z"
     },
     {
-      "name": "dobe",
+      "name": "Hack4Good-Idea-Submission",
       "defaultBranch": "main",
-      "pushedAt": "2025-06-20T09:06:52Z"
+      "pushedAt": "2025-10-22T15:57:39Z"
     },
     {
-      "name": "ur",
+      "name": "apieyae",
       "defaultBranch": "main",
-      "pushedAt": "2025-07-11T17:05:26Z"
+      "pushedAt": "2025-10-22T12:57:13Z"
+    },
+    {
+      "name": "leetcode-daily-october-hacktoberfest-2025",
+      "defaultBranch": "main",
+      "pushedAt": "2025-10-21T22:42:05Z"
+    },
+    {
+      "name": "testapiwebai",
+      "defaultBranch": "main",
+      "pushedAt": "2025-10-18T00:26:13Z"
+    },
+    {
+      "name": "DSA_Code",
+      "defaultBranch": "main",
+      "pushedAt": "2025-10-15T10:52:41Z"
+    },
+    {
+      "name": "Hacktoberfest2025-2",
+      "defaultBranch": "main",
+      "pushedAt": "2025-10-15T10:07:10Z"
+    },
+    {
+      "name": "Hacktoberfest2025",
+      "defaultBranch": "main",
+      "pushedAt": "2025-10-14T13:22:05Z"
+    },
+    {
+      "name": "Hacktoberfest2025-Open-source-",
+      "defaultBranch": "main",
+      "pushedAt": "2025-10-14T13:06:43Z"
+    },
+    {
+      "name": "Hacktoberfest-2025",
+      "defaultBranch": "main",
+      "pushedAt": "2025-10-14T12:32:54Z"
+    },
+    {
+      "name": "pelican-installer",
+      "defaultBranch": "main",
+      "pushedAt": "2025-10-11T14:28:59Z"
+    },
+    {
+      "name": "Halo-Dunia25",
+      "defaultBranch": "main",
+      "pushedAt": "2025-10-14T12:08:00Z"
+    },
+    {
+      "name": "hacktoberfest",
+      "defaultBranch": "main",
+      "pushedAt": "2025-10-02T16:16:06Z"
+    },
+    {
+      "name": "apisku",
+      "defaultBranch": "master",
+      "pushedAt": "2025-09-28T00:35:52Z"
+    },
+    {
+      "name": "gabut",
+      "defaultBranch": "main",
+      "pushedAt": "2025-08-03T14:49:05Z"
+    },
+    {
+      "name": "kabox-web-uploader",
+      "defaultBranch": "main",
+      "pushedAt": "2025-08-27T03:19:16Z"
+    },
+    {
+      "name": "aucom",
+      "defaultBranch": "main",
+      "pushedAt": "2025-08-01T05:27:38Z"
+    },
+    {
+      "name": "iseng-bot-tele",
+      "defaultBranch": "main",
+      "pushedAt": "2025-07-25T17:50:58Z"
+    },
+    {
+      "name": "urr",
+      "defaultBranch": "main",
+      "pushedAt": "2025-07-25T17:46:09Z"
+    },
+    {
+      "name": "statsmonit-by-caliph",
+      "defaultBranch": "master",
+      "pushedAt": "2025-07-25T06:49:33Z"
     },
     {
       "name": "kelvdra-bails",
@@ -344,119 +214,29 @@
       "pushedAt": "2025-07-22T06:01:32Z"
     },
     {
-      "name": "statsmonit-by-caliph",
-      "defaultBranch": "master",
-      "pushedAt": "2025-07-25T06:49:33Z"
-    },
-    {
-      "name": "urr",
+      "name": "dobe",
       "defaultBranch": "main",
-      "pushedAt": "2025-07-25T17:46:09Z"
+      "pushedAt": "2025-06-20T09:06:52Z"
     },
     {
-      "name": "iseng-bot-tele",
+      "name": "ur",
       "defaultBranch": "main",
-      "pushedAt": "2025-07-25T17:50:58Z"
+      "pushedAt": "2025-07-11T17:05:26Z"
     },
     {
-      "name": "aucom",
+      "name": "i-am-coming-hacktoberfest",
       "defaultBranch": "main",
-      "pushedAt": "2025-08-01T05:27:38Z"
+      "pushedAt": "2025-06-18T17:20:07Z"
     },
     {
-      "name": "gabut",
+      "name": "ai-pun",
       "defaultBranch": "main",
-      "pushedAt": "2025-08-03T14:49:05Z"
+      "pushedAt": "2025-06-14T10:11:19Z"
     },
     {
-      "name": "kabox-web-uploader",
+      "name": "api-cdn",
       "defaultBranch": "main",
-      "pushedAt": "2025-08-27T03:19:16Z"
-    },
-    {
-      "name": "apisku",
-      "defaultBranch": "master",
-      "pushedAt": "2025-09-28T00:35:52Z"
-    },
-    {
-      "name": "hacktoberfest",
-      "defaultBranch": "main",
-      "pushedAt": "2025-10-02T16:16:06Z"
-    },
-    {
-      "name": "pelican-installer",
-      "defaultBranch": "main",
-      "pushedAt": "2025-10-11T14:28:59Z"
-    },
-    {
-      "name": "Halo-Dunia25",
-      "defaultBranch": "main",
-      "pushedAt": "2025-10-14T12:08:00Z"
-    },
-    {
-      "name": "Hacktoberfest-2025",
-      "defaultBranch": "main",
-      "pushedAt": "2025-10-14T12:32:54Z"
-    },
-    {
-      "name": "Hacktoberfest2025-Open-source-",
-      "defaultBranch": "main",
-      "pushedAt": "2025-10-14T13:06:43Z"
-    },
-    {
-      "name": "Hacktoberfest2025",
-      "defaultBranch": "main",
-      "pushedAt": "2025-10-14T13:22:05Z"
-    },
-    {
-      "name": "Hacktoberfest2025-2",
-      "defaultBranch": "main",
-      "pushedAt": "2025-10-15T10:07:10Z"
-    },
-    {
-      "name": "DSA_Code",
-      "defaultBranch": "main",
-      "pushedAt": "2025-10-15T10:52:41Z"
-    },
-    {
-      "name": "Hacktoberfest2025-3",
-      "defaultBranch": "master",
-      "pushedAt": "2026-06-05T13:15:18Z"
-    },
-    {
-      "name": "testapiwebai",
-      "defaultBranch": "main",
-      "pushedAt": "2025-10-18T00:26:13Z"
-    },
-    {
-      "name": "leetcode-daily-october-hacktoberfest-2025",
-      "defaultBranch": "main",
-      "pushedAt": "2025-10-21T22:42:05Z"
-    },
-    {
-      "name": "apieyae",
-      "defaultBranch": "main",
-      "pushedAt": "2025-10-22T12:57:13Z"
-    },
-    {
-      "name": "Hack4Good-Idea-Submission",
-      "defaultBranch": "main",
-      "pushedAt": "2025-10-22T15:57:39Z"
-    },
-    {
-      "name": "ESEMPE-MD",
-      "defaultBranch": "main",
-      "pushedAt": "2025-10-23T11:57:53Z"
-    },
-    {
-      "name": "ytdl-backend",
-      "defaultBranch": "main",
-      "pushedAt": "2025-10-23T20:33:50Z"
-    },
-    {
-      "name": "ytdl-aka",
-      "defaultBranch": "main",
-      "pushedAt": "2025-10-26T05:25:08Z"
+      "pushedAt": "2025-06-17T08:59:12Z"
     },
     {
       "name": "AutoReadStoryWhatsapp",
@@ -489,14 +269,14 @@
       "pushedAt": "2025-11-26T18:12:23Z"
     },
     {
-      "name": "music-playerv2",
-      "defaultBranch": "main",
-      "pushedAt": "2025-11-27T06:10:07Z"
-    },
-    {
       "name": "skills-introduction-to-github",
       "defaultBranch": "main",
       "pushedAt": "2025-12-01T08:10:41Z"
+    },
+    {
+      "name": "music-playerv2",
+      "defaultBranch": "main",
+      "pushedAt": "2025-11-27T06:10:07Z"
     },
     {
       "name": "egg-bun-for-Pterodacty-",
@@ -512,6 +292,11 @@
       "name": "dashterm",
       "defaultBranch": "main",
       "pushedAt": "2025-12-05T08:49:12Z"
+    },
+    {
+      "name": "my-portofolio",
+      "defaultBranch": "main",
+      "pushedAt": "2026-01-01T03:36:43Z"
     },
     {
       "name": "kadicty",
@@ -537,6 +322,221 @@
       "name": "backend-kabox",
       "defaultBranch": "main",
       "pushedAt": "2026-03-02T16:09:30Z"
+    },
+    {
+      "name": "aiagent",
+      "defaultBranch": "main",
+      "pushedAt": "2026-03-21T16:16:33Z"
+    },
+    {
+      "name": "startup-tes",
+      "defaultBranch": "main",
+      "pushedAt": "2026-04-02T12:09:43Z"
+    },
+    {
+      "name": "code-snipset",
+      "defaultBranch": "main",
+      "pushedAt": "2026-04-05T06:58:00Z"
+    },
+    {
+      "name": "testaiagent",
+      "defaultBranch": "main",
+      "pushedAt": "2026-04-03T04:36:58Z"
+    },
+    {
+      "name": "liora",
+      "defaultBranch": "main",
+      "pushedAt": "2026-04-18T17:55:30Z"
+    },
+    {
+      "name": "ai-cli",
+      "defaultBranch": "main",
+      "pushedAt": "2026-04-20T11:14:03Z"
+    },
+    {
+      "name": "vps-inspec",
+      "defaultBranch": "main",
+      "pushedAt": "2026-05-09T03:59:39Z"
+    },
+    {
+      "name": "test-scraper-ai",
+      "defaultBranch": "main",
+      "pushedAt": "2026-04-24T14:59:18Z"
+    },
+    {
+      "name": "web-math-dan-physics-by-gpt",
+      "defaultBranch": "main",
+      "pushedAt": "2026-05-10T01:10:01Z"
+    },
+    {
+      "name": "web-math-dan-physic-by-kimi",
+      "defaultBranch": "main",
+      "pushedAt": "2026-05-10T02:28:44Z"
+    },
+    {
+      "name": "egg-multi-terminal",
+      "defaultBranch": "main",
+      "pushedAt": "2026-05-15T10:35:21Z"
+    },
+    {
+      "name": "Hacktoberfest2025-3",
+      "defaultBranch": "master",
+      "pushedAt": "2026-06-05T13:15:18Z"
+    },
+    {
+      "name": "odysseus",
+      "defaultBranch": "main",
+      "pushedAt": "2026-06-03T14:58:11Z"
+    },
+    {
+      "name": "plugin-mydash-vps",
+      "defaultBranch": "main",
+      "pushedAt": "2026-07-10T08:35:34Z"
+    },
+    {
+      "name": "musika-apk",
+      "defaultBranch": "master",
+      "pushedAt": "2026-08-06T11:45:59Z"
+    },
+    {
+      "name": "kabox",
+      "defaultBranch": "main",
+      "pushedAt": "2026-08-23T05:55:49Z"
+    },
+    {
+      "name": "portofoliov2",
+      "defaultBranch": "main",
+      "pushedAt": "2026-09-15T16:30:49Z"
+    },
+    {
+      "name": "my-cdn",
+      "defaultBranch": "main",
+      "pushedAt": "2026-09-01T14:43:15Z"
+    },
+    {
+      "name": "akaanakbaik.github.io",
+      "defaultBranch": "main",
+      "pushedAt": "2026-09-15T17:27:27Z"
+    },
+    {
+      "name": "backend-ytdl-kaai",
+      "defaultBranch": "master",
+      "pushedAt": "2026-09-15T17:27:30Z"
+    },
+    {
+      "name": "domku_v2",
+      "defaultBranch": "main",
+      "pushedAt": "2026-09-15T17:27:34Z"
+    },
+    {
+      "name": "domkuv3",
+      "defaultBranch": "main",
+      "pushedAt": "2026-09-15T17:27:36Z"
+    },
+    {
+      "name": "belajar-frontand-dan-backend-terpisah",
+      "defaultBranch": "main",
+      "pushedAt": "2026-09-15T17:27:32Z"
+    },
+    {
+      "name": "domkuv4",
+      "defaultBranch": "main",
+      "pushedAt": "2026-09-15T17:27:38Z"
+    },
+    {
+      "name": "kaai",
+      "defaultBranch": "main",
+      "pushedAt": "2026-09-15T17:27:46Z"
+    },
+    {
+      "name": "kaai-code-snipcets",
+      "defaultBranch": "main",
+      "pushedAt": "2026-09-15T17:27:43Z"
+    },
+    {
+      "name": "kaboxv4",
+      "defaultBranch": "main",
+      "pushedAt": "2026-09-15T17:27:52Z"
+    },
+    {
+      "name": "kaboxv2",
+      "defaultBranch": "main",
+      "pushedAt": "2026-09-15T17:27:50Z"
+    },
+    {
+      "name": "kaboxv6",
+      "defaultBranch": "main",
+      "pushedAt": "2026-09-15T17:27:57Z"
+    },
+    {
+      "name": "kaboxv5",
+      "defaultBranch": "main",
+      "pushedAt": "2026-09-15T17:27:54Z"
+    },
+    {
+      "name": "my-web-api",
+      "defaultBranch": "main",
+      "pushedAt": "2026-09-15T17:28:06Z"
+    },
+    {
+      "name": "kaboxv7",
+      "defaultBranch": "main",
+      "pushedAt": "2026-09-15T17:27:59Z"
+    },
+    {
+      "name": "musika",
+      "defaultBranch": "main",
+      "pushedAt": "2026-09-15T17:28:04Z"
+    },
+    {
+      "name": "mydash-vps",
+      "defaultBranch": "main",
+      "pushedAt": "2026-09-15T17:28:08Z"
+    },
+    {
+      "name": "tiny-kabox",
+      "defaultBranch": "main",
+      "pushedAt": "2026-09-15T17:28:14Z"
+    },
+    {
+      "name": "tiny-kaboxv2",
+      "defaultBranch": "main",
+      "pushedAt": "2026-09-15T17:28:17Z"
+    },
+    {
+      "name": "web-docs-pterodacty-gateway",
+      "defaultBranch": "main",
+      "pushedAt": "2026-09-15T17:28:19Z"
+    },
+    {
+      "name": "kaboxv8",
+      "defaultBranch": "main",
+      "pushedAt": "2026-10-04T14:27:38Z"
+    },
+    {
+      "name": "pterodactyl-gateway",
+      "defaultBranch": "main",
+      "pushedAt": "2026-09-15T17:58:16Z"
+    },
+    {
+      "name": "auto-commit",
+      "defaultBranch": "main",
+      "pushedAt": "2026-10-12T01:54:16Z"
+    },
+    {
+      "name": "akaanakbaik",
+      "defaultBranch": "main",
+      "pushedAt": "2026-10-12T05:55:01Z"
+    },
+    {
+      "name": "libsignal",
+      "defaultBranch": "master",
+      "pushedAt": "2026-10-12T05:33:35Z"
+    },
+    {
+      "name": "dastermv2",
+      "defaultBranch": "main",
+      "pushedAt": "2026-10-12T06:19:36Z"
     }
   ],
   "totals": {
