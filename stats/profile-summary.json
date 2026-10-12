@@ -1,6 +1,6 @@
 {
   "username": "akaanakbaik",
-  "generatedAt": "12 Oct 2026, 22:19",
+  "generatedAt": "13 Oct 2026, 05:57",
   "publicRepos": 107,
   "originalRepos": 87,
   "forkedRepos": 20,
@@ -12,14 +12,14 @@
   "totalStars": 514,
   "totalForks": 27,
   "totalWatchers": 13,
-  "totalSize": "840.7 MB",
-  "totalSizeKb": 860906,
+  "totalSize": "840.8 MB",
+  "totalSizeKb": 860949,
   "topLanguage": "JavaScript",
   "accountAge": "2y 2m",
   "accountAgePrecise": "2 years 2 months",
   "accountCreatedAt": "2024-08-03T01:58:16Z",
   "topRepo": "pterodactyl-gateway",
-  "recentRepo": "Readme-Spotify-Now-Playing",
+  "recentRepo": "dastermv2",
   "largestRepo": "Hacktoberfest2025-3",
   "languageDistribution": {
     "totalBytes": 48138717,
@@ -2007,6 +2007,24 @@
   ],
   "recentRepositories": [
     {
+      "name": "dastermv2",
+      "url": "https://github.com/akaanakbaik/dastermv2",
+      "language": "Shell",
+      "updatedAt": "2026-10-12T22:45:32Z"
+    },
+    {
+      "name": "auto-commit",
+      "url": "https://github.com/akaanakbaik/auto-commit",
+      "language": "Unknown",
+      "updatedAt": "2026-10-12T17:57:02Z"
+    },
+    {
+      "name": "akaanakbaik",
+      "url": "https://github.com/akaanakbaik/akaanakbaik",
+      "language": "JavaScript",
+      "updatedAt": "2026-10-12T15:20:32Z"
+    },
+    {
       "name": "Readme-Spotify-Now-Playing",
       "url": "https://github.com/akaanakbaik/Readme-Spotify-Now-Playing",
       "language": "Unknown",
@@ -2035,24 +2053,6 @@
       "url": "https://github.com/akaanakbaik/tes",
       "language": "HTML",
       "updatedAt": "2026-10-12T14:18:10Z"
-    },
-    {
-      "name": "h",
-      "url": "https://github.com/akaanakbaik/h",
-      "language": "HTML",
-      "updatedAt": "2026-10-12T14:18:09Z"
-    },
-    {
-      "name": "def",
-      "url": "https://github.com/akaanakbaik/def",
-      "language": "HTML",
-      "updatedAt": "2026-10-12T14:18:08Z"
-    },
-    {
-      "name": "tesaj",
-      "url": "https://github.com/akaanakbaik/tesaj",
-      "language": "Unknown",
-      "updatedAt": "2026-10-12T14:18:07Z"
     }
   ],
   "activity": {
@@ -2305,8 +2305,8 @@
     ],
     "peakHour": 23,
     "peakWeekday": "Sun",
-    "circularMean": 20.450452363337135,
-    "circularStd": 6.243753862886546,
+    "circularMean": 20.450452363337114,
+    "circularStd": 6.243753862886558,
     "activeHours": 24,
     "reposWithCommits": 86,
     "topCommitRepos": [
