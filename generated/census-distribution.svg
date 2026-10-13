@@ -28,9 +28,9 @@
 <text x="180.50" y="231.81" text-anchor="middle" fill="#94a3b8" font-size="10.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">0.0% lines</text>
 <text x="180.50" y="472" text-anchor="middle" fill="#cbd5e1" font-size="11.5" font-weight="600" font-family="Inter,'Segoe UI',system-ui,sans-serif">0</text>
 </g><g>
-<rect x="311.48" y="168.25" width="92.04" height="281.75" rx="6" fill="#4338ca"/>
-<text x="357.50" y="158.25" text-anchor="middle" fill="#ffffff" font-size="13" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">28</text>
-<text x="357.50" y="141.25" text-anchor="middle" fill="#94a3b8" font-size="10.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">0.3% lines</text>
+<rect x="311.48" y="158.19" width="92.04" height="291.81" rx="6" fill="#4338ca"/>
+<text x="357.50" y="148.19" text-anchor="middle" fill="#ffffff" font-size="13" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">29</text>
+<text x="357.50" y="131.19" text-anchor="middle" fill="#94a3b8" font-size="10.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">0.3% lines</text>
 <text x="357.50" y="472" text-anchor="middle" fill="#cbd5e1" font-size="11.5" font-weight="600" font-family="Inter,'Segoe UI',system-ui,sans-serif">1–999</text>
 </g><g>
 <rect x="488.48" y="128.00" width="92.04" height="322.00" rx="6" fill="#5b21b6"/>
@@ -55,11 +55,11 @@
 </g><g transform="translate(30 548)">
 <rect width="165" height="54" rx="12" fill="#0d1322" stroke="#4338ca" stroke-opacity="0.35" stroke-width="1.2"/>
 <text x="14" y="20" fill="#8b93a7" font-size="10.5" font-weight="700" letter-spacing="1.2" font-family="Inter,'Segoe UI',system-ui,sans-serif">REPOS SCANNED</text>
-<text x="14" y="42" fill="#4338ca" font-size="17" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">107</text>
+<text x="14" y="42" fill="#4338ca" font-size="17" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">108</text>
 </g><g transform="translate(205 548)">
 <rect width="165" height="54" rx="12" fill="#0d1322" stroke="#15803d" stroke-opacity="0.35" stroke-width="1.2"/>
 <text x="14" y="20" fill="#8b93a7" font-size="10.5" font-weight="700" letter-spacing="1.2" font-family="Inter,'Segoe UI',system-ui,sans-serif">WITH SOURCE</text>
-<text x="14" y="42" fill="#15803d" font-size="17" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">88</text>
+<text x="14" y="42" fill="#15803d" font-size="17" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">89</text>
 </g><g transform="translate(380 548)">
 <rect width="175" height="54" rx="12" fill="#0d1322" stroke="#764ba2" stroke-opacity="0.35" stroke-width="1.2"/>
 <text x="14" y="20" fill="#8b93a7" font-size="10.5" font-weight="700" letter-spacing="1.2" font-family="Inter,'Segoe UI',system-ui,sans-serif">LARGEST</text>
@@ -67,7 +67,7 @@
 </g><g transform="translate(565 548)">
 <rect width="175" height="54" rx="12" fill="#0d1322" stroke="#0e7490" stroke-opacity="0.35" stroke-width="1.2"/>
 <text x="14" y="20" fill="#8b93a7" font-size="10.5" font-weight="700" letter-spacing="1.2" font-family="Inter,'Segoe UI',system-ui,sans-serif">MEDIAN</text>
-<text x="14" y="42" fill="#0e7490" font-size="17" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">1.4K lines</text>
+<text x="14" y="42" fill="#0e7490" font-size="17" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">1.3K lines</text>
 </g><g transform="translate(750 548)">
 <rect width="175" height="54" rx="12" fill="#0d1322" stroke="#b45309" stroke-opacity="0.35" stroke-width="1.2"/>
 <text x="14" y="20" fill="#8b93a7" font-size="10.5" font-weight="700" letter-spacing="1.2" font-family="Inter,'Segoe UI',system-ui,sans-serif">GINI (REPOS)</text>
@@ -77,5 +77,5 @@
 <text x="14" y="20" fill="#8b93a7" font-size="10.5" font-weight="700" letter-spacing="1.2" font-family="Inter,'Segoe UI',system-ui,sans-serif">TOTAL</text>
 <text x="14" y="42" fill="#7e22ce" font-size="17" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">3.2M lines</text>
 </g>
-<text x="30" y="626" fill="#64748b" font-size="11" font-family="Inter,'Segoe UI',system-ui,sans-serif">Buckets are magnitude bands of non-blank tracked source lines per repository · generated 13 Oct 2026, 18:45</text>
+<text x="30" y="626" fill="#64748b" font-size="11" font-family="Inter,'Segoe UI',system-ui,sans-serif">Buckets are magnitude bands of non-blank tracked source lines per repository · generated 14 Oct 2026, 02:15</text>
 </svg>
