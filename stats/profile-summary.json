@@ -1,6 +1,6 @@
 {
   "username": "akaanakbaik",
-  "generatedAt": "16 Oct 2026, 12:50",
+  "generatedAt": "16 Oct 2026, 18:20",
   "publicRepos": 108,
   "originalRepos": 88,
   "forkedRepos": 20,
@@ -12,8 +12,8 @@
   "totalStars": 514,
   "totalForks": 27,
   "totalWatchers": 13,
-  "totalSize": "840.4 MB",
-  "totalSizeKb": 860610,
+  "totalSize": "840.5 MB",
+  "totalSizeKb": 860655,
   "topLanguage": "JavaScript",
   "accountAge": "2y 2m",
   "accountAgePrecise": "2 years 2 months",
@@ -2020,19 +2020,19 @@
       "name": "auto-commit",
       "url": "https://github.com/akaanakbaik/auto-commit",
       "language": "Unknown",
-      "updatedAt": "2026-10-16T05:11:20Z"
+      "updatedAt": "2026-10-16T09:43:19Z"
     },
     {
       "name": "dastermv2",
       "url": "https://github.com/akaanakbaik/dastermv2",
       "language": "Shell",
-      "updatedAt": "2026-10-16T04:49:58Z"
+      "updatedAt": "2026-10-16T09:32:01Z"
     },
     {
       "name": "akaanakbaik",
       "url": "https://github.com/akaanakbaik/akaanakbaik",
       "language": "JavaScript",
-      "updatedAt": "2026-10-16T00:24:10Z"
+      "updatedAt": "2026-10-16T05:51:19Z"
     },
     {
       "name": "img-nodejs",
@@ -2410,15 +2410,15 @@
       "pullRequests": 21,
       "issues": 0,
       "discussions": 0,
-      "daysSincePush": 30,
+      "daysSincePush": 31,
       "commits": 160,
-      "score": 9.771418239098455,
+      "score": 9.748851372111318,
       "stars": 10,
       "forks": 0,
       "watchers": 0,
       "prs": 21,
-      "recency": 0.513417119032592,
-      "scorePct": 86.92804260917637
+      "recency": 0.5021336855390237,
+      "scorePct": 86.7272842824921
     },
     {
       "name": "portofoliov2",
