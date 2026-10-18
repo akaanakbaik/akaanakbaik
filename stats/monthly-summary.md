@@ -2,11 +2,11 @@
 
 **Periode:** 19 Sept – 19 Oct · dihasilkan otomatis oleh GitHub Actions
 
-Selama 30 hari terakhir (19 Sept – 19 Oct), aku membuat 11 commit di 4 repositori dan aktif selama 4 hari — rata-rata 2.8 commit per hari aktif.
+Selama 30 hari terakhir (19 Sept – 19 Oct), aku membuat 10 commit di 4 repositori dan aktif selama 4 hari — rata-rata 2.5 commit per hari aktif.
 
 Hari paling produktif adalah 18 Oct dengan 4 commit, dan Sun menjadi hari tersibuk dalam seminggu. Puncak aktivitas terjadi sekitar jam 11:00 WIB.
 
-Repo paling sibuk bulan ini: pterodactyl-gateway (4), kaboxv8 (4), img-nodejs (2).
+Repo paling sibuk bulan ini: pterodactyl-gateway (4), kaboxv8 (3), img-nodejs (2).
 
 Bahasa yang paling sering kupakai: JavaScript ×2, TypeScript ×1, Python ×1.
 
@@ -19,13 +19,13 @@ Kesimpulan: bulan yang santai — waktu untuk recharge dan mulai proyek baru. Te
 
 | Metrik | Nilai |
 | --- | ---: |
-| Total commit (30 hari) | 11 |
+| Total commit (30 hari) | 10 |
 | Hari aktif | 4 / 30 |
-| Commit per hari aktif | 2.8 |
+| Commit per hari aktif | 2.5 |
 | Hari tersibuk | 18 Oct (4 commit) |
 | Hari tersibuk (pekan) | Sun |
 | Jam puncak | 11:00 WIB |
 | Streak aktif | 1 hari |
-| Repo tersibuk | pterodactyl-gateway (4), kaboxv8 (4), img-nodejs (2) |
+| Repo tersibuk | pterodactyl-gateway (4), kaboxv8 (3), img-nodejs (2) |
 | Pull request dibuka | 0 |
 | Issue dibuka | 0 |
