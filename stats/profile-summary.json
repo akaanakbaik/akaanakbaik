@@ -1,6 +1,6 @@
 {
   "username": "akaanakbaik",
-  "generatedAt": "18 Oct 2026, 07:01",
+  "generatedAt": "18 Oct 2026, 11:28",
   "publicRepos": 108,
   "originalRepos": 88,
   "forkedRepos": 20,
@@ -13,42 +13,42 @@
   "totalForks": 27,
   "totalWatchers": 13,
   "totalSize": "840.8 MB",
-  "totalSizeKb": 860934,
+  "totalSizeKb": 860947,
   "topLanguage": "JavaScript",
   "accountAge": "2y 2m",
   "accountAgePrecise": "2 years 2 months",
   "accountCreatedAt": "2024-08-03T01:58:16Z",
   "topRepo": "pterodactyl-gateway",
-  "recentRepo": "dastermv2",
+  "recentRepo": "pterodactyl-gateway",
   "largestRepo": "Hacktoberfest2025-3",
   "languageDistribution": {
-    "totalBytes": 48150074,
+    "totalBytes": 48347974,
     "languagesCount": 42,
-    "entropy": 2.249472282924722,
+    "entropy": 2.247905210979895,
     "entropyMax": 5.392317422778761,
-    "redundancy": 0.5828375619316699,
-    "hhi": 3129.049294423179,
-    "gini": 0.911447719537402,
-    "cr3": 84.86805856206992,
-    "cr5": 90.57776110582924,
+    "redundancy": 0.5831281738934597,
+    "hhi": 3126.9784217075353,
+    "gini": 0.9115569134785453,
+    "cr3": 84.92999727351554,
+    "cr5": 90.61632861803062,
     "pareto80": {
       "count": 3,
       "totalCount": 42,
-      "share": 0.8486805856206991
+      "share": 0.8492999727351553
     },
-    "topShare": 48.83547219470525,
-    "geomeanBytes": 4843.329529334709,
+    "topShare": 48.71769187267289,
+    "geomeanBytes": 4845.117682925651,
     "medianBytes": 3035,
-    "cv": 3.484538281692047,
+    "cv": 3.4832900211110247,
     "byBytes": [
       {
         "name": "JavaScript",
-        "bytes": 23514316,
+        "bytes": 23554017,
         "repos": 70
       },
       {
         "name": "TypeScript",
-        "bytes": 11371043,
+        "bytes": 11529242,
         "repos": 30
       },
       {
@@ -425,14 +425,14 @@
   },
   "codeTotals": {
     "totals": {
-      "files": 17686,
-      "lines": 3409412,
-      "codeLines": 3170559,
-      "chars": 145011657,
-      "nonWsChars": 110558394,
-      "bytes": 146480954
+      "files": 17702,
+      "lines": 3414729,
+      "codeLines": 3175497,
+      "chars": 145212640,
+      "nonWsChars": 110720547,
+      "bytes": 146681891
     },
-    "scannedFiles": 17688,
+    "scannedFiles": 17704,
     "excludedFiles": 2,
     "exclusionSamples": [
       {
@@ -450,19 +450,19 @@
     "perLang": [
       {
         "name": "JavaScript",
-        "files": 9326,
-        "lines": 2176171,
-        "codeLines": 2052099,
-        "chars": 98294318,
-        "bytes": 98617537
+        "files": 9333,
+        "lines": 2177018,
+        "codeLines": 2052865,
+        "chars": 98335166,
+        "bytes": 98658385
       },
       {
         "name": "TypeScript",
-        "files": 5555,
-        "lines": 867302,
-        "codeLines": 798798,
-        "chars": 33823141,
-        "bytes": 33862807
+        "files": 5564,
+        "lines": 871772,
+        "codeLines": 802970,
+        "chars": 33983276,
+        "bytes": 34022896
       },
       {
         "name": "Python",
@@ -941,6 +941,16 @@
         "topLanguage": "Dart"
       },
       {
+        "repo": "pterodactyl-gateway",
+        "files": 38,
+        "lines": 9421,
+        "codeLines": 8648,
+        "chars": 361799,
+        "nonWsChars": 293025,
+        "bytes": 361799,
+        "topLanguage": "TypeScript"
+      },
+      {
         "repo": "dom",
         "files": 80,
         "lines": 8872,
@@ -1099,16 +1109,6 @@
         "nonWsChars": 94071,
         "bytes": 130931,
         "topLanguage": "CSS"
-      },
-      {
-        "repo": "pterodactyl-gateway",
-        "files": 22,
-        "lines": 4104,
-        "codeLines": 3710,
-        "chars": 160816,
-        "nonWsChars": 130872,
-        "bytes": 160862,
-        "topLanguage": "TypeScript"
       },
       {
         "repo": "aio_tools",
@@ -2017,16 +2017,22 @@
   ],
   "recentRepositories": [
     {
+      "name": "pterodactyl-gateway",
+      "url": "https://github.com/akaanakbaik/pterodactyl-gateway",
+      "language": "TypeScript",
+      "updatedAt": "2026-10-18T04:12:34Z"
+    },
+    {
       "name": "dastermv2",
       "url": "https://github.com/akaanakbaik/dastermv2",
       "language": "Shell",
-      "updatedAt": "2026-10-17T23:48:23Z"
+      "updatedAt": "2026-10-18T03:27:36Z"
     },
     {
       "name": "akaanakbaik",
       "url": "https://github.com/akaanakbaik/akaanakbaik",
       "language": "JavaScript",
-      "updatedAt": "2026-10-17T22:02:57Z"
+      "updatedAt": "2026-10-18T00:03:00Z"
     },
     {
       "name": "auto-commit",
@@ -2057,34 +2063,28 @@
       "url": "https://github.com/akaanakbaik/profile-card",
       "language": "Unknown",
       "updatedAt": "2026-10-12T14:18:11Z"
-    },
-    {
-      "name": "aka",
-      "url": "https://github.com/akaanakbaik/aka",
-      "language": "HTML",
-      "updatedAt": "2026-10-12T14:18:10Z"
     }
   ],
   "activity": {
     "pullRequests": 45,
     "issues": 15,
     "reposContributed": 6,
-    "totalCommitContributions": 3381,
+    "totalCommitContributions": 3385,
     "totalIssueContributions": 10,
     "totalPRContributions": 39,
     "totalPRReviews": 0,
     "totalRepositoryContributions": 66,
-    "totalContributions": 4114
+    "totalContributions": 4118
   },
   "streak": {
-    "currentStreak": 0,
+    "currentStreak": 1,
     "longest": 80,
-    "lastActiveDate": "2026-10-13",
-    "activeDays": 207,
-    "totalContributions": 4114
+    "lastActiveDate": "2026-10-18",
+    "activeDays": 208,
+    "totalContributions": 4118
   },
   "commitHours": {
-    "sampled": 3410,
+    "sampled": 3414,
     "hourCounts": [
       152,
       54,
@@ -2096,8 +2096,8 @@
       130,
       70,
       109,
-      68,
-      145,
+      69,
+      148,
       147,
       115,
       99,
@@ -2118,7 +2118,7 @@
       501,
       331,
       564,
-      600
+      604
     ],
     "weekdayHourGrid": [
       [
@@ -2288,8 +2288,8 @@
         70,
         30,
         33,
-        9,
-        43,
+        10,
+        46,
         12,
         10,
         3,
@@ -2315,8 +2315,8 @@
     ],
     "peakHour": 23,
     "peakWeekday": "Sun",
-    "circularMean": 20.455721012715905,
-    "circularStd": 6.241028821187518,
+    "circularMean": 20.44612276420782,
+    "circularStd": 6.252305962534747,
     "activeHours": 24,
     "reposWithCommits": 87,
     "topCommitRepos": [
@@ -2330,7 +2330,7 @@
       },
       {
         "repo": "pterodactyl-gateway",
-        "count": 160
+        "count": 164
       },
       {
         "repo": "portofoliov2",
@@ -2341,35 +2341,35 @@
         "count": 125
       }
     ],
-    "latestDate": "2026-10-13T16:37:37Z",
+    "latestDate": "2026-10-18T04:12:30Z",
     "rhythm": {
       "label": "Night Owl",
       "emoji": "🦉",
-      "share": 0.33225806451612905,
+      "share": 0.3318687756297598,
       "buckets": [
         {
           "name": "Night Owl",
           "emoji": "🦉",
           "count": 1133,
-          "pct": 33.225806451612904
+          "pct": 33.18687756297598
         },
         {
           "name": "Early Bird",
           "emoji": "🐦",
           "count": 517,
-          "pct": 15.161290322580644
+          "pct": 15.143526654950204
         },
         {
           "name": "Day Coder",
           "emoji": "☀️",
-          "count": 813,
-          "pct": 23.841642228739
+          "count": 817,
+          "pct": 23.93087287639133
         },
         {
           "name": "Evening",
           "emoji": "🌆",
           "count": 947,
-          "pct": 27.771260997067447
+          "pct": 27.738722905682483
         }
       ],
       "peakHour": 23
@@ -2379,7 +2379,7 @@
     "years": 2,
     "months": 2,
     "days": 15,
-    "totalDays": 805,
+    "totalDays": 806,
     "label": "2 years 2 months",
     "createdAt": "2024-08-03T01:58:16Z"
   },
@@ -2410,15 +2410,15 @@
       "pullRequests": 21,
       "issues": 0,
       "discussions": 0,
-      "daysSincePush": 32,
-      "commits": 160,
-      "score": 9.726780460037581,
+      "daysSincePush": 0,
+      "commits": 164,
+      "score": 10.76696594421559,
       "stars": 10,
       "forks": 0,
       "watchers": 0,
       "prs": 21,
-      "recency": 0.4910982295021551,
-      "scorePct": 86.53093804715317
+      "recency": 1,
+      "scorePct": 95.78458842599677
     },
     {
       "name": "portofoliov2",

@@ -21,36 +21,36 @@
 <text x="78" y="454.00" text-anchor="end" fill="#64748b" font-size="11.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">0</text><line x1="92" y1="369.50" x2="1154" y2="369.50" stroke="#ffffff" stroke-opacity="0.07" stroke-width="1"/>
 <text x="78" y="373.50" text-anchor="end" fill="#64748b" font-size="11.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">8</text><line x1="92" y1="289.00" x2="1154" y2="289.00" stroke="#ffffff" stroke-opacity="0.07" stroke-width="1"/>
 <text x="78" y="293.00" text-anchor="end" fill="#64748b" font-size="11.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">16</text><line x1="92" y1="208.50" x2="1154" y2="208.50" stroke="#ffffff" stroke-opacity="0.07" stroke-width="1"/>
-<text x="78" y="212.50" text-anchor="end" fill="#64748b" font-size="11.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">24</text><line x1="92" y1="128.00" x2="1154" y2="128.00" stroke="#ffffff" stroke-opacity="0.07" stroke-width="1"/>
-<text x="78" y="132.00" text-anchor="end" fill="#64748b" font-size="11.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">32</text><g>
-<rect x="134.48" y="258.81" width="92.04" height="191.19" rx="6" fill="#334155"/>
-<text x="180.50" y="248.81" text-anchor="middle" fill="#ffffff" font-size="13" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">19</text>
-<text x="180.50" y="231.81" text-anchor="middle" fill="#94a3b8" font-size="10.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">0.0% lines</text>
+<text x="78" y="212.50" text-anchor="end" fill="#64748b" font-size="11.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">23</text><line x1="92" y1="128.00" x2="1154" y2="128.00" stroke="#ffffff" stroke-opacity="0.07" stroke-width="1"/>
+<text x="78" y="132.00" text-anchor="end" fill="#64748b" font-size="11.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">31</text><g>
+<rect x="134.48" y="252.65" width="92.04" height="197.35" rx="6" fill="#334155"/>
+<text x="180.50" y="242.65" text-anchor="middle" fill="#ffffff" font-size="13" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">19</text>
+<text x="180.50" y="225.65" text-anchor="middle" fill="#94a3b8" font-size="10.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">0.0% lines</text>
 <text x="180.50" y="472" text-anchor="middle" fill="#cbd5e1" font-size="11.5" font-weight="600" font-family="Inter,'Segoe UI',system-ui,sans-serif">0</text>
 </g><g>
-<rect x="311.48" y="158.19" width="92.04" height="291.81" rx="6" fill="#4338ca"/>
-<text x="357.50" y="148.19" text-anchor="middle" fill="#ffffff" font-size="13" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">29</text>
-<text x="357.50" y="131.19" text-anchor="middle" fill="#94a3b8" font-size="10.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">0.3% lines</text>
+<rect x="311.48" y="148.77" width="92.04" height="301.23" rx="6" fill="#4338ca"/>
+<text x="357.50" y="138.77" text-anchor="middle" fill="#ffffff" font-size="13" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">29</text>
+<text x="357.50" y="121.77" text-anchor="middle" fill="#94a3b8" font-size="10.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">0.3% lines</text>
 <text x="357.50" y="472" text-anchor="middle" fill="#cbd5e1" font-size="11.5" font-weight="600" font-family="Inter,'Segoe UI',system-ui,sans-serif">1–999</text>
 </g><g>
 <rect x="488.48" y="128.00" width="92.04" height="322.00" rx="6" fill="#5b21b6"/>
-<text x="534.50" y="118.00" text-anchor="middle" fill="#ffffff" font-size="13" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">32</text>
-<text x="534.50" y="101.00" text-anchor="middle" fill="#94a3b8" font-size="10.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">2.3% lines</text>
+<text x="534.50" y="118.00" text-anchor="middle" fill="#ffffff" font-size="13" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">31</text>
+<text x="534.50" y="101.00" text-anchor="middle" fill="#94a3b8" font-size="10.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">2.2% lines</text>
 <text x="534.50" y="472" text-anchor="middle" fill="#cbd5e1" font-size="11.5" font-weight="600" font-family="Inter,'Segoe UI',system-ui,sans-serif">1k–4.9k</text>
 </g><g>
-<rect x="665.48" y="289.00" width="92.04" height="161.00" rx="6" fill="#7c3aed"/>
-<text x="711.50" y="279.00" text-anchor="middle" fill="#ffffff" font-size="13" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">16</text>
-<text x="711.50" y="262.00" text-anchor="middle" fill="#94a3b8" font-size="10.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">4.1% lines</text>
+<rect x="665.48" y="273.42" width="92.04" height="176.58" rx="6" fill="#7c3aed"/>
+<text x="711.50" y="263.42" text-anchor="middle" fill="#ffffff" font-size="13" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">17</text>
+<text x="711.50" y="246.42" text-anchor="middle" fill="#94a3b8" font-size="10.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">4.4% lines</text>
 <text x="711.50" y="472" text-anchor="middle" fill="#cbd5e1" font-size="11.5" font-weight="600" font-family="Inter,'Segoe UI',system-ui,sans-serif">5k–19.9k</text>
 </g><g>
-<rect x="842.48" y="379.56" width="92.04" height="70.44" rx="6" fill="#a78bfa"/>
-<text x="888.50" y="369.56" text-anchor="middle" fill="#ffffff" font-size="13" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">7</text>
-<text x="888.50" y="352.56" text-anchor="middle" fill="#94a3b8" font-size="10.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">10.0% lines</text>
+<rect x="842.48" y="377.29" width="92.04" height="72.71" rx="6" fill="#a78bfa"/>
+<text x="888.50" y="367.29" text-anchor="middle" fill="#ffffff" font-size="13" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">7</text>
+<text x="888.50" y="350.29" text-anchor="middle" fill="#94a3b8" font-size="10.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">10.0% lines</text>
 <text x="888.50" y="472" text-anchor="middle" fill="#cbd5e1" font-size="11.5" font-weight="600" font-family="Inter,'Segoe UI',system-ui,sans-serif">20k–99.9k</text>
 </g><g>
-<rect x="1019.48" y="399.69" width="92.04" height="50.31" rx="6" fill="#e9d5ff"/>
-<text x="1065.50" y="389.69" text-anchor="middle" fill="#ffffff" font-size="13" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">5</text>
-<text x="1065.50" y="372.69" text-anchor="middle" fill="#94a3b8" font-size="10.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">83.2% lines</text>
+<rect x="1019.48" y="398.06" width="92.04" height="51.94" rx="6" fill="#e9d5ff"/>
+<text x="1065.50" y="388.06" text-anchor="middle" fill="#ffffff" font-size="13" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">5</text>
+<text x="1065.50" y="371.06" text-anchor="middle" fill="#94a3b8" font-size="10.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">83.1% lines</text>
 <text x="1065.50" y="472" text-anchor="middle" fill="#cbd5e1" font-size="11.5" font-weight="600" font-family="Inter,'Segoe UI',system-ui,sans-serif">100k+</text>
 </g><g transform="translate(30 548)">
 <rect width="165" height="54" rx="12" fill="#0d1322" stroke="#4338ca" stroke-opacity="0.35" stroke-width="1.2"/>
@@ -77,5 +77,5 @@
 <text x="14" y="20" fill="#8b93a7" font-size="10.5" font-weight="700" letter-spacing="1.2" font-family="Inter,'Segoe UI',system-ui,sans-serif">TOTAL</text>
 <text x="14" y="42" fill="#7e22ce" font-size="17" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">3.2M lines</text>
 </g>
-<text x="30" y="626" fill="#64748b" font-size="11" font-family="Inter,'Segoe UI',system-ui,sans-serif">Buckets are magnitude bands of non-blank tracked source lines per repository · generated 18 Oct 2026, 07:01</text>
+<text x="30" y="626" fill="#64748b" font-size="11" font-family="Inter,'Segoe UI',system-ui,sans-serif">Buckets are magnitude bands of non-blank tracked source lines per repository · generated 18 Oct 2026, 11:28</text>
 </svg>
