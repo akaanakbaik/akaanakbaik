@@ -1,6 +1,6 @@
 {
   "username": "akaanakbaik",
-  "generatedAt": "20 Oct 2026, 22:03",
+  "generatedAt": "21 Oct 2026, 02:14",
   "publicRepos": 108,
   "originalRepos": 88,
   "forkedRepos": 20,
@@ -12,14 +12,14 @@
   "totalStars": 514,
   "totalForks": 27,
   "totalWatchers": 13,
-  "totalSize": "840.4 MB",
-  "totalSizeKb": 860610,
+  "totalSize": "840.5 MB",
+  "totalSizeKb": 860659,
   "topLanguage": "JavaScript",
   "accountAge": "2y 2m",
   "accountAgePrecise": "2 years 2 months",
   "accountCreatedAt": "2024-08-03T01:58:16Z",
   "topRepo": "pterodactyl-gateway",
-  "recentRepo": "kaboxv8",
+  "recentRepo": "dastermv2",
   "largestRepo": "Hacktoberfest2025-3",
   "languageDistribution": {
     "totalBytes": 48348180,
@@ -2017,28 +2017,28 @@
   ],
   "recentRepositories": [
     {
-      "name": "kaboxv8",
-      "url": "https://github.com/akaanakbaik/kaboxv8",
-      "language": "JavaScript",
-      "updatedAt": "2026-10-20T11:36:38Z"
+      "name": "dastermv2",
+      "url": "https://github.com/akaanakbaik/dastermv2",
+      "language": "Shell",
+      "updatedAt": "2026-10-20T15:44:46Z"
     },
     {
       "name": "auto-commit",
       "url": "https://github.com/akaanakbaik/auto-commit",
       "language": "Unknown",
-      "updatedAt": "2026-10-20T11:26:38Z"
-    },
-    {
-      "name": "dastermv2",
-      "url": "https://github.com/akaanakbaik/dastermv2",
-      "language": "Shell",
-      "updatedAt": "2026-10-20T11:02:41Z"
+      "updatedAt": "2026-10-20T15:43:58Z"
     },
     {
       "name": "akaanakbaik",
       "url": "https://github.com/akaanakbaik/akaanakbaik",
       "language": "JavaScript",
-      "updatedAt": "2026-10-20T10:03:18Z"
+      "updatedAt": "2026-10-20T15:05:29Z"
+    },
+    {
+      "name": "kaboxv8",
+      "url": "https://github.com/akaanakbaik/kaboxv8",
+      "language": "JavaScript",
+      "updatedAt": "2026-10-20T11:36:38Z"
     },
     {
       "name": "pterodactyl-gateway",
@@ -2315,8 +2315,8 @@
     ],
     "peakHour": 23,
     "peakWeekday": "Sun",
-    "circularMean": 20.44367271925689,
-    "circularStd": 6.248129545557063,
+    "circularMean": 20.443672719256895,
+    "circularStd": 6.248129545557062,
     "activeHours": 24,
     "reposWithCommits": 87,
     "topCommitRepos": [
@@ -2410,15 +2410,15 @@
       "pullRequests": 21,
       "issues": 0,
       "discussions": 0,
-      "daysSincePush": 2,
+      "daysSincePush": 3,
       "commits": 164,
-      "score": 10.680023422421648,
+      "score": 10.637979914278826,
       "stars": 10,
       "forks": 0,
       "watchers": 0,
       "prs": 21,
-      "recency": 0.9565287391030293,
-      "scorePct": 95.01113435268608
+      "recency": 0.9355069850316178,
+      "scorePct": 94.63710882457445
     },
     {
       "name": "portofoliov2",
