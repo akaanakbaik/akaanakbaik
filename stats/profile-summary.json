@@ -1,6 +1,6 @@
 {
   "username": "akaanakbaik",
-  "generatedAt": "20 Oct 2026, 06:38",
+  "generatedAt": "20 Oct 2026, 11:46",
   "publicRepos": 108,
   "originalRepos": 88,
   "forkedRepos": 20,
@@ -12,14 +12,14 @@
   "totalStars": 514,
   "totalForks": 27,
   "totalWatchers": 13,
-  "totalSize": "840.3 MB",
-  "totalSizeKb": 860510,
+  "totalSize": "840.4 MB",
+  "totalSizeKb": 860548,
   "topLanguage": "JavaScript",
   "accountAge": "2y 2m",
   "accountAgePrecise": "2 years 2 months",
   "accountCreatedAt": "2024-08-03T01:58:16Z",
   "topRepo": "pterodactyl-gateway",
-  "recentRepo": "akaanakbaik",
+  "recentRepo": "dastermv2",
   "largestRepo": "Hacktoberfest2025-3",
   "languageDistribution": {
     "totalBytes": 48347974,
@@ -2017,16 +2017,16 @@
   ],
   "recentRepositories": [
     {
-      "name": "akaanakbaik",
-      "url": "https://github.com/akaanakbaik/akaanakbaik",
-      "language": "JavaScript",
-      "updatedAt": "2026-10-19T23:28:01Z"
-    },
-    {
       "name": "dastermv2",
       "url": "https://github.com/akaanakbaik/dastermv2",
       "language": "Shell",
-      "updatedAt": "2026-10-19T21:21:31Z"
+      "updatedAt": "2026-10-20T00:31:28Z"
+    },
+    {
+      "name": "akaanakbaik",
+      "url": "https://github.com/akaanakbaik/akaanakbaik",
+      "language": "JavaScript",
+      "updatedAt": "2026-10-19T23:39:26Z"
     },
     {
       "name": "auto-commit",
@@ -2077,7 +2077,7 @@
     "totalContributions": 4087
   },
   "streak": {
-    "currentStreak": 1,
+    "currentStreak": 0,
     "longest": 80,
     "lastActiveDate": "2026-10-18",
     "activeDays": 208,
@@ -2315,8 +2315,8 @@
     ],
     "peakHour": 23,
     "peakWeekday": "Sun",
-    "circularMean": 20.446122764207818,
-    "circularStd": 6.252305962534746,
+    "circularMean": 20.44612276420782,
+    "circularStd": 6.252305962534747,
     "activeHours": 24,
     "reposWithCommits": 87,
     "topCommitRepos": [
@@ -2378,8 +2378,8 @@
   "codingAge": {
     "years": 2,
     "months": 2,
-    "days": 16,
-    "totalDays": 807,
+    "days": 17,
+    "totalDays": 808,
     "label": "2 years 2 months",
     "createdAt": "2024-08-03T01:58:16Z"
   },
@@ -2428,15 +2428,15 @@
       "pullRequests": 1,
       "issues": 0,
       "discussions": 0,
-      "daysSincePush": 34,
+      "daysSincePush": 35,
       "commits": 141,
-      "score": 8.49920979242822,
+      "score": 8.47856230001722,
       "stars": 5,
       "forks": 2,
       "watchers": 0,
       "prs": 1,
-      "recency": 0.46974957024142655,
-      "scorePct": 75.61028019702239
+      "recency": 0.4594258240359266,
+      "scorePct": 75.42659692237815
     },
     {
       "name": "dastermv2",
