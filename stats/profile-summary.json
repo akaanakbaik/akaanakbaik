@@ -1,6 +1,6 @@
 {
   "username": "akaanakbaik",
-  "generatedAt": "22 Oct 2026, 06:04",
+  "generatedAt": "22 Oct 2026, 08:29",
   "publicRepos": 108,
   "originalRepos": 88,
   "forkedRepos": 20,
@@ -13,13 +13,13 @@
   "totalForks": 27,
   "totalWatchers": 13,
   "totalSize": "840.7 MB",
-  "totalSizeKb": 860851,
+  "totalSizeKb": 860889,
   "topLanguage": "JavaScript",
   "accountAge": "2y 2m",
   "accountAgePrecise": "2 years 2 months",
   "accountCreatedAt": "2024-08-03T01:58:16Z",
   "topRepo": "pterodactyl-gateway",
-  "recentRepo": "akaanakbaik",
+  "recentRepo": "dastermv2",
   "largestRepo": "Hacktoberfest2025-3",
   "languageDistribution": {
     "totalBytes": 48348180,
@@ -2017,16 +2017,16 @@
   ],
   "recentRepositories": [
     {
-      "name": "akaanakbaik",
-      "url": "https://github.com/akaanakbaik/akaanakbaik",
-      "language": "JavaScript",
-      "updatedAt": "2026-10-21T22:20:28Z"
-    },
-    {
       "name": "dastermv2",
       "url": "https://github.com/akaanakbaik/dastermv2",
       "language": "Shell",
-      "updatedAt": "2026-10-21T21:21:00Z"
+      "updatedAt": "2026-10-22T00:07:00Z"
+    },
+    {
+      "name": "akaanakbaik",
+      "url": "https://github.com/akaanakbaik/akaanakbaik",
+      "language": "JavaScript",
+      "updatedAt": "2026-10-21T23:05:49Z"
     },
     {
       "name": "auto-commit",
@@ -2315,8 +2315,8 @@
     ],
     "peakHour": 23,
     "peakWeekday": "Sun",
-    "circularMean": 20.44367271925689,
-    "circularStd": 6.248129545557062,
+    "circularMean": 20.443672719256895,
+    "circularStd": 6.248129545557063,
     "activeHours": 24,
     "reposWithCommits": 87,
     "topCommitRepos": [
@@ -2378,7 +2378,7 @@
   "codingAge": {
     "years": 2,
     "months": 2,
-    "days": 18,
+    "days": 19,
     "totalDays": 809,
     "label": "2 years 2 months",
     "createdAt": "2024-08-03T01:58:16Z"
@@ -2464,15 +2464,15 @@
       "pullRequests": 0,
       "issues": 0,
       "discussions": 0,
-      "daysSincePush": 1,
+      "daysSincePush": 2,
       "commits": 55,
-      "score": 8.006554595231735,
+      "score": 7.963566328468593,
       "stars": 5,
       "forks": 1,
       "watchers": 0,
       "prs": 0,
-      "recency": 0.9780228724846005,
-      "scorePct": 71.22754363559163
+      "recency": 0.9565287391030293,
+      "scorePct": 70.84511338918905
     }
   ]
 }
