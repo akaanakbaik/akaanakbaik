@@ -1,6 +1,6 @@
 {
   "username": "akaanakbaik",
-  "generatedAt": "23 Oct 2026, 08:29",
+  "generatedAt": "23 Oct 2026, 14:29",
   "publicRepos": 108,
   "originalRepos": 88,
   "forkedRepos": 20,
@@ -12,14 +12,14 @@
   "totalStars": 514,
   "totalForks": 27,
   "totalWatchers": 13,
-  "totalSize": "841.0 MB",
-  "totalSizeKb": 861146,
+  "totalSize": "841.7 MB",
+  "totalSizeKb": 861864,
   "topLanguage": "JavaScript",
   "accountAge": "2y 2m",
   "accountAgePrecise": "2 years 2 months",
   "accountCreatedAt": "2024-08-03T01:58:16Z",
   "topRepo": "pterodactyl-gateway",
-  "recentRepo": "auto-commit",
+  "recentRepo": "dastermv2",
   "largestRepo": "Hacktoberfest2025-3",
   "languageDistribution": {
     "totalBytes": 48348180,
@@ -2017,22 +2017,22 @@
   ],
   "recentRepositories": [
     {
+      "name": "dastermv2",
+      "url": "https://github.com/akaanakbaik/dastermv2",
+      "language": "Shell",
+      "updatedAt": "2026-10-23T07:04:50Z"
+    },
+    {
       "name": "auto-commit",
       "url": "https://github.com/akaanakbaik/auto-commit",
       "language": "Unknown",
-      "updatedAt": "2026-10-23T01:05:41Z"
+      "updatedAt": "2026-10-23T05:56:52Z"
     },
     {
       "name": "akaanakbaik",
       "url": "https://github.com/akaanakbaik/akaanakbaik",
       "language": "JavaScript",
-      "updatedAt": "2026-10-22T23:04:08Z"
-    },
-    {
-      "name": "dastermv2",
-      "url": "https://github.com/akaanakbaik/dastermv2",
-      "language": "Shell",
-      "updatedAt": "2026-10-22T23:00:28Z"
+      "updatedAt": "2026-10-23T01:30:23Z"
     },
     {
       "name": "kaboxv8",
@@ -2379,7 +2379,7 @@
     "years": 2,
     "months": 2,
     "days": 20,
-    "totalDays": 810,
+    "totalDays": 811,
     "label": "2 years 2 months",
     "createdAt": "2024-08-03T01:58:16Z"
   },
@@ -2428,15 +2428,15 @@
       "pullRequests": 1,
       "issues": 0,
       "discussions": 0,
-      "daysSincePush": 37,
+      "daysSincePush": 38,
       "commits": 141,
-      "score": 8.438618660298276,
+      "score": 8.419302786924398,
       "stars": 5,
       "forks": 2,
       "watchers": 0,
       "prs": 1,
-      "recency": 0.4394540041764551,
-      "scorePct": 75.07125214739345
+      "recency": 0.42979606748951626,
+      "scorePct": 74.89941516093027
     },
     {
       "name": "dastermv2",
