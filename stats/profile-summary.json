@@ -1,6 +1,6 @@
 {
   "username": "akaanakbaik",
-  "generatedAt": "24 Oct 2026, 05:57",
+  "generatedAt": "24 Oct 2026, 07:39",
   "publicRepos": 108,
   "originalRepos": 88,
   "forkedRepos": 20,
@@ -12,14 +12,14 @@
   "totalStars": 514,
   "totalForks": 27,
   "totalWatchers": 13,
-  "totalSize": "842.1 MB",
-  "totalSizeKb": 862336,
+  "totalSize": "842.2 MB",
+  "totalSizeKb": 862373,
   "topLanguage": "JavaScript",
   "accountAge": "2y 2m",
   "accountAgePrecise": "2 years 2 months",
   "accountCreatedAt": "2024-08-03T01:58:16Z",
   "topRepo": "pterodactyl-gateway",
-  "recentRepo": "akaanakbaik",
+  "recentRepo": "dastermv2",
   "largestRepo": "Hacktoberfest2025-3",
   "languageDistribution": {
     "totalBytes": 48348180,
@@ -2017,16 +2017,16 @@
   ],
   "recentRepositories": [
     {
-      "name": "akaanakbaik",
-      "url": "https://github.com/akaanakbaik/akaanakbaik",
-      "language": "JavaScript",
-      "updatedAt": "2026-10-23T22:09:57Z"
-    },
-    {
       "name": "dastermv2",
       "url": "https://github.com/akaanakbaik/dastermv2",
       "language": "Shell",
-      "updatedAt": "2026-10-23T21:05:35Z"
+      "updatedAt": "2026-10-23T23:55:04Z"
+    },
+    {
+      "name": "akaanakbaik",
+      "url": "https://github.com/akaanakbaik/akaanakbaik",
+      "language": "JavaScript",
+      "updatedAt": "2026-10-23T22:58:51Z"
     },
     {
       "name": "auto-commit",
@@ -2077,7 +2077,7 @@
     "totalContributions": 4108
   },
   "streak": {
-    "currentStreak": 3,
+    "currentStreak": 0,
     "longest": 80,
     "lastActiveDate": "2026-10-22",
     "activeDays": 211,
@@ -2316,7 +2316,7 @@
     "peakHour": 23,
     "peakWeekday": "Sun",
     "circularMean": 20.44367271925689,
-    "circularStd": 6.248129545557064,
+    "circularStd": 6.248129545557058,
     "activeHours": 24,
     "reposWithCommits": 87,
     "topCommitRepos": [
@@ -2378,7 +2378,7 @@
   "codingAge": {
     "years": 2,
     "months": 2,
-    "days": 20,
+    "days": 21,
     "totalDays": 811,
     "label": "2 years 2 months",
     "createdAt": "2024-08-03T01:58:16Z"
@@ -2464,15 +2464,15 @@
       "pullRequests": 0,
       "issues": 0,
       "discussions": 0,
-      "daysSincePush": 3,
+      "daysSincePush": 4,
       "commits": 55,
-      "score": 7.9215228203257695,
+      "score": 7.880403307722596,
       "stars": 5,
       "forks": 1,
       "watchers": 0,
       "prs": 0,
-      "recency": 0.9355069850316178,
-      "scorePct": 70.47108786107741
+      "recency": 0.914947228730031,
+      "scorePct": 70.10528233969107
     }
   ]
 }
