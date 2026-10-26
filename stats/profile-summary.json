@@ -1,6 +1,6 @@
 {
   "username": "akaanakbaik",
-  "generatedAt": "26 Oct 2026, 05:22",
+  "generatedAt": "26 Oct 2026, 07:21",
   "publicRepos": 108,
   "originalRepos": 88,
   "forkedRepos": 20,
@@ -12,14 +12,14 @@
   "totalStars": 514,
   "totalForks": 27,
   "totalWatchers": 13,
-  "totalSize": "841.5 MB",
-  "totalSizeKb": 861718,
+  "totalSize": "841.6 MB",
+  "totalSizeKb": 861756,
   "topLanguage": "JavaScript",
   "accountAge": "2y 2m",
   "accountAgePrecise": "2 years 2 months",
   "accountCreatedAt": "2024-08-03T01:58:16Z",
   "topRepo": "pterodactyl-gateway",
-  "recentRepo": "akaanakbaik",
+  "recentRepo": "dastermv2",
   "largestRepo": "Hacktoberfest2025-3",
   "languageDistribution": {
     "totalBytes": 48348180,
@@ -2017,16 +2017,16 @@
   ],
   "recentRepositories": [
     {
-      "name": "akaanakbaik",
-      "url": "https://github.com/akaanakbaik/akaanakbaik",
-      "language": "JavaScript",
-      "updatedAt": "2026-10-25T21:46:46Z"
-    },
-    {
       "name": "dastermv2",
       "url": "https://github.com/akaanakbaik/dastermv2",
       "language": "Shell",
-      "updatedAt": "2026-10-25T20:29:11Z"
+      "updatedAt": "2026-10-25T22:45:42Z"
+    },
+    {
+      "name": "akaanakbaik",
+      "url": "https://github.com/akaanakbaik/akaanakbaik",
+      "language": "JavaScript",
+      "updatedAt": "2026-10-25T22:23:36Z"
     },
     {
       "name": "auto-commit",
@@ -2069,19 +2069,19 @@
     "pullRequests": 47,
     "issues": 15,
     "reposContributed": 5,
-    "totalCommitContributions": 3377,
-    "totalIssueContributions": 6,
-    "totalPRContributions": 33,
+    "totalCommitContributions": 3322,
+    "totalIssueContributions": 5,
+    "totalPRContributions": 29,
     "totalPRReviews": 0,
-    "totalRepositoryContributions": 58,
-    "totalContributions": 4110
+    "totalRepositoryContributions": 53,
+    "totalContributions": 4046
   },
   "streak": {
-    "currentStreak": 1,
+    "currentStreak": 2,
     "longest": 80,
-    "lastActiveDate": "2026-10-25",
-    "activeDays": 207,
-    "totalContributions": 4110
+    "lastActiveDate": "2026-10-26",
+    "activeDays": 208,
+    "totalContributions": 4046
   },
   "commitHours": {
     "sampled": 3417,
@@ -2315,7 +2315,7 @@
     ],
     "peakHour": 23,
     "peakWeekday": "Sun",
-    "circularMean": 20.44367271925689,
+    "circularMean": 20.443672719256895,
     "circularStd": 6.248129545557063,
     "activeHours": 24,
     "reposWithCommits": 87,
@@ -2378,7 +2378,7 @@
   "codingAge": {
     "years": 2,
     "months": 2,
-    "days": 22,
+    "days": 23,
     "totalDays": 813,
     "label": "2 years 2 months",
     "createdAt": "2024-08-03T01:58:16Z"
@@ -2464,15 +2464,15 @@
       "pullRequests": 0,
       "issues": 0,
       "discussions": 0,
-      "daysSincePush": 5,
+      "daysSincePush": 6,
       "commits": 55,
-      "score": 7.840187483891274,
+      "score": 7.800855488348429,
       "stars": 5,
       "forks": 1,
       "watchers": 0,
       "prs": 0,
-      "recency": 0.8948393168143698,
-      "scorePct": 69.74751617289411
+      "recency": 0.8751733190429475,
+      "scorePct": 69.39761267876551
     }
   ]
 }
