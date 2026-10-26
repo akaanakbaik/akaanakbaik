@@ -1,11 +1,11 @@
 {
   "username": "akaanakbaik",
-  "generatedAt": "26 Oct 2026, 13:10",
-  "publicRepos": 108,
-  "originalRepos": 88,
+  "generatedAt": "26 Oct 2026, 19:57",
+  "publicRepos": 109,
+  "originalRepos": 89,
   "forkedRepos": 20,
   "archivedRepos": 0,
-  "activeRepos90d": 30,
+  "activeRepos90d": 31,
   "followers": 80,
   "following": 75,
   "publicGists": 0,
@@ -13,33 +13,33 @@
   "totalForks": 27,
   "totalWatchers": 13,
   "totalSize": "841.5 MB",
-  "totalSizeKb": 861679,
+  "totalSizeKb": 861718,
   "topLanguage": "JavaScript",
   "accountAge": "2y 2m",
   "accountAgePrecise": "2 years 2 months",
   "accountCreatedAt": "2024-08-03T01:58:16Z",
   "topRepo": "pterodactyl-gateway",
-  "recentRepo": "dastermv2",
+  "recentRepo": "image",
   "largestRepo": "Hacktoberfest2025-3",
   "languageDistribution": {
-    "totalBytes": 48348180,
+    "totalBytes": 48348993,
     "languagesCount": 42,
-    "entropy": 2.2479000536444227,
+    "entropy": 2.248061533435214,
     "entropyMax": 5.392317422778761,
-    "redundancy": 0.5831291303162864,
-    "hhi": 3126.9932900389817,
-    "gini": 0.9115571888666554,
-    "cr3": 84.93006148318302,
-    "cr5": 90.61636859960396,
+    "redundancy": 0.583099184046783,
+    "hhi": 3126.8882196752825,
+    "gini": 0.9115454640783267,
+    "cr3": 84.92863336367729,
+    "cr5": 90.61484486347007,
     "pareto80": {
       "count": 3,
       "totalCount": 42,
-      "share": 0.8493006148318303
+      "share": 0.849286333636773
     },
-    "topShare": 48.71791037428916,
-    "geomeanBytes": 4845.118691842609,
+    "topShare": 48.717091170854374,
+    "geomeanBytes": 4852.291406600048,
     "medianBytes": 3035,
-    "cv": 3.483298984894023,
+    "cv": 3.4832356398377913,
     "byBytes": [
       {
         "name": "JavaScript",
@@ -123,8 +123,8 @@
       },
       {
         "name": "Dockerfile",
-        "bytes": 12683,
-        "repos": 6
+        "bytes": 13496,
+        "repos": 7
       },
       {
         "name": "PowerShell",
@@ -282,16 +282,16 @@
         "repos": 9
       },
       {
+        "name": "Dockerfile",
+        "repos": 7
+      },
+      {
         "name": "C",
         "repos": 7
       },
       {
         "name": "Java",
         "repos": 7
-      },
-      {
-        "name": "Dockerfile",
-        "repos": 6
       },
       {
         "name": "PHP",
@@ -425,14 +425,14 @@
   },
   "codeTotals": {
     "totals": {
-      "files": 17703,
-      "lines": 3414741,
-      "codeLines": 3175507,
-      "chars": 145212848,
-      "nonWsChars": 110720703,
-      "bytes": 146682097
+      "files": 17704,
+      "lines": 3414776,
+      "codeLines": 3175536,
+      "chars": 145213661,
+      "nonWsChars": 110721289,
+      "bytes": 146682910
     },
-    "scannedFiles": 17705,
+    "scannedFiles": 17706,
     "excludedFiles": 2,
     "exclusionSamples": [
       {
@@ -594,11 +594,11 @@
       },
       {
         "name": "Dockerfile",
-        "files": 6,
-        "lines": 368,
-        "codeLines": 330,
-        "chars": 12681,
-        "bytes": 12683
+        "files": 7,
+        "lines": 403,
+        "codeLines": 359,
+        "chars": 13494,
+        "bytes": 13496
       },
       {
         "name": "Jupyter Notebook",
@@ -1611,6 +1611,16 @@
         "topLanguage": "TypeScript"
       },
       {
+        "repo": "image",
+        "files": 1,
+        "lines": 35,
+        "codeLines": 29,
+        "chars": 813,
+        "nonWsChars": 586,
+        "bytes": 813,
+        "topLanguage": "Dockerfile"
+      },
+      {
         "repo": "h",
         "files": 2,
         "lines": 18,
@@ -2017,16 +2027,22 @@
   ],
   "recentRepositories": [
     {
+      "name": "image",
+      "url": "https://github.com/akaanakbaik/image",
+      "language": "Dockerfile",
+      "updatedAt": "2026-10-26T12:55:05Z"
+    },
+    {
       "name": "dastermv2",
       "url": "https://github.com/akaanakbaik/dastermv2",
       "language": "Shell",
-      "updatedAt": "2026-10-26T01:00:49Z"
+      "updatedAt": "2026-10-26T06:44:39Z"
     },
     {
       "name": "akaanakbaik",
       "url": "https://github.com/akaanakbaik/akaanakbaik",
       "language": "JavaScript",
-      "updatedAt": "2026-10-26T00:22:26Z"
+      "updatedAt": "2026-10-26T06:11:44Z"
     },
     {
       "name": "auto-commit",
@@ -2057,12 +2073,6 @@
       "url": "https://github.com/akaanakbaik/Readme-Spotify-Now-Playing",
       "language": "Unknown",
       "updatedAt": "2026-10-12T14:18:12Z"
-    },
-    {
-      "name": "akaa",
-      "url": "https://github.com/akaanakbaik/akaa",
-      "language": "Unknown",
-      "updatedAt": "2026-10-12T14:18:11Z"
     }
   ],
   "activity": {
@@ -2073,15 +2083,15 @@
     "totalIssueContributions": 5,
     "totalPRContributions": 29,
     "totalPRReviews": 0,
-    "totalRepositoryContributions": 53,
-    "totalContributions": 4046
+    "totalRepositoryContributions": 54,
+    "totalContributions": 4047
   },
   "streak": {
     "currentStreak": 2,
     "longest": 80,
     "lastActiveDate": "2026-10-26",
     "activeDays": 208,
-    "totalContributions": 4046
+    "totalContributions": 4047
   },
   "commitHours": {
     "sampled": 3417,
@@ -2315,8 +2325,8 @@
     ],
     "peakHour": 23,
     "peakWeekday": "Sun",
-    "circularMean": 20.443672719256895,
-    "circularStd": 6.248129545557063,
+    "circularMean": 20.44367271925689,
+    "circularStd": 6.248129545557064,
     "activeHours": 24,
     "reposWithCommits": 87,
     "topCommitRepos": [
