@@ -1,45 +1,45 @@
 {
   "username": "akaanakbaik",
-  "generatedAt": "27 Oct 2026, 09:03",
-  "publicRepos": 109,
-  "originalRepos": 89,
+  "generatedAt": "27 Oct 2026, 14:49",
+  "publicRepos": 112,
+  "originalRepos": 92,
   "forkedRepos": 20,
   "archivedRepos": 0,
-  "activeRepos90d": 31,
+  "activeRepos90d": 34,
   "followers": 80,
   "following": 75,
   "publicGists": 0,
   "totalStars": 514,
   "totalForks": 27,
   "totalWatchers": 13,
-  "totalSize": "841.6 MB",
-  "totalSizeKb": 861818,
+  "totalSize": "841.7 MB",
+  "totalSizeKb": 861884,
   "topLanguage": "JavaScript",
   "accountAge": "2y 2m",
   "accountAgePrecise": "2 years 2 months",
   "accountCreatedAt": "2024-08-03T01:58:16Z",
   "topRepo": "pterodactyl-gateway",
-  "recentRepo": "akaanakbaik",
+  "recentRepo": "auto-commit",
   "largestRepo": "Hacktoberfest2025-3",
   "languageDistribution": {
-    "totalBytes": 48349025,
+    "totalBytes": 48352310,
     "languagesCount": 42,
-    "entropy": 2.2480678587537004,
+    "entropy": 2.2486714101736274,
     "entropyMax": 5.392317422778761,
-    "redundancy": 0.5830980110226468,
-    "hhi": 3126.884084288472,
-    "gini": 0.9115450025941085,
-    "cr3": 84.92857715331384,
-    "cr5": 90.61478488966426,
+    "redundancy": 0.5829860830012403,
+    "hhi": 3126.4605864765153,
+    "gini": 0.9115000424808581,
+    "cr3": 84.92280720404051,
+    "cr5": 90.60862862601601,
     "pareto80": {
       "count": 3,
       "totalCount": 42,
-      "share": 0.8492857715331384
+      "share": 0.8492280720404051
     },
-    "topShare": 48.717058927248274,
-    "geomeanBytes": 4852.565021896841,
+    "topShare": 48.71374914662815,
+    "geomeanBytes": 4875.06108385515,
     "medianBytes": 3035,
-    "cv": 3.4832331466629647,
+    "cv": 3.4829778154908433,
     "byBytes": [
       {
         "name": "JavaScript",
@@ -93,8 +93,8 @@
       },
       {
         "name": "Shell",
-        "bytes": 284356,
-        "repos": 21
+        "bytes": 284764,
+        "repos": 24
       },
       {
         "name": "Rust",
@@ -123,8 +123,8 @@
       },
       {
         "name": "Dockerfile",
-        "bytes": 13528,
-        "repos": 7
+        "bytes": 16405,
+        "repos": 10
       },
       {
         "name": "PowerShell",
@@ -271,19 +271,19 @@
       },
       {
         "name": "Shell",
-        "repos": 21
+        "repos": 24
       },
       {
         "name": "Python",
         "repos": 13
       },
       {
-        "name": "C++",
-        "repos": 9
+        "name": "Dockerfile",
+        "repos": 10
       },
       {
-        "name": "Dockerfile",
-        "repos": 7
+        "name": "C++",
+        "repos": 9
       },
       {
         "name": "C",
@@ -425,14 +425,14 @@
   },
   "codeTotals": {
     "totals": {
-      "files": 17704,
-      "lines": 3414778,
-      "codeLines": 3175537,
-      "chars": 145213693,
-      "nonWsChars": 110721318,
-      "bytes": 146682942
+      "files": 17710,
+      "lines": 3414902,
+      "codeLines": 3175634,
+      "chars": 145216978,
+      "nonWsChars": 110723946,
+      "bytes": 146686227
     },
-    "scannedFiles": 17706,
+    "scannedFiles": 17712,
     "excludedFiles": 2,
     "exclusionSamples": [
       {
@@ -522,11 +522,11 @@
       },
       {
         "name": "Shell",
-        "files": 69,
-        "lines": 7981,
-        "codeLines": 7042,
-        "chars": 261791,
-        "bytes": 273041
+        "files": 72,
+        "lines": 8011,
+        "codeLines": 7063,
+        "chars": 262199,
+        "bytes": 273449
       },
       {
         "name": "Protocol Buffer",
@@ -577,6 +577,14 @@
         "bytes": 32078
       },
       {
+        "name": "Dockerfile",
+        "files": 10,
+        "lines": 499,
+        "codeLines": 436,
+        "chars": 16403,
+        "bytes": 16405
+      },
+      {
         "name": "Text",
         "files": 6,
         "lines": 499,
@@ -591,14 +599,6 @@
         "codeLines": 386,
         "chars": 17052,
         "bytes": 17052
-      },
-      {
-        "name": "Dockerfile",
-        "files": 7,
-        "lines": 405,
-        "codeLines": 360,
-        "chars": 13526,
-        "bytes": 13528
       },
       {
         "name": "Jupyter Notebook",
@@ -1611,13 +1611,43 @@
         "topLanguage": "TypeScript"
       },
       {
-        "repo": "image",
+        "repo": "image-nodejs",
         "files": 1,
+        "lines": 47,
+        "codeLines": 40,
+        "chars": 1253,
+        "nonWsChars": 911,
+        "bytes": 1253,
+        "topLanguage": "Dockerfile"
+      },
+      {
+        "repo": "image-python",
+        "files": 2,
         "lines": 37,
         "codeLines": 30,
-        "chars": 845,
-        "nonWsChars": 615,
-        "bytes": 845,
+        "chars": 989,
+        "nonWsChars": 805,
+        "bytes": 989,
+        "topLanguage": "Dockerfile"
+      },
+      {
+        "repo": "image-bun",
+        "files": 2,
+        "lines": 40,
+        "codeLines": 29,
+        "chars": 937,
+        "nonWsChars": 747,
+        "bytes": 937,
+        "topLanguage": "Dockerfile"
+      },
+      {
+        "repo": "image-go",
+        "files": 2,
+        "lines": 37,
+        "codeLines": 28,
+        "chars": 951,
+        "nonWsChars": 780,
+        "bytes": 951,
         "topLanguage": "Dockerfile"
       },
       {
@@ -2027,52 +2057,52 @@
   ],
   "recentRepositories": [
     {
-      "name": "akaanakbaik",
-      "url": "https://github.com/akaanakbaik/akaanakbaik",
-      "language": "JavaScript",
-      "updatedAt": "2026-10-26T23:40:00Z"
+      "name": "auto-commit",
+      "url": "https://github.com/akaanakbaik/auto-commit",
+      "language": "Unknown",
+      "updatedAt": "2026-10-27T06:50:43Z"
+    },
+    {
+      "name": "image-go",
+      "url": "https://github.com/akaanakbaik/image-go",
+      "language": "Dockerfile",
+      "updatedAt": "2026-10-27T05:41:44Z"
+    },
+    {
+      "name": "image-bun",
+      "url": "https://github.com/akaanakbaik/image-bun",
+      "language": "Dockerfile",
+      "updatedAt": "2026-10-27T05:41:42Z"
+    },
+    {
+      "name": "image-python",
+      "url": "https://github.com/akaanakbaik/image-python",
+      "language": "Dockerfile",
+      "updatedAt": "2026-10-27T05:41:41Z"
+    },
+    {
+      "name": "image-nodejs",
+      "url": "https://github.com/akaanakbaik/image-nodejs",
+      "language": "Dockerfile",
+      "updatedAt": "2026-10-27T05:41:39Z"
     },
     {
       "name": "dastermv2",
       "url": "https://github.com/akaanakbaik/dastermv2",
       "language": "Shell",
-      "updatedAt": "2026-10-26T23:36:13Z"
+      "updatedAt": "2026-10-27T04:03:32Z"
     },
     {
-      "name": "auto-commit",
-      "url": "https://github.com/akaanakbaik/auto-commit",
-      "language": "Unknown",
-      "updatedAt": "2026-10-26T17:27:35Z"
-    },
-    {
-      "name": "image",
-      "url": "https://github.com/akaanakbaik/image",
-      "language": "Dockerfile",
-      "updatedAt": "2026-10-26T12:58:20Z"
+      "name": "akaanakbaik",
+      "url": "https://github.com/akaanakbaik/akaanakbaik",
+      "language": "JavaScript",
+      "updatedAt": "2026-10-27T02:05:22Z"
     },
     {
       "name": "kaboxv8",
       "url": "https://github.com/akaanakbaik/kaboxv8",
       "language": "JavaScript",
       "updatedAt": "2026-10-20T11:36:38Z"
-    },
-    {
-      "name": "pterodactyl-gateway",
-      "url": "https://github.com/akaanakbaik/pterodactyl-gateway",
-      "language": "TypeScript",
-      "updatedAt": "2026-10-18T04:12:34Z"
-    },
-    {
-      "name": "img-nodejs",
-      "url": "https://github.com/akaanakbaik/img-nodejs",
-      "language": "Python",
-      "updatedAt": "2026-10-13T16:37:42Z"
-    },
-    {
-      "name": "Readme-Spotify-Now-Playing",
-      "url": "https://github.com/akaanakbaik/Readme-Spotify-Now-Playing",
-      "language": "Unknown",
-      "updatedAt": "2026-10-12T14:18:12Z"
     }
   ],
   "activity": {
@@ -2083,15 +2113,15 @@
     "totalIssueContributions": 5,
     "totalPRContributions": 29,
     "totalPRReviews": 0,
-    "totalRepositoryContributions": 54,
-    "totalContributions": 4047
+    "totalRepositoryContributions": 57,
+    "totalContributions": 4050
   },
   "streak": {
-    "currentStreak": 2,
+    "currentStreak": 3,
     "longest": 80,
-    "lastActiveDate": "2026-10-26",
-    "activeDays": 208,
-    "totalContributions": 4047
+    "lastActiveDate": "2026-10-27",
+    "activeDays": 209,
+    "totalContributions": 4050
   },
   "commitHours": {
     "sampled": 3417,
@@ -2325,8 +2355,8 @@
     ],
     "peakHour": 23,
     "peakWeekday": "Sun",
-    "circularMean": 20.44367271925689,
-    "circularStd": 6.248129545557064,
+    "circularMean": 20.443672719256895,
+    "circularStd": 6.248129545557063,
     "activeHours": 24,
     "reposWithCommits": 87,
     "topCommitRepos": [
@@ -2438,15 +2468,15 @@
       "pullRequests": 1,
       "issues": 0,
       "discussions": 0,
-      "daysSincePush": 41,
+      "daysSincePush": 42,
       "commits": 141,
-      "score": 8.363865098496492,
+      "score": 8.346192093682562,
       "stars": 5,
       "forks": 2,
       "watchers": 0,
       "prs": 1,
-      "recency": 0.40207722327556306,
-      "scorePct": 74.40623294071452
+      "recency": 0.39324072086859824,
+      "scorePct": 74.24901116615673
     },
     {
       "name": "dastermv2",
