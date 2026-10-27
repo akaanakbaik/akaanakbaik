@@ -1,37 +1,37 @@
 # Profile Metrics Summary
 
-Generated: 27 Oct 2026, 21:28
+Generated: 28 Oct 2026, 03:04
 
 ## Account
 
 | Metric | Value |
 | --- | ---: |
-| Public repos | 112 |
+| Public repos | 113 |
 | Original repos | 92 |
-| Forked repos | 20 |
+| Forked repos | 21 |
 | Archived repos | 0 |
-| Active repos (90d) | 34 |
+| Active repos (90d) | 35 |
 | Followers | 80 |
 | Following | 75 |
 | Public gists | 0 |
 | Total stars | 514 |
 | Total forks | 27 |
 | Total watchers | 13 |
-| Total repo size | 841.7 MB |
+| Total repo size | 886.9 MB |
 | Top language | JavaScript |
 
 ## Code Totals (scanned from all repositories)
 
 | Metric | Value |
 | --- | ---: |
-| Source files counted | 17,710 |
-| Tracked source candidates | 17,712 |
+| Source files counted | 18,221 |
+| Tracked source candidates | 18,223 |
 | Excluded source candidates | 2 |
-| Source lines (physical) | 3,414,902 |
-| Source lines (non-empty) | 3,175,634 |
-| Source characters (Unicode) | 145,216,978 |
-| Non-whitespace characters | 110,723,946 |
-| Bytes scanned | 139.89 MB |
+| Source lines (physical) | 3,513,288 |
+| Source lines (non-empty) | 3,265,655 |
+| Source characters (Unicode) | 149,750,713 |
+| Non-whitespace characters | 113,987,487 |
+| Bytes scanned | 144.22 MB |
 
 ## Lines of Code per Language
 
@@ -39,26 +39,26 @@ Generated: 27 Oct 2026, 21:28
 | --- | ---: | ---: | ---: |
 | JavaScript | 2,052,875 | 98,335,374 | 9,334 |
 | TypeScript | 802,970 | 33,983,276 | 5,564 |
-| Python | 125,042 | 5,820,535 | 936 |
+| Python | 125,333 | 5,832,384 | 939 |
+| Kotlin | 89,564 | 4,514,728 | 512 |
 | CSS | 56,953 | 2,156,939 | 108 |
 | C++ | 37,192 | 1,106,284 | 662 |
 | Java | 25,714 | 937,878 | 414 |
 | HTML | 22,847 | 1,113,645 | 142 |
 | C | 15,682 | 452,275 | 165 |
 | Dart | 8,916 | 335,021 | 58 |
-| Shell | 7,063 | 262,199 | 72 |
+| Shell | 7,196 | 266,929 | 73 |
 | Protocol Buffer | 6,088 | 214,771 | 3 |
 | Rust | 5,021 | 201,964 | 24 |
 | Go | 4,094 | 121,397 | 26 |
-| PowerShell | 1,225 | 38,260 | 42 |
-| Batchfile | 963 | 24,391 | 47 |
+| PowerShell | 1,245 | 39,104 | 43 |
+| Batchfile | 1,091 | 29,323 | 49 |
 | PHP | 828 | 32,078 | 16 |
 | Dockerfile | 436 | 16,403 | 10 |
 | Text | 425 | 18,241 | 6 |
 | SQL | 386 | 17,052 | 26 |
 | Jupyter Notebook | 257 | 9,302 | 4 |
 | Unknown | 254 | 7,239 | 9 |
-| Kotlin | 115 | 3,348 | 8 |
 | C# | 97 | 3,555 | 3 |
 | Swift | 74 | 2,515 | 8 |
 | Assembly | 37 | 1,132 | 3 |
@@ -83,16 +83,16 @@ Generated: 27 Oct 2026, 21:28
 | Statistic | Value |
 | --- | ---: |
 | Distinct languages | 42 |
-| Shannon entropy | 2.249 bits (max 5.392) |
-| Redundancy | 58.3% |
-| Herfindahl-Hirschman Index | 3126.5 (×10⁴) |
-| Gini coefficient | 0.9115 |
-| CR₃ concentration | 84.92% |
-| CR₅ concentration | 90.61% |
-| Pareto 80% coverage | top 3 of 42 languages |
-| Top language share | 48.71% |
-| Geometric mean bytes | 4.9K |
-| Coefficient of variation | 3.483 |
+| Shannon entropy | 2.478 bits (max 5.392) |
+| Redundancy | 54.0% |
+| Herfindahl-Hirschman Index | 2687.2 (×10⁴) |
+| Gini coefficient | 0.8982 |
+| CR₃ concentration | 77.67% |
+| CR₅ concentration | 89.29% |
+| Pareto 80% coverage | top 4 of 42 languages |
+| Top language share | 44.54% |
+| Geometric mean bytes | 6.1K |
+| Coefficient of variation | 3.207 |
 
 ## Activity & Streak
 
@@ -101,7 +101,7 @@ Generated: 27 Oct 2026, 21:28
 | Current streak | 3 days |
 | Longest streak | 80 days |
 | Active days (365d) | 209 |
-| Total contributions (365d) | 4050 |
+| Total contributions (365d) | 4051 |
 | Total commits | 3,322 |
 | Pull requests | 47 |
 | Issues | 15 |
@@ -116,31 +116,31 @@ Generated: 27 Oct 2026, 21:28
 
 | Language | Repos | Bytes | Share |
 | --- | ---: | ---: | ---: |
-| JavaScript | 70 | 23554223 | 48.71% |
-| TypeScript | 30 | 11529242 | 23.84% |
-| Python | 13 | 5978674 | 12.36% |
-| CSS | 51 | 1634932 | 3.38% |
-| C++ | 9 | 1114294 | 2.30% |
-| Jupyter Notebook | 1 | 1077015 | 2.23% |
-| HTML | 51 | 1036727 | 2.14% |
-| Java | 7 | 938571 | 1.94% |
-| C | 7 | 447195 | 0.92% |
-| Dart | 4 | 335080 | 0.69% |
-| Shell | 24 | 284764 | 0.59% |
-| Rust | 3 | 204518 | 0.42% |
-| Go | 5 | 113542 | 0.23% |
-| PHP | 5 | 27465 | 0.06% |
+| JavaScript | 70 | 23554223 | 44.54% |
+| TypeScript | 30 | 11529242 | 21.80% |
+| Python | 14 | 5988805 | 11.33% |
+| Kotlin | 4 | 4508854 | 8.53% |
+| CSS | 51 | 1634932 | 3.09% |
+| C++ | 9 | 1114294 | 2.11% |
+| Jupyter Notebook | 1 | 1077015 | 2.04% |
+| HTML | 51 | 1036727 | 1.96% |
+| Java | 7 | 938571 | 1.77% |
+| C | 7 | 447195 | 0.85% |
+| Dart | 4 | 335080 | 0.63% |
+| Shell | 25 | 290122 | 0.55% |
+| Rust | 3 | 204518 | 0.39% |
+| Go | 5 | 113542 | 0.21% |
+| PHP | 5 | 27465 | 0.05% |
 | CMake | 1 | 19831 | 0.04% |
 | Jinja | 1 | 16737 | 0.03% |
 | Dockerfile | 10 | 16405 | 0.03% |
-| PowerShell | 1 | 4863 | 0.01% |
-| Batchfile | 3 | 4254 | 0.01% |
+| Batchfile | 4 | 6257 | 0.01% |
+| PowerShell | 2 | 5710 | 0.01% |
 | PLpgSQL | 1 | 3910 | 0.01% |
 | C# | 2 | 3555 | 0.01% |
-| Swift | 2 | 2515 | 0.01% |
+| Swift | 2 | 2515 | 0.00% |
 | Assembly | 2 | 1132 | 0.00% |
 | Makefile | 1 | 598 | 0.00% |
-| Kotlin | 3 | 565 | 0.00% |
 | V | 1 | 297 | 0.00% |
 | Elixir | 1 | 192 | 0.00% |
 | Scala | 1 | 142 | 0.00% |

@@ -1,19 +1,19 @@
 {
   "username": "akaanakbaik",
-  "generatedAt": "27 Oct 2026, 21:28",
-  "publicRepos": 112,
+  "generatedAt": "28 Oct 2026, 03:04",
+  "publicRepos": 113,
   "originalRepos": 92,
-  "forkedRepos": 20,
+  "forkedRepos": 21,
   "archivedRepos": 0,
-  "activeRepos90d": 34,
+  "activeRepos90d": 35,
   "followers": 80,
   "following": 75,
   "publicGists": 0,
   "totalStars": 514,
   "totalForks": 27,
   "totalWatchers": 13,
-  "totalSize": "841.7 MB",
-  "totalSizeKb": 861924,
+  "totalSize": "886.9 MB",
+  "totalSizeKb": 908166,
   "topLanguage": "JavaScript",
   "accountAge": "2y 2m",
   "accountAgePrecise": "2 years 2 months",
@@ -22,24 +22,24 @@
   "recentRepo": "dastermv2",
   "largestRepo": "Hacktoberfest2025-3",
   "languageDistribution": {
-    "totalBytes": 48352310,
+    "totalBytes": 52878938,
     "languagesCount": 42,
-    "entropy": 2.2486714101736274,
+    "entropy": 2.4784961205408456,
     "entropyMax": 5.392317422778761,
-    "redundancy": 0.5829860830012403,
-    "hhi": 3126.4605864765153,
-    "gini": 0.9115000424808581,
-    "cr3": 84.92280720404051,
-    "cr5": 90.60862862601601,
+    "redundancy": 0.5403653149069199,
+    "hhi": 2687.248754626068,
+    "gini": 0.8981871167144633,
+    "cr3": 77.67226716996473,
+    "cr5": 89.29085527398452,
     "pareto80": {
-      "count": 3,
+      "count": 4,
       "totalCount": 42,
-      "share": 0.8492280720404051
+      "share": 0.8619901557024462
     },
-    "topShare": 48.71374914662815,
-    "geomeanBytes": 4875.06108385515,
-    "medianBytes": 3035,
-    "cv": 3.4829778154908433,
+    "topShare": 44.543676349929726,
+    "geomeanBytes": 6119.9167824009255,
+    "medianBytes": 3732.5,
+    "cv": 3.207248785085045,
     "byBytes": [
       {
         "name": "JavaScript",
@@ -53,8 +53,13 @@
       },
       {
         "name": "Python",
-        "bytes": 5978674,
-        "repos": 13
+        "bytes": 5988805,
+        "repos": 14
+      },
+      {
+        "name": "Kotlin",
+        "bytes": 4508854,
+        "repos": 4
       },
       {
         "name": "CSS",
@@ -93,8 +98,8 @@
       },
       {
         "name": "Shell",
-        "bytes": 284764,
-        "repos": 24
+        "bytes": 290122,
+        "repos": 25
       },
       {
         "name": "Rust",
@@ -127,14 +132,14 @@
         "repos": 10
       },
       {
-        "name": "PowerShell",
-        "bytes": 4863,
-        "repos": 1
+        "name": "Batchfile",
+        "bytes": 6257,
+        "repos": 4
       },
       {
-        "name": "Batchfile",
-        "bytes": 4254,
-        "repos": 3
+        "name": "PowerShell",
+        "bytes": 5710,
+        "repos": 2
       },
       {
         "name": "PLpgSQL",
@@ -160,11 +165,6 @@
         "name": "Makefile",
         "bytes": 598,
         "repos": 1
-      },
-      {
-        "name": "Kotlin",
-        "bytes": 565,
-        "repos": 3
       },
       {
         "name": "V",
@@ -271,11 +271,11 @@
       },
       {
         "name": "Shell",
-        "repos": 24
+        "repos": 25
       },
       {
         "name": "Python",
-        "repos": 13
+        "repos": 14
       },
       {
         "name": "Dockerfile",
@@ -302,16 +302,16 @@
         "repos": 5
       },
       {
+        "name": "Batchfile",
+        "repos": 4
+      },
+      {
         "name": "Dart",
         "repos": 4
       },
       {
         "name": "Kotlin",
-        "repos": 3
-      },
-      {
-        "name": "Batchfile",
-        "repos": 3
+        "repos": 4
       },
       {
         "name": "Rust",
@@ -327,6 +327,10 @@
       },
       {
         "name": "C#",
+        "repos": 2
+      },
+      {
+        "name": "PowerShell",
         "repos": 2
       },
       {
@@ -406,10 +410,6 @@
         "repos": 1
       },
       {
-        "name": "PowerShell",
-        "repos": 1
-      },
-      {
         "name": "Jinja",
         "repos": 1
       },
@@ -425,14 +425,14 @@
   },
   "codeTotals": {
     "totals": {
-      "files": 17710,
-      "lines": 3414902,
-      "codeLines": 3175634,
-      "chars": 145216978,
-      "nonWsChars": 110723946,
-      "bytes": 146686227
+      "files": 18221,
+      "lines": 3513288,
+      "codeLines": 3265655,
+      "chars": 149750713,
+      "nonWsChars": 113987487,
+      "bytes": 151226126
     },
-    "scannedFiles": 17712,
+    "scannedFiles": 18223,
     "excludedFiles": 2,
     "exclusionSamples": [
       {
@@ -466,11 +466,19 @@
       },
       {
         "name": "Python",
-        "files": 936,
-        "lines": 146793,
-        "codeLines": 125042,
-        "chars": 5820535,
-        "bytes": 5836161
+        "files": 939,
+        "lines": 147163,
+        "codeLines": 125333,
+        "chars": 5832384,
+        "bytes": 5848029
+      },
+      {
+        "name": "Kotlin",
+        "files": 512,
+        "lines": 97796,
+        "codeLines": 89564,
+        "chars": 4514728,
+        "bytes": 4520242
       },
       {
         "name": "CSS",
@@ -522,11 +530,11 @@
       },
       {
         "name": "Shell",
-        "files": 72,
-        "lines": 8011,
-        "codeLines": 7063,
-        "chars": 262199,
-        "bytes": 273449
+        "files": 73,
+        "lines": 8176,
+        "codeLines": 7196,
+        "chars": 266929,
+        "bytes": 278807
       },
       {
         "name": "Protocol Buffer",
@@ -554,19 +562,19 @@
       },
       {
         "name": "PowerShell",
-        "files": 42,
-        "lines": 1284,
-        "codeLines": 1225,
-        "chars": 38260,
-        "bytes": 38260
+        "files": 43,
+        "lines": 1310,
+        "codeLines": 1245,
+        "chars": 39104,
+        "bytes": 39107
       },
       {
         "name": "Batchfile",
-        "files": 47,
-        "lines": 1143,
-        "codeLines": 963,
-        "chars": 24391,
-        "bytes": 24432
+        "files": 49,
+        "lines": 1308,
+        "codeLines": 1091,
+        "chars": 29323,
+        "bytes": 29364
       },
       {
         "name": "PHP",
@@ -615,14 +623,6 @@
         "codeLines": 254,
         "chars": 7239,
         "bytes": 7239
-      },
-      {
-        "name": "Kotlin",
-        "files": 8,
-        "lines": 136,
-        "codeLines": 115,
-        "chars": 3348,
-        "bytes": 3348
       },
       {
         "name": "C#",
@@ -819,6 +819,16 @@
         "nonWsChars": 5388776,
         "bytes": 8188261,
         "topLanguage": "JavaScript"
+      },
+      {
+        "repo": "SmartIsland",
+        "files": 511,
+        "lines": 98386,
+        "codeLines": 90021,
+        "chars": 4533735,
+        "nonWsChars": 3263541,
+        "bytes": 4539899,
+        "topLanguage": "Kotlin"
       },
       {
         "repo": "apisku",
@@ -2060,13 +2070,19 @@
       "name": "dastermv2",
       "url": "https://github.com/akaanakbaik/dastermv2",
       "language": "Shell",
-      "updatedAt": "2026-10-27T09:57:25Z"
+      "updatedAt": "2026-10-27T15:48:55Z"
+    },
+    {
+      "name": "SmartIsland",
+      "url": "https://github.com/akaanakbaik/SmartIsland",
+      "language": "Unknown",
+      "updatedAt": "2026-10-27T14:31:43Z"
     },
     {
       "name": "akaanakbaik",
       "url": "https://github.com/akaanakbaik/akaanakbaik",
       "language": "JavaScript",
-      "updatedAt": "2026-10-27T07:50:49Z"
+      "updatedAt": "2026-10-27T14:30:37Z"
     },
     {
       "name": "auto-commit",
@@ -2097,12 +2113,6 @@
       "url": "https://github.com/akaanakbaik/image-nodejs",
       "language": "Dockerfile",
       "updatedAt": "2026-10-27T05:41:39Z"
-    },
-    {
-      "name": "kaboxv8",
-      "url": "https://github.com/akaanakbaik/kaboxv8",
-      "language": "JavaScript",
-      "updatedAt": "2026-10-20T11:36:38Z"
     }
   ],
   "activity": {
@@ -2113,15 +2123,15 @@
     "totalIssueContributions": 5,
     "totalPRContributions": 29,
     "totalPRReviews": 0,
-    "totalRepositoryContributions": 57,
-    "totalContributions": 4050
+    "totalRepositoryContributions": 58,
+    "totalContributions": 4051
   },
   "streak": {
     "currentStreak": 3,
     "longest": 80,
     "lastActiveDate": "2026-10-27",
     "activeDays": 209,
-    "totalContributions": 4050
+    "totalContributions": 4051
   },
   "commitHours": {
     "sampled": 3417,
@@ -2356,7 +2366,7 @@
     "peakHour": 23,
     "peakWeekday": "Sun",
     "circularMean": 20.44367271925689,
-    "circularStd": 6.248129545557064,
+    "circularStd": 6.248129545557063,
     "activeHours": 24,
     "reposWithCommits": 87,
     "topCommitRepos": [
@@ -2450,15 +2460,15 @@
       "pullRequests": 21,
       "issues": 0,
       "discussions": 0,
-      "daysSincePush": 9,
+      "daysSincePush": 10,
       "commits": 164,
-      "score": 10.404427450371553,
+      "score": 10.368440750049206,
       "stars": 10,
       "forks": 0,
       "watchers": 0,
       "prs": 21,
-      "recency": 0.8187307530779818,
-      "scorePct": 92.55939011095171
+      "recency": 0.8007374029168081,
+      "scorePct": 92.2392468786758
     },
     {
       "name": "portofoliov2",

@@ -24,11 +24,14 @@
 <text x="78" y="20" text-anchor="middle" fill="#ffffff" font-size="13" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">TypeScript · 30</text>
 </g><g transform="translate(414 112)">
 <rect width="124" height="31" rx="15.5" fill="#3572A5"/>
-<text x="62" y="20" text-anchor="middle" fill="#ffffff" font-size="13" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">Python · 13</text>
-</g><g transform="translate(304 112)">
+<text x="62" y="20" text-anchor="middle" fill="#ffffff" font-size="13" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">Python · 14</text>
+</g><g transform="translate(288 112)">
+<rect width="116" height="31" rx="15.5" fill="#A97BFF"/>
+<text x="58" y="20" text-anchor="middle" fill="#ffffff" font-size="13" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">Kotlin · 4</text>
+</g><g transform="translate(178 112)">
 <rect width="100" height="31" rx="15.5" fill="#563d7c"/>
 <text x="50" y="20" text-anchor="middle" fill="#ffffff" font-size="13" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">CSS · 51</text>
-</g><g transform="translate(198 112)">
+</g><g transform="translate(72 112)">
 <rect width="96" height="31" rx="15.5" fill="#f34b7d"/>
 <text x="48" y="20" text-anchor="middle" fill="#ffffff" font-size="13" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">C++ · 9</text>
 </g><g transform="translate(674 156)">
@@ -48,15 +51,12 @@
 <text x="50" y="20" text-anchor="middle" fill="#ffffff" font-size="13" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">Dart · 4</text>
 </g><g transform="translate(104 156)">
 <rect width="116" height="31" rx="15.5" fill="#89e051"/>
-<text x="58" y="20" text-anchor="middle" fill="#ffffff" font-size="13" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">Shell · 24</text>
+<text x="58" y="20" text-anchor="middle" fill="#ffffff" font-size="13" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">Shell · 25</text>
 </g><g transform="translate(770 200)">
 <rect width="100" height="31" rx="15.5" fill="#dea584"/>
 <text x="50" y="20" text-anchor="middle" fill="#ffffff" font-size="13" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">Rust · 3</text>
 </g><g transform="translate(664 200)">
 <rect width="96" height="31" rx="15.5" fill="#00ADD8"/>
 <text x="48" y="20" text-anchor="middle" fill="#ffffff" font-size="13" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">Go · 5</text>
-</g><g transform="translate(558 200)">
-<rect width="96" height="31" rx="15.5" fill="#4F5D95"/>
-<text x="48" y="20" text-anchor="middle" fill="#ffffff" font-size="13" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">PHP · 5</text>
 </g>
 </svg>
