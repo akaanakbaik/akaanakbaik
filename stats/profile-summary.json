@@ -1,6 +1,6 @@
 {
   "username": "akaanakbaik",
-  "generatedAt": "28 Oct 2026, 03:04",
+  "generatedAt": "28 Oct 2026, 06:37",
   "publicRepos": 113,
   "originalRepos": 92,
   "forkedRepos": 21,
@@ -13,7 +13,7 @@
   "totalForks": 27,
   "totalWatchers": 13,
   "totalSize": "886.9 MB",
-  "totalSizeKb": 908166,
+  "totalSizeKb": 908205,
   "topLanguage": "JavaScript",
   "accountAge": "2y 2m",
   "accountAgePrecise": "2 years 2 months",
@@ -2070,19 +2070,19 @@
       "name": "dastermv2",
       "url": "https://github.com/akaanakbaik/dastermv2",
       "language": "Shell",
-      "updatedAt": "2026-10-27T15:48:55Z"
+      "updatedAt": "2026-10-27T20:28:21Z"
+    },
+    {
+      "name": "akaanakbaik",
+      "url": "https://github.com/akaanakbaik/akaanakbaik",
+      "language": "JavaScript",
+      "updatedAt": "2026-10-27T20:06:51Z"
     },
     {
       "name": "SmartIsland",
       "url": "https://github.com/akaanakbaik/SmartIsland",
       "language": "Unknown",
       "updatedAt": "2026-10-27T14:31:43Z"
-    },
-    {
-      "name": "akaanakbaik",
-      "url": "https://github.com/akaanakbaik/akaanakbaik",
-      "language": "JavaScript",
-      "updatedAt": "2026-10-27T14:30:37Z"
     },
     {
       "name": "auto-commit",
@@ -2366,7 +2366,7 @@
     "peakHour": 23,
     "peakWeekday": "Sun",
     "circularMean": 20.44367271925689,
-    "circularStd": 6.248129545557063,
+    "circularStd": 6.248129545557062,
     "activeHours": 24,
     "reposWithCommits": 87,
     "topCommitRepos": [
@@ -2514,15 +2514,15 @@
       "pullRequests": 0,
       "issues": 0,
       "discussions": 0,
-      "daysSincePush": 7,
+      "daysSincePush": 8,
       "commits": 55,
-      "score": 7.762387897087065,
+      "score": 7.724765712984061,
       "stars": 5,
       "forks": 1,
       "watchers": 0,
       "prs": 0,
-      "recency": 0.8559395234122652,
-      "scorePct": 69.05539905834547
+      "recency": 0.8371284313607636,
+      "scorePct": 68.72070631029892
     }
   ]
 }
