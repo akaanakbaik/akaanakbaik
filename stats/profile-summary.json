@@ -1,6 +1,6 @@
 {
   "username": "akaanakbaik",
-  "generatedAt": "29 Oct 2026, 01:51",
+  "generatedAt": "29 Oct 2026, 06:13",
   "publicRepos": 113,
   "originalRepos": 92,
   "forkedRepos": 21,
@@ -12,14 +12,14 @@
   "totalStars": 514,
   "totalForks": 27,
   "totalWatchers": 13,
-  "totalSize": "887.0 MB",
-  "totalSizeKb": 908305,
+  "totalSize": "887.5 MB",
+  "totalSizeKb": 908754,
   "topLanguage": "JavaScript",
   "accountAge": "2y 2m",
   "accountAgePrecise": "2 years 2 months",
   "accountCreatedAt": "2024-08-03T01:58:16Z",
   "topRepo": "pterodactyl-gateway",
-  "recentRepo": "portofoliov2",
+  "recentRepo": "dastermv2",
   "largestRepo": "Hacktoberfest2025-3",
   "languageDistribution": {
     "totalBytes": 51281392,
@@ -2067,16 +2067,22 @@
   ],
   "recentRepositories": [
     {
+      "name": "dastermv2",
+      "url": "https://github.com/akaanakbaik/dastermv2",
+      "language": "Shell",
+      "updatedAt": "2026-10-28T21:50:16Z"
+    },
+    {
+      "name": "akaanakbaik",
+      "url": "https://github.com/akaanakbaik/akaanakbaik",
+      "language": "JavaScript",
+      "updatedAt": "2026-10-28T18:53:16Z"
+    },
+    {
       "name": "portofoliov2",
       "url": "https://github.com/akaanakbaik/portofoliov2",
       "language": "TypeScript",
       "updatedAt": "2026-10-28T18:26:52Z"
-    },
-    {
-      "name": "dastermv2",
-      "url": "https://github.com/akaanakbaik/dastermv2",
-      "language": "Shell",
-      "updatedAt": "2026-10-28T17:15:13Z"
     },
     {
       "name": "libsignal",
@@ -2089,12 +2095,6 @@
       "url": "https://github.com/akaanakbaik/auto-commit",
       "language": "Unknown",
       "updatedAt": "2026-10-28T14:32:14Z"
-    },
-    {
-      "name": "akaanakbaik",
-      "url": "https://github.com/akaanakbaik/akaanakbaik",
-      "language": "JavaScript",
-      "updatedAt": "2026-10-28T12:51:59Z"
     },
     {
       "name": "SmartIsland",
