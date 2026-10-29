@@ -1,6 +1,6 @@
 {
   "username": "akaanakbaik",
-  "generatedAt": "29 Oct 2026, 23:55",
+  "generatedAt": "30 Oct 2026, 04:48",
   "publicRepos": 113,
   "originalRepos": 92,
   "forkedRepos": 21,
@@ -13,7 +13,7 @@
   "totalForks": 27,
   "totalWatchers": 13,
   "totalSize": "889.1 MB",
-  "totalSizeKb": 910421,
+  "totalSizeKb": 910401,
   "topLanguage": "JavaScript",
   "accountAge": "2y 2m",
   "accountAgePrecise": "2 years 2 months",
@@ -2070,7 +2070,13 @@
       "name": "dastermv2",
       "url": "https://github.com/akaanakbaik/dastermv2",
       "language": "Shell",
-      "updatedAt": "2026-10-29T15:25:55Z"
+      "updatedAt": "2026-10-29T20:27:37Z"
+    },
+    {
+      "name": "akaanakbaik",
+      "url": "https://github.com/akaanakbaik/akaanakbaik",
+      "language": "JavaScript",
+      "updatedAt": "2026-10-29T16:57:08Z"
     },
     {
       "name": "auto-commit",
@@ -2083,12 +2089,6 @@
       "url": "https://github.com/akaanakbaik/portofoliov2",
       "language": "TypeScript",
       "updatedAt": "2026-10-29T09:58:48Z"
-    },
-    {
-      "name": "akaanakbaik",
-      "url": "https://github.com/akaanakbaik/akaanakbaik",
-      "language": "JavaScript",
-      "updatedAt": "2026-10-29T09:57:13Z"
     },
     {
       "name": "libsignal",
@@ -2366,7 +2366,7 @@
     "peakHour": 23,
     "peakWeekday": "Sun",
     "circularMean": 20.453672893353332,
-    "circularStd": 6.245616453914805,
+    "circularStd": 6.2456164539148045,
     "activeHours": 24,
     "reposWithCommits": 87,
     "topCommitRepos": [
