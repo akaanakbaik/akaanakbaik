@@ -1,6 +1,6 @@
 {
   "username": "akaanakbaik",
-  "generatedAt": "30 Oct 2026, 04:48",
+  "generatedAt": "30 Oct 2026, 06:51",
   "publicRepos": 113,
   "originalRepos": 92,
   "forkedRepos": 21,
@@ -13,13 +13,13 @@
   "totalForks": 27,
   "totalWatchers": 13,
   "totalSize": "889.1 MB",
-  "totalSizeKb": 910401,
+  "totalSizeKb": 910439,
   "topLanguage": "JavaScript",
   "accountAge": "2y 2m",
   "accountAgePrecise": "2 years 2 months",
   "accountCreatedAt": "2024-08-03T01:58:16Z",
   "topRepo": "pterodactyl-gateway",
-  "recentRepo": "dastermv2",
+  "recentRepo": "akaanakbaik",
   "largestRepo": "Hacktoberfest2025-3",
   "languageDistribution": {
     "totalBytes": 51282019,
@@ -2067,16 +2067,16 @@
   ],
   "recentRepositories": [
     {
+      "name": "akaanakbaik",
+      "url": "https://github.com/akaanakbaik/akaanakbaik",
+      "language": "JavaScript",
+      "updatedAt": "2026-10-29T21:49:35Z"
+    },
+    {
       "name": "dastermv2",
       "url": "https://github.com/akaanakbaik/dastermv2",
       "language": "Shell",
       "updatedAt": "2026-10-29T20:27:37Z"
-    },
-    {
-      "name": "akaanakbaik",
-      "url": "https://github.com/akaanakbaik/akaanakbaik",
-      "language": "JavaScript",
-      "updatedAt": "2026-10-29T16:57:08Z"
     },
     {
       "name": "auto-commit",
@@ -2366,7 +2366,7 @@
     "peakHour": 23,
     "peakWeekday": "Sun",
     "circularMean": 20.453672893353332,
-    "circularStd": 6.2456164539148045,
+    "circularStd": 6.245616453914805,
     "activeHours": 24,
     "reposWithCommits": 87,
     "topCommitRepos": [
@@ -2478,15 +2478,15 @@
       "pullRequests": 2,
       "issues": 0,
       "discussions": 0,
-      "daysSincePush": 0,
+      "daysSincePush": 1,
       "commits": 142,
-      "score": 9.777420318284396,
+      "score": 9.733466063253596,
       "stars": 5,
       "forks": 2,
       "watchers": 0,
       "prs": 2,
-      "recency": 1,
-      "scorePct": 86.98143803064461
+      "recency": 0.9780228724846005,
+      "scorePct": 86.5904142037365
     },
     {
       "name": "dastermv2",
@@ -2514,15 +2514,15 @@
       "pullRequests": 0,
       "issues": 0,
       "discussions": 0,
-      "daysSincePush": 9,
+      "daysSincePush": 10,
       "commits": 55,
-      "score": 7.687970356418497,
+      "score": 7.65198365609615,
       "stars": 5,
       "forks": 1,
       "watchers": 0,
       "prs": 0,
-      "recency": 0.8187307530779818,
-      "scorePct": 68.39336914745465
+      "recency": 0.8007374029168081,
+      "scorePct": 68.07322591517875
     }
   ]
 }
