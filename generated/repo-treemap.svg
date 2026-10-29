@@ -92,8 +92,8 @@
 
 
 </g><g>
-<rect x="1177.55" y="475.68" width="38.45" height="50.44" rx="8" fill="#3178c6" fill-opacity="0.82"/>
-<rect x="1177.55" y="475.68" width="38.45" height="50.44" rx="8" fill="none" stroke="#0b1020" stroke-opacity="0.5" stroke-width="1.5"/>
+<rect x="1177.54" y="475.68" width="38.46" height="50.44" rx="8" fill="#3178c6" fill-opacity="0.82"/>
+<rect x="1177.54" y="475.68" width="38.46" height="50.44" rx="8" fill="none" stroke="#0b1020" stroke-opacity="0.5" stroke-width="1.5"/>
 
 
 </g><g>
@@ -298,5 +298,5 @@
 <text x="14" y="20" fill="#8b93a7" font-size="10.5" font-weight="700" letter-spacing="1.2" font-family="Inter,'Segoe UI',system-ui,sans-serif">CELL AREA</text>
 <text x="14" y="42" fill="#0e7490" font-size="17" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">code lines</text>
 </g>
-<text x="30" y="838" fill="#64748b" font-size="11" font-family="Inter,'Segoe UI',system-ui,sans-serif">Squarified treemap: tile area is proportional to tracked non-blank source lines, colour is the repository’s dominant language · generated 29 Oct 2026, 16:55</text>
+<text x="30" y="838" fill="#64748b" font-size="11" font-family="Inter,'Segoe UI',system-ui,sans-serif">Squarified treemap: tile area is proportional to tracked non-blank source lines, colour is the repository’s dominant language · generated 29 Oct 2026, 23:55</text>
 </svg>
