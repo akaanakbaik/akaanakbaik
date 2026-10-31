@@ -1,6 +1,6 @@
 {
   "username": "akaanakbaik",
-  "generatedAt": "31 Oct 2026, 13:58",
+  "generatedAt": "31 Oct 2026, 20:38",
   "publicRepos": 113,
   "originalRepos": 92,
   "forkedRepos": 21,
@@ -12,8 +12,8 @@
   "totalStars": 514,
   "totalForks": 27,
   "totalWatchers": 13,
-  "totalSize": "889.3 MB",
-  "totalSizeKb": 910694,
+  "totalSize": "889.4 MB",
+  "totalSizeKb": 910776,
   "topLanguage": "JavaScript",
   "accountAge": "2y 2m",
   "accountAgePrecise": "2 years 2 months",
@@ -2070,19 +2070,19 @@
       "name": "dastermv2",
       "url": "https://github.com/akaanakbaik/dastermv2",
       "language": "Shell",
-      "updatedAt": "2026-10-31T02:03:47Z"
+      "updatedAt": "2026-10-31T08:41:26Z"
     },
     {
       "name": "auto-commit",
       "url": "https://github.com/akaanakbaik/auto-commit",
       "language": "Unknown",
-      "updatedAt": "2026-10-31T01:55:08Z"
+      "updatedAt": "2026-10-31T07:43:01Z"
     },
     {
       "name": "akaanakbaik",
       "url": "https://github.com/akaanakbaik/akaanakbaik",
       "language": "JavaScript",
-      "updatedAt": "2026-10-31T00:47:46Z"
+      "updatedAt": "2026-10-31T07:00:29Z"
     },
     {
       "name": "portofoliov2",
@@ -2478,15 +2478,15 @@
       "pullRequests": 2,
       "issues": 0,
       "discussions": 0,
-      "daysSincePush": 0,
+      "daysSincePush": 1,
       "commits": 142,
-      "score": 9.777420318284396,
+      "score": 9.733466063253596,
       "stars": 5,
       "forks": 2,
       "watchers": 0,
       "prs": 2,
-      "recency": 1,
-      "scorePct": 86.98143803064461
+      "recency": 0.9780228724846005,
+      "scorePct": 86.5904142037365
     },
     {
       "name": "dastermv2",
