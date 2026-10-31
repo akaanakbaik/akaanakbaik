@@ -20,7 +20,7 @@
 <text x="240" y="246" text-anchor="middle" fill="#94a3b8" font-size="12" font-weight="700" letter-spacing="1.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">CODE BYTES</text>
 <text x="240" y="276" text-anchor="middle" fill="#ffffff" font-size="26" font-weight="900" font-family="Inter,'Segoe UI',system-ui,sans-serif">51.3M</text>
 <text x="240" y="298" text-anchor="middle" fill="#64748b" font-size="11" font-family="Inter,'Segoe UI',system-ui,sans-serif">across 42 languages</text>
-<path d="M 240.00 120.00 A 148 148 0 0 1 305.32 400.80 L 280.61 350.55 A 92 92 0 0 0 240.00 176.00 Z" fill="#f1e05a" stroke="#0b1020" stroke-width="2.5"/><path d="M 305.32 400.80 A 148 148 0 0 1 118.79 352.92 L 164.65 320.79 A 92 92 0 0 0 280.61 350.55 Z" fill="#3178c6" stroke="#0b1020" stroke-width="2.5"/><path d="M 118.79 352.92 A 148 148 0 0 1 93.11 249.90 L 148.69 256.75 A 92 92 0 0 0 164.65 320.79 Z" fill="#3572A5" stroke="#0b1020" stroke-width="2.5"/><path d="M 93.11 249.90 A 148 148 0 0 1 124.46 175.51 L 168.18 210.51 A 92 92 0 0 0 148.69 256.75 Z" fill="#A97BFF" stroke="#0b1020" stroke-width="2.5"/><path d="M 124.46 175.51 A 148 148 0 0 1 145.19 154.35 L 181.07 197.36 A 92 92 0 0 0 168.18 210.51 Z" fill="#563d7c" stroke="#0b1020" stroke-width="2.5"/><path d="M 145.19 154.35 A 148 148 0 0 1 161.54 142.51 L 191.23 189.99 A 92 92 0 0 0 181.07 197.36 Z" fill="#f34b7d" stroke="#0b1020" stroke-width="2.5"/><path d="M 161.54 142.51 A 148 148 0 0 1 178.74 133.28 L 201.92 184.25 A 92 92 0 0 0 191.23 189.99 Z" fill="#DA5B0B" stroke="#0b1020" stroke-width="2.5"/><path d="M 178.74 133.28 A 148 148 0 0 1 196.26 126.61 L 212.81 180.11 A 92 92 0 0 0 201.92 184.25 Z" fill="#e34c26" stroke="#0b1020" stroke-width="2.5"/><path d="M 196.26 126.61 A 148 148 0 0 1 212.77 122.53 L 223.08 177.57 A 92 92 0 0 0 212.81 180.11 Z" fill="#b07219" stroke="#0b1020" stroke-width="2.5"/><path d="M 212.77 122.53 A 148 148 0 0 1 220.78 121.25 L 228.05 176.78 A 92 92 0 0 0 223.08 177.57 Z" fill="#555555" stroke="#0b1020" stroke-width="2.5"/><path d="M 220.78 121.25 A 148 148 0 0 1 240.00 120.00 L 240.00 176.00 A 92 92 0 0 0 228.05 176.78 Z" fill="#8b93a7" stroke="#0b1020" stroke-width="2.5"/>
+<path d="M 240.00 120.00 A 148 148 0 0 1 305.35 400.79 L 280.62 350.55 A 92 92 0 0 0 240.00 176.00 Z" fill="#f1e05a" stroke="#0b1020" stroke-width="2.5"/><path d="M 305.35 400.79 A 148 148 0 0 1 118.78 352.91 L 164.65 320.78 A 92 92 0 0 0 280.62 350.55 Z" fill="#3178c6" stroke="#0b1020" stroke-width="2.5"/><path d="M 118.78 352.91 A 148 148 0 0 1 93.11 249.89 L 148.69 256.74 A 92 92 0 0 0 164.65 320.78 Z" fill="#3572A5" stroke="#0b1020" stroke-width="2.5"/><path d="M 93.11 249.89 A 148 148 0 0 1 124.46 175.51 L 168.18 210.51 A 92 92 0 0 0 148.69 256.74 Z" fill="#A97BFF" stroke="#0b1020" stroke-width="2.5"/><path d="M 124.46 175.51 A 148 148 0 0 1 145.20 154.35 L 181.07 197.35 A 92 92 0 0 0 168.18 210.51 Z" fill="#563d7c" stroke="#0b1020" stroke-width="2.5"/><path d="M 145.20 154.35 A 148 148 0 0 1 161.55 142.50 L 191.23 189.99 A 92 92 0 0 0 181.07 197.35 Z" fill="#f34b7d" stroke="#0b1020" stroke-width="2.5"/><path d="M 161.55 142.50 A 148 148 0 0 1 178.74 133.27 L 201.92 184.25 A 92 92 0 0 0 191.23 189.99 Z" fill="#DA5B0B" stroke="#0b1020" stroke-width="2.5"/><path d="M 178.74 133.27 A 148 148 0 0 1 196.26 126.61 L 212.81 180.11 A 92 92 0 0 0 201.92 184.25 Z" fill="#e34c26" stroke="#0b1020" stroke-width="2.5"/><path d="M 196.26 126.61 A 148 148 0 0 1 212.78 122.53 L 223.08 177.57 A 92 92 0 0 0 212.81 180.11 Z" fill="#b07219" stroke="#0b1020" stroke-width="2.5"/><path d="M 212.78 122.53 A 148 148 0 0 1 220.78 121.25 L 228.05 176.78 A 92 92 0 0 0 223.08 177.57 Z" fill="#555555" stroke="#0b1020" stroke-width="2.5"/><path d="M 220.78 121.25 A 148 148 0 0 1 240.00 120.00 L 240.00 176.00 A 92 92 0 0 0 228.05 176.78 Z" fill="#8b93a7" stroke="#0b1020" stroke-width="2.5"/>
 <g transform="translate(440 130)">
 <rect x="0" y="4" width="13" height="13" rx="3.5" fill="#f1e05a"/>
 <text x="21" y="15" fill="#e2e8f0" font-size="12.5" font-weight="600" font-family="Inter,'Segoe UI',system-ui,sans-serif">JavaScript</text>
@@ -29,7 +29,7 @@
 </g><g transform="translate(440 159)">
 <rect x="0" y="4" width="13" height="13" rx="3.5" fill="#3178c6"/>
 <text x="21" y="15" fill="#e2e8f0" font-size="12.5" font-weight="600" font-family="Inter,'Segoe UI',system-ui,sans-serif">TypeScript</text>
-<text x="212" y="15" fill="#cbd5e1" font-size="12" text-anchor="end" font-family="Inter,'Segoe UI',system-ui,sans-serif">22.5%</text>
+<text x="212" y="15" fill="#cbd5e1" font-size="12" text-anchor="end" font-family="Inter,'Segoe UI',system-ui,sans-serif">22.6%</text>
 <text x="236" y="15" fill="#64748b" font-size="11" text-anchor="end" font-family="Inter,'Segoe UI',system-ui,sans-serif">11.03 MB</text>
 </g><g transform="translate(440 188)">
 <rect x="0" y="4" width="13" height="13" rx="3.5" fill="#3572A5"/>
@@ -61,7 +61,7 @@
 <rect x="0" y="4" width="13" height="13" rx="3.5" fill="#e34c26"/>
 <text x="21" y="15" fill="#e2e8f0" font-size="12.5" font-weight="600" font-family="Inter,'Segoe UI',system-ui,sans-serif">HTML</text>
 <text x="212" y="15" fill="#cbd5e1" font-size="12" text-anchor="end" font-family="Inter,'Segoe UI',system-ui,sans-serif">2.0%</text>
-<text x="236" y="15" fill="#64748b" font-size="11" text-anchor="end" font-family="Inter,'Segoe UI',system-ui,sans-serif">1010.4 KB</text>
+<text x="236" y="15" fill="#64748b" font-size="11" text-anchor="end" font-family="Inter,'Segoe UI',system-ui,sans-serif">1010.3 KB</text>
 </g><g transform="translate(700 188)">
 <rect x="0" y="4" width="13" height="13" rx="3.5" fill="#b07219"/>
 <text x="21" y="15" fill="#e2e8f0" font-size="12.5" font-weight="600" font-family="Inter,'Segoe UI',system-ui,sans-serif">Java</text>
@@ -85,7 +85,7 @@
 </g><g transform="translate(208 436)">
 <rect width="122" height="54" rx="12" fill="#0d1322" stroke="#764ba2" stroke-opacity="0.35" stroke-width="1.2"/>
 <text x="14" y="20" fill="#8b93a7" font-size="10.5" font-weight="700" letter-spacing="1.2" font-family="Inter,'Segoe UI',system-ui,sans-serif">HHI ×10⁴</text>
-<text x="14" y="42" fill="#764ba2" font-size="17" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">2576.0</text>
+<text x="14" y="42" fill="#764ba2" font-size="17" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">2575.9</text>
 </g><g transform="translate(340 436)">
 <rect width="122" height="54" rx="12" fill="#0d1322" stroke="#16a34a" stroke-opacity="0.35" stroke-width="1.2"/>
 <text x="14" y="20" fill="#8b93a7" font-size="10.5" font-weight="700" letter-spacing="1.2" font-family="Inter,'Segoe UI',system-ui,sans-serif">GINI COEF.</text>

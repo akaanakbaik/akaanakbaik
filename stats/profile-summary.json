@@ -1,6 +1,6 @@
 {
   "username": "akaanakbaik",
-  "generatedAt": "31 Oct 2026, 06:30",
+  "generatedAt": "31 Oct 2026, 07:46",
   "publicRepos": 113,
   "originalRepos": 92,
   "forkedRepos": 21,
@@ -12,34 +12,34 @@
   "totalStars": 514,
   "totalForks": 27,
   "totalWatchers": 13,
-  "totalSize": "889.2 MB",
-  "totalSizeKb": 910569,
+  "totalSize": "889.3 MB",
+  "totalSizeKb": 910607,
   "topLanguage": "JavaScript",
   "accountAge": "2y 2m",
   "accountAgePrecise": "2 years 2 months",
   "accountCreatedAt": "2024-08-03T01:58:16Z",
   "topRepo": "pterodactyl-gateway",
-  "recentRepo": "dastermv2",
+  "recentRepo": "portofoliov2",
   "largestRepo": "Hacktoberfest2025-3",
   "languageDistribution": {
-    "totalBytes": 51282019,
+    "totalBytes": 51286147,
     "languagesCount": 42,
-    "entropy": 2.5219954554796344,
+    "entropy": 2.5219982113697568,
     "entropyMax": 5.392317422778761,
-    "redundancy": 0.5322984057233033,
-    "hhi": 2575.9858029126044,
-    "gini": 0.8955023002544125,
-    "cr3": 76.95158024101976,
-    "cr5": 88.9343982342037,
+    "redundancy": 0.5322978946461715,
+    "hhi": 2575.8869675455126,
+    "gini": 0.8955036527932285,
+    "cr3": 76.95219724733855,
+    "cr5": 88.93561062405409,
     "pareto80": {
       "count": 4,
       "totalCount": 42,
-      "share": 0.8574385107575425
+      "share": 0.8574376039596033
     },
-    "topShare": 42.724753095232074,
-    "geomeanBytes": 6333.557647415018,
+    "topShare": 42.7213141981596,
+    "geomeanBytes": 6333.652858417889,
     "medianBytes": 4632.5,
-    "cv": 3.133550761074876,
+    "cv": 3.1334845242463154,
     "byBytes": [
       {
         "name": "JavaScript",
@@ -48,7 +48,7 @@
       },
       {
         "name": "TypeScript",
-        "bytes": 11563403,
+        "bytes": 11566896,
         "repos": 30
       },
       {
@@ -63,7 +63,7 @@
       },
       {
         "name": "CSS",
-        "bytes": 1636177,
+        "bytes": 1636977,
         "repos": 51
       },
       {
@@ -78,7 +78,7 @@
       },
       {
         "name": "HTML",
-        "bytes": 1034688,
+        "bytes": 1034523,
         "repos": 51
       },
       {
@@ -425,14 +425,14 @@
   },
   "codeTotals": {
     "totals": {
-      "files": 18244,
-      "lines": 3476442,
-      "codeLines": 3229067,
-      "chars": 148155503,
-      "nonWsChars": 112773851,
-      "bytes": 149629857
+      "files": 18246,
+      "lines": 3476522,
+      "codeLines": 3229142,
+      "chars": 148159627,
+      "nonWsChars": 112777440,
+      "bytes": 149633985
     },
-    "scannedFiles": 18246,
+    "scannedFiles": 18248,
     "excludedFiles": 2,
     "exclusionSamples": [
       {
@@ -458,11 +458,11 @@
       },
       {
         "name": "TypeScript",
-        "files": 5580,
-        "lines": 872814,
-        "codeLines": 804054,
-        "chars": 34018626,
-        "bytes": 34057194
+        "files": 5581,
+        "lines": 872878,
+        "codeLines": 804114,
+        "chars": 34022115,
+        "bytes": 34060687
       },
       {
         "name": "Python",
@@ -482,11 +482,11 @@
       },
       {
         "name": "CSS",
-        "files": 108,
-        "lines": 60899,
-        "codeLines": 56972,
-        "chars": 2158184,
-        "bytes": 2164367
+        "files": 109,
+        "lines": 60917,
+        "codeLines": 56989,
+        "chars": 2158984,
+        "bytes": 2165167
       },
       {
         "name": "C++",
@@ -507,10 +507,10 @@
       {
         "name": "HTML",
         "files": 142,
-        "lines": 24747,
-        "codeLines": 22789,
-        "chars": 1111608,
-        "bytes": 1112943
+        "lines": 24745,
+        "codeLines": 22787,
+        "chars": 1111443,
+        "bytes": 1112778
       },
       {
         "name": "C",
@@ -922,12 +922,12 @@
       },
       {
         "repo": "portofoliov2",
-        "files": 111,
-        "lines": 12021,
-        "codeLines": 11079,
-        "chars": 483238,
-        "nonWsChars": 384526,
-        "bytes": 486098,
+        "files": 113,
+        "lines": 12101,
+        "codeLines": 11154,
+        "chars": 487362,
+        "nonWsChars": 388115,
+        "bytes": 490226,
         "topLanguage": "TypeScript"
       },
       {
@@ -2067,28 +2067,28 @@
   ],
   "recentRepositories": [
     {
+      "name": "portofoliov2",
+      "url": "https://github.com/akaanakbaik/portofoliov2",
+      "language": "TypeScript",
+      "updatedAt": "2026-10-31T00:02:03Z"
+    },
+    {
+      "name": "akaanakbaik",
+      "url": "https://github.com/akaanakbaik/akaanakbaik",
+      "language": "JavaScript",
+      "updatedAt": "2026-10-30T23:32:05Z"
+    },
+    {
       "name": "dastermv2",
       "url": "https://github.com/akaanakbaik/dastermv2",
       "language": "Shell",
       "updatedAt": "2026-10-30T22:48:44Z"
     },
     {
-      "name": "akaanakbaik",
-      "url": "https://github.com/akaanakbaik/akaanakbaik",
-      "language": "JavaScript",
-      "updatedAt": "2026-10-30T20:48:33Z"
-    },
-    {
       "name": "auto-commit",
       "url": "https://github.com/akaanakbaik/auto-commit",
       "language": "Unknown",
       "updatedAt": "2026-10-30T15:19:37Z"
-    },
-    {
-      "name": "portofoliov2",
-      "url": "https://github.com/akaanakbaik/portofoliov2",
-      "language": "TypeScript",
-      "updatedAt": "2026-10-29T09:58:48Z"
     },
     {
       "name": "libsignal",
@@ -2428,7 +2428,7 @@
   "codingAge": {
     "years": 2,
     "months": 2,
-    "days": 27,
+    "days": 28,
     "totalDays": 818,
     "label": "2 years 2 months",
     "createdAt": "2024-08-03T01:58:16Z"
@@ -2478,15 +2478,15 @@
       "pullRequests": 2,
       "issues": 0,
       "discussions": 0,
-      "daysSincePush": 2,
+      "daysSincePush": 0,
       "commits": 142,
-      "score": 9.690477796490454,
+      "score": 9.777420318284396,
       "stars": 5,
       "forks": 2,
       "watchers": 0,
       "prs": 2,
-      "recency": 0.9565287391030293,
-      "scorePct": 86.20798395733392
+      "recency": 1,
+      "scorePct": 86.98143803064461
     },
     {
       "name": "dastermv2",
@@ -2507,22 +2507,22 @@
       "scorePct": 72.92264306224578
     },
     {
-      "name": "kaboxv8",
-      "url": "https://github.com/akaanakbaik/kaboxv8",
-      "language": "JavaScript",
+      "name": "kaai-code-snipcets",
+      "url": "https://github.com/akaanakbaik/kaai-code-snipcets",
+      "language": "TypeScript",
       "watchersTotal": 0,
       "pullRequests": 0,
       "issues": 0,
       "discussions": 0,
-      "daysSincePush": 10,
-      "commits": 55,
-      "score": 7.65198365609615,
+      "daysSincePush": 45,
+      "commits": 101,
+      "score": 7.632488376987082,
       "stars": 5,
-      "forks": 1,
+      "forks": 2,
       "watchers": 0,
       "prs": 0,
-      "recency": 0.8007374029168081,
-      "scorePct": 68.07322591517875
+      "recency": 0.36787944117144233,
+      "scorePct": 67.89979290764563
     }
   ]
 }
