@@ -1,6 +1,6 @@
 {
   "username": "akaanakbaik",
-  "generatedAt": "31 Oct 2026, 20:38",
+  "generatedAt": "01 Nov 2026, 01:31",
   "publicRepos": 113,
   "originalRepos": 92,
   "forkedRepos": 21,
@@ -12,14 +12,14 @@
   "totalStars": 514,
   "totalForks": 27,
   "totalWatchers": 13,
-  "totalSize": "889.4 MB",
-  "totalSizeKb": 910776,
+  "totalSize": "889.5 MB",
+  "totalSizeKb": 910808,
   "topLanguage": "JavaScript",
   "accountAge": "2y 2m",
   "accountAgePrecise": "2 years 2 months",
   "accountCreatedAt": "2024-08-03T01:58:16Z",
   "topRepo": "pterodactyl-gateway",
-  "recentRepo": "dastermv2",
+  "recentRepo": "auto-commit",
   "largestRepo": "Hacktoberfest2025-3",
   "languageDistribution": {
     "totalBytes": 51286147,
@@ -2067,22 +2067,22 @@
   ],
   "recentRepositories": [
     {
-      "name": "dastermv2",
-      "url": "https://github.com/akaanakbaik/dastermv2",
-      "language": "Shell",
-      "updatedAt": "2026-10-31T08:41:26Z"
-    },
-    {
       "name": "auto-commit",
       "url": "https://github.com/akaanakbaik/auto-commit",
       "language": "Unknown",
-      "updatedAt": "2026-10-31T07:43:01Z"
+      "updatedAt": "2026-10-31T18:00:35Z"
+    },
+    {
+      "name": "dastermv2",
+      "url": "https://github.com/akaanakbaik/dastermv2",
+      "language": "Shell",
+      "updatedAt": "2026-10-31T15:07:37Z"
     },
     {
       "name": "akaanakbaik",
       "url": "https://github.com/akaanakbaik/akaanakbaik",
       "language": "JavaScript",
-      "updatedAt": "2026-10-31T07:00:29Z"
+      "updatedAt": "2026-10-31T13:39:58Z"
     },
     {
       "name": "portofoliov2",
@@ -2460,15 +2460,15 @@
       "pullRequests": 21,
       "issues": 0,
       "discussions": 0,
-      "daysSincePush": 13,
+      "daysSincePush": 14,
       "commits": 164,
-      "score": 10.265156811425092,
+      "score": 10.232230879694022,
       "stars": 10,
       "forks": 0,
       "watchers": 0,
       "prs": 21,
-      "recency": 0.7490954336047508,
-      "scorePct": 91.32041704273288
+      "recency": 0.7326324677392158,
+      "scorePct": 91.02750287956538
     },
     {
       "name": "portofoliov2",
