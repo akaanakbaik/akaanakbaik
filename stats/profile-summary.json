@@ -1,6 +1,6 @@
 {
   "username": "akaanakbaik",
-  "generatedAt": "01 Nov 2026, 06:10",
+  "generatedAt": "01 Nov 2026, 09:12",
   "publicRepos": 113,
   "originalRepos": 92,
   "forkedRepos": 21,
@@ -13,9 +13,9 @@
   "totalForks": 27,
   "totalWatchers": 13,
   "totalSize": "889.5 MB",
-  "totalSizeKb": 910849,
+  "totalSizeKb": 910887,
   "topLanguage": "JavaScript",
-  "accountAge": "2y 2m",
+  "accountAge": "2y 3m",
   "accountAgePrecise": "2 years 2 months",
   "accountCreatedAt": "2024-08-03T01:58:16Z",
   "topRepo": "pterodactyl-gateway",
@@ -2070,19 +2070,19 @@
       "name": "dastermv2",
       "url": "https://github.com/akaanakbaik/dastermv2",
       "language": "Shell",
-      "updatedAt": "2026-10-31T22:44:41Z"
-    },
-    {
-      "name": "akaanakbaik",
-      "url": "https://github.com/akaanakbaik/akaanakbaik",
-      "language": "JavaScript",
-      "updatedAt": "2026-10-31T22:29:19Z"
+      "updatedAt": "2026-11-01T01:55:38Z"
     },
     {
       "name": "auto-commit",
       "url": "https://github.com/akaanakbaik/auto-commit",
       "language": "Unknown",
-      "updatedAt": "2026-10-31T18:00:35Z"
+      "updatedAt": "2026-11-01T01:39:14Z"
+    },
+    {
+      "name": "akaanakbaik",
+      "url": "https://github.com/akaanakbaik/akaanakbaik",
+      "language": "JavaScript",
+      "updatedAt": "2026-10-31T23:11:25Z"
     },
     {
       "name": "portofoliov2",
@@ -2118,7 +2118,7 @@
   "activity": {
     "pullRequests": 49,
     "issues": 15,
-    "reposContributed": 5,
+    "reposContributed": 4,
     "totalCommitContributions": 3325,
     "totalIssueContributions": 5,
     "totalPRContributions": 31,
@@ -2130,7 +2130,7 @@
     "currentStreak": 0,
     "longest": 80,
     "lastActiveDate": "2026-10-28",
-    "activeDays": 210,
+    "activeDays": 207,
     "totalContributions": 4056
   },
   "commitHours": {
@@ -2428,8 +2428,8 @@
   "codingAge": {
     "years": 2,
     "months": 2,
-    "days": 28,
-    "totalDays": 819,
+    "days": 29,
+    "totalDays": 820,
     "label": "2 years 2 months",
     "createdAt": "2024-08-03T01:58:16Z"
   },
@@ -2507,22 +2507,22 @@
       "scorePct": 72.92264306224578
     },
     {
-      "name": "kaboxv8",
-      "url": "https://github.com/akaanakbaik/kaboxv8",
-      "language": "JavaScript",
+      "name": "kaai-code-snipcets",
+      "url": "https://github.com/akaanakbaik/kaai-code-snipcets",
+      "language": "TypeScript",
       "watchersTotal": 0,
       "pullRequests": 0,
       "issues": 0,
       "discussions": 0,
-      "daysSincePush": 11,
-      "commits": 55,
-      "score": 7.616787840075645,
+      "daysSincePush": 46,
+      "commits": 101,
+      "score": 7.616318510209244,
       "stars": 5,
-      "forks": 1,
+      "forks": 2,
       "watchers": 0,
       "prs": 0,
-      "recency": 0.7831394949065555,
-      "scorePct": 67.76011851154176
+      "recency": 0.35979450778252364,
+      "scorePct": 67.75594328071796
     }
   ]
 }
