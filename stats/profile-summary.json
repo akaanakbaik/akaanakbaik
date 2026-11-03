@@ -1,22 +1,22 @@
 {
   "username": "akaanakbaik",
-  "generatedAt": "03 Nov 2026, 01:19",
+  "generatedAt": "03 Nov 2026, 08:33",
   "publicRepos": 113,
   "originalRepos": 92,
   "forkedRepos": 21,
   "archivedRepos": 0,
   "activeRepos90d": 35,
-  "followers": 81,
+  "followers": 82,
   "following": 76,
   "publicGists": 0,
   "totalStars": 514,
   "totalForks": 27,
   "totalWatchers": 13,
   "totalSize": "888.8 MB",
-  "totalSizeKb": 910119,
+  "totalSizeKb": 910146,
   "topLanguage": "JavaScript",
   "accountAge": "2y 3m",
-  "accountAgePrecise": "2 years 2 months",
+  "accountAgePrecise": "2 years 3 months",
   "accountCreatedAt": "2024-08-03T01:58:16Z",
   "topRepo": "pterodactyl-gateway",
   "recentRepo": "dastermv2",
@@ -2070,25 +2070,25 @@
       "name": "dastermv2",
       "url": "https://github.com/akaanakbaik/dastermv2",
       "language": "Shell",
-      "updatedAt": "2026-11-02T13:11:04Z"
+      "updatedAt": "2026-11-02T22:25:26Z"
+    },
+    {
+      "name": "auto-commit",
+      "url": "https://github.com/akaanakbaik/auto-commit",
+      "language": "Unknown",
+      "updatedAt": "2026-11-02T18:53:47Z"
     },
     {
       "name": "akaanakbaik",
       "url": "https://github.com/akaanakbaik/akaanakbaik",
       "language": "JavaScript",
-      "updatedAt": "2026-11-02T07:41:15Z"
+      "updatedAt": "2026-11-02T18:21:46Z"
     },
     {
       "name": "kaboxv8",
       "url": "https://github.com/akaanakbaik/kaboxv8",
       "language": "JavaScript",
       "updatedAt": "2026-11-02T04:00:15Z"
-    },
-    {
-      "name": "auto-commit",
-      "url": "https://github.com/akaanakbaik/auto-commit",
-      "language": "Unknown",
-      "updatedAt": "2026-11-01T01:39:14Z"
     },
     {
       "name": "portofoliov2",
@@ -2427,10 +2427,10 @@
   },
   "codingAge": {
     "years": 2,
-    "months": 2,
-    "days": 30,
+    "months": 3,
+    "days": 0,
     "totalDays": 821,
-    "label": "2 years 2 months",
+    "label": "2 years 3 months",
     "createdAt": "2024-08-03T01:58:16Z"
   },
   "top5Repos": [
