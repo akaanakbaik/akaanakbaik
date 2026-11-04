@@ -1,54 +1,54 @@
 {
   "username": "akaanakbaik",
-  "generatedAt": "04 Nov 2026, 13:15",
+  "generatedAt": "04 Nov 2026, 21:33",
   "publicRepos": 113,
   "originalRepos": 92,
   "forkedRepos": 21,
   "archivedRepos": 0,
-  "activeRepos90d": 35,
+  "activeRepos90d": 34,
   "followers": 81,
   "following": 76,
   "publicGists": 0,
   "totalStars": 514,
   "totalForks": 27,
   "totalWatchers": 13,
-  "totalSize": "888.9 MB",
-  "totalSizeKb": 910284,
+  "totalSize": "889.2 MB",
+  "totalSizeKb": 910504,
   "topLanguage": "JavaScript",
   "accountAge": "2y 3m",
   "accountAgePrecise": "2 years 3 months",
   "accountCreatedAt": "2024-08-03T01:58:16Z",
   "topRepo": "pterodactyl-gateway",
-  "recentRepo": "auto-commit",
+  "recentRepo": "pterodactyl-gateway",
   "largestRepo": "Hacktoberfest2025-3",
   "languageDistribution": {
-    "totalBytes": 51294772,
+    "totalBytes": 51366651,
     "languagesCount": 42,
-    "entropy": 2.52178043083096,
+    "entropy": 2.5206260812963794,
     "entropyMax": 5.392317422778761,
-    "redundancy": 0.5323382818344102,
-    "hhi": 2576.457514261163,
-    "gini": 0.8955172199429529,
-    "cr3": 76.95607263835777,
-    "cr5": 88.93747105455503,
+    "redundancy": 0.5325523548282782,
+    "hhi": 2578.323660661311,
+    "gini": 0.8955960796802729,
+    "cr3": 76.98831874400376,
+    "cr5": 88.95295120563729,
     "pareto80": {
       "count": 4,
       "totalCount": 42,
-      "share": 0.8574615752264187
+      "share": 0.8576610338096599
     },
-    "topShare": 42.73094536807767,
-    "geomeanBytes": 6333.712210500282,
+    "topShare": 42.739623028957055,
+    "geomeanBytes": 6334.431851008348,
     "medianBytes": 4632.5,
-    "cv": 3.1338668701616674,
+    "cv": 3.1351171229760317,
     "byBytes": [
       {
         "name": "JavaScript",
-        "bytes": 21918741,
+        "bytes": 21953913,
         "repos": 70
       },
       {
         "name": "TypeScript",
-        "bytes": 11566896,
+        "bytes": 11603603,
         "repos": 30
       },
       {
@@ -425,14 +425,14 @@
   },
   "codeTotals": {
     "totals": {
-      "files": 18247,
-      "lines": 3476723,
-      "codeLines": 3229330,
-      "chars": 148168243,
-      "nonWsChars": 112784101,
-      "bytes": 149642610
+      "files": 18248,
+      "lines": 3478145,
+      "codeLines": 3230696,
+      "chars": 148240115,
+      "nonWsChars": 112842106,
+      "bytes": 149714489
     },
-    "scannedFiles": 18249,
+    "scannedFiles": 18250,
     "excludedFiles": 2,
     "exclusionSamples": [
       {
@@ -450,19 +450,19 @@
     "perLang": [
       {
         "name": "JavaScript",
-        "files": 9338,
-        "lines": 2139221,
-        "codeLines": 2015274,
-        "chars": 96699888,
-        "bytes": 97023109
+        "files": 9339,
+        "lines": 2139918,
+        "codeLines": 2015944,
+        "chars": 96735060,
+        "bytes": 97058281
       },
       {
         "name": "TypeScript",
         "files": 5581,
-        "lines": 872878,
-        "codeLines": 804114,
-        "chars": 34022115,
-        "bytes": 34060687
+        "lines": 873603,
+        "codeLines": 804810,
+        "chars": 34058815,
+        "bytes": 34097394
       },
       {
         "name": "Python",
@@ -952,12 +952,12 @@
       },
       {
         "repo": "pterodactyl-gateway",
-        "files": 38,
-        "lines": 9421,
-        "codeLines": 8648,
-        "chars": 361799,
-        "nonWsChars": 293025,
-        "bytes": 361799,
+        "files": 39,
+        "lines": 10612,
+        "codeLines": 9794,
+        "chars": 422172,
+        "nonWsChars": 342305,
+        "bytes": 422172,
         "topLanguage": "TypeScript"
       },
       {
@@ -1211,6 +1211,16 @@
         "topLanguage": "JavaScript"
       },
       {
+        "repo": "web-docs-pterodacty-gateway",
+        "files": 16,
+        "lines": 2069,
+        "codeLines": 1938,
+        "chars": 132525,
+        "nonWsChars": 111324,
+        "bytes": 132583,
+        "topLanguage": "TypeScript"
+      },
+      {
         "repo": "ESEMPE-MD",
         "files": 45,
         "lines": 2182,
@@ -1279,16 +1289,6 @@
         "nonWsChars": 37673,
         "bytes": 50623,
         "topLanguage": "JavaScript"
-      },
-      {
-        "repo": "web-docs-pterodacty-gateway",
-        "files": 16,
-        "lines": 1838,
-        "codeLines": 1718,
-        "chars": 121026,
-        "nonWsChars": 102599,
-        "bytes": 121077,
-        "topLanguage": "TypeScript"
       },
       {
         "repo": "domkuv2",
@@ -2067,22 +2067,34 @@
   ],
   "recentRepositories": [
     {
-      "name": "auto-commit",
-      "url": "https://github.com/akaanakbaik/auto-commit",
-      "language": "Unknown",
-      "updatedAt": "2026-11-04T02:49:51Z"
+      "name": "pterodactyl-gateway",
+      "url": "https://github.com/akaanakbaik/pterodactyl-gateway",
+      "language": "TypeScript",
+      "updatedAt": "2026-11-04T10:46:40Z"
     },
     {
-      "name": "akaanakbaik",
-      "url": "https://github.com/akaanakbaik/akaanakbaik",
-      "language": "JavaScript",
-      "updatedAt": "2026-11-04T00:29:59Z"
+      "name": "web-docs-pterodacty-gateway",
+      "url": "https://github.com/akaanakbaik/web-docs-pterodacty-gateway",
+      "language": "TypeScript",
+      "updatedAt": "2026-11-04T10:40:12Z"
     },
     {
       "name": "dastermv2",
       "url": "https://github.com/akaanakbaik/dastermv2",
       "language": "Shell",
-      "updatedAt": "2026-11-04T00:06:20Z"
+      "updatedAt": "2026-11-04T06:52:34Z"
+    },
+    {
+      "name": "akaanakbaik",
+      "url": "https://github.com/akaanakbaik/akaanakbaik",
+      "language": "JavaScript",
+      "updatedAt": "2026-11-04T06:16:52Z"
+    },
+    {
+      "name": "auto-commit",
+      "url": "https://github.com/akaanakbaik/auto-commit",
+      "language": "Unknown",
+      "updatedAt": "2026-11-04T02:49:51Z"
     },
     {
       "name": "kaboxv8",
@@ -2101,40 +2113,28 @@
       "url": "https://github.com/akaanakbaik/libsignal",
       "language": "JavaScript",
       "updatedAt": "2026-10-28T17:00:22Z"
-    },
-    {
-      "name": "SmartIsland",
-      "url": "https://github.com/akaanakbaik/SmartIsland",
-      "language": "Unknown",
-      "updatedAt": "2026-10-27T14:31:43Z"
-    },
-    {
-      "name": "image-go",
-      "url": "https://github.com/akaanakbaik/image-go",
-      "language": "Dockerfile",
-      "updatedAt": "2026-10-27T05:41:44Z"
     }
   ],
   "activity": {
     "pullRequests": 49,
     "issues": 15,
     "reposContributed": 4,
-    "totalCommitContributions": 3320,
+    "totalCommitContributions": 3329,
     "totalIssueContributions": 4,
     "totalPRContributions": 31,
     "totalPRReviews": 0,
     "totalRepositoryContributions": 56,
-    "totalContributions": 4047
+    "totalContributions": 4056
   },
   "streak": {
-    "currentStreak": 0,
+    "currentStreak": 1,
     "longest": 80,
-    "lastActiveDate": "2026-11-02",
-    "activeDays": 208,
-    "totalContributions": 4047
+    "lastActiveDate": "2026-11-04",
+    "activeDays": 209,
+    "totalContributions": 4056
   },
   "commitHours": {
-    "sampled": 3425,
+    "sampled": 3435,
     "hourCounts": [
       153,
       55,
@@ -2152,8 +2152,8 @@
       115,
       99,
       97,
-      142,
-      150,
+      149,
+      153,
       154,
       128,
       168,
@@ -2164,7 +2164,7 @@
     "weekdayCounts": [
       505,
       468,
-      449,
+      459,
       503,
       331,
       564,
@@ -2240,8 +2240,8 @@
         6,
         1,
         3,
-        53,
-        5,
+        60,
+        8,
         18,
         39,
         11,
@@ -2365,8 +2365,8 @@
     ],
     "peakHour": 23,
     "peakWeekday": "Sun",
-    "circularMean": 20.445372340189763,
-    "circularStd": 6.260822566172153,
+    "circularMean": 20.40804008249032,
+    "circularStd": 6.255460585490274,
     "activeHours": 24,
     "reposWithCommits": 87,
     "topCommitRepos": [
@@ -2375,12 +2375,12 @@
         "count": 801
       },
       {
-        "repo": "startup-tes",
-        "count": 167
+        "repo": "pterodactyl-gateway",
+        "count": 169
       },
       {
-        "repo": "pterodactyl-gateway",
-        "count": 164
+        "repo": "startup-tes",
+        "count": 167
       },
       {
         "repo": "portofoliov2",
@@ -2391,35 +2391,35 @@
         "count": 125
       }
     ],
-    "latestDate": "2026-11-02T04:00:09Z",
+    "latestDate": "2026-11-04T10:45:56Z",
     "rhythm": {
       "label": "Night Owl",
       "emoji": "🦉",
-      "share": 0.33197080291970804,
+      "share": 0.33100436681222706,
       "buckets": [
         {
           "name": "Night Owl",
           "emoji": "🦉",
           "count": 1137,
-          "pct": 33.197080291970806
+          "pct": 33.1004366812227
         },
         {
           "name": "Early Bird",
           "emoji": "🐦",
           "count": 518,
-          "pct": 15.124087591240876
+          "pct": 15.080058224163029
         },
         {
           "name": "Day Coder",
           "emoji": "☀️",
-          "count": 821,
-          "pct": 23.970802919708028
+          "count": 828,
+          "pct": 24.10480349344978
         },
         {
           "name": "Evening",
           "emoji": "🌆",
-          "count": 949,
-          "pct": 27.708029197080293
+          "count": 952,
+          "pct": 27.71470160116448
         }
       ],
       "peakHour": 23
@@ -2460,15 +2460,15 @@
       "pullRequests": 21,
       "issues": 0,
       "discussions": 0,
-      "daysSincePush": 17,
-      "commits": 164,
-      "score": 10.137731526277566,
+      "daysSincePush": 0,
+      "commits": 169,
+      "score": 10.794192396260762,
       "stars": 10,
       "forks": 0,
       "watchers": 0,
       "prs": 21,
-      "recency": 0.6853827910309876,
-      "scorePct": 90.18682206749492
+      "recency": 1,
+      "scorePct": 96.02679913948454
     },
     {
       "name": "portofoliov2",
@@ -2478,15 +2478,15 @@
       "pullRequests": 2,
       "issues": 0,
       "discussions": 0,
-      "daysSincePush": 4,
+      "daysSincePush": 5,
       "commits": 142,
-      "score": 9.607314775744458,
+      "score": 9.567098951913135,
       "stars": 5,
       "forks": 2,
       "watchers": 0,
       "prs": 2,
-      "recency": 0.914947228730031,
-      "scorePct": 85.46815290783596
+      "recency": 0.8948393168143698,
+      "scorePct": 85.11038674103898
     },
     {
       "name": "dastermv2",

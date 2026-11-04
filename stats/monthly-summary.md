@@ -2,13 +2,13 @@
 
 **Periode:** 05 Oct – 04 Nov · dihasilkan otomatis oleh GitHub Actions
 
-Selama 30 hari terakhir (05 Oct – 04 Nov), aku membuat 16 commit di 5 repositori dan aktif selama 6 hari — rata-rata 2.7 commit per hari aktif.
+Selama 30 hari terakhir (05 Oct – 04 Nov), aku membuat 26 commit di 6 repositori dan aktif selama 7 hari — rata-rata 3.7 commit per hari aktif.
 
-Hari paling produktif adalah 02 Nov dengan 5 commit, dan Mon menjadi hari tersibuk dalam seminggu. Puncak aktivitas terjadi sekitar jam 10:00 WIB — aku bangun pagi dan langsung ngoding (early bird).
+Hari paling produktif adalah 04 Nov dengan 10 commit, dan Wed menjadi hari tersibuk dalam seminggu. Puncak aktivitas terjadi sekitar jam 16:00 WIB.
 
-Repo paling sibuk bulan ini: kaboxv8 (7), pterodactyl-gateway (4), libsignal (2).
+Repo paling sibuk bulan ini: pterodactyl-gateway (9), kaboxv8 (7), web-docs-pterodacty-gateway (5).
 
-Bahasa yang paling sering kupakai: JavaScript ×2, TypeScript ×2, Python ×1.
+Bahasa yang paling sering kupakai: TypeScript ×3, JavaScript ×2, Python ×1.
 
 Selain itu aku juga membuka 4 pull request — terus berkontribusi dan berkolaborasi.
 
@@ -21,13 +21,13 @@ Kesimpulan: bulan yang santai — waktu untuk recharge dan mulai proyek baru. Te
 
 | Metrik | Nilai |
 | --- | ---: |
-| Total commit (30 hari) | 16 |
-| Hari aktif | 6 / 30 |
-| Commit per hari aktif | 2.7 |
-| Hari tersibuk | 02 Nov (5 commit) |
-| Hari tersibuk (pekan) | Mon |
-| Jam puncak | 10:00 WIB |
+| Total commit (30 hari) | 26 |
+| Hari aktif | 7 / 30 |
+| Commit per hari aktif | 3.7 |
+| Hari tersibuk | 04 Nov (10 commit) |
+| Hari tersibuk (pekan) | Wed |
+| Jam puncak | 16:00 WIB |
 | Streak aktif | 0 hari |
-| Repo tersibuk | kaboxv8 (7), pterodactyl-gateway (4), libsignal (2) |
+| Repo tersibuk | pterodactyl-gateway (9), kaboxv8 (7), web-docs-pterodacty-gateway (5) |
 | Pull request dibuka | 4 |
 | Issue dibuka | 0 |

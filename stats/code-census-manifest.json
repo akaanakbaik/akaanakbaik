@@ -1,22 +1,32 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "04 Nov 2026, 13:15",
+  "generatedAt": "04 Nov 2026, 21:33",
   "policy": "all tracked regular source files; Unicode code points; notebook code cells; no file-size limit; dependencies and generated source included when tracked",
   "repositories": [
     {
-      "name": "auto-commit",
+      "name": "pterodactyl-gateway",
       "defaultBranch": "main",
-      "pushedAt": "2026-11-04T02:49:47Z"
+      "pushedAt": "2026-11-04T10:45:58Z"
     },
     {
-      "name": "akaanakbaik",
+      "name": "web-docs-pterodacty-gateway",
       "defaultBranch": "main",
-      "pushedAt": "2026-11-04T04:00:17Z"
+      "pushedAt": "2026-11-04T10:38:21Z"
     },
     {
       "name": "dastermv2",
       "defaultBranch": "main",
-      "pushedAt": "2026-11-04T00:06:15Z"
+      "pushedAt": "2026-11-04T06:52:30Z"
+    },
+    {
+      "name": "akaanakbaik",
+      "defaultBranch": "main",
+      "pushedAt": "2026-11-04T06:16:48Z"
+    },
+    {
+      "name": "auto-commit",
+      "defaultBranch": "main",
+      "pushedAt": "2026-11-04T02:49:47Z"
     },
     {
       "name": "kaboxv8",
@@ -57,11 +67,6 @@
       "name": "image-nodejs",
       "defaultBranch": "master",
       "pushedAt": "2026-10-27T05:41:35Z"
-    },
-    {
-      "name": "pterodactyl-gateway",
-      "defaultBranch": "main",
-      "pushedAt": "2026-10-18T04:12:31Z"
     },
     {
       "name": "img-nodejs",
@@ -562,19 +567,14 @@
       "name": "tiny-kaboxv2",
       "defaultBranch": "main",
       "pushedAt": "2026-09-15T17:28:17Z"
-    },
-    {
-      "name": "web-docs-pterodacty-gateway",
-      "defaultBranch": "main",
-      "pushedAt": "2026-09-15T17:28:19Z"
     }
   ],
   "totals": {
-    "files": 18247,
-    "lines": 3476723,
-    "codeLines": 3229330,
-    "chars": 148168243,
-    "nonWsChars": 112784101,
-    "bytes": 149642610
+    "files": 18248,
+    "lines": 3478145,
+    "codeLines": 3230696,
+    "chars": 148240115,
+    "nonWsChars": 112842106,
+    "bytes": 149714489
   }
 }
