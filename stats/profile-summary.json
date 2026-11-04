@@ -1,6 +1,6 @@
 {
   "username": "akaanakbaik",
-  "generatedAt": "04 Nov 2026, 21:33",
+  "generatedAt": "05 Nov 2026, 04:18",
   "publicRepos": 113,
   "originalRepos": 92,
   "forkedRepos": 21,
@@ -13,13 +13,13 @@
   "totalForks": 27,
   "totalWatchers": 13,
   "totalSize": "889.2 MB",
-  "totalSizeKb": 910504,
+  "totalSizeKb": 910556,
   "topLanguage": "JavaScript",
   "accountAge": "2y 3m",
   "accountAgePrecise": "2 years 3 months",
   "accountCreatedAt": "2024-08-03T01:58:16Z",
   "topRepo": "pterodactyl-gateway",
-  "recentRepo": "pterodactyl-gateway",
+  "recentRepo": "dastermv2",
   "largestRepo": "Hacktoberfest2025-3",
   "languageDistribution": {
     "totalBytes": 51366651,
@@ -2067,6 +2067,18 @@
   ],
   "recentRepositories": [
     {
+      "name": "dastermv2",
+      "url": "https://github.com/akaanakbaik/dastermv2",
+      "language": "Shell",
+      "updatedAt": "2026-11-04T15:11:00Z"
+    },
+    {
+      "name": "akaanakbaik",
+      "url": "https://github.com/akaanakbaik/akaanakbaik",
+      "language": "JavaScript",
+      "updatedAt": "2026-11-04T14:35:44Z"
+    },
+    {
       "name": "pterodactyl-gateway",
       "url": "https://github.com/akaanakbaik/pterodactyl-gateway",
       "language": "TypeScript",
@@ -2077,18 +2089,6 @@
       "url": "https://github.com/akaanakbaik/web-docs-pterodacty-gateway",
       "language": "TypeScript",
       "updatedAt": "2026-11-04T10:40:12Z"
-    },
-    {
-      "name": "dastermv2",
-      "url": "https://github.com/akaanakbaik/dastermv2",
-      "language": "Shell",
-      "updatedAt": "2026-11-04T06:52:34Z"
-    },
-    {
-      "name": "akaanakbaik",
-      "url": "https://github.com/akaanakbaik/akaanakbaik",
-      "language": "JavaScript",
-      "updatedAt": "2026-11-04T06:16:52Z"
     },
     {
       "name": "auto-commit",
@@ -2366,7 +2366,7 @@
     "peakHour": 23,
     "peakWeekday": "Sun",
     "circularMean": 20.40804008249032,
-    "circularStd": 6.255460585490274,
+    "circularStd": 6.255460585490275,
     "activeHours": 24,
     "reposWithCommits": 87,
     "topCommitRepos": [
@@ -2514,15 +2514,15 @@
       "pullRequests": 0,
       "issues": 0,
       "discussions": 0,
-      "daysSincePush": 2,
+      "daysSincePush": 3,
       "commits": 60,
-      "score": 8.041564125278182,
+      "score": 7.999520617135359,
       "stars": 5,
       "forks": 1,
       "watchers": 0,
       "prs": 0,
-      "recency": 0.9565287391030293,
-      "scorePct": 71.53899381049332
+      "recency": 0.9355069850316178,
+      "scorePct": 71.16496828238168
     }
   ]
 }
