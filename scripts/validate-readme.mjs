@@ -1,5 +1,6 @@
 import { readFile, readdir } from 'node:fs/promises';
 import { existsSync } from 'node:fs';
+import { compact, thousandSep, streakDayLabel, jakartaDateTime } from './lib/engine.mjs';
 
 const MIN_BADGE_CONTRAST = 4.5;
 // Two different budgets, because they answer two different questions.
@@ -206,6 +207,71 @@ async function validateCensusConsistency() {
   return manifest.totals;
 }
 
+async function validateBadgeValues() {
+  const [profileRaw, dailyRaw, monthly] = await Promise.all([
+    readFile('stats/profile-summary.json', 'utf8'),
+    readFile('stats/daily-commits.json', 'utf8'),
+    readFile('stats/monthly-summary.md', 'utf8')
+  ]);
+  const profile = JSON.parse(profileRaw);
+  const daily = JSON.parse(dailyRaw);
+  const code = profile.codeTotals;
+  if (!code || !Array.isArray(code.perRepo) || !Array.isArray(code.perLang)) throw new Error('profile summary is missing code metrics');
+  const t = code.totals;
+  const sorted = [...code.perRepo].sort((a, b) => b.codeLines - a.codeLines || a.repo.localeCompare(b.repo));
+  const withCode = sorted.filter((r) => r.codeLines > 0);
+  const sizes = withCode.map((r) => r.codeLines).sort((a, b) => a - b);
+  const middle = Math.floor(sizes.length / 2);
+  const median = sizes.length ? (sizes.length % 2 ? sizes[middle] : Math.round((sizes[middle - 1] + sizes[middle]) / 2)) : 0;
+  const biggest = sorted[0] || { repo: '-', codeLines: 0 };
+  const monthlyValue = (label) => {
+    const row = monthly.split('\n').find((line) => line.startsWith('| ' + label + ' |'));
+    if (!row) throw new Error('missing monthly summary row: ' + label);
+    return row.split('|')[2].trim();
+  };
+  const monthlyTop = monthlyValue('Repo tersibuk');
+  const lastActive = profile.commitHours.latestDate || (profile.streak.lastActiveDate ? profile.streak.lastActiveDate + 'T00:00:00Z' : null);
+  const busiestShare = (Math.max(...profile.commitHours.weekdayCounts) / (profile.commitHours.sampled || 1) * 100).toFixed(1);
+  const expected = {
+    'followers': compact(profile.followers),
+    'total-stars': compact(profile.totalStars),
+    'public-repos': compact(profile.publicRepos),
+    'total-forks': compact(profile.totalForks),
+    'total-watchers': compact(profile.totalWatchers),
+    'top-language': profile.topLanguage,
+    'language-count': compact(profile.languageDistribution.languagesCount),
+    'code-files': compact(t.files),
+    'total-lines': compact(t.codeLines),
+    'total-chars': compact(t.chars),
+    'census-languages': compact(code.perLang.length),
+    'code-repos': compact(withCode.length) + ' of ' + compact(code.perRepo.length),
+    'lines-per-file': compact(Math.round(t.codeLines / (t.files || 1))),
+    'median-repo-lines': compact(median) + ' lines',
+    'largest-repo': biggest.repo + ' · ' + compact(biggest.codeLines) + ' lines',
+    'original-repos': compact(profile.originalRepos),
+    'active-repos-90d': compact(profile.activeRepos90d),
+    'archived-repos': compact(profile.archivedRepos),
+    'public-gists': compact(profile.publicGists),
+    'streak-days': streakDayLabel(profile.streak.currentStreak),
+    'total-commits': compact(profile.activity.totalCommitContributions),
+    'peak-hour': profile.commitHours.peakHour + ':00 WIB',
+    'last-active': jakartaDateTime(lastActive),
+    'commits-10d': thousandSep(daily.total10) + ' (' + Number(daily.average10).toFixed(1) + '/day)',
+    'busiest-weekday': profile.commitHours.peakWeekday + ' · ' + busiestShare + '%',
+    'monthly-commits': compact(Number(monthlyValue('Total commit (30 hari)').replaceAll(',', ''))),
+    'monthly-active-days': String(Number(monthlyValue('Hari aktif').split('/')[0].trim())),
+    'monthly-top-repo': monthlyTop === '-' ? 'none' : monthlyTop.split(', ')[0].split(' (')[0]
+  };
+  for (const [name, value] of Object.entries(expected)) {
+    const badge = JSON.parse(await readFile('badges/' + name + '.json', 'utf8'));
+    if (badge.message !== String(value)) throw new Error(name + ': displayed ' + JSON.stringify(badge.message) + ', source ' + JSON.stringify(String(value)));
+  }
+  const clock = JSON.parse(await readFile('badges/live-time.json', 'utf8'));
+  const date = JSON.parse(await readFile('badges/live-date.json', 'utf8'));
+  if (clock.label !== 'snapshot time (WIB)' || !/^([01]\d|2[0-3]):[0-5]\d:[0-5]\d$/.test(clock.message)) throw new Error('live-time: invalid snapshot clock');
+  if (date.label !== 'snapshot date (WIB)' || !/^\d{2} [A-Za-z]+ \d{4}$/.test(date.message)) throw new Error('live-date: invalid snapshot date');
+  return Object.keys(expected).length + 2;
+}
 async function main() {
   const readme = await readFile(README_PATH, 'utf8');
   const urls = unique((readme.match(URL_PATTERN) || []).map(normalizeUrl));
@@ -229,6 +295,7 @@ async function main() {
   const stats = await validateStats();
   const freshness = await validateSnapshotFreshness();
   const census = await validateCensusConsistency();
+  const badgeValues = await validateBadgeValues();
   const failures = [];
   let completed = 0;
   const workers = Array.from({ length: Math.min(12, urls.length) }, async () => {
@@ -258,6 +325,7 @@ async function main() {
     throw new Error(`${failures.length} README URLs failed`);
   }
   console.log(`Validated ${urls.length} README URLs, ${badges.length} badge payloads, and ${visualBadgeUrls.length} uniform badge renderers`);
+  console.log(`Verified ${badgeValues} badge messages against generated source data`);
   console.log(`Snapshot freshness OK: ${freshness.stats} stats files within ${freshness.driftMinutes.toFixed(0)} min drift (limit ${MAX_SNAPSHOT_DRIFT_MINUTES}), newest ${freshness.ageMinutes.toFixed(0)} min old (limit ${MAX_SNAPSHOT_AGE_MINUTES})`);
   console.log(`Code Census agrees across manifest, independent recount, and profile summary: ${census.files} files / ${census.codeLines} code lines / ${census.chars} characters`);
 }
