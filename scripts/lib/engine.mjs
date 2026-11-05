@@ -334,6 +334,25 @@ export function classifyRhythm(hourCounts) {
   };
 }
 
+export function streakDayLabel(days) {
+  return `${days} ${Number(days) === 1 ? 'day' : 'days'}`;
+}
+
+export function jakartaDateTime(iso) {
+  if (!iso) return 'unknown';
+  const date = new Date(iso);
+  if (Number.isNaN(date.getTime())) return 'unknown';
+  const text = new Intl.DateTimeFormat('en-GB', {
+    timeZone: 'Asia/Jakarta',
+    day: '2-digit',
+    month: 'short',
+    year: 'numeric',
+    hour: '2-digit',
+    minute: '2-digit',
+    hourCycle: 'h23'
+  }).format(date);
+  return `${text} WIB`;
+}
 export function relativeTime(iso) {
   const diff = Date.now() - new Date(iso).getTime();
   const minutes = Math.floor(diff / 60000);

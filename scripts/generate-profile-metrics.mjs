@@ -1,6 +1,6 @@
 import { mkdir, writeFile, rm } from 'node:fs/promises';
 import { join } from 'node:path';
-import { compact, thousandSep, humanBytes, dateStamp, writeBadge, relativeTime, preciseAge, classifyRhythm, monthDay, jakartaNow } from './lib/engine.mjs';
+import { compact, thousandSep, humanBytes, dateStamp, writeBadge, streakDayLabel, jakartaDateTime, preciseAge, classifyRhythm, monthDay, jakartaNow } from './lib/engine.mjs';
 import { fetchProfileData } from './lib/collect.mjs';
 import { ensureClones, scanRepository, aggregateCodeMetrics } from './lib/loc.mjs';
 import { fetchUserActivity, computeStreak, fetchCommitTimestamps, fetchTopReposRanking } from './lib/activity.mjs';
@@ -125,8 +125,8 @@ ${codeRows}
 
 | Metric | Value |
 | --- | ---: |
-| Current streak | ${data.streak.currentStreak} days |
-| Longest streak | ${data.streak.longest} days |
+| Current streak | ${streakDayLabel(data.streak.currentStreak)} |
+| Longest streak | ${streakDayLabel(data.streak.longest)} |
 | Active days (365d) | ${data.streak.activeDays} |
 | Total contributions (365d) | ${data.streak.totalContributions} |
 | Total commits | ${thousandSep(data.activity.totalCommitContributions)} |
@@ -288,9 +288,9 @@ async function main() {
     const wj = jakartaNow();
     await writeFile('generated/live-clock.svg', liveClockSvg({ hour: wj.hour, minute: wj.minute, second: wj.second, dateText: wj.dateText, dayName: wj.dayName, generatedAt: data.generatedAt }));
     await writeFile('generated/coding-rhythm.svg', codingRhythmSvg({ rhythm, hourCounts: commitHours.hourCounts, peakHour: commitHours.peakHour, sampled: commitHours.sampled, circularMean: commitHours.circularMean, circularStd: commitHours.circularStd, activeHours: commitHours.activeHours }));
-    await writeBadge('streak-days', 'current streak', `${streak.currentStreak} ${streak.currentStreak === 1 ? 'day' : 'days'}`, 'b45309');
+    await writeBadge('streak-days', 'current streak', streakDayLabel(streak.currentStreak), 'b45309');
     await writeBadge('total-commits', 'commits (365d)', compact(activity.totalCommitContributions), '2563eb');
-    await writeBadge('last-active', 'last active', lastActiveIso ? relativeTime(lastActiveIso) : 'unknown', '06b6d4');
+    await writeBadge('last-active', 'last activity (WIB)', jakartaDateTime(lastActiveIso), '06b6d4');
     await writeBadge('peak-hour', 'peak coding hour', `${commitHours.peakHour}:00 WIB`, 'db2777');
     const busiestWeekdayShare = ((Math.max(...commitHours.weekdayCounts) / (commitHours.sampled || 1)) * 100).toFixed(1);
     await writeBadge('busiest-weekday', 'busiest weekday', `${commitHours.peakWeekday} · ${busiestWeekdayShare}%`, '764ba2');

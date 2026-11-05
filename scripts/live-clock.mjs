@@ -33,8 +33,8 @@ async function main() {
       generatedAt
     })
   );
-  await writeBadge('live-time', 'Jakarta time (WIB)', now.timeText, 'b45309');
-  await writeBadge('live-date', 'Jakarta date', now.dateText, '0e7490');
+  await writeBadge('live-time', 'snapshot time (WIB)', now.timeText, 'b45309');
+  await writeBadge('live-date', 'snapshot date (WIB)', now.dateText, '0e7490');
   const picked = await pickRandomQuote();
   if (picked) console.log(`[live-clock] quote #${picked.index + 1}/${picked.total} by ${picked.author}`);
   console.log(`[live-clock] ${now.timeText} WIB — ${now.dateText} — ${now.dayName}`);

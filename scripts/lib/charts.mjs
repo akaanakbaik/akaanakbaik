@@ -1,4 +1,4 @@
-import { esc, baseCard, colorFor, PALETTE, thousandSep, compact, humanBytes, clamp, relativeTime, monthDay } from './engine.mjs';
+import { esc, baseCard, colorFor, PALETTE, thousandSep, compact, humanBytes, clamp, jakartaDateTime, streakDayLabel, monthDay } from './engine.mjs';
 
 function font() {
   return "font-family=\"Inter,'Segoe UI',system-ui,sans-serif\"";
@@ -497,8 +497,8 @@ export function streakSvg(data) {
 ${flame}
 <text x="78" y="152" fill="#ffffff" font-size="52" font-weight="900" ${font()}>${data.currentStreak}</text>
 <text x="78" y="174" fill="#a78bfa" font-size="13" font-weight="800" letter-spacing="2" ${font()}>DAY STREAK</text>
-<text x="78" y="204" fill="#8b93a7" font-size="12" ${font()}>Last active: <tspan fill="#e2e8f0" font-weight="700">${lastActiveTs ? relativeTime(lastActiveTs) : 'unknown'}</tspan></text>
-<text x="78" y="224" fill="#64748b" font-size="11" ${font()}>${data.lastActiveDate ? monthDay(`${data.lastActiveDate}T00:00:00Z`) : ''} · longest streak ${data.longest} days</text>
+<text x="78" y="204" fill="#8b93a7" font-size="12" ${font()}>Last active: <tspan fill="#e2e8f0" font-weight="700">${jakartaDateTime(lastActiveTs)}</tspan></text>
+<text x="78" y="224" fill="#64748b" font-size="11" ${font()}>${data.lastActiveDate ? monthDay(`${data.lastActiveDate}T00:00:00Z`) : ''} · longest streak ${streakDayLabel(data.longest)}</text>
 <text x="20" y="258" fill="#5b6478" font-size="10" ${font()}>GITHUB CONTRIBUTION CALENDAR · 365 DAYS</text>
 </g>`;
   const statCard = (x, y, label, value, color) => `<g transform="translate(${x} ${y})">
@@ -756,9 +756,8 @@ export function liveClockSvg(data) {
   const secondAngle = second * 6;
   const minuteAngle = minute * 6 + second * 0.1;
   const hourAngle = hour * 30 + minute * 0.5;
-  const hand = (angle, len, stroke, color, dur) => `<g transform="rotate(${angle} ${cx} ${cy})">
+  const hand = (angle, len, stroke, color) => `<g transform="rotate(${angle} ${cx} ${cy})">
 <line x1="${cx}" y1="${cy + 20}" x2="${cx}" y2="${cy - len}" stroke="${color}" stroke-width="${stroke}" stroke-linecap="round"/>
-<animateTransform attributeName="transform" type="rotate" from="${angle} ${cx} ${cy}" to="${angle + 360} ${cx} ${cy}" dur="${dur}s" repeatCount="indefinite"/>
 </g>`;
   const timeText = `${String(data.hour).padStart(2, '0')}:${String(data.minute).padStart(2, '0')}:${String(data.second).padStart(2, '0')}`;
   const inner = `
@@ -766,9 +765,9 @@ export function liveClockSvg(data) {
 <circle cx="${cx}" cy="${cy}" r="${r}" fill="#0a0e1a" stroke="url(#clockRing)" stroke-width="3"/>
 ${ticks}
 ${numbers}
-${hand(hourAngle, 44, 6, '#e2e8f0', 43200)}
-${hand(minuteAngle, 68, 4, '#c7d2fe', 3600)}
-${hand(secondAngle, 80, 2, '#f59e0b', 60)}
+${hand(hourAngle, 44, 6, '#e2e8f0')}
+${hand(minuteAngle, 68, 4, '#c7d2fe')}
+${hand(secondAngle, 80, 2, '#f59e0b')}
 <circle cx="${cx}" cy="${cy}" r="6" fill="#f59e0b"/>
 <circle cx="${cx}" cy="${cy}" r="2.5" fill="#0b1020"/>
 </g>
@@ -778,11 +777,10 @@ ${hand(secondAngle, 80, 2, '#f59e0b', 60)}
 <text x="180" y="58" text-anchor="middle" fill="#94a3b8" font-size="12" font-weight="700" letter-spacing="2" ${font()}>WIB · ASIA/JAKARTA · UTC+7</text>
 </g>
 <g transform="translate(250 158)">
-<circle cx="14" cy="10" r="6" fill="#22c55e">
-<animate attributeName="opacity" values="1;0.25;1" dur="1.6s" repeatCount="indefinite"/>
-</circle>
+<circle cx="14" cy="10" r="6" fill="#64748b"/>
+
 <text x="30" y="15" fill="#e2e8f0" font-size="17" font-weight="800" ${font()}>${data.dateText}</text>
-<text x="0" y="38" fill="#64748b" font-size="12" ${font()}>${data.dayName} · refreshed by GitHub Actions every 30 minutes</text>
+<text x="0" y="38" fill="#64748b" font-size="12" ${font()}>${data.dayName} · snapshot from completed GitHub Actions run</text>
 </g>
 `;
   return `<svg width="${width}" height="${height}" viewBox="0 0 ${width} ${height}" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -793,7 +791,7 @@ ${hand(secondAngle, 80, 2, '#f59e0b', 60)}
 <rect width="${width}" height="${height}" rx="24" fill="url(#clockBg)"/>
 <circle cx="${width - 60}" cy="40" r="110" fill="#667eea" opacity="0.12"/>
 ${inner}
-<text x="${width / 2}" y="238" text-anchor="middle" fill="#5b6478" font-size="10.5" ${font()}>LIVE · generated ${data.generatedAt} · auto-updates every 30 min</text>
+<text x="${width / 2}" y="238" text-anchor="middle" fill="#5b6478" font-size="10.5" ${font()}>SNAPSHOT · generated ${data.generatedAt} · updated after successful workflow</text>
 </svg>
 `;
 }

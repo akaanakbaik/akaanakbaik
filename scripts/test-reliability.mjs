@@ -1,6 +1,12 @@
 import assert from 'node:assert/strict';
-import { createClient } from './lib/engine.mjs';
+import { createClient, streakDayLabel, jakartaDateTime } from './lib/engine.mjs';
 
+for (const [days, label] of [[0, '0 days'], [1, '1 day'], [2, '2 days'], [7, '7 days']]) {
+  assert.equal(streakDayLabel(days), label);
+}
+assert.equal(jakartaDateTime('2026-11-05T03:34:29Z'), '05 Nov 2026, 10:34 WIB');
+assert.equal(jakartaDateTime(null), 'unknown');
+assert.equal(jakartaDateTime('invalid'), 'unknown');
 const originalFetch = globalThis.fetch;
 const originalRandom = Math.random;
 Math.random = () => 0;
