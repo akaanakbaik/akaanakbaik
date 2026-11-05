@@ -57,7 +57,7 @@ I build practical projects while learning: web apps, bot systems, Linux/VPS tool
 
 </div>
 
-> This section is generated from the GitHub REST and GraphQL APIs. One workflow rebuilds the entire snapshot — scheduled at minute 17 of every hour, plus every push that touches the profile and manual dispatch — and publishes it only after the census is independently recounted and every badge passes validation. GitHub delays scheduled runs on this repository by hours at times, so every number here carries its own publication time: what you see is the last snapshot that actually completed and passed, not a promise about when the next one lands. Badge delivery uses a short cache to surface each completed snapshot promptly.
+> Verified GitHub API snapshot · Updated by the profile metrics workflow · Figures reflect the last successful publication, not real-time activity.
 
 ---
 
@@ -74,7 +74,7 @@ I build practical projects while learning: web apps, bot systems, Linux/VPS tool
 
 </div>
 
-> Language shares use the GitHub `/languages` byte counts for every public repository. The charts include concentration, entropy, Gini, coefficient of variation, and Pareto calculations instead of estimates from repository names.
+> Source: GitHub repository language-byte statistics.
 
 ---
 
@@ -115,7 +115,7 @@ I build practical projects while learning: web apps, bot systems, Linux/VPS tool
 
 </div>
 
-> **Full Code Census.** Every tracked, regular source file on the default branch of every public repository is read without a file-size limit, including tracked dependencies and generated source when present. “Lines” means non-empty code lines; “characters” means Unicode code points; notebooks contribute only their code cells. Empty files are counted as files with zero lines and characters. Symlinks do not contain source themselves and are recorded separately. Any unreadable, binary, or unparsable source file fails the snapshot rather than creating a partial total; the workflow then independently recounts every cached clone before publication.
+> Tracked source files across public repositories · Non-empty lines and Unicode characters · Validated before publication.
 
 ---
 
@@ -137,7 +137,7 @@ I build practical projects while learning: web apps, bot systems, Linux/VPS tool
 
 </div>
 
-> These three graphs are projections of the same single Code Census pass, never a second estimate. Bucket heights are real repository counts, bar lengths are real non-blank tracked source lines, and in the treemap every tile's area is directly proportional to that repository's tracked code lines while its colour is the dominant language found by reading those files. Repositories with no tracked source are counted as zero rather than dropped, so the distribution always reconciles with the published totals.
+> Repository distribution from the same verified Code Census snapshot.
 
 ---
 
@@ -178,7 +178,7 @@ I build practical projects while learning: web apps, bot systems, Linux/VPS tool
   <a href="https://github.com/akaanakbaik"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaanakbaik%2Fakaanakbaik%2Fmain%2Fbadges%2Fbusiest-weekday.json&cacheSeconds=300&style=for-the-badge&logoSize=auto&logo=clockify&logoColor=white" alt="Busiest weekday for commits" /></a>&nbsp;
 </p>
 
-> Streaks come from the official contribution calendar. Commit hours use the complete owned public commit history returned by the API collector, converted to Asia/Jakarta, with known automation commits excluded so scheduled updates do not inflate personal activity. Any incomplete API collection aborts publication instead of displaying a partial metric.
+> Contributions: GitHub calendar · Commit activity: public history, Asia/Jakarta time · Automation excluded where identifiable.
 
 ---
 
@@ -215,7 +215,7 @@ I build practical projects while learning: web apps, bot systems, Linux/VPS tool
 
 </div>
 
-> The clock and quote are refreshed by the same scheduled snapshot as every other number above. The README therefore reports a verified publication snapshot, stamped with its own generation time, rather than claiming second-by-second updates from a static file.
+> Snapshot time (Asia/Jakarta); not a continuously running clock.
 
 ---
 
@@ -227,7 +227,7 @@ I build practical projects while learning: web apps, bot systems, Linux/VPS tool
 
 </div>
 
-> Ranking combines logarithmically scaled stars, forks, watchers, pull requests, issues, discussions, owned commits, and exponential push recency. The score is a transparent activity heuristic, not a popularity claim.
+> Activity-based ranking, not an official popularity score.
 
 ---
 
@@ -287,7 +287,7 @@ I build practical projects while learning: web apps, bot systems, Linux/VPS tool
 
 </div>
 
-> The rolling 30-day report is generated inside the same hourly snapshot as the other profile assets, with every activity date normalized to Asia/Jakarta so its badges and chart share one consistent publication point.
+> Rolling 30-day activity · Asia/Jakarta · Last verified snapshot.
 
 ---
 
