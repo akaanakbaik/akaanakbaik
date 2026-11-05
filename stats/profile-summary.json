@@ -1,6 +1,6 @@
 {
   "username": "akaanakbaik",
-  "generatedAt": "05 Nov 2026, 10:32",
+  "generatedAt": "05 Nov 2026, 10:35",
   "publicRepos": 113,
   "originalRepos": 92,
   "forkedRepos": 21,
@@ -22,28 +22,28 @@
   "recentRepo": "akaanakbaik",
   "largestRepo": "Hacktoberfest2025-3",
   "languageDistribution": {
-    "totalBytes": 51366651,
+    "totalBytes": 51366693,
     "languagesCount": 42,
-    "entropy": 2.5206260812963794,
+    "entropy": 2.520625023033502,
     "entropyMax": 5.392317422778761,
-    "redundancy": 0.5325523548282782,
-    "hhi": 2578.323660661311,
-    "gini": 0.8955960796802729,
-    "cr3": 76.98831874400376,
-    "cr5": 88.95295120563729,
+    "redundancy": 0.5325525510820953,
+    "hhi": 2578.3264335434264,
+    "gini": 0.8955961455783179,
+    "cr3": 76.98833755951546,
+    "cr5": 88.9529602382618,
     "pareto80": {
       "count": 4,
       "totalCount": 42,
-      "share": 0.8576610338096599
+      "share": 0.8576611501931807
     },
-    "topShare": 42.739623028957055,
-    "geomeanBytes": 6334.431851008348,
+    "topShare": 42.73966984793045,
+    "geomeanBytes": 6334.432139541237,
     "medianBytes": 4632.5,
-    "cv": 3.1351171229760317,
+    "cv": 3.135118980339087,
     "byBytes": [
       {
         "name": "JavaScript",
-        "bytes": 21953913,
+        "bytes": 21953955,
         "repos": 70
       },
       {
@@ -428,9 +428,9 @@
       "files": 18248,
       "lines": 3478145,
       "codeLines": 3230696,
-      "chars": 148240115,
-      "nonWsChars": 112842106,
-      "bytes": 149714489
+      "chars": 148240157,
+      "nonWsChars": 112842142,
+      "bytes": 149714531
     },
     "scannedFiles": 18250,
     "excludedFiles": 2,
@@ -453,8 +453,8 @@
         "files": 9339,
         "lines": 2139918,
         "codeLines": 2015944,
-        "chars": 96735060,
-        "bytes": 97058281
+        "chars": 96735102,
+        "bytes": 97058323
       },
       {
         "name": "TypeScript",
@@ -1085,9 +1085,9 @@
         "files": 16,
         "lines": 4250,
         "codeLines": 4026,
-        "chars": 203408,
-        "nonWsChars": 169423,
-        "bytes": 203638,
+        "chars": 203450,
+        "nonWsChars": 169459,
+        "bytes": 203680,
         "topLanguage": "JavaScript"
       },
       {
@@ -2070,7 +2070,7 @@
       "name": "akaanakbaik",
       "url": "https://github.com/akaanakbaik/akaanakbaik",
       "language": "JavaScript",
-      "updatedAt": "2026-11-05T03:31:50Z"
+      "updatedAt": "2026-11-05T03:34:33Z"
     },
     {
       "name": "my-cdn",
@@ -2116,25 +2116,25 @@
     }
   ],
   "activity": {
-    "pullRequests": 49,
+    "pullRequests": 50,
     "issues": 15,
     "reposContributed": 4,
-    "totalCommitContributions": 3332,
+    "totalCommitContributions": 3334,
     "totalIssueContributions": 4,
-    "totalPRContributions": 31,
+    "totalPRContributions": 32,
     "totalPRReviews": 0,
     "totalRepositoryContributions": 56,
-    "totalContributions": 4059
+    "totalContributions": 4062
   },
   "streak": {
     "currentStreak": 2,
     "longest": 80,
     "lastActiveDate": "2026-11-05",
     "activeDays": 210,
-    "totalContributions": 4059
+    "totalContributions": 4062
   },
   "commitHours": {
-    "sampled": 3438,
+    "sampled": 3440,
     "hourCounts": [
       153,
       55,
@@ -2146,7 +2146,7 @@
       130,
       70,
       110,
-      75,
+      77,
       149,
       147,
       115,
@@ -2165,7 +2165,7 @@
       505,
       468,
       459,
-      506,
+      508,
       331,
       564,
       605
@@ -2260,7 +2260,7 @@
         14,
         3,
         2,
-        16,
+        18,
         11,
         6,
         14,
@@ -2365,14 +2365,14 @@
     ],
     "peakHour": 23,
     "peakWeekday": "Sun",
-    "circularMean": 20.402861716418947,
-    "circularStd": 6.264619410916578,
+    "circularMean": 20.399391826304953,
+    "circularStd": 6.270726591718634,
     "activeHours": 24,
     "reposWithCommits": 87,
     "topCommitRepos": [
       {
         "repo": "akaanakbaik",
-        "count": 802
+        "count": 804
       },
       {
         "repo": "pterodactyl-gateway",
@@ -2391,35 +2391,35 @@
         "count": 125
       }
     ],
-    "latestDate": "2026-11-05T03:31:46Z",
+    "latestDate": "2026-11-05T03:34:29Z",
     "rhythm": {
       "label": "Night Owl",
       "emoji": "🦉",
-      "share": 0.3307155322862129,
+      "share": 0.3305232558139535,
       "buckets": [
         {
           "name": "Night Owl",
           "emoji": "🦉",
           "count": 1137,
-          "pct": 33.07155322862129
+          "pct": 33.05232558139535
         },
         {
           "name": "Early Bird",
           "emoji": "🐦",
           "count": 518,
-          "pct": 15.066899360093078
+          "pct": 15.058139534883722
         },
         {
           "name": "Day Coder",
           "emoji": "☀️",
-          "count": 831,
-          "pct": 24.171029668411865
+          "count": 833,
+          "pct": 24.21511627906977
         },
         {
           "name": "Evening",
           "emoji": "🌆",
           "count": 952,
-          "pct": 27.690517742873766
+          "pct": 27.674418604651162
         }
       ],
       "peakHour": 23
@@ -2443,8 +2443,8 @@
       "issues": 0,
       "discussions": 0,
       "daysSincePush": 0,
-      "commits": 802,
-      "score": 11.241948925076176,
+      "commits": 804,
+      "score": 11.244217628763472,
       "stars": 6,
       "forks": 0,
       "watchers": 1,
@@ -2468,7 +2468,7 @@
       "watchers": 0,
       "prs": 21,
       "recency": 0.9780228724846005,
-      "scorePct": 95.62610729577851
+      "scorePct": 95.60681317417873
     },
     {
       "name": "portofoliov2",
@@ -2486,7 +2486,7 @@
       "watchers": 0,
       "prs": 2,
       "recency": 0.8948393168143698,
-      "scorePct": 85.1017827573728
+      "scorePct": 85.08461208932711
     },
     {
       "name": "dastermv2",
@@ -2504,7 +2504,7 @@
       "watchers": 0,
       "prs": 0,
       "recency": 1,
-      "scorePct": 72.91527116260077
+      "scorePct": 72.90055932136751
     },
     {
       "name": "kaboxv8",
@@ -2522,7 +2522,7 @@
       "watchers": 0,
       "prs": 0,
       "recency": 0.9355069850316178,
-      "scorePct": 71.15777406968742
+      "scorePct": 71.14341683206167
     }
   ]
 }
