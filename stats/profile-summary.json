@@ -1,6 +1,6 @@
 {
   "username": "akaanakbaik",
-  "generatedAt": "05 Nov 2026, 10:35",
+  "generatedAt": "05 Nov 2026, 10:44",
   "publicRepos": 113,
   "originalRepos": 92,
   "forkedRepos": 21,
@@ -22,28 +22,28 @@
   "recentRepo": "akaanakbaik",
   "largestRepo": "Hacktoberfest2025-3",
   "languageDistribution": {
-    "totalBytes": 51366693,
+    "totalBytes": 51367285,
     "languagesCount": 42,
-    "entropy": 2.520625023033502,
+    "entropy": 2.5206101066129225,
     "entropyMax": 5.392317422778761,
-    "redundancy": 0.5325525510820953,
-    "hhi": 2578.3264335434264,
-    "gini": 0.8955961455783179,
-    "cr3": 76.98833755951546,
-    "cr5": 88.9529602382618,
+    "redundancy": 0.5325553173177247,
+    "hhi": 2578.365518067964,
+    "gini": 0.8955970744154897,
+    "cr3": 76.98860276535932,
+    "cr5": 88.95308755368325,
     "pareto80": {
       "count": 4,
       "totalCount": 42,
-      "share": 0.8576611501931807
+      "share": 0.8576627906263685
     },
-    "topShare": 42.73966984793045,
-    "geomeanBytes": 6334.432139541237,
+    "topShare": 42.74032976436267,
+    "geomeanBytes": 6334.436206423678,
     "medianBytes": 4632.5,
-    "cv": 3.135118980339087,
+    "cv": 3.135145160257406,
     "byBytes": [
       {
         "name": "JavaScript",
-        "bytes": 21953955,
+        "bytes": 21954547,
         "repos": 70
       },
       {
@@ -426,11 +426,11 @@
   "codeTotals": {
     "totals": {
       "files": 18248,
-      "lines": 3478145,
-      "codeLines": 3230696,
-      "chars": 148240157,
-      "nonWsChars": 112842142,
-      "bytes": 149714531
+      "lines": 3478168,
+      "codeLines": 3230717,
+      "chars": 148240749,
+      "nonWsChars": 112842637,
+      "bytes": 149715123
     },
     "scannedFiles": 18250,
     "excludedFiles": 2,
@@ -451,10 +451,10 @@
       {
         "name": "JavaScript",
         "files": 9339,
-        "lines": 2139918,
-        "codeLines": 2015944,
-        "chars": 96735102,
-        "bytes": 97058323
+        "lines": 2139941,
+        "codeLines": 2015965,
+        "chars": 96735694,
+        "bytes": 97058915
       },
       {
         "name": "TypeScript",
@@ -1071,6 +1071,16 @@
         "topLanguage": "Rust"
       },
       {
+        "repo": "akaanakbaik",
+        "files": 16,
+        "lines": 4273,
+        "codeLines": 4047,
+        "chars": 204042,
+        "nonWsChars": 169954,
+        "bytes": 204272,
+        "topLanguage": "JavaScript"
+      },
+      {
         "repo": "kaboxv4",
         "files": 26,
         "lines": 4558,
@@ -1078,16 +1088,6 @@
         "chars": 132748,
         "nonWsChars": 94943,
         "bytes": 133082,
-        "topLanguage": "JavaScript"
-      },
-      {
-        "repo": "akaanakbaik",
-        "files": 16,
-        "lines": 4250,
-        "codeLines": 4026,
-        "chars": 203450,
-        "nonWsChars": 169459,
-        "bytes": 203680,
         "topLanguage": "JavaScript"
       },
       {
@@ -2070,7 +2070,13 @@
       "name": "akaanakbaik",
       "url": "https://github.com/akaanakbaik/akaanakbaik",
       "language": "JavaScript",
-      "updatedAt": "2026-11-05T03:34:33Z"
+      "updatedAt": "2026-11-05T03:44:24Z"
+    },
+    {
+      "name": "libsignal",
+      "url": "https://github.com/akaanakbaik/libsignal",
+      "language": "JavaScript",
+      "updatedAt": "2026-11-05T03:40:27Z"
     },
     {
       "name": "my-cdn",
@@ -2107,34 +2113,28 @@
       "url": "https://github.com/akaanakbaik/kaboxv8",
       "language": "JavaScript",
       "updatedAt": "2026-11-02T04:00:15Z"
-    },
-    {
-      "name": "portofoliov2",
-      "url": "https://github.com/akaanakbaik/portofoliov2",
-      "language": "TypeScript",
-      "updatedAt": "2026-10-31T00:02:03Z"
     }
   ],
   "activity": {
     "pullRequests": 50,
     "issues": 15,
     "reposContributed": 4,
-    "totalCommitContributions": 3334,
+    "totalCommitContributions": 3336,
     "totalIssueContributions": 4,
     "totalPRContributions": 32,
     "totalPRReviews": 0,
     "totalRepositoryContributions": 56,
-    "totalContributions": 4062
+    "totalContributions": 4064
   },
   "streak": {
     "currentStreak": 2,
     "longest": 80,
     "lastActiveDate": "2026-11-05",
     "activeDays": 210,
-    "totalContributions": 4062
+    "totalContributions": 4064
   },
   "commitHours": {
-    "sampled": 3440,
+    "sampled": 3442,
     "hourCounts": [
       153,
       55,
@@ -2146,7 +2146,7 @@
       130,
       70,
       110,
-      77,
+      79,
       149,
       147,
       115,
@@ -2165,7 +2165,7 @@
       505,
       468,
       459,
-      508,
+      510,
       331,
       564,
       605
@@ -2260,7 +2260,7 @@
         14,
         3,
         2,
-        18,
+        20,
         11,
         6,
         14,
@@ -2365,14 +2365,14 @@
     ],
     "peakHour": 23,
     "peakWeekday": "Sun",
-    "circularMean": 20.399391826304953,
-    "circularStd": 6.270726591718634,
+    "circularMean": 20.395907724825324,
+    "circularStd": 6.276834826566774,
     "activeHours": 24,
     "reposWithCommits": 87,
     "topCommitRepos": [
       {
         "repo": "akaanakbaik",
-        "count": 804
+        "count": 805
       },
       {
         "repo": "pterodactyl-gateway",
@@ -2391,35 +2391,35 @@
         "count": 125
       }
     ],
-    "latestDate": "2026-11-05T03:34:29Z",
+    "latestDate": "2026-11-05T03:44:18Z",
     "rhythm": {
       "label": "Night Owl",
       "emoji": "🦉",
-      "share": 0.3305232558139535,
+      "share": 0.33033120278907613,
       "buckets": [
         {
           "name": "Night Owl",
           "emoji": "🦉",
           "count": 1137,
-          "pct": 33.05232558139535
+          "pct": 33.03312027890761
         },
         {
           "name": "Early Bird",
           "emoji": "🐦",
           "count": 518,
-          "pct": 15.058139534883722
+          "pct": 15.049389889599071
         },
         {
           "name": "Day Coder",
           "emoji": "☀️",
-          "count": 833,
-          "pct": 24.21511627906977
+          "count": 835,
+          "pct": 24.259151656013945
         },
         {
           "name": "Evening",
           "emoji": "🌆",
           "count": 952,
-          "pct": 27.674418604651162
+          "pct": 27.658338175479376
         }
       ],
       "peakHour": 23
@@ -2443,8 +2443,8 @@
       "issues": 0,
       "discussions": 0,
       "daysSincePush": 0,
-      "commits": 804,
-      "score": 11.244217628763472,
+      "commits": 805,
+      "score": 11.245349867781638,
       "stars": 6,
       "forks": 0,
       "watchers": 1,
@@ -2468,7 +2468,7 @@
       "watchers": 0,
       "prs": 21,
       "recency": 0.9780228724846005,
-      "scorePct": 95.60681317417873
+      "scorePct": 95.59718699397527
     },
     {
       "name": "portofoliov2",
@@ -2486,7 +2486,7 @@
       "watchers": 0,
       "prs": 2,
       "recency": 0.8948393168143698,
-      "scorePct": 85.08461208932711
+      "scorePct": 85.07604533784443
     },
     {
       "name": "dastermv2",
@@ -2504,7 +2504,7 @@
       "watchers": 0,
       "prs": 0,
       "recency": 1,
-      "scorePct": 72.90055932136751
+      "scorePct": 72.8932193222852
     },
     {
       "name": "kaboxv8",
@@ -2522,7 +2522,7 @@
       "watchers": 0,
       "prs": 0,
       "recency": 0.9355069850316178,
-      "scorePct": 71.14341683206167
+      "scorePct": 71.13625375102197
     }
   ]
 }
