@@ -288,7 +288,7 @@ async function main() {
     const wj = jakartaNow();
     await writeFile('generated/live-clock.svg', liveClockSvg({ hour: wj.hour, minute: wj.minute, second: wj.second, dateText: wj.dateText, dayName: wj.dayName, generatedAt: data.generatedAt }));
     await writeFile('generated/coding-rhythm.svg', codingRhythmSvg({ rhythm, hourCounts: commitHours.hourCounts, peakHour: commitHours.peakHour, sampled: commitHours.sampled, circularMean: commitHours.circularMean, circularStd: commitHours.circularStd, activeHours: commitHours.activeHours }));
-    await writeBadge('streak-days', 'current streak', `${streak.currentStreak} days`, 'b45309');
+    await writeBadge('streak-days', 'current streak', `${streak.currentStreak} ${streak.currentStreak === 1 ? 'day' : 'days'}`, 'b45309');
     await writeBadge('total-commits', 'commits (365d)', compact(activity.totalCommitContributions), '2563eb');
     await writeBadge('last-active', 'last active', lastActiveIso ? relativeTime(lastActiveIso) : 'unknown', '06b6d4');
     await writeBadge('peak-hour', 'peak coding hour', `${commitHours.peakHour}:00 WIB`, 'db2777');
