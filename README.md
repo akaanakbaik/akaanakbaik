@@ -41,7 +41,7 @@ I build practical projects while learning: web apps, bot systems, Linux/VPS tool
 
 ---
 
-## Live Profile Snapshot
+## Verified Profile Snapshot
 
 <div align="center">
 
@@ -87,9 +87,9 @@ I build practical projects while learning: web apps, bot systems, Linux/VPS tool
 <br />
 
 <p align="center">
-  <a href="https://github.com/akaanakbaik"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaanakbaik%2Fakaanakbaik%2Fmain%2Fbadges%2Ftotal-lines.json&cacheSeconds=300&style=for-the-badge&logoSize=auto&logo=githubactions&logoColor=white" alt="Nonblank tracked code lines" /></a>&nbsp;
-  <a href="https://github.com/akaanakbaik"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaanakbaik%2Fakaanakbaik%2Fmain%2Fbadges%2Ftotal-chars.json&cacheSeconds=300&style=for-the-badge&logoSize=auto&logo=unicode&logoColor=white" alt="Unicode characters in tracked code" /></a>&nbsp;
-  <a href="https://github.com/akaanakbaik"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaanakbaik%2Fakaanakbaik%2Fmain%2Fbadges%2Fcode-files.json&cacheSeconds=300&style=for-the-badge&logoSize=auto&logo=files&logoColor=white" alt="Tracked code files" /></a>
+  <a href="https://github.com/akaanakbaik"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaanakbaik%2Fakaanakbaik%2Fmain%2Fbadges%2Ftotal-lines.json&cacheSeconds=300&style=for-the-badge&logoSize=auto&logo=githubactions&logoColor=white" alt="Nonblank tracked source lines, including committed dependencies" /></a>&nbsp;
+  <a href="https://github.com/akaanakbaik"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaanakbaik%2Fakaanakbaik%2Fmain%2Fbadges%2Ftotal-chars.json&cacheSeconds=300&style=for-the-badge&logoSize=auto&logo=unicode&logoColor=white" alt="Unicode characters in tracked source, including committed dependencies" /></a>&nbsp;
+  <a href="https://github.com/akaanakbaik"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaanakbaik%2Fakaanakbaik%2Fmain%2Fbadges%2Fcode-files.json&cacheSeconds=300&style=for-the-badge&logoSize=auto&logo=files&logoColor=white" alt="Tracked source files, including committed dependencies" /></a>
 
   <a href="https://github.com/akaanakbaik"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaanakbaik%2Fakaanakbaik%2Fmain%2Fbadges%2Fcensus-languages.json&cacheSeconds=300&style=for-the-badge&logoSize=auto&logo=polywork&logoColor=white" alt="Languages detected by the Code Census" /></a>&nbsp;
   <a href="https://github.com/akaanakbaik"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaanakbaik%2Fakaanakbaik%2Fmain%2Fbadges%2Fcode-repos.json&cacheSeconds=300&style=for-the-badge&logoSize=auto&logo=files&logoColor=white" alt="Repositories that contain tracked source" /></a>&nbsp;
@@ -115,7 +115,7 @@ I build practical projects while learning: web apps, bot systems, Linux/VPS tool
 
 </div>
 
-> Tracked source files across public repositories · Non-empty lines and Unicode characters · Validated before publication.
+> Code Census includes tracked source and committed dependencies, not only original code · Non-empty lines and Unicode characters · Independently recounted before publication.
 
 ---
 
@@ -170,10 +170,10 @@ I build practical projects while learning: web apps, bot systems, Linux/VPS tool
 </div>
 
 <p align="center">
-  <a href="https://github.com/akaanakbaik"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaanakbaik%2Fakaanakbaik%2Fmain%2Fbadges%2Fstreak-days.json&cacheSeconds=300&style=for-the-badge&logoSize=auto&logo=github&logoColor=white" alt="Current streak" /></a>&nbsp;
+  <a href="https://github.com/akaanakbaik"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaanakbaik%2Fakaanakbaik%2Fmain%2Fbadges%2Fstreak-days.json&cacheSeconds=300&style=for-the-badge&logoSize=auto&logo=github&logoColor=white" alt="Contribution streak at snapshot publication" /></a>&nbsp;
   <a href="https://github.com/akaanakbaik"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaanakbaik%2Fakaanakbaik%2Fmain%2Fbadges%2Ftotal-commits.json&cacheSeconds=300&style=for-the-badge&logoSize=auto&logo=github&logoColor=white" alt="Commits in the contribution window" /></a>&nbsp;
   <a href="https://github.com/akaanakbaik"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaanakbaik%2Fakaanakbaik%2Fmain%2Fbadges%2Fpeak-hour.json&cacheSeconds=300&style=for-the-badge&logoSize=auto&logo=clockify&logoColor=white" alt="Peak coding hour" /></a>&nbsp;
-  <a href="https://github.com/akaanakbaik"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaanakbaik%2Fakaanakbaik%2Fmain%2Fbadges%2Flast-active.json&cacheSeconds=300&style=for-the-badge&logoSize=auto&logo=github&logoColor=white" alt="Last active" /></a>&nbsp;
+  <a href="https://github.com/akaanakbaik"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaanakbaik%2Fakaanakbaik%2Fmain%2Fbadges%2Flast-active.json&cacheSeconds=300&style=for-the-badge&logoSize=auto&logo=github&logoColor=white" alt="Last activity as of snapshot publication" /></a>&nbsp;
   <a href="https://github.com/akaanakbaik"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaanakbaik%2Fakaanakbaik%2Fmain%2Fbadges%2Fcommits-10d.json&cacheSeconds=300&style=for-the-badge&logoSize=auto&logo=github&logoColor=white" alt="Commits in the last 10 days" /></a>
   <a href="https://github.com/akaanakbaik"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaanakbaik%2Fakaanakbaik%2Fmain%2Fbadges%2Fbusiest-weekday.json&cacheSeconds=300&style=for-the-badge&logoSize=auto&logo=clockify&logoColor=white" alt="Busiest weekday for commits" /></a>&nbsp;
 </p>
@@ -197,15 +197,15 @@ I build practical projects while learning: web apps, bot systems, Linux/VPS tool
 
 ---
 
-## Jakarta Time & Motivation
+## Jakarta Snapshot & Motivation
 
 <div align="center">
 
-<img width="100%" src="https://raw.githubusercontent.com/akaanakbaik/akaanakbaik/main/generated/live-clock.svg" alt="Generated Jakarta time" />
+<img width="100%" src="https://raw.githubusercontent.com/akaanakbaik/akaanakbaik/main/generated/live-clock.svg" alt="Jakarta time at the last generated snapshot" />
 
 <br />
 
-<a href="https://github.com/akaanakbaik"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaanakbaik%2Fakaanakbaik%2Fmain%2Fbadges%2Flive-time.json&cacheSeconds=300&style=for-the-badge&logoSize=auto&logo=clockify&logoColor=white" alt="Jakarta time" /></a>&nbsp;
+<a href="https://github.com/akaanakbaik"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaanakbaik%2Fakaanakbaik%2Fmain%2Fbadges%2Flive-time.json&cacheSeconds=300&style=for-the-badge&logoSize=auto&logo=clockify&logoColor=white" alt="Jakarta time at snapshot publication" /></a>&nbsp;
 <a href="https://github.com/akaanakbaik"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaanakbaik%2Fakaanakbaik%2Fmain%2Fbadges%2Flive-date.json&cacheSeconds=300&style=for-the-badge&logoSize=auto&logo=googlecalendar&logoColor=white" alt="Jakarta date" /></a>
 
 <br />
@@ -215,7 +215,7 @@ I build practical projects while learning: web apps, bot systems, Linux/VPS tool
 
 </div>
 
-> Snapshot time (Asia/Jakarta); not a continuously running clock.
+> Jakarta clock and date show the last generated snapshot, not live time. GitHub Actions publication and image caching can delay updates.
 
 ---
 
