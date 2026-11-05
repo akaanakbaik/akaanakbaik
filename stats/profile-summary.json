@@ -1,6 +1,6 @@
 {
   "username": "akaanakbaik",
-  "generatedAt": "05 Nov 2026, 04:18",
+  "generatedAt": "05 Nov 2026, 07:47",
   "publicRepos": 113,
   "originalRepos": 92,
   "forkedRepos": 21,
@@ -13,7 +13,7 @@
   "totalForks": 27,
   "totalWatchers": 13,
   "totalSize": "889.2 MB",
-  "totalSizeKb": 910556,
+  "totalSizeKb": 910582,
   "topLanguage": "JavaScript",
   "accountAge": "2y 3m",
   "accountAgePrecise": "2 years 3 months",
@@ -2070,13 +2070,13 @@
       "name": "dastermv2",
       "url": "https://github.com/akaanakbaik/dastermv2",
       "language": "Shell",
-      "updatedAt": "2026-11-04T15:11:00Z"
+      "updatedAt": "2026-11-04T21:25:45Z"
     },
     {
       "name": "akaanakbaik",
       "url": "https://github.com/akaanakbaik/akaanakbaik",
       "language": "JavaScript",
-      "updatedAt": "2026-11-04T14:35:44Z"
+      "updatedAt": "2026-11-04T21:20:13Z"
     },
     {
       "name": "pterodactyl-gateway",
@@ -2366,7 +2366,7 @@
     "peakHour": 23,
     "peakWeekday": "Sun",
     "circularMean": 20.40804008249032,
-    "circularStd": 6.255460585490275,
+    "circularStd": 6.255460585490274,
     "activeHours": 24,
     "reposWithCommits": 87,
     "topCommitRepos": [
@@ -2428,7 +2428,7 @@
   "codingAge": {
     "years": 2,
     "months": 3,
-    "days": 1,
+    "days": 2,
     "totalDays": 823,
     "label": "2 years 3 months",
     "createdAt": "2024-08-03T01:58:16Z"
@@ -2460,15 +2460,15 @@
       "pullRequests": 21,
       "issues": 0,
       "discussions": 0,
-      "daysSincePush": 0,
+      "daysSincePush": 1,
       "commits": 169,
-      "score": 10.794192396260762,
+      "score": 10.750238141229962,
       "stars": 10,
       "forks": 0,
       "watchers": 0,
       "prs": 21,
-      "recency": 1,
-      "scorePct": 96.02679913948454
+      "recency": 0.9780228724846005,
+      "scorePct": 95.63577531257644
     },
     {
       "name": "portofoliov2",
