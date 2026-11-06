@@ -1,6 +1,6 @@
 {
   "username": "akaanakbaik",
-  "generatedAt": "06 Nov 2026, 01:43",
+  "generatedAt": "06 Nov 2026, 07:53",
   "publicRepos": 115,
   "originalRepos": 94,
   "forkedRepos": 21,
@@ -13,13 +13,13 @@
   "totalForks": 27,
   "totalWatchers": 13,
   "totalSize": "893.8 MB",
-  "totalSizeKb": 915228,
+  "totalSizeKb": 915240,
   "topLanguage": "JavaScript",
   "accountAge": "2y 3m",
   "accountAgePrecise": "2 years 3 months",
   "accountCreatedAt": "2024-08-03T01:58:16Z",
   "topRepo": "pterodactyl-gateway",
-  "recentRepo": "auto-commit",
+  "recentRepo": "akaanakbaik",
   "largestRepo": "Hacktoberfest2025-3",
   "languageDistribution": {
     "totalBytes": 52331983,
@@ -2087,6 +2087,12 @@
   ],
   "recentRepositories": [
     {
+      "name": "akaanakbaik",
+      "url": "https://github.com/akaanakbaik/akaanakbaik",
+      "language": "JavaScript",
+      "updatedAt": "2026-11-05T18:45:26Z"
+    },
+    {
       "name": "auto-commit",
       "url": "https://github.com/akaanakbaik/auto-commit",
       "language": "Unknown",
@@ -2109,12 +2115,6 @@
       "url": "https://github.com/akaanakbaik/pterodactyl-gateway",
       "language": "TypeScript",
       "updatedAt": "2026-11-05T14:40:02Z"
-    },
-    {
-      "name": "akaanakbaik",
-      "url": "https://github.com/akaanakbaik/akaanakbaik",
-      "language": "JavaScript",
-      "updatedAt": "2026-11-05T10:52:00Z"
     },
     {
       "name": "zyhuka-apiv2",
@@ -2386,7 +2386,7 @@
     "peakHour": 23,
     "peakWeekday": "Sun",
     "circularMean": 20.35660073451802,
-    "circularStd": 6.307803268090144,
+    "circularStd": 6.307803268090145,
     "activeHours": 24,
     "reposWithCommits": 89,
     "topCommitRepos": [
@@ -2448,7 +2448,7 @@
   "codingAge": {
     "years": 2,
     "months": 3,
-    "days": 2,
+    "days": 3,
     "totalDays": 824,
     "label": "2 years 3 months",
     "createdAt": "2024-08-03T01:58:16Z"
