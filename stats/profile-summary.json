@@ -1,6 +1,6 @@
 {
   "username": "akaanakbaik",
-  "generatedAt": "06 Nov 2026, 07:53",
+  "generatedAt": "06 Nov 2026, 13:42",
   "publicRepos": 115,
   "originalRepos": 94,
   "forkedRepos": 21,
@@ -13,13 +13,13 @@
   "totalForks": 27,
   "totalWatchers": 13,
   "totalSize": "893.8 MB",
-  "totalSizeKb": 915240,
+  "totalSizeKb": 915280,
   "topLanguage": "JavaScript",
   "accountAge": "2y 3m",
   "accountAgePrecise": "2 years 3 months",
   "accountCreatedAt": "2024-08-03T01:58:16Z",
   "topRepo": "pterodactyl-gateway",
-  "recentRepo": "akaanakbaik",
+  "recentRepo": "dastermv2",
   "largestRepo": "Hacktoberfest2025-3",
   "languageDistribution": {
     "totalBytes": 52331983,
@@ -2087,22 +2087,22 @@
   ],
   "recentRepositories": [
     {
+      "name": "dastermv2",
+      "url": "https://github.com/akaanakbaik/dastermv2",
+      "language": "Shell",
+      "updatedAt": "2026-11-06T03:33:00Z"
+    },
+    {
       "name": "akaanakbaik",
       "url": "https://github.com/akaanakbaik/akaanakbaik",
       "language": "JavaScript",
-      "updatedAt": "2026-11-05T18:45:26Z"
+      "updatedAt": "2026-11-06T00:54:35Z"
     },
     {
       "name": "auto-commit",
       "url": "https://github.com/akaanakbaik/auto-commit",
       "language": "Unknown",
       "updatedAt": "2026-11-05T18:00:38Z"
-    },
-    {
-      "name": "dastermv2",
-      "url": "https://github.com/akaanakbaik/dastermv2",
-      "language": "Shell",
-      "updatedAt": "2026-11-05T17:33:14Z"
     },
     {
       "name": "web-docs-pterodacty-gateway",
@@ -2386,7 +2386,7 @@
     "peakHour": 23,
     "peakWeekday": "Sun",
     "circularMean": 20.35660073451802,
-    "circularStd": 6.307803268090145,
+    "circularStd": 6.307803268090144,
     "activeHours": 24,
     "reposWithCommits": 89,
     "topCommitRepos": [
@@ -2449,7 +2449,7 @@
     "years": 2,
     "months": 3,
     "days": 3,
-    "totalDays": 824,
+    "totalDays": 825,
     "label": "2 years 3 months",
     "createdAt": "2024-08-03T01:58:16Z"
   },
@@ -2480,15 +2480,15 @@
       "pullRequests": 22,
       "issues": 0,
       "discussions": 0,
-      "daysSincePush": 0,
+      "daysSincePush": 1,
       "commits": 171,
-      "score": 10.828025586106705,
+      "score": 10.784071331075905,
       "stars": 10,
       "forks": 0,
       "watchers": 0,
       "prs": 22,
-      "recency": 1,
-      "scorePct": 96.27923500822425
+      "recency": 0.9780228724846005,
+      "scorePct": 95.88840825813311
     },
     {
       "name": "portofoliov2",
@@ -2527,22 +2527,22 @@
       "scorePct": 76.09788131557248
     },
     {
-      "name": "web-docs-pterodacty-gateway",
-      "url": "https://github.com/akaanakbaik/web-docs-pterodacty-gateway",
-      "language": "TypeScript",
+      "name": "kaboxv8",
+      "url": "https://github.com/akaanakbaik/kaboxv8",
+      "language": "JavaScript",
       "watchersTotal": 0,
-      "pullRequests": 6,
+      "pullRequests": 0,
       "issues": 0,
       "discussions": 0,
-      "daysSincePush": 0,
-      "commits": 64,
-      "score": 7.966326708294295,
-      "stars": 2,
-      "forks": 0,
+      "daysSincePush": 4,
+      "commits": 60,
+      "score": 7.958401104532186,
+      "stars": 5,
+      "forks": 1,
       "watchers": 0,
-      "prs": 6,
-      "recency": 1,
-      "scorePct": 70.83395169330565
+      "prs": 0,
+      "recency": 0.914947228730031,
+      "scorePct": 70.7634798366291
     }
   ]
 }
