@@ -1,25 +1,25 @@
 {
   "username": "akaanakbaik",
-  "generatedAt": "07 Nov 2026, 07:55",
+  "generatedAt": "07 Nov 2026, 14:06",
   "publicRepos": 115,
   "originalRepos": 94,
   "forkedRepos": 21,
   "archivedRepos": 0,
   "activeRepos90d": 36,
-  "followers": 81,
+  "followers": 82,
   "following": 76,
   "publicGists": 0,
   "totalStars": 514,
   "totalForks": 27,
   "totalWatchers": 13,
-  "totalSize": "894.0 MB",
-  "totalSizeKb": 915424,
+  "totalSize": "894.1 MB",
+  "totalSizeKb": 915514,
   "topLanguage": "JavaScript",
   "accountAge": "2y 3m",
   "accountAgePrecise": "2 years 3 months",
   "accountCreatedAt": "2024-08-03T01:58:16Z",
   "topRepo": "pterodactyl-gateway",
-  "recentRepo": "web-docs-pterodacty-gateway",
+  "recentRepo": "dastermv2",
   "largestRepo": "Hacktoberfest2025-3",
   "languageDistribution": {
     "totalBytes": 52364100,
@@ -2087,28 +2087,28 @@
   ],
   "recentRepositories": [
     {
-      "name": "web-docs-pterodacty-gateway",
-      "url": "https://github.com/akaanakbaik/web-docs-pterodacty-gateway",
-      "language": "TypeScript",
-      "updatedAt": "2026-11-07T00:46:44Z"
-    },
-    {
-      "name": "akaanakbaik",
-      "url": "https://github.com/akaanakbaik/akaanakbaik",
-      "language": "JavaScript",
-      "updatedAt": "2026-11-07T00:01:15Z"
-    },
-    {
       "name": "dastermv2",
       "url": "https://github.com/akaanakbaik/dastermv2",
       "language": "Shell",
-      "updatedAt": "2026-11-06T23:42:06Z"
+      "updatedAt": "2026-11-07T04:59:20Z"
     },
     {
       "name": "auto-commit",
       "url": "https://github.com/akaanakbaik/auto-commit",
       "language": "Unknown",
-      "updatedAt": "2026-11-06T17:32:32Z"
+      "updatedAt": "2026-11-07T02:27:42Z"
+    },
+    {
+      "name": "akaanakbaik",
+      "url": "https://github.com/akaanakbaik/akaanakbaik",
+      "language": "JavaScript",
+      "updatedAt": "2026-11-07T00:56:26Z"
+    },
+    {
+      "name": "web-docs-pterodacty-gateway",
+      "url": "https://github.com/akaanakbaik/web-docs-pterodacty-gateway",
+      "language": "TypeScript",
+      "updatedAt": "2026-11-07T00:46:44Z"
     },
     {
       "name": "pterodactyl-gateway",
@@ -2449,7 +2449,7 @@
     "years": 2,
     "months": 3,
     "days": 4,
-    "totalDays": 825,
+    "totalDays": 826,
     "label": "2 years 3 months",
     "createdAt": "2024-08-03T01:58:16Z"
   },
@@ -2480,15 +2480,15 @@
       "pullRequests": 22,
       "issues": 0,
       "discussions": 0,
-      "daysSincePush": 1,
+      "daysSincePush": 2,
       "commits": 171,
-      "score": 10.784071331075905,
+      "score": 10.741083064312763,
       "stars": 10,
       "forks": 0,
       "watchers": 0,
       "prs": 22,
-      "recency": 0.9780228724846005,
-      "scorePct": 95.88840825813311
+      "recency": 0.9565287391030293,
+      "scorePct": 95.50617075736515
     },
     {
       "name": "portofoliov2",
