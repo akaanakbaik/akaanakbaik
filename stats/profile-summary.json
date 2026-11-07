@@ -1,6 +1,6 @@
 {
   "username": "akaanakbaik",
-  "generatedAt": "07 Nov 2026, 14:06",
+  "generatedAt": "07 Nov 2026, 20:58",
   "publicRepos": 115,
   "originalRepos": 94,
   "forkedRepos": 21,
@@ -13,7 +13,7 @@
   "totalForks": 27,
   "totalWatchers": 13,
   "totalSize": "894.1 MB",
-  "totalSizeKb": 915514,
+  "totalSizeKb": 915551,
   "topLanguage": "JavaScript",
   "accountAge": "2y 3m",
   "accountAgePrecise": "2 years 3 months",
@@ -2090,19 +2090,19 @@
       "name": "dastermv2",
       "url": "https://github.com/akaanakbaik/dastermv2",
       "language": "Shell",
-      "updatedAt": "2026-11-07T04:59:20Z"
+      "updatedAt": "2026-11-07T11:38:27Z"
     },
     {
       "name": "auto-commit",
       "url": "https://github.com/akaanakbaik/auto-commit",
       "language": "Unknown",
-      "updatedAt": "2026-11-07T02:27:42Z"
+      "updatedAt": "2026-11-07T09:00:03Z"
     },
     {
       "name": "akaanakbaik",
       "url": "https://github.com/akaanakbaik/akaanakbaik",
       "language": "JavaScript",
-      "updatedAt": "2026-11-07T00:56:26Z"
+      "updatedAt": "2026-11-07T07:08:06Z"
     },
     {
       "name": "web-docs-pterodacty-gateway",
@@ -2498,15 +2498,15 @@
       "pullRequests": 2,
       "issues": 0,
       "discussions": 0,
-      "daysSincePush": 7,
+      "daysSincePush": 8,
       "commits": 142,
-      "score": 9.489299365108925,
+      "score": 9.451677181005923,
       "stars": 5,
       "forks": 2,
       "watchers": 0,
       "prs": 2,
-      "recency": 0.8559395234122652,
-      "scorePct": 84.37572264411456
+      "recency": 0.8371284313607636,
+      "scorePct": 84.04119858190481
     },
     {
       "name": "dastermv2",
@@ -2534,15 +2534,15 @@
       "pullRequests": 6,
       "issues": 0,
       "discussions": 0,
-      "daysSincePush": 0,
+      "daysSincePush": 1,
       "commits": 68,
-      "score": 8.020791749892535,
+      "score": 7.976837494861735,
       "stars": 2,
       "forks": 0,
       "watchers": 0,
       "prs": 6,
-      "recency": 1,
-      "scorePct": 71.31823689360088
+      "recency": 0.9780228724846005,
+      "scorePct": 70.92741014350975
     }
   ]
 }
