@@ -1,6 +1,6 @@
 {
   "username": "akaanakbaik",
-  "generatedAt": "08 Nov 2026, 23:41",
+  "generatedAt": "09 Nov 2026, 06:29",
   "publicRepos": 115,
   "originalRepos": 94,
   "forkedRepos": 21,
@@ -12,14 +12,14 @@
   "totalStars": 514,
   "totalForks": 27,
   "totalWatchers": 13,
-  "totalSize": "893.4 MB",
-  "totalSizeKb": 914887,
+  "totalSize": "893.5 MB",
+  "totalSizeKb": 914896,
   "topLanguage": "JavaScript",
   "accountAge": "2y 3m",
   "accountAgePrecise": "2 years 3 months",
   "accountCreatedAt": "2024-08-03T01:58:16Z",
   "topRepo": "pterodactyl-gateway",
-  "recentRepo": "auto-commit",
+  "recentRepo": "dastermv2",
   "largestRepo": "Hacktoberfest2025-3",
   "languageDistribution": {
     "totalBytes": 52368221,
@@ -2087,28 +2087,28 @@
   ],
   "recentRepositories": [
     {
+      "name": "dastermv2",
+      "url": "https://github.com/akaanakbaik/dastermv2",
+      "language": "Shell",
+      "updatedAt": "2026-11-08T23:00:13Z"
+    },
+    {
+      "name": "akaanakbaik",
+      "url": "https://github.com/akaanakbaik/akaanakbaik",
+      "language": "JavaScript",
+      "updatedAt": "2026-11-08T16:43:30Z"
+    },
+    {
       "name": "auto-commit",
       "url": "https://github.com/akaanakbaik/auto-commit",
       "language": "Unknown",
       "updatedAt": "2026-11-08T15:25:28Z"
     },
     {
-      "name": "dastermv2",
-      "url": "https://github.com/akaanakbaik/dastermv2",
-      "language": "Shell",
-      "updatedAt": "2026-11-08T14:49:29Z"
-    },
-    {
       "name": "web-docs-pterodacty-gateway",
       "url": "https://github.com/akaanakbaik/web-docs-pterodacty-gateway",
       "language": "TypeScript",
       "updatedAt": "2026-11-08T04:45:44Z"
-    },
-    {
-      "name": "akaanakbaik",
-      "url": "https://github.com/akaanakbaik/akaanakbaik",
-      "language": "JavaScript",
-      "updatedAt": "2026-11-08T02:29:02Z"
     },
     {
       "name": "pterodactyl-gateway",
@@ -2386,7 +2386,7 @@
     "peakHour": 23,
     "peakWeekday": "Sun",
     "circularMean": 20.356617998258013,
-    "circularStd": 6.31578322766019,
+    "circularStd": 6.315783227660191,
     "activeHours": 24,
     "reposWithCommits": 89,
     "topCommitRepos": [
@@ -2462,14 +2462,14 @@
       "pullRequests": 3,
       "issues": 0,
       "discussions": 0,
-      "daysSincePush": 1,
+      "daysSincePush": 0,
       "commits": 806,
-      "score": 11.202526447876496,
+      "score": 11.246480702907295,
       "stars": 6,
       "forks": 0,
       "watchers": 1,
       "prs": 3,
-      "recency": 0.9780228724846005,
+      "recency": 1,
       "scorePct": 100
     },
     {
@@ -2488,7 +2488,7 @@
       "watchers": 0,
       "prs": 22,
       "recency": 0.9355069850316178,
-      "scorePct": 95.50559515258279
+      "scorePct": 95.13233373889275
     },
     {
       "name": "portofoliov2",
@@ -2506,7 +2506,7 @@
       "watchers": 0,
       "prs": 2,
       "recency": 0.8187307530779818,
-      "scorePct": 84.04248691798452
+      "scorePct": 83.71402639766718
     },
     {
       "name": "dastermv2",
@@ -2524,7 +2524,7 @@
       "watchers": 0,
       "prs": 1,
       "recency": 1,
-      "scorePct": 76.39645911391209
+      "scorePct": 76.09788131557248
     },
     {
       "name": "web-docs-pterodacty-gateway",
@@ -2534,15 +2534,15 @@
       "pullRequests": 6,
       "issues": 0,
       "discussions": 0,
-      "daysSincePush": 0,
+      "daysSincePush": 1,
       "commits": 70,
-      "score": 8.046851191654357,
+      "score": 8.002896936623557,
       "stars": 2,
       "forks": 0,
       "watchers": 0,
       "prs": 6,
-      "recency": 1,
-      "scorePct": 71.83068238307693
+      "recency": 0.9780228724846005,
+      "scorePct": 71.15912211145974
     }
   ]
 }
