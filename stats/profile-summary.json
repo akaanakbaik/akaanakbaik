@@ -1,25 +1,25 @@
 {
   "username": "akaanakbaik",
-  "generatedAt": "09 Nov 2026, 07:51",
+  "generatedAt": "10 Nov 2026, 01:45",
   "publicRepos": 115,
   "originalRepos": 94,
   "forkedRepos": 21,
   "archivedRepos": 0,
   "activeRepos90d": 36,
-  "followers": 86,
-  "following": 81,
+  "followers": 85,
+  "following": 80,
   "publicGists": 0,
   "totalStars": 514,
   "totalForks": 27,
   "totalWatchers": 13,
   "totalSize": "893.5 MB",
-  "totalSizeKb": 914920,
+  "totalSizeKb": 914994,
   "topLanguage": "JavaScript",
   "accountAge": "2y 3m",
   "accountAgePrecise": "2 years 3 months",
   "accountCreatedAt": "2024-08-03T01:58:16Z",
   "topRepo": "pterodactyl-gateway",
-  "recentRepo": "akaanakbaik",
+  "recentRepo": "dastermv2",
   "largestRepo": "Hacktoberfest2025-3",
   "languageDistribution": {
     "totalBytes": 52368221,
@@ -2087,22 +2087,22 @@
   ],
   "recentRepositories": [
     {
-      "name": "akaanakbaik",
-      "url": "https://github.com/akaanakbaik/akaanakbaik",
-      "language": "JavaScript",
-      "updatedAt": "2026-11-08T23:30:43Z"
-    },
-    {
       "name": "dastermv2",
       "url": "https://github.com/akaanakbaik/dastermv2",
       "language": "Shell",
-      "updatedAt": "2026-11-08T23:00:13Z"
+      "updatedAt": "2026-11-09T10:59:22Z"
     },
     {
       "name": "auto-commit",
       "url": "https://github.com/akaanakbaik/auto-commit",
       "language": "Unknown",
-      "updatedAt": "2026-11-08T15:25:28Z"
+      "updatedAt": "2026-11-09T02:12:39Z"
+    },
+    {
+      "name": "akaanakbaik",
+      "url": "https://github.com/akaanakbaik/akaanakbaik",
+      "language": "JavaScript",
+      "updatedAt": "2026-11-09T00:53:06Z"
     },
     {
       "name": "web-docs-pterodacty-gateway",
@@ -2385,7 +2385,7 @@
     ],
     "peakHour": 23,
     "peakWeekday": "Sun",
-    "circularMean": 20.35661799825801,
+    "circularMean": 20.356617998258013,
     "circularStd": 6.31578322766019,
     "activeHours": 24,
     "reposWithCommits": 89,
@@ -2449,7 +2449,7 @@
     "years": 2,
     "months": 3,
     "days": 6,
-    "totalDays": 827,
+    "totalDays": 828,
     "label": "2 years 3 months",
     "createdAt": "2024-08-03T01:58:16Z"
   },
@@ -2462,14 +2462,14 @@
       "pullRequests": 3,
       "issues": 0,
       "discussions": 0,
-      "daysSincePush": 0,
+      "daysSincePush": 1,
       "commits": 806,
-      "score": 11.246480702907295,
+      "score": 11.202526447876496,
       "stars": 6,
       "forks": 0,
       "watchers": 1,
       "prs": 3,
-      "recency": 1,
+      "recency": 0.9780228724846005,
       "scorePct": 100
     },
     {
@@ -2480,15 +2480,15 @@
       "pullRequests": 22,
       "issues": 0,
       "discussions": 0,
-      "daysSincePush": 3,
+      "daysSincePush": 4,
       "commits": 171,
-      "score": 10.69903955616994,
+      "score": 10.657920043566767,
       "stars": 10,
       "forks": 0,
       "watchers": 0,
       "prs": 22,
-      "recency": 0.9355069850316178,
-      "scorePct": 95.13233373889275
+      "recency": 0.914947228730031,
+      "scorePct": 95.13853944604645
     },
     {
       "name": "portofoliov2",
@@ -2498,15 +2498,15 @@
       "pullRequests": 2,
       "issues": 0,
       "discussions": 0,
-      "daysSincePush": 9,
+      "daysSincePush": 10,
       "commits": 142,
-      "score": 9.414881824440359,
+      "score": 9.378895124118012,
       "stars": 5,
       "forks": 2,
       "watchers": 0,
       "prs": 2,
-      "recency": 0.8187307530779818,
-      "scorePct": 83.71402639766718
+      "recency": 0.8007374029168081,
+      "scorePct": 83.72124955702145
     },
     {
       "name": "dastermv2",
@@ -2524,7 +2524,7 @@
       "watchers": 0,
       "prs": 1,
       "recency": 1,
-      "scorePct": 76.09788131557248
+      "scorePct": 76.39645911391209
     },
     {
       "name": "web-docs-pterodacty-gateway",
@@ -2534,15 +2534,15 @@
       "pullRequests": 6,
       "issues": 0,
       "discussions": 0,
-      "daysSincePush": 1,
+      "daysSincePush": 2,
       "commits": 70,
-      "score": 8.002896936623557,
+      "score": 7.959908669860415,
       "stars": 2,
       "forks": 0,
       "watchers": 0,
       "prs": 6,
-      "recency": 0.9780228724846005,
-      "scorePct": 71.15912211145974
+      "recency": 0.9565287391030293,
+      "scorePct": 71.05458493578706
     }
   ]
 }
