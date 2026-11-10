@@ -1,6 +1,6 @@
 {
   "username": "akaanakbaik",
-  "generatedAt": "10 Nov 2026, 01:45",
+  "generatedAt": "10 Nov 2026, 09:05",
   "publicRepos": 115,
   "originalRepos": 94,
   "forkedRepos": 21,
@@ -12,8 +12,8 @@
   "totalStars": 514,
   "totalForks": 27,
   "totalWatchers": 13,
-  "totalSize": "893.5 MB",
-  "totalSizeKb": 914994,
+  "totalSize": "893.6 MB",
+  "totalSizeKb": 915015,
   "topLanguage": "JavaScript",
   "accountAge": "2y 3m",
   "accountAgePrecise": "2 years 3 months",
@@ -2090,19 +2090,19 @@
       "name": "dastermv2",
       "url": "https://github.com/akaanakbaik/dastermv2",
       "language": "Shell",
-      "updatedAt": "2026-11-09T10:59:22Z"
+      "updatedAt": "2026-11-09T21:23:21Z"
     },
     {
       "name": "auto-commit",
       "url": "https://github.com/akaanakbaik/auto-commit",
       "language": "Unknown",
-      "updatedAt": "2026-11-09T02:12:39Z"
+      "updatedAt": "2026-11-09T20:10:32Z"
     },
     {
       "name": "akaanakbaik",
       "url": "https://github.com/akaanakbaik/akaanakbaik",
       "language": "JavaScript",
-      "updatedAt": "2026-11-09T00:53:06Z"
+      "updatedAt": "2026-11-09T18:47:26Z"
     },
     {
       "name": "web-docs-pterodacty-gateway",
@@ -2147,7 +2147,7 @@
     "totalContributions": 4149
   },
   "streak": {
-    "currentStreak": 7,
+    "currentStreak": 0,
     "longest": 80,
     "lastActiveDate": "2026-11-08",
     "activeDays": 216,
@@ -2448,8 +2448,8 @@
   "codingAge": {
     "years": 2,
     "months": 3,
-    "days": 6,
-    "totalDays": 828,
+    "days": 7,
+    "totalDays": 829,
     "label": "2 years 3 months",
     "createdAt": "2024-08-03T01:58:16Z"
   },
@@ -2462,14 +2462,14 @@
       "pullRequests": 3,
       "issues": 0,
       "discussions": 0,
-      "daysSincePush": 1,
+      "daysSincePush": 0,
       "commits": 806,
-      "score": 11.202526447876496,
+      "score": 11.246480702907295,
       "stars": 6,
       "forks": 0,
       "watchers": 1,
       "prs": 3,
-      "recency": 0.9780228724846005,
+      "recency": 1,
       "scorePct": 100
     },
     {
@@ -2488,7 +2488,7 @@
       "watchers": 0,
       "prs": 22,
       "recency": 0.914947228730031,
-      "scorePct": 95.13853944604645
+      "scorePct": 94.76671258424531
     },
     {
       "name": "portofoliov2",
@@ -2506,7 +2506,7 @@
       "watchers": 0,
       "prs": 2,
       "recency": 0.8007374029168081,
-      "scorePct": 83.72124955702145
+      "scorePct": 83.39404451824205
     },
     {
       "name": "dastermv2",
@@ -2524,7 +2524,7 @@
       "watchers": 0,
       "prs": 1,
       "recency": 1,
-      "scorePct": 76.39645911391209
+      "scorePct": 76.09788131557248
     },
     {
       "name": "web-docs-pterodacty-gateway",
@@ -2542,7 +2542,7 @@
       "watchers": 0,
       "prs": 6,
       "recency": 0.9565287391030293,
-      "scorePct": 71.05458493578706
+      "scorePct": 70.77688461069178
     }
   ]
 }
