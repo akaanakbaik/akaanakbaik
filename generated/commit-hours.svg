@@ -23,81 +23,81 @@
 </defs>
 <line x1="70" y1="341" x2="966" y2="341" stroke="#ffffff" stroke-opacity="0.06" stroke-width="1"/>
 <text x="62" y="345" text-anchor="end" fill="#64748b" font-size="10.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">99</text><line x1="70" y1="266" x2="966" y2="266" stroke="#ffffff" stroke-opacity="0.06" stroke-width="1"/>
-<text x="62" y="270" text-anchor="end" fill="#64748b" font-size="10.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">197</text><line x1="70" y1="191" x2="966" y2="191" stroke="#ffffff" stroke-opacity="0.06" stroke-width="1"/>
-<text x="62" y="195" text-anchor="end" fill="#64748b" font-size="10.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">296</text><line x1="70" y1="116" x2="966" y2="116" stroke="#ffffff" stroke-opacity="0.06" stroke-width="1"/>
-<text x="62" y="120" text-anchor="end" fill="#64748b" font-size="10.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">394</text>
+<text x="62" y="270" text-anchor="end" fill="#64748b" font-size="10.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">198</text><line x1="70" y1="191" x2="966" y2="191" stroke="#ffffff" stroke-opacity="0.06" stroke-width="1"/>
+<text x="62" y="195" text-anchor="end" fill="#64748b" font-size="10.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">297</text><line x1="70" y1="116" x2="966" y2="116" stroke="#ffffff" stroke-opacity="0.06" stroke-width="1"/>
+<text x="62" y="120" text-anchor="end" fill="#64748b" font-size="10.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">396</text>
 <g>
-<rect x="77.09" y="299.50" width="23.15" height="116.50" rx="3.5" fill="url(#hourGrad)" opacity="0.85"/>
-<text x="88.67" y="293.50" text-anchor="middle" fill="#8b93a7" font-size="9.5" font-weight="600" font-family="Inter,'Segoe UI',system-ui,sans-serif">153</text>
+<rect x="77.09" y="300.09" width="23.15" height="115.91" rx="3.5" fill="url(#hourGrad)" opacity="0.85"/>
+<text x="88.67" y="294.09" text-anchor="middle" fill="#8b93a7" font-size="9.5" font-weight="600" font-family="Inter,'Segoe UI',system-ui,sans-serif">153</text>
 </g><g>
-<rect x="114.43" y="374.12" width="23.15" height="41.88" rx="3.5" fill="url(#hourGrad)" opacity="0.85"/>
-<text x="126.00" y="368.12" text-anchor="middle" fill="#8b93a7" font-size="9.5" font-weight="600" font-family="Inter,'Segoe UI',system-ui,sans-serif">55</text>
+<rect x="114.43" y="374.33" width="23.15" height="41.67" rx="3.5" fill="url(#hourGrad)" opacity="0.85"/>
+<text x="126.00" y="368.33" text-anchor="middle" fill="#8b93a7" font-size="9.5" font-weight="600" font-family="Inter,'Segoe UI',system-ui,sans-serif">55</text>
 </g><g>
-<rect x="151.76" y="381.74" width="23.15" height="34.26" rx="3.5" fill="url(#hourGrad)" opacity="0.85"/>
-<text x="163.33" y="375.74" text-anchor="middle" fill="#8b93a7" font-size="9.5" font-weight="600" font-family="Inter,'Segoe UI',system-ui,sans-serif">45</text>
+<rect x="151.76" y="381.91" width="23.15" height="34.09" rx="3.5" fill="url(#hourGrad)" opacity="0.85"/>
+<text x="163.33" y="375.91" text-anchor="middle" fill="#8b93a7" font-size="9.5" font-weight="600" font-family="Inter,'Segoe UI',system-ui,sans-serif">45</text>
 </g><g>
-<rect x="189.09" y="379.45" width="23.15" height="36.55" rx="3.5" fill="url(#hourGrad)" opacity="0.85"/>
-<text x="200.67" y="373.45" text-anchor="middle" fill="#8b93a7" font-size="9.5" font-weight="600" font-family="Inter,'Segoe UI',system-ui,sans-serif">48</text>
+<rect x="189.09" y="379.64" width="23.15" height="36.36" rx="3.5" fill="url(#hourGrad)" opacity="0.85"/>
+<text x="200.67" y="373.64" text-anchor="middle" fill="#8b93a7" font-size="9.5" font-weight="600" font-family="Inter,'Segoe UI',system-ui,sans-serif">48</text>
 </g><g>
-<rect x="226.43" y="372.60" width="23.15" height="43.40" rx="3.5" fill="url(#hourGrad)" opacity="0.85"/>
-<text x="238.00" y="366.60" text-anchor="middle" fill="#8b93a7" font-size="9.5" font-weight="600" font-family="Inter,'Segoe UI',system-ui,sans-serif">57</text>
+<rect x="226.43" y="372.82" width="23.15" height="43.18" rx="3.5" fill="url(#hourGrad)" opacity="0.85"/>
+<text x="238.00" y="366.82" text-anchor="middle" fill="#8b93a7" font-size="9.5" font-weight="600" font-family="Inter,'Segoe UI',system-ui,sans-serif">57</text>
 </g><g>
-<rect x="263.76" y="346.71" width="23.15" height="69.29" rx="3.5" fill="url(#hourGrad)" opacity="0.85"/>
-<text x="275.33" y="340.71" text-anchor="middle" fill="#8b93a7" font-size="9.5" font-weight="600" font-family="Inter,'Segoe UI',system-ui,sans-serif">91</text>
+<rect x="263.76" y="347.06" width="23.15" height="68.94" rx="3.5" fill="url(#hourGrad)" opacity="0.85"/>
+<text x="275.33" y="341.06" text-anchor="middle" fill="#8b93a7" font-size="9.5" font-weight="600" font-family="Inter,'Segoe UI',system-ui,sans-serif">91</text>
 </g><g>
-<rect x="301.09" y="326.91" width="23.15" height="89.09" rx="3.5" fill="url(#hourGrad)" opacity="0.85"/>
-<text x="312.67" y="320.91" text-anchor="middle" fill="#8b93a7" font-size="9.5" font-weight="600" font-family="Inter,'Segoe UI',system-ui,sans-serif">117</text>
+<rect x="301.09" y="327.36" width="23.15" height="88.64" rx="3.5" fill="url(#hourGrad)" opacity="0.85"/>
+<text x="312.67" y="321.36" text-anchor="middle" fill="#8b93a7" font-size="9.5" font-weight="600" font-family="Inter,'Segoe UI',system-ui,sans-serif">117</text>
 </g><g>
-<rect x="338.43" y="315.49" width="23.15" height="100.51" rx="3.5" fill="url(#hourGrad)" opacity="0.85"/>
-<text x="350.00" y="309.49" text-anchor="middle" fill="#8b93a7" font-size="9.5" font-weight="600" font-family="Inter,'Segoe UI',system-ui,sans-serif">132</text>
+<rect x="338.43" y="316.00" width="23.15" height="100.00" rx="3.5" fill="url(#hourGrad)" opacity="0.85"/>
+<text x="350.00" y="310.00" text-anchor="middle" fill="#8b93a7" font-size="9.5" font-weight="600" font-family="Inter,'Segoe UI',system-ui,sans-serif">132</text>
 </g><g>
-<rect x="375.76" y="362.70" width="23.15" height="53.30" rx="3.5" fill="url(#hourGrad)" opacity="0.85"/>
-<text x="387.33" y="356.70" text-anchor="middle" fill="#8b93a7" font-size="9.5" font-weight="600" font-family="Inter,'Segoe UI',system-ui,sans-serif">70</text>
+<rect x="375.76" y="362.97" width="23.15" height="53.03" rx="3.5" fill="url(#hourGrad)" opacity="0.85"/>
+<text x="387.33" y="356.97" text-anchor="middle" fill="#8b93a7" font-size="9.5" font-weight="600" font-family="Inter,'Segoe UI',system-ui,sans-serif">70</text>
 </g><g>
-<rect x="413.09" y="332.24" width="23.15" height="83.76" rx="3.5" fill="url(#hourGrad)" opacity="0.85"/>
-<text x="424.67" y="326.24" text-anchor="middle" fill="#8b93a7" font-size="9.5" font-weight="600" font-family="Inter,'Segoe UI',system-ui,sans-serif">110</text>
+<rect x="413.09" y="332.67" width="23.15" height="83.33" rx="3.5" fill="url(#hourGrad)" opacity="0.85"/>
+<text x="424.67" y="326.67" text-anchor="middle" fill="#8b93a7" font-size="9.5" font-weight="600" font-family="Inter,'Segoe UI',system-ui,sans-serif">110</text>
 </g><g>
-<rect x="450.43" y="355.09" width="23.15" height="60.91" rx="3.5" fill="url(#hourGrad)" opacity="0.85"/>
-<text x="462.00" y="349.09" text-anchor="middle" fill="#8b93a7" font-size="9.5" font-weight="600" font-family="Inter,'Segoe UI',system-ui,sans-serif">80</text>
+<rect x="450.43" y="355.39" width="23.15" height="60.61" rx="3.5" fill="url(#hourGrad)" opacity="0.85"/>
+<text x="462.00" y="349.39" text-anchor="middle" fill="#8b93a7" font-size="9.5" font-weight="600" font-family="Inter,'Segoe UI',system-ui,sans-serif">80</text>
 </g><g>
-<rect x="487.76" y="293.41" width="23.15" height="122.59" rx="3.5" fill="url(#hourGrad)" opacity="0.85"/>
-<text x="499.33" y="287.41" text-anchor="middle" fill="#8b93a7" font-size="9.5" font-weight="600" font-family="Inter,'Segoe UI',system-ui,sans-serif">161</text>
+<rect x="487.76" y="294.03" width="23.15" height="121.97" rx="3.5" fill="url(#hourGrad)" opacity="0.85"/>
+<text x="499.33" y="288.03" text-anchor="middle" fill="#8b93a7" font-size="9.5" font-weight="600" font-family="Inter,'Segoe UI',system-ui,sans-serif">161</text>
 </g><g>
-<rect x="525.09" y="301.79" width="23.15" height="114.21" rx="3.5" fill="url(#hourGrad)" opacity="0.85"/>
-<text x="536.67" y="295.79" text-anchor="middle" fill="#8b93a7" font-size="9.5" font-weight="600" font-family="Inter,'Segoe UI',system-ui,sans-serif">150</text>
+<rect x="525.09" y="302.36" width="23.15" height="113.64" rx="3.5" fill="url(#hourGrad)" opacity="0.85"/>
+<text x="536.67" y="296.36" text-anchor="middle" fill="#8b93a7" font-size="9.5" font-weight="600" font-family="Inter,'Segoe UI',system-ui,sans-serif">150</text>
 </g><g>
-<rect x="562.43" y="328.44" width="23.15" height="87.56" rx="3.5" fill="url(#hourGrad)" opacity="0.85"/>
-<text x="574.00" y="322.44" text-anchor="middle" fill="#8b93a7" font-size="9.5" font-weight="600" font-family="Inter,'Segoe UI',system-ui,sans-serif">115</text>
+<rect x="562.43" y="328.88" width="23.15" height="87.12" rx="3.5" fill="url(#hourGrad)" opacity="0.85"/>
+<text x="574.00" y="322.88" text-anchor="middle" fill="#8b93a7" font-size="9.5" font-weight="600" font-family="Inter,'Segoe UI',system-ui,sans-serif">115</text>
 </g><g>
-<rect x="599.76" y="340.62" width="23.15" height="75.38" rx="3.5" fill="url(#hourGrad)" opacity="0.85"/>
-<text x="611.33" y="334.62" text-anchor="middle" fill="#8b93a7" font-size="9.5" font-weight="600" font-family="Inter,'Segoe UI',system-ui,sans-serif">99</text>
+<rect x="599.76" y="341.00" width="23.15" height="75.00" rx="3.5" fill="url(#hourGrad)" opacity="0.85"/>
+<text x="611.33" y="335.00" text-anchor="middle" fill="#8b93a7" font-size="9.5" font-weight="600" font-family="Inter,'Segoe UI',system-ui,sans-serif">99</text>
 </g><g>
-<rect x="637.09" y="342.14" width="23.15" height="73.86" rx="3.5" fill="url(#hourGrad)" opacity="0.85"/>
-<text x="648.67" y="336.14" text-anchor="middle" fill="#8b93a7" font-size="9.5" font-weight="600" font-family="Inter,'Segoe UI',system-ui,sans-serif">97</text>
+<rect x="637.09" y="342.52" width="23.15" height="73.48" rx="3.5" fill="url(#hourGrad)" opacity="0.85"/>
+<text x="648.67" y="336.52" text-anchor="middle" fill="#8b93a7" font-size="9.5" font-weight="600" font-family="Inter,'Segoe UI',system-ui,sans-serif">97</text>
 </g><g>
-<rect x="674.43" y="301.79" width="23.15" height="114.21" rx="3.5" fill="url(#hourGrad)" opacity="0.85"/>
-<text x="686.00" y="295.79" text-anchor="middle" fill="#8b93a7" font-size="9.5" font-weight="600" font-family="Inter,'Segoe UI',system-ui,sans-serif">150</text>
+<rect x="674.43" y="302.36" width="23.15" height="113.64" rx="3.5" fill="url(#hourGrad)" opacity="0.85"/>
+<text x="686.00" y="296.36" text-anchor="middle" fill="#8b93a7" font-size="9.5" font-weight="600" font-family="Inter,'Segoe UI',system-ui,sans-serif">150</text>
 </g><g>
-<rect x="711.76" y="299.50" width="23.15" height="116.50" rx="3.5" fill="url(#hourGrad)" opacity="0.85"/>
-<text x="723.33" y="293.50" text-anchor="middle" fill="#8b93a7" font-size="9.5" font-weight="600" font-family="Inter,'Segoe UI',system-ui,sans-serif">153</text>
+<rect x="711.76" y="300.09" width="23.15" height="115.91" rx="3.5" fill="url(#hourGrad)" opacity="0.85"/>
+<text x="723.33" y="294.09" text-anchor="middle" fill="#8b93a7" font-size="9.5" font-weight="600" font-family="Inter,'Segoe UI',system-ui,sans-serif">153</text>
 </g><g>
-<rect x="749.09" y="298.74" width="23.15" height="117.26" rx="3.5" fill="url(#hourGrad)" opacity="0.85"/>
-<text x="760.67" y="292.74" text-anchor="middle" fill="#8b93a7" font-size="9.5" font-weight="600" font-family="Inter,'Segoe UI',system-ui,sans-serif">154</text>
+<rect x="749.09" y="299.33" width="23.15" height="116.67" rx="3.5" fill="url(#hourGrad)" opacity="0.85"/>
+<text x="760.67" y="293.33" text-anchor="middle" fill="#8b93a7" font-size="9.5" font-weight="600" font-family="Inter,'Segoe UI',system-ui,sans-serif">154</text>
 </g><g>
-<rect x="786.43" y="318.54" width="23.15" height="97.46" rx="3.5" fill="url(#hourGrad)" opacity="0.85"/>
-<text x="798.00" y="312.54" text-anchor="middle" fill="#8b93a7" font-size="9.5" font-weight="600" font-family="Inter,'Segoe UI',system-ui,sans-serif">128</text>
+<rect x="786.43" y="319.03" width="23.15" height="96.97" rx="3.5" fill="url(#hourGrad)" opacity="0.85"/>
+<text x="798.00" y="313.03" text-anchor="middle" fill="#8b93a7" font-size="9.5" font-weight="600" font-family="Inter,'Segoe UI',system-ui,sans-serif">128</text>
 </g><g>
-<rect x="823.76" y="288.08" width="23.15" height="127.92" rx="3.5" fill="url(#hourGrad)" opacity="0.85"/>
-<text x="835.33" y="282.08" text-anchor="middle" fill="#8b93a7" font-size="9.5" font-weight="600" font-family="Inter,'Segoe UI',system-ui,sans-serif">168</text>
+<rect x="823.76" y="286.45" width="23.15" height="129.55" rx="3.5" fill="url(#hourGrad)" opacity="0.85"/>
+<text x="835.33" y="280.45" text-anchor="middle" fill="#8b93a7" font-size="9.5" font-weight="600" font-family="Inter,'Segoe UI',system-ui,sans-serif">171</text>
 </g><g>
-<rect x="861.09" y="147.98" width="23.15" height="268.02" rx="3.5" fill="url(#hourGrad)" opacity="0.85"/>
-<text x="872.67" y="141.98" text-anchor="middle" fill="#8b93a7" font-size="9.5" font-weight="600" font-family="Inter,'Segoe UI',system-ui,sans-serif">352</text>
+<rect x="861.09" y="147.82" width="23.15" height="268.18" rx="3.5" fill="url(#hourGrad)" opacity="0.85"/>
+<text x="872.67" y="141.82" text-anchor="middle" fill="#8b93a7" font-size="9.5" font-weight="600" font-family="Inter,'Segoe UI',system-ui,sans-serif">354</text>
 </g><g>
-<rect x="898.43" y="121.33" width="23.15" height="294.67" rx="3.5" fill="url(#hourGrad)" opacity="0.85"/>
-<text x="910.00" y="115.33" text-anchor="middle" fill="#8b93a7" font-size="9.5" font-weight="600" font-family="Inter,'Segoe UI',system-ui,sans-serif">387</text>
+<rect x="898.43" y="122.82" width="23.15" height="293.18" rx="3.5" fill="url(#hourGrad)" opacity="0.85"/>
+<text x="910.00" y="116.82" text-anchor="middle" fill="#8b93a7" font-size="9.5" font-weight="600" font-family="Inter,'Segoe UI',system-ui,sans-serif">387</text>
 </g><g>
 <rect x="935.76" y="116.00" width="23.15" height="300.00" rx="3.5" fill="url(#peakGrad)" opacity="1"/>
-<text x="947.33" y="110.00" text-anchor="middle" fill="#fbbf24" font-size="9.5" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">394</text>
+<text x="947.33" y="110.00" text-anchor="middle" fill="#fbbf24" font-size="9.5" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">396</text>
 </g>
 <text x="88.67" y="434" text-anchor="middle" fill="#64748b" font-size="10.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">0</text><text x="163.33" y="434" text-anchor="middle" fill="#64748b" font-size="10.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">2</text><text x="238.00" y="434" text-anchor="middle" fill="#64748b" font-size="10.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">4</text><text x="312.67" y="434" text-anchor="middle" fill="#64748b" font-size="10.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">6</text><text x="387.33" y="434" text-anchor="middle" fill="#64748b" font-size="10.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">8</text><text x="462.00" y="434" text-anchor="middle" fill="#64748b" font-size="10.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">10</text><text x="536.67" y="434" text-anchor="middle" fill="#64748b" font-size="10.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">12</text><text x="611.33" y="434" text-anchor="middle" fill="#64748b" font-size="10.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">14</text><text x="686.00" y="434" text-anchor="middle" fill="#64748b" font-size="10.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">16</text><text x="760.67" y="434" text-anchor="middle" fill="#64748b" font-size="10.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">18</text><text x="835.33" y="434" text-anchor="middle" fill="#64748b" font-size="10.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">20</text><text x="910.00" y="434" text-anchor="middle" fill="#64748b" font-size="10.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">22</text>
 <path d="M 947.33 96.00 l -6 9 l 12 0 z" fill="#fbbf24"/>
@@ -112,7 +112,7 @@
 </g><g transform="translate(370 446)">
 <rect width="170" height="54" rx="12" fill="#0d1322" stroke="#2563eb" stroke-opacity="0.35" stroke-width="1.2"/>
 <text x="14" y="20" fill="#8b93a7" font-size="10.5" font-weight="700" letter-spacing="1.2" font-family="Inter,'Segoe UI',system-ui,sans-serif">SAMPLED COMMITS</text>
-<text x="14" y="42" fill="#2563eb" font-size="17" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">3,466</text>
+<text x="14" y="42" fill="#2563eb" font-size="17" font-weight="800" font-family="Inter,'Segoe UI',system-ui,sans-serif">3,473</text>
 </g><g transform="translate(550 446)">
 <rect width="150" height="54" rx="12" fill="#0d1322" stroke="#16a34a" stroke-opacity="0.35" stroke-width="1.2"/>
 <text x="14" y="20" fill="#8b93a7" font-size="10.5" font-weight="700" letter-spacing="1.2" font-family="Inter,'Segoe UI',system-ui,sans-serif">ACTIVE HOURS</text>
@@ -136,8 +136,8 @@
 <text x="185" y="538.7018121911038" text-anchor="middle" fill="#cbd5e1" font-size="10.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">468</text>
 <text x="185" y="590" text-anchor="middle" fill="#8b93a7" font-size="10.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">Tue</text>
 </g><g>
-<rect x="296" y="545.2652388797364" width="34" height="28.734761120263588" rx="4" fill="#89e051" opacity="0.9"/>
-<text x="313" y="539.2652388797364" text-anchor="middle" fill="#cbd5e1" font-size="10.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">459</text>
+<rect x="296" y="544.827018121911" width="34" height="29.17298187808896" rx="4" fill="#89e051" opacity="0.9"/>
+<text x="313" y="538.827018121911" text-anchor="middle" fill="#cbd5e1" font-size="10.5" font-weight="700" font-family="Inter,'Segoe UI',system-ui,sans-serif">466</text>
 <text x="313" y="590" text-anchor="middle" fill="#8b93a7" font-size="10.5" font-family="Inter,'Segoe UI',system-ui,sans-serif">Wed</text>
 </g><g>
 <rect x="424" y="540.9456342668864" width="34" height="33.05436573311368" rx="4" fill="#89e051" opacity="0.9"/>
