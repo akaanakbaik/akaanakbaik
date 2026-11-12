@@ -1,25 +1,25 @@
 {
   "username": "akaanakbaik",
-  "generatedAt": "12 Nov 2026, 01:40",
+  "generatedAt": "12 Nov 2026, 08:31",
   "publicRepos": 115,
   "originalRepos": 94,
   "forkedRepos": 21,
   "archivedRepos": 0,
   "activeRepos90d": 36,
-  "followers": 88,
+  "followers": 93,
   "following": 84,
   "publicGists": 0,
   "totalStars": 514,
   "totalForks": 27,
   "totalWatchers": 13,
   "totalSize": "893.7 MB",
-  "totalSizeKb": 915133,
+  "totalSizeKb": 915178,
   "topLanguage": "JavaScript",
   "accountAge": "2y 3m",
   "accountAgePrecise": "2 years 3 months",
   "accountCreatedAt": "2024-08-03T01:58:16Z",
   "topRepo": "pterodactyl-gateway",
-  "recentRepo": "web-docs-pterodacty-gateway",
+  "recentRepo": "dastermv2",
   "largestRepo": "Hacktoberfest2025-3",
   "languageDistribution": {
     "totalBytes": 52374094,
@@ -2087,22 +2087,22 @@
   ],
   "recentRepositories": [
     {
-      "name": "web-docs-pterodacty-gateway",
-      "url": "https://github.com/akaanakbaik/web-docs-pterodacty-gateway",
-      "language": "TypeScript",
-      "updatedAt": "2026-11-11T17:22:11Z"
-    },
-    {
       "name": "dastermv2",
       "url": "https://github.com/akaanakbaik/dastermv2",
       "language": "Shell",
-      "updatedAt": "2026-11-11T16:02:34Z"
+      "updatedAt": "2026-11-11T23:07:23Z"
     },
     {
       "name": "akaanakbaik",
       "url": "https://github.com/akaanakbaik/akaanakbaik",
       "language": "JavaScript",
-      "updatedAt": "2026-11-11T11:55:21Z"
+      "updatedAt": "2026-11-11T19:42:43Z"
+    },
+    {
+      "name": "web-docs-pterodacty-gateway",
+      "url": "https://github.com/akaanakbaik/web-docs-pterodacty-gateway",
+      "language": "TypeScript",
+      "updatedAt": "2026-11-11T17:22:11Z"
     },
     {
       "name": "auto-commit",
@@ -2386,7 +2386,7 @@
     "peakHour": 23,
     "peakWeekday": "Sun",
     "circularMean": 20.362334554609298,
-    "circularStd": 6.303497856399211,
+    "circularStd": 6.30349785639921,
     "activeHours": 24,
     "reposWithCommits": 89,
     "topCommitRepos": [
@@ -2448,7 +2448,7 @@
   "codingAge": {
     "years": 2,
     "months": 3,
-    "days": 8,
+    "days": 9,
     "totalDays": 830,
     "label": "2 years 3 months",
     "createdAt": "2024-08-03T01:58:16Z"
