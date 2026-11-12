@@ -1,19 +1,19 @@
 {
   "username": "akaanakbaik",
-  "generatedAt": "12 Nov 2026, 08:50",
+  "generatedAt": "12 Nov 2026, 16:48",
   "publicRepos": 115,
   "originalRepos": 94,
   "forkedRepos": 21,
   "archivedRepos": 0,
   "activeRepos90d": 36,
-  "followers": 93,
+  "followers": 94,
   "following": 84,
   "publicGists": 0,
   "totalStars": 514,
   "totalForks": 27,
   "totalWatchers": 13,
-  "totalSize": "893.7 MB",
-  "totalSizeKb": 915178,
+  "totalSize": "893.8 MB",
+  "totalSizeKb": 915217,
   "topLanguage": "JavaScript",
   "accountAge": "2y 3m",
   "accountAgePrecise": "2 years 3 months",
@@ -2090,13 +2090,13 @@
       "name": "dastermv2",
       "url": "https://github.com/akaanakbaik/dastermv2",
       "language": "Shell",
-      "updatedAt": "2026-11-11T23:07:23Z"
+      "updatedAt": "2026-11-12T04:15:11Z"
     },
     {
       "name": "akaanakbaik",
       "url": "https://github.com/akaanakbaik/akaanakbaik",
       "language": "JavaScript",
-      "updatedAt": "2026-11-11T19:42:43Z"
+      "updatedAt": "2026-11-12T02:33:16Z"
     },
     {
       "name": "web-docs-pterodacty-gateway",
@@ -2385,8 +2385,8 @@
     ],
     "peakHour": 23,
     "peakWeekday": "Sun",
-    "circularMean": 20.362334554609294,
-    "circularStd": 6.30349785639921,
+    "circularMean": 20.362334554609298,
+    "circularStd": 6.3034978563992095,
     "activeHours": 24,
     "reposWithCommits": 89,
     "topCommitRepos": [
@@ -2449,7 +2449,7 @@
     "years": 2,
     "months": 3,
     "days": 9,
-    "totalDays": 830,
+    "totalDays": 831,
     "label": "2 years 3 months",
     "createdAt": "2024-08-03T01:58:16Z"
   },
@@ -2480,15 +2480,15 @@
       "pullRequests": 22,
       "issues": 0,
       "discussions": 0,
-      "daysSincePush": 6,
+      "daysSincePush": 7,
       "commits": 171,
-      "score": 10.5783722241926,
+      "score": 10.539904632931234,
       "stars": 10,
       "forks": 0,
       "watchers": 0,
       "prs": 22,
-      "recency": 0.8751733190429475,
-      "scorePct": 94.05939959029152
+      "recency": 0.8559395234122652,
+      "scorePct": 93.7173584462435
     },
     {
       "name": "portofoliov2",
@@ -2534,15 +2534,15 @@
       "pullRequests": 6,
       "issues": 0,
       "discussions": 0,
-      "daysSincePush": 0,
+      "daysSincePush": 1,
       "commits": 77,
-      "score": 8.132607324994307,
+      "score": 8.088653069963508,
       "stars": 2,
       "forks": 0,
       "watchers": 0,
       "prs": 6,
-      "recency": 1,
-      "scorePct": 72.31246413726537
+      "recency": 0.9780228724846005,
+      "scorePct": 71.92163738717421
     }
   ]
 }
