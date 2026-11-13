@@ -1,6 +1,6 @@
 {
   "username": "akaanakbaik",
-  "generatedAt": "13 Nov 2026, 07:57",
+  "generatedAt": "13 Nov 2026, 13:40",
   "publicRepos": 115,
   "originalRepos": 94,
   "forkedRepos": 21,
@@ -13,7 +13,7 @@
   "totalForks": 27,
   "totalWatchers": 13,
   "totalSize": "893.9 MB",
-  "totalSizeKb": 915325,
+  "totalSizeKb": 915338,
   "topLanguage": "JavaScript",
   "accountAge": "2y 3m",
   "accountAgePrecise": "2 years 3 months",
@@ -2385,8 +2385,8 @@
     ],
     "peakHour": 23,
     "peakWeekday": "Sun",
-    "circularMean": 20.362334554609294,
-    "circularStd": 6.303497856399211,
+    "circularMean": 20.362334554609298,
+    "circularStd": 6.30349785639921,
     "activeHours": 24,
     "reposWithCommits": 89,
     "topCommitRepos": [
@@ -2449,7 +2449,7 @@
     "years": 2,
     "months": 3,
     "days": 10,
-    "totalDays": 831,
+    "totalDays": 832,
     "label": "2 years 3 months",
     "createdAt": "2024-08-03T01:58:16Z"
   },
@@ -2480,15 +2480,15 @@
       "pullRequests": 22,
       "issues": 0,
       "discussions": 0,
-      "daysSincePush": 7,
+      "daysSincePush": 8,
       "commits": 171,
-      "score": 10.539904632931234,
+      "score": 10.502282448828232,
       "stars": 10,
       "forks": 0,
       "watchers": 0,
       "prs": 22,
-      "recency": 0.8559395234122652,
-      "scorePct": 93.7173584462435
+      "recency": 0.8371284313607636,
+      "scorePct": 93.38283438403373
     },
     {
       "name": "portofoliov2",
@@ -2534,15 +2534,15 @@
       "pullRequests": 6,
       "issues": 0,
       "discussions": 0,
-      "daysSincePush": 1,
+      "daysSincePush": 2,
       "commits": 77,
-      "score": 8.088653069963508,
+      "score": 8.045664803200365,
       "stars": 2,
       "forks": 0,
       "watchers": 0,
       "prs": 6,
-      "recency": 0.9780228724846005,
-      "scorePct": 71.92163738717421
+      "recency": 0.9565287391030293,
+      "scorePct": 71.53939988640627
     }
   ]
 }
