@@ -1,6 +1,6 @@
 {
   "username": "akaanakbaik",
-  "generatedAt": "15 Nov 2026, 16:20",
+  "generatedAt": "16 Nov 2026, 00:06",
   "publicRepos": 115,
   "originalRepos": 94,
   "forkedRepos": 21,
@@ -13,7 +13,7 @@
   "totalForks": 27,
   "totalWatchers": 13,
   "totalSize": "894.2 MB",
-  "totalSizeKb": 915624,
+  "totalSizeKb": 915687,
   "topLanguage": "JavaScript",
   "accountAge": "2y 3m",
   "accountAgePrecise": "2 years 3 months",
@@ -2498,15 +2498,15 @@
       "pullRequests": 2,
       "issues": 0,
       "discussions": 0,
-      "daysSincePush": 15,
+      "daysSincePush": 16,
       "commits": 142,
-      "score": 9.210482939431975,
+      "score": 9.178988339469461,
       "stars": 5,
       "forks": 2,
       "watchers": 0,
       "prs": 2,
-      "recency": 0.7165313105737893,
-      "scorePct": 81.89657887423397
+      "recency": 0.7007840105925328,
+      "scorePct": 81.61653927078386
     },
     {
       "name": "dastermv2",
