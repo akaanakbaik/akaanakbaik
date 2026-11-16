@@ -1,6 +1,6 @@
 {
   "username": "akaanakbaik",
-  "generatedAt": "16 Nov 2026, 06:50",
+  "generatedAt": "16 Nov 2026, 09:02",
   "publicRepos": 115,
   "originalRepos": 94,
   "forkedRepos": 21,
@@ -13,7 +13,7 @@
   "totalForks": 27,
   "totalWatchers": 13,
   "totalSize": "894.3 MB",
-  "totalSizeKb": 915744,
+  "totalSizeKb": 915748,
   "topLanguage": "JavaScript",
   "accountAge": "2y 3m",
   "accountAgePrecise": "2 years 3 months",
@@ -2139,19 +2139,19 @@
     "pullRequests": 52,
     "issues": 15,
     "reposContributed": 4,
-    "totalCommitContributions": 3363,
+    "totalCommitContributions": 3339,
     "totalIssueContributions": 4,
     "totalPRContributions": 34,
     "totalPRReviews": 0,
-    "totalRepositoryContributions": 58,
-    "totalContributions": 4164
+    "totalRepositoryContributions": 56,
+    "totalContributions": 4138
   },
   "streak": {
     "currentStreak": 0,
     "longest": 80,
     "lastActiveDate": "2026-11-11",
     "activeDays": 214,
-    "totalContributions": 4164
+    "totalContributions": 4138
   },
   "commitHours": {
     "sampled": 3473,
@@ -2385,7 +2385,7 @@
     ],
     "peakHour": 23,
     "peakWeekday": "Sun",
-    "circularMean": 20.362334554609294,
+    "circularMean": 20.362334554609298,
     "circularStd": 6.30349785639921,
     "activeHours": 24,
     "reposWithCommits": 89,
@@ -2448,8 +2448,8 @@
   "codingAge": {
     "years": 2,
     "months": 3,
-    "days": 12,
-    "totalDays": 834,
+    "days": 13,
+    "totalDays": 835,
     "label": "2 years 3 months",
     "createdAt": "2024-08-03T01:58:16Z"
   },
