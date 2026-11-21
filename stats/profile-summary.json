@@ -1,25 +1,25 @@
 {
   "username": "akaanakbaik",
-  "generatedAt": "21 Nov 2026, 08:29",
+  "generatedAt": "21 Nov 2026, 16:46",
   "publicRepos": 115,
   "originalRepos": 94,
   "forkedRepos": 21,
   "archivedRepos": 0,
-  "activeRepos90d": 36,
+  "activeRepos90d": 35,
   "followers": 94,
   "following": 71,
   "publicGists": 0,
-  "totalStars": 514,
+  "totalStars": 515,
   "totalForks": 27,
   "totalWatchers": 13,
-  "totalSize": "893.8 MB",
-  "totalSizeKb": 915227,
+  "totalSize": "893.9 MB",
+  "totalSizeKb": 915306,
   "topLanguage": "JavaScript",
   "accountAge": "2y 3m",
   "accountAgePrecise": "2 years 3 months",
   "accountCreatedAt": "2024-08-03T01:58:16Z",
   "topRepo": "pterodactyl-gateway",
-  "recentRepo": "dastermv2",
+  "recentRepo": "musika",
   "largestRepo": "Hacktoberfest2025-3",
   "languageDistribution": {
     "totalBytes": 52374094,
@@ -2087,6 +2087,12 @@
   ],
   "recentRepositories": [
     {
+      "name": "musika",
+      "url": "https://github.com/akaanakbaik/musika",
+      "language": "TypeScript",
+      "updatedAt": "2026-11-21T02:28:21Z"
+    },
+    {
       "name": "dastermv2",
       "url": "https://github.com/akaanakbaik/dastermv2",
       "language": "Shell",
@@ -2127,12 +2133,6 @@
       "url": "https://github.com/akaanakbaik/zyhuka-api",
       "language": "Unknown",
       "updatedAt": "2026-11-05T04:24:30Z"
-    },
-    {
-      "name": "libsignal",
-      "url": "https://github.com/akaanakbaik/libsignal",
-      "language": "JavaScript",
-      "updatedAt": "2026-11-05T03:40:27Z"
     }
   ],
   "activity": {
@@ -2386,7 +2386,7 @@
     "peakHour": 23,
     "peakWeekday": "Sun",
     "circularMean": 20.362334554609294,
-    "circularStd": 6.30349785639921,
+    "circularStd": 6.303497856399209,
     "activeHours": 24,
     "reposWithCommits": 89,
     "topCommitRepos": [
@@ -2449,7 +2449,7 @@
     "years": 2,
     "months": 3,
     "days": 18,
-    "totalDays": 839,
+    "totalDays": 840,
     "label": "2 years 3 months",
     "createdAt": "2024-08-03T01:58:16Z"
   },
@@ -2480,15 +2480,15 @@
       "pullRequests": 22,
       "issues": 0,
       "discussions": 0,
-      "daysSincePush": 15,
+      "daysSincePush": 16,
       "commits": 171,
-      "score": 10.261088207254284,
+      "score": 10.22959360729177,
       "stars": 10,
       "forks": 0,
       "watchers": 0,
       "prs": 22,
-      "recency": 0.7165313105737893,
-      "scorePct": 91.2382146763629
+      "recency": 0.7007840105925328,
+      "scorePct": 90.95817507291278
     },
     {
       "name": "portofoliov2",
@@ -2534,15 +2534,15 @@
       "pullRequests": 6,
       "issues": 0,
       "discussions": 0,
-      "daysSincePush": 9,
+      "daysSincePush": 10,
       "commits": 77,
-      "score": 7.770068831150271,
+      "score": 7.7340821308279235,
       "stars": 2,
       "forks": 0,
       "watchers": 0,
       "prs": 6,
-      "recency": 0.8187307530779818,
-      "scorePct": 69.08889132883724
+      "recency": 0.8007374029168081,
+      "scorePct": 68.7689094494121
     }
   ]
 }
