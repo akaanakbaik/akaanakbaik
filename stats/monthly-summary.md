@@ -10,7 +10,7 @@ Repo paling sibuk bulan ini: web-docs-pterodacty-gateway (19), zyhuka-apiv2 (13)
 
 Bahasa yang paling sering kupakai: JavaScript ×4, TypeScript ×3, Assembly ×1.
 
-Selain itu aku juga membuka 7 pull request — terus berkontribusi dan berkolaborasi.
+Selain itu aku juga membuka 6 pull request — terus berkontribusi dan berkolaborasi.
 
 Kesimpulan: bulan yang santai — waktu untuk recharge dan mulai proyek baru. Terus ngoding, tetap semangat! 🚀
 
@@ -29,5 +29,5 @@ Kesimpulan: bulan yang santai — waktu untuk recharge dan mulai proyek baru. Te
 | Jam puncak | 11:00 WIB |
 | Streak aktif | 0 hari |
 | Repo tersibuk | web-docs-pterodacty-gateway (19), zyhuka-apiv2 (13), pterodactyl-gateway (7) |
-| Pull request dibuka | 7 |
+| Pull request dibuka | 6 |
 | Issue dibuka | 0 |
