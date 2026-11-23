@@ -1,6 +1,6 @@
 {
   "username": "akaanakbaik",
-  "generatedAt": "23 Nov 2026, 14:47",
+  "generatedAt": "24 Nov 2026, 03:11",
   "publicRepos": 115,
   "originalRepos": 94,
   "forkedRepos": 21,
@@ -13,7 +13,7 @@
   "totalForks": 27,
   "totalWatchers": 13,
   "totalSize": "894.1 MB",
-  "totalSizeKb": 915540,
+  "totalSizeKb": 915533,
   "topLanguage": "JavaScript",
   "accountAge": "2y 3m",
   "accountAgePrecise": "2 years 3 months",
@@ -2386,7 +2386,7 @@
     "peakHour": 23,
     "peakWeekday": "Sun",
     "circularMean": 20.362334554609294,
-    "circularStd": 6.303497856399209,
+    "circularStd": 6.3034978563992095,
     "activeHours": 24,
     "reposWithCommits": 89,
     "topCommitRepos": [
@@ -2462,14 +2462,14 @@
       "pullRequests": 3,
       "issues": 0,
       "discussions": 0,
-      "daysSincePush": 0,
+      "daysSincePush": 1,
       "commits": 806,
-      "score": 11.246480702907295,
+      "score": 11.202526447876496,
       "stars": 6,
       "forks": 0,
       "watchers": 1,
       "prs": 3,
-      "recency": 1,
+      "recency": 0.9780228724846005,
       "scorePct": 100
     },
     {
@@ -2488,7 +2488,7 @@
       "watchers": 0,
       "prs": 22,
       "recency": 0.6703200460356393,
-      "scorePct": 90.41642400675005
+      "scorePct": 90.77118206764435
     },
     {
       "name": "portofoliov2",
@@ -2498,15 +2498,15 @@
       "pullRequests": 2,
       "issues": 0,
       "discussions": 0,
-      "daysSincePush": 23,
+      "daysSincePush": 24,
       "commits": 142,
-      "score": 8.977077782367413,
+      "score": 8.950712757304458,
       "stars": 5,
       "forks": 2,
       "watchers": 0,
       "prs": 2,
-      "recency": 0.5998287320415084,
-      "scorePct": 79.821217139036
+      "recency": 0.5866462195100318,
+      "scorePct": 79.89905490471855
     },
     {
       "name": "dastermv2",
@@ -2524,7 +2524,7 @@
       "watchers": 0,
       "prs": 1,
       "recency": 1,
-      "scorePct": 76.09788131557248
+      "scorePct": 76.39645911391209
     },
     {
       "name": "web-docs-pterodacty-gateway",
@@ -2542,7 +2542,7 @@
       "watchers": 0,
       "prs": 6,
       "recency": 0.7659283383646487,
-      "scorePct": 68.14988798889138
+      "scorePct": 68.4172810248214
     }
   ]
 }
