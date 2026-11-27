@@ -1,14 +1,14 @@
 # Ringkasan AI Bulanan — November 2026
 
-**Periode:** 28 Oct – 27 Nov · dihasilkan otomatis oleh GitHub Actions
+**Periode:** 29 Oct – 28 Nov · dihasilkan otomatis oleh GitHub Actions
 
-Selama 30 hari terakhir (28 Oct – 27 Nov), aku membuat 56 commit di 9 repositori dan aktif selama 9 hari — rata-rata 6.2 commit per hari aktif.
+Selama 30 hari terakhir (29 Oct – 28 Nov), aku membuat 53 commit di 8 repositori dan aktif selama 7 hari — rata-rata 7.6 commit per hari aktif.
 
 Hari paling produktif adalah 05 Nov dengan 25 commit, dan Thu menjadi hari tersibuk dalam seminggu. Puncak aktivitas terjadi sekitar jam 11:00 WIB.
 
 Repo paling sibuk bulan ini: web-docs-pterodacty-gateway (19), zyhuka-apiv2 (13), pterodactyl-gateway (7).
 
-Bahasa yang paling sering kupakai: JavaScript ×4, TypeScript ×3, Assembly ×1.
+Bahasa yang paling sering kupakai: JavaScript ×4, TypeScript ×2, Assembly ×1.
 
 Selain itu aku juga membuka 5 pull request — terus berkontribusi dan berkolaborasi.
 
@@ -21,9 +21,9 @@ Kesimpulan: bulan yang santai — waktu untuk recharge dan mulai proyek baru. Te
 
 | Metrik | Nilai |
 | --- | ---: |
-| Total commit (30 hari) | 56 |
-| Hari aktif | 9 / 30 |
-| Commit per hari aktif | 6.2 |
+| Total commit (30 hari) | 53 |
+| Hari aktif | 7 / 30 |
+| Commit per hari aktif | 7.6 |
 | Hari tersibuk | 05 Nov (25 commit) |
 | Hari tersibuk (pekan) | Thu |
 | Jam puncak | 11:00 WIB |
