@@ -1,19 +1,19 @@
 {
   "username": "akaanakbaik",
-  "generatedAt": "26 Nov 2026, 09:50",
+  "generatedAt": "27 Nov 2026, 12:01",
   "publicRepos": 115,
   "originalRepos": 94,
   "forkedRepos": 21,
   "archivedRepos": 0,
   "activeRepos90d": 35,
   "followers": 98,
-  "following": 70,
+  "following": 69,
   "publicGists": 0,
   "totalStars": 515,
   "totalForks": 27,
   "totalWatchers": 13,
-  "totalSize": "894.3 MB",
-  "totalSizeKb": 915776,
+  "totalSize": "894.4 MB",
+  "totalSizeKb": 915830,
   "topLanguage": "JavaScript",
   "accountAge": "2y 3m",
   "accountAgePrecise": "2 years 3 months",
@@ -2385,8 +2385,8 @@
     ],
     "peakHour": 23,
     "peakWeekday": "Sun",
-    "circularMean": 20.362334554609294,
-    "circularStd": 6.303497856399209,
+    "circularMean": 20.36233455460929,
+    "circularStd": 6.3034978563992095,
     "activeHours": 24,
     "reposWithCommits": 89,
     "topCommitRepos": [
@@ -2448,8 +2448,8 @@
   "codingAge": {
     "years": 2,
     "months": 3,
-    "days": 23,
-    "totalDays": 845,
+    "days": 24,
+    "totalDays": 846,
     "label": "2 years 3 months",
     "createdAt": "2024-08-03T01:58:16Z"
   },
@@ -2480,15 +2480,15 @@
       "pullRequests": 22,
       "issues": 0,
       "discussions": 0,
-      "daysSincePush": 20,
+      "daysSincePush": 22,
       "commits": 171,
-      "score": 10.110386362966613,
+      "score": 10.054640523071695,
       "stars": 10,
       "forks": 0,
       "watchers": 0,
       "prs": 22,
-      "recency": 0.6411803884299546,
-      "scorePct": 89.89822354252568
+      "recency": 0.613307468482495,
+      "scorePct": 89.40254990587854
     },
     {
       "name": "portofoliov2",
@@ -2498,15 +2498,15 @@
       "pullRequests": 2,
       "issues": 0,
       "discussions": 0,
-      "daysSincePush": 26,
+      "daysSincePush": 27,
       "commits": 142,
-      "score": 8.899708255579375,
+      "score": 8.875043590472448,
       "stars": 5,
       "forks": 2,
       "watchers": 0,
       "prs": 2,
-      "recency": 0.5611439686474896,
-      "scorePct": 79.13327280487609
+      "recency": 0.5488116360940265,
+      "scorePct": 78.91396273127633
     },
     {
       "name": "dastermv2",
@@ -2534,15 +2534,15 @@
       "pullRequests": 6,
       "issues": 0,
       "discussions": 0,
-      "daysSincePush": 14,
+      "daysSincePush": 16,
       "commits": 77,
-      "score": 7.597872260472739,
+      "score": 7.534175346179373,
       "stars": 2,
       "forks": 0,
       "watchers": 0,
       "prs": 6,
-      "recency": 0.7326324677392158,
-      "scorePct": 67.55777617178177
+      "recency": 0.7007840105925328,
+      "scorePct": 66.99140420195391
     }
   ]
 }
